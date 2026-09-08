@@ -1,0 +1,32 @@
+{
+  "passed": true,
+  "tag": "v0.3.0-bc-pilot",
+  "release_url": "https://github.com/Pendragon08/hab-contact-aware-world-model/releases/tag/v0.3.0-bc-pilot",
+  "is_draft": false,
+  "assets_verified": [
+    {
+      "name": "bc-pilot-v1.release.json",
+      "size": 541,
+      "sha256": "54457ea6463cf866b2f4317f77873fe9d2bab8532cbd5d301173877b51431b68",
+      "github_digest": "sha256:54457ea6463cf866b2f4317f77873fe9d2bab8532cbd5d301173877b51431b68"
+    },
+    {
+      "name": "bc-pilot-v1.manifest.json",
+      "size": 308058,
+      "sha256": "335c8fc8239089ff002489d2ef7b0526c2f8d9c486061f3892b6531aae4087be",
+      "github_digest": "sha256:335c8fc8239089ff002489d2ef7b0526c2f8d9c486061f3892b6531aae4087be"
+    },
+    {
+      "name": "bc-pilot-v1.tar.gz",
+      "size": 741987879,
+      "sha256": "59fd573d45e0bce6fde614b21bcb8e0cfa7611e65ebebc147a68b0cf298b3f63",
+      "github_digest": "sha256:59fd573d45e0bce6fde614b21bcb8e0cfa7611e65ebebc147a68b0cf298b3f63"
+    },
+    {
+      "name": "teacher_student_demo.mp4",
+      "size": 7007253,
+      "sha256": "065ba83a9dae3cdf71307bc7d96bea520da1b12caaa27014d0187afe303f62f8",
+      "github_digest": "sha256:065ba83a9dae3cdf71307bc7d96bea520da1b12caaa27014d0187afe303f62f8"
+    }
+  ]
+}
