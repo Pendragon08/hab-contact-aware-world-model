@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "git_commit": "cac9e021cd23f5b8d3d8a75a86df097ca1ed7f3e",
+  "archive_existing_files_checked": 63,
+  "runtime_sources_lf_checked": 53,
+  "conflicts": [],
+  "note": "Fresh clone downloaded from GitHub; exact bytes checked for archived files and LF-normalized comparison for runtime source."
+}
