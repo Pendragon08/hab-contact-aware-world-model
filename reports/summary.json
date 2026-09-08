@@ -1,0 +1,81 @@
+{
+  "scope": "val (development only; not final test)",
+  "policy": "official SAC all-object",
+  "checkpoint_sha256": "81f1f29b3af1ed4a3d3b502b515595dae852c4d842a1b1599203e46dee5f73e9",
+  "formal_interaction_steps": 20000,
+  "probe_interaction_steps": 3000,
+  "layout_count": 5,
+  "episodes": 100,
+  "success_once_count": 66,
+  "success_at_end_count": 52,
+  "success_once_rate": 0.66,
+  "success_at_end_rate": 0.52,
+  "once_wilson95": [
+    0.5627772885472462,
+    0.7453847920265184
+  ],
+  "end_wilson95": [
+    0.4231657776522397,
+    0.615354482419481
+  ],
+  "mean_first_success_step_conditional": 40.31818181818182,
+  "ever_grasped_count": 79,
+  "grasp_loss_event_episode_count": 6,
+  "force_limit_exceeded_episode_count": 28,
+  "mean_episode_seconds": 12.647026361692697,
+  "outcome_counts": {
+    "success": 52,
+    "never_grasped": 21,
+    "holding_force_limit": 20,
+    "holding_not_static": 4,
+    "not_holding_at_end": 2,
+    "holding_not_at_rest": 1
+  },
+  "policy_latency_ms": {
+    "mean": 1.5889349047094583,
+    "p50": 1.4061573892831802,
+    "p95": 2.7793643064796885
+  },
+  "failed_episode_terminal_conditions_overlapping": {
+    "is_grasped": 23,
+    "ee_rest": 23,
+    "robot_rest": 20,
+    "is_static": 26,
+    "cumulative_force_within_limit": 28
+  },
+  "examples": [
+    {
+      "category": "success",
+      "episode_id": 0
+    },
+    {
+      "category": "never_grasped",
+      "episode_id": 3
+    },
+    {
+      "category": "not_holding_at_end",
+      "episode_id": 45
+    },
+    {
+      "category": "holding_force_limit",
+      "episode_id": 13
+    },
+    {
+      "category": "holding_not_at_rest",
+      "episode_id": 82
+    },
+    {
+      "category": "holding_not_static",
+      "episode_id": 29
+    }
+  ],
+  "once_then_end_failure_count": 14,
+  "once_then_end_failure_categories": {
+    "holding_force_limit": 9,
+    "holding_not_static": 4,
+    "holding_not_at_rest": 1
+  },
+  "uncertainty_note": "Wilson intervals are descriptive binomial intervals conditional on this checkpoint and selected layouts; not training-seed variability or guaranteed cross-scene generalization.",
+  "category_note": "priority-based observed outcome categories, not causal attribution; grasp-signal loss is not proof of dropping.",
+  "all_episode_audits_passed": true
+}

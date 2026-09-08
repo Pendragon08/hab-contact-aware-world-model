@@ -1,0 +1,10 @@
+{
+  "name": "ycb",
+  "repo": "haosulab/ManiSkill2",
+  "repo_type": "dataset",
+  "revision": "a1988e0918a9a1f2a9cb46ad7984efc3d422ac63",
+  "filename": "data/mani_skill2_ycb.zip",
+  "sha256": "1551724fd1ac7bad9807ebcf46dd4a788caed5c9499c1225b9bfa080ffbefcb3",
+  "target": "/data/code/ouyanghao/oyh/maniskill-hab-demo/assets/data/assets/mani_skill2_ycb",
+  "finished_unix": 1788856392.5845041
+}

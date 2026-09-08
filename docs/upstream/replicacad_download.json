@@ -1,0 +1,12 @@
+{
+  "name": "replicacad",
+  "repo": "haosulab/ReplicaCAD",
+  "repo_type": "dataset",
+  "revision": "88bdca74dd4ec1f8c994904f7985392fc3f2b4c4",
+  "filename": null,
+  "sha256": null,
+  "target": "/data/code/ouyanghao/oyh/maniskill-hab-demo/assets/data/scene_datasets/replica_cad_dataset",
+  "finished_unix": 1788857255.5382915,
+  "transport": "partial HF mirror; missing files official HF local staging and scp",
+  "all_files_verified": true
+}

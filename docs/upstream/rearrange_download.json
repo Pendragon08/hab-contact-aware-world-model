@@ -1,0 +1,10 @@
+{
+  "name": "rearrange",
+  "repo": "haosulab/ReplicaCADRearrange",
+  "repo_type": "dataset",
+  "revision": "c5921276ddece53607cd7dd55e7ed54385c9e49d",
+  "filename": "rearrange.zip",
+  "sha256": "6ab9a0ceece6e0fe176ffc67a6aab1bad1efb7a4bf70808089e19673cd59b15b",
+  "target": "/data/code/ouyanghao/oyh/maniskill-hab-demo/assets/data/scene_datasets/replica_cad_dataset/rearrange",
+  "finished_unix": 1788856461.0126774
+}

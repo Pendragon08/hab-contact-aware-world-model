@@ -1,0 +1,10 @@
+{
+  "name": "pick_policy",
+  "repo": "arth-shukla/mshab_checkpoints",
+  "repo_type": "model",
+  "revision": "91e96be85128df43728a7511355c3fa999bd2c94",
+  "filename": null,
+  "sha256": null,
+  "target": "/data/code/ouyanghao/oyh/maniskill-hab-demo/assets/data/mshab_checkpoints",
+  "finished_unix": 1788856317.3720891
+}

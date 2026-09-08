@@ -1,0 +1,1342 @@
+{
+  "individual": [
+    {
+      "episode_id": 0,
+      "video": "episode_000/rollout.mp4",
+      "frames": 201,
+      "fps": 20.0,
+      "size": [
+        512,
+        512
+      ],
+      "duration": 10.05,
+      "sha256": "8bd4a8261a7a9b3736cf22a4ea28c8be0bfa3d41c945387c603e66b7939b387c"
+    },
+    {
+      "episode_id": 1,
+      "video": "episode_001/rollout.mp4",
+      "frames": 201,
+      "fps": 20.0,
+      "size": [
+        512,
+        512
+      ],
+      "duration": 10.05,
+      "sha256": "f962ff4dca48704f525365337371293f53db8187e2d1609f9ea985e21ba6c5b2"
+    },
+    {
+      "episode_id": 2,
+      "video": "episode_002/rollout.mp4",
+      "frames": 201,
+      "fps": 20.0,
+      "size": [
+        512,
+        512
+      ],
+      "duration": 10.05,
+      "sha256": "401afc4f57d47ae4a9452543cdd7f1b95d5c23fffccc34f576c8ebe93cd7821f"
+    },
+    {
+      "episode_id": 3,
+      "video": "episode_003/rollout.mp4",
+      "frames": 201,
+      "fps": 20.0,
+      "size": [
+        512,
+        512
+      ],
+      "duration": 10.05,
+      "sha256": "8efada5aa7984f5377bb602e934393ac75d05726148e78e1ec1f8ce27c0c33f0"
+    },
+    {
+      "episode_id": 4,
+      "video": "episode_004/rollout.mp4",
+      "frames": 201,
+      "fps": 20.0,
+      "size": [
+        512,
+        512
+      ],
+      "duration": 10.05,
+      "sha256": "89ee1f3b4b53ac0747d70c4be155d966d0b36fd71ade1f608f749489181de219"
+    },
+    {
+      "episode_id": 5,
+      "video": "episode_005/rollout.mp4",
+      "frames": 201,
+      "fps": 20.0,
+      "size": [
+        512,
+        512
+      ],
+      "duration": 10.05,
+      "sha256": "3a22f2b4d0971e6c2a151934b6139869fadccad48f75637919a8a837d6a69a0b"
+    },
+    {
+      "episode_id": 6,
+      "video": "episode_006/rollout.mp4",
+      "frames": 201,
+      "fps": 20.0,
+      "size": [
+        512,
+        512
+      ],
+      "duration": 10.05,
+      "sha256": "5d2ef0c9b1ab9da07fc26d333b557360ae16294e85a375e00115a6597777dd50"
+    },
+    {
+      "episode_id": 7,
+      "video": "episode_007/rollout.mp4",
+      "frames": 201,
+      "fps": 20.0,
+      "size": [
+        512,
+        512
+      ],
+      "duration": 10.05,
+      "sha256": "c255920832c7af3bbbd7d5222c373709034ec86b4ccef5ae21910b0698396087"
+    },
+    {
+      "episode_id": 8,
+      "video": "episode_008/rollout.mp4",
+      "frames": 201,
+      "fps": 20.0,
+      "size": [
+        512,
+        512
+      ],
+      "duration": 10.05,
+      "sha256": "4ab1f9d51322895f33ad1611f90b2c79f5f611fbc9f5477fc0a9ab8e80bf40c5"
+    },
+    {
+      "episode_id": 9,
+      "video": "episode_009/rollout.mp4",
+      "frames": 201,
+      "fps": 20.0,
+      "size": [
+        512,
+        512
+      ],
+      "duration": 10.05,
+      "sha256": "5dce6cea1aed4a8b10e0139e8064d80dedaf8c11c7c5f4c20b96f3d24b606a78"
+    },
+    {
+      "episode_id": 10,
+      "video": "episode_010/rollout.mp4",
+      "frames": 201,
+      "fps": 20.0,
+      "size": [
+        512,
+        512
+      ],
+      "duration": 10.05,
+      "sha256": "e549f7aa3dd550e9fe73909c9aacba9456749030cc9e269f39d36779b1cdae36"
+    },
+    {
+      "episode_id": 11,
+      "video": "episode_011/rollout.mp4",
+      "frames": 201,
+      "fps": 20.0,
+      "size": [
+        512,
+        512
+      ],
+      "duration": 10.05,
+      "sha256": "eafa3feac2d6ebb66f8910be5663d9fb2fe52f6ef4bd187b32a648a464450445"
+    },
+    {
+      "episode_id": 12,
+      "video": "episode_012/rollout.mp4",
+      "frames": 201,
+      "fps": 20.0,
+      "size": [
+        512,
+        512
+      ],
+      "duration": 10.05,
+      "sha256": "ffa47f2350ac453bb9d0008a2c89a867a3638db49ba5445bbbbc7e38023b740c"
+    },
+    {
+      "episode_id": 13,
+      "video": "episode_013/rollout.mp4",
+      "frames": 201,
+      "fps": 20.0,
+      "size": [
+        512,
+        512
+      ],
+      "duration": 10.05,
+      "sha256": "e3b6af2d3db642503643b596dd3b4b727cd5b113c3242e335bcd66dfe2461737"
+    },
+    {
+      "episode_id": 14,
+      "video": "episode_014/rollout.mp4",
+      "frames": 201,
+      "fps": 20.0,
+      "size": [
+        512,
+        512
+      ],
+      "duration": 10.05,
+      "sha256": "57031c53cdff31e3ad1f544678a9c2801621039e92e1cb27c222235a21e58db3"
+    },
+    {
+      "episode_id": 15,
+      "video": "episode_015/rollout.mp4",
+      "frames": 201,
+      "fps": 20.0,
+      "size": [
+        512,
+        512
+      ],
+      "duration": 10.05,
+      "sha256": "54dbc3f8026fe3a82a5eb18ef73a0f38f6499a7933e1316888005cd14bdfcb9b"
+    },
+    {
+      "episode_id": 16,
+      "video": "episode_016/rollout.mp4",
+      "frames": 201,
+      "fps": 20.0,
+      "size": [
+        512,
+        512
+      ],
+      "duration": 10.05,
+      "sha256": "f2463e4d89060f871ad938796861aa44edc49d60421f08067e1017aafb758ec3"
+    },
+    {
+      "episode_id": 17,
+      "video": "episode_017/rollout.mp4",
+      "frames": 201,
+      "fps": 20.0,
+      "size": [
+        512,
+        512
+      ],
+      "duration": 10.05,
+      "sha256": "7b87505c6c5a7d1bfa23d0fdb08dbd46305d536bc8c365bd77c7b1b98cf03e15"
+    },
+    {
+      "episode_id": 18,
+      "video": "episode_018/rollout.mp4",
+      "frames": 201,
+      "fps": 20.0,
+      "size": [
+        512,
+        512
+      ],
+      "duration": 10.05,
+      "sha256": "5860c10a89ed441b239e867fb9d6003e55cfda23fdb56afe527f328c52c65685"
+    },
+    {
+      "episode_id": 19,
+      "video": "episode_019/rollout.mp4",
+      "frames": 201,
+      "fps": 20.0,
+      "size": [
+        512,
+        512
+      ],
+      "duration": 10.05,
+      "sha256": "b6ac933bc461bb38968163697e4434d1fa7483ec3b01e16484d4abe9ba0badd0"
+    },
+    {
+      "episode_id": 20,
+      "video": "episode_020/rollout.mp4",
+      "frames": 201,
+      "fps": 20.0,
+      "size": [
+        512,
+        512
+      ],
+      "duration": 10.05,
+      "sha256": "b3d35ecef2c9ac01f059e8cc2a0fdad8812ef35fb93c1b9cdb9405badeb61a90"
+    },
+    {
+      "episode_id": 21,
+      "video": "episode_021/rollout.mp4",
+      "frames": 201,
+      "fps": 20.0,
+      "size": [
+        512,
+        512
+      ],
+      "duration": 10.05,
+      "sha256": "43be047d1cbf14faf11f90b00768ed39f02a50ba8b499ea04e1d73ea1e043302"
+    },
+    {
+      "episode_id": 22,
+      "video": "episode_022/rollout.mp4",
+      "frames": 201,
+      "fps": 20.0,
+      "size": [
+        512,
+        512
+      ],
+      "duration": 10.05,
+      "sha256": "4460583f5953e1250cbf08ef9b4b202707bbce7d822df74129b8dbe858104ebf"
+    },
+    {
+      "episode_id": 23,
+      "video": "episode_023/rollout.mp4",
+      "frames": 201,
+      "fps": 20.0,
+      "size": [
+        512,
+        512
+      ],
+      "duration": 10.05,
+      "sha256": "82c7abc83415c6a3ee6a52b1a20fab930b8b44894ca4329f00bdb6a23587ee75"
+    },
+    {
+      "episode_id": 24,
+      "video": "episode_024/rollout.mp4",
+      "frames": 201,
+      "fps": 20.0,
+      "size": [
+        512,
+        512
+      ],
+      "duration": 10.05,
+      "sha256": "26bc3774b29018fd69627f353b3bcf8bf2c0dfe2a4b08e4ab5037c148870ab5c"
+    },
+    {
+      "episode_id": 25,
+      "video": "episode_025/rollout.mp4",
+      "frames": 201,
+      "fps": 20.0,
+      "size": [
+        512,
+        512
+      ],
+      "duration": 10.05,
+      "sha256": "2d7046bb283c78b0b4a193dc30dd131ac16a54d3c88235cd70a5f91a9d5e01d6"
+    },
+    {
+      "episode_id": 26,
+      "video": "episode_026/rollout.mp4",
+      "frames": 201,
+      "fps": 20.0,
+      "size": [
+        512,
+        512
+      ],
+      "duration": 10.05,
+      "sha256": "960d943af27016575749ea60bda78f525da39503a7fcbd893d8305785feae0fa"
+    },
+    {
+      "episode_id": 27,
+      "video": "episode_027/rollout.mp4",
+      "frames": 201,
+      "fps": 20.0,
+      "size": [
+        512,
+        512
+      ],
+      "duration": 10.05,
+      "sha256": "dfec5f2a2a1d9011233f5fa7c505d52b3c35af4e26ea445d1c8d968c405f510d"
+    },
+    {
+      "episode_id": 28,
+      "video": "episode_028/rollout.mp4",
+      "frames": 201,
+      "fps": 20.0,
+      "size": [
+        512,
+        512
+      ],
+      "duration": 10.05,
+      "sha256": "429db1db5b81698e338ef3a87f45e9c9297eb0d42414a5fa55fae11cd2b03b35"
+    },
+    {
+      "episode_id": 29,
+      "video": "episode_029/rollout.mp4",
+      "frames": 201,
+      "fps": 20.0,
+      "size": [
+        512,
+        512
+      ],
+      "duration": 10.05,
+      "sha256": "766a7279680849087e755a47e8dbcbd4f17f2ebae7ac3d74e618161c28d4f1c1"
+    },
+    {
+      "episode_id": 30,
+      "video": "episode_030/rollout.mp4",
+      "frames": 201,
+      "fps": 20.0,
+      "size": [
+        512,
+        512
+      ],
+      "duration": 10.05,
+      "sha256": "c12e9ec5d1da306648f620f91b5fcfff0e74f917e473b049ac661fb034883c48"
+    },
+    {
+      "episode_id": 31,
+      "video": "episode_031/rollout.mp4",
+      "frames": 201,
+      "fps": 20.0,
+      "size": [
+        512,
+        512
+      ],
+      "duration": 10.05,
+      "sha256": "cca3f11606a32b20f10d886d830375b62c737b8c329a167658051fb288f63bea"
+    },
+    {
+      "episode_id": 32,
+      "video": "episode_032/rollout.mp4",
+      "frames": 201,
+      "fps": 20.0,
+      "size": [
+        512,
+        512
+      ],
+      "duration": 10.05,
+      "sha256": "be0bfa75d68c9424b482387dd2c45dfc40a7b18ec7ea5290db803bc4b6e5229d"
+    },
+    {
+      "episode_id": 33,
+      "video": "episode_033/rollout.mp4",
+      "frames": 201,
+      "fps": 20.0,
+      "size": [
+        512,
+        512
+      ],
+      "duration": 10.05,
+      "sha256": "bcabd14b7dce36951e21c2331cf6220c28bfc2ad65a1b5688e6414b2d64cc1b4"
+    },
+    {
+      "episode_id": 34,
+      "video": "episode_034/rollout.mp4",
+      "frames": 201,
+      "fps": 20.0,
+      "size": [
+        512,
+        512
+      ],
+      "duration": 10.05,
+      "sha256": "a01b9750d4ee523e1c9e1b5e66f0dc093eebd2abea880240921e578772b2a93c"
+    },
+    {
+      "episode_id": 35,
+      "video": "episode_035/rollout.mp4",
+      "frames": 201,
+      "fps": 20.0,
+      "size": [
+        512,
+        512
+      ],
+      "duration": 10.05,
+      "sha256": "d72e20645f17da786a9576f80e6c7d55559e5c709a1fda29e7006f9e692bbf9f"
+    },
+    {
+      "episode_id": 36,
+      "video": "episode_036/rollout.mp4",
+      "frames": 201,
+      "fps": 20.0,
+      "size": [
+        512,
+        512
+      ],
+      "duration": 10.05,
+      "sha256": "8b2daeec97427aac2ed4faa9363ffb20edea219a6785a2227451aaa7fa9ad01a"
+    },
+    {
+      "episode_id": 37,
+      "video": "episode_037/rollout.mp4",
+      "frames": 201,
+      "fps": 20.0,
+      "size": [
+        512,
+        512
+      ],
+      "duration": 10.05,
+      "sha256": "cb9b62b27a48c7f688612b15cafe280d7de7b2adf98fba9179fe952aa6601a47"
+    },
+    {
+      "episode_id": 38,
+      "video": "episode_038/rollout.mp4",
+      "frames": 201,
+      "fps": 20.0,
+      "size": [
+        512,
+        512
+      ],
+      "duration": 10.05,
+      "sha256": "ffb8fe72be889f1d1d099da60b61fda4793060cfc0e834a38e80b1443e304c3e"
+    },
+    {
+      "episode_id": 39,
+      "video": "episode_039/rollout.mp4",
+      "frames": 201,
+      "fps": 20.0,
+      "size": [
+        512,
+        512
+      ],
+      "duration": 10.05,
+      "sha256": "aebc8ef5f2d1837b31d8634b9c23525594300b40437bb0233eabcb378317373f"
+    },
+    {
+      "episode_id": 40,
+      "video": "episode_040/rollout.mp4",
+      "frames": 201,
+      "fps": 20.0,
+      "size": [
+        512,
+        512
+      ],
+      "duration": 10.05,
+      "sha256": "d2bff095915e490a19c56c7e4eca2ffb00869cc37570828145a07a9b36dcdc46"
+    },
+    {
+      "episode_id": 41,
+      "video": "episode_041/rollout.mp4",
+      "frames": 201,
+      "fps": 20.0,
+      "size": [
+        512,
+        512
+      ],
+      "duration": 10.05,
+      "sha256": "c6b282bc9a031186e9da4c4c32a81af4a5ac9453e547cc5602c9785f9123f94b"
+    },
+    {
+      "episode_id": 42,
+      "video": "episode_042/rollout.mp4",
+      "frames": 201,
+      "fps": 20.0,
+      "size": [
+        512,
+        512
+      ],
+      "duration": 10.05,
+      "sha256": "e50f49c2996d0f789504fecd027ea1195e8c8898b15984ba34cbf7c265612b92"
+    },
+    {
+      "episode_id": 43,
+      "video": "episode_043/rollout.mp4",
+      "frames": 201,
+      "fps": 20.0,
+      "size": [
+        512,
+        512
+      ],
+      "duration": 10.05,
+      "sha256": "cefe8ec36bddb45320a6175693f4b25c2f4575332e1750f2a0e8fbd840935acd"
+    },
+    {
+      "episode_id": 44,
+      "video": "episode_044/rollout.mp4",
+      "frames": 201,
+      "fps": 20.0,
+      "size": [
+        512,
+        512
+      ],
+      "duration": 10.05,
+      "sha256": "a482f0f9ff282de3d0ade75a34996ec965992edf4eb16d7610fa8c63445daac1"
+    },
+    {
+      "episode_id": 45,
+      "video": "episode_045/rollout.mp4",
+      "frames": 201,
+      "fps": 20.0,
+      "size": [
+        512,
+        512
+      ],
+      "duration": 10.05,
+      "sha256": "3236b9d2a06cc06c5e6fdc3ebe8850248596ec7bca7a208cd19696f174e9f6b5"
+    },
+    {
+      "episode_id": 46,
+      "video": "episode_046/rollout.mp4",
+      "frames": 201,
+      "fps": 20.0,
+      "size": [
+        512,
+        512
+      ],
+      "duration": 10.05,
+      "sha256": "0e17fec27fb055a0a35efffc34c45c60358d43c4bdc7cb38bb5fca5f1a280107"
+    },
+    {
+      "episode_id": 47,
+      "video": "episode_047/rollout.mp4",
+      "frames": 201,
+      "fps": 20.0,
+      "size": [
+        512,
+        512
+      ],
+      "duration": 10.05,
+      "sha256": "6a7eb92275433c638bbbf4ecf6fdc768865625b4cf87cd6bdd9fccec6e4821f4"
+    },
+    {
+      "episode_id": 48,
+      "video": "episode_048/rollout.mp4",
+      "frames": 201,
+      "fps": 20.0,
+      "size": [
+        512,
+        512
+      ],
+      "duration": 10.05,
+      "sha256": "c6b8e78661ff00c65f24c45eb83a164623f8bf4258ea7d946759cba22f950ea9"
+    },
+    {
+      "episode_id": 49,
+      "video": "episode_049/rollout.mp4",
+      "frames": 201,
+      "fps": 20.0,
+      "size": [
+        512,
+        512
+      ],
+      "duration": 10.05,
+      "sha256": "6656360134cee0039803be7afe1caf8d083d4588d4452266b855632d970adf66"
+    },
+    {
+      "episode_id": 50,
+      "video": "episode_050/rollout.mp4",
+      "frames": 201,
+      "fps": 20.0,
+      "size": [
+        512,
+        512
+      ],
+      "duration": 10.05,
+      "sha256": "490b16aeaffae1022d8684cc71b46b55698a6b5aa6b43bd5e54309c67870ed88"
+    },
+    {
+      "episode_id": 51,
+      "video": "episode_051/rollout.mp4",
+      "frames": 201,
+      "fps": 20.0,
+      "size": [
+        512,
+        512
+      ],
+      "duration": 10.05,
+      "sha256": "62768614deaae5ba6c6cf9c4eb0bc888f177297e32a8d14bff45220edb0efc3e"
+    },
+    {
+      "episode_id": 52,
+      "video": "episode_052/rollout.mp4",
+      "frames": 201,
+      "fps": 20.0,
+      "size": [
+        512,
+        512
+      ],
+      "duration": 10.05,
+      "sha256": "ec15d0946d957bed16e57f0eccbaeb369857b1f8028832b599daf80636b2b824"
+    },
+    {
+      "episode_id": 53,
+      "video": "episode_053/rollout.mp4",
+      "frames": 201,
+      "fps": 20.0,
+      "size": [
+        512,
+        512
+      ],
+      "duration": 10.05,
+      "sha256": "4e204fad2740d1cdacc118c8fe120798170561b426fed963881386b9828fa63c"
+    },
+    {
+      "episode_id": 54,
+      "video": "episode_054/rollout.mp4",
+      "frames": 201,
+      "fps": 20.0,
+      "size": [
+        512,
+        512
+      ],
+      "duration": 10.05,
+      "sha256": "9c94e4e4a9585b34f91d1e0c0b86af910f0dee8c5ab9ae64c72859a5aa382e70"
+    },
+    {
+      "episode_id": 55,
+      "video": "episode_055/rollout.mp4",
+      "frames": 201,
+      "fps": 20.0,
+      "size": [
+        512,
+        512
+      ],
+      "duration": 10.05,
+      "sha256": "e4226651ac05ec29bcc4a7e44e57e81ae9729738da3017365d47dd57e7f7736b"
+    },
+    {
+      "episode_id": 56,
+      "video": "episode_056/rollout.mp4",
+      "frames": 201,
+      "fps": 20.0,
+      "size": [
+        512,
+        512
+      ],
+      "duration": 10.05,
+      "sha256": "aefc53c852ae7ffff757c39f6b86e4132fdecc59aae0ccf9939e0a1dff2292f0"
+    },
+    {
+      "episode_id": 57,
+      "video": "episode_057/rollout.mp4",
+      "frames": 201,
+      "fps": 20.0,
+      "size": [
+        512,
+        512
+      ],
+      "duration": 10.05,
+      "sha256": "cb6e618e59c6740a5697d4e9cefdb546ba3ec0bbe865e46919817d0793c0337c"
+    },
+    {
+      "episode_id": 58,
+      "video": "episode_058/rollout.mp4",
+      "frames": 201,
+      "fps": 20.0,
+      "size": [
+        512,
+        512
+      ],
+      "duration": 10.05,
+      "sha256": "00de8fa3129417d9285c7f44889197f856d81378c20064264fd27fa6d3b88a2d"
+    },
+    {
+      "episode_id": 59,
+      "video": "episode_059/rollout.mp4",
+      "frames": 201,
+      "fps": 20.0,
+      "size": [
+        512,
+        512
+      ],
+      "duration": 10.05,
+      "sha256": "851f4ab9f18f57db0aece93ea0ca4d2c439b30d6650b3d143252796bdedd23f8"
+    },
+    {
+      "episode_id": 60,
+      "video": "episode_060/rollout.mp4",
+      "frames": 201,
+      "fps": 20.0,
+      "size": [
+        512,
+        512
+      ],
+      "duration": 10.05,
+      "sha256": "adc623972cbf90a1ef87438d53249e8a6a1289122a5f766620c4a3238b6533ad"
+    },
+    {
+      "episode_id": 61,
+      "video": "episode_061/rollout.mp4",
+      "frames": 201,
+      "fps": 20.0,
+      "size": [
+        512,
+        512
+      ],
+      "duration": 10.05,
+      "sha256": "c7d7205baca8229669a6d078a73d088ebae3bb04d293a3f49079cbf9a2622e5e"
+    },
+    {
+      "episode_id": 62,
+      "video": "episode_062/rollout.mp4",
+      "frames": 201,
+      "fps": 20.0,
+      "size": [
+        512,
+        512
+      ],
+      "duration": 10.05,
+      "sha256": "efa346ca9d988ea55c74fbe1e2a794897d5984dacce6a9169d1cf61f48248104"
+    },
+    {
+      "episode_id": 63,
+      "video": "episode_063/rollout.mp4",
+      "frames": 201,
+      "fps": 20.0,
+      "size": [
+        512,
+        512
+      ],
+      "duration": 10.05,
+      "sha256": "1600c5f6ffb08d885448e6a27bb3ceb3d34e941707bf9fbfa95c4f0a9adeae65"
+    },
+    {
+      "episode_id": 64,
+      "video": "episode_064/rollout.mp4",
+      "frames": 201,
+      "fps": 20.0,
+      "size": [
+        512,
+        512
+      ],
+      "duration": 10.05,
+      "sha256": "1153ee8b2ff82715027ed1d3f828b7b060d008fd8399e8e0a719ac6801b4969e"
+    },
+    {
+      "episode_id": 65,
+      "video": "episode_065/rollout.mp4",
+      "frames": 201,
+      "fps": 20.0,
+      "size": [
+        512,
+        512
+      ],
+      "duration": 10.05,
+      "sha256": "c906d433f5de6de603d60931ba5fb5acb959fcd41ff7486304b53a2ff78c1ea5"
+    },
+    {
+      "episode_id": 66,
+      "video": "episode_066/rollout.mp4",
+      "frames": 201,
+      "fps": 20.0,
+      "size": [
+        512,
+        512
+      ],
+      "duration": 10.05,
+      "sha256": "813cef8c210ba044d62b542772858a2d35ce3c5185e4d5434f082694fd7fd269"
+    },
+    {
+      "episode_id": 67,
+      "video": "episode_067/rollout.mp4",
+      "frames": 201,
+      "fps": 20.0,
+      "size": [
+        512,
+        512
+      ],
+      "duration": 10.05,
+      "sha256": "4b3f58a81f1d394345c4c2839db59298a28c1f5799d7080e44041e7d45cff4c3"
+    },
+    {
+      "episode_id": 68,
+      "video": "episode_068/rollout.mp4",
+      "frames": 201,
+      "fps": 20.0,
+      "size": [
+        512,
+        512
+      ],
+      "duration": 10.05,
+      "sha256": "2e80a5ffd00bd09c368ea879587db3fa520d003f7c2046a29dd7ac760558dc03"
+    },
+    {
+      "episode_id": 69,
+      "video": "episode_069/rollout.mp4",
+      "frames": 201,
+      "fps": 20.0,
+      "size": [
+        512,
+        512
+      ],
+      "duration": 10.05,
+      "sha256": "4f9a6d655bf2884f02abdb0f8fb1536d880d4a1d8967eabf97592a96f51c4b0f"
+    },
+    {
+      "episode_id": 70,
+      "video": "episode_070/rollout.mp4",
+      "frames": 201,
+      "fps": 20.0,
+      "size": [
+        512,
+        512
+      ],
+      "duration": 10.05,
+      "sha256": "f9b3430d2e88578d64579c9e6b55d79b8b7769e1c77a23dbd8fd3002b91405b1"
+    },
+    {
+      "episode_id": 71,
+      "video": "episode_071/rollout.mp4",
+      "frames": 201,
+      "fps": 20.0,
+      "size": [
+        512,
+        512
+      ],
+      "duration": 10.05,
+      "sha256": "4a0cd364e21926e319afe122da41654317c7a9b8376e4daa11b03ea4de673b51"
+    },
+    {
+      "episode_id": 72,
+      "video": "episode_072/rollout.mp4",
+      "frames": 201,
+      "fps": 20.0,
+      "size": [
+        512,
+        512
+      ],
+      "duration": 10.05,
+      "sha256": "5f436881da2420792fd8d1cad4841e845a9a475d4eb93e8fe997bcf6d843a355"
+    },
+    {
+      "episode_id": 73,
+      "video": "episode_073/rollout.mp4",
+      "frames": 201,
+      "fps": 20.0,
+      "size": [
+        512,
+        512
+      ],
+      "duration": 10.05,
+      "sha256": "bc8f467e6ff6993f6e9bf061835f6ddf2e6bdd1f42c5068a7138b1669609b198"
+    },
+    {
+      "episode_id": 74,
+      "video": "episode_074/rollout.mp4",
+      "frames": 201,
+      "fps": 20.0,
+      "size": [
+        512,
+        512
+      ],
+      "duration": 10.05,
+      "sha256": "6504f3d91aeace512d68b794d1094e5d5af1ecb599809e3920b504ab4299f6a0"
+    },
+    {
+      "episode_id": 75,
+      "video": "episode_075/rollout.mp4",
+      "frames": 201,
+      "fps": 20.0,
+      "size": [
+        512,
+        512
+      ],
+      "duration": 10.05,
+      "sha256": "0d63d03821489381676a89925fa98bdf78aa69bf9798a78e429869dbc65569f7"
+    },
+    {
+      "episode_id": 76,
+      "video": "episode_076/rollout.mp4",
+      "frames": 201,
+      "fps": 20.0,
+      "size": [
+        512,
+        512
+      ],
+      "duration": 10.05,
+      "sha256": "2bab25c8aa3277800ea69472ebf61b9b917fc9fb1e538ab01d16af3f5ba3206d"
+    },
+    {
+      "episode_id": 77,
+      "video": "episode_077/rollout.mp4",
+      "frames": 201,
+      "fps": 20.0,
+      "size": [
+        512,
+        512
+      ],
+      "duration": 10.05,
+      "sha256": "560a9c06080064a0267fa0af054302eec921524f7edea821ba1226c8df2fe72b"
+    },
+    {
+      "episode_id": 78,
+      "video": "episode_078/rollout.mp4",
+      "frames": 201,
+      "fps": 20.0,
+      "size": [
+        512,
+        512
+      ],
+      "duration": 10.05,
+      "sha256": "effd2394780fd5cdde67fc4d780faae65c5f48fbab0e84c3adbe9038ba8b1863"
+    },
+    {
+      "episode_id": 79,
+      "video": "episode_079/rollout.mp4",
+      "frames": 201,
+      "fps": 20.0,
+      "size": [
+        512,
+        512
+      ],
+      "duration": 10.05,
+      "sha256": "1ed85e09d47e955accaa5cc74594dfe1d8ac2ed64ee387bd5a7fde7995c9a8a3"
+    },
+    {
+      "episode_id": 80,
+      "video": "episode_080/rollout.mp4",
+      "frames": 201,
+      "fps": 20.0,
+      "size": [
+        512,
+        512
+      ],
+      "duration": 10.05,
+      "sha256": "9c61003aaa0d6e5a85974c61b25e18557687adf9b13f95dbde62bc9f9d54f106"
+    },
+    {
+      "episode_id": 81,
+      "video": "episode_081/rollout.mp4",
+      "frames": 201,
+      "fps": 20.0,
+      "size": [
+        512,
+        512
+      ],
+      "duration": 10.05,
+      "sha256": "e81cb9b6ae7325c6f6898b445a06ec723aa8fd2d2a4e04f19d029a87fd0bcd34"
+    },
+    {
+      "episode_id": 82,
+      "video": "episode_082/rollout.mp4",
+      "frames": 201,
+      "fps": 20.0,
+      "size": [
+        512,
+        512
+      ],
+      "duration": 10.05,
+      "sha256": "7351a0eab9926f6bed4f7dbaeb0d23403d9053928bb2255b0b6b06c55821bebe"
+    },
+    {
+      "episode_id": 83,
+      "video": "episode_083/rollout.mp4",
+      "frames": 201,
+      "fps": 20.0,
+      "size": [
+        512,
+        512
+      ],
+      "duration": 10.05,
+      "sha256": "a989cbd4d10e5c6e7191914cfa05d13e9fb5d0abaa0239f31442f3be0efee536"
+    },
+    {
+      "episode_id": 84,
+      "video": "episode_084/rollout.mp4",
+      "frames": 201,
+      "fps": 20.0,
+      "size": [
+        512,
+        512
+      ],
+      "duration": 10.05,
+      "sha256": "3d8d591cbd583bcc15cad3e2889afded3b73cfc2fcc36c195d198efbb334be64"
+    },
+    {
+      "episode_id": 85,
+      "video": "episode_085/rollout.mp4",
+      "frames": 201,
+      "fps": 20.0,
+      "size": [
+        512,
+        512
+      ],
+      "duration": 10.05,
+      "sha256": "144dc224b201e51ff7246c9595931fad0ba82815cf5cef3fc8d1683b70c0472b"
+    },
+    {
+      "episode_id": 86,
+      "video": "episode_086/rollout.mp4",
+      "frames": 201,
+      "fps": 20.0,
+      "size": [
+        512,
+        512
+      ],
+      "duration": 10.05,
+      "sha256": "2d85b9f06e17c74016545b43420b96a048fe845a08669670e7fe7398c883bc11"
+    },
+    {
+      "episode_id": 87,
+      "video": "episode_087/rollout.mp4",
+      "frames": 201,
+      "fps": 20.0,
+      "size": [
+        512,
+        512
+      ],
+      "duration": 10.05,
+      "sha256": "f1f2e516e9117253c30eb8db46e6d695e23aad52567a3796318a2e48ced934cc"
+    },
+    {
+      "episode_id": 88,
+      "video": "episode_088/rollout.mp4",
+      "frames": 201,
+      "fps": 20.0,
+      "size": [
+        512,
+        512
+      ],
+      "duration": 10.05,
+      "sha256": "243cd5878439c6440151ac1b734f1b24e69aa8f74f49606a5dd044570e7cb99b"
+    },
+    {
+      "episode_id": 89,
+      "video": "episode_089/rollout.mp4",
+      "frames": 201,
+      "fps": 20.0,
+      "size": [
+        512,
+        512
+      ],
+      "duration": 10.05,
+      "sha256": "cb59c24d4eb4c62d315ef75049d6837f5c0f818b21fa796f777349e8fb816a80"
+    },
+    {
+      "episode_id": 90,
+      "video": "episode_090/rollout.mp4",
+      "frames": 201,
+      "fps": 20.0,
+      "size": [
+        512,
+        512
+      ],
+      "duration": 10.05,
+      "sha256": "561b839dbb640d5888ccd9a4fdde0480172b2fbdfdfa1b69d32c5e40bdeaf109"
+    },
+    {
+      "episode_id": 91,
+      "video": "episode_091/rollout.mp4",
+      "frames": 201,
+      "fps": 20.0,
+      "size": [
+        512,
+        512
+      ],
+      "duration": 10.05,
+      "sha256": "bb0e70992bcdf23d66a6f2d7ffe655ece49bf89506d013ceeb579c5cb6cd9b98"
+    },
+    {
+      "episode_id": 92,
+      "video": "episode_092/rollout.mp4",
+      "frames": 201,
+      "fps": 20.0,
+      "size": [
+        512,
+        512
+      ],
+      "duration": 10.05,
+      "sha256": "9690e8edffdd0882718e4396521497228cf5c7ea46c9514e5ce2c9d5ba05de38"
+    },
+    {
+      "episode_id": 93,
+      "video": "episode_093/rollout.mp4",
+      "frames": 201,
+      "fps": 20.0,
+      "size": [
+        512,
+        512
+      ],
+      "duration": 10.05,
+      "sha256": "246d94d1e1ad5b4600493d1bbe084316b9992892f8f8e02beed8a4342bdda19b"
+    },
+    {
+      "episode_id": 94,
+      "video": "episode_094/rollout.mp4",
+      "frames": 201,
+      "fps": 20.0,
+      "size": [
+        512,
+        512
+      ],
+      "duration": 10.05,
+      "sha256": "f53b958f5e8eed5207c53fab8c4bb4edd37a6751873db0b73bcf29599b0b1f2e"
+    },
+    {
+      "episode_id": 95,
+      "video": "episode_095/rollout.mp4",
+      "frames": 201,
+      "fps": 20.0,
+      "size": [
+        512,
+        512
+      ],
+      "duration": 10.05,
+      "sha256": "e56ef6b42ae3b7d5a4bf98401e006ccf88415baf3771fa132e74106ce7b6d104"
+    },
+    {
+      "episode_id": 96,
+      "video": "episode_096/rollout.mp4",
+      "frames": 201,
+      "fps": 20.0,
+      "size": [
+        512,
+        512
+      ],
+      "duration": 10.05,
+      "sha256": "0409e7eee3023c36b262f228e028cf59b1299c223be7d69277e0db7523a2b27c"
+    },
+    {
+      "episode_id": 97,
+      "video": "episode_097/rollout.mp4",
+      "frames": 201,
+      "fps": 20.0,
+      "size": [
+        512,
+        512
+      ],
+      "duration": 10.05,
+      "sha256": "f6804e4f7345e6f6b28e50146181108b78e159370a8959ccd546d5ae0ed2b47a"
+    },
+    {
+      "episode_id": 98,
+      "video": "episode_098/rollout.mp4",
+      "frames": 201,
+      "fps": 20.0,
+      "size": [
+        512,
+        512
+      ],
+      "duration": 10.05,
+      "sha256": "503ea9c6f2d860cdf7343f48bff1daa7d84980d89053ba9e62a44f18e0a27c7d"
+    },
+    {
+      "episode_id": 99,
+      "video": "episode_099/rollout.mp4",
+      "frames": 201,
+      "fps": 20.0,
+      "size": [
+        512,
+        512
+      ],
+      "duration": 10.05,
+      "sha256": "151a11d858fad41d8cad431b1cd6eae381ab1646b97a828dfe41534bf4144505"
+    }
+  ],
+  "montage_frames": 1206,
+  "montage_seconds": 60.3,
+  "example_selection": [
+    {
+      "category": "success",
+      "episode_id": 0
+    },
+    {
+      "category": "never_grasped",
+      "episode_id": 3
+    },
+    {
+      "category": "not_holding_at_end",
+      "episode_id": 45
+    },
+    {
+      "category": "holding_force_limit",
+      "episode_id": 13
+    },
+    {
+      "category": "holding_not_at_rest",
+      "episode_id": 82
+    },
+    {
+      "category": "holding_not_static",
+      "episode_id": 29
+    }
+  ],
+  "extracted_frames": [
+    {
+      "episode_id": 0,
+      "category": "success",
+      "frame": 0,
+      "file": "example_000_frame_000.png"
+    },
+    {
+      "episode_id": 0,
+      "category": "success",
+      "frame": 38,
+      "file": "example_000_frame_038.png"
+    },
+    {
+      "episode_id": 0,
+      "category": "success",
+      "frame": 200,
+      "file": "example_000_frame_200.png"
+    },
+    {
+      "episode_id": 3,
+      "category": "never_grasped",
+      "frame": 0,
+      "file": "example_003_frame_000.png"
+    },
+    {
+      "episode_id": 3,
+      "category": "never_grasped",
+      "frame": 100,
+      "file": "example_003_frame_100.png"
+    },
+    {
+      "episode_id": 3,
+      "category": "never_grasped",
+      "frame": 200,
+      "file": "example_003_frame_200.png"
+    },
+    {
+      "episode_id": 45,
+      "category": "not_holding_at_end",
+      "frame": 0,
+      "file": "example_045_frame_000.png"
+    },
+    {
+      "episode_id": 45,
+      "category": "not_holding_at_end",
+      "frame": 49,
+      "file": "example_045_frame_049.png"
+    },
+    {
+      "episode_id": 45,
+      "category": "not_holding_at_end",
+      "frame": 200,
+      "file": "example_045_frame_200.png"
+    },
+    {
+      "episode_id": 13,
+      "category": "holding_force_limit",
+      "frame": 0,
+      "file": "example_013_frame_000.png"
+    },
+    {
+      "episode_id": 13,
+      "category": "holding_force_limit",
+      "frame": 54,
+      "file": "example_013_frame_054.png"
+    },
+    {
+      "episode_id": 13,
+      "category": "holding_force_limit",
+      "frame": 200,
+      "file": "example_013_frame_200.png"
+    },
+    {
+      "episode_id": 82,
+      "category": "holding_not_at_rest",
+      "frame": 0,
+      "file": "example_082_frame_000.png"
+    },
+    {
+      "episode_id": 82,
+      "category": "holding_not_at_rest",
+      "frame": 44,
+      "file": "example_082_frame_044.png"
+    },
+    {
+      "episode_id": 82,
+      "category": "holding_not_at_rest",
+      "frame": 200,
+      "file": "example_082_frame_200.png"
+    },
+    {
+      "episode_id": 29,
+      "category": "holding_not_static",
+      "frame": 0,
+      "file": "example_029_frame_000.png"
+    },
+    {
+      "episode_id": 29,
+      "category": "holding_not_static",
+      "frame": 35,
+      "file": "example_029_frame_035.png"
+    },
+    {
+      "episode_id": 29,
+      "category": "holding_not_static",
+      "frame": 200,
+      "file": "example_029_frame_200.png"
+    }
+  ]
+}

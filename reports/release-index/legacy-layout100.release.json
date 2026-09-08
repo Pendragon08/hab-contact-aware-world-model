@@ -1,0 +1,17 @@
+{
+  "bundle": "legacy-layout100",
+  "files": 752,
+  "uncompressed_bytes": 302933967,
+  "archive": "legacy-layout100.tar.gz",
+  "archive_bytes": 272757781,
+  "archive_sha256": "d15f3432bfec6be2c816dc766134149c910cf3f90be2f44ba9bcb671c7053757",
+  "manifest": "legacy-layout100.manifest.json",
+  "manifest_sha256": "88c238c392774bbe2a46240a9def84f16e4c8cf7e7758603ce423cd08841db32",
+  "parts": [
+    {
+      "name": "legacy-layout100.tar.gz",
+      "bytes": 272757781,
+      "sha256": "d15f3432bfec6be2c816dc766134149c910cf3f90be2f44ba9bcb671c7053757"
+    }
+  ]
+}
