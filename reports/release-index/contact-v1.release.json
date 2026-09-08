@@ -1,0 +1,32 @@
+{
+  "bundle": "contact-v1",
+  "files": 2404,
+  "uncompressed_bytes": 2017420860,
+  "archive": "contact-v1.tar.gz",
+  "archive_bytes": 1925545992,
+  "archive_sha256": "8ef8118835c1b58b8a4475b2ee9322d8584cfb140ebbf3de5e75cc85d191f14c",
+  "manifest": "contact-v1.manifest.json",
+  "manifest_sha256": "1b31634373bc171d1be8c0745afbb1cba0e1f0f29e229da65b6cf035851d71df",
+  "parts": [
+    {
+      "name": "contact-v1.tar.gz.part000",
+      "bytes": 524288000,
+      "sha256": "b5c0ec0e9107a70d3613341a873303ef196784c9736d68336456b413302e86a9"
+    },
+    {
+      "name": "contact-v1.tar.gz.part001",
+      "bytes": 524288000,
+      "sha256": "18adb5d2feb52cdf5368faf099187c3ce0b693da11fbafc2963e5572ddbe9cfe"
+    },
+    {
+      "name": "contact-v1.tar.gz.part002",
+      "bytes": 524288000,
+      "sha256": "220e490110c41345ac09bbda8f9d9821735332f275153c4266f92f7e07b8c904"
+    },
+    {
+      "name": "contact-v1.tar.gz.part003",
+      "bytes": 352681992,
+      "sha256": "ac2c7c0e4d9efbb9c86c2803cbfef0157f1ed4e45a4d7cf123b362f94fcbae54"
+    }
+  ]
+}

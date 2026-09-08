@@ -1,0 +1,33 @@
+{
+  "summary": {
+    "tdmpc2": {
+      "episodes": 20,
+      "ever_grasped_count": 0,
+      "success_once_count": 0,
+      "success_at_end_count": 0,
+      "mean_return": 54.116613145545124,
+      "final_condition_pass_counts": {
+        "is_grasped": 0,
+        "ee_rest": 0,
+        "robot_rest": 0,
+        "is_static": 0,
+        "cumulative_force_within_limit": 17
+      }
+    },
+    "sac": {
+      "episodes": 20,
+      "ever_grasped_count": 0,
+      "success_once_count": 0,
+      "success_at_end_count": 0,
+      "mean_return": 55.704899256676434,
+      "final_condition_pass_counts": {
+        "is_grasped": 0,
+        "ee_rest": 0,
+        "robot_rest": 5,
+        "is_static": 12,
+        "cumulative_force_within_limit": 19
+      }
+    }
+  },
+  "interpretation": "Descriptive validation conditions; overlapping conditions, not causal failure attribution or final-test evidence."
+}

@@ -1,0 +1,9 @@
+{
+  "rule": "lowest pair ID in each pattern; all steps unretimed",
+  "examples": {
+    "rule_only_success": 44,
+    "baseline_only_success": 3,
+    "all_success": 1,
+    "all_fail": 0
+  }
+}

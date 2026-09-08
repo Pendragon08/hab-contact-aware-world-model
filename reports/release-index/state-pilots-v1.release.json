@@ -1,0 +1,17 @@
+{
+  "bundle": "state-pilots-v1",
+  "files": 433,
+  "uncompressed_bytes": 237423701,
+  "archive": "state-pilots-v1.tar.gz",
+  "archive_bytes": 209736624,
+  "archive_sha256": "e9f28c2dfc039e92dacae041b6d343e1ff4895c8e29c8395ddea25e59dd524eb",
+  "manifest": "state-pilots-v1.manifest.json",
+  "manifest_sha256": "b4840bcc114e652a639785e4c7485ad68748617d659f656001cd10a455a4d50e",
+  "parts": [
+    {
+      "name": "state-pilots-v1.tar.gz",
+      "bytes": 209736624,
+      "sha256": "e9f28c2dfc039e92dacae041b6d343e1ff4895c8e29c8395ddea25e59dd524eb"
+    }
+  ]
+}

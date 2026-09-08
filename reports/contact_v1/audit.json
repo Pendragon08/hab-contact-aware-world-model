@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "paired_initial_conditions": 100,
+  "episodes": 300,
+  "steps": 60000,
+  "videos_decoded": 300,
+  "frames_each": 201
+}

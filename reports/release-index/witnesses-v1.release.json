@@ -1,0 +1,17 @@
+{
+  "bundle": "witnesses-v1",
+  "files": 181,
+  "uncompressed_bytes": 151713240,
+  "archive": "witnesses-v1.tar.gz",
+  "archive_bytes": 133392615,
+  "archive_sha256": "77b4e5f9fab280ec54323aa7c0ebca9b5c914d1ba7aaf3647f43cfba5bbd3c54",
+  "manifest": "witnesses-v1.manifest.json",
+  "manifest_sha256": "f080f5b1d85cd611acbeae05c5fa0f9c87d10714d8917bcd4c8dcad536d96750",
+  "parts": [
+    {
+      "name": "witnesses-v1.tar.gz",
+      "bytes": 133392615,
+      "sha256": "77b4e5f9fab280ec54323aa7c0ebca9b5c914d1ba7aaf3647f43cfba5bbd3c54"
+    }
+  ]
+}

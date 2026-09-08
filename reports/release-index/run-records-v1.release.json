@@ -1,0 +1,17 @@
+{
+  "bundle": "run-records-v1",
+  "files": 95,
+  "uncompressed_bytes": 4634733,
+  "archive": "run-records-v1.tar.gz",
+  "archive_bytes": 3635496,
+  "archive_sha256": "af28b6cf4ef2e172f9760cdc6ced748d89be89d9d284c32344760ed8cabe420f",
+  "manifest": "run-records-v1.manifest.json",
+  "manifest_sha256": "8e782db0bfcc17ea147328b8f68f15f149ef9995bb68a0e0d61ad90cf81a7916",
+  "parts": [
+    {
+      "name": "run-records-v1.tar.gz",
+      "bytes": 3635496,
+      "sha256": "af28b6cf4ef2e172f9760cdc6ced748d89be89d9d284c32344760ed8cabe420f"
+    }
+  ]
+}

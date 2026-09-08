@@ -1,0 +1,22 @@
+{
+  "whole_card_gpu_samples": {
+    "0": {
+      "max_used_mib": 6734,
+      "min_free_mib": 41817,
+      "max_utilization_percent": 82,
+      "samples": 2338
+    },
+    "1": {
+      "max_used_mib": 8989,
+      "min_free_mib": 39561,
+      "max_utilization_percent": 100,
+      "samples": 2338
+    }
+  },
+  "files": {
+    "contact_formal_resources.jsonl": 1192,
+    "state_pilot_resources.jsonl": 1146
+  },
+  "gpu0_minimum_12_gib_reserve_observed": true,
+  "note": "Whole card, sampled every 5s, not per-process allocation nor a continuous peak guarantee. Contact and state pilots may overlap on GPU1. All experiment entrypoints set CUDA_VISIBLE_DEVICES=1."
+}

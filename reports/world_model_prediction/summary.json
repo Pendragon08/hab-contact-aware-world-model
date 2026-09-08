@@ -1,0 +1,61 @@
+{
+  "purpose": "reward prediction diagnostic, not physical-state prediction or final-test evidence",
+  "constant_baseline": "mean of 10,000 TD-MPC2 training rewards, never fit on evaluation trajectories",
+  "constant_reward": 0.23536483943462372,
+  "metrics_by_behavior": {
+    "tdmpc2": [
+      {
+        "horizon": 1,
+        "windows": 3960,
+        "model_mae": 0.006795032415539026,
+        "model_rmse": 0.014042704366147518,
+        "constant_mae": 0.03802650421857834,
+        "constant_rmse": 0.03910190612077713
+      },
+      {
+        "horizon": 2,
+        "windows": 3960,
+        "model_mae": 0.0067675234749913216,
+        "model_rmse": 0.014334963634610176,
+        "constant_mae": 0.03797030448913574,
+        "constant_rmse": 0.03905251994729042
+      },
+      {
+        "horizon": 3,
+        "windows": 3960,
+        "model_mae": 0.006996061187237501,
+        "model_rmse": 0.014885175973176956,
+        "constant_mae": 0.03792937099933624,
+        "constant_rmse": 0.03904465213418007
+      }
+    ],
+    "sac": [
+      {
+        "horizon": 1,
+        "windows": 3960,
+        "model_mae": 0.005551870912313461,
+        "model_rmse": 0.00936928205192089,
+        "constant_mae": 0.045403555035591125,
+        "constant_rmse": 0.045914631336927414
+      },
+      {
+        "horizon": 2,
+        "windows": 3960,
+        "model_mae": 0.0054962304420769215,
+        "model_rmse": 0.007612413726747036,
+        "constant_mae": 0.045376867055892944,
+        "constant_rmse": 0.04589272290468216
+      },
+      {
+        "horizon": 3,
+        "windows": 3960,
+        "model_mae": 0.006802708376199007,
+        "model_rmse": 0.008784236386418343,
+        "constant_mae": 0.04535454511642456,
+        "constant_rmse": 0.04588737338781357
+      }
+    ]
+  },
+  "torch_peak_allocated_mib": 61.07421875,
+  "caveat": "Overlapping windows are correlated; no independent-sample significance or causal/physical prediction claim."
+}

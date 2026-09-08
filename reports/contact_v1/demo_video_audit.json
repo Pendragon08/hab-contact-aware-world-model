@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "frames_decoded": 804,
+  "fps": 20.0,
+  "duration_seconds": 40.2,
+  "frame_shape": [
+    592,
+    1536,
+    3
+  ],
+  "selected_pair_ids_in_order": [
+    44,
+    3,
+    1,
+    0
+  ],
+  "preview_frame_within_each_clip": 100
+}

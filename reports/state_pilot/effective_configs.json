@@ -1,0 +1,180 @@
+{
+  "tdmpc2": {
+    "environment": {
+      "env_id": "PickSubtaskTrain-v0",
+      "robot": "fetch",
+      "obs_mode": "state",
+      "control_mode": "pd_joint_delta_pos",
+      "reward_mode": "normalized_dense",
+      "num_envs": 1,
+      "max_episode_steps": 200,
+      "active_action_dim": 11,
+      "state_dim": 45,
+      "input_additions": [
+        "current returned force /100",
+        "cumulative contact /5000",
+        "elapsed fraction"
+      ],
+      "train_split": "train",
+      "eval_split": "val-development"
+    },
+    "training_plan": {
+      "purpose": "Engineering and compute feasibility pilot, not a converged policy or final research comparison",
+      "train_steps": 10000,
+      "warmup_steps": 1000,
+      "episode_length": 200,
+      "batch_size": 128,
+      "seed": 81008,
+      "train_seed_base": 81000,
+      "eval_seed_base": 91000,
+      "eval_episodes": 20,
+      "eval_layouts": [
+        69,
+        74,
+        79,
+        84,
+        89
+      ],
+      "model_size": 5,
+      "iterations": 6,
+      "num_samples": 512,
+      "num_elites": 64,
+      "num_pi_trajs": 24,
+      "horizon": 3,
+      "update_to_data_ratio_after_warmup": 1,
+      "training_split": "train, never val",
+      "action": "11 active channels: arm 7, gripper 1, torso 1, base 2; stationary head expanded as two zeros",
+      "observation": "Native HAB state + previous/current returned force /100, cumulative contact /5000, elapsed fraction; state SAC uses identical input",
+      "training_budget_rule": "Complete pilot, measure wall time and memory; no extrapolation from PushCube throughput",
+      "risk_stage_gate": "Do not train or claim a risk-aware planner until a task-solving world-model baseline and matched-observation SAC are established. Pilot alone is not a research benchmark."
+    },
+    "actual_train_steps": 10000,
+    "actual_updates": 9000,
+    "actual_eval_steps": 4000,
+    "training_seed": 81008,
+    "basis": "Derived from unchanged, hash-audited custom entrypoint and completed episode/update logs; raw upstream initialization YAML is preserved.",
+    "algorithm": {
+      "obs": "state",
+      "obs_shape": {
+        "state": [
+          45
+        ]
+      },
+      "action_dim": 11,
+      "num_envs": 1,
+      "num_eval_envs": 1,
+      "episode_length": 200,
+      "batch_size": 128,
+      "model_size": 5,
+      "reward_coef": 0.1,
+      "value_coef": 0.1,
+      "consistency_coef": 20,
+      "rho": 0.5,
+      "lr": 0.0003,
+      "enc_lr_scale": 0.3,
+      "grad_clip_norm": 20,
+      "tau": 0.01,
+      "discount": 0.975,
+      "mpc": true,
+      "iterations": 6,
+      "num_samples": 512,
+      "num_elites": 64,
+      "num_pi_trajs": 24,
+      "horizon": 3,
+      "min_std": 0.05,
+      "max_std": 2,
+      "temperature": 0.5,
+      "log_std_min": -10,
+      "log_std_max": 2,
+      "entropy_coef": 0.0001,
+      "num_bins": 101,
+      "vmin": -10,
+      "vmax": 10,
+      "bin_size": 0.2,
+      "num_enc_layers": 2,
+      "enc_dim": 256,
+      "mlp_dim": 512,
+      "latent_dim": 512,
+      "true_latent_dim": 512,
+      "task_dim": 0,
+      "num_q": 5,
+      "dropout": 0.01,
+      "simnorm_dim": 8,
+      "multitask": false
+    },
+    "unused_upstream_trainer_defaults": {
+      "env_id": "PushCube-v1",
+      "steps": 1000000,
+      "seed": 1,
+      "eval_episodes_per_env": 2,
+      "explanation": "These fields are not used to construct HABState or schedule the custom training loop. They are not actual task/budget/seed values."
+    }
+  },
+  "sac": {
+    "environment": {
+      "env_id": "PickSubtaskTrain-v0",
+      "robot": "fetch",
+      "obs_mode": "state",
+      "control_mode": "pd_joint_delta_pos",
+      "reward_mode": "normalized_dense",
+      "num_envs": 1,
+      "max_episode_steps": 200,
+      "active_action_dim": 11,
+      "state_dim": 45,
+      "input_additions": [
+        "current returned force /100",
+        "cumulative contact /5000",
+        "elapsed fraction"
+      ],
+      "train_split": "train",
+      "eval_split": "val-development"
+    },
+    "training_plan": {
+      "purpose": "Engineering and compute feasibility pilot, not a converged policy or final research comparison",
+      "train_steps": 10000,
+      "warmup_steps": 1000,
+      "episode_length": 200,
+      "batch_size": 128,
+      "seed": 81008,
+      "train_seed_base": 81000,
+      "eval_seed_base": 91000,
+      "eval_episodes": 20,
+      "eval_layouts": [
+        69,
+        74,
+        79,
+        84,
+        89
+      ],
+      "model_size": 5,
+      "iterations": 6,
+      "num_samples": 512,
+      "num_elites": 64,
+      "num_pi_trajs": 24,
+      "horizon": 3,
+      "update_to_data_ratio_after_warmup": 1,
+      "training_split": "train, never val",
+      "action": "11 active channels: arm 7, gripper 1, torso 1, base 2; stationary head expanded as two zeros",
+      "observation": "Native HAB state + previous/current returned force /100, cumulative contact /5000, elapsed fraction; state SAC uses identical input",
+      "training_budget_rule": "Complete pilot, measure wall time and memory; no extrapolation from PushCube throughput",
+      "risk_stage_gate": "Do not train or claim a risk-aware planner until a task-solving world-model baseline and matched-observation SAC are established. Pilot alone is not a research benchmark."
+    },
+    "actual_train_steps": 10000,
+    "actual_updates": 9000,
+    "actual_eval_steps": 4000,
+    "training_seed": 81008,
+    "basis": "Derived from unchanged, hash-audited custom entrypoint and completed episode/update logs; raw upstream initialization YAML is preserved.",
+    "algorithm": {
+      "hidden_dims": [
+        256,
+        256
+      ],
+      "critic_count": 2,
+      "lr": 0.0003,
+      "gamma": 0.975,
+      "tau": 0.01,
+      "batch_size": 128,
+      "automatic_entropy_temperature": true
+    }
+  }
+}

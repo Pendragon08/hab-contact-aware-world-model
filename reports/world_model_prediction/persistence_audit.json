@@ -1,0 +1,109 @@
+{
+  "passed": true,
+  "scope": "post-hoc causal persistence reference on development failure trajectories; no retraining or evaluation-data fitting",
+  "window_selection": "starts 1..197 of every 200-step evaluation episode; all references use the same 3940 windows per behavior",
+  "persistence_definition": "repeat reward at action index start-1 for all future horizons; no future reward is used as input",
+  "caveat": "overlapping windows are correlated; both evaluated policies have 0/20 task success",
+  "metrics_by_behavior": {
+    "tdmpc2": [
+      {
+        "horizon": 1,
+        "windows": 3940,
+        "model": {
+          "mae": 0.006819281727075577,
+          "rmse": 0.014077242463827133
+        },
+        "train_mean": {
+          "mae": 0.03799666464328766,
+          "rmse": 0.03907482326030731
+        },
+        "last_observed_reward": {
+          "mae": 0.0032417080365121365,
+          "rmse": 0.008420014753937721
+        }
+      },
+      {
+        "horizon": 2,
+        "windows": 3940,
+        "model": {
+          "mae": 0.006787888240069151,
+          "rmse": 0.01436903141438961
+        },
+        "train_mean": {
+          "mae": 0.03793826699256897,
+          "rmse": 0.03902297466993332
+        },
+        "last_observed_reward": {
+          "mae": 0.0035512198228389025,
+          "rmse": 0.009264123626053333
+        }
+      },
+      {
+        "horizon": 3,
+        "windows": 3940,
+        "model": {
+          "mae": 0.0070171356201171875,
+          "rmse": 0.014920379966497421
+        },
+        "train_mean": {
+          "mae": 0.037895627319812775,
+          "rmse": 0.03901327773928642
+        },
+        "last_observed_reward": {
+          "mae": 0.0037296898663043976,
+          "rmse": 0.010017218999564648
+        }
+      }
+    ],
+    "sac": [
+      {
+        "horizon": 1,
+        "windows": 3940,
+        "model": {
+          "mae": 0.005565502215176821,
+          "rmse": 0.009389924816787243
+        },
+        "train_mean": {
+          "mae": 0.04541216790676117,
+          "rmse": 0.045924704521894455
+        },
+        "last_observed_reward": {
+          "mae": 0.0002543116279412061,
+          "rmse": 0.003001463133841753
+        }
+      },
+      {
+        "horizon": 2,
+        "windows": 3940,
+        "model": {
+          "mae": 0.005515656899660826,
+          "rmse": 0.007630289997905493
+        },
+        "train_mean": {
+          "mae": 0.0453755185008049,
+          "rmse": 0.04589369148015976
+        },
+        "last_observed_reward": {
+          "mae": 0.00036550129880197346,
+          "rmse": 0.003240416757762432
+        }
+      },
+      {
+        "horizon": 3,
+        "windows": 3940,
+        "model": {
+          "mae": 0.006827708799391985,
+          "rmse": 0.008804913610219955
+        },
+        "train_mean": {
+          "mae": 0.04534927010536194,
+          "rmse": 0.04588437080383301
+        },
+        "last_observed_reward": {
+          "mae": 0.0005214505945332348,
+          "rmse": 0.003929871134459972
+        }
+      }
+    ]
+  }
+}

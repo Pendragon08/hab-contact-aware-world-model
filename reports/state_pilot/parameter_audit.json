@@ -1,0 +1,21 @@
+{
+  "tdmpc2": {
+    "launch_recorded_count": 4989044,
+    "launch_count_scope": "model trainable parameters, excluding target Q",
+    "components": {
+      "model_without_target_Q": 4989044
+    },
+    "total_trainable_parameters": 4989044
+  },
+  "sac": {
+    "launch_recorded_count": 83222,
+    "launch_count_scope": "actor only",
+    "components": {
+      "actor": 83222,
+      "q1": 80641,
+      "q2": 80641,
+      "entropy_temperature": 1
+    },
+    "total_trainable_parameters": 244505
+  }
+}
