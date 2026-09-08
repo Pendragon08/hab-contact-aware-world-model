@@ -29,4 +29,4 @@ print('BC_DIAGNOSIS_RESOURCES',json.dumps(summary),flush=True)
 PY
 python scripts/archive_artifacts.py --name bc-diagnosis-v1 --part-mib 1900 --paths \
   artifacts/bc_diagnosis_v1 reports/bc_diagnosis_v1 行为克隆失败诊断.html \
-  docs/BC_DIAGNOSIS_EXECUTION.md configs/bc_diagnosis_v1.json logs/bc_diagnosis_v1_*
+  docs/BC_DIAGNOSIS_EXECUTION.md docs/BC_DIAGNOSIS_SERIAL_RECOVERY.md configs/bc_diagnosis_v1.json logs/bc_diagnosis_v1_*

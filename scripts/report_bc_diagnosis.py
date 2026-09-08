@@ -15,12 +15,31 @@ def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
 OUT.mkdir(exist_ok=False)
 plan=load(ROOT/'configs/bc_diagnosis_v1.json')
 assert sha(ROOT/plan['checkpoint'])==plan['checkpoint_sha256']
-for stage in ['witness','fit','offline']:
+for stage in ['witness','fit']:
     assert load(BASE/f'process_{stage}.json')['completed']
     record=load(BASE/f'provenance_{stage}.json')
     assert record['source_sha256']==sha(BASE/'source_snapshot/scripts/bc_diagnosis.py')
     assert record['config_sha256']==sha(ROOT/'configs/bc_diagnosis_v1.json')
     assert record['checkpoint_sha256']==plan['checkpoint_sha256']
+assert not load(BASE/'process_offline.json')['completed']
+for stage in ['serial_witness','offline_serial']:
+    assert load(BASE/f'process_{stage}.json')['completed']
+    record=load(BASE/f'provenance_{stage}.json')
+    assert record['source_sha256']==sha(BASE/'serial_source/bc_diagnosis_serial.py')
+    assert record['source_parent_sha256']==sha(BASE/'source_snapshot/scripts/bc_diagnosis.py')
+    assert record['config_sha256']==sha(ROOT/'configs/bc_diagnosis_v1.json')
+    assert record['checkpoint_sha256']==plan['checkpoint_sha256']
+assert load(BASE/'process_witness.json')['wall_seconds']+load(BASE/'process_serial_witness.json')['wall_seconds']<=300
+assert load(BASE/'process_offline.json')['wall_seconds']+load(BASE/'process_offline_serial.json')['wall_seconds']<=900
+assert load(BASE/'process_fit.json')['wall_seconds']<=1200
+precision=load(BASE/'serial_witness/complete.json')
+assert precision['passed'] and precision['threshold_unchanged']==plan['teacher_replay_tolerance']
+for row in precision['rows']:
+    raw=np.load(BASE/f"serial_witness/{row['source']}.npz")
+    assert raw['reference'].shape==raw['batch1'].shape==raw['batch8'].shape==(200,13)
+    assert all(np.isfinite(raw[k]).all() for k in raw.files)
+    assert float(np.abs(raw['batch1']-raw['reference']).max())==row['serial_max_error']
+    assert float(np.abs(raw['batch8']-raw['reference']).max())==row['batch8_max_error']
 fit=load(BASE/'fit/episodes.json');old=ROOT/'artifacts/bc_v1_2'
 dev=load(old/'student/episodes.json');teachers=load(old/'collection/episodes.json')
 assert len(fit)==len(dev)==20
@@ -44,7 +63,7 @@ for r in fit:
     terminal=load(folder/'terminal.json');assert terminal['l']==200 and bool(terminal['s_e'])==r['success_at_end']
     reader=imageio.get_reader(folder/'rollout.mp4');n=sum(1 for _ in reader);reader.close();assert n==201
     video_counts.append({'folder':r['folder'],'frames':n})
-analysis=load(BASE/'offline/episodes.json');assert len(analysis)==80
+analysis=load(BASE/'offline_serial/episodes.json');assert len(analysis)==80
 grouped={k:[r for r in analysis if r['group']==k] for k in ['teacher_fit','student_fit','teacher_dev','student_dev']}
 stats={};time_curves={}
 for group,rows in grouped.items():
@@ -65,10 +84,11 @@ for group,rows in grouped.items():
 replay_max=max(r['teacher_replay_max_error'] for r in analysis if r['teacher_replay_max_error'] is not None)
 audit={'passed':True,'new_full_episodes':20,'new_physical_steps':4000,'offline_episodes':80,'updates':0,
        'original_development_episodes_reused_without_retry':20,'video_counts':video_counts,
-       'teacher_replay_max_error':replay_max,'checkpoint_sha256':sha(ROOT/plan['checkpoint'])}
+       'teacher_replay_max_error':replay_max,'checkpoint_sha256':sha(ROOT/plan['checkpoint']),
+       'serial_precision_witness':precision['rows'],'control_steps_note':'4000 formal env.step calls, plus 8 initial witness calls; not internal physics integrator substeps.'}
 save(OUT/'audit.json',audit);save(OUT/'summary.json',{'groups':stats,'median_distance_by_step':time_curves,
       'selection_rule':plan['selection_rule'],'scope':plan['notes'],
-      'stages':{stage:load(BASE/f'process_{stage}.json') for stage in ['witness','fit','offline']}})
+      'stages':{stage:load(BASE/f'process_{stage}.json') for stage in ['witness','fit','offline','serial_witness','offline_serial']}})
 fig,axes=plt.subplots(1,3,figsize=(15,4))
 pos=np.arange(3)
 for offset,key,label in [(-.18,'student_fit','BC: fitted starts'),(.18,'student_dev','BC: held-out starts')]:
@@ -136,12 +156,14 @@ lines+=['','![固定策略诊断](diagnosis.png)','',
         '- [拟合起点与留出起点的教师—学生演示](diagnosis_demo.mp4)。',
         f'- [全部新增原始数据、日志和校验清单]({release})；先前数据来自 v0.3.0-bc-pilot。',
         '- 仅使用GPU1，无LLM API。此处只有一个模型、一个任务的开发诊断，不能作为独立测试或发表结论。',
+        '- 首次batch=8重建在教师seed1210000上误差0.0001975，超过预设1e-4，故中止。失败记录保留；经独立预检改用与现场一致的batch=1逐帧重建，容差、模型、数据和主指标不变，闭环回合没有重跑。详见[精度诊断与续算协议](../../docs/BC_DIAGNOSIS_SERIAL_RECOVERY.md)。',
         '- 本报告的4000步为20个正式回合的 env.step 控制步，独立预检另有8步；不是PhysX内部积分子步数。','',
         '|阶段|实际进程耗时|PyTorch峰值分配显存|','|---|---:|---:|']
-for stage,name in [('witness','短预检'),('fit','20个拟合起点测试'),('offline','80条轨迹离线分析')]:
+for stage,name in [('witness','短预检'),('fit','20个拟合起点测试'),('serial_witness','串行重建独立预检'),('offline_serial','80条轨迹串行离线分析')]:
     process=load(BASE/f'process_{stage}.json')
     lines.append(f"|{name}|{process['wall_seconds']/60:.2f} 分钟|{process['peak_torch_mib']:.1f} MiB|")
-lines+=['','PyTorch分配显存不包含仿真、渲染和CUDA上下文；整卡采样另见 resources.json，包含当时其他进程。','']
+lines+=['',f"首次离线失败另耗时{load(BASE/'process_offline.json')['wall_seconds']:.2f}秒；失败进程未写出PyTorch峰值。原预检加串行预检、原离线失败加串行完成阶段，分别仍在原300秒与900秒阶段预算内。",'',
+        'PyTorch分配显存不包含仿真、渲染和CUDA上下文；整卡采样另见 resources.json，包含当时其他进程。','']
 (OUT/'报告.md').write_text('\n'.join(lines),encoding='utf-8')
 table=''.join(f"<tr><td>{r['seed']}</td><td>{int(r['ever_grasp'])}</td><td>{int(r['success_once'])}</td><td>{int(r['success_at_end'])}</td><td><a href='{html.escape(r['folder'])}/rollout.mp4'>完整视频</a></td></tr>" for r in fit)
 page=f'''<!doctype html><html lang="zh-CN"><meta charset="utf-8"><title>行为克隆失败诊断</title>
