@@ -135,7 +135,8 @@ lines+=['','![固定策略诊断](diagnosis.png)','',
         '- [固定方案与执行入口](../../docs/BC_DIAGNOSIS_EXECUTION.md)。',
         '- [拟合起点与留出起点的教师—学生演示](diagnosis_demo.mp4)。',
         f'- [全部新增原始数据、日志和校验清单]({release})；先前数据来自 v0.3.0-bc-pilot。',
-        '- 仅使用GPU1，无LLM API。此处只有一个模型、一个任务的开发诊断，不能作为独立测试或发表结论。','',
+        '- 仅使用GPU1，无LLM API。此处只有一个模型、一个任务的开发诊断，不能作为独立测试或发表结论。',
+        '- 本报告的4000步为20个正式回合的 env.step 控制步，独立预检另有8步；不是PhysX内部积分子步数。','',
         '|阶段|实际进程耗时|PyTorch峰值分配显存|','|---|---:|---:|']
 for stage,name in [('witness','短预检'),('fit','20个拟合起点测试'),('offline','80条轨迹离线分析')]:
     process=load(BASE/f'process_{stage}.json')
