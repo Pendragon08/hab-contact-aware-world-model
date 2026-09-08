@@ -1,0 +1,44 @@
+{
+  "passed": true,
+  "tag": "v0.1.0-baseline",
+  "release_url": "https://github.com/Pendragon08/hab-contact-aware-world-model/releases/tag/v0.1.0-baseline",
+  "is_draft": false,
+  "assets_verified": [
+    {
+      "name": "legacy-layout100.release.json",
+      "size": 576,
+      "sha256": "5c05d19d6224f72c57568d9a6b08fd3ae81f80f46e57d2394e3f2a34b715f806",
+      "github_digest": "sha256:5c05d19d6224f72c57568d9a6b08fd3ae81f80f46e57d2394e3f2a34b715f806"
+    },
+    {
+      "name": "legacy-layout100.manifest.json",
+      "size": 144379,
+      "sha256": "88c238c392774bbe2a46240a9def84f16e4c8cf7e7758603ce423cd08841db32",
+      "github_digest": "sha256:88c238c392774bbe2a46240a9def84f16e4c8cf7e7758603ce423cd08841db32"
+    },
+    {
+      "name": "legacy-layout100.tar.gz",
+      "size": 272757781,
+      "sha256": "d15f3432bfec6be2c816dc766134149c910cf3f90be2f44ba9bcb671c7053757",
+      "github_digest": "sha256:d15f3432bfec6be2c816dc766134149c910cf3f90be2f44ba9bcb671c7053757"
+    },
+    {
+      "name": "hab-history.release.json",
+      "size": 553,
+      "sha256": "a32888bed69407228ae361c787547a73f9270b4c5db61bdcf9c3acab3042bf29",
+      "github_digest": "sha256:a32888bed69407228ae361c787547a73f9270b4c5db61bdcf9c3acab3042bf29"
+    },
+    {
+      "name": "hab-history.manifest.json",
+      "size": 45623,
+      "sha256": "c5c92e30564689b6ad3344508f40c9f9a8f92462555edaccf070572ffeb61076",
+      "github_digest": "sha256:c5c92e30564689b6ad3344508f40c9f9a8f92462555edaccf070572ffeb61076"
+    },
+    {
+      "name": "hab-history.tar.gz",
+      "size": 84676113,
+      "sha256": "f441f9fb2ff2a560f4a38e10318a71d03dd17a2b6a87165790df8853e5d6b777",
+      "github_digest": "sha256:f441f9fb2ff2a560f4a38e10318a71d03dd17a2b6a87165790df8853e5d6b777"
+    }
+  ]
+}

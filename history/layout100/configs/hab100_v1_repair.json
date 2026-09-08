@@ -1,0 +1,14 @@
+{
+  "date": "2026-09-08",
+  "reason": "Single-env SceneManipulationEnv defaults to reconfiguration_freq=1. The initial evaluator only passed build_config_idxs on the first reset, so the second reset in layout 74 selected default layout 69. The pre-step layout assertion stopped execution.",
+  "fix": "Pass reconfigure=True and the fixed build_config_idxs on EVERY reset. This matches the existing every-reset reconfiguration frequency while retaining the requested layout.",
+  "protocol_changes": "None: original five layouts, all 100 seeds, checkpoint, inputs, actions, success criteria, horizons and outcome rules remain fixed.",
+  "preserved_episode_ids": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20],
+  "failed_episode_id": 21,
+  "failed_episode_policy_steps": 0,
+  "resume": "Keep all 21 complete audited episodes, skip them without rerunning, execute only missing episode IDs 21-99.",
+  "additional_probe": "Two consecutive complete resets/episodes for each of five layouts; 10 episodes, 2000 control steps, seeds 50000+100*slot+j with j=0,1. Separate from original 5-episode probe and formal evaluation.",
+  "original_source_sha256": "113fa464513958af5ec3314623e5cd0387e8dbfa34bc86f652d6b0404f035bc0",
+  "approved_source_hashes": {"scripts/evaluate_layouts.py": "eb3c482d9f506083e2717023caada661e0cdca866ab37788edb841865eeebff9"},
+  "original_source_archive": "staging/evaluate_layouts_initial_v1.py"
+}

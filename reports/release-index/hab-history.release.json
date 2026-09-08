@@ -1,0 +1,17 @@
+{
+  "bundle": "hab-history",
+  "files": 223,
+  "uncompressed_bytes": 89483008,
+  "archive": "hab-history.tar.gz",
+  "archive_bytes": 84676113,
+  "archive_sha256": "f441f9fb2ff2a560f4a38e10318a71d03dd17a2b6a87165790df8853e5d6b777",
+  "manifest": "hab-history.manifest.json",
+  "manifest_sha256": "c5c92e30564689b6ad3344508f40c9f9a8f92462555edaccf070572ffeb61076",
+  "parts": [
+    {
+      "name": "hab-history.tar.gz",
+      "bytes": 84676113,
+      "sha256": "f441f9fb2ff2a560f4a38e10318a71d03dd17a2b6a87165790df8853e5d6b777"
+    }
+  ]
+}
