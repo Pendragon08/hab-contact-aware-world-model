@@ -1,0 +1,14 @@
+.aris/
+.env
+.venv/
+__pycache__/
+*.pyc
+assets/
+cache/
+tmp/
+vendor_deps/
+third_party/
+artifacts/
+release/
+logs/
+local-settings.*

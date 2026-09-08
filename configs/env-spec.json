@@ -1,0 +1,9 @@
+{
+  "base": "readonly Python 3.10.21, torch 2.5.1+cu121, sapien 3.0.3, gymnasium 0.29.1",
+  "system_pkgs": ["screen", "Vulkan NVIDIA driver"],
+  "pip_phases": [["shortuuid==1.0.13 --target vendor_deps --no-deps"]],
+  "sources": {"ManiSkill": "17121e3f96e3ee3ed0c03610b17f8bc2864617af", "mshab": "e9ff3d23496d38e4431c8d913e147ffa007f7f72"},
+  "env": {"CUDA_VISIBLE_DEVICES": "1", "OMP_NUM_THREADS": "4", "MS_ASSET_DIR": "project/assets", "HF_HOME": "project/cache/huggingface", "WM_SAPIEN_CACHE": "project/cache/sapien"},
+  "weight_dirs": {"sac_pick": {"path": "assets/data/mshab_checkpoints/rl/tidy_house/pick/all", "source": "huggingface_hub snapshot_download: arth-shukla/mshab_checkpoints", "gated": false}},
+  "smoke": {"import_names": ["torch", "sapien", "mani_skill", "mshab", "shortuuid"], "gpu_tests": [{"cmd": "bash scripts/validate_env.sh", "expect": "WITNESS CUDA.*SIM_WITNESS"}], "cli_checks": ["nvidia-smi"]}
+}
