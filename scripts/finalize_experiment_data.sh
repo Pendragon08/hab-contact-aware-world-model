@@ -11,10 +11,12 @@ python scripts/verify_run_sources.py
 python scripts/audit_observation_replay.py 2>&1 | tee logs/observation_replay_audit.log
 python scripts/audit_parameter_counts.py
 python scripts/audit_effective_config.py
+python scripts/evaluate_world_model.py 2>&1 | tee logs/world_model_prediction.log
 python scripts/report_resources.py
+python scripts/snapshot_sources.py
 date -u +%FT%TZ > artifacts/ALL_AUDITS_FINISHED
 python scripts/archive_artifacts.py --name contact-v1 --paths artifacts/contact_v1
 python scripts/archive_artifacts.py --name state-pilots-v1 --paths artifacts/state_tdmpc2_pilot_v1 artifacts/state_sac_pilot_v1 artifacts/STATE_PILOTS_FINISHED
 python scripts/archive_artifacts.py --name witnesses-v1 --paths artifacts/contact_witness_v1 artifacts/state_tdmpc2_witness_v1 artifacts/state_sac_witness_v1
-python scripts/archive_artifacts.py --name run-records-v1 --paths logs reports 接触控制对比汇总.html artifacts/ALL_AUDITS_FINISHED
+python scripts/archive_artifacts.py --name run-records-v1 --paths logs reports 接触控制对比汇总.html artifacts/ALL_AUDITS_FINISHED artifacts/source_snapshot
 date -u +%FT%TZ > release/READY
