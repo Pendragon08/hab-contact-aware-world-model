@@ -1,0 +1,26 @@
+{
+  "passed": true,
+  "frames_decoded": 402,
+  "fps": 20.0,
+  "duration_seconds": 20.1,
+  "shape": [
+    576,
+    1024,
+    3
+  ],
+  "selection": {
+    "rule": "first success-once and first no-success student episode in seed order",
+    "indices": [
+      6,
+      0
+    ],
+    "seeds": [
+      1210086,
+      1210080
+    ],
+    "frames": 402
+  },
+  "preview_frame_per_clip": 100,
+  "video_sha256": "065ba83a9dae3cdf71307bc7d96bea520da1b12caaa27014d0187afe303f62f8",
+  "audit_source_sha256": "55af8df1fbba29e46666129788620cdc71e9b758f3826c9b264ad02f8fdf6412"
+}

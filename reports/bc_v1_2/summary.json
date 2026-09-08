@@ -1,0 +1,121 @@
+{
+  "teacher_fit_all": {
+    "ever_grasp": 68,
+    "success_once": 65,
+    "success_at_end": 53
+  },
+  "teacher_dev": {
+    "ever_grasp": 18,
+    "success_once": 17,
+    "success_at_end": 13
+  },
+  "student_dev": {
+    "ever_grasp": 4,
+    "success_once": 3,
+    "success_at_end": 1
+  },
+  "fit_successful_demos": 53,
+  "fit_transitions": 10600,
+  "gate_passed": false,
+  "final_metrics": {
+    "update": 5000,
+    "fit": {
+      "total": 0.007498571649193764,
+      "motion": 0.005560809280723333,
+      "gripper": 0.0019377622520551085
+    },
+    "dev": {
+      "total": 0.3922256827354431,
+      "motion": 0.10507772862911224,
+      "gripper": 0.28714796900749207
+    },
+    "first_fit_trajectory": {
+      "total": 0.011195615865290165,
+      "motion": 0.008981729857623577,
+      "gripper": 0.0022138862404972315
+    }
+  },
+  "selection": {
+    "rule": "first interface pair in ascending pair index whose baseline teacher has success_at_end",
+    "source_episode": {
+      "seed": 1200001,
+      "layout": 6,
+      "task_idx": 456,
+      "target_object": "scene-0_env-0_009_gelatin_box-0",
+      "steps": 200,
+      "success_once": true,
+      "success_at_end": true,
+      "ever_grasp": true,
+      "return": 182.25968146324158,
+      "wall_seconds": 11.632556915283203,
+      "final_conditions": {
+        "is_grasped": true,
+        "ee_rest": true,
+        "robot_rest": true,
+        "is_static": true,
+        "cumulative_force_within_limit": true
+      },
+      "trajectory_sha256": "e37acc3fe8265581151a799201390415b03eeebf72c407903ce08d2f82579be0",
+      "folder": "artifacts/bc_v1_1/interface/pair_01/baseline"
+    },
+    "scene": {
+      "layout": 6,
+      "task_idx": 456,
+      "init_config_idxs": [
+        128
+      ],
+      "spawn_selection_idxs": [
+        10
+      ],
+      "target_object": "scene-0_env-0_009_gelatin_box-0",
+      "task_plan": {
+        "subtasks": [
+          {
+            "type": "pick",
+            "uid": "tidy_house-pick-train-27436-0",
+            "composite_subtask_uids": [
+              "tidy_house-pick-train-27436-0"
+            ],
+            "obj_id": "009_gelatin_box-0",
+            "articulation_config": null
+          }
+        ],
+        "build_config_name": "v3_sc0_staging_00.scene_instance.json",
+        "init_config_name": "train/tidy_house/episode_5937.json"
+      }
+    },
+    "layout": 6,
+    "task_idx": 456
+  },
+  "student_failed_end_conditions": {
+    "is_grasped": 17,
+    "ee_rest": 19,
+    "robot_rest": 19,
+    "is_static": 18,
+    "cumulative_force_within_limit": 16
+  },
+  "stages": {
+    "witness": {
+      "completed": true,
+      "wall_seconds": 74.74043774604797,
+      "peak_torch_mib": 765.1630859375
+    },
+    "interface": {
+      "completed": true,
+      "wall_seconds": 1135.3148806095123,
+      "peak_torch_mib": 765.24853515625
+    },
+    "collect": {
+      "completed": true,
+      "wall_seconds": 2779.1767449378967,
+      "peak_torch_mib": 765.3564453125
+    },
+    "train": {
+      "completed": true,
+      "wall_seconds": 613.4347672462463,
+      "peak_torch_mib": null,
+      "continuation_peak_torch_mib": 742.69970703125,
+      "note": "Original training peak unavailable after assertion; measured continuation separately. Original failed process metadata retained."
+    }
+  }
+}

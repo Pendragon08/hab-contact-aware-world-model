@@ -1,0 +1,17 @@
+{
+  "bundle": "bc-pilot-v1",
+  "files": 1625,
+  "uncompressed_bytes": 793593287,
+  "archive": "bc-pilot-v1.tar.gz",
+  "archive_bytes": 741987879,
+  "archive_sha256": "59fd573d45e0bce6fde614b21bcb8e0cfa7611e65ebebc147a68b0cf298b3f63",
+  "manifest": "bc-pilot-v1.manifest.json",
+  "manifest_sha256": "335c8fc8239089ff002489d2ef7b0526c2f8d9c486061f3892b6531aae4087be",
+  "parts": [
+    {
+      "name": "bc-pilot-v1.tar.gz",
+      "bytes": 741987879,
+      "sha256": "59fd573d45e0bce6fde614b21bcb8e0cfa7611e65ebebc147a68b0cf298b3f63"
+    }
+  ]
+}

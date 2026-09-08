@@ -2,9 +2,16 @@
 
 面向 ManiSkill-HAB 移动机械臂抓取的接触控制与世界模型规划研究。机器人为 Fetch（移动底盘、升降躯干、机械臂和夹爪）；当前任务为 TidyHouse Pick：抓取指定物体、收回至休止姿态，并满足静止与累计接触限制。
 
-**当前完成：300 回合接触控制配对实验，以及 TD-MPC2 / 状态 SAC 各 10,000 步短程训练。风险预测模块尚未训练，也未得到世界模型提升 HAB 性能的研究结论。**
+**当前完成：接触控制配对实验、TD-MPC2 / 状态 SAC 短程训练，以及教师示范和行为克隆实验。行为克隆未通过可学习性门槛；风险预测模块尚未训练，也未得到世界模型提升 HAB 性能的研究结论。**
 
-[下一轮计划与验收门槛](refine-logs/EXPERIMENT_PLAN.md) · [计划执行表](refine-logs/EXPERIMENT_TRACKER.md)：教师接口 20/20 组配对及固定起点预检已通过，100 次教师示范采集正在执行。参见[教师双观测入口](docs/BC_EXECUTION.md)、[固定起点的学习协议](docs/BC_FIXED_SPAWN_EXECUTION.md)和[入口与日志异常记录](reports/BC入口诊断.md)。尚无本轮 BC 成绩。
+[计划与执行结果](refine-logs/EXPERIMENT_PLAN.md) · [执行表](refine-logs/EXPERIMENT_TRACKER.md)：**R001–R003 已完成**。20/20 教师接口配对通过，采集 100 次示范，用 53 条成功拟合轨迹完成 5,000 次 BC 更新。学生在 20 个留出起点上曾抓取 **4/20**、曾完整成功 **3/20**、结束完整成功 **1/20**。未达到预定门槛（曾抓取≥10/20 且曾完整成功≥5/20），R004/R005 保持 GATED。下一步先诊断状态输入 BC 的闭环失败。
+
+- [行为克隆报告](reports/bc_v1_2/报告.md) · [观测与静止判据诊断](reports/bc_v1_2/观测与静止判据诊断.md)
+- [本轮完整数据、所有检查点和失败记录](https://github.com/Pendragon08/hab-contact-aware-world-model/releases/tag/v0.3.0-bc-pilot) · [教师—学生 Demo](https://github.com/Pendragon08/hab-contact-aware-world-model/releases/download/v0.3.0-bc-pilot/teacher_student_demo.mp4)
+- 本地恢复数据后打开 `行为克隆实验汇总.html`，可播放全部 20 对同起点视频。
+- [固定起点学习协议](docs/BC_FIXED_SPAWN_EXECUTION.md) · [评估恢复协议](docs/BC_EVALUATION_RECOVERY.md) · [入口与日志异常记录](reports/BC入口诊断.md)
+
+这是 45 维状态行为克隆的开发实验。教师的留出曾成功成绩为 17/20，使用深度历史输入；两者并非匹配观测的算法比较。本轮仍未证明世界模型或风险规划有效。
 
 公开数据中每个训练任务有 100 个预生成起点。本轮在采集前明确分为 80 个拟合、20 个开发留出起点，避免只换随机种子却重复抽到相同起点。仅拟合部分的结束成功示范用于 5,000 次 BC 更新，留出起点不参与训练与归一化。使用 GPU1，GPU0 保留给其他人。
 
@@ -105,7 +112,10 @@ python scripts/restore_artifacts.py --inventory release/<bundle>.release.json --
 
 当前演示覆盖抓取技能；搬运、放置、技能交接和完整导航属于后续扩展。
 
-本轮归档共 3,113 个文件，已在本地逐文件恢复校验，见 [传输审计](reports/local_transfer_audit.json)。实验 Release 附件的 GitHub 校验记录见 [发布审计](reports/github_v0.2.0-experiments_audit.json)。
+v0.2 归档共 3,113 个文件，已在本地逐文件恢复校验，见 [传输审计](reports/local_transfer_audit.json)。实验 Release 附件的 GitHub 校验记录见 [发布审计](reports/github_v0.2.0-experiments_audit.json)。
+
+
+v0.3 行为克隆归档共 1625 个文件，压缩包 707.6 MiB；[本地逐文件恢复审计](reports/bc_local_transfer_audit.json)与[GitHub 发布审计](reports/github_v0.3.0-bc-pilot_audit.json)提供完整性记录。[本轮资源采样](reports/bc_resources.json)：GPU1 整卡最高 5152 MiB，GPU0 最低空闲 45791 MiB；包含当时所有进程，5 秒采样不能保证捕获瞬时峰值。
 
 ## 代码、数据和论文来源
 

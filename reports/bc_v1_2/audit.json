@@ -1,0 +1,654 @@
+{
+  "passed": true,
+  "formal_episodes": 160,
+  "formal_steps": 32000,
+  "video_counts": [
+    {
+      "folder": "artifacts/bc_v1_1/interface/pair_00/baseline",
+      "frames": 201
+    },
+    {
+      "folder": "artifacts/bc_v1_1/interface/pair_01/baseline",
+      "frames": 201
+    },
+    {
+      "folder": "artifacts/bc_v1_1/interface/pair_02/baseline",
+      "frames": 201
+    },
+    {
+      "folder": "artifacts/bc_v1_1/interface/pair_03/baseline",
+      "frames": 201
+    },
+    {
+      "folder": "artifacts/bc_v1_1/interface/pair_04/baseline",
+      "frames": 201
+    },
+    {
+      "folder": "artifacts/bc_v1_1/interface/pair_05/baseline",
+      "frames": 201
+    },
+    {
+      "folder": "artifacts/bc_v1_1/interface/pair_06/baseline",
+      "frames": 201
+    },
+    {
+      "folder": "artifacts/bc_v1_1/interface/pair_07/baseline",
+      "frames": 201
+    },
+    {
+      "folder": "artifacts/bc_v1_1/interface/pair_08/baseline",
+      "frames": 201
+    },
+    {
+      "folder": "artifacts/bc_v1_1/interface/pair_09/baseline",
+      "frames": 201
+    },
+    {
+      "folder": "artifacts/bc_v1_1/interface/pair_10/baseline",
+      "frames": 201
+    },
+    {
+      "folder": "artifacts/bc_v1_1/interface/pair_11/baseline",
+      "frames": 201
+    },
+    {
+      "folder": "artifacts/bc_v1_1/interface/pair_12/baseline",
+      "frames": 201
+    },
+    {
+      "folder": "artifacts/bc_v1_1/interface/pair_13/baseline",
+      "frames": 201
+    },
+    {
+      "folder": "artifacts/bc_v1_1/interface/pair_14/baseline",
+      "frames": 201
+    },
+    {
+      "folder": "artifacts/bc_v1_1/interface/pair_15/baseline",
+      "frames": 201
+    },
+    {
+      "folder": "artifacts/bc_v1_1/interface/pair_16/baseline",
+      "frames": 201
+    },
+    {
+      "folder": "artifacts/bc_v1_1/interface/pair_17/baseline",
+      "frames": 201
+    },
+    {
+      "folder": "artifacts/bc_v1_1/interface/pair_18/baseline",
+      "frames": 201
+    },
+    {
+      "folder": "artifacts/bc_v1_1/interface/pair_19/baseline",
+      "frames": 201
+    },
+    {
+      "folder": "artifacts/bc_v1_2/collection/episode_000",
+      "frames": 201
+    },
+    {
+      "folder": "artifacts/bc_v1_2/collection/episode_001",
+      "frames": 201
+    },
+    {
+      "folder": "artifacts/bc_v1_2/collection/episode_002",
+      "frames": 201
+    },
+    {
+      "folder": "artifacts/bc_v1_2/collection/episode_003",
+      "frames": 201
+    },
+    {
+      "folder": "artifacts/bc_v1_2/collection/episode_004",
+      "frames": 201
+    },
+    {
+      "folder": "artifacts/bc_v1_2/collection/episode_005",
+      "frames": 201
+    },
+    {
+      "folder": "artifacts/bc_v1_2/collection/episode_006",
+      "frames": 201
+    },
+    {
+      "folder": "artifacts/bc_v1_2/collection/episode_007",
+      "frames": 201
+    },
+    {
+      "folder": "artifacts/bc_v1_2/collection/episode_008",
+      "frames": 201
+    },
+    {
+      "folder": "artifacts/bc_v1_2/collection/episode_009",
+      "frames": 201
+    },
+    {
+      "folder": "artifacts/bc_v1_2/collection/episode_010",
+      "frames": 201
+    },
+    {
+      "folder": "artifacts/bc_v1_2/collection/episode_011",
+      "frames": 201
+    },
+    {
+      "folder": "artifacts/bc_v1_2/collection/episode_012",
+      "frames": 201
+    },
+    {
+      "folder": "artifacts/bc_v1_2/collection/episode_013",
+      "frames": 201
+    },
+    {
+      "folder": "artifacts/bc_v1_2/collection/episode_014",
+      "frames": 201
+    },
+    {
+      "folder": "artifacts/bc_v1_2/collection/episode_015",
+      "frames": 201
+    },
+    {
+      "folder": "artifacts/bc_v1_2/collection/episode_016",
+      "frames": 201
+    },
+    {
+      "folder": "artifacts/bc_v1_2/collection/episode_017",
+      "frames": 201
+    },
+    {
+      "folder": "artifacts/bc_v1_2/collection/episode_018",
+      "frames": 201
+    },
+    {
+      "folder": "artifacts/bc_v1_2/collection/episode_019",
+      "frames": 201
+    },
+    {
+      "folder": "artifacts/bc_v1_2/collection/episode_020",
+      "frames": 201
+    },
+    {
+      "folder": "artifacts/bc_v1_2/collection/episode_021",
+      "frames": 201
+    },
+    {
+      "folder": "artifacts/bc_v1_2/collection/episode_022",
+      "frames": 201
+    },
+    {
+      "folder": "artifacts/bc_v1_2/collection/episode_023",
+      "frames": 201
+    },
+    {
+      "folder": "artifacts/bc_v1_2/collection/episode_024",
+      "frames": 201
+    },
+    {
+      "folder": "artifacts/bc_v1_2/collection/episode_025",
+      "frames": 201
+    },
+    {
+      "folder": "artifacts/bc_v1_2/collection/episode_026",
+      "frames": 201
+    },
+    {
+      "folder": "artifacts/bc_v1_2/collection/episode_027",
+      "frames": 201
+    },
+    {
+      "folder": "artifacts/bc_v1_2/collection/episode_028",
+      "frames": 201
+    },
+    {
+      "folder": "artifacts/bc_v1_2/collection/episode_029",
+      "frames": 201
+    },
+    {
+      "folder": "artifacts/bc_v1_2/collection/episode_030",
+      "frames": 201
+    },
+    {
+      "folder": "artifacts/bc_v1_2/collection/episode_031",
+      "frames": 201
+    },
+    {
+      "folder": "artifacts/bc_v1_2/collection/episode_032",
+      "frames": 201
+    },
+    {
+      "folder": "artifacts/bc_v1_2/collection/episode_033",
+      "frames": 201
+    },
+    {
+      "folder": "artifacts/bc_v1_2/collection/episode_034",
+      "frames": 201
+    },
+    {
+      "folder": "artifacts/bc_v1_2/collection/episode_035",
+      "frames": 201
+    },
+    {
+      "folder": "artifacts/bc_v1_2/collection/episode_036",
+      "frames": 201
+    },
+    {
+      "folder": "artifacts/bc_v1_2/collection/episode_037",
+      "frames": 201
+    },
+    {
+      "folder": "artifacts/bc_v1_2/collection/episode_038",
+      "frames": 201
+    },
+    {
+      "folder": "artifacts/bc_v1_2/collection/episode_039",
+      "frames": 201
+    },
+    {
+      "folder": "artifacts/bc_v1_2/collection/episode_040",
+      "frames": 201
+    },
+    {
+      "folder": "artifacts/bc_v1_2/collection/episode_041",
+      "frames": 201
+    },
+    {
+      "folder": "artifacts/bc_v1_2/collection/episode_042",
+      "frames": 201
+    },
+    {
+      "folder": "artifacts/bc_v1_2/collection/episode_043",
+      "frames": 201
+    },
+    {
+      "folder": "artifacts/bc_v1_2/collection/episode_044",
+      "frames": 201
+    },
+    {
+      "folder": "artifacts/bc_v1_2/collection/episode_045",
+      "frames": 201
+    },
+    {
+      "folder": "artifacts/bc_v1_2/collection/episode_046",
+      "frames": 201
+    },
+    {
+      "folder": "artifacts/bc_v1_2/collection/episode_047",
+      "frames": 201
+    },
+    {
+      "folder": "artifacts/bc_v1_2/collection/episode_048",
+      "frames": 201
+    },
+    {
+      "folder": "artifacts/bc_v1_2/collection/episode_049",
+      "frames": 201
+    },
+    {
+      "folder": "artifacts/bc_v1_2/collection/episode_050",
+      "frames": 201
+    },
+    {
+      "folder": "artifacts/bc_v1_2/collection/episode_051",
+      "frames": 201
+    },
+    {
+      "folder": "artifacts/bc_v1_2/collection/episode_052",
+      "frames": 201
+    },
+    {
+      "folder": "artifacts/bc_v1_2/collection/episode_053",
+      "frames": 201
+    },
+    {
+      "folder": "artifacts/bc_v1_2/collection/episode_054",
+      "frames": 201
+    },
+    {
+      "folder": "artifacts/bc_v1_2/collection/episode_055",
+      "frames": 201
+    },
+    {
+      "folder": "artifacts/bc_v1_2/collection/episode_056",
+      "frames": 201
+    },
+    {
+      "folder": "artifacts/bc_v1_2/collection/episode_057",
+      "frames": 201
+    },
+    {
+      "folder": "artifacts/bc_v1_2/collection/episode_058",
+      "frames": 201
+    },
+    {
+      "folder": "artifacts/bc_v1_2/collection/episode_059",
+      "frames": 201
+    },
+    {
+      "folder": "artifacts/bc_v1_2/collection/episode_060",
+      "frames": 201
+    },
+    {
+      "folder": "artifacts/bc_v1_2/collection/episode_061",
+      "frames": 201
+    },
+    {
+      "folder": "artifacts/bc_v1_2/collection/episode_062",
+      "frames": 201
+    },
+    {
+      "folder": "artifacts/bc_v1_2/collection/episode_063",
+      "frames": 201
+    },
+    {
+      "folder": "artifacts/bc_v1_2/collection/episode_064",
+      "frames": 201
+    },
+    {
+      "folder": "artifacts/bc_v1_2/collection/episode_065",
+      "frames": 201
+    },
+    {
+      "folder": "artifacts/bc_v1_2/collection/episode_066",
+      "frames": 201
+    },
+    {
+      "folder": "artifacts/bc_v1_2/collection/episode_067",
+      "frames": 201
+    },
+    {
+      "folder": "artifacts/bc_v1_2/collection/episode_068",
+      "frames": 201
+    },
+    {
+      "folder": "artifacts/bc_v1_2/collection/episode_069",
+      "frames": 201
+    },
+    {
+      "folder": "artifacts/bc_v1_2/collection/episode_070",
+      "frames": 201
+    },
+    {
+      "folder": "artifacts/bc_v1_2/collection/episode_071",
+      "frames": 201
+    },
+    {
+      "folder": "artifacts/bc_v1_2/collection/episode_072",
+      "frames": 201
+    },
+    {
+      "folder": "artifacts/bc_v1_2/collection/episode_073",
+      "frames": 201
+    },
+    {
+      "folder": "artifacts/bc_v1_2/collection/episode_074",
+      "frames": 201
+    },
+    {
+      "folder": "artifacts/bc_v1_2/collection/episode_075",
+      "frames": 201
+    },
+    {
+      "folder": "artifacts/bc_v1_2/collection/episode_076",
+      "frames": 201
+    },
+    {
+      "folder": "artifacts/bc_v1_2/collection/episode_077",
+      "frames": 201
+    },
+    {
+      "folder": "artifacts/bc_v1_2/collection/episode_078",
+      "frames": 201
+    },
+    {
+      "folder": "artifacts/bc_v1_2/collection/episode_079",
+      "frames": 201
+    },
+    {
+      "folder": "artifacts/bc_v1_2/collection/episode_080",
+      "frames": 201
+    },
+    {
+      "folder": "artifacts/bc_v1_2/collection/episode_081",
+      "frames": 201
+    },
+    {
+      "folder": "artifacts/bc_v1_2/collection/episode_082",
+      "frames": 201
+    },
+    {
+      "folder": "artifacts/bc_v1_2/collection/episode_083",
+      "frames": 201
+    },
+    {
+      "folder": "artifacts/bc_v1_2/collection/episode_084",
+      "frames": 201
+    },
+    {
+      "folder": "artifacts/bc_v1_2/collection/episode_085",
+      "frames": 201
+    },
+    {
+      "folder": "artifacts/bc_v1_2/collection/episode_086",
+      "frames": 201
+    },
+    {
+      "folder": "artifacts/bc_v1_2/collection/episode_087",
+      "frames": 201
+    },
+    {
+      "folder": "artifacts/bc_v1_2/collection/episode_088",
+      "frames": 201
+    },
+    {
+      "folder": "artifacts/bc_v1_2/collection/episode_089",
+      "frames": 201
+    },
+    {
+      "folder": "artifacts/bc_v1_2/collection/episode_090",
+      "frames": 201
+    },
+    {
+      "folder": "artifacts/bc_v1_2/collection/episode_091",
+      "frames": 201
+    },
+    {
+      "folder": "artifacts/bc_v1_2/collection/episode_092",
+      "frames": 201
+    },
+    {
+      "folder": "artifacts/bc_v1_2/collection/episode_093",
+      "frames": 201
+    },
+    {
+      "folder": "artifacts/bc_v1_2/collection/episode_094",
+      "frames": 201
+    },
+    {
+      "folder": "artifacts/bc_v1_2/collection/episode_095",
+      "frames": 201
+    },
+    {
+      "folder": "artifacts/bc_v1_2/collection/episode_096",
+      "frames": 201
+    },
+    {
+      "folder": "artifacts/bc_v1_2/collection/episode_097",
+      "frames": 201
+    },
+    {
+      "folder": "artifacts/bc_v1_2/collection/episode_098",
+      "frames": 201
+    },
+    {
+      "folder": "artifacts/bc_v1_2/collection/episode_099",
+      "frames": 201
+    },
+    {
+      "folder": "artifacts/bc_v1_2/student/evaluation/episode_080",
+      "frames": 201
+    },
+    {
+      "folder": "artifacts/bc_v1_2/student/evaluation_v2/episode_081",
+      "frames": 201
+    },
+    {
+      "folder": "artifacts/bc_v1_2/student/evaluation_v2/episode_082",
+      "frames": 201
+    },
+    {
+      "folder": "artifacts/bc_v1_2/student/evaluation_v2/episode_083",
+      "frames": 201
+    },
+    {
+      "folder": "artifacts/bc_v1_2/student/evaluation_v2/episode_084",
+      "frames": 201
+    },
+    {
+      "folder": "artifacts/bc_v1_2/student/evaluation_v2/episode_085",
+      "frames": 201
+    },
+    {
+      "folder": "artifacts/bc_v1_2/student/evaluation_v2/episode_086",
+      "frames": 201
+    },
+    {
+      "folder": "artifacts/bc_v1_2/student/evaluation_v2/episode_087",
+      "frames": 201
+    },
+    {
+      "folder": "artifacts/bc_v1_2/student/evaluation_v2/episode_088",
+      "frames": 201
+    },
+    {
+      "folder": "artifacts/bc_v1_2/student/evaluation_v2/episode_089",
+      "frames": 201
+    },
+    {
+      "folder": "artifacts/bc_v1_2/student/evaluation_v2/episode_090",
+      "frames": 201
+    },
+    {
+      "folder": "artifacts/bc_v1_2/student/evaluation_v2/episode_091",
+      "frames": 201
+    },
+    {
+      "folder": "artifacts/bc_v1_2/student/evaluation_v2/episode_092",
+      "frames": 201
+    },
+    {
+      "folder": "artifacts/bc_v1_2/student/evaluation_v2/episode_093",
+      "frames": 201
+    },
+    {
+      "folder": "artifacts/bc_v1_2/student/evaluation_v2/episode_094",
+      "frames": 201
+    },
+    {
+      "folder": "artifacts/bc_v1_2/student/evaluation_v2/episode_095",
+      "frames": 201
+    },
+    {
+      "folder": "artifacts/bc_v1_2/student/evaluation_v2/episode_096",
+      "frames": 201
+    },
+    {
+      "folder": "artifacts/bc_v1_2/student/evaluation_v2/episode_097",
+      "frames": 201
+    },
+    {
+      "folder": "artifacts/bc_v1_2/student/evaluation_v2/episode_098",
+      "frames": 201
+    },
+    {
+      "folder": "artifacts/bc_v1_2/student/evaluation_v2/episode_099",
+      "frames": 201
+    },
+    {
+      "folder": "artifacts/bc_v1_1/interface/pair_00/dual",
+      "frames": 201
+    },
+    {
+      "folder": "artifacts/bc_v1_1/interface/pair_01/dual",
+      "frames": 201
+    },
+    {
+      "folder": "artifacts/bc_v1_1/interface/pair_02/dual",
+      "frames": 201
+    },
+    {
+      "folder": "artifacts/bc_v1_1/interface/pair_03/dual",
+      "frames": 201
+    },
+    {
+      "folder": "artifacts/bc_v1_1/interface/pair_04/dual",
+      "frames": 201
+    },
+    {
+      "folder": "artifacts/bc_v1_1/interface/pair_05/dual",
+      "frames": 201
+    },
+    {
+      "folder": "artifacts/bc_v1_1/interface/pair_06/dual",
+      "frames": 201
+    },
+    {
+      "folder": "artifacts/bc_v1_1/interface/pair_07/dual",
+      "frames": 201
+    },
+    {
+      "folder": "artifacts/bc_v1_1/interface/pair_08/dual",
+      "frames": 201
+    },
+    {
+      "folder": "artifacts/bc_v1_1/interface/pair_09/dual",
+      "frames": 201
+    },
+    {
+      "folder": "artifacts/bc_v1_1/interface/pair_10/dual",
+      "frames": 201
+    },
+    {
+      "folder": "artifacts/bc_v1_1/interface/pair_11/dual",
+      "frames": 201
+    },
+    {
+      "folder": "artifacts/bc_v1_1/interface/pair_12/dual",
+      "frames": 201
+    },
+    {
+      "folder": "artifacts/bc_v1_1/interface/pair_13/dual",
+      "frames": 201
+    },
+    {
+      "folder": "artifacts/bc_v1_1/interface/pair_14/dual",
+      "frames": 201
+    },
+    {
+      "folder": "artifacts/bc_v1_1/interface/pair_15/dual",
+      "frames": 201
+    },
+    {
+      "folder": "artifacts/bc_v1_1/interface/pair_16/dual",
+      "frames": 201
+    },
+    {
+      "folder": "artifacts/bc_v1_1/interface/pair_17/dual",
+      "frames": 201
+    },
+    {
+      "folder": "artifacts/bc_v1_1/interface/pair_18/dual",
+      "frames": 201
+    },
+    {
+      "folder": "artifacts/bc_v1_1/interface/pair_19/dual",
+      "frames": 201
+    }
+  ],
+  "student_action_replay_max_abs_error": 2.250075340270996e-05,
+  "train_only_normalization_verified": true,
+  "heldout_start_pairs_verified": 20,
+  "updates_verified": 5000,
+  "teacher_interface_pairs_verified": 20,
+  "initial_pairing_scope": "Semantic init-config name; all active actors/robot/controller checked; only far hidden actor z parking slots canonicalized. Full teacher observations bit-identical.",
+  "evaluation_recovery": "First failed episode retained; remaining 19 evaluated using unchanged update-5000 checkpoint; original failed process record preserved."
+}

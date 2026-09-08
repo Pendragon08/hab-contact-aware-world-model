@@ -1,0 +1,1896 @@
+{
+  "passed": true,
+  "source_checks": 174,
+  "recovery_checks": [
+    {
+      "record": "artifacts/bc_v1_2/eval_v2_run_provenance.json",
+      "source_matches": [
+        "scripts/bc_eval_v2.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/bc_eval_v2.py"
+      ],
+      "plan_matches": [
+        "configs/bc_v1_2.json"
+      ],
+      "checkpoint_sha256": "6f5882628d2006fea9f65c7021db3a72953e92a0ef5f3ce713dc11c5acd38def",
+      "checkpoint_matches": true
+    },
+    {
+      "record": "artifacts/bc_v1_2/eval_v2_witness_provenance.json",
+      "source_matches": [
+        "scripts/bc_eval_v2.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/bc_eval_v2.py"
+      ],
+      "plan_matches": [
+        "configs/bc_v1_2.json"
+      ],
+      "checkpoint_sha256": "6f5882628d2006fea9f65c7021db3a72953e92a0ef5f3ce713dc11c5acd38def",
+      "checkpoint_matches": true
+    }
+  ],
+  "missing": [],
+  "checks": [
+    {
+      "record": "artifacts/bc_v1_1/provenance_interface.json",
+      "name": "archive_artifacts.py",
+      "sha256": "d37203a11d6bc16f450a819b82259f7a2b7d7130050037ddcc103c55e2afa7b3",
+      "matches": [
+        "scripts/archive_artifacts.py",
+        "artifacts/bc_v1_1/source_snapshot/scripts/archive_artifacts.py",
+        "artifacts/bc_v1_2/source_snapshot/scripts/archive_artifacts.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/archive_artifacts.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1_1/provenance_interface.json",
+      "name": "report_bc.py",
+      "sha256": "4e099abbad260e31fd8d4bb7de0a2ba6d3532b638c67d7346fd73a461f852611",
+      "matches": [
+        "artifacts/bc_v1_1/source_snapshot/scripts/report_bc.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1_1/provenance_interface.json",
+      "name": "verify_vendor.py",
+      "sha256": "04eb7b7fc70e5238747a9485e247e58493c4c2cc0cb695c2b67b72a979dfc0fe",
+      "matches": [
+        "scripts/verify_vendor.py",
+        "artifacts/bc_v1_1/source_snapshot/scripts/verify_vendor.py",
+        "artifacts/bc_v1_2/source_snapshot/scripts/verify_vendor.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/verify_vendor.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1_1/provenance_interface.json",
+      "name": "report_state_pilot.py",
+      "sha256": "cc0b9da0e9030e1347303751d1a3cc857ef6a2312dfb0b98b59dfa84e06789b6",
+      "matches": [
+        "scripts/report_state_pilot.py",
+        "artifacts/bc_v1_1/source_snapshot/scripts/report_state_pilot.py",
+        "artifacts/bc_v1_2/source_snapshot/scripts/report_state_pilot.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/report_state_pilot.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1_1/provenance_interface.json",
+      "name": "train_state_pilot.py",
+      "sha256": "ad97520371032f26f24126e5b71668c09089d5d067baf6ca4ad2902b702053a6",
+      "matches": [
+        "scripts/train_state_pilot.py",
+        "artifacts/bc_v1_1/source_snapshot/scripts/train_state_pilot.py",
+        "artifacts/bc_v1_2/source_snapshot/scripts/train_state_pilot.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/train_state_pilot.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1_1/provenance_interface.json",
+      "name": "diagnose_bc_state.py",
+      "sha256": "8a844cbd457033d9bdf49a807432830f3b53e0e94896799da748540601095989",
+      "matches": [
+        "scripts/diagnose_bc_state.py",
+        "artifacts/bc_v1_1/source_snapshot/scripts/diagnose_bc_state.py",
+        "artifacts/bc_v1_2/source_snapshot/scripts/diagnose_bc_state.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/diagnose_bc_state.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1_1/provenance_interface.json",
+      "name": "restore_artifacts.py",
+      "sha256": "46d438f1f06ffa802684421e943eddda38eff32a388eb07763a9446c57176d3a",
+      "matches": [
+        "scripts/restore_artifacts.py",
+        "artifacts/bc_v1_1/source_snapshot/scripts/restore_artifacts.py",
+        "artifacts/bc_v1_2/source_snapshot/scripts/restore_artifacts.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/restore_artifacts.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1_1/provenance_interface.json",
+      "name": "bc_pipeline.py",
+      "sha256": "2a8aea52ca928877c00d65271e5c30fe0b6094fda25c00613cfa728783bd0d4c",
+      "matches": [
+        "artifacts/bc_v1_1/source_snapshot/scripts/bc_pipeline.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1_1/provenance_interface.json",
+      "name": "legacy_evaluate_layouts.py",
+      "sha256": "eb3c482d9f506083e2717023caada661e0cdca866ab37788edb841865eeebff9",
+      "matches": [
+        "scripts/legacy_evaluate_layouts.py",
+        "artifacts/bc_v1_1/source_snapshot/scripts/legacy_evaluate_layouts.py",
+        "artifacts/bc_v1_2/source_snapshot/scripts/legacy_evaluate_layouts.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/legacy_evaluate_layouts.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1_1/provenance_interface.json",
+      "name": "episode_replay.py",
+      "sha256": "dbdfbbf1ab8b4ddd5a4100820c099804f371be995bfa6d37fb16ba44d60c7200",
+      "matches": [
+        "scripts/episode_replay.py",
+        "artifacts/bc_v1_1/source_snapshot/scripts/episode_replay.py",
+        "artifacts/bc_v1_2/source_snapshot/scripts/episode_replay.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/episode_replay.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1_1/provenance_interface.json",
+      "name": "audit_parameter_counts.py",
+      "sha256": "8c45fccd0fce8ad2b8607c9715833391f798ab84d423a25a48c40bfebb1527eb",
+      "matches": [
+        "scripts/audit_parameter_counts.py",
+        "artifacts/bc_v1_1/source_snapshot/scripts/audit_parameter_counts.py",
+        "artifacts/bc_v1_2/source_snapshot/scripts/audit_parameter_counts.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/audit_parameter_counts.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1_1/provenance_interface.json",
+      "name": "hab_state.py",
+      "sha256": "b1f0e9528b93e2eca91928a00284ec1c891bdb57176ca1b8ca62b7277cc9f9e4",
+      "matches": [
+        "scripts/hab_state.py",
+        "artifacts/bc_v1_1/source_snapshot/scripts/hab_state.py",
+        "artifacts/bc_v1_2/source_snapshot/scripts/hab_state.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/hab_state.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1_1/provenance_interface.json",
+      "name": "verify_run_sources.py",
+      "sha256": "d5a8f2f731ca63618520265ad98dcd07c90086097e6836fe5b0f2650bb909a8d",
+      "matches": [
+        "scripts/verify_run_sources.py",
+        "artifacts/bc_v1_1/source_snapshot/scripts/verify_run_sources.py",
+        "artifacts/bc_v1_2/source_snapshot/scripts/verify_run_sources.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/verify_run_sources.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1_1/provenance_interface.json",
+      "name": "contact_experiment.py",
+      "sha256": "022d311a35f42db25824b43b0345ef0376211f6ef91189726f8b101210e4a609",
+      "matches": [
+        "scripts/contact_experiment.py",
+        "artifacts/bc_v1_1/source_snapshot/scripts/contact_experiment.py",
+        "artifacts/bc_v1_2/source_snapshot/scripts/contact_experiment.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/contact_experiment.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1_1/provenance_interface.json",
+      "name": "report_contact.py",
+      "sha256": "0b5e0efc977fb00a0a37dc236371bf0f627b7ee4f4b49b1e02990f6616a48616",
+      "matches": [
+        "scripts/report_contact.py",
+        "artifacts/bc_v1_1/source_snapshot/scripts/report_contact.py",
+        "artifacts/bc_v1_2/source_snapshot/scripts/report_contact.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/report_contact.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1_1/provenance_interface.json",
+      "name": "status.py",
+      "sha256": "fe405c6c5644d9a69caecdd0ee6db2801178b655a2ff439e4c71cef40942e4d2",
+      "matches": [
+        "scripts/status.py",
+        "artifacts/bc_v1_1/source_snapshot/scripts/status.py",
+        "artifacts/bc_v1_2/source_snapshot/scripts/status.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/status.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1_1/provenance_interface.json",
+      "name": "audit_effective_config.py",
+      "sha256": "ca29145c43901da1aec596f4b274c6a07e319237fd78b44e3250c64ab61dadc0",
+      "matches": [
+        "scripts/audit_effective_config.py",
+        "artifacts/bc_v1_1/source_snapshot/scripts/audit_effective_config.py",
+        "artifacts/bc_v1_2/source_snapshot/scripts/audit_effective_config.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/audit_effective_config.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1_1/provenance_interface.json",
+      "name": "demo.py",
+      "sha256": "2d8dcad0f21cf7ac4450c3c941fcf75b10551579a98165f8687941fcf98568c3",
+      "matches": [
+        "scripts/demo.py",
+        "artifacts/bc_v1_1/source_snapshot/scripts/demo.py",
+        "artifacts/bc_v1_2/source_snapshot/scripts/demo.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/demo.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1_1/provenance_interface.json",
+      "name": "monitor_resources.py",
+      "sha256": "f455dadca9d1b6274f999f5a5f3a269af5683872c583e45f825de93e5c137ca2",
+      "matches": [
+        "scripts/monitor_resources.py",
+        "artifacts/bc_v1_1/source_snapshot/scripts/monitor_resources.py",
+        "artifacts/bc_v1_2/source_snapshot/scripts/monitor_resources.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/monitor_resources.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1_1/provenance_interface.json",
+      "name": "report_resources.py",
+      "sha256": "22fbb68fb9785aa604f1176bae2b9c18a900b942b5b16a240949e159668ed13b",
+      "matches": [
+        "scripts/report_resources.py",
+        "artifacts/bc_v1_1/source_snapshot/scripts/report_resources.py",
+        "artifacts/bc_v1_2/source_snapshot/scripts/report_resources.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/report_resources.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1_1/provenance_interface.json",
+      "name": "audit_observation_replay.py",
+      "sha256": "17a67ae18da8cca5c7c88979dd4c88969a767fc6f7fe19acd84aba842efa662d",
+      "matches": [
+        "scripts/audit_observation_replay.py",
+        "artifacts/bc_v1_1/source_snapshot/scripts/audit_observation_replay.py",
+        "artifacts/bc_v1_2/source_snapshot/scripts/audit_observation_replay.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/audit_observation_replay.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1_1/provenance_interface.json",
+      "name": "audit_demo_video.py",
+      "sha256": "912ead9de585c25f17b8c35d70220d8cd5198194bdb569841efedf7601ff0b60",
+      "matches": [
+        "scripts/audit_demo_video.py",
+        "artifacts/bc_v1_1/source_snapshot/scripts/audit_demo_video.py",
+        "artifacts/bc_v1_2/source_snapshot/scripts/audit_demo_video.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/audit_demo_video.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1_1/provenance_interface.json",
+      "name": "evaluate_world_model.py",
+      "sha256": "2c6d00f5ddd32b56dc0dec7ffcee695210f59bae495aebbd2857f04e9ba7390d",
+      "matches": [
+        "scripts/evaluate_world_model.py",
+        "artifacts/bc_v1_1/source_snapshot/scripts/evaluate_world_model.py",
+        "artifacts/bc_v1_2/source_snapshot/scripts/evaluate_world_model.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/evaluate_world_model.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1_1/provenance_interface.json",
+      "name": "snapshot_sources.py",
+      "sha256": "06f674218e1b2927b69a2c9ddf7c7593ca3f24952cc25debd90474a5bfc7d761",
+      "matches": [
+        "scripts/snapshot_sources.py",
+        "artifacts/bc_v1_1/source_snapshot/scripts/snapshot_sources.py",
+        "artifacts/bc_v1_2/source_snapshot/scripts/snapshot_sources.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/snapshot_sources.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1_1/provenance_interface.json",
+      "name": "contact_control.py",
+      "sha256": "f2ac1e4a9a1f025baec1afcf4141595d06090826a3aec3237c67273d0f9d62c7",
+      "matches": [
+        "scripts/contact_control.py",
+        "artifacts/bc_v1_1/source_snapshot/scripts/contact_control.py",
+        "artifacts/bc_v1_2/source_snapshot/scripts/contact_control.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/contact_control.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1_1/provenance_interface.json",
+      "name": "state_sac.py",
+      "sha256": "1a4092e6f52755399ac1e891680aaed44a855ff80badb7e0f298b4adf5a59f68",
+      "matches": [
+        "scripts/state_sac.py",
+        "artifacts/bc_v1_1/source_snapshot/scripts/state_sac.py",
+        "artifacts/bc_v1_2/source_snapshot/scripts/state_sac.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/state_sac.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1_1/provenance_witness.json",
+      "name": "archive_artifacts.py",
+      "sha256": "d37203a11d6bc16f450a819b82259f7a2b7d7130050037ddcc103c55e2afa7b3",
+      "matches": [
+        "scripts/archive_artifacts.py",
+        "artifacts/bc_v1_1/source_snapshot/scripts/archive_artifacts.py",
+        "artifacts/bc_v1_2/source_snapshot/scripts/archive_artifacts.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/archive_artifacts.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1_1/provenance_witness.json",
+      "name": "report_bc.py",
+      "sha256": "4e099abbad260e31fd8d4bb7de0a2ba6d3532b638c67d7346fd73a461f852611",
+      "matches": [
+        "artifacts/bc_v1_1/source_snapshot/scripts/report_bc.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1_1/provenance_witness.json",
+      "name": "verify_vendor.py",
+      "sha256": "04eb7b7fc70e5238747a9485e247e58493c4c2cc0cb695c2b67b72a979dfc0fe",
+      "matches": [
+        "scripts/verify_vendor.py",
+        "artifacts/bc_v1_1/source_snapshot/scripts/verify_vendor.py",
+        "artifacts/bc_v1_2/source_snapshot/scripts/verify_vendor.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/verify_vendor.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1_1/provenance_witness.json",
+      "name": "report_state_pilot.py",
+      "sha256": "cc0b9da0e9030e1347303751d1a3cc857ef6a2312dfb0b98b59dfa84e06789b6",
+      "matches": [
+        "scripts/report_state_pilot.py",
+        "artifacts/bc_v1_1/source_snapshot/scripts/report_state_pilot.py",
+        "artifacts/bc_v1_2/source_snapshot/scripts/report_state_pilot.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/report_state_pilot.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1_1/provenance_witness.json",
+      "name": "train_state_pilot.py",
+      "sha256": "ad97520371032f26f24126e5b71668c09089d5d067baf6ca4ad2902b702053a6",
+      "matches": [
+        "scripts/train_state_pilot.py",
+        "artifacts/bc_v1_1/source_snapshot/scripts/train_state_pilot.py",
+        "artifacts/bc_v1_2/source_snapshot/scripts/train_state_pilot.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/train_state_pilot.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1_1/provenance_witness.json",
+      "name": "diagnose_bc_state.py",
+      "sha256": "8a844cbd457033d9bdf49a807432830f3b53e0e94896799da748540601095989",
+      "matches": [
+        "scripts/diagnose_bc_state.py",
+        "artifacts/bc_v1_1/source_snapshot/scripts/diagnose_bc_state.py",
+        "artifacts/bc_v1_2/source_snapshot/scripts/diagnose_bc_state.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/diagnose_bc_state.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1_1/provenance_witness.json",
+      "name": "restore_artifacts.py",
+      "sha256": "46d438f1f06ffa802684421e943eddda38eff32a388eb07763a9446c57176d3a",
+      "matches": [
+        "scripts/restore_artifacts.py",
+        "artifacts/bc_v1_1/source_snapshot/scripts/restore_artifacts.py",
+        "artifacts/bc_v1_2/source_snapshot/scripts/restore_artifacts.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/restore_artifacts.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1_1/provenance_witness.json",
+      "name": "bc_pipeline.py",
+      "sha256": "2a8aea52ca928877c00d65271e5c30fe0b6094fda25c00613cfa728783bd0d4c",
+      "matches": [
+        "artifacts/bc_v1_1/source_snapshot/scripts/bc_pipeline.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1_1/provenance_witness.json",
+      "name": "legacy_evaluate_layouts.py",
+      "sha256": "eb3c482d9f506083e2717023caada661e0cdca866ab37788edb841865eeebff9",
+      "matches": [
+        "scripts/legacy_evaluate_layouts.py",
+        "artifacts/bc_v1_1/source_snapshot/scripts/legacy_evaluate_layouts.py",
+        "artifacts/bc_v1_2/source_snapshot/scripts/legacy_evaluate_layouts.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/legacy_evaluate_layouts.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1_1/provenance_witness.json",
+      "name": "episode_replay.py",
+      "sha256": "dbdfbbf1ab8b4ddd5a4100820c099804f371be995bfa6d37fb16ba44d60c7200",
+      "matches": [
+        "scripts/episode_replay.py",
+        "artifacts/bc_v1_1/source_snapshot/scripts/episode_replay.py",
+        "artifacts/bc_v1_2/source_snapshot/scripts/episode_replay.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/episode_replay.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1_1/provenance_witness.json",
+      "name": "audit_parameter_counts.py",
+      "sha256": "8c45fccd0fce8ad2b8607c9715833391f798ab84d423a25a48c40bfebb1527eb",
+      "matches": [
+        "scripts/audit_parameter_counts.py",
+        "artifacts/bc_v1_1/source_snapshot/scripts/audit_parameter_counts.py",
+        "artifacts/bc_v1_2/source_snapshot/scripts/audit_parameter_counts.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/audit_parameter_counts.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1_1/provenance_witness.json",
+      "name": "hab_state.py",
+      "sha256": "b1f0e9528b93e2eca91928a00284ec1c891bdb57176ca1b8ca62b7277cc9f9e4",
+      "matches": [
+        "scripts/hab_state.py",
+        "artifacts/bc_v1_1/source_snapshot/scripts/hab_state.py",
+        "artifacts/bc_v1_2/source_snapshot/scripts/hab_state.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/hab_state.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1_1/provenance_witness.json",
+      "name": "verify_run_sources.py",
+      "sha256": "d5a8f2f731ca63618520265ad98dcd07c90086097e6836fe5b0f2650bb909a8d",
+      "matches": [
+        "scripts/verify_run_sources.py",
+        "artifacts/bc_v1_1/source_snapshot/scripts/verify_run_sources.py",
+        "artifacts/bc_v1_2/source_snapshot/scripts/verify_run_sources.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/verify_run_sources.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1_1/provenance_witness.json",
+      "name": "contact_experiment.py",
+      "sha256": "022d311a35f42db25824b43b0345ef0376211f6ef91189726f8b101210e4a609",
+      "matches": [
+        "scripts/contact_experiment.py",
+        "artifacts/bc_v1_1/source_snapshot/scripts/contact_experiment.py",
+        "artifacts/bc_v1_2/source_snapshot/scripts/contact_experiment.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/contact_experiment.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1_1/provenance_witness.json",
+      "name": "report_contact.py",
+      "sha256": "0b5e0efc977fb00a0a37dc236371bf0f627b7ee4f4b49b1e02990f6616a48616",
+      "matches": [
+        "scripts/report_contact.py",
+        "artifacts/bc_v1_1/source_snapshot/scripts/report_contact.py",
+        "artifacts/bc_v1_2/source_snapshot/scripts/report_contact.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/report_contact.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1_1/provenance_witness.json",
+      "name": "status.py",
+      "sha256": "fe405c6c5644d9a69caecdd0ee6db2801178b655a2ff439e4c71cef40942e4d2",
+      "matches": [
+        "scripts/status.py",
+        "artifacts/bc_v1_1/source_snapshot/scripts/status.py",
+        "artifacts/bc_v1_2/source_snapshot/scripts/status.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/status.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1_1/provenance_witness.json",
+      "name": "audit_effective_config.py",
+      "sha256": "ca29145c43901da1aec596f4b274c6a07e319237fd78b44e3250c64ab61dadc0",
+      "matches": [
+        "scripts/audit_effective_config.py",
+        "artifacts/bc_v1_1/source_snapshot/scripts/audit_effective_config.py",
+        "artifacts/bc_v1_2/source_snapshot/scripts/audit_effective_config.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/audit_effective_config.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1_1/provenance_witness.json",
+      "name": "demo.py",
+      "sha256": "2d8dcad0f21cf7ac4450c3c941fcf75b10551579a98165f8687941fcf98568c3",
+      "matches": [
+        "scripts/demo.py",
+        "artifacts/bc_v1_1/source_snapshot/scripts/demo.py",
+        "artifacts/bc_v1_2/source_snapshot/scripts/demo.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/demo.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1_1/provenance_witness.json",
+      "name": "monitor_resources.py",
+      "sha256": "f455dadca9d1b6274f999f5a5f3a269af5683872c583e45f825de93e5c137ca2",
+      "matches": [
+        "scripts/monitor_resources.py",
+        "artifacts/bc_v1_1/source_snapshot/scripts/monitor_resources.py",
+        "artifacts/bc_v1_2/source_snapshot/scripts/monitor_resources.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/monitor_resources.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1_1/provenance_witness.json",
+      "name": "report_resources.py",
+      "sha256": "22fbb68fb9785aa604f1176bae2b9c18a900b942b5b16a240949e159668ed13b",
+      "matches": [
+        "scripts/report_resources.py",
+        "artifacts/bc_v1_1/source_snapshot/scripts/report_resources.py",
+        "artifacts/bc_v1_2/source_snapshot/scripts/report_resources.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/report_resources.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1_1/provenance_witness.json",
+      "name": "audit_observation_replay.py",
+      "sha256": "17a67ae18da8cca5c7c88979dd4c88969a767fc6f7fe19acd84aba842efa662d",
+      "matches": [
+        "scripts/audit_observation_replay.py",
+        "artifacts/bc_v1_1/source_snapshot/scripts/audit_observation_replay.py",
+        "artifacts/bc_v1_2/source_snapshot/scripts/audit_observation_replay.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/audit_observation_replay.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1_1/provenance_witness.json",
+      "name": "audit_demo_video.py",
+      "sha256": "912ead9de585c25f17b8c35d70220d8cd5198194bdb569841efedf7601ff0b60",
+      "matches": [
+        "scripts/audit_demo_video.py",
+        "artifacts/bc_v1_1/source_snapshot/scripts/audit_demo_video.py",
+        "artifacts/bc_v1_2/source_snapshot/scripts/audit_demo_video.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/audit_demo_video.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1_1/provenance_witness.json",
+      "name": "evaluate_world_model.py",
+      "sha256": "2c6d00f5ddd32b56dc0dec7ffcee695210f59bae495aebbd2857f04e9ba7390d",
+      "matches": [
+        "scripts/evaluate_world_model.py",
+        "artifacts/bc_v1_1/source_snapshot/scripts/evaluate_world_model.py",
+        "artifacts/bc_v1_2/source_snapshot/scripts/evaluate_world_model.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/evaluate_world_model.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1_1/provenance_witness.json",
+      "name": "snapshot_sources.py",
+      "sha256": "06f674218e1b2927b69a2c9ddf7c7593ca3f24952cc25debd90474a5bfc7d761",
+      "matches": [
+        "scripts/snapshot_sources.py",
+        "artifacts/bc_v1_1/source_snapshot/scripts/snapshot_sources.py",
+        "artifacts/bc_v1_2/source_snapshot/scripts/snapshot_sources.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/snapshot_sources.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1_1/provenance_witness.json",
+      "name": "contact_control.py",
+      "sha256": "f2ac1e4a9a1f025baec1afcf4141595d06090826a3aec3237c67273d0f9d62c7",
+      "matches": [
+        "scripts/contact_control.py",
+        "artifacts/bc_v1_1/source_snapshot/scripts/contact_control.py",
+        "artifacts/bc_v1_2/source_snapshot/scripts/contact_control.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/contact_control.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1_1/provenance_witness.json",
+      "name": "state_sac.py",
+      "sha256": "1a4092e6f52755399ac1e891680aaed44a855ff80badb7e0f298b4adf5a59f68",
+      "matches": [
+        "scripts/state_sac.py",
+        "artifacts/bc_v1_1/source_snapshot/scripts/state_sac.py",
+        "artifacts/bc_v1_2/source_snapshot/scripts/state_sac.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/state_sac.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1/provenance_witness.json",
+      "name": "archive_artifacts.py",
+      "sha256": "d37203a11d6bc16f450a819b82259f7a2b7d7130050037ddcc103c55e2afa7b3",
+      "matches": [
+        "scripts/archive_artifacts.py",
+        "artifacts/bc_v1_1/source_snapshot/scripts/archive_artifacts.py",
+        "artifacts/bc_v1_2/source_snapshot/scripts/archive_artifacts.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/archive_artifacts.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1/provenance_witness.json",
+      "name": "verify_vendor.py",
+      "sha256": "04eb7b7fc70e5238747a9485e247e58493c4c2cc0cb695c2b67b72a979dfc0fe",
+      "matches": [
+        "scripts/verify_vendor.py",
+        "artifacts/bc_v1_1/source_snapshot/scripts/verify_vendor.py",
+        "artifacts/bc_v1_2/source_snapshot/scripts/verify_vendor.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/verify_vendor.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1/provenance_witness.json",
+      "name": "report_state_pilot.py",
+      "sha256": "cc0b9da0e9030e1347303751d1a3cc857ef6a2312dfb0b98b59dfa84e06789b6",
+      "matches": [
+        "scripts/report_state_pilot.py",
+        "artifacts/bc_v1_1/source_snapshot/scripts/report_state_pilot.py",
+        "artifacts/bc_v1_2/source_snapshot/scripts/report_state_pilot.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/report_state_pilot.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1/provenance_witness.json",
+      "name": "train_state_pilot.py",
+      "sha256": "ad97520371032f26f24126e5b71668c09089d5d067baf6ca4ad2902b702053a6",
+      "matches": [
+        "scripts/train_state_pilot.py",
+        "artifacts/bc_v1_1/source_snapshot/scripts/train_state_pilot.py",
+        "artifacts/bc_v1_2/source_snapshot/scripts/train_state_pilot.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/train_state_pilot.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1/provenance_witness.json",
+      "name": "restore_artifacts.py",
+      "sha256": "46d438f1f06ffa802684421e943eddda38eff32a388eb07763a9446c57176d3a",
+      "matches": [
+        "scripts/restore_artifacts.py",
+        "artifacts/bc_v1_1/source_snapshot/scripts/restore_artifacts.py",
+        "artifacts/bc_v1_2/source_snapshot/scripts/restore_artifacts.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/restore_artifacts.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1/provenance_witness.json",
+      "name": "bc_pipeline.py",
+      "sha256": "091e2517c376abd52cc4c2c9d111b92af5c995134b942c88f5a4b4969fe6a097",
+      "matches": [
+        "artifacts/bc_v1/source_snapshot/bc_pipeline.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1/provenance_witness.json",
+      "name": "legacy_evaluate_layouts.py",
+      "sha256": "eb3c482d9f506083e2717023caada661e0cdca866ab37788edb841865eeebff9",
+      "matches": [
+        "scripts/legacy_evaluate_layouts.py",
+        "artifacts/bc_v1_1/source_snapshot/scripts/legacy_evaluate_layouts.py",
+        "artifacts/bc_v1_2/source_snapshot/scripts/legacy_evaluate_layouts.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/legacy_evaluate_layouts.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1/provenance_witness.json",
+      "name": "episode_replay.py",
+      "sha256": "dbdfbbf1ab8b4ddd5a4100820c099804f371be995bfa6d37fb16ba44d60c7200",
+      "matches": [
+        "scripts/episode_replay.py",
+        "artifacts/bc_v1_1/source_snapshot/scripts/episode_replay.py",
+        "artifacts/bc_v1_2/source_snapshot/scripts/episode_replay.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/episode_replay.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1/provenance_witness.json",
+      "name": "audit_parameter_counts.py",
+      "sha256": "8c45fccd0fce8ad2b8607c9715833391f798ab84d423a25a48c40bfebb1527eb",
+      "matches": [
+        "scripts/audit_parameter_counts.py",
+        "artifacts/bc_v1_1/source_snapshot/scripts/audit_parameter_counts.py",
+        "artifacts/bc_v1_2/source_snapshot/scripts/audit_parameter_counts.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/audit_parameter_counts.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1/provenance_witness.json",
+      "name": "hab_state.py",
+      "sha256": "b1f0e9528b93e2eca91928a00284ec1c891bdb57176ca1b8ca62b7277cc9f9e4",
+      "matches": [
+        "scripts/hab_state.py",
+        "artifacts/bc_v1_1/source_snapshot/scripts/hab_state.py",
+        "artifacts/bc_v1_2/source_snapshot/scripts/hab_state.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/hab_state.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1/provenance_witness.json",
+      "name": "verify_run_sources.py",
+      "sha256": "d5a8f2f731ca63618520265ad98dcd07c90086097e6836fe5b0f2650bb909a8d",
+      "matches": [
+        "scripts/verify_run_sources.py",
+        "artifacts/bc_v1_1/source_snapshot/scripts/verify_run_sources.py",
+        "artifacts/bc_v1_2/source_snapshot/scripts/verify_run_sources.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/verify_run_sources.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1/provenance_witness.json",
+      "name": "contact_experiment.py",
+      "sha256": "022d311a35f42db25824b43b0345ef0376211f6ef91189726f8b101210e4a609",
+      "matches": [
+        "scripts/contact_experiment.py",
+        "artifacts/bc_v1_1/source_snapshot/scripts/contact_experiment.py",
+        "artifacts/bc_v1_2/source_snapshot/scripts/contact_experiment.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/contact_experiment.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1/provenance_witness.json",
+      "name": "report_contact.py",
+      "sha256": "0b5e0efc977fb00a0a37dc236371bf0f627b7ee4f4b49b1e02990f6616a48616",
+      "matches": [
+        "scripts/report_contact.py",
+        "artifacts/bc_v1_1/source_snapshot/scripts/report_contact.py",
+        "artifacts/bc_v1_2/source_snapshot/scripts/report_contact.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/report_contact.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1/provenance_witness.json",
+      "name": "status.py",
+      "sha256": "fe405c6c5644d9a69caecdd0ee6db2801178b655a2ff439e4c71cef40942e4d2",
+      "matches": [
+        "scripts/status.py",
+        "artifacts/bc_v1_1/source_snapshot/scripts/status.py",
+        "artifacts/bc_v1_2/source_snapshot/scripts/status.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/status.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1/provenance_witness.json",
+      "name": "audit_effective_config.py",
+      "sha256": "ca29145c43901da1aec596f4b274c6a07e319237fd78b44e3250c64ab61dadc0",
+      "matches": [
+        "scripts/audit_effective_config.py",
+        "artifacts/bc_v1_1/source_snapshot/scripts/audit_effective_config.py",
+        "artifacts/bc_v1_2/source_snapshot/scripts/audit_effective_config.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/audit_effective_config.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1/provenance_witness.json",
+      "name": "demo.py",
+      "sha256": "2d8dcad0f21cf7ac4450c3c941fcf75b10551579a98165f8687941fcf98568c3",
+      "matches": [
+        "scripts/demo.py",
+        "artifacts/bc_v1_1/source_snapshot/scripts/demo.py",
+        "artifacts/bc_v1_2/source_snapshot/scripts/demo.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/demo.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1/provenance_witness.json",
+      "name": "monitor_resources.py",
+      "sha256": "f455dadca9d1b6274f999f5a5f3a269af5683872c583e45f825de93e5c137ca2",
+      "matches": [
+        "scripts/monitor_resources.py",
+        "artifacts/bc_v1_1/source_snapshot/scripts/monitor_resources.py",
+        "artifacts/bc_v1_2/source_snapshot/scripts/monitor_resources.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/monitor_resources.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1/provenance_witness.json",
+      "name": "report_resources.py",
+      "sha256": "22fbb68fb9785aa604f1176bae2b9c18a900b942b5b16a240949e159668ed13b",
+      "matches": [
+        "scripts/report_resources.py",
+        "artifacts/bc_v1_1/source_snapshot/scripts/report_resources.py",
+        "artifacts/bc_v1_2/source_snapshot/scripts/report_resources.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/report_resources.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1/provenance_witness.json",
+      "name": "audit_observation_replay.py",
+      "sha256": "17a67ae18da8cca5c7c88979dd4c88969a767fc6f7fe19acd84aba842efa662d",
+      "matches": [
+        "scripts/audit_observation_replay.py",
+        "artifacts/bc_v1_1/source_snapshot/scripts/audit_observation_replay.py",
+        "artifacts/bc_v1_2/source_snapshot/scripts/audit_observation_replay.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/audit_observation_replay.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1/provenance_witness.json",
+      "name": "audit_demo_video.py",
+      "sha256": "912ead9de585c25f17b8c35d70220d8cd5198194bdb569841efedf7601ff0b60",
+      "matches": [
+        "scripts/audit_demo_video.py",
+        "artifacts/bc_v1_1/source_snapshot/scripts/audit_demo_video.py",
+        "artifacts/bc_v1_2/source_snapshot/scripts/audit_demo_video.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/audit_demo_video.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1/provenance_witness.json",
+      "name": "evaluate_world_model.py",
+      "sha256": "2c6d00f5ddd32b56dc0dec7ffcee695210f59bae495aebbd2857f04e9ba7390d",
+      "matches": [
+        "scripts/evaluate_world_model.py",
+        "artifacts/bc_v1_1/source_snapshot/scripts/evaluate_world_model.py",
+        "artifacts/bc_v1_2/source_snapshot/scripts/evaluate_world_model.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/evaluate_world_model.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1/provenance_witness.json",
+      "name": "snapshot_sources.py",
+      "sha256": "06f674218e1b2927b69a2c9ddf7c7593ca3f24952cc25debd90474a5bfc7d761",
+      "matches": [
+        "scripts/snapshot_sources.py",
+        "artifacts/bc_v1_1/source_snapshot/scripts/snapshot_sources.py",
+        "artifacts/bc_v1_2/source_snapshot/scripts/snapshot_sources.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/snapshot_sources.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1/provenance_witness.json",
+      "name": "contact_control.py",
+      "sha256": "f2ac1e4a9a1f025baec1afcf4141595d06090826a3aec3237c67273d0f9d62c7",
+      "matches": [
+        "scripts/contact_control.py",
+        "artifacts/bc_v1_1/source_snapshot/scripts/contact_control.py",
+        "artifacts/bc_v1_2/source_snapshot/scripts/contact_control.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/contact_control.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1/provenance_witness.json",
+      "name": "state_sac.py",
+      "sha256": "1a4092e6f52755399ac1e891680aaed44a855ff80badb7e0f298b4adf5a59f68",
+      "matches": [
+        "scripts/state_sac.py",
+        "artifacts/bc_v1_1/source_snapshot/scripts/state_sac.py",
+        "artifacts/bc_v1_2/source_snapshot/scripts/state_sac.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/state_sac.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1_2/provenance_witness.json",
+      "name": "archive_artifacts.py",
+      "sha256": "d37203a11d6bc16f450a819b82259f7a2b7d7130050037ddcc103c55e2afa7b3",
+      "matches": [
+        "scripts/archive_artifacts.py",
+        "artifacts/bc_v1_1/source_snapshot/scripts/archive_artifacts.py",
+        "artifacts/bc_v1_2/source_snapshot/scripts/archive_artifacts.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/archive_artifacts.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1_2/provenance_witness.json",
+      "name": "report_bc.py",
+      "sha256": "8f169a0f49fd7e32fc715a02cd288a179d67188efa83bf66ba419f532e312170",
+      "matches": [
+        "artifacts/bc_v1_2/source_snapshot/scripts/report_bc.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/report_bc.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1_2/provenance_witness.json",
+      "name": "verify_vendor.py",
+      "sha256": "04eb7b7fc70e5238747a9485e247e58493c4c2cc0cb695c2b67b72a979dfc0fe",
+      "matches": [
+        "scripts/verify_vendor.py",
+        "artifacts/bc_v1_1/source_snapshot/scripts/verify_vendor.py",
+        "artifacts/bc_v1_2/source_snapshot/scripts/verify_vendor.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/verify_vendor.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1_2/provenance_witness.json",
+      "name": "report_state_pilot.py",
+      "sha256": "cc0b9da0e9030e1347303751d1a3cc857ef6a2312dfb0b98b59dfa84e06789b6",
+      "matches": [
+        "scripts/report_state_pilot.py",
+        "artifacts/bc_v1_1/source_snapshot/scripts/report_state_pilot.py",
+        "artifacts/bc_v1_2/source_snapshot/scripts/report_state_pilot.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/report_state_pilot.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1_2/provenance_witness.json",
+      "name": "train_state_pilot.py",
+      "sha256": "ad97520371032f26f24126e5b71668c09089d5d067baf6ca4ad2902b702053a6",
+      "matches": [
+        "scripts/train_state_pilot.py",
+        "artifacts/bc_v1_1/source_snapshot/scripts/train_state_pilot.py",
+        "artifacts/bc_v1_2/source_snapshot/scripts/train_state_pilot.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/train_state_pilot.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1_2/provenance_witness.json",
+      "name": "audit_bc_sources.py",
+      "sha256": "f2c409cc699fd80685c7d38142d919c778f929c5daeb69fc52dfd9b46acb188f",
+      "matches": [
+        "artifacts/bc_v1_2/source_snapshot/scripts/audit_bc_sources.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/audit_bc_sources.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1_2/provenance_witness.json",
+      "name": "diagnose_bc_state.py",
+      "sha256": "8a844cbd457033d9bdf49a807432830f3b53e0e94896799da748540601095989",
+      "matches": [
+        "scripts/diagnose_bc_state.py",
+        "artifacts/bc_v1_1/source_snapshot/scripts/diagnose_bc_state.py",
+        "artifacts/bc_v1_2/source_snapshot/scripts/diagnose_bc_state.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/diagnose_bc_state.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1_2/provenance_witness.json",
+      "name": "restore_artifacts.py",
+      "sha256": "46d438f1f06ffa802684421e943eddda38eff32a388eb07763a9446c57176d3a",
+      "matches": [
+        "scripts/restore_artifacts.py",
+        "artifacts/bc_v1_1/source_snapshot/scripts/restore_artifacts.py",
+        "artifacts/bc_v1_2/source_snapshot/scripts/restore_artifacts.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/restore_artifacts.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1_2/provenance_witness.json",
+      "name": "bc_pipeline.py",
+      "sha256": "6aaf33432549e124dd3ed0d2da19dd54f64ad64f11a68e42a81a6d23be24c0f5",
+      "matches": [
+        "scripts/bc_pipeline.py",
+        "artifacts/bc_v1_2/source_snapshot/scripts/bc_pipeline.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/bc_pipeline.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1_2/provenance_witness.json",
+      "name": "legacy_evaluate_layouts.py",
+      "sha256": "eb3c482d9f506083e2717023caada661e0cdca866ab37788edb841865eeebff9",
+      "matches": [
+        "scripts/legacy_evaluate_layouts.py",
+        "artifacts/bc_v1_1/source_snapshot/scripts/legacy_evaluate_layouts.py",
+        "artifacts/bc_v1_2/source_snapshot/scripts/legacy_evaluate_layouts.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/legacy_evaluate_layouts.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1_2/provenance_witness.json",
+      "name": "episode_replay.py",
+      "sha256": "dbdfbbf1ab8b4ddd5a4100820c099804f371be995bfa6d37fb16ba44d60c7200",
+      "matches": [
+        "scripts/episode_replay.py",
+        "artifacts/bc_v1_1/source_snapshot/scripts/episode_replay.py",
+        "artifacts/bc_v1_2/source_snapshot/scripts/episode_replay.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/episode_replay.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1_2/provenance_witness.json",
+      "name": "audit_parameter_counts.py",
+      "sha256": "8c45fccd0fce8ad2b8607c9715833391f798ab84d423a25a48c40bfebb1527eb",
+      "matches": [
+        "scripts/audit_parameter_counts.py",
+        "artifacts/bc_v1_1/source_snapshot/scripts/audit_parameter_counts.py",
+        "artifacts/bc_v1_2/source_snapshot/scripts/audit_parameter_counts.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/audit_parameter_counts.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1_2/provenance_witness.json",
+      "name": "hab_state.py",
+      "sha256": "b1f0e9528b93e2eca91928a00284ec1c891bdb57176ca1b8ca62b7277cc9f9e4",
+      "matches": [
+        "scripts/hab_state.py",
+        "artifacts/bc_v1_1/source_snapshot/scripts/hab_state.py",
+        "artifacts/bc_v1_2/source_snapshot/scripts/hab_state.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/hab_state.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1_2/provenance_witness.json",
+      "name": "verify_run_sources.py",
+      "sha256": "d5a8f2f731ca63618520265ad98dcd07c90086097e6836fe5b0f2650bb909a8d",
+      "matches": [
+        "scripts/verify_run_sources.py",
+        "artifacts/bc_v1_1/source_snapshot/scripts/verify_run_sources.py",
+        "artifacts/bc_v1_2/source_snapshot/scripts/verify_run_sources.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/verify_run_sources.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1_2/provenance_witness.json",
+      "name": "contact_experiment.py",
+      "sha256": "022d311a35f42db25824b43b0345ef0376211f6ef91189726f8b101210e4a609",
+      "matches": [
+        "scripts/contact_experiment.py",
+        "artifacts/bc_v1_1/source_snapshot/scripts/contact_experiment.py",
+        "artifacts/bc_v1_2/source_snapshot/scripts/contact_experiment.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/contact_experiment.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1_2/provenance_witness.json",
+      "name": "write_bc_chinese.py",
+      "sha256": "aa74d1df6421a85735d038c7e971a146c684f3e90c6db60dcb71bd412b80b49d",
+      "matches": [
+        "artifacts/bc_v1_2/source_snapshot/scripts/write_bc_chinese.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/write_bc_chinese.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1_2/provenance_witness.json",
+      "name": "report_bc_resources.py",
+      "sha256": "f8777821a200116a383844a93a0c7b88e40eeb384fd71dce3474cca07b8436e0",
+      "matches": [
+        "scripts/report_bc_resources.py",
+        "artifacts/bc_v1_2/source_snapshot/scripts/report_bc_resources.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/report_bc_resources.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1_2/provenance_witness.json",
+      "name": "report_contact.py",
+      "sha256": "0b5e0efc977fb00a0a37dc236371bf0f627b7ee4f4b49b1e02990f6616a48616",
+      "matches": [
+        "scripts/report_contact.py",
+        "artifacts/bc_v1_1/source_snapshot/scripts/report_contact.py",
+        "artifacts/bc_v1_2/source_snapshot/scripts/report_contact.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/report_contact.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1_2/provenance_witness.json",
+      "name": "status.py",
+      "sha256": "fe405c6c5644d9a69caecdd0ee6db2801178b655a2ff439e4c71cef40942e4d2",
+      "matches": [
+        "scripts/status.py",
+        "artifacts/bc_v1_1/source_snapshot/scripts/status.py",
+        "artifacts/bc_v1_2/source_snapshot/scripts/status.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/status.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1_2/provenance_witness.json",
+      "name": "bc_spawn_inventory.py",
+      "sha256": "5ad28da0b70c41d7220956438350fb246f90242d7714dbedb59ccc8f45f7d60f",
+      "matches": [
+        "scripts/bc_spawn_inventory.py",
+        "artifacts/bc_v1_1/source_snapshot/scripts/bc_spawn_inventory.py",
+        "artifacts/bc_v1_2/source_snapshot/scripts/bc_spawn_inventory.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/bc_spawn_inventory.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1_2/provenance_witness.json",
+      "name": "audit_effective_config.py",
+      "sha256": "ca29145c43901da1aec596f4b274c6a07e319237fd78b44e3250c64ab61dadc0",
+      "matches": [
+        "scripts/audit_effective_config.py",
+        "artifacts/bc_v1_1/source_snapshot/scripts/audit_effective_config.py",
+        "artifacts/bc_v1_2/source_snapshot/scripts/audit_effective_config.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/audit_effective_config.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1_2/provenance_witness.json",
+      "name": "bc_status.py",
+      "sha256": "2d154649e6ad496e0ece1e5db28edf1d2aacd75f569efd79077000394826eff7",
+      "matches": [
+        "scripts/bc_status.py",
+        "artifacts/bc_v1_2/source_snapshot/scripts/bc_status.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/bc_status.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1_2/provenance_witness.json",
+      "name": "demo.py",
+      "sha256": "2d8dcad0f21cf7ac4450c3c941fcf75b10551579a98165f8687941fcf98568c3",
+      "matches": [
+        "scripts/demo.py",
+        "artifacts/bc_v1_1/source_snapshot/scripts/demo.py",
+        "artifacts/bc_v1_2/source_snapshot/scripts/demo.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/demo.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1_2/provenance_witness.json",
+      "name": "monitor_resources.py",
+      "sha256": "f455dadca9d1b6274f999f5a5f3a269af5683872c583e45f825de93e5c137ca2",
+      "matches": [
+        "scripts/monitor_resources.py",
+        "artifacts/bc_v1_1/source_snapshot/scripts/monitor_resources.py",
+        "artifacts/bc_v1_2/source_snapshot/scripts/monitor_resources.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/monitor_resources.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1_2/provenance_witness.json",
+      "name": "report_resources.py",
+      "sha256": "22fbb68fb9785aa604f1176bae2b9c18a900b942b5b16a240949e159668ed13b",
+      "matches": [
+        "scripts/report_resources.py",
+        "artifacts/bc_v1_1/source_snapshot/scripts/report_resources.py",
+        "artifacts/bc_v1_2/source_snapshot/scripts/report_resources.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/report_resources.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1_2/provenance_witness.json",
+      "name": "audit_observation_replay.py",
+      "sha256": "17a67ae18da8cca5c7c88979dd4c88969a767fc6f7fe19acd84aba842efa662d",
+      "matches": [
+        "scripts/audit_observation_replay.py",
+        "artifacts/bc_v1_1/source_snapshot/scripts/audit_observation_replay.py",
+        "artifacts/bc_v1_2/source_snapshot/scripts/audit_observation_replay.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/audit_observation_replay.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1_2/provenance_witness.json",
+      "name": "audit_demo_video.py",
+      "sha256": "912ead9de585c25f17b8c35d70220d8cd5198194bdb569841efedf7601ff0b60",
+      "matches": [
+        "scripts/audit_demo_video.py",
+        "artifacts/bc_v1_1/source_snapshot/scripts/audit_demo_video.py",
+        "artifacts/bc_v1_2/source_snapshot/scripts/audit_demo_video.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/audit_demo_video.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1_2/provenance_witness.json",
+      "name": "evaluate_world_model.py",
+      "sha256": "2c6d00f5ddd32b56dc0dec7ffcee695210f59bae495aebbd2857f04e9ba7390d",
+      "matches": [
+        "scripts/evaluate_world_model.py",
+        "artifacts/bc_v1_1/source_snapshot/scripts/evaluate_world_model.py",
+        "artifacts/bc_v1_2/source_snapshot/scripts/evaluate_world_model.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/evaluate_world_model.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1_2/provenance_witness.json",
+      "name": "snapshot_sources.py",
+      "sha256": "06f674218e1b2927b69a2c9ddf7c7593ca3f24952cc25debd90474a5bfc7d761",
+      "matches": [
+        "scripts/snapshot_sources.py",
+        "artifacts/bc_v1_1/source_snapshot/scripts/snapshot_sources.py",
+        "artifacts/bc_v1_2/source_snapshot/scripts/snapshot_sources.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/snapshot_sources.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1_2/provenance_witness.json",
+      "name": "contact_control.py",
+      "sha256": "f2ac1e4a9a1f025baec1afcf4141595d06090826a3aec3237c67273d0f9d62c7",
+      "matches": [
+        "scripts/contact_control.py",
+        "artifacts/bc_v1_1/source_snapshot/scripts/contact_control.py",
+        "artifacts/bc_v1_2/source_snapshot/scripts/contact_control.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/contact_control.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1_2/provenance_witness.json",
+      "name": "state_sac.py",
+      "sha256": "1a4092e6f52755399ac1e891680aaed44a855ff80badb7e0f298b4adf5a59f68",
+      "matches": [
+        "scripts/state_sac.py",
+        "artifacts/bc_v1_1/source_snapshot/scripts/state_sac.py",
+        "artifacts/bc_v1_2/source_snapshot/scripts/state_sac.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/state_sac.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1_2/provenance_train.json",
+      "name": "archive_artifacts.py",
+      "sha256": "d37203a11d6bc16f450a819b82259f7a2b7d7130050037ddcc103c55e2afa7b3",
+      "matches": [
+        "scripts/archive_artifacts.py",
+        "artifacts/bc_v1_1/source_snapshot/scripts/archive_artifacts.py",
+        "artifacts/bc_v1_2/source_snapshot/scripts/archive_artifacts.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/archive_artifacts.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1_2/provenance_train.json",
+      "name": "report_bc.py",
+      "sha256": "8f169a0f49fd7e32fc715a02cd288a179d67188efa83bf66ba419f532e312170",
+      "matches": [
+        "artifacts/bc_v1_2/source_snapshot/scripts/report_bc.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/report_bc.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1_2/provenance_train.json",
+      "name": "verify_vendor.py",
+      "sha256": "04eb7b7fc70e5238747a9485e247e58493c4c2cc0cb695c2b67b72a979dfc0fe",
+      "matches": [
+        "scripts/verify_vendor.py",
+        "artifacts/bc_v1_1/source_snapshot/scripts/verify_vendor.py",
+        "artifacts/bc_v1_2/source_snapshot/scripts/verify_vendor.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/verify_vendor.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1_2/provenance_train.json",
+      "name": "report_state_pilot.py",
+      "sha256": "cc0b9da0e9030e1347303751d1a3cc857ef6a2312dfb0b98b59dfa84e06789b6",
+      "matches": [
+        "scripts/report_state_pilot.py",
+        "artifacts/bc_v1_1/source_snapshot/scripts/report_state_pilot.py",
+        "artifacts/bc_v1_2/source_snapshot/scripts/report_state_pilot.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/report_state_pilot.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1_2/provenance_train.json",
+      "name": "train_state_pilot.py",
+      "sha256": "ad97520371032f26f24126e5b71668c09089d5d067baf6ca4ad2902b702053a6",
+      "matches": [
+        "scripts/train_state_pilot.py",
+        "artifacts/bc_v1_1/source_snapshot/scripts/train_state_pilot.py",
+        "artifacts/bc_v1_2/source_snapshot/scripts/train_state_pilot.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/train_state_pilot.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1_2/provenance_train.json",
+      "name": "write_bc_semantics.py",
+      "sha256": "63a2550833f9f56bfd6a4fefe0625e8269d305b9bd8622332cfd545838424a2d",
+      "matches": [
+        "scripts/write_bc_semantics.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/write_bc_semantics.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1_2/provenance_train.json",
+      "name": "audit_bc_sources.py",
+      "sha256": "f2c409cc699fd80685c7d38142d919c778f929c5daeb69fc52dfd9b46acb188f",
+      "matches": [
+        "artifacts/bc_v1_2/source_snapshot/scripts/audit_bc_sources.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/audit_bc_sources.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1_2/provenance_train.json",
+      "name": "diagnose_bc_state.py",
+      "sha256": "8a844cbd457033d9bdf49a807432830f3b53e0e94896799da748540601095989",
+      "matches": [
+        "scripts/diagnose_bc_state.py",
+        "artifacts/bc_v1_1/source_snapshot/scripts/diagnose_bc_state.py",
+        "artifacts/bc_v1_2/source_snapshot/scripts/diagnose_bc_state.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/diagnose_bc_state.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1_2/provenance_train.json",
+      "name": "restore_artifacts.py",
+      "sha256": "46d438f1f06ffa802684421e943eddda38eff32a388eb07763a9446c57176d3a",
+      "matches": [
+        "scripts/restore_artifacts.py",
+        "artifacts/bc_v1_1/source_snapshot/scripts/restore_artifacts.py",
+        "artifacts/bc_v1_2/source_snapshot/scripts/restore_artifacts.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/restore_artifacts.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1_2/provenance_train.json",
+      "name": "bc_pipeline.py",
+      "sha256": "6aaf33432549e124dd3ed0d2da19dd54f64ad64f11a68e42a81a6d23be24c0f5",
+      "matches": [
+        "scripts/bc_pipeline.py",
+        "artifacts/bc_v1_2/source_snapshot/scripts/bc_pipeline.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/bc_pipeline.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1_2/provenance_train.json",
+      "name": "legacy_evaluate_layouts.py",
+      "sha256": "eb3c482d9f506083e2717023caada661e0cdca866ab37788edb841865eeebff9",
+      "matches": [
+        "scripts/legacy_evaluate_layouts.py",
+        "artifacts/bc_v1_1/source_snapshot/scripts/legacy_evaluate_layouts.py",
+        "artifacts/bc_v1_2/source_snapshot/scripts/legacy_evaluate_layouts.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/legacy_evaluate_layouts.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1_2/provenance_train.json",
+      "name": "episode_replay.py",
+      "sha256": "dbdfbbf1ab8b4ddd5a4100820c099804f371be995bfa6d37fb16ba44d60c7200",
+      "matches": [
+        "scripts/episode_replay.py",
+        "artifacts/bc_v1_1/source_snapshot/scripts/episode_replay.py",
+        "artifacts/bc_v1_2/source_snapshot/scripts/episode_replay.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/episode_replay.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1_2/provenance_train.json",
+      "name": "audit_parameter_counts.py",
+      "sha256": "8c45fccd0fce8ad2b8607c9715833391f798ab84d423a25a48c40bfebb1527eb",
+      "matches": [
+        "scripts/audit_parameter_counts.py",
+        "artifacts/bc_v1_1/source_snapshot/scripts/audit_parameter_counts.py",
+        "artifacts/bc_v1_2/source_snapshot/scripts/audit_parameter_counts.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/audit_parameter_counts.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1_2/provenance_train.json",
+      "name": "hab_state.py",
+      "sha256": "b1f0e9528b93e2eca91928a00284ec1c891bdb57176ca1b8ca62b7277cc9f9e4",
+      "matches": [
+        "scripts/hab_state.py",
+        "artifacts/bc_v1_1/source_snapshot/scripts/hab_state.py",
+        "artifacts/bc_v1_2/source_snapshot/scripts/hab_state.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/hab_state.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1_2/provenance_train.json",
+      "name": "verify_run_sources.py",
+      "sha256": "d5a8f2f731ca63618520265ad98dcd07c90086097e6836fe5b0f2650bb909a8d",
+      "matches": [
+        "scripts/verify_run_sources.py",
+        "artifacts/bc_v1_1/source_snapshot/scripts/verify_run_sources.py",
+        "artifacts/bc_v1_2/source_snapshot/scripts/verify_run_sources.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/verify_run_sources.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1_2/provenance_train.json",
+      "name": "audit_bc_training.py",
+      "sha256": "6b937013bf36ecae7df524cb420a9d90f6aff9e25acaf44c6e65f1896d9093fe",
+      "matches": [
+        "scripts/audit_bc_training.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/audit_bc_training.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1_2/provenance_train.json",
+      "name": "contact_experiment.py",
+      "sha256": "022d311a35f42db25824b43b0345ef0376211f6ef91189726f8b101210e4a609",
+      "matches": [
+        "scripts/contact_experiment.py",
+        "artifacts/bc_v1_1/source_snapshot/scripts/contact_experiment.py",
+        "artifacts/bc_v1_2/source_snapshot/scripts/contact_experiment.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/contact_experiment.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1_2/provenance_train.json",
+      "name": "write_bc_chinese.py",
+      "sha256": "aa74d1df6421a85735d038c7e971a146c684f3e90c6db60dcb71bd412b80b49d",
+      "matches": [
+        "artifacts/bc_v1_2/source_snapshot/scripts/write_bc_chinese.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/write_bc_chinese.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1_2/provenance_train.json",
+      "name": "report_bc_resources.py",
+      "sha256": "f8777821a200116a383844a93a0c7b88e40eeb384fd71dce3474cca07b8436e0",
+      "matches": [
+        "scripts/report_bc_resources.py",
+        "artifacts/bc_v1_2/source_snapshot/scripts/report_bc_resources.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/report_bc_resources.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1_2/provenance_train.json",
+      "name": "report_contact.py",
+      "sha256": "0b5e0efc977fb00a0a37dc236371bf0f627b7ee4f4b49b1e02990f6616a48616",
+      "matches": [
+        "scripts/report_contact.py",
+        "artifacts/bc_v1_1/source_snapshot/scripts/report_contact.py",
+        "artifacts/bc_v1_2/source_snapshot/scripts/report_contact.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/report_contact.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1_2/provenance_train.json",
+      "name": "audit_bc_interface.py",
+      "sha256": "049dc1e21ca42b7ce4e3ff179bb53bd4490934e0fb5f2f6929674b9a01903ab6",
+      "matches": [
+        "scripts/audit_bc_interface.py",
+        "artifacts/bc_v1_2/source_snapshot/scripts/audit_bc_interface.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/audit_bc_interface.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1_2/provenance_train.json",
+      "name": "status.py",
+      "sha256": "fe405c6c5644d9a69caecdd0ee6db2801178b655a2ff439e4c71cef40942e4d2",
+      "matches": [
+        "scripts/status.py",
+        "artifacts/bc_v1_1/source_snapshot/scripts/status.py",
+        "artifacts/bc_v1_2/source_snapshot/scripts/status.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/status.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1_2/provenance_train.json",
+      "name": "bc_spawn_inventory.py",
+      "sha256": "5ad28da0b70c41d7220956438350fb246f90242d7714dbedb59ccc8f45f7d60f",
+      "matches": [
+        "scripts/bc_spawn_inventory.py",
+        "artifacts/bc_v1_1/source_snapshot/scripts/bc_spawn_inventory.py",
+        "artifacts/bc_v1_2/source_snapshot/scripts/bc_spawn_inventory.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/bc_spawn_inventory.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1_2/provenance_train.json",
+      "name": "audit_effective_config.py",
+      "sha256": "ca29145c43901da1aec596f4b274c6a07e319237fd78b44e3250c64ab61dadc0",
+      "matches": [
+        "scripts/audit_effective_config.py",
+        "artifacts/bc_v1_1/source_snapshot/scripts/audit_effective_config.py",
+        "artifacts/bc_v1_2/source_snapshot/scripts/audit_effective_config.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/audit_effective_config.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1_2/provenance_train.json",
+      "name": "bc_status.py",
+      "sha256": "2d154649e6ad496e0ece1e5db28edf1d2aacd75f569efd79077000394826eff7",
+      "matches": [
+        "scripts/bc_status.py",
+        "artifacts/bc_v1_2/source_snapshot/scripts/bc_status.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/bc_status.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1_2/provenance_train.json",
+      "name": "demo.py",
+      "sha256": "2d8dcad0f21cf7ac4450c3c941fcf75b10551579a98165f8687941fcf98568c3",
+      "matches": [
+        "scripts/demo.py",
+        "artifacts/bc_v1_1/source_snapshot/scripts/demo.py",
+        "artifacts/bc_v1_2/source_snapshot/scripts/demo.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/demo.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1_2/provenance_train.json",
+      "name": "monitor_resources.py",
+      "sha256": "f455dadca9d1b6274f999f5a5f3a269af5683872c583e45f825de93e5c137ca2",
+      "matches": [
+        "scripts/monitor_resources.py",
+        "artifacts/bc_v1_1/source_snapshot/scripts/monitor_resources.py",
+        "artifacts/bc_v1_2/source_snapshot/scripts/monitor_resources.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/monitor_resources.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1_2/provenance_train.json",
+      "name": "report_resources.py",
+      "sha256": "22fbb68fb9785aa604f1176bae2b9c18a900b942b5b16a240949e159668ed13b",
+      "matches": [
+        "scripts/report_resources.py",
+        "artifacts/bc_v1_1/source_snapshot/scripts/report_resources.py",
+        "artifacts/bc_v1_2/source_snapshot/scripts/report_resources.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/report_resources.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1_2/provenance_train.json",
+      "name": "audit_observation_replay.py",
+      "sha256": "17a67ae18da8cca5c7c88979dd4c88969a767fc6f7fe19acd84aba842efa662d",
+      "matches": [
+        "scripts/audit_observation_replay.py",
+        "artifacts/bc_v1_1/source_snapshot/scripts/audit_observation_replay.py",
+        "artifacts/bc_v1_2/source_snapshot/scripts/audit_observation_replay.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/audit_observation_replay.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1_2/provenance_train.json",
+      "name": "audit_demo_video.py",
+      "sha256": "912ead9de585c25f17b8c35d70220d8cd5198194bdb569841efedf7601ff0b60",
+      "matches": [
+        "scripts/audit_demo_video.py",
+        "artifacts/bc_v1_1/source_snapshot/scripts/audit_demo_video.py",
+        "artifacts/bc_v1_2/source_snapshot/scripts/audit_demo_video.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/audit_demo_video.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1_2/provenance_train.json",
+      "name": "evaluate_world_model.py",
+      "sha256": "2c6d00f5ddd32b56dc0dec7ffcee695210f59bae495aebbd2857f04e9ba7390d",
+      "matches": [
+        "scripts/evaluate_world_model.py",
+        "artifacts/bc_v1_1/source_snapshot/scripts/evaluate_world_model.py",
+        "artifacts/bc_v1_2/source_snapshot/scripts/evaluate_world_model.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/evaluate_world_model.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1_2/provenance_train.json",
+      "name": "audit_bc_semantics.py",
+      "sha256": "f4380925167590a213bdd2cb2128191ce4142ce12045d22a08a1ed01c2489817",
+      "matches": [
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/audit_bc_semantics.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1_2/provenance_train.json",
+      "name": "snapshot_sources.py",
+      "sha256": "06f674218e1b2927b69a2c9ddf7c7593ca3f24952cc25debd90474a5bfc7d761",
+      "matches": [
+        "scripts/snapshot_sources.py",
+        "artifacts/bc_v1_1/source_snapshot/scripts/snapshot_sources.py",
+        "artifacts/bc_v1_2/source_snapshot/scripts/snapshot_sources.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/snapshot_sources.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1_2/provenance_train.json",
+      "name": "contact_control.py",
+      "sha256": "f2ac1e4a9a1f025baec1afcf4141595d06090826a3aec3237c67273d0f9d62c7",
+      "matches": [
+        "scripts/contact_control.py",
+        "artifacts/bc_v1_1/source_snapshot/scripts/contact_control.py",
+        "artifacts/bc_v1_2/source_snapshot/scripts/contact_control.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/contact_control.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1_2/provenance_train.json",
+      "name": "state_sac.py",
+      "sha256": "1a4092e6f52755399ac1e891680aaed44a855ff80badb7e0f298b4adf5a59f68",
+      "matches": [
+        "scripts/state_sac.py",
+        "artifacts/bc_v1_1/source_snapshot/scripts/state_sac.py",
+        "artifacts/bc_v1_2/source_snapshot/scripts/state_sac.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/state_sac.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1_2/provenance_collect.json",
+      "name": "archive_artifacts.py",
+      "sha256": "d37203a11d6bc16f450a819b82259f7a2b7d7130050037ddcc103c55e2afa7b3",
+      "matches": [
+        "scripts/archive_artifacts.py",
+        "artifacts/bc_v1_1/source_snapshot/scripts/archive_artifacts.py",
+        "artifacts/bc_v1_2/source_snapshot/scripts/archive_artifacts.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/archive_artifacts.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1_2/provenance_collect.json",
+      "name": "report_bc.py",
+      "sha256": "8f169a0f49fd7e32fc715a02cd288a179d67188efa83bf66ba419f532e312170",
+      "matches": [
+        "artifacts/bc_v1_2/source_snapshot/scripts/report_bc.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/report_bc.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1_2/provenance_collect.json",
+      "name": "verify_vendor.py",
+      "sha256": "04eb7b7fc70e5238747a9485e247e58493c4c2cc0cb695c2b67b72a979dfc0fe",
+      "matches": [
+        "scripts/verify_vendor.py",
+        "artifacts/bc_v1_1/source_snapshot/scripts/verify_vendor.py",
+        "artifacts/bc_v1_2/source_snapshot/scripts/verify_vendor.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/verify_vendor.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1_2/provenance_collect.json",
+      "name": "report_state_pilot.py",
+      "sha256": "cc0b9da0e9030e1347303751d1a3cc857ef6a2312dfb0b98b59dfa84e06789b6",
+      "matches": [
+        "scripts/report_state_pilot.py",
+        "artifacts/bc_v1_1/source_snapshot/scripts/report_state_pilot.py",
+        "artifacts/bc_v1_2/source_snapshot/scripts/report_state_pilot.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/report_state_pilot.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1_2/provenance_collect.json",
+      "name": "train_state_pilot.py",
+      "sha256": "ad97520371032f26f24126e5b71668c09089d5d067baf6ca4ad2902b702053a6",
+      "matches": [
+        "scripts/train_state_pilot.py",
+        "artifacts/bc_v1_1/source_snapshot/scripts/train_state_pilot.py",
+        "artifacts/bc_v1_2/source_snapshot/scripts/train_state_pilot.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/train_state_pilot.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1_2/provenance_collect.json",
+      "name": "audit_bc_sources.py",
+      "sha256": "f2c409cc699fd80685c7d38142d919c778f929c5daeb69fc52dfd9b46acb188f",
+      "matches": [
+        "artifacts/bc_v1_2/source_snapshot/scripts/audit_bc_sources.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/audit_bc_sources.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1_2/provenance_collect.json",
+      "name": "diagnose_bc_state.py",
+      "sha256": "8a844cbd457033d9bdf49a807432830f3b53e0e94896799da748540601095989",
+      "matches": [
+        "scripts/diagnose_bc_state.py",
+        "artifacts/bc_v1_1/source_snapshot/scripts/diagnose_bc_state.py",
+        "artifacts/bc_v1_2/source_snapshot/scripts/diagnose_bc_state.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/diagnose_bc_state.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1_2/provenance_collect.json",
+      "name": "restore_artifacts.py",
+      "sha256": "46d438f1f06ffa802684421e943eddda38eff32a388eb07763a9446c57176d3a",
+      "matches": [
+        "scripts/restore_artifacts.py",
+        "artifacts/bc_v1_1/source_snapshot/scripts/restore_artifacts.py",
+        "artifacts/bc_v1_2/source_snapshot/scripts/restore_artifacts.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/restore_artifacts.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1_2/provenance_collect.json",
+      "name": "bc_pipeline.py",
+      "sha256": "6aaf33432549e124dd3ed0d2da19dd54f64ad64f11a68e42a81a6d23be24c0f5",
+      "matches": [
+        "scripts/bc_pipeline.py",
+        "artifacts/bc_v1_2/source_snapshot/scripts/bc_pipeline.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/bc_pipeline.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1_2/provenance_collect.json",
+      "name": "legacy_evaluate_layouts.py",
+      "sha256": "eb3c482d9f506083e2717023caada661e0cdca866ab37788edb841865eeebff9",
+      "matches": [
+        "scripts/legacy_evaluate_layouts.py",
+        "artifacts/bc_v1_1/source_snapshot/scripts/legacy_evaluate_layouts.py",
+        "artifacts/bc_v1_2/source_snapshot/scripts/legacy_evaluate_layouts.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/legacy_evaluate_layouts.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1_2/provenance_collect.json",
+      "name": "episode_replay.py",
+      "sha256": "dbdfbbf1ab8b4ddd5a4100820c099804f371be995bfa6d37fb16ba44d60c7200",
+      "matches": [
+        "scripts/episode_replay.py",
+        "artifacts/bc_v1_1/source_snapshot/scripts/episode_replay.py",
+        "artifacts/bc_v1_2/source_snapshot/scripts/episode_replay.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/episode_replay.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1_2/provenance_collect.json",
+      "name": "audit_parameter_counts.py",
+      "sha256": "8c45fccd0fce8ad2b8607c9715833391f798ab84d423a25a48c40bfebb1527eb",
+      "matches": [
+        "scripts/audit_parameter_counts.py",
+        "artifacts/bc_v1_1/source_snapshot/scripts/audit_parameter_counts.py",
+        "artifacts/bc_v1_2/source_snapshot/scripts/audit_parameter_counts.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/audit_parameter_counts.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1_2/provenance_collect.json",
+      "name": "hab_state.py",
+      "sha256": "b1f0e9528b93e2eca91928a00284ec1c891bdb57176ca1b8ca62b7277cc9f9e4",
+      "matches": [
+        "scripts/hab_state.py",
+        "artifacts/bc_v1_1/source_snapshot/scripts/hab_state.py",
+        "artifacts/bc_v1_2/source_snapshot/scripts/hab_state.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/hab_state.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1_2/provenance_collect.json",
+      "name": "verify_run_sources.py",
+      "sha256": "d5a8f2f731ca63618520265ad98dcd07c90086097e6836fe5b0f2650bb909a8d",
+      "matches": [
+        "scripts/verify_run_sources.py",
+        "artifacts/bc_v1_1/source_snapshot/scripts/verify_run_sources.py",
+        "artifacts/bc_v1_2/source_snapshot/scripts/verify_run_sources.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/verify_run_sources.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1_2/provenance_collect.json",
+      "name": "contact_experiment.py",
+      "sha256": "022d311a35f42db25824b43b0345ef0376211f6ef91189726f8b101210e4a609",
+      "matches": [
+        "scripts/contact_experiment.py",
+        "artifacts/bc_v1_1/source_snapshot/scripts/contact_experiment.py",
+        "artifacts/bc_v1_2/source_snapshot/scripts/contact_experiment.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/contact_experiment.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1_2/provenance_collect.json",
+      "name": "write_bc_chinese.py",
+      "sha256": "aa74d1df6421a85735d038c7e971a146c684f3e90c6db60dcb71bd412b80b49d",
+      "matches": [
+        "artifacts/bc_v1_2/source_snapshot/scripts/write_bc_chinese.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/write_bc_chinese.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1_2/provenance_collect.json",
+      "name": "report_bc_resources.py",
+      "sha256": "f8777821a200116a383844a93a0c7b88e40eeb384fd71dce3474cca07b8436e0",
+      "matches": [
+        "scripts/report_bc_resources.py",
+        "artifacts/bc_v1_2/source_snapshot/scripts/report_bc_resources.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/report_bc_resources.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1_2/provenance_collect.json",
+      "name": "report_contact.py",
+      "sha256": "0b5e0efc977fb00a0a37dc236371bf0f627b7ee4f4b49b1e02990f6616a48616",
+      "matches": [
+        "scripts/report_contact.py",
+        "artifacts/bc_v1_1/source_snapshot/scripts/report_contact.py",
+        "artifacts/bc_v1_2/source_snapshot/scripts/report_contact.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/report_contact.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1_2/provenance_collect.json",
+      "name": "audit_bc_interface.py",
+      "sha256": "049dc1e21ca42b7ce4e3ff179bb53bd4490934e0fb5f2f6929674b9a01903ab6",
+      "matches": [
+        "scripts/audit_bc_interface.py",
+        "artifacts/bc_v1_2/source_snapshot/scripts/audit_bc_interface.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/audit_bc_interface.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1_2/provenance_collect.json",
+      "name": "status.py",
+      "sha256": "fe405c6c5644d9a69caecdd0ee6db2801178b655a2ff439e4c71cef40942e4d2",
+      "matches": [
+        "scripts/status.py",
+        "artifacts/bc_v1_1/source_snapshot/scripts/status.py",
+        "artifacts/bc_v1_2/source_snapshot/scripts/status.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/status.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1_2/provenance_collect.json",
+      "name": "bc_spawn_inventory.py",
+      "sha256": "5ad28da0b70c41d7220956438350fb246f90242d7714dbedb59ccc8f45f7d60f",
+      "matches": [
+        "scripts/bc_spawn_inventory.py",
+        "artifacts/bc_v1_1/source_snapshot/scripts/bc_spawn_inventory.py",
+        "artifacts/bc_v1_2/source_snapshot/scripts/bc_spawn_inventory.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/bc_spawn_inventory.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1_2/provenance_collect.json",
+      "name": "audit_effective_config.py",
+      "sha256": "ca29145c43901da1aec596f4b274c6a07e319237fd78b44e3250c64ab61dadc0",
+      "matches": [
+        "scripts/audit_effective_config.py",
+        "artifacts/bc_v1_1/source_snapshot/scripts/audit_effective_config.py",
+        "artifacts/bc_v1_2/source_snapshot/scripts/audit_effective_config.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/audit_effective_config.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1_2/provenance_collect.json",
+      "name": "bc_status.py",
+      "sha256": "2d154649e6ad496e0ece1e5db28edf1d2aacd75f569efd79077000394826eff7",
+      "matches": [
+        "scripts/bc_status.py",
+        "artifacts/bc_v1_2/source_snapshot/scripts/bc_status.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/bc_status.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1_2/provenance_collect.json",
+      "name": "demo.py",
+      "sha256": "2d8dcad0f21cf7ac4450c3c941fcf75b10551579a98165f8687941fcf98568c3",
+      "matches": [
+        "scripts/demo.py",
+        "artifacts/bc_v1_1/source_snapshot/scripts/demo.py",
+        "artifacts/bc_v1_2/source_snapshot/scripts/demo.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/demo.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1_2/provenance_collect.json",
+      "name": "monitor_resources.py",
+      "sha256": "f455dadca9d1b6274f999f5a5f3a269af5683872c583e45f825de93e5c137ca2",
+      "matches": [
+        "scripts/monitor_resources.py",
+        "artifacts/bc_v1_1/source_snapshot/scripts/monitor_resources.py",
+        "artifacts/bc_v1_2/source_snapshot/scripts/monitor_resources.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/monitor_resources.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1_2/provenance_collect.json",
+      "name": "report_resources.py",
+      "sha256": "22fbb68fb9785aa604f1176bae2b9c18a900b942b5b16a240949e159668ed13b",
+      "matches": [
+        "scripts/report_resources.py",
+        "artifacts/bc_v1_1/source_snapshot/scripts/report_resources.py",
+        "artifacts/bc_v1_2/source_snapshot/scripts/report_resources.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/report_resources.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1_2/provenance_collect.json",
+      "name": "audit_observation_replay.py",
+      "sha256": "17a67ae18da8cca5c7c88979dd4c88969a767fc6f7fe19acd84aba842efa662d",
+      "matches": [
+        "scripts/audit_observation_replay.py",
+        "artifacts/bc_v1_1/source_snapshot/scripts/audit_observation_replay.py",
+        "artifacts/bc_v1_2/source_snapshot/scripts/audit_observation_replay.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/audit_observation_replay.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1_2/provenance_collect.json",
+      "name": "audit_demo_video.py",
+      "sha256": "912ead9de585c25f17b8c35d70220d8cd5198194bdb569841efedf7601ff0b60",
+      "matches": [
+        "scripts/audit_demo_video.py",
+        "artifacts/bc_v1_1/source_snapshot/scripts/audit_demo_video.py",
+        "artifacts/bc_v1_2/source_snapshot/scripts/audit_demo_video.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/audit_demo_video.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1_2/provenance_collect.json",
+      "name": "evaluate_world_model.py",
+      "sha256": "2c6d00f5ddd32b56dc0dec7ffcee695210f59bae495aebbd2857f04e9ba7390d",
+      "matches": [
+        "scripts/evaluate_world_model.py",
+        "artifacts/bc_v1_1/source_snapshot/scripts/evaluate_world_model.py",
+        "artifacts/bc_v1_2/source_snapshot/scripts/evaluate_world_model.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/evaluate_world_model.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1_2/provenance_collect.json",
+      "name": "snapshot_sources.py",
+      "sha256": "06f674218e1b2927b69a2c9ddf7c7593ca3f24952cc25debd90474a5bfc7d761",
+      "matches": [
+        "scripts/snapshot_sources.py",
+        "artifacts/bc_v1_1/source_snapshot/scripts/snapshot_sources.py",
+        "artifacts/bc_v1_2/source_snapshot/scripts/snapshot_sources.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/snapshot_sources.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1_2/provenance_collect.json",
+      "name": "contact_control.py",
+      "sha256": "f2ac1e4a9a1f025baec1afcf4141595d06090826a3aec3237c67273d0f9d62c7",
+      "matches": [
+        "scripts/contact_control.py",
+        "artifacts/bc_v1_1/source_snapshot/scripts/contact_control.py",
+        "artifacts/bc_v1_2/source_snapshot/scripts/contact_control.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/contact_control.py"
+      ]
+    },
+    {
+      "record": "artifacts/bc_v1_2/provenance_collect.json",
+      "name": "state_sac.py",
+      "sha256": "1a4092e6f52755399ac1e891680aaed44a855ff80badb7e0f298b4adf5a59f68",
+      "matches": [
+        "scripts/state_sac.py",
+        "artifacts/bc_v1_1/source_snapshot/scripts/state_sac.py",
+        "artifacts/bc_v1_2/source_snapshot/scripts/state_sac.py",
+        "artifacts/bc_v1_2/source_snapshot/pre_recovery/state_sac.py"
+      ]
+    }
+  ]
+}

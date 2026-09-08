@@ -1,0 +1,1444 @@
+{
+  "passed": true,
+  "scope": "auxiliary diagnostic only; original HAB success, training filter and gate are unchanged",
+  "source_commit": "17121e3f96e3ee3ed0c03610b17f8bc2864617af",
+  "source": "mani_skill/agents/robots/fetch/fetch.py:400-405; called by mshab sequential_task.py",
+  "finding": "Pinned upstream is_static compares signed joint velocities to positive thresholds, without abs. Auxiliary diagnostic applies abs to the same body/base thresholds.",
+  "observation_limit": "HAB native state removes first three base qpos/qvel entries. 45D BC has no explicit base velocity or image history; teacher additionally has three depth frames.",
+  "groups": {
+    "interface_teacher": {
+      "episodes": 20,
+      "static_boolean_difference_steps": 889,
+      "original_success_once": 15,
+      "original_success_end": 12,
+      "absolute_speed_success_once": 15,
+      "absolute_speed_success_end": 11
+    },
+    "student_dev": {
+      "episodes": 20,
+      "static_boolean_difference_steps": 186,
+      "original_success_once": 3,
+      "original_success_end": 1,
+      "absolute_speed_success_once": 3,
+      "absolute_speed_success_end": 1
+    },
+    "teacher_dev": {
+      "episodes": 20,
+      "static_boolean_difference_steps": 1040,
+      "original_success_once": 17,
+      "original_success_end": 13,
+      "absolute_speed_success_once": 17,
+      "absolute_speed_success_end": 9
+    },
+    "teacher_fit_all": {
+      "episodes": 80,
+      "static_boolean_difference_steps": 4440,
+      "original_success_once": 65,
+      "original_success_end": 53,
+      "absolute_speed_success_once": 63,
+      "absolute_speed_success_end": 36
+    }
+  },
+  "rows": [
+    {
+      "group": "interface_teacher",
+      "seed": 1200000,
+      "folder": "artifacts/bc_v1_1/interface/pair_00/baseline",
+      "static_boolean_difference_steps": 0,
+      "original_success_once": false,
+      "original_success_end": false,
+      "absolute_speed_success_once": false,
+      "absolute_speed_success_end": false
+    },
+    {
+      "group": "interface_teacher",
+      "seed": 1200001,
+      "folder": "artifacts/bc_v1_1/interface/pair_01/baseline",
+      "static_boolean_difference_steps": 63,
+      "original_success_once": true,
+      "original_success_end": true,
+      "absolute_speed_success_once": true,
+      "absolute_speed_success_end": true
+    },
+    {
+      "group": "interface_teacher",
+      "seed": 1200002,
+      "folder": "artifacts/bc_v1_1/interface/pair_02/baseline",
+      "static_boolean_difference_steps": 105,
+      "original_success_once": false,
+      "original_success_end": false,
+      "absolute_speed_success_once": false,
+      "absolute_speed_success_end": false
+    },
+    {
+      "group": "interface_teacher",
+      "seed": 1200003,
+      "folder": "artifacts/bc_v1_1/interface/pair_03/baseline",
+      "static_boolean_difference_steps": 36,
+      "original_success_once": true,
+      "original_success_end": true,
+      "absolute_speed_success_once": true,
+      "absolute_speed_success_end": true
+    },
+    {
+      "group": "interface_teacher",
+      "seed": 1200004,
+      "folder": "artifacts/bc_v1_1/interface/pair_04/baseline",
+      "static_boolean_difference_steps": 66,
+      "original_success_once": true,
+      "original_success_end": false,
+      "absolute_speed_success_once": true,
+      "absolute_speed_success_end": false
+    },
+    {
+      "group": "interface_teacher",
+      "seed": 1200005,
+      "folder": "artifacts/bc_v1_1/interface/pair_05/baseline",
+      "static_boolean_difference_steps": 65,
+      "original_success_once": true,
+      "original_success_end": false,
+      "absolute_speed_success_once": true,
+      "absolute_speed_success_end": false
+    },
+    {
+      "group": "interface_teacher",
+      "seed": 1200006,
+      "folder": "artifacts/bc_v1_1/interface/pair_06/baseline",
+      "static_boolean_difference_steps": 73,
+      "original_success_once": true,
+      "original_success_end": false,
+      "absolute_speed_success_once": true,
+      "absolute_speed_success_end": false
+    },
+    {
+      "group": "interface_teacher",
+      "seed": 1200007,
+      "folder": "artifacts/bc_v1_1/interface/pair_07/baseline",
+      "static_boolean_difference_steps": 14,
+      "original_success_once": false,
+      "original_success_end": false,
+      "absolute_speed_success_once": false,
+      "absolute_speed_success_end": false
+    },
+    {
+      "group": "interface_teacher",
+      "seed": 1200008,
+      "folder": "artifacts/bc_v1_1/interface/pair_08/baseline",
+      "static_boolean_difference_steps": 39,
+      "original_success_once": false,
+      "original_success_end": false,
+      "absolute_speed_success_once": false,
+      "absolute_speed_success_end": false
+    },
+    {
+      "group": "interface_teacher",
+      "seed": 1200009,
+      "folder": "artifacts/bc_v1_1/interface/pair_09/baseline",
+      "static_boolean_difference_steps": 63,
+      "original_success_once": true,
+      "original_success_end": true,
+      "absolute_speed_success_once": true,
+      "absolute_speed_success_end": true
+    },
+    {
+      "group": "interface_teacher",
+      "seed": 1200010,
+      "folder": "artifacts/bc_v1_1/interface/pair_10/baseline",
+      "static_boolean_difference_steps": 85,
+      "original_success_once": true,
+      "original_success_end": true,
+      "absolute_speed_success_once": true,
+      "absolute_speed_success_end": true
+    },
+    {
+      "group": "interface_teacher",
+      "seed": 1200011,
+      "folder": "artifacts/bc_v1_1/interface/pair_11/baseline",
+      "static_boolean_difference_steps": 10,
+      "original_success_once": true,
+      "original_success_end": true,
+      "absolute_speed_success_once": true,
+      "absolute_speed_success_end": true
+    },
+    {
+      "group": "interface_teacher",
+      "seed": 1200012,
+      "folder": "artifacts/bc_v1_1/interface/pair_12/baseline",
+      "static_boolean_difference_steps": 20,
+      "original_success_once": true,
+      "original_success_end": true,
+      "absolute_speed_success_once": true,
+      "absolute_speed_success_end": true
+    },
+    {
+      "group": "interface_teacher",
+      "seed": 1200013,
+      "folder": "artifacts/bc_v1_1/interface/pair_13/baseline",
+      "static_boolean_difference_steps": 14,
+      "original_success_once": true,
+      "original_success_end": true,
+      "absolute_speed_success_once": true,
+      "absolute_speed_success_end": true
+    },
+    {
+      "group": "interface_teacher",
+      "seed": 1200014,
+      "folder": "artifacts/bc_v1_1/interface/pair_14/baseline",
+      "static_boolean_difference_steps": 29,
+      "original_success_once": true,
+      "original_success_end": true,
+      "absolute_speed_success_once": true,
+      "absolute_speed_success_end": true
+    },
+    {
+      "group": "interface_teacher",
+      "seed": 1200015,
+      "folder": "artifacts/bc_v1_1/interface/pair_15/baseline",
+      "static_boolean_difference_steps": 0,
+      "original_success_once": true,
+      "original_success_end": true,
+      "absolute_speed_success_once": true,
+      "absolute_speed_success_end": true
+    },
+    {
+      "group": "interface_teacher",
+      "seed": 1200016,
+      "folder": "artifacts/bc_v1_1/interface/pair_16/baseline",
+      "static_boolean_difference_steps": 46,
+      "original_success_once": true,
+      "original_success_end": true,
+      "absolute_speed_success_once": true,
+      "absolute_speed_success_end": false
+    },
+    {
+      "group": "interface_teacher",
+      "seed": 1200017,
+      "folder": "artifacts/bc_v1_1/interface/pair_17/baseline",
+      "static_boolean_difference_steps": 54,
+      "original_success_once": true,
+      "original_success_end": true,
+      "absolute_speed_success_once": true,
+      "absolute_speed_success_end": true
+    },
+    {
+      "group": "interface_teacher",
+      "seed": 1200018,
+      "folder": "artifacts/bc_v1_1/interface/pair_18/baseline",
+      "static_boolean_difference_steps": 3,
+      "original_success_once": false,
+      "original_success_end": false,
+      "absolute_speed_success_once": false,
+      "absolute_speed_success_end": false
+    },
+    {
+      "group": "interface_teacher",
+      "seed": 1200019,
+      "folder": "artifacts/bc_v1_1/interface/pair_19/baseline",
+      "static_boolean_difference_steps": 104,
+      "original_success_once": true,
+      "original_success_end": true,
+      "absolute_speed_success_once": true,
+      "absolute_speed_success_end": true
+    },
+    {
+      "group": "teacher_fit_all",
+      "seed": 1210000,
+      "folder": "artifacts/bc_v1_2/collection/episode_000",
+      "static_boolean_difference_steps": 86,
+      "original_success_once": true,
+      "original_success_end": true,
+      "absolute_speed_success_once": true,
+      "absolute_speed_success_end": false
+    },
+    {
+      "group": "teacher_fit_all",
+      "seed": 1210001,
+      "folder": "artifacts/bc_v1_2/collection/episode_001",
+      "static_boolean_difference_steps": 147,
+      "original_success_once": true,
+      "original_success_end": true,
+      "absolute_speed_success_once": true,
+      "absolute_speed_success_end": false
+    },
+    {
+      "group": "teacher_fit_all",
+      "seed": 1210002,
+      "folder": "artifacts/bc_v1_2/collection/episode_002",
+      "static_boolean_difference_steps": 5,
+      "original_success_once": false,
+      "original_success_end": false,
+      "absolute_speed_success_once": false,
+      "absolute_speed_success_end": false
+    },
+    {
+      "group": "teacher_fit_all",
+      "seed": 1210003,
+      "folder": "artifacts/bc_v1_2/collection/episode_003",
+      "static_boolean_difference_steps": 128,
+      "original_success_once": true,
+      "original_success_end": false,
+      "absolute_speed_success_once": true,
+      "absolute_speed_success_end": false
+    },
+    {
+      "group": "teacher_fit_all",
+      "seed": 1210004,
+      "folder": "artifacts/bc_v1_2/collection/episode_004",
+      "static_boolean_difference_steps": 0,
+      "original_success_once": false,
+      "original_success_end": false,
+      "absolute_speed_success_once": false,
+      "absolute_speed_success_end": false
+    },
+    {
+      "group": "teacher_fit_all",
+      "seed": 1210005,
+      "folder": "artifacts/bc_v1_2/collection/episode_005",
+      "static_boolean_difference_steps": 39,
+      "original_success_once": true,
+      "original_success_end": true,
+      "absolute_speed_success_once": true,
+      "absolute_speed_success_end": true
+    },
+    {
+      "group": "teacher_fit_all",
+      "seed": 1210006,
+      "folder": "artifacts/bc_v1_2/collection/episode_006",
+      "static_boolean_difference_steps": 157,
+      "original_success_once": true,
+      "original_success_end": false,
+      "absolute_speed_success_once": true,
+      "absolute_speed_success_end": false
+    },
+    {
+      "group": "teacher_fit_all",
+      "seed": 1210007,
+      "folder": "artifacts/bc_v1_2/collection/episode_007",
+      "static_boolean_difference_steps": 2,
+      "original_success_once": false,
+      "original_success_end": false,
+      "absolute_speed_success_once": false,
+      "absolute_speed_success_end": false
+    },
+    {
+      "group": "teacher_fit_all",
+      "seed": 1210008,
+      "folder": "artifacts/bc_v1_2/collection/episode_008",
+      "static_boolean_difference_steps": 83,
+      "original_success_once": true,
+      "original_success_end": true,
+      "absolute_speed_success_once": true,
+      "absolute_speed_success_end": true
+    },
+    {
+      "group": "teacher_fit_all",
+      "seed": 1210009,
+      "folder": "artifacts/bc_v1_2/collection/episode_009",
+      "static_boolean_difference_steps": 1,
+      "original_success_once": true,
+      "original_success_end": true,
+      "absolute_speed_success_once": true,
+      "absolute_speed_success_end": true
+    },
+    {
+      "group": "teacher_fit_all",
+      "seed": 1210010,
+      "folder": "artifacts/bc_v1_2/collection/episode_010",
+      "static_boolean_difference_steps": 143,
+      "original_success_once": true,
+      "original_success_end": true,
+      "absolute_speed_success_once": true,
+      "absolute_speed_success_end": false
+    },
+    {
+      "group": "teacher_fit_all",
+      "seed": 1210011,
+      "folder": "artifacts/bc_v1_2/collection/episode_011",
+      "static_boolean_difference_steps": 0,
+      "original_success_once": false,
+      "original_success_end": false,
+      "absolute_speed_success_once": false,
+      "absolute_speed_success_end": false
+    },
+    {
+      "group": "teacher_fit_all",
+      "seed": 1210012,
+      "folder": "artifacts/bc_v1_2/collection/episode_012",
+      "static_boolean_difference_steps": 82,
+      "original_success_once": true,
+      "original_success_end": false,
+      "absolute_speed_success_once": true,
+      "absolute_speed_success_end": false
+    },
+    {
+      "group": "teacher_fit_all",
+      "seed": 1210013,
+      "folder": "artifacts/bc_v1_2/collection/episode_013",
+      "static_boolean_difference_steps": 46,
+      "original_success_once": true,
+      "original_success_end": true,
+      "absolute_speed_success_once": true,
+      "absolute_speed_success_end": true
+    },
+    {
+      "group": "teacher_fit_all",
+      "seed": 1210014,
+      "folder": "artifacts/bc_v1_2/collection/episode_014",
+      "static_boolean_difference_steps": 2,
+      "original_success_once": false,
+      "original_success_end": false,
+      "absolute_speed_success_once": false,
+      "absolute_speed_success_end": false
+    },
+    {
+      "group": "teacher_fit_all",
+      "seed": 1210015,
+      "folder": "artifacts/bc_v1_2/collection/episode_015",
+      "static_boolean_difference_steps": 68,
+      "original_success_once": true,
+      "original_success_end": true,
+      "absolute_speed_success_once": true,
+      "absolute_speed_success_end": true
+    },
+    {
+      "group": "teacher_fit_all",
+      "seed": 1210016,
+      "folder": "artifacts/bc_v1_2/collection/episode_016",
+      "static_boolean_difference_steps": 101,
+      "original_success_once": true,
+      "original_success_end": true,
+      "absolute_speed_success_once": true,
+      "absolute_speed_success_end": false
+    },
+    {
+      "group": "teacher_fit_all",
+      "seed": 1210017,
+      "folder": "artifacts/bc_v1_2/collection/episode_017",
+      "static_boolean_difference_steps": 27,
+      "original_success_once": true,
+      "original_success_end": true,
+      "absolute_speed_success_once": true,
+      "absolute_speed_success_end": true
+    },
+    {
+      "group": "teacher_fit_all",
+      "seed": 1210018,
+      "folder": "artifacts/bc_v1_2/collection/episode_018",
+      "static_boolean_difference_steps": 45,
+      "original_success_once": true,
+      "original_success_end": true,
+      "absolute_speed_success_once": true,
+      "absolute_speed_success_end": false
+    },
+    {
+      "group": "teacher_fit_all",
+      "seed": 1210019,
+      "folder": "artifacts/bc_v1_2/collection/episode_019",
+      "static_boolean_difference_steps": 119,
+      "original_success_once": true,
+      "original_success_end": true,
+      "absolute_speed_success_once": true,
+      "absolute_speed_success_end": false
+    },
+    {
+      "group": "teacher_fit_all",
+      "seed": 1210020,
+      "folder": "artifacts/bc_v1_2/collection/episode_020",
+      "static_boolean_difference_steps": 45,
+      "original_success_once": false,
+      "original_success_end": false,
+      "absolute_speed_success_once": false,
+      "absolute_speed_success_end": false
+    },
+    {
+      "group": "teacher_fit_all",
+      "seed": 1210021,
+      "folder": "artifacts/bc_v1_2/collection/episode_021",
+      "static_boolean_difference_steps": 113,
+      "original_success_once": true,
+      "original_success_end": false,
+      "absolute_speed_success_once": true,
+      "absolute_speed_success_end": false
+    },
+    {
+      "group": "teacher_fit_all",
+      "seed": 1210022,
+      "folder": "artifacts/bc_v1_2/collection/episode_022",
+      "static_boolean_difference_steps": 20,
+      "original_success_once": true,
+      "original_success_end": true,
+      "absolute_speed_success_once": true,
+      "absolute_speed_success_end": true
+    },
+    {
+      "group": "teacher_fit_all",
+      "seed": 1210023,
+      "folder": "artifacts/bc_v1_2/collection/episode_023",
+      "static_boolean_difference_steps": 12,
+      "original_success_once": true,
+      "original_success_end": true,
+      "absolute_speed_success_once": true,
+      "absolute_speed_success_end": true
+    },
+    {
+      "group": "teacher_fit_all",
+      "seed": 1210024,
+      "folder": "artifacts/bc_v1_2/collection/episode_024",
+      "static_boolean_difference_steps": 78,
+      "original_success_once": true,
+      "original_success_end": false,
+      "absolute_speed_success_once": true,
+      "absolute_speed_success_end": false
+    },
+    {
+      "group": "teacher_fit_all",
+      "seed": 1210025,
+      "folder": "artifacts/bc_v1_2/collection/episode_025",
+      "static_boolean_difference_steps": 39,
+      "original_success_once": true,
+      "original_success_end": true,
+      "absolute_speed_success_once": true,
+      "absolute_speed_success_end": false
+    },
+    {
+      "group": "teacher_fit_all",
+      "seed": 1210026,
+      "folder": "artifacts/bc_v1_2/collection/episode_026",
+      "static_boolean_difference_steps": 58,
+      "original_success_once": true,
+      "original_success_end": true,
+      "absolute_speed_success_once": true,
+      "absolute_speed_success_end": true
+    },
+    {
+      "group": "teacher_fit_all",
+      "seed": 1210027,
+      "folder": "artifacts/bc_v1_2/collection/episode_027",
+      "static_boolean_difference_steps": 10,
+      "original_success_once": false,
+      "original_success_end": false,
+      "absolute_speed_success_once": false,
+      "absolute_speed_success_end": false
+    },
+    {
+      "group": "teacher_fit_all",
+      "seed": 1210028,
+      "folder": "artifacts/bc_v1_2/collection/episode_028",
+      "static_boolean_difference_steps": 96,
+      "original_success_once": true,
+      "original_success_end": true,
+      "absolute_speed_success_once": true,
+      "absolute_speed_success_end": false
+    },
+    {
+      "group": "teacher_fit_all",
+      "seed": 1210029,
+      "folder": "artifacts/bc_v1_2/collection/episode_029",
+      "static_boolean_difference_steps": 0,
+      "original_success_once": false,
+      "original_success_end": false,
+      "absolute_speed_success_once": false,
+      "absolute_speed_success_end": false
+    },
+    {
+      "group": "teacher_fit_all",
+      "seed": 1210030,
+      "folder": "artifacts/bc_v1_2/collection/episode_030",
+      "static_boolean_difference_steps": 90,
+      "original_success_once": true,
+      "original_success_end": false,
+      "absolute_speed_success_once": true,
+      "absolute_speed_success_end": false
+    },
+    {
+      "group": "teacher_fit_all",
+      "seed": 1210031,
+      "folder": "artifacts/bc_v1_2/collection/episode_031",
+      "static_boolean_difference_steps": 41,
+      "original_success_once": true,
+      "original_success_end": true,
+      "absolute_speed_success_once": true,
+      "absolute_speed_success_end": false
+    },
+    {
+      "group": "teacher_fit_all",
+      "seed": 1210032,
+      "folder": "artifacts/bc_v1_2/collection/episode_032",
+      "static_boolean_difference_steps": 41,
+      "original_success_once": true,
+      "original_success_end": false,
+      "absolute_speed_success_once": true,
+      "absolute_speed_success_end": false
+    },
+    {
+      "group": "teacher_fit_all",
+      "seed": 1210033,
+      "folder": "artifacts/bc_v1_2/collection/episode_033",
+      "static_boolean_difference_steps": 175,
+      "original_success_once": true,
+      "original_success_end": true,
+      "absolute_speed_success_once": false,
+      "absolute_speed_success_end": false
+    },
+    {
+      "group": "teacher_fit_all",
+      "seed": 1210034,
+      "folder": "artifacts/bc_v1_2/collection/episode_034",
+      "static_boolean_difference_steps": 24,
+      "original_success_once": true,
+      "original_success_end": true,
+      "absolute_speed_success_once": true,
+      "absolute_speed_success_end": true
+    },
+    {
+      "group": "teacher_fit_all",
+      "seed": 1210035,
+      "folder": "artifacts/bc_v1_2/collection/episode_035",
+      "static_boolean_difference_steps": 20,
+      "original_success_once": true,
+      "original_success_end": true,
+      "absolute_speed_success_once": true,
+      "absolute_speed_success_end": true
+    },
+    {
+      "group": "teacher_fit_all",
+      "seed": 1210036,
+      "folder": "artifacts/bc_v1_2/collection/episode_036",
+      "static_boolean_difference_steps": 50,
+      "original_success_once": true,
+      "original_success_end": true,
+      "absolute_speed_success_once": true,
+      "absolute_speed_success_end": true
+    },
+    {
+      "group": "teacher_fit_all",
+      "seed": 1210037,
+      "folder": "artifacts/bc_v1_2/collection/episode_037",
+      "static_boolean_difference_steps": 153,
+      "original_success_once": true,
+      "original_success_end": true,
+      "absolute_speed_success_once": true,
+      "absolute_speed_success_end": false
+    },
+    {
+      "group": "teacher_fit_all",
+      "seed": 1210038,
+      "folder": "artifacts/bc_v1_2/collection/episode_038",
+      "static_boolean_difference_steps": 4,
+      "original_success_once": false,
+      "original_success_end": false,
+      "absolute_speed_success_once": false,
+      "absolute_speed_success_end": false
+    },
+    {
+      "group": "teacher_fit_all",
+      "seed": 1210039,
+      "folder": "artifacts/bc_v1_2/collection/episode_039",
+      "static_boolean_difference_steps": 41,
+      "original_success_once": true,
+      "original_success_end": true,
+      "absolute_speed_success_once": true,
+      "absolute_speed_success_end": true
+    },
+    {
+      "group": "teacher_fit_all",
+      "seed": 1210040,
+      "folder": "artifacts/bc_v1_2/collection/episode_040",
+      "static_boolean_difference_steps": 106,
+      "original_success_once": true,
+      "original_success_end": true,
+      "absolute_speed_success_once": true,
+      "absolute_speed_success_end": true
+    },
+    {
+      "group": "teacher_fit_all",
+      "seed": 1210041,
+      "folder": "artifacts/bc_v1_2/collection/episode_041",
+      "static_boolean_difference_steps": 3,
+      "original_success_once": true,
+      "original_success_end": true,
+      "absolute_speed_success_once": true,
+      "absolute_speed_success_end": true
+    },
+    {
+      "group": "teacher_fit_all",
+      "seed": 1210042,
+      "folder": "artifacts/bc_v1_2/collection/episode_042",
+      "static_boolean_difference_steps": 156,
+      "original_success_once": true,
+      "original_success_end": true,
+      "absolute_speed_success_once": true,
+      "absolute_speed_success_end": false
+    },
+    {
+      "group": "teacher_fit_all",
+      "seed": 1210043,
+      "folder": "artifacts/bc_v1_2/collection/episode_043",
+      "static_boolean_difference_steps": 22,
+      "original_success_once": true,
+      "original_success_end": true,
+      "absolute_speed_success_once": true,
+      "absolute_speed_success_end": true
+    },
+    {
+      "group": "teacher_fit_all",
+      "seed": 1210044,
+      "folder": "artifacts/bc_v1_2/collection/episode_044",
+      "static_boolean_difference_steps": 1,
+      "original_success_once": true,
+      "original_success_end": true,
+      "absolute_speed_success_once": true,
+      "absolute_speed_success_end": true
+    },
+    {
+      "group": "teacher_fit_all",
+      "seed": 1210045,
+      "folder": "artifacts/bc_v1_2/collection/episode_045",
+      "static_boolean_difference_steps": 143,
+      "original_success_once": true,
+      "original_success_end": true,
+      "absolute_speed_success_once": true,
+      "absolute_speed_success_end": false
+    },
+    {
+      "group": "teacher_fit_all",
+      "seed": 1210046,
+      "folder": "artifacts/bc_v1_2/collection/episode_046",
+      "static_boolean_difference_steps": 5,
+      "original_success_once": true,
+      "original_success_end": true,
+      "absolute_speed_success_once": true,
+      "absolute_speed_success_end": true
+    },
+    {
+      "group": "teacher_fit_all",
+      "seed": 1210047,
+      "folder": "artifacts/bc_v1_2/collection/episode_047",
+      "static_boolean_difference_steps": 63,
+      "original_success_once": true,
+      "original_success_end": true,
+      "absolute_speed_success_once": true,
+      "absolute_speed_success_end": true
+    },
+    {
+      "group": "teacher_fit_all",
+      "seed": 1210048,
+      "folder": "artifacts/bc_v1_2/collection/episode_048",
+      "static_boolean_difference_steps": 37,
+      "original_success_once": true,
+      "original_success_end": true,
+      "absolute_speed_success_once": true,
+      "absolute_speed_success_end": true
+    },
+    {
+      "group": "teacher_fit_all",
+      "seed": 1210049,
+      "folder": "artifacts/bc_v1_2/collection/episode_049",
+      "static_boolean_difference_steps": 21,
+      "original_success_once": true,
+      "original_success_end": true,
+      "absolute_speed_success_once": true,
+      "absolute_speed_success_end": true
+    },
+    {
+      "group": "teacher_fit_all",
+      "seed": 1210050,
+      "folder": "artifacts/bc_v1_2/collection/episode_050",
+      "static_boolean_difference_steps": 39,
+      "original_success_once": false,
+      "original_success_end": false,
+      "absolute_speed_success_once": false,
+      "absolute_speed_success_end": false
+    },
+    {
+      "group": "teacher_fit_all",
+      "seed": 1210051,
+      "folder": "artifacts/bc_v1_2/collection/episode_051",
+      "static_boolean_difference_steps": 98,
+      "original_success_once": true,
+      "original_success_end": true,
+      "absolute_speed_success_once": false,
+      "absolute_speed_success_end": false
+    },
+    {
+      "group": "teacher_fit_all",
+      "seed": 1210052,
+      "folder": "artifacts/bc_v1_2/collection/episode_052",
+      "static_boolean_difference_steps": 129,
+      "original_success_once": true,
+      "original_success_end": false,
+      "absolute_speed_success_once": true,
+      "absolute_speed_success_end": false
+    },
+    {
+      "group": "teacher_fit_all",
+      "seed": 1210053,
+      "folder": "artifacts/bc_v1_2/collection/episode_053",
+      "static_boolean_difference_steps": 43,
+      "original_success_once": true,
+      "original_success_end": true,
+      "absolute_speed_success_once": true,
+      "absolute_speed_success_end": true
+    },
+    {
+      "group": "teacher_fit_all",
+      "seed": 1210054,
+      "folder": "artifacts/bc_v1_2/collection/episode_054",
+      "static_boolean_difference_steps": 9,
+      "original_success_once": true,
+      "original_success_end": true,
+      "absolute_speed_success_once": true,
+      "absolute_speed_success_end": true
+    },
+    {
+      "group": "teacher_fit_all",
+      "seed": 1210055,
+      "folder": "artifacts/bc_v1_2/collection/episode_055",
+      "static_boolean_difference_steps": 40,
+      "original_success_once": true,
+      "original_success_end": true,
+      "absolute_speed_success_once": true,
+      "absolute_speed_success_end": true
+    },
+    {
+      "group": "teacher_fit_all",
+      "seed": 1210056,
+      "folder": "artifacts/bc_v1_2/collection/episode_056",
+      "static_boolean_difference_steps": 65,
+      "original_success_once": true,
+      "original_success_end": true,
+      "absolute_speed_success_once": true,
+      "absolute_speed_success_end": true
+    },
+    {
+      "group": "teacher_fit_all",
+      "seed": 1210057,
+      "folder": "artifacts/bc_v1_2/collection/episode_057",
+      "static_boolean_difference_steps": 91,
+      "original_success_once": true,
+      "original_success_end": false,
+      "absolute_speed_success_once": true,
+      "absolute_speed_success_end": false
+    },
+    {
+      "group": "teacher_fit_all",
+      "seed": 1210058,
+      "folder": "artifacts/bc_v1_2/collection/episode_058",
+      "static_boolean_difference_steps": 0,
+      "original_success_once": true,
+      "original_success_end": false,
+      "absolute_speed_success_once": true,
+      "absolute_speed_success_end": false
+    },
+    {
+      "group": "teacher_fit_all",
+      "seed": 1210059,
+      "folder": "artifacts/bc_v1_2/collection/episode_059",
+      "static_boolean_difference_steps": 1,
+      "original_success_once": false,
+      "original_success_end": false,
+      "absolute_speed_success_once": false,
+      "absolute_speed_success_end": false
+    },
+    {
+      "group": "teacher_fit_all",
+      "seed": 1210060,
+      "folder": "artifacts/bc_v1_2/collection/episode_060",
+      "static_boolean_difference_steps": 24,
+      "original_success_once": true,
+      "original_success_end": true,
+      "absolute_speed_success_once": true,
+      "absolute_speed_success_end": true
+    },
+    {
+      "group": "teacher_fit_all",
+      "seed": 1210061,
+      "folder": "artifacts/bc_v1_2/collection/episode_061",
+      "static_boolean_difference_steps": 119,
+      "original_success_once": true,
+      "original_success_end": true,
+      "absolute_speed_success_once": true,
+      "absolute_speed_success_end": true
+    },
+    {
+      "group": "teacher_fit_all",
+      "seed": 1210062,
+      "folder": "artifacts/bc_v1_2/collection/episode_062",
+      "static_boolean_difference_steps": 4,
+      "original_success_once": true,
+      "original_success_end": true,
+      "absolute_speed_success_once": true,
+      "absolute_speed_success_end": true
+    },
+    {
+      "group": "teacher_fit_all",
+      "seed": 1210063,
+      "folder": "artifacts/bc_v1_2/collection/episode_063",
+      "static_boolean_difference_steps": 17,
+      "original_success_once": true,
+      "original_success_end": true,
+      "absolute_speed_success_once": true,
+      "absolute_speed_success_end": true
+    },
+    {
+      "group": "teacher_fit_all",
+      "seed": 1210064,
+      "folder": "artifacts/bc_v1_2/collection/episode_064",
+      "static_boolean_difference_steps": 124,
+      "original_success_once": true,
+      "original_success_end": true,
+      "absolute_speed_success_once": true,
+      "absolute_speed_success_end": false
+    },
+    {
+      "group": "teacher_fit_all",
+      "seed": 1210065,
+      "folder": "artifacts/bc_v1_2/collection/episode_065",
+      "static_boolean_difference_steps": 4,
+      "original_success_once": true,
+      "original_success_end": true,
+      "absolute_speed_success_once": true,
+      "absolute_speed_success_end": true
+    },
+    {
+      "group": "teacher_fit_all",
+      "seed": 1210066,
+      "folder": "artifacts/bc_v1_2/collection/episode_066",
+      "static_boolean_difference_steps": 1,
+      "original_success_once": false,
+      "original_success_end": false,
+      "absolute_speed_success_once": false,
+      "absolute_speed_success_end": false
+    },
+    {
+      "group": "teacher_fit_all",
+      "seed": 1210067,
+      "folder": "artifacts/bc_v1_2/collection/episode_067",
+      "static_boolean_difference_steps": 39,
+      "original_success_once": true,
+      "original_success_end": false,
+      "absolute_speed_success_once": true,
+      "absolute_speed_success_end": false
+    },
+    {
+      "group": "teacher_fit_all",
+      "seed": 1210068,
+      "folder": "artifacts/bc_v1_2/collection/episode_068",
+      "static_boolean_difference_steps": 129,
+      "original_success_once": true,
+      "original_success_end": true,
+      "absolute_speed_success_once": true,
+      "absolute_speed_success_end": true
+    },
+    {
+      "group": "teacher_fit_all",
+      "seed": 1210069,
+      "folder": "artifacts/bc_v1_2/collection/episode_069",
+      "static_boolean_difference_steps": 0,
+      "original_success_once": true,
+      "original_success_end": true,
+      "absolute_speed_success_once": true,
+      "absolute_speed_success_end": true
+    },
+    {
+      "group": "teacher_fit_all",
+      "seed": 1210070,
+      "folder": "artifacts/bc_v1_2/collection/episode_070",
+      "static_boolean_difference_steps": 1,
+      "original_success_once": false,
+      "original_success_end": false,
+      "absolute_speed_success_once": false,
+      "absolute_speed_success_end": false
+    },
+    {
+      "group": "teacher_fit_all",
+      "seed": 1210071,
+      "folder": "artifacts/bc_v1_2/collection/episode_071",
+      "static_boolean_difference_steps": 8,
+      "original_success_once": true,
+      "original_success_end": true,
+      "absolute_speed_success_once": true,
+      "absolute_speed_success_end": true
+    },
+    {
+      "group": "teacher_fit_all",
+      "seed": 1210072,
+      "folder": "artifacts/bc_v1_2/collection/episode_072",
+      "static_boolean_difference_steps": 142,
+      "original_success_once": true,
+      "original_success_end": true,
+      "absolute_speed_success_once": true,
+      "absolute_speed_success_end": false
+    },
+    {
+      "group": "teacher_fit_all",
+      "seed": 1210073,
+      "folder": "artifacts/bc_v1_2/collection/episode_073",
+      "static_boolean_difference_steps": 0,
+      "original_success_once": false,
+      "original_success_end": false,
+      "absolute_speed_success_once": false,
+      "absolute_speed_success_end": false
+    },
+    {
+      "group": "teacher_fit_all",
+      "seed": 1210074,
+      "folder": "artifacts/bc_v1_2/collection/episode_074",
+      "static_boolean_difference_steps": 74,
+      "original_success_once": true,
+      "original_success_end": true,
+      "absolute_speed_success_once": true,
+      "absolute_speed_success_end": true
+    },
+    {
+      "group": "teacher_fit_all",
+      "seed": 1210075,
+      "folder": "artifacts/bc_v1_2/collection/episode_075",
+      "static_boolean_difference_steps": 153,
+      "original_success_once": true,
+      "original_success_end": false,
+      "absolute_speed_success_once": true,
+      "absolute_speed_success_end": false
+    },
+    {
+      "group": "teacher_fit_all",
+      "seed": 1210076,
+      "folder": "artifacts/bc_v1_2/collection/episode_076",
+      "static_boolean_difference_steps": 43,
+      "original_success_once": true,
+      "original_success_end": true,
+      "absolute_speed_success_once": true,
+      "absolute_speed_success_end": false
+    },
+    {
+      "group": "teacher_fit_all",
+      "seed": 1210077,
+      "folder": "artifacts/bc_v1_2/collection/episode_077",
+      "static_boolean_difference_steps": 8,
+      "original_success_once": true,
+      "original_success_end": true,
+      "absolute_speed_success_once": true,
+      "absolute_speed_success_end": true
+    },
+    {
+      "group": "teacher_fit_all",
+      "seed": 1210078,
+      "folder": "artifacts/bc_v1_2/collection/episode_078",
+      "static_boolean_difference_steps": 5,
+      "original_success_once": false,
+      "original_success_end": false,
+      "absolute_speed_success_once": false,
+      "absolute_speed_success_end": false
+    },
+    {
+      "group": "teacher_fit_all",
+      "seed": 1210079,
+      "folder": "artifacts/bc_v1_2/collection/episode_079",
+      "static_boolean_difference_steps": 82,
+      "original_success_once": true,
+      "original_success_end": true,
+      "absolute_speed_success_once": true,
+      "absolute_speed_success_end": true
+    },
+    {
+      "group": "teacher_dev",
+      "seed": 1210080,
+      "folder": "artifacts/bc_v1_2/collection/episode_080",
+      "static_boolean_difference_steps": 45,
+      "original_success_once": true,
+      "original_success_end": true,
+      "absolute_speed_success_once": true,
+      "absolute_speed_success_end": true
+    },
+    {
+      "group": "teacher_dev",
+      "seed": 1210081,
+      "folder": "artifacts/bc_v1_2/collection/episode_081",
+      "static_boolean_difference_steps": 72,
+      "original_success_once": true,
+      "original_success_end": false,
+      "absolute_speed_success_once": true,
+      "absolute_speed_success_end": false
+    },
+    {
+      "group": "teacher_dev",
+      "seed": 1210082,
+      "folder": "artifacts/bc_v1_2/collection/episode_082",
+      "static_boolean_difference_steps": 31,
+      "original_success_once": true,
+      "original_success_end": true,
+      "absolute_speed_success_once": true,
+      "absolute_speed_success_end": false
+    },
+    {
+      "group": "teacher_dev",
+      "seed": 1210083,
+      "folder": "artifacts/bc_v1_2/collection/episode_083",
+      "static_boolean_difference_steps": 52,
+      "original_success_once": true,
+      "original_success_end": false,
+      "absolute_speed_success_once": true,
+      "absolute_speed_success_end": false
+    },
+    {
+      "group": "teacher_dev",
+      "seed": 1210084,
+      "folder": "artifacts/bc_v1_2/collection/episode_084",
+      "static_boolean_difference_steps": 101,
+      "original_success_once": true,
+      "original_success_end": true,
+      "absolute_speed_success_once": true,
+      "absolute_speed_success_end": true
+    },
+    {
+      "group": "teacher_dev",
+      "seed": 1210085,
+      "folder": "artifacts/bc_v1_2/collection/episode_085",
+      "static_boolean_difference_steps": 101,
+      "original_success_once": false,
+      "original_success_end": false,
+      "absolute_speed_success_once": false,
+      "absolute_speed_success_end": false
+    },
+    {
+      "group": "teacher_dev",
+      "seed": 1210086,
+      "folder": "artifacts/bc_v1_2/collection/episode_086",
+      "static_boolean_difference_steps": 10,
+      "original_success_once": true,
+      "original_success_end": true,
+      "absolute_speed_success_once": true,
+      "absolute_speed_success_end": true
+    },
+    {
+      "group": "teacher_dev",
+      "seed": 1210087,
+      "folder": "artifacts/bc_v1_2/collection/episode_087",
+      "static_boolean_difference_steps": 0,
+      "original_success_once": true,
+      "original_success_end": true,
+      "absolute_speed_success_once": true,
+      "absolute_speed_success_end": true
+    },
+    {
+      "group": "teacher_dev",
+      "seed": 1210088,
+      "folder": "artifacts/bc_v1_2/collection/episode_088",
+      "static_boolean_difference_steps": 23,
+      "original_success_once": true,
+      "original_success_end": true,
+      "absolute_speed_success_once": true,
+      "absolute_speed_success_end": true
+    },
+    {
+      "group": "teacher_dev",
+      "seed": 1210089,
+      "folder": "artifacts/bc_v1_2/collection/episode_089",
+      "static_boolean_difference_steps": 0,
+      "original_success_once": false,
+      "original_success_end": false,
+      "absolute_speed_success_once": false,
+      "absolute_speed_success_end": false
+    },
+    {
+      "group": "teacher_dev",
+      "seed": 1210090,
+      "folder": "artifacts/bc_v1_2/collection/episode_090",
+      "static_boolean_difference_steps": 22,
+      "original_success_once": false,
+      "original_success_end": false,
+      "absolute_speed_success_once": false,
+      "absolute_speed_success_end": false
+    },
+    {
+      "group": "teacher_dev",
+      "seed": 1210091,
+      "folder": "artifacts/bc_v1_2/collection/episode_091",
+      "static_boolean_difference_steps": 108,
+      "original_success_once": true,
+      "original_success_end": true,
+      "absolute_speed_success_once": true,
+      "absolute_speed_success_end": false
+    },
+    {
+      "group": "teacher_dev",
+      "seed": 1210092,
+      "folder": "artifacts/bc_v1_2/collection/episode_092",
+      "static_boolean_difference_steps": 16,
+      "original_success_once": true,
+      "original_success_end": false,
+      "absolute_speed_success_once": true,
+      "absolute_speed_success_end": false
+    },
+    {
+      "group": "teacher_dev",
+      "seed": 1210093,
+      "folder": "artifacts/bc_v1_2/collection/episode_093",
+      "static_boolean_difference_steps": 92,
+      "original_success_once": true,
+      "original_success_end": true,
+      "absolute_speed_success_once": true,
+      "absolute_speed_success_end": false
+    },
+    {
+      "group": "teacher_dev",
+      "seed": 1210094,
+      "folder": "artifacts/bc_v1_2/collection/episode_094",
+      "static_boolean_difference_steps": 27,
+      "original_success_once": true,
+      "original_success_end": true,
+      "absolute_speed_success_once": true,
+      "absolute_speed_success_end": true
+    },
+    {
+      "group": "teacher_dev",
+      "seed": 1210095,
+      "folder": "artifacts/bc_v1_2/collection/episode_095",
+      "static_boolean_difference_steps": 88,
+      "original_success_once": true,
+      "original_success_end": true,
+      "absolute_speed_success_once": true,
+      "absolute_speed_success_end": true
+    },
+    {
+      "group": "teacher_dev",
+      "seed": 1210096,
+      "folder": "artifacts/bc_v1_2/collection/episode_096",
+      "static_boolean_difference_steps": 77,
+      "original_success_once": true,
+      "original_success_end": true,
+      "absolute_speed_success_once": true,
+      "absolute_speed_success_end": true
+    },
+    {
+      "group": "teacher_dev",
+      "seed": 1210097,
+      "folder": "artifacts/bc_v1_2/collection/episode_097",
+      "static_boolean_difference_steps": 25,
+      "original_success_once": true,
+      "original_success_end": false,
+      "absolute_speed_success_once": true,
+      "absolute_speed_success_end": false
+    },
+    {
+      "group": "teacher_dev",
+      "seed": 1210098,
+      "folder": "artifacts/bc_v1_2/collection/episode_098",
+      "static_boolean_difference_steps": 104,
+      "original_success_once": true,
+      "original_success_end": true,
+      "absolute_speed_success_once": true,
+      "absolute_speed_success_end": true
+    },
+    {
+      "group": "teacher_dev",
+      "seed": 1210099,
+      "folder": "artifacts/bc_v1_2/collection/episode_099",
+      "static_boolean_difference_steps": 46,
+      "original_success_once": true,
+      "original_success_end": true,
+      "absolute_speed_success_once": true,
+      "absolute_speed_success_end": false
+    },
+    {
+      "group": "student_dev",
+      "seed": 1210080,
+      "folder": "artifacts/bc_v1_2/student/evaluation/episode_080",
+      "static_boolean_difference_steps": 0,
+      "original_success_once": false,
+      "original_success_end": false,
+      "absolute_speed_success_once": false,
+      "absolute_speed_success_end": false
+    },
+    {
+      "group": "student_dev",
+      "seed": 1210081,
+      "folder": "artifacts/bc_v1_2/student/evaluation_v2/episode_081",
+      "static_boolean_difference_steps": 1,
+      "original_success_once": false,
+      "original_success_end": false,
+      "absolute_speed_success_once": false,
+      "absolute_speed_success_end": false
+    },
+    {
+      "group": "student_dev",
+      "seed": 1210082,
+      "folder": "artifacts/bc_v1_2/student/evaluation_v2/episode_082",
+      "static_boolean_difference_steps": 19,
+      "original_success_once": false,
+      "original_success_end": false,
+      "absolute_speed_success_once": false,
+      "absolute_speed_success_end": false
+    },
+    {
+      "group": "student_dev",
+      "seed": 1210083,
+      "folder": "artifacts/bc_v1_2/student/evaluation_v2/episode_083",
+      "static_boolean_difference_steps": 0,
+      "original_success_once": false,
+      "original_success_end": false,
+      "absolute_speed_success_once": false,
+      "absolute_speed_success_end": false
+    },
+    {
+      "group": "student_dev",
+      "seed": 1210084,
+      "folder": "artifacts/bc_v1_2/student/evaluation_v2/episode_084",
+      "static_boolean_difference_steps": 0,
+      "original_success_once": false,
+      "original_success_end": false,
+      "absolute_speed_success_once": false,
+      "absolute_speed_success_end": false
+    },
+    {
+      "group": "student_dev",
+      "seed": 1210085,
+      "folder": "artifacts/bc_v1_2/student/evaluation_v2/episode_085",
+      "static_boolean_difference_steps": 0,
+      "original_success_once": false,
+      "original_success_end": false,
+      "absolute_speed_success_once": false,
+      "absolute_speed_success_end": false
+    },
+    {
+      "group": "student_dev",
+      "seed": 1210086,
+      "folder": "artifacts/bc_v1_2/student/evaluation_v2/episode_086",
+      "static_boolean_difference_steps": 25,
+      "original_success_once": true,
+      "original_success_end": false,
+      "absolute_speed_success_once": true,
+      "absolute_speed_success_end": false
+    },
+    {
+      "group": "student_dev",
+      "seed": 1210087,
+      "folder": "artifacts/bc_v1_2/student/evaluation_v2/episode_087",
+      "static_boolean_difference_steps": 0,
+      "original_success_once": false,
+      "original_success_end": false,
+      "absolute_speed_success_once": false,
+      "absolute_speed_success_end": false
+    },
+    {
+      "group": "student_dev",
+      "seed": 1210088,
+      "folder": "artifacts/bc_v1_2/student/evaluation_v2/episode_088",
+      "static_boolean_difference_steps": 0,
+      "original_success_once": false,
+      "original_success_end": false,
+      "absolute_speed_success_once": false,
+      "absolute_speed_success_end": false
+    },
+    {
+      "group": "student_dev",
+      "seed": 1210089,
+      "folder": "artifacts/bc_v1_2/student/evaluation_v2/episode_089",
+      "static_boolean_difference_steps": 0,
+      "original_success_once": false,
+      "original_success_end": false,
+      "absolute_speed_success_once": false,
+      "absolute_speed_success_end": false
+    },
+    {
+      "group": "student_dev",
+      "seed": 1210090,
+      "folder": "artifacts/bc_v1_2/student/evaluation_v2/episode_090",
+      "static_boolean_difference_steps": 0,
+      "original_success_once": false,
+      "original_success_end": false,
+      "absolute_speed_success_once": false,
+      "absolute_speed_success_end": false
+    },
+    {
+      "group": "student_dev",
+      "seed": 1210091,
+      "folder": "artifacts/bc_v1_2/student/evaluation_v2/episode_091",
+      "static_boolean_difference_steps": 2,
+      "original_success_once": false,
+      "original_success_end": false,
+      "absolute_speed_success_once": false,
+      "absolute_speed_success_end": false
+    },
+    {
+      "group": "student_dev",
+      "seed": 1210092,
+      "folder": "artifacts/bc_v1_2/student/evaluation_v2/episode_092",
+      "static_boolean_difference_steps": 0,
+      "original_success_once": false,
+      "original_success_end": false,
+      "absolute_speed_success_once": false,
+      "absolute_speed_success_end": false
+    },
+    {
+      "group": "student_dev",
+      "seed": 1210093,
+      "folder": "artifacts/bc_v1_2/student/evaluation_v2/episode_093",
+      "static_boolean_difference_steps": 0,
+      "original_success_once": false,
+      "original_success_end": false,
+      "absolute_speed_success_once": false,
+      "absolute_speed_success_end": false
+    },
+    {
+      "group": "student_dev",
+      "seed": 1210094,
+      "folder": "artifacts/bc_v1_2/student/evaluation_v2/episode_094",
+      "static_boolean_difference_steps": 111,
+      "original_success_once": true,
+      "original_success_end": true,
+      "absolute_speed_success_once": true,
+      "absolute_speed_success_end": true
+    },
+    {
+      "group": "student_dev",
+      "seed": 1210095,
+      "folder": "artifacts/bc_v1_2/student/evaluation_v2/episode_095",
+      "static_boolean_difference_steps": 26,
+      "original_success_once": false,
+      "original_success_end": false,
+      "absolute_speed_success_once": false,
+      "absolute_speed_success_end": false
+    },
+    {
+      "group": "student_dev",
+      "seed": 1210096,
+      "folder": "artifacts/bc_v1_2/student/evaluation_v2/episode_096",
+      "static_boolean_difference_steps": 0,
+      "original_success_once": false,
+      "original_success_end": false,
+      "absolute_speed_success_once": false,
+      "absolute_speed_success_end": false
+    },
+    {
+      "group": "student_dev",
+      "seed": 1210097,
+      "folder": "artifacts/bc_v1_2/student/evaluation_v2/episode_097",
+      "static_boolean_difference_steps": 0,
+      "original_success_once": true,
+      "original_success_end": false,
+      "absolute_speed_success_once": true,
+      "absolute_speed_success_end": false
+    },
+    {
+      "group": "student_dev",
+      "seed": 1210098,
+      "folder": "artifacts/bc_v1_2/student/evaluation_v2/episode_098",
+      "static_boolean_difference_steps": 0,
+      "original_success_once": false,
+      "original_success_end": false,
+      "absolute_speed_success_once": false,
+      "absolute_speed_success_end": false
+    },
+    {
+      "group": "student_dev",
+      "seed": 1210099,
+      "folder": "artifacts/bc_v1_2/student/evaluation_v2/episode_099",
+      "static_boolean_difference_steps": 2,
+      "original_success_once": false,
+      "original_success_end": false,
+      "absolute_speed_success_once": false,
+      "absolute_speed_success_end": false
+    }
+  ]
+}
