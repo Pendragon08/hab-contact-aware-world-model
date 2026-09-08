@@ -87,6 +87,7 @@ python scripts/restore_artifacts.py --inventory release/<bundle>.release.json --
 - [状态训练入口独立验证](reports/状态训练入口验证.md)：真实更新、检查点及视频核验。
 - [300 回合审计](reports/contact_v1/audit.json)与[保存观测重建 SAC 输出审计](reports/contact_v1/observation_replay_audit.json)。
 - [状态训练逐回合与更新审计](reports/state_pilot/audit.json)。
+- [全新 GitHub 克隆与归档恢复验证](reports/fresh_clone_audit.json)：63 个重叠文件、53 份源码，以及运行记录归档的 95 个文件均通过检查。
 
 当前只验证重新初始化后的配对一致性。关节增量控制器导出的附加状态为空，尚未验证任意中途模拟器/控制器/RNG/观测堆叠恢复，不能直接用于反事实分支标签。
 
