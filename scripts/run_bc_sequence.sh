@@ -1,15 +1,17 @@
 #!/usr/bin/env bash
-# Finite R001 -> R002 -> R003 sequence. Stop at any failed gate; never retries.
+# Finite R002 -> R003 continuation after verified R001 and fixed-spawn witness.
 set -euo pipefail
 cd "$(dirname "$0")/.."
 source local-settings.sh
 source scripts/runtime.sh
+export HAB_BC_CONFIG=configs/bc_v1_2.json
 python - <<'PY'
-import json, hashlib, pathlib, shutil, subprocess
-root=pathlib.Path.cwd(); plan=json.loads((root/'configs/bc_v1.json').read_text())
+import json, hashlib, pathlib, shutil, os
+root=pathlib.Path.cwd(); config=root/os.environ['HAB_BC_CONFIG']; plan=json.loads(config.read_text())
 base=root/'artifacts'/plan['version']
 witness=json.loads((base/'witness/complete.json').read_text()); assert witness['passed']
-assert witness['plan_sha256']==hashlib.sha256((root/'configs/bc_v1.json').read_bytes()).hexdigest()
+assert witness['plan_sha256']==hashlib.sha256(config.read_bytes()).hexdigest()
+assert json.loads((root/plan['interface_source']/'complete.json').read_text())['passed']
 snap=base/'source_snapshot'; snap.mkdir(exist_ok=False)
 manifest=[]
 for folder in ['scripts','configs','docs']:
@@ -21,8 +23,9 @@ for folder in ['scripts','configs','docs']:
 (snap/'manifest.json').write_text(json.dumps(manifest,indent=2))
 print('BC_SOURCE_SNAPSHOT',len(manifest),flush=True)
 PY
-python -m unittest discover -s tests -v > logs/bc_v1_1_existing_tests.log 2>&1
-for stage in interface collect train; do
+test ! -f logs/bc_v1_2_existing_tests.log
+python -m unittest discover -s tests -v > logs/bc_v1_2_existing_tests.log 2>&1
+for stage in collect train; do
   python - <<'PY'
 import subprocess, shutil
 rows=subprocess.check_output(['nvidia-smi','--query-gpu=index,memory.used,memory.free','--format=csv,noheader,nounits'],text=True)
@@ -34,5 +37,5 @@ print('STAGE_RESOURCE_CHECK',rows,flush=True)
 PY
   bash scripts/run_bc.sh "$stage"
 done
-python scripts/report_bc.py > logs/bc_v1_1_report.log 2>&1
+python scripts/report_bc.py > logs/bc_v1_2_report.log 2>&1
 printf '%s\n' BC_SEQUENCE_FINISHED
