@@ -4,6 +4,16 @@
 
 **当前完成：接触控制配对实验、TD-MPC2 / 状态 SAC 短程训练，以及教师示范和行为克隆实验。行为克隆未通过可学习性门槛；风险预测模块尚未训练，也未得到世界模型提升 HAB 性能的研究结论。**
 
+## 最新：固定策略闭环失败诊断
+
+原 BC 模型保持第5000次更新，新测20个真正参与训练的起点：曾抓取 **7/20**、曾完整成功 **6/20**、结束完整成功 **0/20**。原留出测试仍为4/20、3/20、1/20，没有重跑或用于新训练。
+
+本轮新增4000个物理步，分析80条轨迹的教师建议与学生动作，并计算相对拟合状态的距离。拟合起点来自成功教师示范，两组不构成无偏泛化比较；动作分歧和距离是诊断证据，尚未隔离唯一原因。未进行参数更新、世界模型或风险规划训练，原R003门槛仍未通过。
+
+- [诊断报告](reports/bc_diagnosis_v1/报告.md) · [冻结协议](docs/BC_DIAGNOSIS_EXECUTION.md) · [独立预检](reports/BC诊断入口验证.md)
+- [完整新增原始数据](https://github.com/Pendragon08/hab-contact-aware-world-model/releases/tag/v0.3.1-bc-diagnosis) · [训练起点与留出起点演示](https://github.com/Pendragon08/hab-contact-aware-world-model/releases/download/v0.3.1-bc-diagnosis/diagnosis_demo.mp4)
+- 本地打开 `行为克隆失败诊断.html` 查看全部20条新视频；[逐文件交付校验](reports/bc_diagnosis_local_transfer_audit.json)与[发布校验](reports/github_v0.3.1-bc-diagnosis_audit.json)。
+
 [计划与执行结果](refine-logs/EXPERIMENT_PLAN.md) · [执行表](refine-logs/EXPERIMENT_TRACKER.md)：**R001–R003 已完成**。20/20 教师接口配对通过，采集 100 次示范，用 53 条成功拟合轨迹完成 5,000 次 BC 更新。学生在 20 个留出起点上曾抓取 **4/20**、曾完整成功 **3/20**、结束完整成功 **1/20**。未达到预定门槛（曾抓取≥10/20 且曾完整成功≥5/20），R004/R005 保持 GATED。下一步先诊断状态输入 BC 的闭环失败。
 
 - [行为克隆报告](reports/bc_v1_2/报告.md) · [观测与静止判据诊断](reports/bc_v1_2/观测与静止判据诊断.md)

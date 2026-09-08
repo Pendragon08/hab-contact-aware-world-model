@@ -1,0 +1,1990 @@
+{
+  "bundle": "bc-diagnosis-v1",
+  "files": [
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/complete.json",
+      "size": 161,
+      "sha256": "5b498f4cfba0e56dc9403f157084bd496287aa619a1e356dd705d122a594d5e9"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_000/episode.json",
+      "size": 602,
+      "sha256": "64668e3b071b89278f9daa67ae74c9f9da6670100f53419e6c5155a8cee9881c"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_000/initial.json",
+      "size": 933,
+      "sha256": "58eaa7e6b87be396a8fba8f41578a1934e6027ed02010c07755bd216398c63e3"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_000/initial_pair_audit.json",
+      "size": 17188,
+      "sha256": "29458cd76b4f5e21e258af763a549a4dc1e35aaf203227dc16e534becb608f57"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_000/initial_snapshot.pt",
+      "size": 239342,
+      "sha256": "a621b2cc847383860daef1acab69b5de25830092e08243651a92eaea62fe02ee"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_000/rollout.mp4",
+      "size": 1093393,
+      "sha256": "d554966a8d8fc15c2b43e1e55cc38ba5e255afe231aa3f3ca585f0dea53facd2"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_000/schema.json",
+      "size": 2043,
+      "sha256": "2df8f3edb4bd5ef2b4eb0db84ebb76489252b4916ecba3b09aa747497488d3db"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_000/shadow_teacher.npz",
+      "size": 9746,
+      "sha256": "19983e0a188a257bcf83378856025d1003c9a5edd5f0edb0390dc934a6ccced8"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_000/steps.jsonl",
+      "size": 57607,
+      "sha256": "8470d3c66daf5602b92a958c6c4bd50d32d18390b742acf6e4a4fcecf1a3d72c"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_000/terminal.json",
+      "size": 84,
+      "sha256": "0a7a70294b4f49c72d6ef4c4caa8acea9a8fa62a16094bd9ea605349fe466cba"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_000/trajectory.npz",
+      "size": 3179377,
+      "sha256": "ffe4e1f06464e2a8e4772f4204c7d63e9cf2164981c9386d97452247a5c61614"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_005/episode.json",
+      "size": 603,
+      "sha256": "3e7d432d3169ae1f01faeef78cd21d3db7c817a9468f3abb611d4a8c7688cd56"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_005/initial.json",
+      "size": 933,
+      "sha256": "ca3b496cc07399f60a6780c35781c2e05c2e0fa4b80cea093913bda724861037"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_005/initial_pair_audit.json",
+      "size": 17188,
+      "sha256": "a80ddf8caee106332b0ecf7f0c2871d3f30122556597f1debc0eb839865be6d1"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_005/initial_snapshot.pt",
+      "size": 239342,
+      "sha256": "086d24c8597129e6bba80bf2d0f3d4679e2500bce5e2ec4dac443decaa306a07"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_005/rollout.mp4",
+      "size": 1063378,
+      "sha256": "1c7267c310269be083a26c5769da647e1058be0c77aeb309361f482d1b55cba9"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_005/schema.json",
+      "size": 2043,
+      "sha256": "2df8f3edb4bd5ef2b4eb0db84ebb76489252b4916ecba3b09aa747497488d3db"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_005/shadow_teacher.npz",
+      "size": 9526,
+      "sha256": "d29ad320473fe5edf89a3c5e283a3143a43ad69cb3141167c243ab3c05057f1b"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_005/steps.jsonl",
+      "size": 55501,
+      "sha256": "191789d8a2833c8abcd8734bbe80b42af15cc8a8aac9396aad8d0329b41c3c98"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_005/terminal.json",
+      "size": 85,
+      "sha256": "887265819db5b0963faf62c219d98f1d26f07862c543cf616c7ca13677e7ebdb"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_005/trajectory.npz",
+      "size": 2579942,
+      "sha256": "589f00f3cf319df3e935994f615108aca0a0089e7e1020a5f3086b954af1b19c"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_010/episode.json",
+      "size": 604,
+      "sha256": "46ddb0b9243a643a9f21d1a8167907fb576a6048669c68274cdefc4bcca6efc0"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_010/initial.json",
+      "size": 933,
+      "sha256": "478f396231cf8a3462be89f7f72dab0534fa9837ebea2173f9866e1377c1099f"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_010/initial_pair_audit.json",
+      "size": 17188,
+      "sha256": "523766f1b7cbbe5e709e37ed0622d388735a637d1e1013d4ef9d09c93c875e2f"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_010/initial_snapshot.pt",
+      "size": 239342,
+      "sha256": "e244b4b9ceb92465c0c12b5e064c731bfb9527f351bc8f8a9ba0633934580dc5"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_010/rollout.mp4",
+      "size": 1506526,
+      "sha256": "0dee9b285ed6c78fd909185251c8d78f975aa77aabb98530cfc08d9050ae9236"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_010/schema.json",
+      "size": 2043,
+      "sha256": "2df8f3edb4bd5ef2b4eb0db84ebb76489252b4916ecba3b09aa747497488d3db"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_010/shadow_teacher.npz",
+      "size": 9625,
+      "sha256": "25c68dfb5cffa17b60d16212da70f464efe43636e0dc60e783f901fa89a6b70b"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_010/steps.jsonl",
+      "size": 57293,
+      "sha256": "b63f2b31f083f6dc6f4e3388dcdab4232cbfd9ad2c4261de8f943c1925598356"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_010/terminal.json",
+      "size": 85,
+      "sha256": "f27acabad8798b20af8525f77f82d4951f6087650a2b3f5a4ebbf16b73b390a5"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_010/trajectory.npz",
+      "size": 3529572,
+      "sha256": "9a59938b93538a87a643f622534f383c069f6904d5743c6e132b446744293a04"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_016/episode.json",
+      "size": 601,
+      "sha256": "d75ec29f74b967c81c6c7577330a24c4f8b1033104fe7f50d915e24dd1412838"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_016/initial.json",
+      "size": 933,
+      "sha256": "64a5315470324718e51ea0d3690bb4ce1979afe4a340974a8e7242737b627b17"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_016/initial_pair_audit.json",
+      "size": 17188,
+      "sha256": "b7270f2c4701b20c5829a27d6356b234b3f741cf46090da3bda6d9459c588e78"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_016/initial_snapshot.pt",
+      "size": 239342,
+      "sha256": "62e98dfc563802ad761419a2b3120998152c2f510ae46b4bf124f2d7b0453ef0"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_016/rollout.mp4",
+      "size": 913860,
+      "sha256": "c8495b26fe6faddb02aed2a7bb567a6f6de71a2796b69a6c7bc6c7d55b1f156b"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_016/schema.json",
+      "size": 2043,
+      "sha256": "2df8f3edb4bd5ef2b4eb0db84ebb76489252b4916ecba3b09aa747497488d3db"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_016/shadow_teacher.npz",
+      "size": 9816,
+      "sha256": "0a61d18568bd754845fdaaaefd28d7b31481136908ba524c4eda24c3cd249eea"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_016/steps.jsonl",
+      "size": 55653,
+      "sha256": "040b6a90bbbc94e40430d4f038f6f9206ad93f53f9bbbf424dfc9ba351111f07"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_016/terminal.json",
+      "size": 85,
+      "sha256": "0c92386c805fb86385850c78521efc142a6474786127e289e491a4bb008dcc36"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_016/trajectory.npz",
+      "size": 3625871,
+      "sha256": "77f2222c26dfb58de4f86f16738069388c6e110a4fc28986b134acd37974b7fc"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_018/episode.json",
+      "size": 604,
+      "sha256": "07dd43c9717fd31ccfa6d304c711a74bf7e16af7c76e6fe0070d207d152162b5"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_018/initial.json",
+      "size": 933,
+      "sha256": "faf23c405350c5ebaaedbe56ebe0a3b203f148d8c119b3915df0551b3fd701e7"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_018/initial_pair_audit.json",
+      "size": 17188,
+      "sha256": "576151828c4895303323568b6130c925b4fc0fa97639fd0bfc3c2096e1c78093"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_018/initial_snapshot.pt",
+      "size": 239342,
+      "sha256": "6f6c8e95b38287d907ab8f42f346ea9367901fe02e1296860ccd60d9fa73ee95"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_018/rollout.mp4",
+      "size": 1114234,
+      "sha256": "5fa0746d6a4c07f764578325091178fc8112284b081d9267b44a71ba755b34b7"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_018/schema.json",
+      "size": 2043,
+      "sha256": "2df8f3edb4bd5ef2b4eb0db84ebb76489252b4916ecba3b09aa747497488d3db"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_018/shadow_teacher.npz",
+      "size": 9559,
+      "sha256": "33680086b388c89629e0964946d246b5f6185d38adbee77c9368ad130628cfb0"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_018/steps.jsonl",
+      "size": 54899,
+      "sha256": "0ef2596ada94465830a78d2f6096c204612eccdaecd6ee9616472b27abd8ad2d"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_018/terminal.json",
+      "size": 85,
+      "sha256": "e9a287c29ee2e04a6b46afa3d3d8dd581c0f1394b4159d76c2141da6a1e17063"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_018/trajectory.npz",
+      "size": 3191710,
+      "sha256": "a5234a56819ee5d03c5d7300bcf009c313279d1c4e9a3967d5e4cc749f3c62c9"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_023/episode.json",
+      "size": 604,
+      "sha256": "ee87382da8a53577ec4acf1bd86d3c49ccf216e212778679ecb516d1c0a315ca"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_023/initial.json",
+      "size": 933,
+      "sha256": "379dd6b7e109b9c125d7587bc07d067746768767d4e5fb731eaf08417fb0c628"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_023/initial_pair_audit.json",
+      "size": 17188,
+      "sha256": "0b4760df57b641f4227607ed2918afc523f3df66895fc54b9e429e3e437d8399"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_023/initial_snapshot.pt",
+      "size": 239342,
+      "sha256": "336f0ffe7f5e67c44333ae984d676e0e2b03e5f2a320d8799aa7bfcaae41f7f5"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_023/rollout.mp4",
+      "size": 1256851,
+      "sha256": "d364b4c6f53199ad46ad52b18d23908dcc3f2c30e214a2b958b01de23a0b6c2a"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_023/schema.json",
+      "size": 2043,
+      "sha256": "2df8f3edb4bd5ef2b4eb0db84ebb76489252b4916ecba3b09aa747497488d3db"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_023/shadow_teacher.npz",
+      "size": 9601,
+      "sha256": "34fba0a1640b2dea8cc52880cfc795e49e1a396558c08c51ad3a79c572a11b97"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_023/steps.jsonl",
+      "size": 57121,
+      "sha256": "7ee857ea54935a0ecb95d4cbe302a64a69baae03e354f4e5f084dd015d3ed4fa"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_023/terminal.json",
+      "size": 85,
+      "sha256": "73a05d41a0e014d9c905d168dd41764021744171606130c8ef7b845c2dc3275f"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_023/trajectory.npz",
+      "size": 3050610,
+      "sha256": "97c15e448cd36c3878a55635967f554ca973283723496afe4595b6d6199384b6"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_028/episode.json",
+      "size": 603,
+      "sha256": "26e22813d962ccb99a87bc6cff900f2df681128f9fc65d297e878f385599480f"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_028/initial.json",
+      "size": 933,
+      "sha256": "7ea75657479a2726cb36b340cb690fbbb64bccb9d2d6b854019f5ab490124eb1"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_028/initial_pair_audit.json",
+      "size": 17188,
+      "sha256": "3c2f8a0cd52e66478bfb38f75016f1fb594bde66d04656eb215d53115d38121b"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_028/initial_snapshot.pt",
+      "size": 239406,
+      "sha256": "7d0c89972b9e86089afb3981de2f3c8d95c99d506a605ec263170871816f8d09"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_028/rollout.mp4",
+      "size": 1163335,
+      "sha256": "7df4497de4bd668fb47eef0f597803e573ac024aad059b4833de243be26a1c0c"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_028/schema.json",
+      "size": 2043,
+      "sha256": "2df8f3edb4bd5ef2b4eb0db84ebb76489252b4916ecba3b09aa747497488d3db"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_028/shadow_teacher.npz",
+      "size": 9507,
+      "sha256": "703c174d648a80e3cc20a31cebba703c08eb6e0cf61e79e3274537a81c00329e"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_028/steps.jsonl",
+      "size": 56294,
+      "sha256": "92aa7c666b9a45730f42b8cc0f633cce0e786cbcebf15ea579114f335b9df9be"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_028/terminal.json",
+      "size": 85,
+      "sha256": "07b3587f8b1219b13aece131ef1a59ba0616db420ef4d7a8b4fa4d1e34925b33"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_028/trajectory.npz",
+      "size": 2515340,
+      "sha256": "5d2b6203e20916b8465867cc2ea9e23d619e41d191927c4d55a0177a72191feb"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_034/episode.json",
+      "size": 603,
+      "sha256": "cbbafbc509b537030d27a6fa5f1c04794fdaf0b09db44b237a40ca8025d0b79f"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_034/initial.json",
+      "size": 933,
+      "sha256": "524faf32e45f1958d743b0688729aa16acadc25949146698947ff26255aaa8b1"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_034/initial_pair_audit.json",
+      "size": 17188,
+      "sha256": "0310aa16a175666aa1faa3cb99fcfc9b7a541e4f7d06d7cbc8c02aedba4f1b83"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_034/initial_snapshot.pt",
+      "size": 239342,
+      "sha256": "0044ed4467ad513d37e36240d43ae464a4cc2a125c981258a4e0f364599098b4"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_034/rollout.mp4",
+      "size": 1094762,
+      "sha256": "fcc4996f974b846e73ec9883d237b3c7a92638571990ee91adbafea7ae946562"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_034/schema.json",
+      "size": 2043,
+      "sha256": "2df8f3edb4bd5ef2b4eb0db84ebb76489252b4916ecba3b09aa747497488d3db"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_034/shadow_teacher.npz",
+      "size": 9519,
+      "sha256": "5b4ce2da50dbe83b0b67f5a9bff3021907bb50c8e98a42ced3c1af98464854d8"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_034/steps.jsonl",
+      "size": 55431,
+      "sha256": "cdfd2b4874fbd07a6a6ea2ece7cb6d748604701c4bcfd7505fb091f2978b851d"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_034/terminal.json",
+      "size": 83,
+      "sha256": "9eb18879f36b15cafd14f2040282712895102602e55428f909f9f190865125d0"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_034/trajectory.npz",
+      "size": 3373240,
+      "sha256": "d1758cc248ccfa79e5af72d470ae8128aef98c31915e808e38ef58f0a298c199"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_036/episode.json",
+      "size": 604,
+      "sha256": "c9983f7210ba2685f6abbc5e13984e9104bd6a8d14133829975a4e598365dc10"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_036/initial.json",
+      "size": 933,
+      "sha256": "9af72d8c55d1d672f0ddcb969bbada2f2702227736183cef171188168bf68002"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_036/initial_pair_audit.json",
+      "size": 17188,
+      "sha256": "4fc247377ae7c00c1f3ca9c579f03469be21ee7db262b8f91cd45453bc14386c"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_036/initial_snapshot.pt",
+      "size": 239342,
+      "sha256": "15867a3e01423aad131f236c92a8ebdb8b2283711d3304de2135f5322c9ba446"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_036/rollout.mp4",
+      "size": 1212721,
+      "sha256": "d53971da6934da60e5837e59cb29cf0220125305a78fc20a5f949e99a53fae5e"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_036/schema.json",
+      "size": 2043,
+      "sha256": "2df8f3edb4bd5ef2b4eb0db84ebb76489252b4916ecba3b09aa747497488d3db"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_036/shadow_teacher.npz",
+      "size": 9647,
+      "sha256": "4c806fa85702772f4a8987ff66ffe33c9eaae8440a1df0f282b6a2e7d3d2f6e5"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_036/steps.jsonl",
+      "size": 57290,
+      "sha256": "c66f11a3492cdf83304685af45c5b823407eedc3d33714d7595733123a4338f7"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_036/terminal.json",
+      "size": 86,
+      "sha256": "bb1340cfe49778ea22fa5ceded23909d62b072845f8fcfa682c697f31a17d28c"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_036/trajectory.npz",
+      "size": 3290825,
+      "sha256": "57301149859e19c628f3454bee63c649a9a5699a97da1fbe9c3e2d808adee8e2"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_040/episode.json",
+      "size": 599,
+      "sha256": "46120d128210410046f7f735d68e07bd0312fec038b53e0c9ddd911f1dae5aa2"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_040/initial.json",
+      "size": 933,
+      "sha256": "9a5078d18572084b66a655895ebeaf057a9fb3e9ae2a9a23ee2bbe08898e09b4"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_040/initial_pair_audit.json",
+      "size": 17188,
+      "sha256": "ebb18afcf5e9fa28f2f4f9dae0add955dd9825b2d98048d9ff7af746570fa139"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_040/initial_snapshot.pt",
+      "size": 239406,
+      "sha256": "126798ef017bf26d12de773eb6324d487275e6ed8ae1d85098880a00271aedc5"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_040/rollout.mp4",
+      "size": 1011109,
+      "sha256": "12af42dc5799adeddd1edac7793ce1df02dbc9d3baae8890ab7b7c4e17198e12"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_040/schema.json",
+      "size": 2043,
+      "sha256": "2df8f3edb4bd5ef2b4eb0db84ebb76489252b4916ecba3b09aa747497488d3db"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_040/shadow_teacher.npz",
+      "size": 9889,
+      "sha256": "068dd789337d8af2183b41eabd52aaac45c3926fb38efa812f024261d7367cfa"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_040/steps.jsonl",
+      "size": 55490,
+      "sha256": "ad173046fb57df770cc9c8d27d452fc7c1745231597c8700996b29eb73f9ff4a"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_040/terminal.json",
+      "size": 83,
+      "sha256": "87a59c8a7c12acc9a6b927f920824fe941c1de8c5c0224c8675df4eaaa422e5f"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_040/trajectory.npz",
+      "size": 3329241,
+      "sha256": "55995f53233318d8c62f46a3eefcb23e8e0623e3247b4bbb5656023a12d3bc6b"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_043/episode.json",
+      "size": 605,
+      "sha256": "367738ec4f596a4f0af18a2ce628d38f8a67f374aa2125bc6eb53e3536441254"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_043/initial.json",
+      "size": 933,
+      "sha256": "f2ddfb095ab1646158a2429d8eb6fa6062462b79a0f8fd41d065c3d0d78335f6"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_043/initial_pair_audit.json",
+      "size": 17188,
+      "sha256": "bc9094b1c79013e55e1dfde2a80942f32328a42480f14f60e89ec61886b2167b"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_043/initial_snapshot.pt",
+      "size": 239406,
+      "sha256": "00f4167d91c4068c7902df565ec9a028217f15abb435a2e35360a1a061aa0b6a"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_043/rollout.mp4",
+      "size": 1339502,
+      "sha256": "315bf8dda89455c5a377c7ef0d5ded5c33ba4e39fd0866ca5f32a079d768c09a"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_043/schema.json",
+      "size": 2043,
+      "sha256": "2df8f3edb4bd5ef2b4eb0db84ebb76489252b4916ecba3b09aa747497488d3db"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_043/shadow_teacher.npz",
+      "size": 9635,
+      "sha256": "6a18100b80a90f4782ab0144893e179f0d58391cf0cf929a983a8b6ab43ffa02"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_043/steps.jsonl",
+      "size": 56871,
+      "sha256": "223d1bf83153927cecbaf9d19f36f4c080b8454d81d0b17ff86dd02d0ca7178c"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_043/terminal.json",
+      "size": 86,
+      "sha256": "f951a70927ffa4f478c973131d2788dae612e56d7f5de6b05d6b0a0b2d1a417e"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_043/trajectory.npz",
+      "size": 3258456,
+      "sha256": "132f88d3bcaa26556310203f244e8783c9318fe06692bd132dea8b13417497c0"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_046/episode.json",
+      "size": 604,
+      "sha256": "ebaf7eff103ae65c404c55004989a6d92885116c8e13ecdc642333c9d33cb043"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_046/initial.json",
+      "size": 933,
+      "sha256": "d70a13ebc6e2beb9bb45afccc96a8c23aaff3d78816494e02fcd4275a1237bb7"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_046/initial_pair_audit.json",
+      "size": 17188,
+      "sha256": "dba3791af1875ca2a2aa3a6fc3d8a605c17ae6ffe4d67c52fa61fc19a6fdceef"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_046/initial_snapshot.pt",
+      "size": 239406,
+      "sha256": "6ce9524d8f23b8d82b0b1973d3319b28329824d16e974b092fbf1f9282021136"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_046/rollout.mp4",
+      "size": 1237962,
+      "sha256": "23eb3fc80614cb94885b7e5aaa030ccabdb806de6774b3a78fe097649f24bb61"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_046/schema.json",
+      "size": 2043,
+      "sha256": "2df8f3edb4bd5ef2b4eb0db84ebb76489252b4916ecba3b09aa747497488d3db"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_046/shadow_teacher.npz",
+      "size": 9583,
+      "sha256": "2764cdb43d545df221f47f8c66ac15daf12537aee56e395d4c721f59f36d2dce"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_046/steps.jsonl",
+      "size": 56434,
+      "sha256": "6e5ff95f51a481b6c504f785657d76c50eb3f9580be176149a44758cd7cede8c"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_046/terminal.json",
+      "size": 85,
+      "sha256": "b491e2ee8d26761815f0e3d06ea43accbdceef9ffa438d56cd97d667ba004433"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_046/trajectory.npz",
+      "size": 3047073,
+      "sha256": "439dfc2b4e36285d9255b3f977c088bc2d13a8d8f50fcc33f85296b294929080"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_048/episode.json",
+      "size": 604,
+      "sha256": "270de1b5c8e344172af19dbe6aadf248887646e29fbdefea1f25be0b31dc8ee8"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_048/initial.json",
+      "size": 933,
+      "sha256": "2e0cca86451903459b6ef4315582fc2431967ce0268aa65e8180ed2163dc10c9"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_048/initial_pair_audit.json",
+      "size": 17188,
+      "sha256": "8cc54894dfedc04d8fafa33b4239bd1991023b28ac2c7ddac417352dec5854c1"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_048/initial_snapshot.pt",
+      "size": 239278,
+      "sha256": "c05886d96290dcf4ddad1c3ae1a7ad6968af10c14d7ae339d9a3d3ab5a714ecf"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_048/rollout.mp4",
+      "size": 1623934,
+      "sha256": "ce1cfff837b52abd501b141656a76841ead6098f4f12ae9f66738dc4fbf04b58"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_048/schema.json",
+      "size": 2043,
+      "sha256": "2df8f3edb4bd5ef2b4eb0db84ebb76489252b4916ecba3b09aa747497488d3db"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_048/shadow_teacher.npz",
+      "size": 9721,
+      "sha256": "b85fb4db0ba99ab5f98d9673edc57e31ec46d3db2ee5ebb8e1831e7f0a3637f8"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_048/steps.jsonl",
+      "size": 56987,
+      "sha256": "04552cfbda46a86af77ab8e8ff81468176eda516c26ce7ebbd35abe89a271a0a"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_048/terminal.json",
+      "size": 85,
+      "sha256": "b68f1e32147632f814c038b3ffd40f339a258dc4878b60580a0db11f8c8ba71f"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_048/trajectory.npz",
+      "size": 4395377,
+      "sha256": "ea4a00b5e7825c7f5eaaac879f1b2f2612bf5593d08ffaa77393fe6764ffc5f3"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_053/episode.json",
+      "size": 599,
+      "sha256": "cee989d54205194a2904330741ed1c3b1d2bcc33464f99f254ff4c9a3c6aeffb"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_053/initial.json",
+      "size": 933,
+      "sha256": "0269b3d0df7f7b95fa98c7756ab41fb69cda4cd1eb2580282ac35d35a33099be"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_053/initial_pair_audit.json",
+      "size": 17188,
+      "sha256": "6e18548fee2c870fa1731131b3f9451a228f9a3cfd8f99bd28d788d3431decea"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_053/initial_snapshot.pt",
+      "size": 239342,
+      "sha256": "334625c9575754c4f0371734471991afa95ed688ec55c951b05adc0c645cb28b"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_053/rollout.mp4",
+      "size": 1198646,
+      "sha256": "6056028b69db2b086820aed541bcb2d0c838a6ebb62cf9cd8b2441e5461dbede"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_053/schema.json",
+      "size": 2043,
+      "sha256": "2df8f3edb4bd5ef2b4eb0db84ebb76489252b4916ecba3b09aa747497488d3db"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_053/shadow_teacher.npz",
+      "size": 9907,
+      "sha256": "9f3f0f17a8aa29f36d274b531708efe269be121df235297efcdeff72abc6624d"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_053/steps.jsonl",
+      "size": 55297,
+      "sha256": "865f0bbc3cad2d64136199c1aa62c9f7639321ece10890eff0312645f05912cb"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_053/terminal.json",
+      "size": 85,
+      "sha256": "8dcff98552d4d2bb5abac55c89712457d6f490503f084cd13426e1c0eaf41423"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_053/trajectory.npz",
+      "size": 3589763,
+      "sha256": "b14b4368ffd44d587786c019ea133bab3dfd5f3ac27a100ea2799aaea4c5bd50"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_056/episode.json",
+      "size": 598,
+      "sha256": "725e81d442c86aabe6c3ca8acbe4be47b5c046cd3b53581b9c5cefcf41613009"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_056/initial.json",
+      "size": 932,
+      "sha256": "dddac70e2c566d4479000a6e90037f3880bdbf01b4b0d658ca6e9b1e293e0bb4"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_056/initial_pair_audit.json",
+      "size": 17188,
+      "sha256": "f6599bbbf87f2cfea3f22b8f402ce771881210ace1dea44e18b068afe0a55128"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_056/initial_snapshot.pt",
+      "size": 239342,
+      "sha256": "151a28301102ed36c56a22a8bb0973d2c66e2bc910513738d9b439f71330b700"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_056/rollout.mp4",
+      "size": 1150859,
+      "sha256": "1e7091642a394bb36068e1dd4e1bcbfcafb812fac4b319812237fe722a6b6222"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_056/schema.json",
+      "size": 2043,
+      "sha256": "2df8f3edb4bd5ef2b4eb0db84ebb76489252b4916ecba3b09aa747497488d3db"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_056/shadow_teacher.npz",
+      "size": 9927,
+      "sha256": "b796426ad3276f6b8efec6d7a60b76f7629f693e0a0b0cc64f008fd97956603a"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_056/steps.jsonl",
+      "size": 56099,
+      "sha256": "5316ad6ae58032b1dca5eaeb43b6d52cb74eb29a2608d88b84e56f100da2d3a3"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_056/terminal.json",
+      "size": 85,
+      "sha256": "fa31d4fcab715cacded7ac573922c63be6ae7575057009f7cc9310fd5cce2622"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_056/trajectory.npz",
+      "size": 2902012,
+      "sha256": "2c3e126b58daef1652663c2cedd3a46934db4d3316d2ef77243a68ef59575523"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_062/episode.json",
+      "size": 603,
+      "sha256": "1d40c251dcec9b570684b01588737e538a14b062eb876cf3a4cc716749289cbb"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_062/initial.json",
+      "size": 933,
+      "sha256": "fcf32181b9176895d34943de431e97f286f083effcdd05b951e973f64564eaaf"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_062/initial_pair_audit.json",
+      "size": 17188,
+      "sha256": "229aa9201626d88f5081f55d14a7f8570ffbcb59313ce76803c5ac571d692412"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_062/initial_snapshot.pt",
+      "size": 239342,
+      "sha256": "9525c0eb1b179ad5831dcafa1bed6838260330615f8720248dff68e5e367df44"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_062/rollout.mp4",
+      "size": 1362389,
+      "sha256": "8bf82e92de70c0366dd492d60aed2b50ec726afbc495dcfb513e638d0d01348b"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_062/schema.json",
+      "size": 2043,
+      "sha256": "2df8f3edb4bd5ef2b4eb0db84ebb76489252b4916ecba3b09aa747497488d3db"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_062/shadow_teacher.npz",
+      "size": 9671,
+      "sha256": "c84691aa692fefbddb885aa93b260a03599bc3350b1f450f7e38b9b2fcc5ea97"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_062/steps.jsonl",
+      "size": 56687,
+      "sha256": "38cf12eba909e8c00ca662ec6fca437de22dbca9f9615375906d37806cd65006"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_062/terminal.json",
+      "size": 84,
+      "sha256": "82a818187c9226ccdd017d978359595ccdbaceb7b45633dfec357ccb8dcbbe10"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_062/trajectory.npz",
+      "size": 5110161,
+      "sha256": "f8e932ca0e7470c5639ceb9f32ca61db9330e08eadbc45580e5b734b77dc2f40"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_064/episode.json",
+      "size": 604,
+      "sha256": "63370e5083006fd601cf7b22a00bd9dcbe210308577c7e234116859169eb2c7f"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_064/initial.json",
+      "size": 933,
+      "sha256": "28867214882582f16ece23f451b4b393529467b1a6e36a9fe4691cc0f52a0d4c"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_064/initial_pair_audit.json",
+      "size": 17188,
+      "sha256": "a709e3b97af490af1e66f474e8fdae104b9cf1c899ba883bb0da0ca5256fd8b0"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_064/initial_snapshot.pt",
+      "size": 239342,
+      "sha256": "821deb0e164a003f6847caa84e6f844efd9476f862644d674b0cf58c27393c46"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_064/rollout.mp4",
+      "size": 1209366,
+      "sha256": "a4b2737f8a9b476e0001ae253b1b399a0a40c8ba2db46836c5703cd62ca007b9"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_064/schema.json",
+      "size": 2043,
+      "sha256": "2df8f3edb4bd5ef2b4eb0db84ebb76489252b4916ecba3b09aa747497488d3db"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_064/shadow_teacher.npz",
+      "size": 9511,
+      "sha256": "c53b680c535353db4d9e4799744a4a0a8317613fd1e26be9b84fdf0a7c0aac68"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_064/steps.jsonl",
+      "size": 54865,
+      "sha256": "ffc6007c755c6499458905fae92e882d63203c71b4fa3dbb026cd9c8cf18e006"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_064/terminal.json",
+      "size": 85,
+      "sha256": "37a9f6480d6e6fe242ee172c4f484f5b47a49693bcfee9e2d27a0692d9b0dacc"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_064/trajectory.npz",
+      "size": 2768489,
+      "sha256": "391eb763e95b0e06d1956516ee49f5d3d305057db2d01a8ef25f286fe35760f4"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_069/episode.json",
+      "size": 604,
+      "sha256": "1e999925348c203f72366594c651f0025c8c244034c2aa08850fa7b90046d7dc"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_069/initial.json",
+      "size": 933,
+      "sha256": "6c4952426bffd6e71606f70dd2440f619081e9109d1da9bd1a9d51b989086683"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_069/initial_pair_audit.json",
+      "size": 17188,
+      "sha256": "2bae9e4a92ddc2526349c2a98ec34fe189be9776846d248d9e0e7d85024557f3"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_069/initial_snapshot.pt",
+      "size": 239342,
+      "sha256": "c1c630b664f447b15e0ad7e15d61ab8612feb4d7b8997ba2a1c71a90c2506511"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_069/rollout.mp4",
+      "size": 1235066,
+      "sha256": "aaaaa0b1463b11b02896adf2a1829e94fbb19009c9f86d1e93880b87f2111c04"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_069/schema.json",
+      "size": 2043,
+      "sha256": "2df8f3edb4bd5ef2b4eb0db84ebb76489252b4916ecba3b09aa747497488d3db"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_069/shadow_teacher.npz",
+      "size": 9611,
+      "sha256": "de8c51268efe5c8e1f9433c0a66b3b483d973fc0a67e9f2d333c70d615d170e7"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_069/steps.jsonl",
+      "size": 56560,
+      "sha256": "7636d3459be53ccd0f29afc6689461667bc7eccc8584d376494849dae6ff0f1e"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_069/terminal.json",
+      "size": 85,
+      "sha256": "88c028a1ed9aa342b69e85a9a84300125df2b242af2413cb61aa14caf552bc2b"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_069/trajectory.npz",
+      "size": 3330629,
+      "sha256": "93770bde28a0926ca63edb7867e88febce2c827a95ec5b7f02813ddd0ad42495"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_074/episode.json",
+      "size": 597,
+      "sha256": "213c2f8522c96b08b0377e0d9e9f03d6d8b4e4c8d7b45870fb12e9cb5cf086f1"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_074/initial.json",
+      "size": 933,
+      "sha256": "8435c53af88514aef39d3a7abf89a708cbb514daf4f3f21c601a126e6c93a181"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_074/initial_pair_audit.json",
+      "size": 17188,
+      "sha256": "09f71bba79845d0016a54599afe79f0a32cb915a3fd14dd9802cf000d9ac0ac8"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_074/initial_snapshot.pt",
+      "size": 239342,
+      "sha256": "cc2bbb98adbca04f85aa119428a40e2c482478584c8c0e3bf6582e8aff8ed11b"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_074/rollout.mp4",
+      "size": 1005088,
+      "sha256": "431d62c805e892f59d10986d53d5d1bd0e0603d3951d0d911478e43792936e05"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_074/schema.json",
+      "size": 2043,
+      "sha256": "2df8f3edb4bd5ef2b4eb0db84ebb76489252b4916ecba3b09aa747497488d3db"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_074/shadow_teacher.npz",
+      "size": 9952,
+      "sha256": "eb4684e0a3d357d21886c0d22fd6be6f7ac221eef57d65d9613316b17706c7f3"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_074/steps.jsonl",
+      "size": 57873,
+      "sha256": "64fff3e6be168c2009ed99512da6be12a4eefe1edc3152798986b02e3add24f7"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_074/terminal.json",
+      "size": 85,
+      "sha256": "d95880cacf757a1f0b7f0fef1ccd1846395ed92416e142c085e6ca78029dd2e3"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_074/trajectory.npz",
+      "size": 3034987,
+      "sha256": "33e16eb4a4e45a785b86faec8b040cad053fc27e49459c856b24e4d434fd6d54"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_079/episode.json",
+      "size": 603,
+      "sha256": "69297b3f9bffc0dd90abddacf9d8ea5c5bcd4c58700286adda4c53acd4028362"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_079/initial.json",
+      "size": 933,
+      "sha256": "b2c89a326bf0aaa38c6ff6ec48fe7245f68fe0ddaa27e3e996542c15625acf8e"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_079/initial_pair_audit.json",
+      "size": 17188,
+      "sha256": "942ea64c51c32fe1bc22937fd90e958c31e547b55eec689c0cc66f5f8a13bb23"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_079/initial_snapshot.pt",
+      "size": 239342,
+      "sha256": "ba1da58603aecf3f7cd6511dee8dc2a14eba34905fdbd77ef31b68e03d181c80"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_079/rollout.mp4",
+      "size": 1241802,
+      "sha256": "791443ecbbe0cb9a7b342a6851b931d8b9dd49d500eda530276eca2aad6a03b9"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_079/schema.json",
+      "size": 2043,
+      "sha256": "2df8f3edb4bd5ef2b4eb0db84ebb76489252b4916ecba3b09aa747497488d3db"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_079/shadow_teacher.npz",
+      "size": 9614,
+      "sha256": "738a8c43201a983dce2d3774aad045103b84dbabcf4d5f3d4a65741d6b71c9e1"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_079/steps.jsonl",
+      "size": 56887,
+      "sha256": "7594af2635ea54da1d78d6165b14b1beece3033187b9bcaf52ace667fd1ddc3f"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_079/terminal.json",
+      "size": 85,
+      "sha256": "326862086ae1c4dfbfb76e34d93c3a33c61037bacf9fb6d385f90301186e2923"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episode_079/trajectory.npz",
+      "size": 3821023,
+      "sha256": "be0ce8544891a84b13db4c54de675a5b39b25ac2d609c5ed8b68840715f2bdc3"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/fit/episodes.json",
+      "size": 13528,
+      "sha256": "bd89af5ffb95272053cd13d7701d98d8631ab45f294a13bbf7f7aab2df9ba68c"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/offline_serial/complete.json",
+      "size": 195,
+      "sha256": "9f0afff54c82edf73fe0fc35415e39d337cb84e834a72d76fed05924b2100459"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/offline_serial/episodes.json",
+      "size": 55172,
+      "sha256": "b1090a1cf27cd4c207ac00aa16b4aca8d5d3f3ccfd1973fde54aa9a710d00c62"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/offline_serial/student_dev_1210080.npz",
+      "size": 20002,
+      "sha256": "6ad4ad14fb86c1303433c45a730d4f59fb03ec2407aa505dcf06d721e8844e0b"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/offline_serial/student_dev_1210081.npz",
+      "size": 20762,
+      "sha256": "a5a4e79a9ed38d5313f8da5f7ccb1b2adfabba4d3a17a2c425d0028ad6cd4f69"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/offline_serial/student_dev_1210082.npz",
+      "size": 20811,
+      "sha256": "ef6e14a6d5b213758fc694b4b555319602637a4f2429984a1dea3103f5f92c79"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/offline_serial/student_dev_1210083.npz",
+      "size": 20595,
+      "sha256": "5831f76d5d65261aa974f1329196dd2c43df9c8507eb07c6098b1d1d66d3e1ec"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/offline_serial/student_dev_1210084.npz",
+      "size": 21003,
+      "sha256": "d945c1d149f23ad0025d912dd7b0fdd2ff13f79a7a7e1ad61a338c4c7ef5388d"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/offline_serial/student_dev_1210085.npz",
+      "size": 20344,
+      "sha256": "cfca90761f768de4221f1a5b1aaaed734b1e11feca089e36683e9d0c78082ef1"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/offline_serial/student_dev_1210086.npz",
+      "size": 21361,
+      "sha256": "eb0cc4cbc9595be1c587587375f1dbe6576742b3846c2ff1a1d87465593c8d9d"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/offline_serial/student_dev_1210087.npz",
+      "size": 20013,
+      "sha256": "9e9405986bbad5d5ff72ae49d2968af810091b6b2659e1fb438258c17edfe869"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/offline_serial/student_dev_1210088.npz",
+      "size": 20317,
+      "sha256": "4dc126295d136fde4b9cdace4938dc0941ce90d8f6531fd98ae24622dd159f93"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/offline_serial/student_dev_1210089.npz",
+      "size": 20606,
+      "sha256": "605cfed45bae0617291394e53535cf7eea1619d17aa6e6c1e9135ec16373af87"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/offline_serial/student_dev_1210090.npz",
+      "size": 19521,
+      "sha256": "a9bf8b67ea5a35349114bc51a25fbd9bd8ea7efce9653cddb76d350c9eee638c"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/offline_serial/student_dev_1210091.npz",
+      "size": 20837,
+      "sha256": "4c96007cae3b826e51cf6a71140913dd9a73b1a6c591a8e01979b735d7ed90df"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/offline_serial/student_dev_1210092.npz",
+      "size": 20654,
+      "sha256": "2650203e6f75a3896b052af209b8a7a5c60319a928b2c7aa2246e2d1a30c445c"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/offline_serial/student_dev_1210093.npz",
+      "size": 21006,
+      "sha256": "1e4952690eeaa65c37c13c1f1543cee3bd52890189fbbebb7f0b0c494f0f036c"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/offline_serial/student_dev_1210094.npz",
+      "size": 21176,
+      "sha256": "273a3f6380ab94fd22ac832b7fbc68bcb1eee263870be0afe4a6079041d70cac"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/offline_serial/student_dev_1210095.npz",
+      "size": 20832,
+      "sha256": "4ec8f5c51d9ad4c1e089f3b6910ed98599660111acbc64195e14d55440044e8f"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/offline_serial/student_dev_1210096.npz",
+      "size": 20645,
+      "sha256": "a485ec91aad2845f22249f4c28a9879574c04fe8ae8f333c0854b09273bd12bb"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/offline_serial/student_dev_1210097.npz",
+      "size": 21266,
+      "sha256": "51d16a55def7c9194b86657ce15e23587feb631270e8fe0a4e83064e40f1b18a"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/offline_serial/student_dev_1210098.npz",
+      "size": 20526,
+      "sha256": "187c3172e47caf0c77430ebc11c4665dc45722c23a2268f322d38b5d6604769d"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/offline_serial/student_dev_1210099.npz",
+      "size": 20797,
+      "sha256": "85988e48ea6f19342c5fd7a08b7075b138a2c5abaa6d68068a952d27bad0581a"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/offline_serial/student_fit_1210000.npz",
+      "size": 21125,
+      "sha256": "de892b4daea058c08dba6372392927c1acb6f8ff4369d9fbca3bfd502cc95b4d"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/offline_serial/student_fit_1210005.npz",
+      "size": 20752,
+      "sha256": "e2ef8b0918dc910f90ea0de9564dcb6fc1f75d93d6235a9fdaa6db035e27e6e0"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/offline_serial/student_fit_1210010.npz",
+      "size": 20742,
+      "sha256": "a6f14c447b113b1abb3d68393f2f378b68a9814a1855dbddca76c57cddb92a79"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/offline_serial/student_fit_1210016.npz",
+      "size": 21267,
+      "sha256": "971f4b648bde8aa78e6561568a1d83cc0016046443557015aa0f39f06f564226"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/offline_serial/student_fit_1210018.npz",
+      "size": 20838,
+      "sha256": "4631e6aa87cd024f83f25f5a6bdee74bdd4d1631ab631495c0c92a0ae23476cc"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/offline_serial/student_fit_1210023.npz",
+      "size": 20837,
+      "sha256": "e1bc83c7064b4c71bd762374c09425b7ee96a69efe474eb5bf6ba6c6400a31e7"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/offline_serial/student_fit_1210028.npz",
+      "size": 20781,
+      "sha256": "f1e99de37eca583ff1d4ae7f879b6b483e87bdba99925b2cd92ef9b5a4f164b0"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/offline_serial/student_fit_1210034.npz",
+      "size": 20867,
+      "sha256": "7204629620ed45c38639d0dc76564889c6565f2f24d083a63af1cbe141fcf78a"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/offline_serial/student_fit_1210036.npz",
+      "size": 20061,
+      "sha256": "957cf92dd228853a58423cb6c3c163c563574e65ada5c209973c047f8cc9d755"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/offline_serial/student_fit_1210040.npz",
+      "size": 21293,
+      "sha256": "c890ef17b8c556ac223302d80dd5cb312e7185dc8b76944a3ee911fc0314d0d2"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/offline_serial/student_fit_1210043.npz",
+      "size": 20199,
+      "sha256": "a7c37c4f9aeb7525f23941b32756925cab704f6aa6ec7cf7c4485ed7757fe458"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/offline_serial/student_fit_1210046.npz",
+      "size": 20602,
+      "sha256": "c6b96c7e5966518a73cb12e6b970fdaf75e632e97e10f0b0982549ed7f1b6eff"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/offline_serial/student_fit_1210048.npz",
+      "size": 20846,
+      "sha256": "9bd26f40d40afafdb6d95c0f85f748ff42631292321af58956ed38c5144bfeca"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/offline_serial/student_fit_1210053.npz",
+      "size": 21366,
+      "sha256": "506cf2de6965dfe4d07f8d1836f75f5700f3c7215f04d5cc5e9035dbdf7f7ca7"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/offline_serial/student_fit_1210056.npz",
+      "size": 21371,
+      "sha256": "67f84d3d048b13a96511d41590f2c5d5edfa7dc8e7690428fc8e363e7860ca6e"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/offline_serial/student_fit_1210062.npz",
+      "size": 21015,
+      "sha256": "0a23bdb593217c4e3f2b00f381e5de565aefd6f936994a2f8b23fd8486ad4aaf"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/offline_serial/student_fit_1210064.npz",
+      "size": 20825,
+      "sha256": "a69c61403927f4243687615e1deff0ce4e6d3ada5396c621ba0280d792db17bc"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/offline_serial/student_fit_1210069.npz",
+      "size": 20532,
+      "sha256": "da2b0e6cc3a4823c7c2654b988d807f254fdb98a61aeb46aef19c4f4f7837bd9"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/offline_serial/student_fit_1210074.npz",
+      "size": 21407,
+      "sha256": "773460726cbfe894d3dc14537952622c6b8254303984c41058d35b2a25dae0bf"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/offline_serial/student_fit_1210079.npz",
+      "size": 20207,
+      "sha256": "88018c1f11ffc67ebeaab70907a0927271db49ff17404205d05b5512680633e7"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/offline_serial/teacher_dev_1210080.npz",
+      "size": 21505,
+      "sha256": "3816d0766e2ace10ff169c68743742c6153584b96e1041079d005f2b6bc59ccf"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/offline_serial/teacher_dev_1210081.npz",
+      "size": 21483,
+      "sha256": "2b7653c2a51e0c125fd31322a273373eb2c24c0fea6a1ac9585f678e4f18aba6"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/offline_serial/teacher_dev_1210082.npz",
+      "size": 21430,
+      "sha256": "60625f82af9ccb98f098d0cd3f688bfcdc5eda029831397a878028182b366b9c"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/offline_serial/teacher_dev_1210083.npz",
+      "size": 21407,
+      "sha256": "5167bff3db8e87dbc45bb8dd4dcddc2c1df961aa86dbb87f18d5f543b704578f"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/offline_serial/teacher_dev_1210084.npz",
+      "size": 21527,
+      "sha256": "13930be3165418e43a0cb4b8e3a933203e4f2b2ca4a1dac0cafe9edf217a4d6e"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/offline_serial/teacher_dev_1210085.npz",
+      "size": 21301,
+      "sha256": "854a32f989cd4a7f7cdd8827523aedd322e63b51aeb10111812df5d934a911c7"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/offline_serial/teacher_dev_1210086.npz",
+      "size": 21451,
+      "sha256": "852349370cea4b35669524a6fea9c9cd20791ce4b29818a17116c3a05a93b736"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/offline_serial/teacher_dev_1210087.npz",
+      "size": 21318,
+      "sha256": "08246c9b5db3feb90a638fd9c5f71a9e3bc7d1b047c89c9559dd500d94056670"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/offline_serial/teacher_dev_1210088.npz",
+      "size": 21279,
+      "sha256": "c580165d72241820d54c6274ff2175951cce4fc13763d27ecb1051a896186947"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/offline_serial/teacher_dev_1210089.npz",
+      "size": 20846,
+      "sha256": "886117887873b282b667d8a3043c1c0b29a9e69ca04c3b62fddfa702512e4433"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/offline_serial/teacher_dev_1210090.npz",
+      "size": 21037,
+      "sha256": "e5ab795177fd909e6620f71b04a3809ad54bd64c0b4a1f548e41d887a30ff24a"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/offline_serial/teacher_dev_1210091.npz",
+      "size": 21400,
+      "sha256": "541a49708fcd9459c63c5d510be19343d19bf5987a06df01be91badbd2e5b263"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/offline_serial/teacher_dev_1210092.npz",
+      "size": 21465,
+      "sha256": "8216733927db4eb224c6673c8216bdd1074e9e8665c0869402635e0c8e3b1953"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/offline_serial/teacher_dev_1210093.npz",
+      "size": 21480,
+      "sha256": "f0caa939587effd1690c0f2ff7363abeefc71d0f0c3b1fbc9996862b6e555dff"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/offline_serial/teacher_dev_1210094.npz",
+      "size": 21462,
+      "sha256": "7b642fe33e6aac964cf89f6baa2f06645593aa0bd5eea7fff5c885f13950b170"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/offline_serial/teacher_dev_1210095.npz",
+      "size": 21499,
+      "sha256": "a6d00b70bb18a7b7487ac96cdb16adb142b3c3e1821fb95a74258bc6a36cc473"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/offline_serial/teacher_dev_1210096.npz",
+      "size": 21403,
+      "sha256": "75070bceb4f2f143e720fa48c1de0266cf7ea7ded93df808c0cfe5e573361853"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/offline_serial/teacher_dev_1210097.npz",
+      "size": 21399,
+      "sha256": "d35042c7cd1764f86c77796abeb1b191becbce255c5a3eefae8aeebde8b0a2b7"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/offline_serial/teacher_dev_1210098.npz",
+      "size": 21511,
+      "sha256": "9e1c9bc22060410bab004479101e948884dfa298aebb509172231a0b4932face"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/offline_serial/teacher_dev_1210099.npz",
+      "size": 21412,
+      "sha256": "2fd01666bf4d8e8e48682693965c06ab47b99f08b68e12abea29682cceb8fd18"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/offline_serial/teacher_fit_1210000.npz",
+      "size": 20724,
+      "sha256": "36f214c4d46eb0c9067a15754e439b997edddcff836955e00ae54fcc39824441"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/offline_serial/teacher_fit_1210005.npz",
+      "size": 20749,
+      "sha256": "897c1b76128ba72e60f54304f63ad644333a06ceba267ce20351c50c8cbdf60d"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/offline_serial/teacher_fit_1210010.npz",
+      "size": 20755,
+      "sha256": "e697b7419631c742b6a988e7f1d6f2967c768b977957ec39ef6550e48ff00d7f"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/offline_serial/teacher_fit_1210016.npz",
+      "size": 20705,
+      "sha256": "89ce27118769f95d1e2bde073373a12d14ecbd282e62e105d8e4e58681bf845f"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/offline_serial/teacher_fit_1210018.npz",
+      "size": 20762,
+      "sha256": "04212d5e19d1b632e4548e4b27c69a091efcdddd8a6ecef96dd2f703d48210e6"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/offline_serial/teacher_fit_1210023.npz",
+      "size": 20750,
+      "sha256": "0e66620737b488d38483d8a6c021283d7bd32af8fd969faa1ca5d548e81c286d"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/offline_serial/teacher_fit_1210028.npz",
+      "size": 20756,
+      "sha256": "0695634232b5c5d67d726f737917b911e9eb7806c2eea1bd91129ea15c0a1eb1"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/offline_serial/teacher_fit_1210034.npz",
+      "size": 20742,
+      "sha256": "f475d3d8c5e7a3ce06b715615ad1ea6e06ca40eb163aa8d75c5ccd0c0a099805"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/offline_serial/teacher_fit_1210036.npz",
+      "size": 20718,
+      "sha256": "bcf39e5ed92cf54bf45249db60de1c06b793a40d3bc549db25c745b5feca67b1"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/offline_serial/teacher_fit_1210040.npz",
+      "size": 20775,
+      "sha256": "10e855c5173768f9cfae79366ffee24a6d13701dd3d12f4d408cb4760718be7b"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/offline_serial/teacher_fit_1210043.npz",
+      "size": 20725,
+      "sha256": "9dc420988688c600115e3b8e4bfbcef47fdc2133d824a245c8c6c0638fa8c342"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/offline_serial/teacher_fit_1210046.npz",
+      "size": 20689,
+      "sha256": "e47b6a88db26ca717e195bf8bd74f8fdca95336af3a269ad822ccc73c49cf811"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/offline_serial/teacher_fit_1210048.npz",
+      "size": 20749,
+      "sha256": "eaa7343c44bb6f95c6773f987778eabe57d2463154776890b7c85b839388c370"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/offline_serial/teacher_fit_1210053.npz",
+      "size": 20756,
+      "sha256": "b7d1bf32c0c1f7050305bd8947987d8f39e65e091eaf7b946064205b6de4b507"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/offline_serial/teacher_fit_1210056.npz",
+      "size": 20756,
+      "sha256": "89c2a6fe85a6e35c7478c228ade78a7bf98f6f3b8e876485cddf562e76b769f6"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/offline_serial/teacher_fit_1210062.npz",
+      "size": 20776,
+      "sha256": "1a30c35ec85737f13f0e541bcd94214340249b189fb116fc7b6fd78cbc62ac16"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/offline_serial/teacher_fit_1210064.npz",
+      "size": 20718,
+      "sha256": "0979a45998ba7af59fe5de51b42af7abd2a2145f63bc9962f888f846f2837772"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/offline_serial/teacher_fit_1210069.npz",
+      "size": 20650,
+      "sha256": "a9dc50bce75ac4e0b4d83dbecde0aebb3e019ec8e8ba2df0661f6cd0c6cc6ccf"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/offline_serial/teacher_fit_1210074.npz",
+      "size": 20725,
+      "sha256": "1b0a12d1517e3f1b76442ed3f0fad5558581b7f660a078a528d81957c375db89"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/offline_serial/teacher_fit_1210079.npz",
+      "size": 20806,
+      "sha256": "2a81a3c2f83e89fc85025ced63585160289c69486e944512ed1072d222fe7c15"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/process_fit.json",
+      "size": 97,
+      "sha256": "fc409043f7eb9c2a1a13f0c0ffd798a9af5e65e8aaa64a3ebc4b24350362c010"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/process_offline.json",
+      "size": 141,
+      "sha256": "bb553e03ead6461a7b2e875b0711c457170157add891fc58c715d5d4082399f6"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/process_offline_serial.json",
+      "size": 97,
+      "sha256": "8374052c8612c8c201998a820c98fa2efaac6c92a1ba048ccf2cbf93404f53c9"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/process_serial_witness.json",
+      "size": 97,
+      "sha256": "42452d606250a1cb943310e31faef5e81377e6da775ede42f402b387f10ca316"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/process_witness.json",
+      "size": 92,
+      "sha256": "897cd7ca34f8b7ad7389e3f55d0f129d0c1572081404af1c8059fdd254a6a90e"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/provenance_fit.json",
+      "size": 301,
+      "sha256": "a7cb86603566491a726dd42f04ba1abcabc5c615ec8a8505185b99e68bdad474"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/provenance_offline.json",
+      "size": 301,
+      "sha256": "a7cb86603566491a726dd42f04ba1abcabc5c615ec8a8505185b99e68bdad474"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/provenance_offline_serial.json",
+      "size": 361,
+      "sha256": "93e29af63e60313e7894726f37c84fcef5a1367b666973d3d1bf119fac679d52"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/provenance_serial_witness.json",
+      "size": 361,
+      "sha256": "93e29af63e60313e7894726f37c84fcef5a1367b666973d3d1bf119fac679d52"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/provenance_witness.json",
+      "size": 301,
+      "sha256": "a7cb86603566491a726dd42f04ba1abcabc5c615ec8a8505185b99e68bdad474"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/report_source/finalize_bc_diagnosis.sh",
+      "size": 1818,
+      "sha256": "0326b9a424b46cc244763683198a4af4ac79b37aec2477b3f51ac1c8d53c04e4"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/report_source/report_bc_diagnosis.py",
+      "size": 17296,
+      "sha256": "cba589f9288ef8a64cbdcb34127644c49d771715908c9728c4b3c4004f964a90"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/serial_source/bc_diagnosis.py",
+      "size": 10485,
+      "sha256": "37dbdb74b25084f8991c5a4bea38d82f601ed5dc78758c11482b077196163f85"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/serial_source/bc_diagnosis_serial.py",
+      "size": 7722,
+      "sha256": "5ecad4b7b92aaa51bea3dfec0377cf9264a13a1d0f165728071f24500d2d3f7f"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/serial_source/run_bc_diagnosis_serial.sh",
+      "size": 858,
+      "sha256": "ebaad86119af573d2082a75f957f2c28dfe27bc9d9ab01f5dc88a3f2f02642bd"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/serial_witness/complete.json",
+      "size": 668,
+      "sha256": "c8427dedf6139ece18fd1516cb5d7b06978f31bac2cefca365e623950e4c46c9"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/serial_witness/live_shadow.npz",
+      "size": 30059,
+      "sha256": "331b7676542ebb44a09631d615ad8ce48195a869c6876ee6da2658bf5a99a804"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/serial_witness/original_teacher.npz",
+      "size": 30832,
+      "sha256": "0886ced6a961fe41ba37f8762b7846bacd2bc39f087479f0000c24b1c532af02"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/source_snapshot/configs/bc_diagnosis_v1.json",
+      "size": 1058,
+      "sha256": "57cdfa38ccb2cd4612b8e5066d34b848c8843d6273d95d668f80a2661c6bc5d9"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/source_snapshot/configs/bc_v1.json",
+      "size": 1137,
+      "sha256": "3d6924c4cefdee8f9079828d597256e668b0aec4667f148b8ec3782d9877fbf7"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/source_snapshot/configs/bc_v1_2.json",
+      "size": 2336,
+      "sha256": "7c2dc173dae9ecd06eda6a95d3cbe27079879c045a166993d163469cbb4483a6"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/source_snapshot/configs/contact_v1.json",
+      "size": 2051,
+      "sha256": "1bb52dbac6fada6c4b5781dea2c84796dcb0de215f21b83605d394cf13da6bad"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/source_snapshot/configs/env-spec.json",
+      "size": 924,
+      "sha256": "ee6acd3b634e57697956560cf39b4a21df64cdb9ed52fe0ac2aca4c7984035db"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/source_snapshot/configs/legacy_hab100_v1.json",
+      "size": 4802,
+      "sha256": "9c9b57a56a27761d8b332b636f63e8f780eb5282eac2629fd0671bf66738239f"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/source_snapshot/configs/state_pilot_v1.json",
+      "size": 1111,
+      "sha256": "de761749873f33d2645813f4d38305fa2960528013e3af743eb86e64b8421493"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/source_snapshot/configs/tdmpc2-source-lock.json",
+      "size": 2253,
+      "sha256": "9d6716d61e11daf23c31f598cff18068439feed0b1ee913d1f0559c27394b17e"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/source_snapshot/scripts/archive_artifacts.py",
+      "size": 2505,
+      "sha256": "d37203a11d6bc16f450a819b82259f7a2b7d7130050037ddcc103c55e2afa7b3"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/source_snapshot/scripts/audit_bc_demo.py",
+      "size": 1394,
+      "sha256": "55af8df1fbba29e46666129788620cdc71e9b758f3826c9b264ad02f8fdf6412"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/source_snapshot/scripts/audit_bc_interface.py",
+      "size": 2556,
+      "sha256": "049dc1e21ca42b7ce4e3ff179bb53bd4490934e0fb5f2f6929674b9a01903ab6"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/source_snapshot/scripts/audit_bc_semantics.py",
+      "size": 3141,
+      "sha256": "fa1858d2a4b60d30a6b99eaedf37f949880d6d25a3a1093746f73f968b7d844f"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/source_snapshot/scripts/audit_bc_sources.py",
+      "size": 1935,
+      "sha256": "840f5b3cd4c997078edd7cec103a91848c223ee468b18225ecc45116a568b266"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/source_snapshot/scripts/audit_bc_training.py",
+      "size": 2069,
+      "sha256": "6b937013bf36ecae7df524cb420a9d90f6aff9e25acaf44c6e65f1896d9093fe"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/source_snapshot/scripts/audit_demo_video.py",
+      "size": 1445,
+      "sha256": "912ead9de585c25f17b8c35d70220d8cd5198194bdb569841efedf7601ff0b60"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/source_snapshot/scripts/audit_effective_config.py",
+      "size": 4118,
+      "sha256": "ca29145c43901da1aec596f4b274c6a07e319237fd78b44e3250c64ab61dadc0"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/source_snapshot/scripts/audit_observation_replay.py",
+      "size": 1695,
+      "sha256": "17a67ae18da8cca5c7c88979dd4c88969a767fc6f7fe19acd84aba842efa662d"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/source_snapshot/scripts/audit_parameter_counts.py",
+      "size": 2008,
+      "sha256": "8c45fccd0fce8ad2b8607c9715833391f798ab84d423a25a48c40bfebb1527eb"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/source_snapshot/scripts/bc_diagnosis.py",
+      "size": 10485,
+      "sha256": "37dbdb74b25084f8991c5a4bea38d82f601ed5dc78758c11482b077196163f85"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/source_snapshot/scripts/bc_eval_v2.py",
+      "size": 8410,
+      "sha256": "9319cb3f164216685c58ca58f2ba7fb44c32d85e6d6519c33aec93a8b8440840"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/source_snapshot/scripts/bc_pipeline.py",
+      "size": 23170,
+      "sha256": "6aaf33432549e124dd3ed0d2da19dd54f64ad64f11a68e42a81a6d23be24c0f5"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/source_snapshot/scripts/bc_spawn_inventory.py",
+      "size": 790,
+      "sha256": "5ad28da0b70c41d7220956438350fb246f90242d7714dbedb59ccc8f45f7d60f"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/source_snapshot/scripts/bc_status.py",
+      "size": 1663,
+      "sha256": "00596798c4fb2e519b193455b7d9af477b1ee21325c3c31a8360e7e490c35166"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/source_snapshot/scripts/contact_control.py",
+      "size": 2174,
+      "sha256": "f2ac1e4a9a1f025baec1afcf4141595d06090826a3aec3237c67273d0f9d62c7"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/source_snapshot/scripts/contact_experiment.py",
+      "size": 11165,
+      "sha256": "022d311a35f42db25824b43b0345ef0376211f6ef91189726f8b101210e4a609"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/source_snapshot/scripts/demo.py",
+      "size": 8570,
+      "sha256": "2d8dcad0f21cf7ac4450c3c941fcf75b10551579a98165f8687941fcf98568c3"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/source_snapshot/scripts/diagnose_bc_initial.py",
+      "size": 1772,
+      "sha256": "e4a73d788e90c615c958841683bf41017e77494679ff84ffd812f18eb2ea5d55"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/source_snapshot/scripts/diagnose_bc_state.py",
+      "size": 1196,
+      "sha256": "8a844cbd457033d9bdf49a807432830f3b53e0e94896799da748540601095989"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/source_snapshot/scripts/episode_replay.py",
+      "size": 1251,
+      "sha256": "dbdfbbf1ab8b4ddd5a4100820c099804f371be995bfa6d37fb16ba44d60c7200"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/source_snapshot/scripts/evaluate_world_model.py",
+      "size": 5463,
+      "sha256": "2c6d00f5ddd32b56dc0dec7ffcee695210f59bae495aebbd2857f04e9ba7390d"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/source_snapshot/scripts/finalize_bc.sh",
+      "size": 1626,
+      "sha256": "9b1fbbe4b2a594d170bcd554d7ac301e266efee3b16398c1e8cc98653e463ddf"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/source_snapshot/scripts/finalize_experiment_data.sh",
+      "size": 1305,
+      "sha256": "df134108ec548760f05860c9af04769eb24cb01967c2d65aad404f6459867e2f"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/source_snapshot/scripts/hab_state.py",
+      "size": 2788,
+      "sha256": "b1f0e9528b93e2eca91928a00284ec1c891bdb57176ca1b8ca62b7277cc9f9e4"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/source_snapshot/scripts/inspect_bc_parked.py",
+      "size": 649,
+      "sha256": "cbc31d46c03c1ae5b795d92115c104c7d08073bf210aa6f6826ad2b3d1b757e4"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/source_snapshot/scripts/launch_bc_learning.sh",
+      "size": 279,
+      "sha256": "85c364c21f4de2beb5b2287a54bd6ece2010352d18b69f0981ec2e7b8329334f"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/source_snapshot/scripts/launch_contact_job.sh",
+      "size": 507,
+      "sha256": "a62287a1ce1853c0717c8fcf589e9b5af39fe3fd56e61c5d30a845c71e702882"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/source_snapshot/scripts/launch_state_pilot.sh",
+      "size": 606,
+      "sha256": "eb358b626ec1667925fc5ca9bdf73459335d27ada668b6e3a1bd585ed52d8dd1"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/source_snapshot/scripts/legacy_evaluate_layouts.py",
+      "size": 13247,
+      "sha256": "eb3c482d9f506083e2717023caada661e0cdca866ab37788edb841865eeebff9"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/source_snapshot/scripts/local_server_entry.sh",
+      "size": 125,
+      "sha256": "5e1a825a1768cc069cf6636da3502825237975356c51c6a4b4d375c78fc39055"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/source_snapshot/scripts/monitor_resources.py",
+      "size": 750,
+      "sha256": "f455dadca9d1b6274f999f5a5f3a269af5683872c583e45f825de93e5c137ca2"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/source_snapshot/scripts/report_bc.py",
+      "size": 9133,
+      "sha256": "f00b091af650b2deb3e3e09b05838f4c4f9c653d1a1fb8dd1e03f79030426285"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/source_snapshot/scripts/report_bc_resources.py",
+      "size": 1340,
+      "sha256": "f8777821a200116a383844a93a0c7b88e40eeb384fd71dce3474cca07b8436e0"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/source_snapshot/scripts/report_contact.py",
+      "size": 12641,
+      "sha256": "0b5e0efc977fb00a0a37dc236371bf0f627b7ee4f4b49b1e02990f6616a48616"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/source_snapshot/scripts/report_resources.py",
+      "size": 1385,
+      "sha256": "22fbb68fb9785aa604f1176bae2b9c18a900b942b5b16a240949e159668ed13b"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/source_snapshot/scripts/report_state_pilot.py",
+      "size": 6833,
+      "sha256": "cc0b9da0e9030e1347303751d1a3cc857ef6a2312dfb0b98b59dfa84e06789b6"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/source_snapshot/scripts/restore_artifacts.py",
+      "size": 2186,
+      "sha256": "46d438f1f06ffa802684421e943eddda38eff32a388eb07763a9446c57176d3a"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/source_snapshot/scripts/run_bc.sh",
+      "size": 646,
+      "sha256": "1a900b3ded9706bf544b6d42f009fb72c929aa098cf2212cbca9673c8712acd5"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/source_snapshot/scripts/run_bc_diagnosis.sh",
+      "size": 1045,
+      "sha256": "ad3583b15498307d7bafe7dd840a55adcb9585d056a180fc5bcae43148fe0b68"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/source_snapshot/scripts/run_bc_eval_v2.sh",
+      "size": 478,
+      "sha256": "46383df0ece5c33b5397fbad8ceea1a826c3175dd6a8545a0b0438c5f9d6b61e"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/source_snapshot/scripts/run_bc_sequence.sh",
+      "size": 2143,
+      "sha256": "b92cac412d13f5532a68e670f313bad2122730461106420b825f8271f3d63b32"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/source_snapshot/scripts/run_contact.sh",
+      "size": 330,
+      "sha256": "f73cacdde2dce3be8372cabfc7379f4083ffbcab40b07224894612597bbd84bc"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/source_snapshot/scripts/run_state.sh",
+      "size": 535,
+      "sha256": "bbf762dccb1edb826434de68a9405866497eaa246cbf68d7f12954cfbc065e75"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/source_snapshot/scripts/runtime.sh",
+      "size": 1212,
+      "sha256": "8172978385e81218ed0024a7fb235749162cb95c2b1d799beca4e2441d58e512"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/source_snapshot/scripts/snapshot_sources.py",
+      "size": 1277,
+      "sha256": "06f674218e1b2927b69a2c9ddf7c7593ca3f24952cc25debd90474a5bfc7d761"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/source_snapshot/scripts/state_sac.py",
+      "size": 3141,
+      "sha256": "1a4092e6f52755399ac1e891680aaed44a855ff80badb7e0f298b4adf5a59f68"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/source_snapshot/scripts/status.py",
+      "size": 1140,
+      "sha256": "fe405c6c5644d9a69caecdd0ee6db2801178b655a2ff439e4c71cef40942e4d2"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/source_snapshot/scripts/train_state_pilot.py",
+      "size": 8870,
+      "sha256": "ad97520371032f26f24126e5b71668c09089d5d067baf6ca4ad2902b702053a6"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/source_snapshot/scripts/verify_run_sources.py",
+      "size": 868,
+      "sha256": "d5a8f2f731ca63618520265ad98dcd07c90086097e6836fe5b0f2650bb909a8d"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/source_snapshot/scripts/verify_vendor.py",
+      "size": 490,
+      "sha256": "04eb7b7fc70e5238747a9485e247e58493c4c2cc0cb695c2b67b72a979dfc0fe"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/source_snapshot/scripts/wait_finalize.sh",
+      "size": 853,
+      "sha256": "82bc25d2432ccf743a793c106bc0eebc33e24498c6642997a791fafe59aec20a"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/source_snapshot/scripts/write_bc_chinese.py",
+      "size": 11457,
+      "sha256": "06374b57c4e653b42258b8495075a11b16ff9207c5641ca8e73f256782297670"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/source_snapshot/scripts/write_bc_semantics.py",
+      "size": 4176,
+      "sha256": "63a2550833f9f56bfd6a4fefe0625e8269d305b9bd8622332cfd545838424a2d"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/witness/complete.json",
+      "size": 18972,
+      "sha256": "5afb13e73dceb55eb170bae7b0761255f65d7bfe02f6dd28f2f16b34d6e95cca"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/witness/shadow_actions.npz",
+      "size": 664,
+      "sha256": "6ba6dd6915dd8da9a6854cde26807c5379a0ba8d45bce8e8ea43f2f385ea2dba"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/witness/student_prefix/episode.json",
+      "size": 608,
+      "sha256": "2e6f0f210982facc30ec7fe885d1600d3f03013766f2d9f00eafc96bc4247733"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/witness/student_prefix/initial.json",
+      "size": 932,
+      "sha256": "45451c562084d5428bf4e9ff6306d417c6f4d7718473000af7789da1768c3cd5"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/witness/student_prefix/initial_snapshot.pt",
+      "size": 239406,
+      "sha256": "4ca05bba45ac9b330855c41df208800f50df7d4716ff539e5c415222c713f6cf"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/witness/student_prefix/rollout.mp4",
+      "size": 75724,
+      "sha256": "da2741a31c8768c8f8850fa06ffb9021cf57663277a687082af5c024329cc7ef"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/witness/student_prefix/schema.json",
+      "size": 2043,
+      "sha256": "2df8f3edb4bd5ef2b4eb0db84ebb76489252b4916ecba3b09aa747497488d3db"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/witness/student_prefix/steps.jsonl",
+      "size": 2122,
+      "sha256": "1b5cf45fb68c0cd050005f76bb8c6efb95534278dbc298ef56622b4165cef734"
+    },
+    {
+      "path": "artifacts/bc_diagnosis_v1/witness/student_prefix/trajectory.npz",
+      "size": 175598,
+      "sha256": "c08884ead2f3bfbb1279283fd1f8940d2654255de769fed8bd3a1c6bcb51b249"
+    },
+    {
+      "path": "reports/bc_diagnosis_v1/audit.json",
+      "size": 2835,
+      "sha256": "43a65a7f6756faae234a5412fe636d810be558a5569cc7ec7a4c8454c2b0e5f1"
+    },
+    {
+      "path": "reports/bc_diagnosis_v1/demo_audit.json",
+      "size": 530,
+      "sha256": "448edcd80282b4f91805c5fd7399f0ef1f803035b4b0bd5661a0b2e06be9e658"
+    },
+    {
+      "path": "reports/bc_diagnosis_v1/demo_preview.png",
+      "size": 901065,
+      "sha256": "a2d404683ebb637899141490773d8b16d3fdc0deb2d9fbad66faed88496a2728"
+    },
+    {
+      "path": "reports/bc_diagnosis_v1/diagnosis.pdf",
+      "size": 22794,
+      "sha256": "fe591b7681ba1f0c2ced358f8ac7067797bc4f5311261aea9dea319b009a7883"
+    },
+    {
+      "path": "reports/bc_diagnosis_v1/diagnosis.png",
+      "size": 138649,
+      "sha256": "49d128ba04961c3e42e085f5e2c363b468fc67577b7edbed45379dd22cbedc8c"
+    },
+    {
+      "path": "reports/bc_diagnosis_v1/diagnosis_demo.mp4",
+      "size": 7059734,
+      "sha256": "fa14064ed5ba971482247173a349d7e703890fe55eda33ddcd38fd4fd0004609"
+    },
+    {
+      "path": "reports/bc_diagnosis_v1/gpu_after.txt",
+      "size": 159,
+      "sha256": "2e239baf0986504abeae1141c7bd8074da3ed8ee50e6cef010cb7eac5c6a18e5"
+    },
+    {
+      "path": "reports/bc_diagnosis_v1/resources.json",
+      "size": 761,
+      "sha256": "4431dc71afeafdf088131fe71a37fa2bc7a28cb13da328fea7c311cac8b1b561"
+    },
+    {
+      "path": "reports/bc_diagnosis_v1/summary.json",
+      "size": 20890,
+      "sha256": "6813919fa74d3e5698a07f79bca6cee1c524cc11e4a51491bbde85dc72e0de5d"
+    },
+    {
+      "path": "reports/bc_diagnosis_v1/报告.md",
+      "size": 5414,
+      "sha256": "42daf1184a52c9911dbcfdf55090253d7e45613caed4d1a0531447ba888261ad"
+    },
+    {
+      "path": "行为克隆失败诊断.html",
+      "size": 4207,
+      "sha256": "d4824ac464882d8af674d18f2f03cc8888c2968fb59ccbaaf787f6a668164028"
+    },
+    {
+      "path": "docs/BC_DIAGNOSIS_EXECUTION.md",
+      "size": 2903,
+      "sha256": "744f0e15587cd02dddbc02af2d1016ef090a1f5ce625a1791a1142a3bf66ae87"
+    },
+    {
+      "path": "docs/BC_DIAGNOSIS_SERIAL_RECOVERY.md",
+      "size": 1703,
+      "sha256": "00858fc817b2f5796e090da52addc46d8696f1590eda25db2d4fef35d94133bd"
+    },
+    {
+      "path": "configs/bc_diagnosis_v1.json",
+      "size": 1058,
+      "sha256": "57cdfa38ccb2cd4612b8e5066d34b848c8843d6273d95d668f80a2661c6bc5d9"
+    },
+    {
+      "path": "logs/bc_diagnosis_v1_fit.log",
+      "size": 14533,
+      "sha256": "d9a5c1e66644da06f6674b183d26a182b58378a5e251e0575ae5c2faea2c1094"
+    },
+    {
+      "path": "logs/bc_diagnosis_v1_fit_resources.jsonl",
+      "size": 11515,
+      "sha256": "f33cd2001cfc77181b1eea57e74fb948878c32c4e6afa2c556d803afb756c97b"
+    },
+    {
+      "path": "logs/bc_diagnosis_v1_offline.log",
+      "size": 2763,
+      "sha256": "3cda20b5a9c86a1a92fc1f42573f2320d95986e58d431be0139b8582b8e3585c"
+    },
+    {
+      "path": "logs/bc_diagnosis_v1_offline_resources.jsonl",
+      "size": 795,
+      "sha256": "89004ffdf45c373943971b0aae24ff6a66195a64ae7d24e93784a7dce5aa736f"
+    },
+    {
+      "path": "logs/bc_diagnosis_v1_serial_run.log",
+      "size": 7420,
+      "sha256": "174a1ff1767bf6aae6a985532eda7fcf289d86a0f2c3b3fba0122585063ded5d"
+    },
+    {
+      "path": "logs/bc_diagnosis_v1_serial_run_resources.jsonl",
+      "size": 1295,
+      "sha256": "82f91d16a2f98bc34cb26df85ee8a512d18054c077703c379b976325a37b537d"
+    },
+    {
+      "path": "logs/bc_diagnosis_v1_serial_witness.log",
+      "size": 2586,
+      "sha256": "46fae98cbf09a522c6b54fbcc962241316dd5dd3b2a8ffec53d2fa93e9369ea3"
+    },
+    {
+      "path": "logs/bc_diagnosis_v1_serial_witness_resources.jsonl",
+      "size": 794,
+      "sha256": "ee38d6544894510c17414d18c0f43e2ff9df3743d0fa7098c9b914d42553a10e"
+    },
+    {
+      "path": "logs/bc_diagnosis_v1_witness.log",
+      "size": 2813,
+      "sha256": "5ff310a1a2b0fd77a14fe784c52c2b240d62ab8a94427b87e0b0fccb1a87aa20"
+    },
+    {
+      "path": "logs/bc_diagnosis_v1_witness_resources.jsonl",
+      "size": 1094,
+      "sha256": "bcaabbe16cda892f4a8cb6fa705b430d687a11de20e7758a10d58bf29284561e"
+    }
+  ]
+}

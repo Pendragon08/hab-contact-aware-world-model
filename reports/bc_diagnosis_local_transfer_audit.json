@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "files_verified": 397,
+  "uncompressed_bytes": 108259680,
+  "archive_bytes": 102225613,
+  "archive_sha256": "d58edfb514060caae65a17ba9e1b2bc1454f50bb3c7684642f517d2ef90c4702",
+  "manifest_sha256": "1ef00670eb608b385b742402925ea04961a0c0a5cd23036199ba34a7f5a6e3be",
+  "local_root": "D:\\具身智能\\hab-contact-aware-world-model",
+  "html_local_links_verified": 23,
+  "disk_free_bytes_after_restore": 3331538944,
+  "reserve_bytes": 2147483648,
+  "note": "Core experiment bundle checked per file after restore; later documentation and presentation audits are tracked separately in Git."
+}

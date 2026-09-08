@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "frames": 402,
+  "fps": 20.0,
+  "selection": [
+    {
+      "label": "FITTED START",
+      "teacher": "artifacts/bc_v1_2/collection/episode_000",
+      "student": "artifacts/bc_diagnosis_v1/fit/episode_000"
+    },
+    {
+      "label": "HELD-OUT START",
+      "teacher": "artifacts/bc_v1_2/collection/episode_080",
+      "student": "artifacts/bc_v1_2/student/evaluation/episode_080"
+    }
+  ],
+  "rule": "first success-once fitted student if any, else first fitted student; first no-success held-out student"
+}

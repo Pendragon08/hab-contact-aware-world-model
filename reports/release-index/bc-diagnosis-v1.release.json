@@ -1,0 +1,17 @@
+{
+  "bundle": "bc-diagnosis-v1",
+  "files": 397,
+  "uncompressed_bytes": 108259680,
+  "archive": "bc-diagnosis-v1.tar.gz",
+  "archive_bytes": 102225613,
+  "archive_sha256": "d58edfb514060caae65a17ba9e1b2bc1454f50bb3c7684642f517d2ef90c4702",
+  "manifest": "bc-diagnosis-v1.manifest.json",
+  "manifest_sha256": "1ef00670eb608b385b742402925ea04961a0c0a5cd23036199ba34a7f5a6e3be",
+  "parts": [
+    {
+      "name": "bc-diagnosis-v1.tar.gz",
+      "bytes": 102225613,
+      "sha256": "d58edfb514060caae65a17ba9e1b2bc1454f50bb3c7684642f517d2ef90c4702"
+    }
+  ]
+}
