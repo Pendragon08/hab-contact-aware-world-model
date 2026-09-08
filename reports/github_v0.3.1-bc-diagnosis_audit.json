@@ -1,0 +1,32 @@
+{
+  "passed": true,
+  "tag": "v0.3.1-bc-diagnosis",
+  "release_url": "https://github.com/Pendragon08/hab-contact-aware-world-model/releases/tag/v0.3.1-bc-diagnosis",
+  "is_draft": false,
+  "assets_verified": [
+    {
+      "name": "bc-diagnosis-v1.release.json",
+      "size": 556,
+      "sha256": "348ae6f4043dfee1ca3f090cf8bd7eabfb892b9c2a75dd911c336c6af1a97e81",
+      "github_digest": "sha256:348ae6f4043dfee1ca3f090cf8bd7eabfb892b9c2a75dd911c336c6af1a97e81"
+    },
+    {
+      "name": "bc-diagnosis-v1.manifest.json",
+      "size": 76639,
+      "sha256": "1ef00670eb608b385b742402925ea04961a0c0a5cd23036199ba34a7f5a6e3be",
+      "github_digest": "sha256:1ef00670eb608b385b742402925ea04961a0c0a5cd23036199ba34a7f5a6e3be"
+    },
+    {
+      "name": "bc-diagnosis-v1.tar.gz",
+      "size": 102225613,
+      "sha256": "d58edfb514060caae65a17ba9e1b2bc1454f50bb3c7684642f517d2ef90c4702",
+      "github_digest": "sha256:d58edfb514060caae65a17ba9e1b2bc1454f50bb3c7684642f517d2ef90c4702"
+    },
+    {
+      "name": "diagnosis_demo.mp4",
+      "size": 7059734,
+      "sha256": "fa14064ed5ba971482247173a349d7e703890fe55eda33ddcd38fd4fd0004609",
+      "github_digest": "sha256:fa14064ed5ba971482247173a349d7e703890fe55eda33ddcd38fd4fd0004609"
+    }
+  ]
+}
