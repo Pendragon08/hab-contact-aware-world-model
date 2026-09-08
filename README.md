@@ -4,6 +4,8 @@
 
 **当前完成：300 回合接触控制配对实验，以及 TD-MPC2 / 状态 SAC 各 10,000 步短程训练。风险预测模块尚未训练，也未得到世界模型提升 HAB 性能的研究结论。**
 
+[下一轮建议与验收门槛](refine-logs/EXPERIMENT_PLAN.md) · [计划执行表](refine-logs/EXPERIMENT_TRACKER.md)：先验证教师接口，再采集少量训练集示范，训练能闭环抓取的行为克隆基线；这些新运行尚未启动。
+
 - [接触控制实验报告](reports/contact_v1/报告.md) · [逐回合结果](reports/contact_v1/episodes.csv)
 - [状态训练报告](reports/state_pilot/报告.md) · [算法与实验方案](docs/实验方案.md)
 - [数据下载与演示使用指南](docs/数据与演示使用指南.md) · [逐项验证条件诊断](reports/state_pilot/验证条件诊断.md)
