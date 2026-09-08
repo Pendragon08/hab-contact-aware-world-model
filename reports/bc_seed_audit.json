@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "new_unique_seeds": 122,
+  "historical_explicit_seeds": 296,
+  "historical_json_files": 1879,
+  "conflicts": [],
+  "scope": "explicit seed fields plus stored per-episode records; floating-point values are not seed matches"
+}
