@@ -115,7 +115,7 @@ python scripts/restore_artifacts.py --inventory release/<bundle>.release.json --
 v0.2 归档共 3,113 个文件，已在本地逐文件恢复校验，见 [传输审计](reports/local_transfer_audit.json)。实验 Release 附件的 GitHub 校验记录见 [发布审计](reports/github_v0.2.0-experiments_audit.json)。
 
 
-v0.3 行为克隆归档共 1625 个文件，压缩包 707.6 MiB；[本地逐文件恢复审计](reports/bc_local_transfer_audit.json)与[GitHub 发布审计](reports/github_v0.3.0-bc-pilot_audit.json)提供完整性记录。[本轮资源采样](reports/bc_resources.json)：GPU1 整卡最高 5152 MiB，GPU0 最低空闲 45791 MiB；包含当时所有进程，5 秒采样不能保证捕获瞬时峰值。
+v0.3 行为克隆归档共 1625 个文件，压缩包 707.6 MiB；[本地逐文件恢复审计](reports/bc_local_transfer_audit.json)、[全新 GitHub 克隆重叠文件校验](reports/bc_fresh_clone_audit.json)与[GitHub 发布审计](reports/github_v0.3.0-bc-pilot_audit.json)提供完整性记录。[本轮资源采样](reports/bc_resources.json)：GPU1 整卡最高 5152 MiB，GPU0 最低空闲 45791 MiB；包含当时所有进程，5 秒采样不能保证捕获瞬时峰值。
 
 ## 代码、数据和论文来源
 

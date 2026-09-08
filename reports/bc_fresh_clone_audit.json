@@ -1,0 +1,154 @@
+{
+  "passed": true,
+  "fresh_clone_commit": "2a5fd0051e072a41df2d7d9f5501f0847590ade0",
+  "checkout": "C:\\Users\\Pende\\Documents\\Codex\\2026-09-07\\bagn\\bc-v03-fresh-verification",
+  "overlap_files_verified": 36,
+  "checks": [
+    {
+      "path": "reports/bc_v1_2/audit.json",
+      "sha256": "e0eb6d9dab8b3c06851dddf2c277031af0d255e1121a751ed3fbb5603334f1d3"
+    },
+    {
+      "path": "reports/bc_v1_2/demo_selection.json",
+      "sha256": "413cb6ee5a3295b13476f4fd570521eb26adc7edd05fc17b07a5064b95b8598b"
+    },
+    {
+      "path": "reports/bc_v1_2/gpu_after.txt",
+      "sha256": "2e239baf0986504abeae1141c7bd8074da3ed8ee50e6cef010cb7eac5c6a18e5"
+    },
+    {
+      "path": "reports/bc_v1_2/initial_pair_1210080.json",
+      "sha256": "b3a5c2e9011a517f1a077166c401f0cea9c93ac0acdcb9be2604065ad70daa7a"
+    },
+    {
+      "path": "reports/bc_v1_2/initial_pair_1210081.json",
+      "sha256": "5277f5db07a170d94c989cdbc0427149321744d7cb20ea8d09a354d96a1bb4e1"
+    },
+    {
+      "path": "reports/bc_v1_2/initial_pair_1210082.json",
+      "sha256": "fe7c7784b689b0cb78222584d4f05794dc190a68eb1ea34119f59e46fb606389"
+    },
+    {
+      "path": "reports/bc_v1_2/initial_pair_1210083.json",
+      "sha256": "d39a9b39df59a9f00725b31a5668140d5cc39775715a22a44e25e1b0003c7b85"
+    },
+    {
+      "path": "reports/bc_v1_2/initial_pair_1210084.json",
+      "sha256": "cec8ead9ed4d7ef67f091dfc8feb43a55dec7d6c13974824aadef15d1155dfa2"
+    },
+    {
+      "path": "reports/bc_v1_2/initial_pair_1210085.json",
+      "sha256": "4f786bc346c42095c78c443ebbbd627b8d548e4f76813de400214f71f2a5db07"
+    },
+    {
+      "path": "reports/bc_v1_2/initial_pair_1210086.json",
+      "sha256": "664ca792ce57030191ba195bc7373ae140ecde84604ccb6af413baf872fb3989"
+    },
+    {
+      "path": "reports/bc_v1_2/initial_pair_1210087.json",
+      "sha256": "46f703d73ce4d151a0987fae063a415152e66cd7d0da1cfbb9fe8329b7503852"
+    },
+    {
+      "path": "reports/bc_v1_2/initial_pair_1210088.json",
+      "sha256": "e2b08ff223366a30e99eab4dd7d5a37dabe0579c4ab46a4133d19f60b3e76a7f"
+    },
+    {
+      "path": "reports/bc_v1_2/initial_pair_1210089.json",
+      "sha256": "928b9b1220a6afc6640460fc8fbd5a127b9dee3ea487d62a614a7e889d9c3658"
+    },
+    {
+      "path": "reports/bc_v1_2/initial_pair_1210090.json",
+      "sha256": "c3479c75f4cf9e7b0a7180f65f5d6698d627446a42b44f6a214a0782f4d09811"
+    },
+    {
+      "path": "reports/bc_v1_2/initial_pair_1210091.json",
+      "sha256": "038beb1a349fec3426c14d3afc5c4b123f17f935eda1bd65e86ef68c13b60126"
+    },
+    {
+      "path": "reports/bc_v1_2/initial_pair_1210092.json",
+      "sha256": "3bd37df86ed32ef193741070a25136de21f8cccd7a6bb0093e04d1aff3bdb762"
+    },
+    {
+      "path": "reports/bc_v1_2/initial_pair_1210093.json",
+      "sha256": "4676cd57f845ea94da13fcb56cf81328d48a6b952948c2c265e3fd3d0ab2aff5"
+    },
+    {
+      "path": "reports/bc_v1_2/initial_pair_1210094.json",
+      "sha256": "5fe159a864e13c520198398e036755b6576aa04d6e7d532a8b79a1d64980b191"
+    },
+    {
+      "path": "reports/bc_v1_2/initial_pair_1210095.json",
+      "sha256": "f712182003e068d598c9eadb4efcb9f2d5cb96e364a346f393d70e8378824bff"
+    },
+    {
+      "path": "reports/bc_v1_2/initial_pair_1210096.json",
+      "sha256": "10c3e17cb99a58db8ec56ec391c2b22af20094dbc4782264bd6344505c376540"
+    },
+    {
+      "path": "reports/bc_v1_2/initial_pair_1210097.json",
+      "sha256": "59557b5be2bf416324a648be575ae0a2cde371c1de28d0468edd7ca9ae7b02d1"
+    },
+    {
+      "path": "reports/bc_v1_2/initial_pair_1210098.json",
+      "sha256": "64dac96de9152d5fcf288bc8ead1021e0f5d54c10952ff9a1f569e2d842daca6"
+    },
+    {
+      "path": "reports/bc_v1_2/initial_pair_1210099.json",
+      "sha256": "c5315f43777d0c453b2ffbd8301354ba8eea0df60d4309c2004bc668fa9d0bb6"
+    },
+    {
+      "path": "reports/bc_v1_2/results.pdf",
+      "sha256": "77b15a848b343454207a7fd8aebf712052ef794fefae153748c7efe68d54bd86"
+    },
+    {
+      "path": "reports/bc_v1_2/results.png",
+      "sha256": "4ef5c725f3416a2a4f86ad63a2be963e16ea773beaed15aef36df82ab14a92e5"
+    },
+    {
+      "path": "reports/bc_v1_2/summary.json",
+      "sha256": "c8e57858cb182de8f342be4868595dcbca502c3d412b6c1c27b2c70e1c894edc"
+    },
+    {
+      "path": "reports/bc_v1_2/teacher_student_demo.mp4",
+      "sha256": "065ba83a9dae3cdf71307bc7d96bea520da1b12caaa27014d0187afe303f62f8"
+    },
+    {
+      "path": "reports/bc_v1_2/training_audit.json",
+      "sha256": "783317960fe1f14745dfe8efdcba39e25dc74d1cd9ef5bd94a9243806141104a"
+    },
+    {
+      "path": "reports/bc_v1_2/\u62a5\u544a.md",
+      "sha256": "ecc87c6129f7d8e856a8963d3fe33f27c78844177b66eacebd3b2f801090d7dd"
+    },
+    {
+      "path": "reports/bc_v1_2/\u89c2\u6d4b\u4e0e\u9759\u6b62\u5224\u636e\u8bca\u65ad.md",
+      "sha256": "b5a53fd1b4f35869f14a33225628d30e79fee016a0848aee02b9b102cc673c28"
+    },
+    {
+      "path": "reports/bc_interface_audit.json",
+      "sha256": "1edfa2f588e31dfdc83cb7a1c403236f8f090c417218e13d8961893a79e2aa56"
+    },
+    {
+      "path": "reports/bc_source_audit.json",
+      "sha256": "44971868c12d0b8bfdd89bc9a01c2283cfcfa37c4af94bb8277b67b29b8711f4"
+    },
+    {
+      "path": "reports/bc_resources.json",
+      "sha256": "880a9de60ca6528ebd69fb3dfd712809d29bbc47980a3d7023ef49c52d682515"
+    },
+    {
+      "path": "reports/bc_spawn_inventory.json",
+      "sha256": "04793c66a56d106481665c8b3f603fbed799ab167150a2793fe125b860108244"
+    },
+    {
+      "path": "reports/bc_semantics_audit.json",
+      "sha256": "50a7c65fd5168a4b8bae3a6ae8b606ee4fed80239637fa2eb5674bca2b747622"
+    },
+    {
+      "path": "\u884c\u4e3a\u514b\u9686\u5b9e\u9a8c\u6c47\u603b.html",
+      "sha256": "b3ee55c47f53c73b984d91af361a8fa93e036b4bfaa99b421d66fd980ccc6ed1"
+    }
+  ],
+  "config_sha256": "7c2dc173dae9ecd06eda6a95d3cbe27079879c045a166993d163469cbb4483a6",
+  "scope": "Fresh GitHub code/metadata checkout and every Git/Release overlapping file verified. Full raw bundle restoration was separately verified at the main D drive destination."
+}

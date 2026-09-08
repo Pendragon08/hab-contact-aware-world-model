@@ -7,6 +7,12 @@ result={'version':plan['version']}
 for stage in ['witness','interface','collect','train']:
     path=base/f'process_{stage}.json'
     if path.exists(): result[stage]=json.loads(path.read_text())
+path=base/'process_train_completed.json'
+if path.exists():
+    result['train_original_process']=result.get('train')
+    result['train']=json.loads(path.read_text())
+path=base/'eval_v2_run_process.json'
+if path.exists():result['evaluation_continuation']=json.loads(path.read_text())
 for label,path in [('interface_pairs',base/'interface/progress.json'),('teacher_episodes',base/'collection/episodes.json'),('student_episodes',base/'student/episodes.json')]:
     if not path.exists():continue
     data=json.loads(path.read_text()); rows=data['rows'] if isinstance(data,dict) else data
