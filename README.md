@@ -4,7 +4,7 @@
 
 **当前完成：300 回合接触控制配对实验，以及 TD-MPC2 / 状态 SAC 各 10,000 步短程训练。风险预测模块尚未训练，也未得到世界模型提升 HAB 性能的研究结论。**
 
-[下一轮计划与验收门槛](refine-logs/EXPERIMENT_PLAN.md) · [计划执行表](refine-logs/EXPERIMENT_TRACKER.md)：教师接口配对已启动；通过后采集少量训练集示范，再训练行为克隆基线。参见[教师双观测入口](docs/BC_EXECUTION.md)、[固定起点的学习协议](docs/BC_FIXED_SPAWN_EXECUTION.md)和[首次预检诊断](reports/BC入口诊断.md)。尚无本轮 BC 成绩。
+[下一轮计划与验收门槛](refine-logs/EXPERIMENT_PLAN.md) · [计划执行表](refine-logs/EXPERIMENT_TRACKER.md)：教师接口 20/20 组配对及固定起点预检已通过，100 次教师示范采集正在执行。参见[教师双观测入口](docs/BC_EXECUTION.md)、[固定起点的学习协议](docs/BC_FIXED_SPAWN_EXECUTION.md)和[入口与日志异常记录](reports/BC入口诊断.md)。尚无本轮 BC 成绩。
 
 公开数据中每个训练任务有 100 个预生成起点。本轮在采集前明确分为 80 个拟合、20 个开发留出起点，避免只换随机种子却重复抽到相同起点。仅拟合部分的结束成功示范用于 5,000 次 BC 更新，留出起点不参与训练与归一化。使用 GPU1，GPU0 保留给其他人。
 

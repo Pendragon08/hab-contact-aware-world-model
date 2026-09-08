@@ -1,0 +1,269 @@
+{
+  "passed": true,
+  "pairs": 20,
+  "episodes": 40,
+  "steps": 8000,
+  "audits": [
+    {
+      "pair": 0,
+      "max_abs_difference": {
+        "teacher_states": 0.0,
+        "raw_actions13": 0.0,
+        "executed_actions13": 0.0,
+        "effective_actions11": 0.0,
+        "fetch_head_depth": 0.0,
+        "fetch_hand_depth": 0.0,
+        "physical_states": 0.0
+      },
+      "events_identical": true
+    },
+    {
+      "pair": 1,
+      "max_abs_difference": {
+        "teacher_states": 0.0,
+        "raw_actions13": 0.0,
+        "executed_actions13": 0.0,
+        "effective_actions11": 0.0,
+        "fetch_head_depth": 0.0,
+        "fetch_hand_depth": 0.0,
+        "physical_states": 0.0
+      },
+      "events_identical": true
+    },
+    {
+      "pair": 2,
+      "max_abs_difference": {
+        "teacher_states": 0.0,
+        "raw_actions13": 0.0,
+        "executed_actions13": 0.0,
+        "effective_actions11": 0.0,
+        "fetch_head_depth": 0.0,
+        "fetch_hand_depth": 0.0,
+        "physical_states": 0.0
+      },
+      "events_identical": true
+    },
+    {
+      "pair": 3,
+      "max_abs_difference": {
+        "teacher_states": 0.0,
+        "raw_actions13": 0.0,
+        "executed_actions13": 0.0,
+        "effective_actions11": 0.0,
+        "fetch_head_depth": 0.0,
+        "fetch_hand_depth": 0.0,
+        "physical_states": 0.0
+      },
+      "events_identical": true
+    },
+    {
+      "pair": 4,
+      "max_abs_difference": {
+        "teacher_states": 0.0,
+        "raw_actions13": 0.0,
+        "executed_actions13": 0.0,
+        "effective_actions11": 0.0,
+        "fetch_head_depth": 0.0,
+        "fetch_hand_depth": 0.0,
+        "physical_states": 0.0
+      },
+      "events_identical": true
+    },
+    {
+      "pair": 5,
+      "max_abs_difference": {
+        "teacher_states": 0.0,
+        "raw_actions13": 0.0,
+        "executed_actions13": 0.0,
+        "effective_actions11": 0.0,
+        "fetch_head_depth": 0.0,
+        "fetch_hand_depth": 0.0,
+        "physical_states": 0.0
+      },
+      "events_identical": true
+    },
+    {
+      "pair": 6,
+      "max_abs_difference": {
+        "teacher_states": 0.0,
+        "raw_actions13": 0.0,
+        "executed_actions13": 0.0,
+        "effective_actions11": 0.0,
+        "fetch_head_depth": 0.0,
+        "fetch_hand_depth": 0.0,
+        "physical_states": 0.0
+      },
+      "events_identical": true
+    },
+    {
+      "pair": 7,
+      "max_abs_difference": {
+        "teacher_states": 0.0,
+        "raw_actions13": 0.0,
+        "executed_actions13": 0.0,
+        "effective_actions11": 0.0,
+        "fetch_head_depth": 0.0,
+        "fetch_hand_depth": 0.0,
+        "physical_states": 0.0
+      },
+      "events_identical": true
+    },
+    {
+      "pair": 8,
+      "max_abs_difference": {
+        "teacher_states": 0.0,
+        "raw_actions13": 0.0,
+        "executed_actions13": 0.0,
+        "effective_actions11": 0.0,
+        "fetch_head_depth": 0.0,
+        "fetch_hand_depth": 0.0,
+        "physical_states": 0.0
+      },
+      "events_identical": true
+    },
+    {
+      "pair": 9,
+      "max_abs_difference": {
+        "teacher_states": 0.0,
+        "raw_actions13": 0.0,
+        "executed_actions13": 0.0,
+        "effective_actions11": 0.0,
+        "fetch_head_depth": 0.0,
+        "fetch_hand_depth": 0.0,
+        "physical_states": 0.0
+      },
+      "events_identical": true
+    },
+    {
+      "pair": 10,
+      "max_abs_difference": {
+        "teacher_states": 0.0,
+        "raw_actions13": 0.0,
+        "executed_actions13": 0.0,
+        "effective_actions11": 0.0,
+        "fetch_head_depth": 0.0,
+        "fetch_hand_depth": 0.0,
+        "physical_states": 0.0
+      },
+      "events_identical": true
+    },
+    {
+      "pair": 11,
+      "max_abs_difference": {
+        "teacher_states": 0.0,
+        "raw_actions13": 0.0,
+        "executed_actions13": 0.0,
+        "effective_actions11": 0.0,
+        "fetch_head_depth": 0.0,
+        "fetch_hand_depth": 0.0,
+        "physical_states": 0.0
+      },
+      "events_identical": true
+    },
+    {
+      "pair": 12,
+      "max_abs_difference": {
+        "teacher_states": 0.0,
+        "raw_actions13": 0.0,
+        "executed_actions13": 0.0,
+        "effective_actions11": 0.0,
+        "fetch_head_depth": 0.0,
+        "fetch_hand_depth": 0.0,
+        "physical_states": 0.0
+      },
+      "events_identical": true
+    },
+    {
+      "pair": 13,
+      "max_abs_difference": {
+        "teacher_states": 0.0,
+        "raw_actions13": 0.0,
+        "executed_actions13": 0.0,
+        "effective_actions11": 0.0,
+        "fetch_head_depth": 0.0,
+        "fetch_hand_depth": 0.0,
+        "physical_states": 0.0
+      },
+      "events_identical": true
+    },
+    {
+      "pair": 14,
+      "max_abs_difference": {
+        "teacher_states": 0.0,
+        "raw_actions13": 0.0,
+        "executed_actions13": 0.0,
+        "effective_actions11": 0.0,
+        "fetch_head_depth": 0.0,
+        "fetch_hand_depth": 0.0,
+        "physical_states": 0.0
+      },
+      "events_identical": true
+    },
+    {
+      "pair": 15,
+      "max_abs_difference": {
+        "teacher_states": 0.0,
+        "raw_actions13": 0.0,
+        "executed_actions13": 0.0,
+        "effective_actions11": 0.0,
+        "fetch_head_depth": 0.0,
+        "fetch_hand_depth": 0.0,
+        "physical_states": 0.0
+      },
+      "events_identical": true
+    },
+    {
+      "pair": 16,
+      "max_abs_difference": {
+        "teacher_states": 0.0,
+        "raw_actions13": 0.0,
+        "executed_actions13": 0.0,
+        "effective_actions11": 0.0,
+        "fetch_head_depth": 0.0,
+        "fetch_hand_depth": 0.0,
+        "physical_states": 0.0
+      },
+      "events_identical": true
+    },
+    {
+      "pair": 17,
+      "max_abs_difference": {
+        "teacher_states": 0.0,
+        "raw_actions13": 0.0,
+        "executed_actions13": 0.0,
+        "effective_actions11": 0.0,
+        "fetch_head_depth": 0.0,
+        "fetch_hand_depth": 0.0,
+        "physical_states": 0.0
+      },
+      "events_identical": true
+    },
+    {
+      "pair": 18,
+      "max_abs_difference": {
+        "teacher_states": 0.0,
+        "raw_actions13": 0.0,
+        "executed_actions13": 0.0,
+        "effective_actions11": 0.0,
+        "fetch_head_depth": 0.0,
+        "fetch_hand_depth": 0.0,
+        "physical_states": 0.0
+      },
+      "events_identical": true
+    },
+    {
+      "pair": 19,
+      "max_abs_difference": {
+        "teacher_states": 0.0,
+        "raw_actions13": 0.0,
+        "executed_actions13": 0.0,
+        "effective_actions11": 0.0,
+        "fetch_head_depth": 0.0,
+        "fetch_hand_depth": 0.0,
+        "physical_states": 0.0
+      },
+      "events_identical": true
+    }
+  ],
+  "console_log_incident": "R001 console aggregate was truncated after computational completion by a lingering tee; raw per-step logs, snapshots, NPZ, videos and JSON retained. Counts reverified directly here. Console warnings cannot be fully recovered."
+}
