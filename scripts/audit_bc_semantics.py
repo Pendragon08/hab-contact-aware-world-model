@@ -7,6 +7,7 @@ checks=['is_grasped','ee_rest','robot_rest','is_static','cumulative_force_within
 paths=list((root/'artifacts/bc_v1_1/interface').glob('pair_*/baseline/episode.json'))
 paths+=list((root/'artifacts/bc_v1_2/collection').glob('episode_*/episode.json'))
 paths+=list((root/'artifacts/bc_v1_2/student/evaluation').glob('episode_*/episode.json'))
+paths+=list((root/'artifacts/bc_v1_2/student/evaluation_v2').glob('episode_*/episode.json'))
 rows=[]
 for path in sorted(paths):
     row=json.loads(path.read_text()); folder=path.parent

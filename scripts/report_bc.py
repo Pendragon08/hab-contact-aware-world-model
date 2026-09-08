@@ -11,6 +11,7 @@ import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 from bc_pipeline import BASE, PLAN, BC, ACTIVE, CHECKERS, sha, interface_path, selection_path
+from bc_eval_v2 import canonical_pair
 
 ROOT = Path(os.environ['HAB_ROOT'])
 OUT = ROOT/'reports'/PLAN['version']
@@ -73,18 +74,21 @@ def main():
         assert count == 201; video_counts.append({'folder': row['folder'], 'frames': count})
     for r, s in zip(dev, student):
         assert r['seed'] == s['seed']
-        assert load(ROOT/r['folder']/'initial.json') == load(ROOT/s['folder']/'initial.json')
+        pair_audit=canonical_pair(ROOT/r['folder'],ROOT/s['folder'])
+        save(OUT/f"initial_pair_{r['seed']}.json",pair_audit)
     counts = lambda rows: {k: sum(r[k] for r in rows) for k in ['ever_grasp', 'success_once', 'success_at_end']}
     summary = {'teacher_fit_all': counts(collection[:80]), 'teacher_dev': counts(dev), 'student_dev': counts(student),
                'fit_successful_demos': len(fit), 'fit_transitions': len(fit)*200,
                'gate_passed': complete['passed'], 'final_metrics': complete['final_supervised_metrics'],
                'selection': load(selection_path()), 'student_failed_end_conditions': dict(endings),
-               'stages': {s: load((interface_path().parent if s == 'interface' else BASE)/f'process_{s}.json') for s in ['witness', 'interface', 'collect', 'train']}}
+               'stages': {s: load((interface_path().parent if s == 'interface' else BASE)/(f'process_{s}_completed.json' if s=='train' and (BASE/'process_train_completed.json').exists() else f'process_{s}.json')) for s in ['witness', 'interface', 'collect', 'train']}}
     assert summary['student_dev'] == complete['counts']
     audit = {'passed': True, 'formal_episodes': len(all_rows), 'formal_steps': len(all_rows)*200,
              'video_counts': video_counts, 'student_action_replay_max_abs_error': replay_error,
              'train_only_normalization_verified': True, 'heldout_start_pairs_verified': 20,
-             'updates_verified': len(updates), 'teacher_interface_pairs_verified': 20}
+             'updates_verified': len(updates), 'teacher_interface_pairs_verified': 20,
+             'initial_pairing_scope':'Semantic init-config name; all active actors/robot/controller checked; only far hidden actor z parking slots canonicalized. Full teacher observations bit-identical.',
+             'evaluation_recovery':'First failed episode retained; remaining 19 evaluated using unchanged update-5000 checkpoint; original failed process record preserved.'}
     save(OUT/'summary.json', summary); save(OUT/'audit.json', audit)
     metrics = load(BASE/'student/metrics.json')
     fig, axes = plt.subplots(1, 2, figsize=(11, 4))
