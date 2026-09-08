@@ -1,0 +1,104 @@
+{
+  "passed": true,
+  "tag": "v0.2.0-experiments",
+  "release_url": "https://github.com/Pendragon08/hab-contact-aware-world-model/releases/tag/v0.2.0-experiments",
+  "is_draft": false,
+  "assets_verified": [
+    {
+      "name": "contact-v1.release.json",
+      "size": 1042,
+      "sha256": "1b578406b902f4350e063c214cf8b53118b82f8e56f1b2d4d5293422f1734a63",
+      "github_digest": "sha256:1b578406b902f4350e063c214cf8b53118b82f8e56f1b2d4d5293422f1734a63"
+    },
+    {
+      "name": "contact-v1.manifest.json",
+      "size": 458724,
+      "sha256": "1b31634373bc171d1be8c0745afbb1cba0e1f0f29e229da65b6cf035851d71df",
+      "github_digest": "sha256:1b31634373bc171d1be8c0745afbb1cba0e1f0f29e229da65b6cf035851d71df"
+    },
+    {
+      "name": "contact-v1.tar.gz.part000",
+      "size": 524288000,
+      "sha256": "b5c0ec0e9107a70d3613341a873303ef196784c9736d68336456b413302e86a9",
+      "github_digest": "sha256:b5c0ec0e9107a70d3613341a873303ef196784c9736d68336456b413302e86a9"
+    },
+    {
+      "name": "contact-v1.tar.gz.part001",
+      "size": 524288000,
+      "sha256": "18adb5d2feb52cdf5368faf099187c3ce0b693da11fbafc2963e5572ddbe9cfe",
+      "github_digest": "sha256:18adb5d2feb52cdf5368faf099187c3ce0b693da11fbafc2963e5572ddbe9cfe"
+    },
+    {
+      "name": "contact-v1.tar.gz.part002",
+      "size": 524288000,
+      "sha256": "220e490110c41345ac09bbda8f9d9821735332f275153c4266f92f7e07b8c904",
+      "github_digest": "sha256:220e490110c41345ac09bbda8f9d9821735332f275153c4266f92f7e07b8c904"
+    },
+    {
+      "name": "contact-v1.tar.gz.part003",
+      "size": 352681992,
+      "sha256": "ac2c7c0e4d9efbb9c86c2803cbfef0157f1ed4e45a4d7cf123b362f94fcbae54",
+      "github_digest": "sha256:ac2c7c0e4d9efbb9c86c2803cbfef0157f1ed4e45a4d7cf123b362f94fcbae54"
+    },
+    {
+      "name": "state-pilots-v1.release.json",
+      "size": 556,
+      "sha256": "a40dccd11f02f034530c9732579db561488b5f0c80d413020bfbc04797500b53",
+      "github_digest": "sha256:a40dccd11f02f034530c9732579db561488b5f0c80d413020bfbc04797500b53"
+    },
+    {
+      "name": "state-pilots-v1.manifest.json",
+      "size": 78156,
+      "sha256": "b4840bcc114e652a639785e4c7485ad68748617d659f656001cd10a455a4d50e",
+      "github_digest": "sha256:b4840bcc114e652a639785e4c7485ad68748617d659f656001cd10a455a4d50e"
+    },
+    {
+      "name": "state-pilots-v1.tar.gz",
+      "size": 209736624,
+      "sha256": "e9f28c2dfc039e92dacae041b6d343e1ff4895c8e29c8395ddea25e59dd524eb",
+      "github_digest": "sha256:e9f28c2dfc039e92dacae041b6d343e1ff4895c8e29c8395ddea25e59dd524eb"
+    },
+    {
+      "name": "witnesses-v1.release.json",
+      "size": 544,
+      "sha256": "ec58aaa8e0bdbd5a92a58b612527a6e6cc6e981d7a2b9f32bedd69f92eed2f73",
+      "github_digest": "sha256:ec58aaa8e0bdbd5a92a58b612527a6e6cc6e981d7a2b9f32bedd69f92eed2f73"
+    },
+    {
+      "name": "witnesses-v1.manifest.json",
+      "size": 35506,
+      "sha256": "f080f5b1d85cd611acbeae05c5fa0f9c87d10714d8917bcd4c8dcad536d96750",
+      "github_digest": "sha256:f080f5b1d85cd611acbeae05c5fa0f9c87d10714d8917bcd4c8dcad536d96750"
+    },
+    {
+      "name": "witnesses-v1.tar.gz",
+      "size": 133392615,
+      "sha256": "77b4e5f9fab280ec54323aa7c0ebca9b5c914d1ba7aaf3647f43cfba5bbd3c54",
+      "github_digest": "sha256:77b4e5f9fab280ec54323aa7c0ebca9b5c914d1ba7aaf3647f43cfba5bbd3c54"
+    },
+    {
+      "name": "run-records-v1.release.json",
+      "size": 545,
+      "sha256": "7e1890679012adc72de75aef42c60175340b777c961ffc235aca2e2fb58e5ac5",
+      "github_digest": "sha256:7e1890679012adc72de75aef42c60175340b777c961ffc235aca2e2fb58e5ac5"
+    },
+    {
+      "name": "run-records-v1.manifest.json",
+      "size": 17014,
+      "sha256": "8e782db0bfcc17ea147328b8f68f15f149ef9995bb68a0e0d61ad90cf81a7916",
+      "github_digest": "sha256:8e782db0bfcc17ea147328b8f68f15f149ef9995bb68a0e0d61ad90cf81a7916"
+    },
+    {
+      "name": "run-records-v1.tar.gz",
+      "size": 3635496,
+      "sha256": "af28b6cf4ef2e172f9760cdc6ced748d89be89d9d284c32344760ed8cabe420f",
+      "github_digest": "sha256:af28b6cf4ef2e172f9760cdc6ced748d89be89d9d284c32344760ed8cabe420f"
+    },
+    {
+      "name": "comparison_demo.mp4",
+      "size": 31165632,
+      "sha256": "0b5b281717148209e9c78d9680ac6380ed5d69a37183fb18b3f584650fa0b89c",
+      "github_digest": "sha256:0b5b281717148209e9c78d9680ac6380ed5d69a37183fb18b3f584650fa0b89c"
+    }
+  ]
+}
