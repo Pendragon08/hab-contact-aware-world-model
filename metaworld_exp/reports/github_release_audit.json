@@ -1,0 +1,34 @@
+{
+  "passed": true,
+  "tag": "v0.4.0-metaworld-pilot",
+  "draft": false,
+  "prerelease": true,
+  "url": "https://github.com/Pendragon08/hab-contact-aware-world-model/releases/tag/v0.4.0-metaworld-pilot",
+  "assets": [
+    {
+      "name": "metaworld-direct-policy-pretrain.mp4",
+      "bytes": 371864,
+      "sha256": "7d23f93d4f8c595d843f62dfd0ba002961734900ec11a1b1838f97bdffcbfaaa",
+      "url": "https://github.com/Pendragon08/hab-contact-aware-world-model/releases/download/v0.4.0-metaworld-pilot/metaworld-direct-policy-pretrain.mp4"
+    },
+    {
+      "name": "metaworld-mpc-pretrain.mp4",
+      "bytes": 524603,
+      "sha256": "06989f22cd88ae79e5a9c4aca5f39209c716c3dd6f6a09f878bae3303bc814f4",
+      "url": "https://github.com/Pendragon08/hab-contact-aware-world-model/releases/download/v0.4.0-metaworld-pilot/metaworld-mpc-pretrain.mp4"
+    },
+    {
+      "name": "summary.json",
+      "bytes": 998,
+      "sha256": "afa3469918d51feee3926d5a618ef4146c48bdb1cc7bd4d17b5111b8db27285f",
+      "url": "https://github.com/Pendragon08/hab-contact-aware-world-model/releases/download/v0.4.0-metaworld-pilot/summary.json"
+    },
+    {
+      "name": "pretrain_evaluation_episodes.json",
+      "bytes": 21758,
+      "sha256": "99cc7b2c9f261144cb659074fd2dc435d280e7a6a8d73e90dafde574e6b2e3ba",
+      "url": "https://github.com/Pendragon08/hab-contact-aware-world-model/releases/download/v0.4.0-metaworld-pilot/pretrain_evaluation_episodes.json"
+    }
+  ],
+  "full_raw_archive_uploaded": false
+}
