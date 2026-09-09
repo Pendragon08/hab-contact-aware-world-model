@@ -1,0 +1,50 @@
+{
+  "passed": true,
+  "training_started": false,
+  "return_recurrence_max_abs_error": 7.62939453125e-06,
+  "rewards_min": 0.02985638938844204,
+  "rewards_max": 1.0061243772506714,
+  "returns_min": 0.05773572996258736,
+  "returns_max": 39.34518814086914,
+  "files": {
+    "observations": [
+      100,
+      201,
+      45
+    ],
+    "actions": [
+      100,
+      200,
+      11
+    ],
+    "rewards": [
+      100,
+      200
+    ],
+    "terminal": [
+      100,
+      200
+    ],
+    "monte_carlo_returns": [
+      100,
+      200
+    ],
+    "actor_labels": [
+      100,
+      200,
+      11
+    ],
+    "successful_teacher_episode": [
+      100
+    ],
+    "correction_episode": [
+      100
+    ],
+    "mean": [
+      45
+    ],
+    "std": [
+      45
+    ]
+  }
+}

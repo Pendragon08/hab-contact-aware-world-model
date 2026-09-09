@@ -4,7 +4,15 @@
 
 **当前完成：接触控制配对实验、TD-MPC2 / 状态 SAC 短程训练，以及教师示范和行为克隆实验。行为克隆未通过可学习性门槛；风险预测模块尚未训练，也未得到世界模型提升 HAB 性能的研究结论。**
 
-## 最新：固定策略闭环失败诊断
+## 最新：示范辅助 TD-MPC2 数据准备
+
+已授权下一轮示范预训练与在线微调。**20000步训练数据已整理核验，GPU训练尚未启动：远端SSH连接超时，训练入口仍需实现和独立验证。** 数据包括16000步教师训练轨迹和4000步学生训练轨迹，没有开发集转移或标签；其中10600步成功教师动作与4000步旁路纠错建议可用于策略监督。纠错建议不作为真实动力学动作。
+
+本轮单独命名为“示范辅助TD-MPC2”，明确200步有限回合目标，计划30000在线步及直接策略/MPC配对开发评估。此前BC门槛保留为历史记录，不再作为新世界模型实验的前置条件。没有自动延长训练、修改旧模型或启动风险模块。
+
+- [准备状态与下一阶段](reports/示范辅助世界模型训练准备.md) · [数据入口](docs/DEMO_TDMPC2_DATA_PREPARATION.md) · [配置与待验证项](configs/demo_tdmpc2_v1.json) · [逐轨迹核验清单](reports/demo_tdmpc2_v1/data_manifest.json)
+
+## 固定策略闭环失败诊断
 
 原 BC 模型保持第5000次更新，新测20个真正参与训练的起点：曾抓取 **7/20**、曾完整成功 **6/20**、结束完整成功 **0/20**。原留出测试仍为4/20、3/20、1/20，没有重跑或用于新训练。
 
@@ -14,7 +22,7 @@
 - [完整新增原始数据](https://github.com/Pendragon08/hab-contact-aware-world-model/releases/tag/v0.3.1-bc-diagnosis) · [训练起点与留出起点演示](https://github.com/Pendragon08/hab-contact-aware-world-model/releases/download/v0.3.1-bc-diagnosis/diagnosis_demo.mp4)
 - 本地打开 `行为克隆失败诊断.html` 查看全部20条新视频；[逐文件交付校验](reports/bc_diagnosis_local_transfer_audit.json)与[发布校验](reports/github_v0.3.1-bc-diagnosis_audit.json)。
 
-[计划与执行结果](refine-logs/EXPERIMENT_PLAN.md) · [执行表](refine-logs/EXPERIMENT_TRACKER.md)：**R001–R003 已完成**。20/20 教师接口配对通过，采集 100 次示范，用 53 条成功拟合轨迹完成 5,000 次 BC 更新。学生在 20 个留出起点上曾抓取 **4/20**、曾完整成功 **3/20**、结束完整成功 **1/20**。未达到预定门槛（曾抓取≥10/20 且曾完整成功≥5/20），R004/R005 保持 GATED。下一步先诊断状态输入 BC 的闭环失败。
+[计划与执行结果](refine-logs/EXPERIMENT_PLAN.md) · [执行表](refine-logs/EXPERIMENT_TRACKER.md)：**R001–R003 已完成**。20/20 教师接口配对通过，采集 100 次示范，用 53 条成功拟合轨迹完成 5,000 次 BC 更新。学生在 20 个留出起点上曾抓取 **4/20**、曾完整成功 **3/20**、结束完整成功 **1/20**。未达到原预定门槛（曾抓取≥10/20 且曾完整成功≥5/20），原R004/R005仍未执行；后续诊断已完成，新授权的示范辅助世界模型按单独版本推进。
 
 - [行为克隆报告](reports/bc_v1_2/报告.md) · [观测与静止判据诊断](reports/bc_v1_2/观测与静止判据诊断.md)
 - [本轮完整数据、所有检查点和失败记录](https://github.com/Pendragon08/hab-contact-aware-world-model/releases/tag/v0.3.0-bc-pilot) · [教师—学生 Demo](https://github.com/Pendragon08/hab-contact-aware-world-model/releases/download/v0.3.0-bc-pilot/teacher_student_demo.mp4)
