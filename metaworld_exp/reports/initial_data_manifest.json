@@ -1,0 +1,1925 @@
+{
+  "bundle": "metaworld-initial-v1",
+  "files": [
+    {
+      "path": "metaworld_exp/artifacts/cpu_probe/episode_0.npz",
+      "size": 49536,
+      "sha256": "26d844d2af5eae95316dea6bf322a1e0d454106343d6d669f75ba171f0be92d7"
+    },
+    {
+      "path": "metaworld_exp/artifacts/cpu_probe/episode_1.npz",
+      "size": 50319,
+      "sha256": "81d62c67a6fdf902f1e7cbcdb8e78576b7904762d11c919ffcbd6dd4acbc83a0"
+    },
+    {
+      "path": "metaworld_exp/artifacts/cpu_probe/events_0.json",
+      "size": 93358,
+      "sha256": "5f967e577fd721f6616ba53e2fd9789687ec59dbae51507dcd42c937365fc87f"
+    },
+    {
+      "path": "metaworld_exp/artifacts/cpu_probe/events_1.json",
+      "size": 95952,
+      "sha256": "5934fe936d921de63e3021ad51b801c90ed8b7afae5a2890e7b4750cd91c3823"
+    },
+    {
+      "path": "metaworld_exp/artifacts/cpu_probe/initial_0.json",
+      "size": 1259,
+      "sha256": "a6b78d42b59ccf320ec6549bda8167a26cd8de25f35d624dcd676d5eca008455"
+    },
+    {
+      "path": "metaworld_exp/artifacts/cpu_probe/initial_1.json",
+      "size": 1249,
+      "sha256": "7a338868c6db09b3782318989634bd50c8be25a6783dbada0b7199af6a8985a8"
+    },
+    {
+      "path": "metaworld_exp/artifacts/cpu_probe_seeded/complete.json",
+      "size": 856,
+      "sha256": "fc9ae18295a3450ad4035dd09c0186b9779254ed9df93b6f402318013984e423"
+    },
+    {
+      "path": "metaworld_exp/artifacts/cpu_probe_seeded/episode_0.npz",
+      "size": 49811,
+      "sha256": "00a904d023c85d042604c5ee7123b5de1a11d74ea10c55dc10a90591f88ad40b"
+    },
+    {
+      "path": "metaworld_exp/artifacts/cpu_probe_seeded/episode_1.npz",
+      "size": 49811,
+      "sha256": "00a904d023c85d042604c5ee7123b5de1a11d74ea10c55dc10a90591f88ad40b"
+    },
+    {
+      "path": "metaworld_exp/artifacts/cpu_probe_seeded/events_0.json",
+      "size": 93324,
+      "sha256": "ed2926ad333a86769ba15c6e7bc26ea5ca0b679ca541cc0b05a13d2c97457ae6"
+    },
+    {
+      "path": "metaworld_exp/artifacts/cpu_probe_seeded/events_1.json",
+      "size": 93324,
+      "sha256": "ed2926ad333a86769ba15c6e7bc26ea5ca0b679ca541cc0b05a13d2c97457ae6"
+    },
+    {
+      "path": "metaworld_exp/artifacts/cpu_probe_seeded/initial_0.json",
+      "size": 1255,
+      "sha256": "b3611807da9577f279d8797f672035cb87a2ee992d3623a7a17e96a750993401"
+    },
+    {
+      "path": "metaworld_exp/artifacts/cpu_probe_seeded/initial_1.json",
+      "size": 1255,
+      "sha256": "b3611807da9577f279d8797f672035cb87a2ee992d3623a7a17e96a750993401"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/complete.json",
+      "size": 289,
+      "sha256": "88fda9d82c17d1bac457ee9d3ed9fef2ebb29714c8a46d08328996d1d686825a"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_000/episode.json",
+      "size": 479,
+      "sha256": "7e453f120f9ba8b519dbd62358d1f792704e5f18626005b81544bb5b09059c93"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_000/initial.json",
+      "size": 1721,
+      "sha256": "78a7c61e6caf1de8d630bb7431b4f15e7ab2f97e72ed0996659de5985dad845f"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_000/steps.jsonl",
+      "size": 108110,
+      "sha256": "7e152727a2204f30ac7a38b0453d52c151f5cb0d05a40817469e0eb0f7c41c0e"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_000/trajectory.npz",
+      "size": 152572,
+      "sha256": "dd4623f7fa4e28e611e4838b5e21bb2c385986db0a736449a3bdded2c6adaed5"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_001/episode.json",
+      "size": 480,
+      "sha256": "22e08cdf0d77d7cb28119119aa839219ac35f46f690e908f42675ee94551e4f5"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_001/initial.json",
+      "size": 1721,
+      "sha256": "05f2d36cf7087f99bb638df0a0930fc21a942e05a20e5d1eda3b5d361c2266d3"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_001/steps.jsonl",
+      "size": 109382,
+      "sha256": "a47cb3dd54acc39b735280b88efb1b140bb5403f9d27c56f6e89930842976ad2"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_001/trajectory.npz",
+      "size": 152979,
+      "sha256": "8e7c901280fc751e88efa8eb6c40f187a408bc5fe32f2ed0848e052c9fbab2dd"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_002/episode.json",
+      "size": 479,
+      "sha256": "8d39b1ca1e848d491e1146c29dc25080890a1c45c7c2879b40e2e2d860b3a880"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_002/initial.json",
+      "size": 1729,
+      "sha256": "255cb9960fd2b98859d7d1bcce25f6fd423bbbd03fe077688b80291c616c4ca3"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_002/steps.jsonl",
+      "size": 107945,
+      "sha256": "23d91ec812edb0fae72159edf012b093ba036ee9dd21273180176adb1e840d07"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_002/trajectory.npz",
+      "size": 150334,
+      "sha256": "22616a67f8085011238f6098da9c7f5e7330fcaded33b375c3fd085be08ed0ab"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_003/episode.json",
+      "size": 479,
+      "sha256": "a47789fe37828809d4552c927812870d4afd17f2a434bfc4977f5351c821dc78"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_003/initial.json",
+      "size": 1719,
+      "sha256": "811413437dad72d272d4a2db2c104448debbcda7fb3bf9ef7929c8208523e1a3"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_003/steps.jsonl",
+      "size": 103041,
+      "sha256": "014cdfa89c9bd645e2f1fac7bdd0d21e157ed5dece2bf8d2246150a489475c32"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_003/trajectory.npz",
+      "size": 152419,
+      "sha256": "bbd901baf1f3a858f33c45a3608f876d6f033acb44c418b0324d7a4da7bb44f8"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_004/episode.json",
+      "size": 479,
+      "sha256": "e9c24e042d1b36b6edda0842ab7975bb9acb7eb5cce94ecb1610d0654e649bca"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_004/initial.json",
+      "size": 1723,
+      "sha256": "554d4609b9adefe71c18ef813daf8bd79d7c6a515c1037bbf15df81627404b34"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_004/steps.jsonl",
+      "size": 107828,
+      "sha256": "793b32701d2ea808b71c93cf0524ae8d0441a88892062c0ce84db2137206ee89"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_004/trajectory.npz",
+      "size": 150980,
+      "sha256": "bf17da5be94bf428eb727583404c729f88cd4a620a60b9e1d34a800bcf60f105"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_005/episode.json",
+      "size": 479,
+      "sha256": "4e55816a1f0aa42113f7322c04a2f2add27434276d3a7d2f746eaea4c76ebb1c"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_005/initial.json",
+      "size": 1729,
+      "sha256": "fd911ea756d4cc2384f7330f876663894c245de80ada2a8d8154691b1ce69a99"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_005/steps.jsonl",
+      "size": 103105,
+      "sha256": "a2619963c718f7f10b2419c74768b537f2f26271362d723f4f50d5aa6b2c716a"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_005/trajectory.npz",
+      "size": 150947,
+      "sha256": "3f800d17e65ad03a66ebeb1b1e66afd95297521be0948061297cc220d8ce896f"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_006/episode.json",
+      "size": 479,
+      "sha256": "9fad83ebd6522e391488f1988982da15cdb7893cf5d7251a4777cf170f87c71d"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_006/initial.json",
+      "size": 1719,
+      "sha256": "f09dc248f7e2e1a65d47578d77efeb6b4561926303e2c9863162a5d63ec3c95b"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_006/steps.jsonl",
+      "size": 107926,
+      "sha256": "87fd8511867d79e5292962c242e508f7fb4eb68dea00b146f4ecc78d6f3669b9"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_006/trajectory.npz",
+      "size": 154694,
+      "sha256": "77acae138ff9ea5d4e51f702a0a2e35bf4b791208acb70f2628a2011b88004d2"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_007/episode.json",
+      "size": 479,
+      "sha256": "5a2b81939dd613b344102a933edfdb99d197b8e10170304a1924102f5baeec9f"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_007/initial.json",
+      "size": 1721,
+      "sha256": "27a8bec65306160ac19d52a5fc55bfc06a0a921356437cdce627694507994608"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_007/steps.jsonl",
+      "size": 111944,
+      "sha256": "8d3dfc02ea76810f5e3f8c6c17a5f94d1f69c10465999428cde08136c939acd2"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_007/trajectory.npz",
+      "size": 153584,
+      "sha256": "d612957e470aee381ae8599d30c7820e426df673738c0398f67a16b4fc660faa"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_008/episode.json",
+      "size": 479,
+      "sha256": "dbb9b32e77b148b62387553813cec2c8b8292c0ecd47b9fbfe4fd39093e55642"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_008/initial.json",
+      "size": 1721,
+      "sha256": "d9ebbfc56c17ed036713eebd04e6f32aa924af65d54cb90e362e951effcb58bb"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_008/steps.jsonl",
+      "size": 107524,
+      "sha256": "215c0f2d5f01a12649ab78581882185ca0aa2b34438b84d27c899ac382f5dd0c"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_008/trajectory.npz",
+      "size": 152222,
+      "sha256": "c67c235b0d4e1de73c62c8afbfabdc2ccd5879eb6f958d55956e91db405808b6"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_009/episode.json",
+      "size": 479,
+      "sha256": "482f46634df80c2fa48bce0d9249db839a90828c0b52adb0d2ee2ce231830601"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_009/initial.json",
+      "size": 1713,
+      "sha256": "6fbcdffcb5d695768f161e4bc969625525be63dd444b4c950a10f69007873ada"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_009/steps.jsonl",
+      "size": 103606,
+      "sha256": "0aeee90d2ea20a7cc523fa3d8d6352df86cb5101066aed84e904d43113115020"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_009/trajectory.npz",
+      "size": 152003,
+      "sha256": "544c1df92a56a574fd4aad49e80649065198416a00ad8b0a28b128b4b0a5feea"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_010/episode.json",
+      "size": 480,
+      "sha256": "3d0cf0cde956d4be76f38a26095e73da622185a28a9e6fa4496e74dc45547e90"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_010/initial.json",
+      "size": 1726,
+      "sha256": "0f1676297d0e82f06d08d4f3a428ddf8c30720b699bd3228d1eed55fd614aab8"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_010/steps.jsonl",
+      "size": 112624,
+      "sha256": "db2b451a4d4419b61dffe7f956678b93ecea187101ff0848e703deecfdd93312"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_010/trajectory.npz",
+      "size": 153772,
+      "sha256": "cec6d0bd8fba145445a78fbf27d2d095119b22fb07d9d7e79c613043aa6126a7"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_011/episode.json",
+      "size": 480,
+      "sha256": "09070db64183faacbcee0fa9d89d9341e6955b4453d775f9f0d582f18cd6326f"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_011/initial.json",
+      "size": 1720,
+      "sha256": "a163607098f277dea570339017e263dfa3df6c34dc6c66dad58a2221d609b709"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_011/steps.jsonl",
+      "size": 115732,
+      "sha256": "5ae198c45dfd07f3600486a5b57c1019f0b56c725b282945582049789853ef11"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_011/trajectory.npz",
+      "size": 153942,
+      "sha256": "0b6a9344992a1b2326a82c54bee5b6c77927b45596a6941cd8ed641d7027cb60"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_012/episode.json",
+      "size": 479,
+      "sha256": "f4e9acfd921f0efd6a7782a0378fae2cc7c9abb9f1fec204c1a7492324164d3f"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_012/initial.json",
+      "size": 1722,
+      "sha256": "162f84a3af3233ef1588f280a114f12634badfcd83f3173aa1c1ed6b7eca573d"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_012/steps.jsonl",
+      "size": 114705,
+      "sha256": "484bee65482ebfe6fcf1f1630c769388761eb408cd3dab02afcb89fc106273ed"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_012/trajectory.npz",
+      "size": 153903,
+      "sha256": "1195fab30542e1a7079279f198656ae683c85c080a6a89d688a984aaf111f16b"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_013/episode.json",
+      "size": 480,
+      "sha256": "dca7ba164f6379ed6dc26d86fd49f7b0650e73949c2962c50977cebfbcf31669"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_013/initial.json",
+      "size": 1718,
+      "sha256": "7ea2fb18fae81568bad7b7c2cb36b74e969e12c7a99a018d5f24ac8a5ee5d23f"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_013/steps.jsonl",
+      "size": 110880,
+      "sha256": "443925a3696c9cfaad1fd8210d71502a88f514f15910d3ca4129ab4544bde740"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_013/trajectory.npz",
+      "size": 154190,
+      "sha256": "d8e13b8ffece671195b030de2f36e94df53b047833aed8ff9d18e79a0aa78d64"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_014/episode.json",
+      "size": 480,
+      "sha256": "333840b16b22f0b8f7e9736880e84c353b086eb89a736e1243ee9b626673c15f"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_014/initial.json",
+      "size": 1722,
+      "sha256": "cf6d16bb3a9d2b66c87c2a328ae29984c4667f35496863df4aa1f5a261ff07c3"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_014/steps.jsonl",
+      "size": 109341,
+      "sha256": "96e81199c9af780306041a433ff61d84e1527efc5ddf6d50100985f7e6267fb0"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_014/trajectory.npz",
+      "size": 155317,
+      "sha256": "038f19c368537b77c982c4a90908aa76235e46f6c42148234ab2a7ee75ea1907"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_015/episode.json",
+      "size": 480,
+      "sha256": "8019134d5bd7ed180d66baafffd38bdebe42c9e16cd0cf0edf988c1d269f9cb6"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_015/initial.json",
+      "size": 1724,
+      "sha256": "152195f8f173e900fdb9c8619fab01c1fcde1ba1c27181016ff57e8b02761977"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_015/steps.jsonl",
+      "size": 113125,
+      "sha256": "7e340d916c69d02e489916f945dd2cd778d79f162e46612498520444c06802b3"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_015/trajectory.npz",
+      "size": 153502,
+      "sha256": "5bd68a7c750b711ca45e01bc7b1ac081d6243cb9d9107620999b3b1c49dfedcb"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_016/episode.json",
+      "size": 480,
+      "sha256": "6d55d34b1a7fb7456b738d3e7105432e8631bfbd80f3ce20d6f08aa07d918f30"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_016/initial.json",
+      "size": 1724,
+      "sha256": "0f013bd5baedc576db8c966df96869bb657ef4744515d2f4fa9292909a373044"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_016/steps.jsonl",
+      "size": 110243,
+      "sha256": "1652f77b31f726eb54cc4abe5c55a990f7653c8a02917dd0440a1a28927aa101"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_016/trajectory.npz",
+      "size": 154656,
+      "sha256": "09952ebcdca885cf64143029be8f0ff3971ef1605c58defca6b6bfabee66febb"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_017/episode.json",
+      "size": 480,
+      "sha256": "8937480ca4cc8f6b0ba08eff55213a901e5b3c6a04f5fca7282655d954e1c326"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_017/initial.json",
+      "size": 1720,
+      "sha256": "dd25ac229f67cf80b07f83dbd4b989e2fbafa6c1136399f0a1c8a3d624512b49"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_017/steps.jsonl",
+      "size": 109797,
+      "sha256": "f5547f0932103a2f6b888eb4fdced7dbddf2d050bb3781a52d44550c5090ad99"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_017/trajectory.npz",
+      "size": 153170,
+      "sha256": "186ec2ef6b7dc35aab66d58d9e6e86000932d2ed4657f57ed010fd85a9a9db6b"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_018/episode.json",
+      "size": 480,
+      "sha256": "f725f1f4c73a3ecce4b01f5e46400cec87da00164cbe834cee6ee9b0ef05cbc8"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_018/initial.json",
+      "size": 1718,
+      "sha256": "f72a13b4f533c0697abfdf2f816031679cfdefa33ecbf077532c44112f809a89"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_018/steps.jsonl",
+      "size": 107555,
+      "sha256": "78bce360a2da1e6b423aec23cb7579428396e3b35d7f15059dc4cd4f91e84aae"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_018/trajectory.npz",
+      "size": 152659,
+      "sha256": "0cc8481e9520b7244bef5d5e406897ac7e33d4ab9306430116adbc48f1f5108d"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_019/episode.json",
+      "size": 480,
+      "sha256": "ca91fd08122f9e063b8c7dcaa1547d5a0c65692c1bc1302c23f24a1b3d2022e8"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_019/initial.json",
+      "size": 1728,
+      "sha256": "78a03414b41e86ea988a95e45d5f4d681298fb3ab120e782f0af1bb51177be2a"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_019/steps.jsonl",
+      "size": 110095,
+      "sha256": "fb595ee7841e4a72f97b2692cf3341e5ae2053cf0067bef0917d1c4fe6601ae2"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_019/trajectory.npz",
+      "size": 153587,
+      "sha256": "2b9febce58183c14b1bac63476ea39b852d7ca77a548bd0c0ece3c3e65f50727"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_020/episode.json",
+      "size": 480,
+      "sha256": "1a70aa08ad88736de11102908760b2207c9fbfa92502d26efd9dfe28e3d4ee21"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_020/initial.json",
+      "size": 1720,
+      "sha256": "b25caac8e1fe08a72194c2b1ed0025b8f8734d6bdb0bd465f80ccd96e7ce97d8"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_020/steps.jsonl",
+      "size": 111154,
+      "sha256": "14339328b8d51cad7751f6c5d298e4c7e0ad312ac761e588f46bff06dd0b9821"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_020/trajectory.npz",
+      "size": 152769,
+      "sha256": "68f5e2dc163aead30bf42ffee02d5dc5dcaededdc9e8269d7fdb31b72a2b79c0"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_021/episode.json",
+      "size": 480,
+      "sha256": "c3d379a08b79ca431d7faaf54519e7734487429372da3672070cfda522fb65da"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_021/initial.json",
+      "size": 1722,
+      "sha256": "170f65dd99357ad6f71c88c4a7597c61050588e904203c924b01cd1bc43656ea"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_021/steps.jsonl",
+      "size": 110403,
+      "sha256": "da08d1e39712eb75224d527bf42af8dcfe421329adf38bd83ae99b4b01736286"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_021/trajectory.npz",
+      "size": 153832,
+      "sha256": "dc72b046cecd89aab4279b413716eb81d8460209ccbb4aceaa5bcbf26798c3b4"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_022/episode.json",
+      "size": 481,
+      "sha256": "d084b3f23d5454798e31802338efcac45678e045c15b82cf42cf5bb573e12341"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_022/initial.json",
+      "size": 1718,
+      "sha256": "49a14a59ec7b1c30c718191d7f48db1f08850af2bbea49521c549797149e72c5"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_022/steps.jsonl",
+      "size": 116913,
+      "sha256": "00c35f7b3ea13e8dec6c0158820bb158c6dcaf20cc87791472f98d60405bd35e"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_022/trajectory.npz",
+      "size": 154352,
+      "sha256": "b594ad6ca968ad42534e0bdb91c65ff611d1b2315972b14d4b7756b420a4e155"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_023/episode.json",
+      "size": 481,
+      "sha256": "5a684eae299f4eddb4f071d227cbf461bebf2880e46e51e6cbbf00d0f798ca46"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_023/initial.json",
+      "size": 1726,
+      "sha256": "cd473eab299e03d6a6d24d6b7d49362174ab726bac705c3aa949f71bde48630e"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_023/steps.jsonl",
+      "size": 107721,
+      "sha256": "52c79c48a89ae09615de15b6f28e516d80b05959e02aa23a5a10f16df41e8884"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_023/trajectory.npz",
+      "size": 155264,
+      "sha256": "8c5482303764062d9a7f37e03228df2e50f57b7691cd573ef49bd3d9bc22b3a2"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_024/episode.json",
+      "size": 480,
+      "sha256": "8e9382924e1a83791bd147888d8ca375e514fdb3e220599690429b723cca84d1"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_024/initial.json",
+      "size": 1728,
+      "sha256": "bc556081318348d7686a12bb5eabd1abab3bd7758520f696199bfc9b08eb6d6f"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_024/steps.jsonl",
+      "size": 106546,
+      "sha256": "bc7faa316e0baba1ee420676f06432e15aa0e36758f5894c6040e23da0a4744e"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_024/trajectory.npz",
+      "size": 152765,
+      "sha256": "462dcde2c69cbce1d13d5c3498aa88e98d035edf2d8a84a5a20b9bd3bdceb6ff"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_025/episode.json",
+      "size": 480,
+      "sha256": "12039d9eacb20ee28daedb9b18ed74fa4766b7272668948e4238db0a74bff0d1"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_025/initial.json",
+      "size": 1722,
+      "sha256": "e01d34b47675f9e88f119440a4b7ce37adb828df4daee7185980f4b283828db9"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_025/steps.jsonl",
+      "size": 106776,
+      "sha256": "3d858c16da18ed604a03499da23a2cb0e742bc7dc7468702086dc85275255bfb"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_025/trajectory.npz",
+      "size": 153172,
+      "sha256": "01e88e33350959bc62f0f069d05c193e869f88c1323c04db18d696aa1089550d"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_026/episode.json",
+      "size": 481,
+      "sha256": "1472088302acb00f3b03fd844d57651e90af35b104fb705c7e9c9ecf6b40fca3"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_026/initial.json",
+      "size": 1728,
+      "sha256": "67f6cee54221101b71478f62b0be9dd65e704c258586001434cef96036fe3199"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_026/steps.jsonl",
+      "size": 107602,
+      "sha256": "113299494bb554e0a79bf717bf5229fd826f14c5a03749f9b4d7dc41f6838401"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_026/trajectory.npz",
+      "size": 155569,
+      "sha256": "8e008d92466a6faa5668132cc937bf372365dea5d343cd8bda01521a865351f4"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_027/episode.json",
+      "size": 480,
+      "sha256": "963e37d50f42f2509ba4c54b8de3b33832882b196cc37a5b878fc567af7eb3c0"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_027/initial.json",
+      "size": 1722,
+      "sha256": "f1c747453a615f7c1627a0d25f0987336eef712fc7c79d0d91e77c619706a99b"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_027/steps.jsonl",
+      "size": 108121,
+      "sha256": "a245cb6e0c6fe7912cd5bf44242eafe0abe0ad189e872dee759a99feba1f2af9"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_027/trajectory.npz",
+      "size": 150760,
+      "sha256": "7067e45e1733bd03a42ba8a363688be9fccbf971a6612af693d530d8238c7fd3"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_028/episode.json",
+      "size": 479,
+      "sha256": "af2b6fb63b56719de709c6246594bc91c78d257b152711a3a2517cf34d585024"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_028/initial.json",
+      "size": 1722,
+      "sha256": "a25bb807153f56cfc04a62d375c4216a42b6e67477d904c8a5858f93e850c915"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_028/steps.jsonl",
+      "size": 103667,
+      "sha256": "57f710c2c9a001d6c9627f21aee4ea6e505c434aa9f8079244fbea818e76302e"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_028/trajectory.npz",
+      "size": 152867,
+      "sha256": "3bfac26f8881a2568a35789d67594fe46193dfa432566b4c723d454e3abafe76"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_029/episode.json",
+      "size": 480,
+      "sha256": "7fef2caba4cc118da5278445ddc3b164c5444eec1b0daed6129175de6d1726d7"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_029/initial.json",
+      "size": 1728,
+      "sha256": "cf4ff141ee398ac0a7e1788eaa1f178edec3468e067b448a5e959678cd27b362"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_029/steps.jsonl",
+      "size": 103198,
+      "sha256": "2920389cb3b6ef213a38316dd52fca930bc6a8453a3017b2a57ca480b90b9560"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_029/trajectory.npz",
+      "size": 151442,
+      "sha256": "f1928a1d2fb6400ef05b62cc3b939bd937e85ad78d68add159454a8e651b290d"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_030/episode.json",
+      "size": 479,
+      "sha256": "bc7d04dd64edc0d2f553206073dd049cc1364dfb52b522f549b345a58caf48b2"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_030/initial.json",
+      "size": 1724,
+      "sha256": "8824ddb6abd267a9742d52bc9d08f53083279ee78fdbc047874477c08922b9c0"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_030/steps.jsonl",
+      "size": 113424,
+      "sha256": "96337fef5dac94a8f47239971c36263fbdd911948f103246f1bdef076da0faa8"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_030/trajectory.npz",
+      "size": 154418,
+      "sha256": "04abd582cdd0d69a7655ede1839b2bcafbb155a2438c66768ec6fed5aea05284"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_031/episode.json",
+      "size": 480,
+      "sha256": "a9244206dffc3589bfa8dc78612e5add76fdca9506ee3aba37c95b4b828e8fd4"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_031/initial.json",
+      "size": 1720,
+      "sha256": "00a2e5a1f6e4352c91df7c50697ced31b65a56dbbccb06474f316e0392799bbe"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_031/steps.jsonl",
+      "size": 101831,
+      "sha256": "5af1a46e0930351a76fc7345322d1da5475c11d2fee3e749b0409ef5108f8801"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_031/trajectory.npz",
+      "size": 153098,
+      "sha256": "1d81c9eec91e34dbab1801f57d62cb6ccf8cda986c468f8997b50a125ea02300"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_032/episode.json",
+      "size": 480,
+      "sha256": "c6dcb56ba5a5831b1dd7ba92709c874e0428f0b00042b03fdae8906129e727b2"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_032/initial.json",
+      "size": 1726,
+      "sha256": "2df7d5c8db0bb645b29cb0b206de9a74e3310fd4af078c150010c6ea93d4ea2e"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_032/steps.jsonl",
+      "size": 113429,
+      "sha256": "0d098ab4665c14c4ec65891c5f9dab62fc3b3d2a6c2ea2785c1129cb2cad4502"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_032/trajectory.npz",
+      "size": 153956,
+      "sha256": "2012ca6c6b4b3c1d2c608a3a5fbd681bda84ed713d361b2be065441e51888785"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_033/episode.json",
+      "size": 481,
+      "sha256": "32ffc74be3aef142a4a171ad8289a68d7c6b3b3c3e1bdd7d9c6819b31f04de21"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_033/initial.json",
+      "size": 1722,
+      "sha256": "ac3ebe2c9fc014be7829c9111dba299fc0b71c50ee604e2fd584ddc01064eb6f"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_033/steps.jsonl",
+      "size": 114427,
+      "sha256": "07f3f75265b3d2c351f45a0391cb94c47a7a0c8f7a619caea72f4020f1b06755"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_033/trajectory.npz",
+      "size": 152135,
+      "sha256": "1b5fe776604662553ee46cb76bf5366bfc86c58f9e8f3fba609c6b6d1699ed23"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_034/episode.json",
+      "size": 480,
+      "sha256": "3ab9e5a3c4f226790c9058aad114587cd25a5b6f7623f5de0e98e73372a18c7a"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_034/initial.json",
+      "size": 1726,
+      "sha256": "878e0402bd46c1b74e26fac149715ee96e3233865b57dd5c92fcdf54456650a5"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_034/steps.jsonl",
+      "size": 107901,
+      "sha256": "8963ef4fe591b222d74f53af20192b0ef42daa235158cc45d184233f7e2aeafb"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_034/trajectory.npz",
+      "size": 152321,
+      "sha256": "ef89c9b5aecbaee2f3ef68f735409110a08dd6723e6df14e033a068a06019950"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_035/episode.json",
+      "size": 479,
+      "sha256": "fdcc8d7d8c75592c86687e7c45cd956d5aa218ea846418d326fd3493656eb560"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_035/initial.json",
+      "size": 1724,
+      "sha256": "f7b966393c513bf837749ff78ba992a383d913808b46ed7486f906ede771e231"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_035/steps.jsonl",
+      "size": 110367,
+      "sha256": "f721a5d15a1dc7926ae7ec99300b86fb149d3412bd9f921696964ff938f2f4ed"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_035/trajectory.npz",
+      "size": 153155,
+      "sha256": "e021606859a13c5577d9207d0d73f8d59293ee899b63d9d13cd0c4e26e9b166a"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_036/episode.json",
+      "size": 481,
+      "sha256": "37b6053ab01e700623ee4aefa309847f03c4fba143782cb5b65a7854d2dca0bd"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_036/initial.json",
+      "size": 1718,
+      "sha256": "d218f69ddd1b5c47bdf162dbd9cdd5263b16d8b626b29231479c3aeececa7c5f"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_036/steps.jsonl",
+      "size": 108292,
+      "sha256": "b084d4b64d658f4d7d84a6df7342f71294a7473bc8a211c89a1773d387c594c9"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_036/trajectory.npz",
+      "size": 155304,
+      "sha256": "5468a23536fa21f61191e55c59fbd21dd7c1031470787aabd6c18f95d1cd55c8"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_037/episode.json",
+      "size": 480,
+      "sha256": "c91bf456e8905ef25107d64610b03c23dee39175223416650d9cd3ba8a4ec1f3"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_037/initial.json",
+      "size": 1718,
+      "sha256": "c356d096065df206a80309fe0ef272142234d1dfac5e811053dbf0dbbb2b4867"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_037/steps.jsonl",
+      "size": 108378,
+      "sha256": "52a70fedfabd2812ab0fd91c90ae0142559cc519cf09c70133aaa5759e22bd62"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_037/trajectory.npz",
+      "size": 152232,
+      "sha256": "19393e65c9cc557c8544ae1b2f8422ae8993c45734aa44c63479450413b1a373"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_038/episode.json",
+      "size": 480,
+      "sha256": "6459c5e904d3bcc988c645ec2843deb063ce257e5783b02f7e5ed29c90373338"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_038/initial.json",
+      "size": 1728,
+      "sha256": "9f78b37c69316580376e94009c143425c7a0bbf7c860d1f5f776788fdb32f21d"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_038/steps.jsonl",
+      "size": 107989,
+      "sha256": "7b7df3f76e7608c3c0cac21e0d18b15f98670d93a4b68089db9db48519a48bb6"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_038/trajectory.npz",
+      "size": 154986,
+      "sha256": "2527e610f0d2510157cb72302e6d1c146c357785db857f733b64241a5e7edb31"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_039/episode.json",
+      "size": 480,
+      "sha256": "5d21639ca6dc3f4d3da4eb9d3c8aaee8df130ac1a08afc07e35ecca567820c6a"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_039/initial.json",
+      "size": 1714,
+      "sha256": "98b84a4ce8cd436de455035c1a0128b98b0e1e26114dd368927dd5e19f50c602"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_039/steps.jsonl",
+      "size": 112270,
+      "sha256": "0be388aa72280fbb5e991d9a07c912800836f421ad287595984a2c322c58938d"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_039/trajectory.npz",
+      "size": 154838,
+      "sha256": "440c13086d73376ed7c2652d387e5647620fd0e43cdf9e9010b87d920d4db85a"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_040/episode.json",
+      "size": 480,
+      "sha256": "2d8e3ee315f37e57c49c62727b780e1f4964a145f5040946bd39f952652864ef"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_040/initial.json",
+      "size": 1722,
+      "sha256": "2856af5dd844d576124e10f4b78cc9af9562706038531d84c8298f65d1dbe94f"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_040/steps.jsonl",
+      "size": 103512,
+      "sha256": "5f803cb54cb4bbc8a97046ef9b420311053b138d3aee5171242d443fc26fc8ed"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_040/trajectory.npz",
+      "size": 153578,
+      "sha256": "01589df293d0f66aeaa55fe7edc2300a92dad78aac8b6b5dba79821e275c6ad1"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_041/episode.json",
+      "size": 480,
+      "sha256": "f887e5f39604755d6f9f0ebe6df8126faac4c1dc35f36d5e17d66affeab90348"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_041/initial.json",
+      "size": 1726,
+      "sha256": "78b79c5706a2cd8091e0ff30a4ad436e79b8b02a0be5ba757e442b48142a868f"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_041/steps.jsonl",
+      "size": 111841,
+      "sha256": "997ecb13fda2f5a07425280ecf808ed5ef8d1b4464eb7c0c1f7eca67c8b4fddf"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_041/trajectory.npz",
+      "size": 155004,
+      "sha256": "29ed87c0d1529931c728e1f6b5416aec978bdab873109d81504268c675fff265"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_042/episode.json",
+      "size": 480,
+      "sha256": "09b37d2b5b13df28fb7a741b486175ec26c167616b81c8e60d7f87c455084683"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_042/initial.json",
+      "size": 1722,
+      "sha256": "e035b9b9fcb3c156281ed6175bb44ab09c0105bd10b061e6152fe6557418e8df"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_042/steps.jsonl",
+      "size": 104729,
+      "sha256": "d5e1b6c44f91e53b99126093d5a5bc64512dc96d88635a56b7128932de371203"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_042/trajectory.npz",
+      "size": 151014,
+      "sha256": "1aef4703302c8bee510c5d91e3e449c663a616054aacdabf7c00f092dddb00b4"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_043/episode.json",
+      "size": 480,
+      "sha256": "157cc82a8b60a97758c6dedbac17851bdb171900a97de74c30c9de521f55bfa8"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_043/initial.json",
+      "size": 1726,
+      "sha256": "125fe1491f1da74f609ed00faad634ed0241f70bdefaa0d4244daa0b2238715c"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_043/steps.jsonl",
+      "size": 103243,
+      "sha256": "bb3cf383919aadec32835256ce9b83a16bc93fe788c83c2002520c52804852e6"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_043/trajectory.npz",
+      "size": 150562,
+      "sha256": "d23a43594ca06c1a4231935dcc1c04b27ce3522deb1a42340954c9c948cd1c29"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_044/episode.json",
+      "size": 480,
+      "sha256": "1ab62ec9395731bfcc06b6d48eb9bd6b1055d75a3ebc01a01d17be81b04d7328"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_044/initial.json",
+      "size": 1720,
+      "sha256": "b777b71006ddc0b9978c03e47559c2637c8c97b4f12afad844c4f05df4d06c57"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_044/steps.jsonl",
+      "size": 112155,
+      "sha256": "3f28662e05b406638bfca667bae7e17bf3ce667ff045de9c2dde24cc9b7fefd6"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_044/trajectory.npz",
+      "size": 153334,
+      "sha256": "6ab8aefda8956b0610d15c7a47e718ac5929df3812b78540dcea96b276fa38c6"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_045/episode.json",
+      "size": 480,
+      "sha256": "e176fed7b7092f4cb42d3f6c5c27bcc8298fe2eb71ca118dd3bc37d7a9465056"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_045/initial.json",
+      "size": 1724,
+      "sha256": "6e0555c0109395b860106606f793af9f51f38d7621eb6ea93dabf8e59adcfca6"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_045/steps.jsonl",
+      "size": 110980,
+      "sha256": "074829608ce0e03e526fca1e08ff2d1cb0423a90fcc976f82e3337df9622f355"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_045/trajectory.npz",
+      "size": 154471,
+      "sha256": "36f18570584e25eee7c31f6aa8a90be260e8d0c7eed3bc40ca51315124d6ffa2"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_046/episode.json",
+      "size": 480,
+      "sha256": "e9b0cc88cd10b5a4fea0a1ef5e691529e04adad3ae05d3aa74b841da73b0c5ba"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_046/initial.json",
+      "size": 1712,
+      "sha256": "192b3a7f9cc3231bae00a79cecad1f20eef58db421ab12fd6e809d29c3bd8a66"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_046/steps.jsonl",
+      "size": 114590,
+      "sha256": "7b74cd33352b3a1d979739f911f8b697077e93620e3140dc05775447dfb7ff6b"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_046/trajectory.npz",
+      "size": 155642,
+      "sha256": "434150df9a8ccf5292091c909a8d0da130acf35a8d4e24ed72fc87bd10c91e9a"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_047/episode.json",
+      "size": 480,
+      "sha256": "6988033f86a1185d5b3e8ec9a670a2bcebbfccb996d97d17e0b29def59f19dd7"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_047/initial.json",
+      "size": 1720,
+      "sha256": "89eef547b1f8cfbdc175fec298688655b9908cdd448aa5f3aa6749be6dd2b8e7"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_047/steps.jsonl",
+      "size": 107313,
+      "sha256": "64b67fad63236a153afc917d0f7078e45934851cdf7133a981109aef41210588"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_047/trajectory.npz",
+      "size": 152733,
+      "sha256": "f7a5cd8dead499a03dcab6a3f77bb32414b0eb71ffd92cc79c951d9cc08fc858"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_048/episode.json",
+      "size": 480,
+      "sha256": "e98b45dbb497db49113a9f79f0bc67ec78db43bfe8bb99e3e9395124efe2579b"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_048/initial.json",
+      "size": 1722,
+      "sha256": "da52ec17fbc01228c40f21a0bd8b22d9d5f3ced63545ef185d3f9b82ea9f87c7"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_048/steps.jsonl",
+      "size": 112627,
+      "sha256": "92f61db78276cf60d899f11d9c2cedc417da26f76b6abfdee865c5f6565b81ee"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_048/trajectory.npz",
+      "size": 154885,
+      "sha256": "f8768a3daa970e52975e989fb602489109c8aee19fb4592d3634a48856b6eb5c"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_049/episode.json",
+      "size": 480,
+      "sha256": "a467c05e772d5c86a0d0e8670be54b6cd8a1e18f11b621d35c61f362ce18934b"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_049/initial.json",
+      "size": 1724,
+      "sha256": "bf41620fc809b272f3ab9a51be97beef3a13b3a5d797d9e12a1ab664e68984d4"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_049/steps.jsonl",
+      "size": 111583,
+      "sha256": "893dc3e26a486b9c869dba44f053f8fae48fc736ebf515e93b18ce66f0c0308f"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_049/trajectory.npz",
+      "size": 152794,
+      "sha256": "afc29808b9d19028544fef214e83e2877a9ee035078f4624f4c59b2e4cb3080d"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_050/episode.json",
+      "size": 480,
+      "sha256": "ea6c9923cd2ea5b026a85bfd2e6805efa88e7332a1c41ed6cd0348bfb48182c1"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_050/initial.json",
+      "size": 1728,
+      "sha256": "6831b33f8694e52437630885db194279ccbd13c274d52873307404f772b04600"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_050/steps.jsonl",
+      "size": 111938,
+      "sha256": "b882cd2bce1bbf8d92f0a1b584831435883403eee7c521c99df5eb39bb20f4ad"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_050/trajectory.npz",
+      "size": 153637,
+      "sha256": "cf74b9e1702e86af2ff9b314706c53d15da633f82ed01c266eef0564513d32c8"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_051/episode.json",
+      "size": 480,
+      "sha256": "240482c3d007832083cadc0096ce88eacfdcdee54cf9476e48236846089c7023"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_051/initial.json",
+      "size": 1724,
+      "sha256": "d184e4aed70095b6bd8ac5eff12281b436c7e32a5f64c08fcdac4331eb50fb62"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_051/steps.jsonl",
+      "size": 109184,
+      "sha256": "2bce2155783408b1ebf582f3e5f894eac5a58178d514db2968678e637222a3ec"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_051/trajectory.npz",
+      "size": 153122,
+      "sha256": "ec8c2bd7f8fa2d33840b9b2f61d6db60138d1e7238dafff3f76dc083faa9c802"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_052/episode.json",
+      "size": 480,
+      "sha256": "e7faf054a38a0ae01d6d4aea27cad9e88bacb9e903cf3e09179d72fcf4bdb6a1"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_052/initial.json",
+      "size": 1730,
+      "sha256": "deb0e2ad96d3b71b7097bdb2e6d90b2ecbbd1a3ecfc0d0d1cbed11c437bf5c27"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_052/steps.jsonl",
+      "size": 107774,
+      "sha256": "19b6601b49f3244691cd3f91633c5a0daef09ace315c8e64b75e8e81a834d9f1"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_052/trajectory.npz",
+      "size": 150905,
+      "sha256": "41907c2b74545a6f7706b28bd648eb9c2844a0df4f2804cc4b04afb7614178ef"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_053/episode.json",
+      "size": 481,
+      "sha256": "9ef476193f527a87dac2b7551eec60ff7169ea23e07d834bce47d071e0a55b87"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_053/initial.json",
+      "size": 1726,
+      "sha256": "ad336d5f9ccfe33196138450c1a8f0aa8d63b0be5e6130e0d42eaf24522318cc"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_053/steps.jsonl",
+      "size": 107615,
+      "sha256": "4a433490f18a16ee669fda22411a213a0fd4c614cbc96325367f80fbe48fc3d1"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_053/trajectory.npz",
+      "size": 153781,
+      "sha256": "17f381f138749256986687fe4551c01caa2fb5e3ff6071654c0e2a852461ee01"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_054/episode.json",
+      "size": 480,
+      "sha256": "ea4187d93ad850153c6620d12694d2ce0ac68b3fb738be287fce8a76695c3743"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_054/initial.json",
+      "size": 1726,
+      "sha256": "95e7588366b4fa834ce3076d5c4c8c4dd091a4edf41587c83758f177aa2fe0d1"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_054/steps.jsonl",
+      "size": 108194,
+      "sha256": "0be0e0fe71023451c27c369533e1c0af5edd6d78359647a8b732fa8e492b4293"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_054/trajectory.npz",
+      "size": 152387,
+      "sha256": "563a245a7f8ab9432f07492c908f352894543c692c7a24677407b7adbeba58e4"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_055/episode.json",
+      "size": 480,
+      "sha256": "afb5284f888b5036aab4d54642c4488edee8cd97d890d7da743f7c8e757538df"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_055/initial.json",
+      "size": 1718,
+      "sha256": "c888b876ca3c753bcb756626787d30572a6e4193960d04594feb0f1be66da174"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_055/steps.jsonl",
+      "size": 112060,
+      "sha256": "713473b4251906272aa2b14b6b256dc254d8c3c65f31cb57536ebd207d85e6b5"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_055/trajectory.npz",
+      "size": 153617,
+      "sha256": "74845e597534dc5f134b37814446d5cf9f82ba6c4b693dcc9ec2350963af9c84"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_056/episode.json",
+      "size": 481,
+      "sha256": "e5c5a85d2c812a02ec4c55f85224ec225a1bd43c2b96e4302fa44087a04874d8"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_056/initial.json",
+      "size": 1722,
+      "sha256": "4f357aef1aff3b78f2f17ce66fe95094ce9913855797585b490ff2616c7c9ce5"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_056/steps.jsonl",
+      "size": 107978,
+      "sha256": "ddd1a82712f043e7c42f35cd113cee9396c3e22ea703a20f01cd27dd598248ac"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_056/trajectory.npz",
+      "size": 153163,
+      "sha256": "c5b2d45d6148df118952e27a389adf9e02da868f9d12f62458dafe4f67cf4419"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_057/episode.json",
+      "size": 480,
+      "sha256": "f8dec9459f5cd1c0a865041b457dde976fbd095cf69e96a0c5e675badeab367d"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_057/initial.json",
+      "size": 1726,
+      "sha256": "1eabc8e511439ac0ec5d005321cb8d45b9b859a7d225fe5265005c6022ddf96f"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_057/steps.jsonl",
+      "size": 101483,
+      "sha256": "48975e5493c0291341ea571408a08e97244630f9aa56b3ba8ca99bb412ca80b3"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_057/trajectory.npz",
+      "size": 151385,
+      "sha256": "64700fd17309819ba0176b9f1e16b0a25bad7b3db0ec36c2c7fc2c01e835e8be"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_058/episode.json",
+      "size": 480,
+      "sha256": "e20ae71d452b28f5d0e0e1f59c391b4932eb1bd7e0e0fe9e6776e8f642aca004"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_058/initial.json",
+      "size": 1720,
+      "sha256": "4bc3009a225950545ec145ca9e3c4777d5af13f507bb04d2ea1ccfa706f19db4"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_058/steps.jsonl",
+      "size": 105295,
+      "sha256": "ba396145a92dc45da55d4482b2ad87e07f8f591d4f567b2e84e1649c0a6d194f"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_058/trajectory.npz",
+      "size": 151371,
+      "sha256": "0dd1acc055d3d464fc4e1715c44438048449cc68493747da0617267b2f8f94d3"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_059/episode.json",
+      "size": 480,
+      "sha256": "f0159c72e633f06f78174c4db36592d22481ba9efad7c61fd6e3d2ca433fb04e"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_059/initial.json",
+      "size": 1724,
+      "sha256": "f70980fbabd993ce8cf443752f9e601eb8831e22f72f7447236de1773ecd6a6f"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_059/steps.jsonl",
+      "size": 112715,
+      "sha256": "8ab7f6881e9c5ab308fb363dd06bf7aa7b954145ffc38e904721a8ae875a832c"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_059/trajectory.npz",
+      "size": 155153,
+      "sha256": "32aaf8ae02efa6fb5552d31dceb14467e3d477646f1546708235a2fbe3cedfa4"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_060/episode.json",
+      "size": 479,
+      "sha256": "c2112eeabbcb3f0f090d48c7037e9e9fd73868fc2aa7c4d990dc9b07b1fcbe45"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_060/initial.json",
+      "size": 1718,
+      "sha256": "4312eb2d7e6afb612b3417ccdf6f0065629df4018fc835f44f2a2fe5485a1c6e"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_060/steps.jsonl",
+      "size": 109093,
+      "sha256": "50e83f3fffac598dc39cde7eb2282de69054b3d3218392bdce6f7a20bccd46b2"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_060/trajectory.npz",
+      "size": 153868,
+      "sha256": "dc9defb36b806acfa7563b2c99ad1a7b8d4604bda30555f050cf466a06f565f3"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_061/episode.json",
+      "size": 480,
+      "sha256": "4b65cf6b7a8a7df896691af0411b9539b6ffefaade07b72c097e6b48fef1e5cf"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_061/initial.json",
+      "size": 1730,
+      "sha256": "2f4e949ead3fce1c24bf28dc52bf79b89c00f398ce8006ac2712bec524e9d335"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_061/steps.jsonl",
+      "size": 111669,
+      "sha256": "c6ecd752d00772136b326617609937052b2a5950212c9df6a18f09a955bb12cc"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_061/trajectory.npz",
+      "size": 153157,
+      "sha256": "9a8af4e8a65d1b6db92183210a411afab5a2978cf2d9e7b3c36db7f60f6aaed2"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_062/episode.json",
+      "size": 482,
+      "sha256": "56c812e526c455b3367163bb54e77034a8f0e2edbce35822c2fd9d1dfb1f009c"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_062/initial.json",
+      "size": 1732,
+      "sha256": "9dec87c370937f6458483b0a472398bc483b1d1071a78c2ab0e6bcc6e91e7789"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_062/steps.jsonl",
+      "size": 107674,
+      "sha256": "61b9774cd7e23113b329ea8e07e6b485d3f042879be4cebe28f27f58cca669c1"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_062/trajectory.npz",
+      "size": 155186,
+      "sha256": "fee634f8392a93341038b0312c1c1868b6bf494f3a5b4dc6cfe22283a63c7c34"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_063/episode.json",
+      "size": 480,
+      "sha256": "a0a1adb400255a5d9120ea211104686a659c354c41b5410266813b677b0de4c1"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_063/initial.json",
+      "size": 1724,
+      "sha256": "a88f15f9e5f01b94dd616b01bc5682791445ceb45e6e44fffd8d17df6d2b61b8"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_063/steps.jsonl",
+      "size": 108133,
+      "sha256": "40280eb7594d1380a1cc9c5299b7cc8afae60a33fb512573ae9d4da4cb63466b"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_063/trajectory.npz",
+      "size": 152585,
+      "sha256": "5549952d281ee8c965303de9e4da59829ffb6ca61241edf40d8c5c424a78291a"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_064/episode.json",
+      "size": 480,
+      "sha256": "ad8f0f15b883d95b88a3bebbe18839f47902a4e8def8f45551df247b30c0ac71"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_064/initial.json",
+      "size": 1722,
+      "sha256": "88fc126142f0f07afb0e1f6da8df0048b4667fa57cc1a841f6406c398811b238"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_064/steps.jsonl",
+      "size": 107722,
+      "sha256": "b4332f5d6c74a7089664b9e557c0aec7810b1afbca3a78fa32ab7f31d8cd58d9"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_064/trajectory.npz",
+      "size": 152478,
+      "sha256": "1ece2c2f744091a37ac8cdbf6795482baaf0749c1bcc7a3fa0d8ab38678de4b1"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_065/episode.json",
+      "size": 479,
+      "sha256": "c20123a9436160c2fe452a592c4018c01a20510e8b5fe50ef00e584f26e94aae"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_065/initial.json",
+      "size": 1720,
+      "sha256": "406b208a5837a697ccdab9076071d40217b7e41c5f50cfd983a02512143d9324"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_065/steps.jsonl",
+      "size": 107581,
+      "sha256": "14c3bd8a26c3d857894d26c4778ea73afea45021ced9b9be8908ce7ac287917e"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_065/trajectory.npz",
+      "size": 152821,
+      "sha256": "562396e28395901d58cd0a58b1bb74063212ed5e90f8f47d83ca3841b2bd0f41"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_066/episode.json",
+      "size": 480,
+      "sha256": "b5b41e51a3741b0e35cd968a271e78fd3ed162b082ba7082bb086b72c86c8c46"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_066/initial.json",
+      "size": 1724,
+      "sha256": "03d2d27c37b9c7c241ab326b202c385e8cc9f28352229a63a43c2e39cb7628cd"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_066/steps.jsonl",
+      "size": 114640,
+      "sha256": "f04b4f9d17145fc415ea9b3a2b67145c83f996e522c13115e77b310c0016d045"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_066/trajectory.npz",
+      "size": 153283,
+      "sha256": "96e376c2393e3df4aed731d693133c8553c9ec3c4fc592d9d8f2b0705bca5469"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_067/episode.json",
+      "size": 481,
+      "sha256": "221cb157df7cccdaf20c85153a0abb1afd9f0853411ef1de5165af9eb362439c"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_067/initial.json",
+      "size": 1726,
+      "sha256": "0858def92dd4019b3fe95897e7102b41a7a46f72fa39c4cdea491955fb0d458e"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_067/steps.jsonl",
+      "size": 104733,
+      "sha256": "0766207750663975f8f8e9410e36b921b8c026af002b5415c84b20b9a5871ba2"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_067/trajectory.npz",
+      "size": 153892,
+      "sha256": "8e72f6965d14dfecf26752f970365c77e5062e59e473c32069c47d4ea4124cf2"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_068/episode.json",
+      "size": 480,
+      "sha256": "031c43d6be55c02798bd14a8481aa826a99654989260485310d3eccbbad7b90f"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_068/initial.json",
+      "size": 1714,
+      "sha256": "3ca1f876aa4bbc2c9ff5f76a96036e81713f72f5df74e1ea4bd6ef2710e2da45"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_068/steps.jsonl",
+      "size": 102728,
+      "sha256": "7d4983480091f2fe7511bad773c107d4bb2ade38b34981a814a846e9e6be3a15"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_068/trajectory.npz",
+      "size": 151306,
+      "sha256": "3c69ff80cd92faafd4b54a3c077a6e922c641671cfd8774b39a51c0ba144b4fc"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_069/episode.json",
+      "size": 480,
+      "sha256": "07b79ddc228722fcd29031b1df3459701fb9a3885ec2b84f9826d2b80b06893a"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_069/initial.json",
+      "size": 1726,
+      "sha256": "7a831dc93080246d56ca258fbafc7564dcd220af4e5407dc6e1dbccef2f9c324"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_069/steps.jsonl",
+      "size": 109599,
+      "sha256": "5c9f64cc2619d559f12f43b9c7c588bc5c002a70989b706768a5e24f4577c6e4"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_069/trajectory.npz",
+      "size": 152545,
+      "sha256": "3ac726c41d4b0afe998abe13b1c05de19a199924b484ac769c0d884059719e87"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_070/episode.json",
+      "size": 477,
+      "sha256": "d64c5c1024b6645719095472bd0e534250aad3400acf5322778fc54c4a383ced"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_070/initial.json",
+      "size": 1728,
+      "sha256": "4b28046e1406aba34671cb727a1445c531ef9c5b5b5f1eb1477bb97736103bc2"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_070/steps.jsonl",
+      "size": 109709,
+      "sha256": "11ef9775b93bd4c598d80807bd879cae92c287d171a6703b51bf7d836b087a64"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_070/trajectory.npz",
+      "size": 154213,
+      "sha256": "6ce614c31edeca47e50dd6246a87a3c3d904227990b2f114a8c3703825df46bd"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_071/episode.json",
+      "size": 480,
+      "sha256": "04f8f3f9da4a963b2e0bac54a068da82393aaed952fae7c07e8a0e8347bebb9e"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_071/initial.json",
+      "size": 1722,
+      "sha256": "44f318d58cf12984d7d4ab3fa4b267de21ebc460e43261cd173c6d58f72593d1"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_071/steps.jsonl",
+      "size": 108306,
+      "sha256": "e39ef682aff34beb38063091358ccf6b5427b01b9d9ac8fee9d173cd72d8d925"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_071/trajectory.npz",
+      "size": 152376,
+      "sha256": "321bf9c87be025e60ea6c3ef96ee82a45060141051d2fdc2506967b82a4a3c3c"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_072/episode.json",
+      "size": 481,
+      "sha256": "151172927cf93f1b24a9949b92e65e5333e83d7f28d34a1bd369ce54f6b228e0"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_072/initial.json",
+      "size": 1732,
+      "sha256": "2e837a71d2d153c5273b34955c3dd4034e460000e5e618f10eb2fd771fc5e711"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_072/steps.jsonl",
+      "size": 107676,
+      "sha256": "55f677a9d02d82decd3a8aaa4d782bd6df3882f359e48cb99906c05e090230be"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_072/trajectory.npz",
+      "size": 155289,
+      "sha256": "9862e00853c4b9bb195c4df4f42ae332231f3d364cf76e0a3f86960cca247606"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_073/episode.json",
+      "size": 480,
+      "sha256": "0d57eacad4ad7163662001d245e61f34191d5be57d65750577580f3b83a8ffd2"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_073/initial.json",
+      "size": 1716,
+      "sha256": "2bd2215559ae8b241890dd205c51a87dbefc98fa8d2a5bfa0a63af0e9aab554c"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_073/steps.jsonl",
+      "size": 105838,
+      "sha256": "ce10c7d043a6cd6aa9a78afc17fdeba1f23a4a1df4070679d3b4fa1e15d6a6d5"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_073/trajectory.npz",
+      "size": 152219,
+      "sha256": "e5da43971f80bbe1a0d7bd8db441835727c7deb46a620ad770e698aa0d707e1b"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_074/episode.json",
+      "size": 479,
+      "sha256": "f92549a94438be6fa4552d13319fc30dbfa8cc168484385876d9437031eea7df"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_074/initial.json",
+      "size": 1728,
+      "sha256": "88c9a673c555680d9bd7a3cfc6beb7c220334808f979d6bb67c3b3671067a6d2"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_074/steps.jsonl",
+      "size": 109805,
+      "sha256": "be3cb11c00af5a1bd49619c5032de5c55c5246f90e4abd60cb23d473025c6db0"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_074/trajectory.npz",
+      "size": 153766,
+      "sha256": "04f65b026ff8a7bb11e7922ee09a23639e9a243c86c3b7ea19566f0887602b80"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_075/episode.json",
+      "size": 480,
+      "sha256": "a9c6451ff1dd0ca48e25d0659d901c0ab212eafd7f7004f8a7e30f73daae2f91"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_075/initial.json",
+      "size": 1724,
+      "sha256": "c0024e48b7a44c64fa53241b9b3b8e9a8b70969fceb0c7bc91bfdfb77b14531f"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_075/steps.jsonl",
+      "size": 110624,
+      "sha256": "d39f1cb4e942cc6de0dfccd52f47385c2628f229f4c2fab4cbe7b374be298eab"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_075/trajectory.npz",
+      "size": 153756,
+      "sha256": "194e43f189b7e57e1f0ba0a0673dcb44edcc3231abbc4b9647872f1f5683b5d0"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_076/episode.json",
+      "size": 480,
+      "sha256": "bbe342c304ce20503a6bd31b569fcac589b910d80f4c165c5b434eb8d70b9766"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_076/initial.json",
+      "size": 1720,
+      "sha256": "e2f6dd02a5b4f43b3435cb0a896311729dac36974cd3c3d2db55a45f031b043b"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_076/steps.jsonl",
+      "size": 107722,
+      "sha256": "eba418d530ff2e3fdf1ec20b5e32c60ee1ed019773c5fd6fff0b4462be961e63"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_076/trajectory.npz",
+      "size": 152880,
+      "sha256": "e7898f5f5390d256344e720d7aa207d1b51f28ff333aaedc369df2ccb2ca0a0c"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_077/episode.json",
+      "size": 479,
+      "sha256": "c6bb5c8e8531c41426ae8883f9924aac7e4de6275405957dbbe5ce17332044b1"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_077/initial.json",
+      "size": 1724,
+      "sha256": "4960698d89828d2029eead97fca56bc07566f4840060fab1d80b205347fb1fbd"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_077/steps.jsonl",
+      "size": 106943,
+      "sha256": "4f3f4ae2f426fe41ad5d49c7c62a4b24539c7811a7c58707257dd714b23046ee"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_077/trajectory.npz",
+      "size": 151550,
+      "sha256": "5519932a1d50b89e13a73aa8150402676c639c22d4243a2d465c2169e322a1d8"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_078/episode.json",
+      "size": 479,
+      "sha256": "c2dbebd2b390064c894c769cb0ac6d3cb1f461cf77155e66745f2d8ba510fcb3"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_078/initial.json",
+      "size": 1724,
+      "sha256": "a7cd1315a781345ddf110b47e11b483de6bd7489609f3e62b96467a93da22482"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_078/steps.jsonl",
+      "size": 107897,
+      "sha256": "89cbd9366ed195b3556a261d11a502836428c7296bfe768c284638122b7f1534"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_078/trajectory.npz",
+      "size": 152745,
+      "sha256": "f86f4ce5784ad7062f1fd007e233ed6d54da8c97eacfee8eaba857a5f47f3cb2"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_079/episode.json",
+      "size": 481,
+      "sha256": "04a7eb7fd0a3ebcf8bc30ec8bdbcfd1b456b37dec8f12d3c8217e68658659777"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_079/initial.json",
+      "size": 1726,
+      "sha256": "15ee5ae9d718d05638aa1e5376bccb8c89aa7be3c7d60a97513aa22842f6000f"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_079/steps.jsonl",
+      "size": 107505,
+      "sha256": "8877da4f921d62c7a54a781ac7a3406c7b8c7407c085dc8a1a09776b0776e31b"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episode_079/trajectory.npz",
+      "size": 154910,
+      "sha256": "59a1be8d63a7f92f904f214e026e322ed1b135434e24b792ba78822a06105781"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/episodes.json",
+      "size": 40714,
+      "sha256": "0e70a7b5b42f1cd69397f29429bac3e0a4160fb2d1d7e969635f2329b406ea55"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/collection/training.npz",
+      "size": 2887146,
+      "sha256": "d703d24e711223e076eb67a704b6fe3b76033e7ad5e704b26a1143a87fed1f74"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/witness/checkpoint.pt",
+      "size": 71164758,
+      "sha256": "f565df88bc500aa927274eb26c3998367406908646f2e8d2984e2f8f76c303f8"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/witness/complete.json",
+      "size": 3967,
+      "sha256": "84e0724ac0806c45c1c713f099d119d54900ba4d28ff037720afa17c7f7a4ebd"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/witness/mpc_prefix/episode.json",
+      "size": 474,
+      "sha256": "8580809405aa514fd422eedd6cb8bcf587b9e9aa6e124a6392efdf730a090f2a"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/witness/mpc_prefix/initial.json",
+      "size": 1721,
+      "sha256": "78a7c61e6caf1de8d630bb7431b4f15e7ab2f97e72ed0996659de5985dad845f"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/witness/mpc_prefix/rollout.mp4",
+      "size": 30157,
+      "sha256": "a8747a73f444e2f0d93d415aad145d0fb3f8310765be808d67c3693d73285d56"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/witness/mpc_prefix/steps.jsonl",
+      "size": 2051,
+      "sha256": "aaf10931d60c1861f3070bf2a57a6674b2e54ae1091e5f8c4960b52f7e7dcd5f"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/witness/mpc_prefix/trajectory.npz",
+      "size": 4119,
+      "sha256": "69e769577c007ddcebebf7444de0f1c7e497c02e4e49f516529de59e23c1f604"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/witness/policy_prefix/episode.json",
+      "size": 478,
+      "sha256": "4625c75dfbde34f983007ee1ac7602fa0349bb1e0e8ef8fb6fe8fe374a8507a2"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/witness/policy_prefix/initial.json",
+      "size": 1721,
+      "sha256": "78a7c61e6caf1de8d630bb7431b4f15e7ab2f97e72ed0996659de5985dad845f"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/witness/policy_prefix/rollout.mp4",
+      "size": 29761,
+      "sha256": "c02d64ce1e0949516c79c6d77887d86040a29bc0aabf6599b790501d4a6b64f6"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/witness/policy_prefix/steps.jsonl",
+      "size": 2043,
+      "sha256": "a3d6b1e4a6d8710b083f33a055294e9744832391e706197876eb7ef18ada73da"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/witness/policy_prefix/trajectory.npz",
+      "size": 4106,
+      "sha256": "4eb67fe5ca7767f48f1321d914023fe9050c8f506b6ddd1fb7251e41aaef92ba"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/witness/process.json",
+      "size": 103,
+      "sha256": "347bfa6061a7aad365e247582e6ebe4d1e9c599a641b52f3feb3e1e4a1d89098"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/witness/provenance.json",
+      "size": 2700,
+      "sha256": "f2a13014b07b5600814495c4c63bdc5c954f19c5eca96b551fa941ccfa019d1d"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/witness/resolved_config.yaml",
+      "size": 1800,
+      "sha256": "59344e49d715c9c35c6b2b711b25074aa7f1a98f4d7825db05d3c8a685b8c938"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/witness/source_snapshot/metaworld_exp/agent.py",
+      "size": 9536,
+      "sha256": "004450dc71ca222eab1275225cd8ad453110856976c0478e1a0cf83e1efba1fd"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/witness/source_snapshot/metaworld_exp/configs/env-spec.json",
+      "size": 1174,
+      "sha256": "67e50277a11cafd817493fdbb9fea64b06a5804927971de665abce1464ec0adc"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/witness/source_snapshot/metaworld_exp/configs/pick_place_v1.json",
+      "size": 2316,
+      "sha256": "492264fc78b9b88106f2e06d338e45ec250a9241cc8c6f16ab79b02848bf4ab0"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/witness/source_snapshot/metaworld_exp/configs/requirements-overlay.txt",
+      "size": 91,
+      "sha256": "6810aba791de19e39c9950936d3332d390e896deeff9562760fca57b7f4ca58e"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/witness/source_snapshot/metaworld_exp/env_data.py",
+      "size": 6819,
+      "sha256": "77f657a1cab11c76d117b89d3835209dd4da552df7a701c34acc801a003706cb"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/witness/source_snapshot/metaworld_exp/finalize.sh",
+      "size": 283,
+      "sha256": "cf7c11b01d8a60851a311e5cbca676e99554f24c277c4a5c20fdbecb901a8721"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/witness/source_snapshot/metaworld_exp/probe.py",
+      "size": 2380,
+      "sha256": "f9a251544d2e7184c756296451e021762afba04f26cc81a9ac3d56feda90eeb1"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/witness/source_snapshot/metaworld_exp/probe_seeded.py",
+      "size": 2455,
+      "sha256": "c445d3dbf0b2bacfd19ad10d1f0e760d345dbd664f245820d8989699e51314c2"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/witness/source_snapshot/metaworld_exp/report.py",
+      "size": 3827,
+      "sha256": "d2f00e6fa3d9c29a1df065921ac16f34e123ce1128ede2caac438561ef5fbf7c"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/witness/source_snapshot/metaworld_exp/run.sh",
+      "size": 376,
+      "sha256": "4d3ffea731eaefa67fdf1c5edee5fa3d22c35f0db80e7e2201a578ae6d3d6866"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/witness/source_snapshot/metaworld_exp/runtime.sh",
+      "size": 756,
+      "sha256": "66f67c16871bc42f26c72f7c36860cbdbb1fe274276b1616bc1db5810af2aa68"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/witness/source_snapshot/metaworld_exp/setup.sh",
+      "size": 1314,
+      "sha256": "4adb827d4822a92d1d91966c83548632440df94b20b670cee477396ec08749bb"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/witness/source_snapshot/metaworld_exp/train.py",
+      "size": 11707,
+      "sha256": "677fe367a8f68f95d8e574b546724de2a3e320a8adb15e49435047eca1006095"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/witness/source_snapshot/vendor_tdmpc2/common/__init__.py",
+      "size": 2897,
+      "sha256": "4ed604bf3584898e1d31561167ce74f2a7a7c652de067117c35ba61c11dddc28"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/witness/source_snapshot/vendor_tdmpc2/common/buffer.py",
+      "size": 3313,
+      "sha256": "c353935822318254e1873da911e2d07d54d6ecde8070f412876847dc7d4ba1d3"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/witness/source_snapshot/vendor_tdmpc2/common/init.py",
+      "size": 601,
+      "sha256": "7e56d8e80e8ba0fc9eb9e83f63eb9ca16d72418d2a477925589b7f7c60147eaf"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/witness/source_snapshot/vendor_tdmpc2/common/layers.py",
+      "size": 5570,
+      "sha256": "3d60f331ff647822a4f8d885d74688c57c414d3f068bdba7460ec98787eae157"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/witness/source_snapshot/vendor_tdmpc2/common/logger.py",
+      "size": 6341,
+      "sha256": "00f923960c99074cff66ecdfcf1530364f683363ec547162c97575dfa99f9c63"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/witness/source_snapshot/vendor_tdmpc2/common/math.py",
+      "size": 2571,
+      "sha256": "a6409dfc278e0f0d12575496ddcad55e18b6cc52740edca1fc432ed83464443c"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/witness/source_snapshot/vendor_tdmpc2/common/parser.py",
+      "size": 2162,
+      "sha256": "c4ac4147c8e78ad84f0a900c50ae98deecb66cba0d1d367dfb9512d58bb12be9"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/witness/source_snapshot/vendor_tdmpc2/common/scale.py",
+      "size": 1525,
+      "sha256": "fc22acca0adb3000ea3e2535ed631948b71e924562837d10a4e704b5a1067145"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/witness/source_snapshot/vendor_tdmpc2/common/seed.py",
+      "size": 218,
+      "sha256": "d831ef79e16614d9c0113f79c84d1c0e47394b23d9cedeb527b2e47e21bd029d"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/witness/source_snapshot/vendor_tdmpc2/common/world_model.py",
+      "size": 6992,
+      "sha256": "94074874adb6b842512c7ff7c6fa0f279bcb49d3f8c2241f9aa861d401ce148e"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/witness/source_snapshot/vendor_tdmpc2/tdmpc2.py",
+      "size": 12682,
+      "sha256": "9e0146f11f4f877881b9cf7b66713e5a419ee505b0085c94ed6ac42a81956602"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/witness/teacher_prefix/episode.json",
+      "size": 481,
+      "sha256": "8e7d5c34ed84a388ba67b39b471689027cd4f694c57abeb9c3845f0914a351eb"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/witness/teacher_prefix/initial.json",
+      "size": 1721,
+      "sha256": "78a7c61e6caf1de8d630bb7431b4f15e7ab2f97e72ed0996659de5985dad845f"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/witness/teacher_prefix/rollout.mp4",
+      "size": 30566,
+      "sha256": "9b81b9d9eb500a0420c708063594f351fefc955f15399021051b719c477d77d9"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/witness/teacher_prefix/steps.jsonl",
+      "size": 2056,
+      "sha256": "5420be548af1d7b51ada4f1fa075be45538d343222cade107dee4eafaf78439b"
+    },
+    {
+      "path": "metaworld_exp/artifacts/pick_place_v1/witness/teacher_prefix/trajectory.npz",
+      "size": 4069,
+      "sha256": "b626fcc9678e1d53d07eb4fd9875f4af919a47a8f43bd30b6266e9131cb9e1db"
+    },
+    {
+      "path": "metaworld_exp/reports/install.json",
+      "size": 1275,
+      "sha256": "6edfe00729478920bff060699ef0d5c3872e512cf7d6e897bb9977e39d76d13e"
+    },
+    {
+      "path": "metaworld_exp/reports/agent_follows_doc.json",
+      "size": 842,
+      "sha256": "48c328a2de933e1ad69f8651cbba830e29f1e994aba78219862d7ed3f6059608"
+    },
+    {
+      "path": "metaworld_exp/logs/collect.log",
+      "size": 37995,
+      "sha256": "819827885d54cf73ba2708121428205cec06bd35b330fa3faad4ac56a9f5e2fd"
+    },
+    {
+      "path": "metaworld_exp/logs/witness.log",
+      "size": 1993,
+      "sha256": "3b96623e8b4662e7407867adecdafdcb8f33b380a2dea13f8e3d4c6fa69e1b64"
+    }
+  ]
+}

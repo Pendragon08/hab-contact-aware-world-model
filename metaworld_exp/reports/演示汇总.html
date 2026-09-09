@@ -4,10 +4,12 @@
 
 脚本专家示范：80 条、40,000 步；曾成功 80/80，末步成功 80/80。这些是专家的数据质量指标，不是学习模型的成绩。
 
-工程验证：尚未通过。正式训练：尚未确认完成。
+工程验证：通过。正式训练：尚未确认完成。
 
 | 集合 | 在线步数 | 控制方式 | 曾成功 | 末步成功 | 曾抓住 | 平均回报 |
 |---|---:|---|---:|---:|---:|---:|
+| development | 0 | direct_policy | 18/20 | 13/20 | 20/20 | 2799.21 |
+| development | 0 | mpc | 0/20 | 0/20 | 0/20 | 1.32 |
 
 每次轨迹500步，保留环境原生奖励与成功判定。末步成功与曾成功分开报告。开发集不能当作最终测试；最终测试只使用固定100,000步权重。
 
@@ -16,4 +18,6 @@
 当前对照只能检验规划是否帮助同一个已训练模型；还不能证明优于原版TD-MPC2。后续需要匹配数据/算力预算的基线和多训练种子。
 
 ## 视频
-</pre>
+
+- [evaluation_000000/direct_policy_080](../artifacts/pick_place_v1/run/evaluation_000000/direct_policy_080/rollout.mp4)
+- [evaluation_000000/mpc_080](../artifacts/pick_place_v1/run/evaluation_000000/mpc_080/rollout.mp4)</pre><h3>evaluation_000000 / direct_policy_080</h3><video controls preload="metadata" width="480" src="../artifacts/pick_place_v1/run/evaluation_000000/direct_policy_080/rollout.mp4"></video><h3>evaluation_000000 / mpc_080</h3><video controls preload="metadata" width="480" src="../artifacts/pick_place_v1/run/evaluation_000000/mpc_080/rollout.mp4"></video>

@@ -8,8 +8,31 @@
     "payload_sha256": "d703d24e711223e076eb67a704b6fe3b76033e7ad5e704b26a1143a87fed1f74",
     "config_sha256": "492264fc78b9b88106f2e06d338e45ec250a9241cc8c6f16ab79b02848bf4ab0"
   },
-  "witness_passed": false,
+  "witness_passed": true,
   "training_complete": false,
   "process": null,
-  "evaluations": []
+  "evaluations": [
+    {
+      "split": "development",
+      "step": 0,
+      "mode": "direct_policy",
+      "episodes": 20,
+      "grasp_once": 20,
+      "success_once": 18,
+      "success_at_end": 13,
+      "return_mean": 2799.211347035912,
+      "latency_mean_ms": 0.8327173464000225
+    },
+    {
+      "split": "development",
+      "step": 0,
+      "mode": "mpc",
+      "episodes": 20,
+      "grasp_once": 0,
+      "success_once": 0,
+      "success_at_end": 0,
+      "return_mean": 1.3178473950446161,
+      "latency_mean_ms": 25.20292486846447
+    }
+  ]
 }
