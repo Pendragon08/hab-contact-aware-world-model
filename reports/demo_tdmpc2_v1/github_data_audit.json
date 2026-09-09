@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "url": "https://github.com/Pendragon08/hab-contact-aware-world-model/releases/tag/v0.3.2-demo-data",
+  "prerelease": true,
+  "training_started": false,
+  "assets": [
+    {
+      "name": "manifest.json",
+      "size": 48578,
+      "sha256": "059bb8c10101e9b1cc95a3eed6c6415a7238b4909b288f9e284cead72df09fcc",
+      "verified": true
+    },
+    {
+      "name": "training.npz",
+      "size": 4690951,
+      "sha256": "ba14bcbec86135d3fbf96b5ef6768b9000eafd14e2631f08e0eb10453cdf033d",
+      "verified": true
+    }
+  ]
+}
