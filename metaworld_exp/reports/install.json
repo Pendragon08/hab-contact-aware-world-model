@@ -1,0 +1,37 @@
+{
+  "spec_hash": "7d175b55",
+  "wheels": [
+    {
+      "name": "metaworld-3.1.1-py3-none-any.whl",
+      "bytes": 36660415,
+      "sha256": "99e25d9baf97f2f1a19ca89c0d2ca9c6a2b396d9a9be81729de64eedc683f0d3"
+    },
+    {
+      "name": "etils-1.13.0-py3-none-any.whl",
+      "bytes": 170603,
+      "sha256": "d9cd4f40fbe77ad6613b7348a18132cc511237b6c076dbb89105c0b520a4c6bb"
+    },
+    {
+      "name": "gymnasium-1.1.1-py3-none-any.whl",
+      "bytes": 965410,
+      "sha256": "9c167ec0a2b388666e37f63b2849cd2552f7f5b71938574c637bb36487eb928a"
+    },
+    {
+      "name": "glfw-2.9.0-py2.py27.py3.py30.py31.py32.py33.py34.py35.py36.py37.py38.p39.p310.p311.p312.p313-none-manylinux_2_28_x86_64.whl",
+      "bytes": 243489,
+      "sha256": "4e11271e49eb9bc53431ade022e284d5a59abeace81fe3b178db1bf3ccc0c449"
+    },
+    {
+      "name": "pyopengl-3.1.10-py3-none-any.whl",
+      "bytes": 3194996,
+      "sha256": "794a943daced39300879e4e47bd94525280685f42dbb5a998d336cfff151d74f"
+    },
+    {
+      "name": "mujoco-3.3.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "bytes": 6549401,
+      "sha256": "946ee6c90c4f6c4ef26502cc8a469b3dc7bd7286d8efb3dc935fa0bf8a3a11e5"
+    }
+  ],
+  "ready": false,
+  "reason": "kernel/physics/render/independent witness pending"
+}

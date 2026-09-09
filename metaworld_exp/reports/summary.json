@@ -1,0 +1,15 @@
+{
+  "collection": {
+    "completed": true,
+    "episodes": 80,
+    "control_steps": 40000,
+    "success_once": 80,
+    "success_at_end": 80,
+    "payload_sha256": "d703d24e711223e076eb67a704b6fe3b76033e7ad5e704b26a1143a87fed1f74",
+    "config_sha256": "492264fc78b9b88106f2e06d338e45ec250a9241cc8c6f16ab79b02848bf4ab0"
+  },
+  "witness_passed": false,
+  "training_complete": false,
+  "process": null,
+  "evaluations": []
+}

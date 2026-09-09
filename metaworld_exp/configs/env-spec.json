@@ -1,0 +1,11 @@
+{
+  "base": "readonly borrowed Python3.10.21 torch2.5.1+cu121 numpy1.26.4 tensordict0.6.0 scipy1.15.3 imageio2.33.1",
+  "isolation": "project-owned --target overlay; only this experiment prepends overlay to PYTHONPATH",
+  "system_pkgs": ["libEGL.so.1", "NVIDIA driver", "screen"],
+  "pip_phases": [["metaworld==3.1.1", "mujoco==3.3.0", "gymnasium==1.1.1", "glfw==2.9.0", "PyOpenGL==3.1.10", "etils==1.13.0"]],
+  "pip_options": "--no-deps --target metaworld_exp/vendor_deps/v1; wheels and hashes retained",
+  "env": {"CUDA_VISIBLE_DEVICES": "1", "MUJOCO_GL": "egl", "MUJOCO_EGL_DEVICE_ID": "1", "OMP_NUM_THREADS": "4", "PYTHONNOUSERSITE": "1", "WANDB_MODE": "disabled"},
+  "sources": {"metaworld": "PyPI3.1.1", "algorithm": "unchanged pinned ManiSkill TD-MPC2 vendor + separately recorded experiment adapter"},
+  "smoke": {"import_names": ["metaworld", "mujoco", "gymnasium", "torch"], "gpu_tests": [{"cmd": "bash metaworld_exp/run.sh witness", "expect": "METAWORLD_WITNESS_PASS"}]},
+  "notes": "V3 port, not reproduction of original Meta-World V2 paper results. Never modify borrowed interpreter or HAB dependencies. GPU work waits for HAB and other GPU1 jobs to finish."
+}
