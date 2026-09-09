@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "agent": "original_tdmpc2_witness",
+  "date": "2026-09-09",
+  "invocations": 1,
+  "exit_code": 0,
+  "sentinel": "ORIGINAL_WITNESS_PASS",
+  "parameters": 4955238,
+  "updates": 5,
+  "all_five_modules_changed": true,
+  "repeat_error": 0.0,
+  "torch_peak_MiB": 252.14208984375,
+  "limitations": "Independent stdout-only verification did not inspect artifact files; root separately retrieved witness JSON from both timestamped runs.",
+  "artifact": "artifacts/witness_20260909_065740/witness.json",
+  "spec_hash": "54f8bb97"
+}

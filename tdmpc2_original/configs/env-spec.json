@@ -1,0 +1,50 @@
+{
+  "name": "tdmpc2-original-mw-v2",
+  "base": "read-only Python3.10 Torch2.5.1+cu121 numpy1.26.4 torchrl0.6.0 tensordict0.6.0",
+  "sources": {
+    "tdmpc2": "57158282b46ebc5c329c5be9cfe2b0094126d1ca",
+    "metaworld": "04be337a12305e393c0caf0cbf5ec7755c7c8feb",
+    "mujoco": "https://mujoco.org/download/mujoco210-linux-x86_64.tar.gz"
+  },
+  "pip_phases": [
+    [
+      "pip==23.0.1",
+      "setuptools==65.5.0",
+      "wheel==0.38.4"
+    ],
+    [
+      "gym==0.21.0"
+    ],
+    [
+      "mujoco-py==2.1.2.14",
+      "Cython==0.29.37",
+      "fasteners==0.19",
+      "glfw==2.9.0",
+      "patchelf==0.17.2.0",
+      "cffi==1.17.1",
+      "pycparser==2.22"
+    ]
+  ],
+  "system_pkgs": [
+    "gcc",
+    "libGL",
+    "libEGL",
+    "patchelf",
+    "libglew-dev=2.1.0-4 (extract headers project-locally, no system install)"
+  ],
+  "env": {
+    "CUDA_VISIBLE_DEVICES": "1",
+    "OMP_NUM_THREADS": "4",
+    "WANDB_MODE": "disabled"
+  },
+  "smoke": {
+    "gpu_tests": [
+      {
+        "cmd": "bash tdmpc2_original/run.sh witness",
+        "expect": "ORIGINAL_WITNESS_PASS"
+      }
+    ]
+  },
+  "runtime_differences": "Python3.10/Torch2.5.1/TorchRL0.6 rather than paper Python3.9/nightly TorchRL; original algorithm files unchanged; real replay/optimizer witness required",
+  "native_build_patch": "mujoco_py.builder.get_nvidia_lib_dir accepts project MUJOCO_PY_NVIDIA_LIB_DIR=/usr/lib/x86_64-linux-gnu; only library discovery, no dynamics changes"
+}

@@ -1,0 +1,327 @@
+{
+  "metaworld_exp/reports/summary.json": {
+    "collection": {
+      "completed": true,
+      "episodes": 80,
+      "control_steps": 40000,
+      "success_once": 80,
+      "success_at_end": 80,
+      "payload_sha256": "d703d24e711223e076eb67a704b6fe3b76033e7ad5e704b26a1143a87fed1f74",
+      "config_sha256": "492264fc78b9b88106f2e06d338e45ec250a9241cc8c6f16ab79b02848bf4ab0"
+    },
+    "witness_passed": true,
+    "training_complete": true,
+    "process": {
+      "completed": true,
+      "seconds": 8133.643978020176,
+      "torch_peak_allocated_mib": 209.41796875
+    },
+    "evaluations": [
+      {
+        "split": "development",
+        "step": 0,
+        "mode": "direct_policy",
+        "episodes": 20,
+        "grasp_once": 20,
+        "success_once": 18,
+        "success_at_end": 13,
+        "return_mean": 2799.211347035912,
+        "latency_mean_ms": 0.8327173464000225
+      },
+      {
+        "split": "development",
+        "step": 0,
+        "mode": "mpc",
+        "episodes": 20,
+        "grasp_once": 0,
+        "success_once": 0,
+        "success_at_end": 0,
+        "return_mean": 1.3178473950446161,
+        "latency_mean_ms": 25.20292486846447
+      },
+      {
+        "split": "development",
+        "step": 25000,
+        "mode": "direct_policy",
+        "episodes": 20,
+        "grasp_once": 15,
+        "success_once": 18,
+        "success_at_end": 6,
+        "return_mean": 2044.5358234231778,
+        "latency_mean_ms": 0.8253850834444165
+      },
+      {
+        "split": "development",
+        "step": 25000,
+        "mode": "mpc",
+        "episodes": 20,
+        "grasp_once": 2,
+        "success_once": 0,
+        "success_at_end": 0,
+        "return_mean": 29.36672693227589,
+        "latency_mean_ms": 25.264861097559333
+      },
+      {
+        "split": "development",
+        "step": 50000,
+        "mode": "direct_policy",
+        "episodes": 20,
+        "grasp_once": 18,
+        "success_once": 20,
+        "success_at_end": 13,
+        "return_mean": 3789.960727516689,
+        "latency_mean_ms": 0.8218413656577468
+      },
+      {
+        "split": "development",
+        "step": 50000,
+        "mode": "mpc",
+        "episodes": 20,
+        "grasp_once": 7,
+        "success_once": 2,
+        "success_at_end": 0,
+        "return_mean": 57.75096671652601,
+        "latency_mean_ms": 25.332197850197552
+      },
+      {
+        "split": "development",
+        "step": 100000,
+        "mode": "direct_policy",
+        "episodes": 20,
+        "grasp_once": 16,
+        "success_once": 20,
+        "success_at_end": 13,
+        "return_mean": 3492.1081310812237,
+        "latency_mean_ms": 0.8248438756912947
+      },
+      {
+        "split": "development",
+        "step": 100000,
+        "mode": "mpc",
+        "episodes": 20,
+        "grasp_once": 20,
+        "success_once": 19,
+        "success_at_end": 6,
+        "return_mean": 2538.202786860938,
+        "latency_mean_ms": 25.350526877492666
+      },
+      {
+        "split": "final-test",
+        "step": 100000,
+        "mode": "direct_policy",
+        "episodes": 20,
+        "grasp_once": 20,
+        "success_once": 20,
+        "success_at_end": 13,
+        "return_mean": 3599.5038855903267,
+        "latency_mean_ms": 0.8301163611933589
+      },
+      {
+        "split": "final-test",
+        "step": 100000,
+        "mode": "mpc",
+        "episodes": 20,
+        "grasp_once": 19,
+        "success_once": 16,
+        "success_at_end": 4,
+        "return_mean": 1981.9822990961743,
+        "latency_mean_ms": 25.563310073688626
+      }
+    ]
+  },
+  "metaworld_exp/artifacts/pick_place_v1/run/complete.json": {
+    "completed": true,
+    "online_steps": 100000,
+    "updates": 105000,
+    "wall_seconds": 8133.341722197831,
+    "budgets": {
+      "teacher_controls": 40000,
+      "student_correction_controls": 10000,
+      "online_controls": 100000,
+      "development_controls": 80000,
+      "final_test_controls": 20000
+    },
+    "final_parameter_hashes": {
+      "encoder": "a5824d2ceb9d4d8612328e523310733cfb8943e1cc9b6e7efd003ca638f17a23",
+      "dynamics": "65e033b46dadfd4b84d77bd72ae63e190d2bc429aaddb0e70ce94f8c39b3d569",
+      "reward": "e90d99c8340f21ab1907440eafb6ba941a5a4dc02f551d6a935b388701034089",
+      "Q": "a60f3fc0bc53b5337810574e7db1785e3d6e328e83a9fbe3c36e09ec0099197d",
+      "policy": "5179d132a14f3749b042139b61caf8f301892a5cc5580979a71dc3a9482afefb"
+    },
+    "scope": "one training seed, single task V3 pilot; not MT1/MT50 or paper reproduction"
+  },
+  "release/metaworld-pick-place-v1.release.json": {
+    "bundle": "metaworld-pick-place-v1",
+    "files": 2128,
+    "uncompressed_bytes": 618950890,
+    "archive": "metaworld-pick-place-v1.tar.gz",
+    "archive_bytes": 493607996,
+    "archive_sha256": "659751475ab3acdfbd3d53c728da2023b26be0e8b38734d114056e51eb6fbdd1",
+    "manifest": "metaworld-pick-place-v1.manifest.json",
+    "manifest_sha256": "2c6066f64ba316824543e9b22d58ff7c6d83a8c0a8210c540c3c6bd679f01e38",
+    "parts": [
+      {
+        "name": "metaworld-pick-place-v1.tar.gz",
+        "bytes": 493607996,
+        "sha256": "659751475ab3acdfbd3d53c728da2023b26be0e8b38734d114056e51eb6fbdd1"
+      }
+    ]
+  },
+  "tdmpc2_original/reports/install-sources.json": [
+    {
+      "file": "mujoco210.tar.gz",
+      "source": "https://mujoco.org/download/mujoco210-linux-x86_64.tar.gz",
+      "bytes": 4385135,
+      "sha256": "a436ca2f4144c38b837205635bbd60ffe1162d5b44c87df22232795978d7d012"
+    },
+    {
+      "file": "metaworld.tar.gz",
+      "source": "https://codeload.github.com/Farama-Foundation/Metaworld/tar.gz/04be337a12305e393c0caf0cbf5ec7755c7c8feb",
+      "bytes": 84357346,
+      "sha256": "70e527133ff4f12e216f76529098980ac9593bfc3c1af9f36c7bbb0e35b2b67b"
+    }
+  ],
+  "tdmpc2_original/reports/mujoco-build-patch.json": {
+    "before_sha256": "cac0cb1c8e5acbf4d43879a9586e33f0a8bfe7c71b3d6d71d16b30c9060a41d1",
+    "after_sha256": "97baa61f7ee434a8ad9853dd42aafeeadd9969ca8d6235c5400d39406d1b1aa2",
+    "reason": "project-local NVIDIA library discovery only"
+  },
+  "tdmpc2_original/artifacts/witness_20260909_065447/witness.json": {
+    "sentinel": "ORIGINAL_WITNESS_PASS",
+    "module_changed": {
+      "encoder": true,
+      "dynamics": true,
+      "reward": true,
+      "Q": true,
+      "policy": true
+    },
+    "updates": 5,
+    "replay_batch_shape": [
+      4,
+      256,
+      39
+    ],
+    "repeat_error": 0.0,
+    "losses": [
+      {
+        "consistency_loss": 0.015768401324748993,
+        "reward_loss": 2.6921536922454834,
+        "value_loss": 2.692152976989746,
+        "pi_loss": 0.0018571109976619482,
+        "total_loss": 0.8537987470626831,
+        "grad_norm": 1.9028739929199219,
+        "pi_scale": 1.0
+      },
+      {
+        "consistency_loss": 0.010655428282916546,
+        "reward_loss": 2.6257808208465576,
+        "value_loss": 2.6226089000701904,
+        "pi_loss": -0.0008020978420972824,
+        "total_loss": 0.7379475831985474,
+        "grad_norm": 1.6043661832809448,
+        "pi_scale": 1.0
+      },
+      {
+        "consistency_loss": 0.007137935142964125,
+        "reward_loss": 2.5329108238220215,
+        "value_loss": 2.5295324325561523,
+        "pi_loss": -0.0011362697696313262,
+        "total_loss": 0.6490030288696289,
+        "grad_norm": 1.2587791681289673,
+        "pi_scale": 1.0
+      },
+      {
+        "consistency_loss": 0.004897831939160824,
+        "reward_loss": 2.4333877563476562,
+        "value_loss": 2.431103229522705,
+        "pi_loss": -0.0013965145917609334,
+        "total_loss": 0.584405779838562,
+        "grad_norm": 1.14466392993927,
+        "pi_scale": 1.0
+      },
+      {
+        "consistency_loss": 0.00334518076851964,
+        "reward_loss": 2.3326516151428223,
+        "value_loss": 2.332211494445801,
+        "pi_loss": -0.0016997779021039605,
+        "total_loss": 0.5333899259567261,
+        "grad_norm": 1.0115691423416138,
+        "pi_scale": 1.0
+      }
+    ],
+    "native_steps": 704,
+    "discount": 0.95,
+    "gpu": "NVIDIA RTX A6000",
+    "torch_peak_MiB": 252.14208984375,
+    "upstream_commit": "57158282b46ebc5c329c5be9cfe2b0094126d1ca"
+  },
+  "tdmpc2_original/artifacts/witness_20260909_065740/witness.json": {
+    "sentinel": "ORIGINAL_WITNESS_PASS",
+    "module_changed": {
+      "encoder": true,
+      "dynamics": true,
+      "reward": true,
+      "Q": true,
+      "policy": true
+    },
+    "updates": 5,
+    "replay_batch_shape": [
+      4,
+      256,
+      39
+    ],
+    "repeat_error": 0.0,
+    "losses": [
+      {
+        "consistency_loss": 0.015768401324748993,
+        "reward_loss": 2.6921536922454834,
+        "value_loss": 2.692152976989746,
+        "pi_loss": 0.0018571109976619482,
+        "total_loss": 0.8537987470626831,
+        "grad_norm": 1.9028739929199219,
+        "pi_scale": 1.0
+      },
+      {
+        "consistency_loss": 0.010655428282916546,
+        "reward_loss": 2.6257808208465576,
+        "value_loss": 2.6226089000701904,
+        "pi_loss": -0.0008020978420972824,
+        "total_loss": 0.7379475831985474,
+        "grad_norm": 1.6043661832809448,
+        "pi_scale": 1.0
+      },
+      {
+        "consistency_loss": 0.007137935142964125,
+        "reward_loss": 2.5329108238220215,
+        "value_loss": 2.5295324325561523,
+        "pi_loss": -0.0011362697696313262,
+        "total_loss": 0.6490030288696289,
+        "grad_norm": 1.2587791681289673,
+        "pi_scale": 1.0
+      },
+      {
+        "consistency_loss": 0.004897831939160824,
+        "reward_loss": 2.4333877563476562,
+        "value_loss": 2.431103229522705,
+        "pi_loss": -0.0013965145917609334,
+        "total_loss": 0.584405779838562,
+        "grad_norm": 1.14466392993927,
+        "pi_scale": 1.0
+      },
+      {
+        "consistency_loss": 0.00334518076851964,
+        "reward_loss": 2.3326516151428223,
+        "value_loss": 2.332211494445801,
+        "pi_loss": -0.0016997779021039605,
+        "total_loss": 0.5333899259567261,
+        "grad_norm": 1.0115691423416138,
+        "pi_scale": 1.0
+      }
+    ],
+    "native_steps": 704,
+    "discount": 0.95,
+    "gpu": "NVIDIA RTX A6000",
+    "torch_peak_MiB": 252.14208984375,
+    "upstream_commit": "57158282b46ebc5c329c5be9cfe2b0094126d1ca"
+  }
+}
