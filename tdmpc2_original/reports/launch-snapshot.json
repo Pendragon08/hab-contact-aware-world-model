@@ -1,0 +1,35 @@
+{
+  "utc": "2026-09-09T07:05:46.478318+00:00",
+  "last_metrics": {
+    "episode_reward": 4.562412738800049,
+    "episode_success": 0.0,
+    "step": 1400,
+    "episode": 13,
+    "total_time": 83.16789841651917,
+    "consistency_loss": 0.00012779823737218976,
+    "reward_loss": 0.20283693075180054,
+    "value_loss": 0.25625482201576233,
+    "pi_loss": -0.20196284353733063,
+    "total_loss": 0.04846514016389847,
+    "grad_norm": 0.966127872467041,
+    "pi_scale": 1.0,
+    "category": "train",
+    "train_decisions": 1400,
+    "train_native_steps": 2800
+  },
+  "initial_eval": {
+    "episode_reward": 1.3324402570724487,
+    "episode_success": 0.0,
+    "step": 0,
+    "episode": 0,
+    "total_time": 24.67660355567932,
+    "category": "eval",
+    "train_decisions": 0,
+    "train_native_steps": 0
+  },
+  "train_trajectory_files": 14,
+  "eval_trajectory_files": 10,
+  "video_bytes": 96223,
+  "gpu": "0, 19 MiB, 48532 MiB\n1, 805 MiB, 47745 MiB\n",
+  "complete": false
+}

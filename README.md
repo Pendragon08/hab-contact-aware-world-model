@@ -1,6 +1,6 @@
 # HAB Contact-Aware World Model
 
-2026-09-09 新增：[TD-MPC2 原方法复现](tdmpc2_original/README.md)。固定论文时期官方源码与 Meta-World V2，先做 Pick-Place，预算为 50 万环境步（25 万动作决策），seed=1。无教师示范或我们的额外损失。两次实际验证已通过，正式训练因服务器再次连接超时尚未启动，见 [执行记录](tdmpc2_original/reports/原版复现执行记录.md)。这是缩减预算的方法复现，不是完整论文结果复现。
+2026-09-09 新增：[TD-MPC2 原方法复现](tdmpc2_original/README.md)。固定论文时期官方源码与 Meta-World V2，先做 Pick-Place，预算为 50 万环境步（25 万动作决策），seed=1。无教师示范或我们的额外损失。两次实际验证已通过，正式训练已在 GPU1 启动；15:05:46 快照完成 2,800／500,000 环境步，真实损失和梯度有限，见 [执行记录](tdmpc2_original/reports/原版复现执行记录.md)。这是缩减预算的方法复现，不是完整论文结果复现。
 
 面向 ManiSkill-HAB 移动机械臂抓取的接触控制与世界模型规划研究。机器人为 Fetch（移动底盘、升降躯干、机械臂和夹爪）；当前任务为 TidyHouse Pick：抓取指定物体、收回至休止姿态，并满足静止与累计接触限制。
 
