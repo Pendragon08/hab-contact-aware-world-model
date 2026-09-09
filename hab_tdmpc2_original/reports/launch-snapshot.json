@@ -1,0 +1,12 @@
+{
+  "utc_epoch": 1788954794.0995731,
+  "queue": {
+    "status": "starting_hab",
+    "utc_epoch": 1788954654.8740113
+  },
+  "formal_directory_exists": true,
+  "complete": false,
+  "train_trajectories": 0,
+  "eval_trajectories": 8,
+  "gpu": "0, 32 MiB, 48519 MiB\n1, 4082 MiB, 44468 MiB\n"
+}

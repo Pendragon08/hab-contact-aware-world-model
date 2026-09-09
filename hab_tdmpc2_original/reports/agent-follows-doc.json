@@ -1,0 +1,35 @@
+{
+  "passed": true,
+  "independent_agent": "hab_original_witness",
+  "invocations": 1,
+  "exit_code": 0,
+  "sentinel": "HAB_ORIGINAL_WITNESS_PASS",
+  "train_steps": 1200,
+  "optimizer_updates": 1199,
+  "eval_steps": 400,
+  "all_five_modules_changed": true,
+  "spec_hash": "4c041de3",
+  "source_sha256": {
+    "hab_tdmpc2_original/runner.py": "bf0924d755fe7b3315ce2409bc2eeeafed2462b84205c1ea6ae53cdd869ddac2",
+    "hab_tdmpc2_original/configs/plan.json": "715ed039273b075a73349098a8bd213cc56548c9e947366e9ad5d88ed634b5d5",
+    "hab_tdmpc2_original/configs/env-spec.json": "a7d40d0b47240022966d5272960408b514871cba6c05c13604da78c49cf11120",
+    "scripts/hab_state.py": "b1f0e9528b93e2eca91928a00284ec1c891bdb57176ca1b8ca62b7277cc9f9e4"
+  },
+  "witness_path": "hab_tdmpc2_original/artifacts/witness_20260909_072916",
+  "root_file_audit": {
+    "training_trajectories": 6,
+    "evaluation_trajectories": 2,
+    "videos": [
+      {
+        "name": "eval_001200.mp4",
+        "bytes": 1261174
+      },
+      {
+        "name": "eval_000000.mp4",
+        "bytes": 691830
+      }
+    ],
+    "source_hashes_match": true
+  },
+  "limitations": "Independent reviewer checked stdout, not artifact contents; root separately verified actual files and hashes. Initial reporting was interrupted by usage limit, then resumed original tool session without rerun. GPU raw columns are used/free, not used/total."
+}

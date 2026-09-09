@@ -1,0 +1,35 @@
+{
+  "utc": "2026-09-09T07:32:04.403702+00:00",
+  "metaworld": {
+    "folder": "tdmpc2_original",
+    "budget_native_steps": 500000,
+    "action_repeat": 2,
+    "complete": false,
+    "status": "training",
+    "native_steps": 54800,
+    "latest_total_time": 1662.575909614563,
+    "latest_loss": 0.06839589774608612,
+    "recent_native_steps_per_second": 30.48322842192145,
+    "eta_training_seconds": 14604.752286665367,
+    "eta_window_native_steps": 19800,
+    "eta_note": "Recent measured throughput; future evaluation/archive and host-load changes may add time.",
+    "latest_evaluation": {
+      "episode_reward": 1.3324402570724487,
+      "episode_success": 0.0,
+      "step": 0,
+      "episode": 0,
+      "total_time": 24.67660355567932,
+      "category": "eval",
+      "train_decisions": 0,
+      "train_native_steps": 0
+    }
+  },
+  "hab": {
+    "folder": "hab_tdmpc2_original",
+    "budget_native_steps": 500000,
+    "action_repeat": 1,
+    "complete": false,
+    "status": "not_started",
+    "historical_training_seconds_estimate": 148906.04333421215
+  }
+}

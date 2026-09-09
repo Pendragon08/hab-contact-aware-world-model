@@ -1,0 +1,25 @@
+{
+  "steps": 500000,
+  "seed": 1,
+  "eval_freq": 100000,
+  "eval_episodes": 20,
+  "model_size": 5,
+  "batch_size": 256,
+  "episode_length": 200,
+  "action_repeat": 1,
+  "train_layout_count": 5,
+  "validation_layouts": [
+    69,
+    74,
+    79,
+    84,
+    89
+  ],
+  "train_seed_base": 281000,
+  "eval_seed_base": 291000,
+  "observation": "Native42 + robot_force/100 + cumulative_force/5000; no elapsed feature",
+  "actions": "11 active channels via existing HABState, head joints held at zero",
+  "algorithm": "Original TD-MPC2 model, Buffer, losses, planner, seed exploration, update schedule; no teacher or BC",
+  "success": "Original all-five-condition success at final step; success-once separately reported",
+  "scope": "TD-MPC2 transfer baseline on HAB; not a paper-reported HAB reproduction"
+}

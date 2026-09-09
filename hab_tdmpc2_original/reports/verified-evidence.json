@@ -1,0 +1,199 @@
+{
+  "tdmpc2_original/artifacts/seed1_500k/complete.json": {
+    "train_decisions": 250000,
+    "train_native_steps": 500000,
+    "eval_decisions": 6000,
+    "reset_extra_native_steps": 2560,
+    "training_seed": 1,
+    "final_eval": {
+      "episode_reward": "1318.8943",
+      "episode_success": 0.8,
+      "step": 250000,
+      "episode": 2499,
+      "total_time": 14631.625026226044
+    },
+    "seconds": 14631.6518907547,
+    "upstream_commit": "57158282b46ebc5c329c5be9cfe2b0094126d1ca",
+    "claim": "reduced-budget original-method reproduction; not full paper result reproduction"
+  },
+  "release/tdmpc2-original-mw-v2-seed1-500k.release.json": {
+    "bundle": "tdmpc2-original-mw-v2-seed1-500k",
+    "files": 2596,
+    "uncompressed_bytes": 251145896,
+    "archive": "tdmpc2-original-mw-v2-seed1-500k.tar.gz",
+    "archive_bytes": 222474625,
+    "archive_sha256": "c18ae7bfc1c563d1514ee618fe3603992f23db07a085a9ade1349511b3cd38a2",
+    "manifest": "tdmpc2-original-mw-v2-seed1-500k.manifest.json",
+    "manifest_sha256": "4a218553464d3dfc809305b9e83a388b5146e6bb31eb31217bb40e6bfd171aba",
+    "parts": [
+      {
+        "name": "tdmpc2-original-mw-v2-seed1-500k.tar.gz",
+        "bytes": 222474625,
+        "sha256": "c18ae7bfc1c563d1514ee618fe3603992f23db07a085a9ade1349511b3cd38a2"
+      }
+    ]
+  },
+  "hab_tdmpc2_original/artifacts/witness_20260909_072916/complete.json": {
+    "completed": true,
+    "mode": "witness",
+    "train_steps": 1200,
+    "optimizer_updates": 1199,
+    "eval_steps": 400,
+    "final_eval": {
+      "episode_reward": 28.38173484802246,
+      "episode_success": 0.0,
+      "success_once": 0.0,
+      "step": 1200,
+      "episode": 5,
+      "total_time": 386.1343080997467
+    },
+    "all_five_modules_changed": true,
+    "discount": 0.975,
+    "train_seconds_including_initial_eval": 355.1334960460663,
+    "total_seconds": 386.1688299179077,
+    "torch_peak_MiB": 771.7060546875,
+    "preflight_gpu": "0, GPU-f3cc20c6-f613-73c1-b0f9-f54863f22602, 19, 48532\n1, GPU-0b41e662-b662-bb1c-954b-13ed89d7af18, 805, 47745\n",
+    "scope": "HAB transfer of original TD-MPC2, one seed; not original paper HAB result"
+  },
+  "hab_tdmpc2_original/artifacts/witness_20260909_072916/sources.json": {
+    "hab_tdmpc2_original/runner.py": "bf0924d755fe7b3315ce2409bc2eeeafed2462b84205c1ea6ae53cdd869ddac2",
+    "hab_tdmpc2_original/configs/plan.json": "715ed039273b075a73349098a8bd213cc56548c9e947366e9ad5d88ed634b5d5",
+    "hab_tdmpc2_original/configs/env-spec.json": "a7d40d0b47240022966d5272960408b514871cba6c05c13604da78c49cf11120",
+    "scripts/hab_state.py": "b1f0e9528b93e2eca91928a00284ec1c891bdb57176ca1b8ca62b7277cc9f9e4"
+  },
+  "hab_tdmpc2_original/reports/kernel-probe.json": {
+    "passed": true,
+    "updates": 5,
+    "all_five_modules_changed": true,
+    "replay_shape": [
+      4,
+      256,
+      44
+    ],
+    "source_trajectory": "/data/code/ouyanghao/oyh/hab-contact-aware-world-model/hab_tdmpc2_original/artifacts/witness_20260909_072133/trajectories/train/000000.npz",
+    "losses": [
+      {
+        "consistency_loss": 0.017512328922748566,
+        "reward_loss": 2.6921536922454834,
+        "value_loss": 2.6921544075012207,
+        "pi_loss": 0.017511967569589615,
+        "total_loss": 0.8886773586273193,
+        "grad_norm": 1.3900730609893799,
+        "pi_scale": 1.0
+      },
+      {
+        "consistency_loss": 0.012495785020291805,
+        "reward_loss": 2.627931594848633,
+        "value_loss": 2.6299023628234863,
+        "pi_loss": 0.0009426949545741081,
+        "total_loss": 0.7756990790367126,
+        "grad_norm": 1.1995185613632202,
+        "pi_scale": 1.0
+      },
+      {
+        "consistency_loss": 0.009096138179302216,
+        "reward_loss": 2.541909694671631,
+        "value_loss": 2.5456321239471436,
+        "pi_loss": -0.007143640890717506,
+        "total_loss": 0.6906769275665283,
+        "grad_norm": 1.0584098100662231,
+        "pi_scale": 1.0
+      },
+      {
+        "consistency_loss": 0.006656811572611332,
+        "reward_loss": 2.4479947090148926,
+        "value_loss": 2.453810214996338,
+        "pi_loss": -0.009963613003492355,
+        "total_loss": 0.623316764831543,
+        "grad_norm": 0.9380825161933899,
+        "pi_scale": 1.0
+      },
+      {
+        "consistency_loss": 0.005172938574105501,
+        "reward_loss": 2.353158473968506,
+        "value_loss": 2.3613054752349854,
+        "pi_loss": -0.011441144160926342,
+        "total_loss": 0.5749051570892334,
+        "grad_norm": 0.8541377186775208,
+        "pi_scale": 1.0
+      }
+    ]
+  },
+  "mw_evaluations": [
+    {
+      "episode_reward": 1.3324402570724487,
+      "episode_success": 0.0,
+      "step": 0,
+      "episode": 0,
+      "total_time": 24.67660355567932,
+      "category": "eval",
+      "train_decisions": 0,
+      "train_native_steps": 0
+    },
+    {
+      "episode_reward": 47.100860595703125,
+      "episode_success": 0.0,
+      "step": 50000,
+      "episode": 499,
+      "total_time": 3033.4224166870117,
+      "category": "eval",
+      "train_decisions": 50000,
+      "train_native_steps": 100000
+    },
+    {
+      "episode_reward": 945.7108154296875,
+      "episode_success": 0.6,
+      "step": 100000,
+      "episode": 999,
+      "total_time": 5928.972426652908,
+      "category": "eval",
+      "train_decisions": 100000,
+      "train_native_steps": 200000
+    },
+    {
+      "episode_reward": 1366.7261962890625,
+      "episode_success": 0.9,
+      "step": 150000,
+      "episode": 1499,
+      "total_time": 8825.576399564743,
+      "category": "eval",
+      "train_decisions": 150000,
+      "train_native_steps": 300000
+    },
+    {
+      "episode_reward": 1473.14599609375,
+      "episode_success": 0.9,
+      "step": 200000,
+      "episode": 1999,
+      "total_time": 11730.171407222748,
+      "category": "eval",
+      "train_decisions": 200000,
+      "train_native_steps": 400000
+    },
+    {
+      "episode_reward": 1318.894287109375,
+      "episode_success": 0.8,
+      "step": 250000,
+      "episode": 2499,
+      "total_time": 14631.625026226044,
+      "category": "eval",
+      "train_decisions": 250000,
+      "train_native_steps": 500000
+    }
+  ],
+  "hab_witness_files": {
+    "training_trajectories": 6,
+    "evaluation_trajectories": 2,
+    "videos": [
+      {
+        "name": "eval_001200.mp4",
+        "bytes": 1261174
+      },
+      {
+        "name": "eval_000000.mp4",
+        "bytes": 691830
+      }
+    ],
+    "source_hashes_match": true
+  }
+}
