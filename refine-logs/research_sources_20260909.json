@@ -1,0 +1,39 @@
+{
+  "date": "2026-09-09",
+  "overleaf_project": "https://www.overleaf.com/project/6a9f75f9f4a3e478a7d4adb3",
+  "live_overleaf_read": false,
+  "reason": "Browser tool failed to initialize kernel assets; local saved sources used, no online edits performed",
+  "new_experiments_launched": false,
+  "sources": [
+    {
+      "path": "D:\\具身智能\\文献调研_2024-2026_20260908\\overleaf\\sections\\related_work.tex",
+      "sha256": "a2fec880003b31a68c8b8d945b05f4da5837c13163ae6fdf55b6c4051687287b",
+      "bytes": 14291
+    },
+    {
+      "path": "D:\\具身智能\\文献调研_2024-2026_20260908\\overleaf\\sections\\introduction.tex",
+      "sha256": "f715d127dc77833a6fc61461e9f138ae51cfaf0faf0e3e8ac00b1239feda65b8",
+      "bytes": 5361
+    },
+    {
+      "path": "D:\\具身智能\\文献调研_2024-2026_20260908\\10篇优先精读文献_问题创新方法与局限.md",
+      "sha256": "7cd0fd4dd800bcb697fc4d30eb8af7202e0ea631001adb53ba1db316538cbca8",
+      "bytes": 43668
+    },
+    {
+      "path": "D:\\具身智能\\hab-contact-aware-world-model\\tdmpc2_original\\reports\\50万步复现结果.md",
+      "sha256": "dd238ecf8b6be8010799c9f2783f7a93d6db94884e7d862568d8d732e6c2e6bd",
+      "bytes": 4058
+    },
+    {
+      "path": "D:\\具身智能\\hab-contact-aware-world-model\\reports\\HAB末步失败原因与优化方案.md",
+      "sha256": "f5a7db673d026c43071b7d2e626696ddb07c5265a6a740af3e8f233774954cb2",
+      "bytes": 6297
+    },
+    {
+      "path": "D:\\具身智能\\hab-contact-aware-world-model\\reports\\world_model_prediction\\报告.md",
+      "sha256": "621e6303f4b6c5ed0f126f2e81f0cc2fbec04c4ddb0c1ea6e94e1c026f206a34",
+      "bytes": 1126
+    }
+  ]
+}
