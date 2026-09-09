@@ -1,0 +1,181 @@
+{
+  "task": "Meta-World Pick-Place V2",
+  "method": "original TD-MPC2 world model + MPC",
+  "training_seed": 1,
+  "episodes": [
+    {
+      "index": 0,
+      "native_training_steps": 0,
+      "success_at_end": false,
+      "success_once": false,
+      "decisions": 100,
+      "reward_sum": 1.5140488990291487
+    },
+    {
+      "index": 1,
+      "native_training_steps": 0,
+      "success_at_end": false,
+      "success_once": false,
+      "decisions": 100,
+      "reward_sum": 1.700485241599381
+    },
+    {
+      "index": 2,
+      "native_training_steps": 0,
+      "success_at_end": false,
+      "success_once": false,
+      "decisions": 100,
+      "reward_sum": 1.7694020835115225
+    },
+    {
+      "index": 3,
+      "native_training_steps": 0,
+      "success_at_end": false,
+      "success_once": false,
+      "decisions": 100,
+      "reward_sum": 1.2158445833265432
+    },
+    {
+      "index": 4,
+      "native_training_steps": 0,
+      "success_at_end": false,
+      "success_once": false,
+      "decisions": 100,
+      "reward_sum": 1.3124011264299043
+    },
+    {
+      "index": 5,
+      "native_training_steps": 0,
+      "success_at_end": false,
+      "success_once": false,
+      "decisions": 100,
+      "reward_sum": 0.9818704596145835
+    },
+    {
+      "index": 6,
+      "native_training_steps": 0,
+      "success_at_end": false,
+      "success_once": false,
+      "decisions": 100,
+      "reward_sum": 1.2649383978132391
+    },
+    {
+      "index": 7,
+      "native_training_steps": 0,
+      "success_at_end": false,
+      "success_once": false,
+      "decisions": 100,
+      "reward_sum": 1.18796450116497
+    },
+    {
+      "index": 8,
+      "native_training_steps": 0,
+      "success_at_end": false,
+      "success_once": false,
+      "decisions": 100,
+      "reward_sum": 1.1799897770033567
+    },
+    {
+      "index": 9,
+      "native_training_steps": 0,
+      "success_at_end": false,
+      "success_once": false,
+      "decisions": 100,
+      "reward_sum": 1.197458270311472
+    },
+    {
+      "index": 50,
+      "native_training_steps": 500000,
+      "success_at_end": false,
+      "success_once": false,
+      "decisions": 100,
+      "reward_sum": 2.4219873477704823
+    },
+    {
+      "index": 51,
+      "native_training_steps": 500000,
+      "success_at_end": true,
+      "success_once": true,
+      "decisions": 100,
+      "reward_sum": 1621.7717827744782
+    },
+    {
+      "index": 52,
+      "native_training_steps": 500000,
+      "success_at_end": true,
+      "success_once": true,
+      "decisions": 100,
+      "reward_sum": 1613.401036689058
+    },
+    {
+      "index": 53,
+      "native_training_steps": 500000,
+      "success_at_end": false,
+      "success_once": false,
+      "decisions": 100,
+      "reward_sum": 2.7802790328860283
+    },
+    {
+      "index": 54,
+      "native_training_steps": 500000,
+      "success_at_end": true,
+      "success_once": true,
+      "decisions": 100,
+      "reward_sum": 1602.5470271334052
+    },
+    {
+      "index": 55,
+      "native_training_steps": 500000,
+      "success_at_end": true,
+      "success_once": true,
+      "decisions": 100,
+      "reward_sum": 1687.070009890478
+    },
+    {
+      "index": 56,
+      "native_training_steps": 500000,
+      "success_at_end": true,
+      "success_once": true,
+      "decisions": 100,
+      "reward_sum": 1634.5947773233056
+    },
+    {
+      "index": 57,
+      "native_training_steps": 500000,
+      "success_at_end": true,
+      "success_once": true,
+      "decisions": 100,
+      "reward_sum": 1686.3996948897839
+    },
+    {
+      "index": 58,
+      "native_training_steps": 500000,
+      "success_at_end": true,
+      "success_once": true,
+      "decisions": 100,
+      "reward_sum": 1669.7240793704987
+    },
+    {
+      "index": 59,
+      "native_training_steps": 500000,
+      "success_at_end": true,
+      "success_once": true,
+      "decisions": 100,
+      "reward_sum": 1668.2327059898525
+    }
+  ],
+  "videos": [
+    {
+      "name": "eval_250000.mp4",
+      "bytes": 127495,
+      "sha256": "df580d95468c774fa685396cd17c6f4d3b428182fa1666bea6b640e87ec5d418",
+      "episode_index": 50
+    },
+    {
+      "name": "eval_000000.mp4",
+      "bytes": 96223,
+      "sha256": "d7a618feab21aa0ec69eb8764b4b701b203bcb44260cd0657b5ecd9a2d809414",
+      "episode_index": 0
+    }
+  ]
+}

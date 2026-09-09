@@ -1,5 +1,8 @@
 # TD-MPC2 原方法：Meta-World Pick-Place V2
 
+演示已导出：打开 [最终模型演示页面](../MetaWorld原版世界模型演示.html)，或下载 [离线演示包](https://github.com/Pendragon08/hab-contact-aware-world-model/releases/tag/v0.5.0-metaworld-original-demo)。含三个固定种子的成功补录及原始失败视频；补录不计入正式 8/10 成绩。
+
+
 这是**缩减预算的原方法复现**，不是完整论文结果复现，也不是先前加入示范数据的 V3 实验。
 
 ## 本轮协议

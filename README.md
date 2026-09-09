@@ -1,5 +1,8 @@
 # HAB Contact-Aware World Model
 
+演示已导出：打开 [最终模型演示页面](MetaWorld原版世界模型演示.html)，或下载 [离线演示包](https://github.com/Pendragon08/hab-contact-aware-world-model/releases/tag/v0.5.0-metaworld-original-demo)。含三个固定种子的成功补录及原始失败视频；补录不计入正式 8/10 成绩。
+
+
 2026-09-09 更新：**Meta-World V2 原方法50万环境步已完成，用时约4小时4分钟，最终末步成功8/10**，见 [完整阶段结果](tdmpc2_original/reports/50万步复现结果.md)。**ManiSkill-HAB 原方法迁移基线已通过独立验证并启动50万步正式训练**，使用GPU1，见 [HAB方案与执行](hab_tdmpc2_original/README.md)。两项均从随机权重开始，无教师示范或额外BC损失。HAB不是原论文报告过的任务；这两项也不等同于完整论文多任务、多种子结果复现。
 
 面向 ManiSkill-HAB 移动机械臂抓取的接触控制与世界模型规划研究。机器人为 Fetch（移动底盘、升降躯干、机械臂和夹爪）；当前任务为 TidyHouse Pick：抓取指定物体、收回至休止姿态，并满足静止与累计接触限制。
