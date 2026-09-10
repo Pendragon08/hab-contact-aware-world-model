@@ -1,0 +1,9 @@
+/* Report-specific responsive presentation; embedded by the build script. */
+main img { display: block; max-width: 100%; height: auto; margin: 18px auto; }
+main th, main td, main p, main a, main code { overflow-wrap: anywhere; }
+main pre code { overflow-wrap: normal; }
+nav.toc ol { list-style: none; padding-left: 0; }
+nav.toc ol > li::before { content: none; }
+@media (max-width: 600px) {
+  main table { display: block; max-width: 100%; overflow-x: auto; }
+}

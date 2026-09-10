@@ -1,0 +1,22 @@
+{
+  "verdict": "PASS",
+  "review_independence": "same-family",
+  "acceptance_status": "provisional",
+  "checks": {
+    "source_hash_match": "pass",
+    "information_fidelity": "pass",
+    "structure": "pass",
+    "math_code_tables": "pass",
+    "callouts": "pass",
+    "safety_escaping": "pass",
+    "placeholder_leak": "pass"
+  },
+  "blocking_issues": [],
+  "warnings": [],
+  "summary": "Final HTML preserves all 435 normalized source units in order, 29 headings,17 tables,4 code blocks,4 details,19 inline-code spans,26 source links;28 TOC links resolve. Five embedded PNGs are byte-identical. No unsafe scripts/events or unexpected URLs/placeholders. Scientific claims were not evaluated.",
+  "source_sha256": "9c92273d75cb17417e45ab2141363a76665e357aeefb1b7e5f24a66667a840ac",
+  "html_sha256": "6015878b4299db68bfc39842ed41791376d1c1515772f5e16fa984261fc82252",
+  "reviewer_task": "/root/bmpc_html_review",
+  "reviewer_model": "gpt-5.6-sol",
+  "review_scope": "Rendering fidelity and structure only; scientific interpretation reviewed separately by report author."
+}

@@ -1,0 +1,116 @@
+{
+  "paper": {
+    "title": "Bootstrapped Model Predictive Control",
+    "version": "arXiv:2503.18871v2",
+    "pages": 19,
+    "sha256": "b0b00cb5dc0bae254ba8a65bd4c2fe6ead6736bb8a7fd6791038fd6946e37002",
+    "url": "https://arxiv.org/pdf/2503.18871v2"
+  },
+  "official_code_commit": "d5dabc6cb58d463829571548c47711dff074f5af",
+  "figures": {
+    "figure1.png": {
+      "pdf_page": 2,
+      "clip_points": [
+        105,
+        83,
+        506,
+        272
+      ],
+      "sha256": "f1b634e4fbfcd48b409b18d6f85cd9c26f23aeb41e55d772a6278c75081814fd",
+      "description": "Original local PDF excerpt, unchanged content; retained for attributed research presentation."
+    },
+    "algorithm1.png": {
+      "pdf_page": 6,
+      "clip_points": [
+        304,
+        200,
+        506,
+        449
+      ],
+      "sha256": "7d6b1c4945788539d4de43e3c27cad97a8cfd7a14d2ec02611667f6aa1a153fd",
+      "description": "Original local PDF excerpt, unchanged content; retained for attributed research presentation."
+    },
+    "figure4.png": {
+      "pdf_page": 8,
+      "clip_points": [
+        105,
+        344,
+        506,
+        554
+      ],
+      "sha256": "55e07f4c4adff2518cd54817f94b883e06c4aae0d71bdf42af3da95967e9f8a6",
+      "description": "Original local PDF excerpt, unchanged content; retained for attributed research presentation."
+    },
+    "figure7.png": {
+      "pdf_page": 10,
+      "clip_points": [
+        105,
+        77,
+        506,
+        252
+      ],
+      "sha256": "3445d6cf8f2410ec4ead96ab2266cd75eae72d2f749b7376a9a845901ac27fef",
+      "description": "Original local PDF excerpt, unchanged content; retained for attributed research presentation."
+    },
+    "tasks.png": {
+      "pdf_page": 19,
+      "clip_points": [
+        105,
+        105,
+        506,
+        585
+      ],
+      "sha256": "1691162f98c41d2da396b9e74157db5f31751faacf3eaece2dc26ecc8bbf2dea",
+      "description": "Original local PDF excerpt, unchanged content; retained for attributed research presentation."
+    }
+  },
+  "scope": "Paper reading and official published data re-aggregation; no local BMPC training or new rollouts.",
+  "published_curve_reaggregation": {
+    "source_url": "https://github.com/wertyuilife2/bmpc/blob/d5dabc6cb58d463829571548c47711dff074f5af/results/data_dmc_hard_4M.json",
+    "sha256": "567d9d2f4cc4b223ec34572945bd4a30c4ce9beb45da54efb8bbcc51726ebe84",
+    "tasks": [
+      "dog-stand",
+      "dog-trot",
+      "dog-walk",
+      "dog-run",
+      "humanoid-stand",
+      "humanoid-walk",
+      "humanoid-run"
+    ],
+    "threshold": 795,
+    "method": "Equal arithmetic mean of seven task means at matching steps; first recorded point >=795; no interpolation or new CI estimation.",
+    "first_crossing": {
+      "BMPC": {
+        "steps": 900000,
+        "mean_reward": 803.3777117047991
+      },
+      "tdmpc2": {
+        "steps": 3600000,
+        "mean_reward": 795.2800854274204
+      }
+    },
+    "paper_text_steps": {
+      "BMPC": 90000,
+      "TD-MPC2": 360000
+    },
+    "note": "Paper section 5.1 states 90k/360k; released curve axis/data yield 900k/3600k. Possible unit/typographical discrepancy; no author confirmation."
+  },
+  "code_reads": {
+    "bmpc/bmpc.py": "621b6160d5b21c7df2a177207904ab020e58be1ec92619da677524b236cdd7fc",
+    "bmpc/config.yaml": "907bb41f0d986843346a402ffa86ca69529b1c06217eb383b00a1d3a030a3c2a",
+    "bmpc/evaluate.py": "2adc6b02a07deafbe7d02a897735718b5db33c09b4c8c29398c60286eae274f4",
+    "bmpc/train.py": "523b9106b99e3394137e9b65cbd4b3d921e8338928c8d3d1b9bd48703c3ccefe",
+    "datasets/download_mt30.sh": "e18e370d22e75a316169a8f3142553c811dca97e5d1483cf6e1f9cd1424c189e",
+    "datasets/download_mt80.sh": "aabdb9a78f84c7399794db732d0e4e35cd672336577b0545a957afe38c291a96",
+    "results/data_dmc_hard_4M.json": "567d9d2f4cc4b223ec34572945bd4a30c4ce9beb45da54efb8bbcc51726ebe84",
+    "bmpc/common/logger.py": "5a439b2c1924746e48f3687396b50a5f128bd8c64ace5072af0cbdde2ed0cef9",
+    "bmpc/common/math.py": "bff10b45688be9ea9a4b42072829f684bb23223b6829ddd5b8b9bd53864079aa",
+    "bmpc/common/parser.py": "6ff3c18e19794caa55e261a57e1dde5450386706de30e083ec7a3a27d3e25875",
+    "bmpc/common/world_model.py": "e662fc27d035cee15604de4b068e82345aab465a3d6e7470306dd4c933e2950d",
+    "bmpc/envs/dmcontrol.py": "0caab2039b329b45d12d16bd0a1d56f4a3863af993c57df984950cd84ad58750",
+    "bmpc/envs/humanoid.py": "7ef5fc5cb36ea9f5fd5c0daf299e10d47105eff8d9ec7cc2845097e09615c660",
+    "bmpc/envs/__init__.py": "44c2a069ac40e01e4eea19f4e03514bc3811d304575a028750c63e00f4fd980b",
+    "bmpc/trainer/online_trainer.py": "0c9786dbd0900322a80ca76b2900be1f5869161e6505d975107b99eac3fe24ca"
+  },
+  "layout_sha256": "8df17778acc18525e5d1769559bb2543f22c4a92ee188b202138014b50065e59"
+}

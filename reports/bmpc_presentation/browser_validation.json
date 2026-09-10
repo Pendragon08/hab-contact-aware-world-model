@@ -1,0 +1,41 @@
+{
+  "stats": {
+    "sections": 19,
+    "tables": 17,
+    "images": [
+      {
+        "width": 1043,
+        "height": 1248,
+        "embedded": true
+      },
+      {
+        "width": 1043,
+        "height": 493,
+        "embedded": true
+      },
+      {
+        "width": 526,
+        "height": 648,
+        "embedded": true
+      },
+      {
+        "width": 1043,
+        "height": 547,
+        "embedded": true
+      },
+      {
+        "width": 1043,
+        "height": 456,
+        "embedded": true
+      }
+    ],
+    "brokenAnchors": [],
+    "overflow": false,
+    "rawHeadings": false,
+    "details": 4
+  },
+  "mobileOverflow": false,
+  "requests": [],
+  "errors": [],
+  "html_sha256": "6015878b4299db68bfc39842ed41791376d1c1515772f5e16fa984261fc82252"
+}

@@ -22,6 +22,7 @@
 | 想看什么 | GitHub 在线阅读 | 本地展示 |
 |---|---|---|
 | TD-MPC2 背景、创新、模块、规划、训练、评估及局限 | [算法流程报告](reports/TD-MPC2算法流程汇报.md) | [单文件 HTML](TD-MPC2算法流程汇报.html) |
+| BMPC 背景、专家迭代、42项任务、原论文结果与复现核对 | [BMPC 论文汇报](reports/BMPC论文汇报.md) | [单文件 HTML](BMPC论文汇报.html) |
 | Meta-World 复现协议、六阶段曲线、最终成绩及失败案例 | [实验汇报](reports/MetaWorld_TD-MPC2复现与实验结果汇报.md) | [汇报 HTML](MetaWorld_TD-MPC2复现与实验结果汇报.html) |
 | 最终模型的视频演示 | [视频选择与指标边界](tdmpc2_original/reports/演示说明.md) | [离线演示包 v0.5.1](https://github.com/Pendragon08/hab-contact-aware-world-model/releases/tag/v0.5.1-metaworld-method-report) |
 
