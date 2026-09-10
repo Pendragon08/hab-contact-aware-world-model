@@ -1,19 +1,29 @@
 {
-  "verdict": "NOT_REQUESTED",
-  "review_mode": "render-html --no-review",
-  "review_independence": "none",
-  "acceptance_status": "not_independently_reviewed",
-  "source_sha256": "554119cde9ebc0cec1d70eb7365b374ebd2400301e60847af07269d8d6a1de9a",
+  "verdict": "PASS",
+  "review_independence": "same-family",
+  "acceptance_status": "provisional",
+  "checks": {
+    "source_hash_match": "pass",
+    "information_fidelity": "pass",
+    "structure": "pass",
+    "math_code_tables": "pass",
+    "callouts": "pass",
+    "safety_escaping": "pass",
+    "placeholder_leak": "pass",
+    "toc_links": "pass"
+  },
+  "blocking_issues": [],
+  "warnings": [],
+  "source_sha256": "13fad679f87e901b180331cee5b8370c4bd2a6abb557f9299936ef0b1a4668ae",
+  "html_sha256": "10e8a9ac70c7859c2a432e19d2b8e6a9bc5bd4090b6f45882f33fcb36e3a941a",
+  "reviewer_task": "/root/tdmpc2_training_note_review",
+  "findings": "27 source headings,16 tables,41 source-link occurrences,410 source fragments preserved;26 TOC links resolve. Chapter10 complete-episode insertion,per-decision update,initial update burst,action repeat,and online/off-policy/offline distinctions preserved. Expected embedded PNG and template style; no unsafe source output or placeholders. Rendering audit only.",
   "local_validation": {
-    "source_hash_match": true,
     "sections": 17,
-    "tables": 15,
+    "tables": 16,
     "desktop_overflow": false,
     "mobile_overflow": false,
     "page_errors": 0,
-    "raw_markdown_headings": false,
-    "broken_toc_anchors": 0,
-    "original_figure_loads_offline": true
-  },
-  "note": "Validated against the user-provided paper and in desktop/mobile browser views by the editing agent. No new independent review. The generator embeds one allowlisted local PNG after Markdown sanitization."
+    "local_html_copy_hash_match": true
+  }
 }
