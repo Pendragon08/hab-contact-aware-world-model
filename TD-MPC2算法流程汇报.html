@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TD-MPC2 算法流程｜训练与测试</title>
+
+<meta name="generator" content="ARIS render-html (academic, v1)">
+<meta name="aris:source-path" content="TD-MPC2算法流程汇报.md">
+<meta name="aris:source-sha256" content="dc87295d6bc9f9c809696f7729bbaa9f7df327bfe2b93e3e718c606e43e2d562">
+<meta name="aris:generated-at" content="2026-09-10 07:52 UTC">
+
+<!-- offline mode: MathJax + highlight.js skipped; math and code blocks render as plain text -->
+
+<style>
+:root {
+  --bg: #fdfcf7;
+  --bg-soft: #f4f1ea;
+  --bg-code: #f8f5ec;
+  --ink: #1a1a1a;
+  --ink-soft: #4a4a4a;
+  --ink-muted: #6b6b6b;
+  --primary: #1a4a8c;
+  --primary-soft: #2d6cb8;
+  --accent: #b8390e;
+  --warn: #b45309;
+  --warn-bg: #fef3c7;
+  --info-bg: #dbeafe;
+  --good-bg: #d1fae5;
+  --good: #065f46;
+  --bad-bg: #fee2e2;
+  --bad: #991b1b;
+  --border: #d6d0c0;
+  --border-soft: #e8e3d5;
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: "Source Serif Pro", "Source Serif 4", "Crimson Pro", "Georgia", "Songti SC", "STSong", serif;
+  line-height: 1.65;
+  color: var(--ink);
+  background: var(--bg);
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+
+.layout {
+  max-width: 1280px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 260px 1fr;
+  gap: 48px;
+  padding: 40px 32px;
+}
+
+nav.toc {
+  position: sticky;
+  top: 24px;
+  align-self: start;
+  font-size: 13px;
+  max-height: calc(100vh - 48px);
+  overflow-y: auto;
+  border-right: 1px solid var(--border-soft);
+  padding-right: 16px;
+}
+nav.toc h3 {
+  margin: 0 0 12px;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--ink-muted);
+  font-weight: 600;
+}
+nav.toc ol { list-style: none; padding: 0; margin: 0; counter-reset: toc; }
+nav.toc ol li { margin: 5px 0; counter-increment: toc; }
+nav.toc ol li::before { content: counter(toc) ". "; color: var(--ink-muted); margin-right: 4px; }
+nav.toc a {
+  color: var(--ink-soft);
+  text-decoration: none;
+  border-bottom: 1px dotted transparent;
+}
+nav.toc a:hover { color: var(--primary); border-bottom-color: var(--primary); }
+nav.toc ul { list-style: none; padding-left: 14px; margin: 3px 0; font-size: 12px; }
+nav.toc ul li::before { content: "→ "; color: var(--border); }
+
+main { min-width: 0; }
+
+header.hero {
+  border-bottom: 3px double var(--primary);
+  padding-bottom: 24px;
+  margin-bottom: 32px;
+}
+header.hero .eyebrow {
+  color: var(--accent);
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+header.hero h1 {
+  font-size: 32px;
+  line-height: 1.2;
+  margin: 0 0 12px;
+  color: var(--ink);
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+header.hero .subtitle {
+  font-size: 16px;
+  color: var(--ink-soft);
+  margin: 0 0 8px;
+  font-style: italic;
+}
+header.hero .byline {
+  font-size: 14px;
+  color: var(--ink-soft);
+  margin: 0 0 20px;
+}
+header.hero .byline strong {
+  color: var(--ink);
+  font-weight: 600;
+}
+header.hero .meta {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  font-size: 12px;
+  color: var(--ink-muted);
+  border-top: 1px solid var(--border-soft);
+  padding-top: 14px;
+}
+header.hero .meta span strong { color: var(--ink-soft); }
+header.hero .meta code {
+  font-family: "JetBrains Mono", "SF Mono", "Menlo", "Consolas", monospace;
+  font-size: 11px;
+  background: var(--bg-soft);
+  padding: 1px 5px;
+  border-radius: 3px;
+  border: 1px solid var(--border-soft);
+}
+
+h2 {
+  font-size: 24px;
+  margin: 44px 0 14px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--border);
+  color: var(--ink);
+  font-weight: 700;
+}
+h2 .num { color: var(--primary); font-weight: 600; margin-right: 8px; }
+h3 { font-size: 19px; margin: 28px 0 10px; color: var(--primary); font-weight: 600; }
+h4 { font-size: 16px; margin: 20px 0 8px; color: var(--ink); font-weight: 600; }
+
+p { margin: 10px 0; }
+ul, ol { padding-left: 22px; margin: 10px 0; }
+ul li, ol li { margin: 4px 0; }
+ul li::marker { color: var(--primary); }
+
+strong { color: var(--accent); font-weight: 600; }
+em { color: var(--ink-soft); }
+
+a { color: var(--primary); }
+a:hover { color: var(--accent); }
+
+code:not(.hljs) {
+  font-family: "JetBrains Mono", "SF Mono", "Menlo", "Consolas", monospace;
+  font-size: 0.86em;
+  background: var(--bg-code);
+  padding: 1px 5px;
+  border-radius: 3px;
+  border: 1px solid var(--border-soft);
+  color: var(--accent);
+}
+
+pre {
+  background: #fafaf6;
+  border: 1px solid var(--border);
+  border-left: 4px solid var(--primary);
+  padding: 0;
+  overflow-x: auto;
+  border-radius: 4px;
+  margin: 14px 0;
+}
+pre code, pre code.hljs {
+  background: transparent !important;
+  display: block;
+  padding: 14px 18px !important;
+  font-size: 13px;
+  line-height: 1.55;
+  font-family: "JetBrains Mono", "SF Mono", "Menlo", monospace;
+  color: var(--ink);
+}
+pre.diagram {
+  background: #f9f6ed;
+  border-left: 4px solid var(--accent);
+  font-size: 12.5px;
+  line-height: 1.4;
+}
+
+.callout {
+  margin: 16px 0;
+  padding: 12px 16px;
+  border-radius: 4px;
+  border-left: 4px solid;
+  font-size: 15px;
+}
+.callout-title {
+  font-weight: 600;
+  margin-bottom: 6px;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+.callout-info { background: var(--info-bg); border-left-color: var(--primary); }
+.callout-info .callout-title { color: var(--primary); }
+.callout-warn { background: var(--warn-bg); border-left-color: var(--warn); }
+.callout-warn .callout-title { color: var(--warn); }
+.callout-good { background: var(--good-bg); border-left-color: var(--good); }
+.callout-good .callout-title { color: var(--good); }
+.callout-bad { background: var(--bad-bg); border-left-color: var(--bad); }
+.callout-bad .callout-title { color: var(--bad); }
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 16px 0;
+  font-size: 14px;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  overflow: hidden;
+}
+thead { background: var(--primary); color: white; }
+th, td {
+  text-align: left;
+  padding: 9px 12px;
+  border-bottom: 1px solid var(--border-soft);
+  vertical-align: top;
+}
+th { font-weight: 600; font-size: 13px; letter-spacing: 0.02em; }
+tr:last-child td { border-bottom: none; }
+tbody tr:nth-child(even) { background: var(--bg-soft); }
+
+details.qa, details {
+  background: white;
+  border: 1px solid var(--border-soft);
+  border-radius: 6px;
+  margin: 10px 0;
+  padding: 0;
+}
+details summary {
+  cursor: pointer;
+  padding: 10px 14px;
+  font-weight: 600;
+  font-size: 14px;
+  color: var(--primary);
+  list-style: none;
+  user-select: none;
+}
+details summary::-webkit-details-marker { display: none; }
+details summary::before {
+  content: "▸ ";
+  margin-right: 4px;
+  display: inline-block;
+  transition: transform 0.15s;
+}
+details[open] summary::before { transform: rotate(90deg); }
+details[open] summary { border-bottom: 1px solid var(--border-soft); }
+details > :not(summary) { padding: 10px 14px; }
+details p:first-of-type { margin-top: 8px; }
+
+mjx-container[display="true"] { margin: 12px 0 !important; }
+
+footer.aris-footer {
+  margin-top: 60px;
+  padding-top: 20px;
+  border-top: 1px solid var(--border);
+  font-size: 12px;
+  color: var(--ink-muted);
+}
+footer.aris-footer a { color: var(--ink-muted); border-bottom: 1px dotted var(--border); }
+
+@media (max-width: 900px) {
+  .layout { grid-template-columns: 1fr; gap: 20px; padding: 20px 16px; }
+  nav.toc {
+    position: static;
+    max-height: none;
+    border-right: none;
+    border-bottom: 1px solid var(--border-soft);
+    padding-right: 0;
+    padding-bottom: 14px;
+  }
+  header.hero h1 { font-size: 24px; }
+  h2 { font-size: 20px; }
+}
+@media print {
+  nav.toc { display: none; }
+  .layout { grid-template-columns: 1fr; padding: 0; }
+  body { background: white; }
+  header.hero { border-bottom-color: var(--ink); }
+}
+</style>
+</head>
+<body>
+<div class="layout">
+
+<nav class="toc">
+  <h3>Contents</h3>
+  <ol>
+<li><a href="#01--一页理解整个算法">01 · 一页理解整个算法</a>
+</li>
+<li><a href="#02--五个网络模块分别做什么">02 · 五个网络模块，分别做什么</a>
+</li>
+<li><a href="#03--每一个控制步如何规划动作">03 · 每一个控制步：如何规划动作</a>
+</li>
+<li><a href="#04--训练模型如何从不会到会">04 · 训练：模型如何从不会到会</a>
+</li>
+<li><a href="#05--为什么称为scalablerobust">05 · 为什么称为Scalable、Robust</a>
+</li>
+<li><a href="#06--测试时还做哪些事情">06 · 测试时还做哪些事情</a>
+</li>
+<li><a href="#07--抓方块示例预测选择执行">07 · 抓方块示例：预测、选择、执行</a>
+</li>
+<li><a href="#08--与我们的课题怎么衔接">08 · 与我们的课题怎么衔接</a>
+</li>
+<li><a href="#09--汇报时可直接使用的讲解稿">09 · 汇报时可直接使用的讲解稿</a>
+</li>
+<li><a href="#10--论文代码与阅读顺序">10 · 论文、代码与阅读顺序</a>
+</li>
+</ol>
+</nav>
+
+<main>
+<header class="hero">
+  <div class="eyebrow">论文解读 · ICLR 2024 · 中文汇报版</div>
+  <h1>TD-MPC2 算法流程｜训练与测试</h1>
+  <p class="subtitle">从世界模型预测，到机器人动作选择</p>
+  
+  <div class="meta">
+    <span><strong>Source:</strong> <code>TD-MPC2算法流程汇报.md</code></span>
+    <span><strong>SHA256:</strong> <code>dc87295d6bc9</code></span>
+    <span><strong>Rendered:</strong> 2026-09-10 07:52 UTC</span>
+    
+  </div>
+</header>
+
+<h1 id="td-mpc2算法流程训练与测试">TD-MPC2：算法流程、训练与测试</h1>
+<p><strong>论文：</strong> TD-MPC2: Scalable, Robust World Models for Continuous Control <strong>作者：</strong> Nicklas Hansen、Hao Su、Xiaolong Wang <strong>发表：</strong> ICLR 2024 · 解读依据：arXiv v2及官方实现 · 整理日期：2026年9月10日</p>
+<div class="callout callout-info"><div class="callout-title">Tip</div><p>汇报主线：机器人先在学到的模型中比较候选动作的后果，再进入环境执行；训练时利用真实反馈继续改进模型。世界模型负责预测，策略先验提出候选，MPC负责搜索和选择。</p></div>
+<h2 id="01--一页理解整个算法">01 · 一页理解整个算法</h2>
+<p>TD-MPC2是一套基于模型的强化学习算法。它学习对控制有用的潜在表示，在这个表示空间中推演动作后果，无需把未来状态解码成图像或视频。</p>
+<div role="img" aria-label="控制闭环：环境观察、编码、候选动作、模型预测、规划评分、执行首动作、取得新观察后重复" style="padding:22px;background:#eef4fb;border:1px solid #cbd9ec;border-radius:12px"><div style="display:flex;flex-wrap:wrap;align-items:center;gap:10px;font-family:Arial,'Microsoft YaHei',sans-serif;font-size:16px;line-height:1.6"><div style="background:#fff;border:1px solid #cad7e8;border-radius:8px;padding:12px">① 环境观察<br><strong>读取真实反馈</strong></div><span aria-hidden="true">→</span><div style="background:#fff;border:1px solid #cad7e8;border-radius:8px;padding:12px">② 编码器<br><strong>形成潜在状态</strong></div><span aria-hidden="true">→</span><div style="background:#fff;border:1px solid #cad7e8;border-radius:8px;padding:12px">③ 候选序列<br><strong>采样＋策略先验</strong></div><span aria-hidden="true">→</span><div style="background:#dceafd;border:1px solid #a9c4e9;border-radius:8px;padding:12px">④ 世界模型<br><strong>预测状态与奖励</strong></div><span aria-hidden="true">→</span><div style="background:#dceafd;border:1px solid #a9c4e9;border-radius:8px;padding:12px">⑤ MPC搜索<br><strong>评分并迭代采样</strong></div><span aria-hidden="true">→</span><div style="background:#dff2e9;border:1px solid #a9d1be;border-radius:8px;padding:12px">⑥ 环境执行<br><strong>只执行首动作</strong></div></div><p style="margin:16px 0 0;color:#23466c"><strong>闭环反馈：</strong>取得新的环境观察 → 回到①重新规划。训练时，实际交互数据还会进入经验回放池，用于更新网络。</p></div>
+<p><strong>两种“试一试”必须区分：</strong>规划阶段是在神经网络里计算候选后果；选定后才在仿真环境或真实机器人上执行。原版MPC不会为每个候选都重置仿真、实际运行一遍。</p>
+<h2 id="02--五个网络模块分别做什么">02 · 五个网络模块，分别做什么</h2>
+<table><thead><tr><th>模块</th><th>输入 → 输出</th><th>它回答的问题</th></tr></thead><tbody><tr><td>编码器 h</td><td>观察 s → 潜在表示 z</td><td>怎样把环境信息变成网络使用的表示？</td></tr><tr><td>潜在动力学 d</td><td>z、动作 a → 下一潜在表示 z′</td><td>执行这个动作，接下来会怎样？</td></tr><tr><td>奖励模型 R</td><td>z、a → 预测即时奖励</td><td>这一步可能获得多少奖励？</td></tr><tr><td>价值网络 Q</td><td>z、a → 预测长期回报</td><td>从这里开始，后续可能获得多少折扣奖励？</td></tr><tr><td>策略先验 p</td><td>z → 候选动作分布</td><td>什么动作值得优先尝试？</td></tr></tbody></table>
+<p>论文将策略先验也列入整体架构，因此图中会出现“预测动作”。但动作由策略先验提出，下一状态由动力学模型预测，两者职责不同。<strong>Q值是回报估计，不是成功概率。</strong></p>
+<p>依据：<a href="https://arxiv.org/html/2310.16828v2#S3.SS1">原论文§3.1与Figure 3</a>、<a href="https://github.com/nicklashansen/tdmpc2/blob/57158282b46ebc5c329c5be9cfe2b0094126d1ca/tdmpc2/common/world_model.py">官方网络代码</a>。</p>
+<h2 id="03--每一个控制步如何规划动作">03 · 每一个控制步：如何规划动作</h2>
+<ol><li><strong>编码当前观察。</strong>用编码器获得当前潜在状态。</li><li><strong>生成候选动作序列。</strong>从可调整的高斯分布中采样，并加入策略先验生成的序列；前一步规划结果可用于初始化本次搜索。</li><li><strong>预测候选后果。</strong>动力学模型沿每个序列逐步推演，奖励模型预测各步奖励。</li><li><strong>估计总回报。</strong>把短期预测奖励与规划窗口末端的价值估计结合。</li><li><strong>迭代改进采样。</strong>根据高分候选及其权重更新采样分布，固定轮数地重复搜索。论文采用MPPI这种无需对动作求梯度的采样优化。</li><li><strong>执行首动作。</strong>从最终搜索结果选出动作，只执行序列第一步；下一控制步重新观察和规划。</li></ol>
+<div style="padding:18px 22px;background:#f8f5ec;border-left:4px solid #b8390e;border-radius:6px;font-size:18px;line-height:1.8"><strong>候选得分 ≈ 未来H步的折扣预测奖励 ＋ 第H步状态的折扣后续价值</strong><br><span style="font-size:15px;color:#555">概念式：G = Σ γᵏ R(zₖ,aₖ) + γᴴ Q(zᴴ,p(zᴴ))，其中k从0到H−1。实际实现还包含策略采样与Q集成等细节。</span></div>
+<p>这里的“末端”是<strong>规划窗口的末端</strong>，不是整项任务的结束。Q网络用来补充窗口之外的收益，所以短时域规划仍会考虑更远的未来；估计可能有误，并不保证找到最优动作。</p>
+<p>依据：<a href="https://arxiv.org/html/2310.16828v2#S3.SS2">原论文§3.2</a>、<a href="https://github.com/nicklashansen/tdmpc2/blob/57158282b46ebc5c329c5be9cfe2b0094126d1ca/tdmpc2/tdmpc2.py">固定版本官方规划代码：plan与_estimate_value</a>。</p>
+<h2 id="04--训练模型如何从不会到会">04 · 训练：模型如何从不会到会</h2>
+<p>单任务从头训练时，网络初始没有任务能力。先用随机动作收集初始经验，之后交替进行环境交互、经验保存与网络更新。<strong>不要求先有教师模型，也不要求先完成独立预训练阶段。</strong>论文另外研究了多任务离线训练与新任务适配，不能与单任务从头在线训练混为一谈。</p>
+<p>每次交互记录：<strong>当前观察s、实际动作a、真实奖励r、下一观察s′</strong>。数据进入经验回放池，训练时抽取连续片段。</p>
+<table><thead><tr><th>更新内容</th><th>学习目标</th><th>如何理解</th></tr></thead><tbody><tr><td>动力学与表示</td><td>预测的下一潜在表示接近真实下一观察的编码；目标分支停止梯度</td><td>让模型对动作后果的预测更一致</td></tr><tr><td>奖励预测</td><td>预测奖励接近环境给出的真实奖励</td><td>学会估计眼前收益</td></tr><tr><td>价值预测</td><td>学习“真实奖励＋折扣后的下一步目标价值”</td><td>从经验中逐步估计更长远的收益</td></tr><tr><td>策略先验</td><td>提高提出动作的Q估计，并保留动作多样性</td><td>更快地提出值得搜索的候选</td></tr></tbody></table>
+<p>编码器、动力学、奖励和价值模块通过联合目标学习；策略先验按自己的目标更新。目标Q网络采用缓慢移动平均更新，减轻学习目标的波动。策略先验<strong>不是默认通过模仿教师或照抄MPC动作训练的行为克隆模型</strong>。</p>
+<p>训练闭环：<strong>交互 → 保存经验 → 抽样更新 → 用更新后的模型继续规划 → 继续交互。</strong></p>
+<p>依据：<a href="https://github.com/nicklashansen/tdmpc2/blob/57158282b46ebc5c329c5be9cfe2b0094126d1ca/tdmpc2/trainer/online_trainer.py">官方在线训练器</a>、<a href="https://github.com/nicklashansen/tdmpc2/blob/57158282b46ebc5c329c5be9cfe2b0094126d1ca/tdmpc2/tdmpc2.py">官方更新函数：update与update_pi</a>。</p>
+<h2 id="05--为什么称为scalablerobust">05 · 为什么称为Scalable、Robust</h2>
+<table><thead><tr><th>关键设计</th><th>主要作用</th></tr></thead><tbody><tr><td>SimNorm</td><td>对潜在表示分组归一化，帮助稳定训练</td></tr><tr><td>奖励与价值的分布式回归</td><td>在变换后的数值区间上学习软分类目标，适应不同奖励尺度</td></tr><tr><td>Q网络集成与缓慢更新的目标网络</td><td>减轻价值估计偏差和训练波动</td></tr><tr><td>多任务嵌入与动作维度掩码</td><td>区分任务并支持不同观察、动作空间</td></tr></tbody></table>
+<p>这里的Robust主要对应算法训练和跨任务表现的稳健性，<strong>不等于接触安全保证</strong>。本文的重点是算法流程；这些机制是支撑它稳定运行和扩展的设计。依据：<a href="https://arxiv.org/html/2310.16828v2">原论文§3.1、§3.3及附录A</a>。</p>
+<h2 id="06--测试时还做哪些事情">06 · 测试时还做哪些事情</h2>
+<table><thead><tr><th>环节</th><th>训练阶段</th><th>常规评估阶段</th></tr></thead><tbody><tr><td>读取观察、编码</td><td>是</td><td>是</td></tr><tr><td>候选采样、模型推演、MPC搜索</td><td>初始随机收集之后使用</td><td>是</td></tr><tr><td>在环境执行动作</td><td>是</td><td>是</td></tr><tr><td>使用经验进行梯度更新</td><td>是</td><td>否</td></tr><tr><td>网络参数</td><td>随训练变化</td><td>固定</td></tr><tr><td>主要输出</td><td>模型权重、学习曲线、交互数据</td><td>回报、成功率、评估轨迹</td></tr></tbody></table>
+<p><strong>参数固定不等于动作固定。</strong>测试时MPC仍根据每一步的新观察重新计算动作。规划优化的是候选动作分布，而不是重新训练神经网络权重。</p>
+<p>评估要采用任务原生标准。HAB的“最终成功”不能仅用“曾抓住物体”替代；多任务比较还要区分各环境的回报和成功定义。依据：<a href="https://github.com/nicklashansen/tdmpc2/blob/57158282b46ebc5c329c5be9cfe2b0094126d1ca/tdmpc2/trainer/online_trainer.py">官方训练器中的eval</a>。</p>
+<h2 id="07--抓方块示例预测选择执行">07 · 抓方块示例：预测、选择、执行</h2>
+<p><strong>以下是解释性示例，不是实验结果，也不表示潜在状态可以直接解码成这些物理描述。</strong></p>
+<p>假设机械臂已经夹住方块，需要抬起并稳定保持：</p>
+<ol><li>编码器整理当前机器人和物体的观察信息。</li><li>策略先验提出向上抬的动作，规划器同时采样其他方向与幅度。</li><li>世界模型计算不同动作序列的潜在后果与奖励预测。</li><li>价值网络补充短期预测之后的收益，MPC据此进行搜索和选择。</li><li>仿真器执行首动作，返回物体实际运动与真实奖励。</li><li>训练时，用实际数据改进网络；测试时，只记录结果并继续规划。</li></ol>
+<p>物体会不会掉落，最终需要看环境中的实际执行。世界模型预测不是事实，也不是安全证明。</p>
+<h2 id="08--与我们的课题怎么衔接">08 · 与我们的课题怎么衔接</h2>
+<table><thead><tr><th>层次</th><th>原论文已有内容</th><th>我们的工作定位</th></tr></thead><tbody><tr><td>基础算法</td><td>潜在动力学、奖励、Q、策略先验与MPC</td><td>建立原方法基线</td></tr><tr><td>仿真任务</td><td>包括Meta-World、ManiSkill2等</td><td>当前项目适配Meta-World与ManiSkill-HAB；HAB不是原论文同一基准</td></tr><tr><td>新的候选评价</td><td>原版按预测回报进行搜索评价</td><td>拟加入动作后果评分与相对排序监督，尚待实现验证</td></tr><tr><td>额外分支数据</td><td>原版规划使用神经网络推演</td><td>我们拟在数据采集阶段从同一仿真状态实际执行替代动作，获得结果标签</td></tr></tbody></table>
+<div class="callout callout-info"><div class="callout-title">Note</div><p>新方案的研究问题：在相同候选与数据预算下，世界模型预测表示能否帮助选择更可能最终完成任务的动作？第一版冻结基础模型，主要改进候选评价与选择，不能直接声称改进了世界模型本体的训练方法。</p></div>
+<p><strong>当前报告讲解原论文算法，不报告服务器实时进度，也不把拟议改进写成已完成成果。</strong></p>
+<h2 id="09--汇报时可直接使用的讲解稿">09 · 汇报时可直接使用的讲解稿</h2>
+<p>TD-MPC2通过环境交互学习一个服务于控制的潜在世界模型。机器人每一步先读取当前观察，再产生多组候选动作序列。世界模型预测这些动作的短期后果与奖励，价值网络补充更远的收益，MPC经过多轮采样比较后选出动作，只执行第一步，再根据新观察重新规划。</p>
+<p>训练时，真实交互数据进入经验回放池，用于更新动力学、奖励、价值和策略先验；测试时网络参数固定，但规划持续进行。我们希望在这套框架上研究更准确的动作后果评价，让机器人在接触约束下更可靠地完成任务，而不仅是获得较高的预测回报。</p>
+<h2 id="10--论文代码与阅读顺序">10 · 论文、代码与阅读顺序</h2>
+<ul><li><a href="https://arxiv.org/pdf/2310.16828v2">论文PDF：arXiv v2</a></li><li><a href="https://arxiv.org/html/2310.16828v2">论文网页版</a></li><li><a href="https://www.tdmpc2.com/">作者项目：视频、数据与模型</a></li><li><a href="https://github.com/nicklashansen/tdmpc2">官方GitHub仓库</a></li><li><a href="https://github.com/nicklashansen/tdmpc2/tree/57158282b46ebc5c329c5be9cfe2b0094126d1ca">本报告对应的固定代码版本</a></li></ul>
+<p><strong>推荐阅读顺序：Figure 3 → §3.1网络与训练 → §3.2规划 → §3.3多任务扩展 → 附录H实现细节。</strong></p>
+<p>本报告为中文教学整理，并非作者原文译稿。报告正文和流程图可离线阅读；访问论文与代码链接需要联网。浏览器中按Ctrl+P可打印或另存为PDF。</p>
+
+<footer class="aris-footer">
+  Generated by <a href="https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/render-html/SKILL.md">ARIS <code>/render-html</code></a> ·
+  source path <code>TD-MPC2算法流程汇报.md</code> ·
+  SHA256 <code>dc87295d6bc9</code> ·
+  generated at 2026-09-10 07:52 UTC.
+  This is a generated view — edit the source Markdown, then re-render.
+</footer>
+</main>
+
+</div>
+</body>
+</html>
