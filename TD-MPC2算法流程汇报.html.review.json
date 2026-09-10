@@ -3,15 +3,17 @@
   "review_mode": "render-html --no-review",
   "review_independence": "none",
   "acceptance_status": "not_independently_reviewed",
-  "source_sha256": "32f7608abdce6b6a2f08ee15f707a82c3ecbd90e35e604b4b2f28c4fe687e561",
+  "source_sha256": "415eaec307c2d83b742906e27dc204281e483569e01dbb072838067d0ec65bb9",
   "local_validation": {
     "source_hash_match": true,
-    "sections": 13,
-    "tables": 10,
+    "sections": 16,
+    "tables": 13,
     "desktop_overflow": false,
     "mobile_overflow": false,
     "page_errors": 0,
-    "raw_markdown_headings": false
+    "raw_markdown_headings": false,
+    "broken_toc_anchors": 0,
+    "original_figure_loads_offline": true
   },
-  "note": "Previous-version independent review archived. This documentation expansion was source-checked and browser-validated by the editing agent; it was not re-reviewed by a separate agent."
+  "note": "Validated against the user-provided paper and in desktop/mobile browser views by the editing agent. No new independent review. The generator embeds one allowlisted local PNG after Markdown sanitization."
 }
