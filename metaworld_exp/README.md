@@ -1,5 +1,7 @@
 # Meta-World 抓取放置实验
 
+[返回项目首页](../README.md) · [实验与报告索引](../docs/实验与报告索引.md)。本目录属于历史 V3 示范辅助实验，已入库报告主要覆盖早期阶段；最终数据交付状态见 [发布索引](../docs/数据与发布索引.md)。V2 原方法 50 万步结果在 [tdmpc2_original](../tdmpc2_original/README.md)。
+
 将本项目的示范辅助 TD-MPC2 迁移到 Meta-World `pick-place-v3`：Sawyer 机械臂抓住桌上物体，将其移至目标位置。使用状态输入，不需要 LLM API、相机训练数据或真实机器人。
 
 **当前为独立单任务先导实验。** Meta-World 3.1.1 / MuJoCo 3.3.0 / Gymnasium 1.1.1；不是原 TD-MPC2 论文的 V2 配置，不宣称复现原论文结果，也不是完整 MT1/MT50 基准。现有 ManiSkill 实验不受此依赖覆盖层影响。

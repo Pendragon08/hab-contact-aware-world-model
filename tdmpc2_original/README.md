@@ -1,5 +1,7 @@
 # TD-MPC2 原方法：Meta-World Pick-Place V2
 
+[返回项目首页](../README.md) · [实验索引](../docs/实验与报告索引.md)。本轮已于 2026-09-09 完成，最终末步成功 8/10；[完整结果及归档状态](reports/50万步复现结果.md)。下文保留本轮实际执行协议。
+
 算法解释：[算法流程、训练评估与复现边界](reports/算法流程与复现边界.md)。当前 V2 结果属于原方法复现，尚无自研算法改进。
 
 演示已导出：打开 [最终模型演示页面](../MetaWorld原版世界模型演示.html)，或下载 [离线演示包](https://github.com/Pendragon08/hab-contact-aware-world-model/releases/tag/v0.5.0-metaworld-original-demo)。含三个固定种子的成功补录及原始失败视频；补录不计入正式 8/10 成绩。
@@ -69,4 +71,4 @@ bash tdmpc2_original/run.sh train
 - [Meta-World 固定版本](https://github.com/Farama-Foundation/Metaworld/tree/04be337a12305e393c0caf0cbf5ec7755c7c8feb)
 - [官方 Pick-Place 原始曲线](https://github.com/nicklashansen/tdmpc2/blob/57158282b46ebc5c329c5be9cfe2b0094126d1ca/results/mw-pick-place.csv)
 
-本文件记录的是执行协议，不代表实验已经通过验证或训练完成；实际状态见 `reports/`。
+本文件记录执行协议；完成情况、评估数据及全量归档交付范围以 [结果报告](reports/50万步复现结果.md) 为准。

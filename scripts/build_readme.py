@@ -1,4 +1,5 @@
-"""Render the final Chinese README only from completed, audited experiment files."""
+"""Render the historical v0.2 report; the root README is maintained manually."""
+import re
 import json
 from pathlib import Path
 root=Path(__file__).resolve().parents[1]
@@ -82,5 +83,11 @@ lines+=['','![训练损失](reports/state_pilot/training.png)','',
         'history/           原有实验的历史源码与修复记录',
         'artifacts/         下载 Release 后的全部原始数据（不进入 Git 历史）',
         '```','']
-(root/'README.md').write_text('\n'.join(lines),encoding='utf-8')
-print('README_RENDERED_FROM_AUDITED_RESULTS')
+output = root / 'history/readme/contact_state_v02_generated.md'
+output.parent.mkdir(parents=True, exist_ok=True)
+content = '\n'.join(lines)
+# Links were authored relative to the repository root.
+content = re.sub(r'\]\((?!https?://|#)([^)]+)\)', r'](../../\1)', content)
+header = '> Historical v0.2 report only. Current navigation: [README](../../README.md).\n\n'
+output.write_text(header + content, encoding='utf-8')
+print('HISTORICAL_V02_REPORT_RENDERED:', output)
