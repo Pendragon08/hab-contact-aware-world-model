@@ -7,8 +7,8 @@
 
 <meta name="generator" content="ARIS render-html (academic, v1)">
 <meta name="aris:source-path" content="TD-MPC2算法流程汇报.md">
-<meta name="aris:source-sha256" content="dc87295d6bc9f9c809696f7729bbaa9f7df327bfe2b93e3e718c606e43e2d562">
-<meta name="aris:generated-at" content="2026-09-10 07:52 UTC">
+<meta name="aris:source-sha256" content="32f7608abdce6b6a2f08ee15f707a82c3ecbd90e35e604b4b2f28c4fe687e561">
+<meta name="aris:generated-at" content="2026-09-10 08:21 UTC">
 
 <!-- offline mode: MathJax + highlight.js skipped; math and code blocks render as plain text -->
 
@@ -330,6 +330,24 @@ footer.aris-footer a { color: var(--ink-muted); border-bottom: 1px dotted var(--
 </li>
 <li><a href="#10--论文代码与阅读顺序">10 · 论文、代码与阅读顺序</a>
 </li>
+<li><a href="#11--104项任务四类仿真平台分别测什么">11 · 104项任务：四类仿真平台分别测什么</a>
+<ul>
+<li><a href="#dmcontrol运动平衡与基础控制">DMControl：运动、平衡与基础控制</a></li>
+<li><a href="#meta-world同一机械臂上的多种操作">Meta-World：同一机械臂上的多种操作</a></li>
+<li><a href="#maniskill2多物体强接触的操作技能">ManiSkill2：多物体、强接触的操作技能</a></li>
+<li><a href="#myosuite肌肉驱动的灵巧操作">MyoSuite：肌肉驱动的灵巧操作</a></li>
+</ul>
+</li>
+<li><a href="#12--有哪些公开数据环境示范和离线回放">12 · 有哪些公开数据：环境、示范和离线回放</a>
+</li>
+<li><a href="#13--论文怎样测试流程指标和统计方式">13 · 论文怎样测试：流程、指标和统计方式</a>
+<ul>
+<li><a href="#131-一次评估的具体步骤">13.1 一次评估的具体步骤</a></li>
+<li><a href="#132-各平台的回合长度与主要指标">13.2 各平台的回合长度与主要指标</a></li>
+<li><a href="#133-指标到底怎么计算">13.3 指标到底怎么计算</a></li>
+<li><a href="#134-汇报时怎样避免误读结果">13.4 汇报时怎样避免误读结果</a></li>
+</ul>
+</li>
 </ol>
 </nav>
 
@@ -337,18 +355,19 @@ footer.aris-footer a { color: var(--ink-muted); border-bottom: 1px dotted var(--
 <header class="hero">
   <div class="eyebrow">论文解读 · ICLR 2024 · 中文汇报版</div>
   <h1>TD-MPC2 算法流程｜训练与测试</h1>
-  <p class="subtitle">从世界模型预测，到机器人动作选择</p>
+  <p class="subtitle">算法原理 · 四类仿真平台与公开数据 · 评估流程与指标</p>
   
   <div class="meta">
     <span><strong>Source:</strong> <code>TD-MPC2算法流程汇报.md</code></span>
-    <span><strong>SHA256:</strong> <code>dc87295d6bc9</code></span>
-    <span><strong>Rendered:</strong> 2026-09-10 07:52 UTC</span>
+    <span><strong>SHA256:</strong> <code>32f7608abdce</code></span>
+    <span><strong>Rendered:</strong> 2026-09-10 08:21 UTC</span>
     
   </div>
 </header>
 
 <h1 id="td-mpc2算法流程训练与测试">TD-MPC2：算法流程、训练与测试</h1>
 <p><strong>论文：</strong> TD-MPC2: Scalable, Robust World Models for Continuous Control <strong>作者：</strong> Nicklas Hansen、Hao Su、Xiaolong Wang <strong>发表：</strong> ICLR 2024 · 解读依据：arXiv v2及官方实现 · 整理日期：2026年9月10日</p>
+<p><strong>本次补充：</strong> 第11节介绍104项连续控制任务与四类仿真平台；第12节区分环境、物体资产、示范数据及MT80/MT30；第13节详细说明评估步骤、指标和论文实验预算。</p>
 <div class="callout callout-info"><div class="callout-title">Tip</div><p>汇报主线：机器人先在学到的模型中比较候选动作的后果，再进入环境执行；训练时利用真实反馈继续改进模型。世界模型负责预测，策略先验提出候选，MPC负责搜索和选择。</p></div>
 <h2 id="01--一页理解整个算法">01 · 一页理解整个算法</h2>
 <p>TD-MPC2是一套基于模型的强化学习算法。它学习对控制有用的潜在表示，在这个表示空间中推演动作后果，无需把未来状态解码成图像或视频。</p>
@@ -393,12 +412,59 @@ footer.aris-footer a { color: var(--ink-muted); border-bottom: 1px dotted var(--
 <ul><li><a href="https://arxiv.org/pdf/2310.16828v2">论文PDF：arXiv v2</a></li><li><a href="https://arxiv.org/html/2310.16828v2">论文网页版</a></li><li><a href="https://www.tdmpc2.com/">作者项目：视频、数据与模型</a></li><li><a href="https://github.com/nicklashansen/tdmpc2">官方GitHub仓库</a></li><li><a href="https://github.com/nicklashansen/tdmpc2/tree/57158282b46ebc5c329c5be9cfe2b0094126d1ca">本报告对应的固定代码版本</a></li></ul>
 <p><strong>推荐阅读顺序：Figure 3 → §3.1网络与训练 → §3.2规划 → §3.3多任务扩展 → 附录H实现细节。</strong></p>
 <p>本报告为中文教学整理，并非作者原文译稿。报告正文和流程图可离线阅读；访问论文与代码链接需要联网。浏览器中按Ctrl+P可打印或另存为PDF。</p>
+<h2 id="11--104项任务四类仿真平台分别测什么">11 · 104项任务：四类仿真平台分别测什么</h2>
+<p><strong>连续控制</strong>是指动作通常由连续数值组成，例如机械臂末端的位移、关节控制量或肌肉激活强度，而不是只在“左、右、停止”等几个离散按钮中选择。不同任务的动作维度、动力学、接触方式和奖励尺度不同，正是TD-MPC2要应对的差异。</p>
+<div style="padding:20px;border:1px solid #cbd9ec;border-radius:10px;background:#eef4fb;text-align:center;font-size:20px;line-height:1.8"><strong>104项任务 = DMControl 39 ＋ Meta-World 50 ＋ ManiSkill2 5 ＋ MyoSuite 10</strong><br><span style="font-size:15px">这是TD-MPC2论文选取的测试范围，不是四个平台全部功能或当前最新版本的任务总数。</span></div>
+<h3 id="dmcontrol运动平衡与基础控制">DMControl：运动、平衡与基础控制</h3>
+<p><a href="https://arxiv.org/abs/1801.00690">DeepMind Control Suite（Tassa等，2018）</a>建立在MuJoCo上。典型任务包括倒立摆平衡、摆杆上摆、到达目标、Cheetah奔跑、Walker行走，以及Dog和Humanoid运动。它适合研究动力学学习、探索、不同动作维度与奖励稀疏程度下的控制能力。</p>
+<p>TD-MPC2选取39项，其中包含作者加入的自定义任务，例如反向行走、跳跃和三连杆到达。<strong>这些扩展需要使用论文配套代码，不能假设安装标准DMControl就全部具备。</strong>状态输入包括关节位置、速度、身体姿态等，维度随任务变化；例如论文Dog任务为223维观测、38维动作。论文另做10项DMControl任务的视觉输入实验，不意味着全部104项都采用视觉输入。</p>
+<p><strong>数据与资源：</strong>平台首先提供可交互环境和模型资产，在线训练轨迹由算法自行产生；TD-MPC2还公开了包含DMControl任务的离线回放数据，见第12节。<a href="https://github.com/google-deepmind/dm_control">官方代码</a>提供环境、MuJoCo接口、查看器及自定义任务工具。</p>
+<h3 id="meta-world同一机械臂上的多种操作">Meta-World：同一机械臂上的多种操作</h3>
+<p><a href="https://arxiv.org/abs/1910.10897">Meta-World（Yu等，2019）</a>面向多任务与元强化学习，围绕Sawyer机械臂设计操作任务，例如抓取放置、开关门、抽屉、按按钮、插接和工具操作。统一机器人结构便于研究技能共享与任务迁移。</p>
+<p>TD-MPC2使用50项任务；其固定版本均为39维状态、4维动作。动作控制末端三个方向的移动和夹爪。<strong>本项目使用的是V2 goal-observable接口，不能直接用当前V3结果替换。</strong>平台的MT10/MT50与ML1/ML10/ML45等是不同的任务/训练测试协议，不是五个下载数据集；论文单任务实验也不等同于直接完成Meta-World的元学习协议。</p>
+<p><strong>数据与资源：</strong><a href="https://github.com/Farama-Foundation/Metaworld">官方仓库</a>提供环境与脚本策略等工具，可生成示范；TD-MPC2公开MT80中也有Meta-World交互数据。我们的Pick-Place V2基线从头交互训练，没有使用脚本专家示范。</p>
+<h3 id="maniskill2多物体强接触的操作技能">ManiSkill2：多物体、强接触的操作技能</h3>
+<p><a href="https://arxiv.org/abs/2302.04659">ManiSkill2（Gu等，2023）</a>以SAPIEN为基础，平台覆盖固定/移动底座、单/双臂、刚体/软体等操作，支持状态、RGB-D和点云等观测。原平台公开20类技能、2,000多个物体模型与400多万帧示范，适合模仿学习和物体泛化研究。<strong>平台具有这些模态，不表示TD-MPC2本次接口使用了全部模态。</strong><a href="https://maniskill2.github.io/">官方项目与下载入口</a></p>
+<p>TD-MPC2只选以下5项，并使用状态输入：</p>
+<table><thead><tr><th>论文任务</th><th>要完成的动作</th><th style="text-align:right">观测维度</th><th style="text-align:right">动作维度</th></tr></thead><tbody><tr><td>Lift Cube</td><td>抬起方块</td><td style="text-align:right">42</td><td style="text-align:right">4</td></tr><tr><td>Pick Cube</td><td>抓取并移到目标位置</td><td style="text-align:right">51</td><td style="text-align:right">4</td></tr><tr><td>Pick YCB</td><td>操作不同YCB物体</td><td style="text-align:right">51</td><td style="text-align:right">7</td></tr><tr><td>Stack Cube</td><td>堆叠方块</td><td style="text-align:right">55</td><td style="text-align:right">4</td></tr><tr><td>Turn Faucet</td><td>转动水龙头</td><td style="text-align:right">40</td><td style="text-align:right">7</td></tr></tbody></table>
+<p>本固定实现中4维控制是末端位置增量与夹爪，7维还包含姿态增量。Pick YCB涉及论文使用的74个YCB物体，但在104项统计中仍算<strong>一个任务</strong>，不是74个额外任务。YCB是物体资产集合，示范轨迹是另一类数据；二者不能混为一谈。原论文的ManiSkill2也不是我们后续采用的ManiSkill-HAB。</p>
+<h3 id="myosuite肌肉驱动的灵巧操作">MyoSuite：肌肉驱动的灵巧操作</h3>
+<p><a href="https://arxiv.org/abs/2205.13600">MyoSuite（Caggiano等，2022）</a>使用MuJoCo模拟生理结构较真实的肌肉骨骼系统。与直接给机械关节发动作不同，肌肉驱动带来多执行器协调和复杂接触问题；整个平台还支持疲劳、辅助装置等研究，但不能声称TD-MPC2评估了这些全部功能。</p>
+<p>TD-MPC2选取手部到达、姿态匹配、转笔、持物和转钥匙五类任务，各设Easy与Hard，共10项。Easy采用固定目标，Hard采用随机目标；论文所选任务为39维动作、83至115维状态观测。它主要考察高维控制、灵巧接触和目标变化。</p>
+<p><strong>数据与资源：</strong><a href="https://github.com/MyoHub/myosuite">官方仓库</a>提供肌肉骨骼模型和环境；<a href="https://huggingface.co/nicklashansen/tdmpc2/tree/main/myosuite">TD-MPC2的MyoSuite模型目录</a>提供相应权重入口。本次核查没有确认一个覆盖论文全部10项的统一官方离线轨迹包；需要数据时应查明具体任务版本，或在环境中自行采集，不能把模型权重当作数据集。</p>
+<p>任务数量、论文接口维度与评估范围依据<a href="https://arxiv.org/html/2310.16828v2#A3">TD-MPC2附录C、表2—6</a>；平台一般特征依据各自原论文与官方项目。原论文个别说明的维度口径可能与当前环境不同，实际复现实验需固定代码并记录运行时空间，避免跨版本套用。</p>
+<h2 id="12--有哪些公开数据环境示范和离线回放">12 · 有哪些公开数据：环境、示范和离线回放</h2>
+<p><strong>仿真环境不是静态数据集。</strong>环境可执行动作并产生新观察、奖励及任务信号；数据集则是已经记录好的轨迹。下载公开数据适用于离线强化学习或模仿学习，从头在线强化学习通常自行收集经验。</p>
+<table><thead><tr><th>数据/资源</th><th>具体包含什么</th><th>可用于什么</th><th>与当前实验的关系</th></tr></thead><tbody><tr><td>环境交互轨迹</td><td>按回合组织的状态、动作、奖励、下一状态及任务/结束信息；实际字段依导出格式</td><td>在线RL回放、离线训练、失败分析</td><td>我们的Meta-World基线自行采集</td></tr><tr><td>ManiSkill2示范</td><td>多种操作任务的成功示范；官方工具支持下载和回放</td><td>行为克隆、模仿学习、示范辅助RL</td><td>TD-MPC2单任务在线实验不因此自动使用它</td></tr><tr><td>YCB等物体资产</td><td>几何、外观及仿真对象资源</td><td>搭建环境、物体变化测试</td><td>不等于带动作和奖励的训练轨迹</td></tr><tr><td>TD-MPC2模型权重</td><td>已训练网络参数</td><td>推理、复核控制效果、新任务适配</td><td>我们本轮从随机权重开始</td></tr></tbody></table>
+<p><strong>TD-MPC2官方公开的两个主要离线数据集：</strong></p>
+<table><thead><tr><th>数据集</th><th>任务组成</th><th style="text-align:right">转移数量</th><th>数据性质</th><th>下载入口</th></tr></thead><tbody><tr><td>MT80</td><td>30项DMControl＋50项Meta-World</td><td style="text-align:right">545M，约5.45亿</td><td>训练过程回放，包含随机到高水平的混合质量行为</td><td><a href="https://huggingface.co/datasets/nicklashansen/tdmpc2/tree/main/mt80">MT80文件</a></td></tr><tr><td>MT30</td><td>30项DMControl</td><td style="text-align:right">345M，约3.45亿</td><td>同类控制交互回放</td><td><a href="https://huggingface.co/datasets/nicklashansen/tdmpc2/tree/main/mt30">MT30文件</a></td></tr></tbody></table>
+<p>数据来自240个单任务agent的回放，不是全是专家示范，也不是互联网视频。两者具有任务重叠，不能把转移数量相加后当作互不重叠的总数据量；它们也不是104项任务的完整公开轨迹合集。官方文件采用分块<code>.pt</code>存储，使用时按官方离线加载器核对格式、任务映射和回合边界。</p>
+<p>来源：<a href="https://huggingface.co/datasets/nicklashansen/tdmpc2">作者数据卡</a>、<a href="https://github.com/nicklashansen/tdmpc2/tree/57158282b46ebc5c329c5be9cfe2b0094126d1ca/tdmpc2">官方任务集合与加载代码</a>。数据卡的大小描述与仓库显示的总占用不完全一致，因此这里不把某个下载GB数字作为固定承诺。</p>
+<p><strong>三类实验要分开讲：</strong>104项任务测试单任务在线学习能力；MT80/MT30测试一个模型在已有多任务数据上的学习与扩展；留出新任务后的在线微调测试迁移能力。我们的50万步Pick-Place只是第一类中的一项缩减预算复现。</p>
+<h2 id="13--论文怎样测试流程指标和统计方式">13 · 论文怎样测试：流程、指标和统计方式</h2>
+<h3 id="131-一次评估的具体步骤">13.1 一次评估的具体步骤</h3>
+<ol><li><strong>确定检查点与协议。</strong>固定任务版本、观测和控制接口、动作重复次数、回合长度及训练预算。</li><li><strong>冻结网络参数。</strong>切换评估模式，不执行优化器更新，不把评估轨迹加入训练回放；多任务模型还需输入对应任务标识。</li><li><strong>重置环境并完整执行。</strong>每一步仍通过世界模型与MPC规划。2024固定实现按回合长度结束，不因为中途成功就提前停止。</li><li><strong>保存两类实际信号。</strong>累加环境奖励；记录回合末步的任务成功标志。它们来自环境实际执行，不来自世界模型预测分数。</li><li><strong>重复多个回合。</strong>固定官方配置默认每次10个评估回合；在线训练器默认每50,000次决策触发一次评估，并在回合边界执行。动作重复为2时对应约100,000原生环境步，具体配置可以不同。</li><li><strong>重复独立训练种子。</strong>原论文主要单任务曲线报告3个训练种子的均值与95%置信区间。10个评估回合不能代替3次独立训练。</li></ol>
+<p><code>eval_mode=True</code>关闭额外训练探索噪声，但MPPI候选采样和精英抽取仍可能随机，因此不能把评估称为完全确定性执行。独立测试还需要明确固定起点与随机种子，避免挑选成功视频代替完整评估。</p>
+<p>流程直接核对：<a href="https://github.com/nicklashansen/tdmpc2/blob/57158282b46ebc5c329c5be9cfe2b0094126d1ca/tdmpc2/trainer/online_trainer.py">2024固定版OnlineTrainer.eval</a>、<a href="https://github.com/nicklashansen/tdmpc2/blob/57158282b46ebc5c329c5be9cfe2b0094126d1ca/tdmpc2/config.yaml">配置</a>、<a href="https://github.com/nicklashansen/tdmpc2/blob/57158282b46ebc5c329c5be9cfe2b0094126d1ca/tdmpc2/trainer/offline_trainer.py">多任务评估</a>。这里介绍2024论文协议，不能套用后来新增的episodic任务逻辑。</p>
+<h3 id="132-各平台的回合长度与主要指标">13.2 各平台的回合长度与主要指标</h3>
+<p>下表“回合配置”依次为：<strong>原生步数 / 动作重复次数 / 决策次数</strong>。</p>
+<table><thead><tr><th>平台</th><th>回合配置</th><th>论文训练预算</th><th>主要任务指标</th></tr></thead><tbody><tr><td>DMControl</td><td>1,000 / 2 / 500</td><td>通常4M；Humanoid与Dog等运动任务14M</td><td>回合累计回报</td></tr><tr><td>Meta-World</td><td>200 / 2 / 100</td><td>2M</td><td>末步成功率</td></tr><tr><td>ManiSkill2</td><td>200 / 2 / 100</td><td>通常4M；Pick YCB为14M</td><td>末步成功率</td></tr><tr><td>MyoSuite</td><td>100 / 1 / 100</td><td>2M</td><td>末步成功率</td></tr></tbody></table>
+<p>M代表百万原生环境步。这些是论文表6的预算，不是我们已经跑完的实验数量。当前Meta-World单任务50万步是论文该平台200万步预算的四分之一，且只完成一个训练种子。原生环境步还不能直接换算成MuJoCo内部最细积分子步。</p>
+<h3 id="133-指标到底怎么计算">13.3 指标到底怎么计算</h3>
+<table><thead><tr><th>指标</th><th>计算方式</th><th>能说明什么、不能说明什么</th></tr></thead><tbody><tr><td>平均回合回报</td><td>每个回合G=各步真实奖励之和；再对评估回合求平均</td><td>衡量任务奖励完成程度；不是成功概率，跨奖励尺度不能直接比较</td></tr><tr><td>末步成功率</td><td>最后一步成功的回合数 ÷ 评估回合数 ×100%</td><td>反映完整回合结束时达成目标的比例；中途成功后掉落仍记失败</td></tr><tr><td>归一化综合分数</td><td>多任务实验将DMControl回报换到0—100尺度，与Meta-World百分制成功率按任务平均</td><td>方便汇总不同任务；不能解释为所有任务统一的成功概率</td></tr><tr><td>学习曲线与数据效率</td><td>在相同环境步数下比较回报/成功率，或比较达到固定目标所需步数</td><td>判断学习速度；不能用不同预算的终点强行比较</td></tr><tr><td>多种子均值与95%区间</td><td>对独立训练重复的任务表现进行汇总与不确定性报告</td><td>描述结果波动；我们单种子8/10尚不能提供同等证据</td></tr><tr><td>运行成本（辅助）</td><td>训练耗时、GPU使用，以及必要时单步规划时延</td><td>衡量资源与部署成本；不替代任务效果指标</td></tr></tbody></table>
+<p><strong>例子A：</strong>10个完整抓取回合中，8个最后一步成功，末步成功率是80%；若9个曾经成功，但其中1个后来掉落，曾成功率为90%，论文的主成功率仍是80%。本例仅解释口径，不是补充实验数据。</p>
+<p><strong>例子B：</strong>在按0—1每步奖励、1,000步回合评估的DMControl任务上，回报800可以按该范围归一化为80分；这不意味着“100次尝试有80次成功”。规划内部使用折扣价值，而日志中回合回报是环境奖励的累计，两者也要区分。</p>
+<p><strong>成功条件来自各任务环境。</strong>Meta-World读取<code>info[&#x27;success&#x27;]</code>；ManiSkill2读取相应任务的<code>success</code>；MyoSuite固定适配器把<code>info[&#x27;solved&#x27;]</code>映射为<code>success</code>。阈值与条件随任务变化，不存在一个“距离小于某个常数”适用于全部104项任务的统一标准。DMControl主要使用回报，不应凭空给它增加同名抓取成功率。</p>
+<p>上述末步口径和回合参数依据<a href="https://arxiv.org/html/2310.16828v2#A3">论文附录C</a>，跨任务分数依据<a href="https://arxiv.org/html/2310.16828v2#S4.SS1">§4.1</a>；成功标志实现依据固定版本<a href="https://github.com/nicklashansen/tdmpc2/tree/57158282b46ebc5c329c5be9cfe2b0094126d1ca/tdmpc2/envs">环境适配代码</a>。</p>
+<h3 id="134-汇报时怎样避免误读结果">13.4 汇报时怎样避免误读结果</h3>
+<p><strong>训练损失降低、模型预测奖励变高、视频看起来流畅，都不能单独证明任务成功。</strong>应报告实际环境结果、完整回合数量、训练种子、预算和任务版本，并把最终检查点与中途最佳检查点分开。</p>
+<p>我们的Meta-World基线是50万步、单种子、终点评估8/10；没有执行完整104项任务。HAB另外涉及累计接触力等任务条件，不能把这些指标声称为原论文四平台统一采用的标准。后续研究可以增加力超限率、曾成功与末步成功差距、p95规划时延等，但必须标为新增评价维度，并保留原生指标。</p>
 
 <footer class="aris-footer">
   Generated by <a href="https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/render-html/SKILL.md">ARIS <code>/render-html</code></a> ·
   source path <code>TD-MPC2算法流程汇报.md</code> ·
-  SHA256 <code>dc87295d6bc9</code> ·
-  generated at 2026-09-10 07:52 UTC.
+  SHA256 <code>32f7608abdce</code> ·
+  generated at 2026-09-10 08:21 UTC.
   This is a generated view — edit the source Markdown, then re-render.
 </footer>
 </main>

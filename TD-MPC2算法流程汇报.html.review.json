@@ -1,17 +1,17 @@
 {
-  "verdict": "PASS",
-  "review_independence": "same-family",
-  "acceptance_status": "provisional",
-  "checks": {
-    "source_hash_match": "pass",
-    "information_fidelity": "pass",
-    "structure": "pass",
-    "math_code_tables": "pass",
-    "callouts": "pass",
-    "safety_escaping": "pass",
-    "placeholder_leak": "pass"
+  "verdict": "NOT_REQUESTED",
+  "review_mode": "render-html --no-review",
+  "review_independence": "none",
+  "acceptance_status": "not_independently_reviewed",
+  "source_sha256": "32f7608abdce6b6a2f08ee15f707a82c3ecbd90e35e604b4b2f28c4fe687e561",
+  "local_validation": {
+    "source_hash_match": true,
+    "sections": 13,
+    "tables": 10,
+    "desktop_overflow": false,
+    "mobile_overflow": false,
+    "page_errors": 0,
+    "raw_markdown_headings": false
   },
-  "blocking_issues": [],
-  "warnings": [],
-  "summary": "The embedded source SHA256 exactly matches the current Markdown. All ten numbered sections, all five tables, both ordered lists, all links, the two routed information callouts, the control-loop diagram, and the formula panel are retained in usable HTML. No raw Markdown, unreplaced placeholder, source-injected script or event handler, unsafe URL scheme, or forbidden active element was found; inline template CSS and generated metadata are expected. Independent browser checks also confirmed that the diagram is visible and that desktop and mobile layouts have no overflow or page errors."
+  "note": "Previous-version independent review archived. This documentation expansion was source-checked and browser-validated by the editing agent; it was not re-reviewed by a separate agent."
 }
