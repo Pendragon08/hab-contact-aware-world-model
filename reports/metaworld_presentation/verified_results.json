@@ -1,0 +1,133 @@
+{
+  "source": "hab_tdmpc2_original/reports/verified-evidence.json",
+  "source_sha256": "90c1b4225c05bfb93c005258417659d264dee45d8026cdc72b10ad370dedaf09",
+  "complete": {
+    "train_decisions": 250000,
+    "train_native_steps": 500000,
+    "eval_decisions": 6000,
+    "reset_extra_native_steps": 2560,
+    "training_seed": 1,
+    "final_eval": {
+      "episode_reward": "1318.8943",
+      "episode_success": 0.8,
+      "step": 250000,
+      "episode": 2499,
+      "total_time": 14631.625026226044
+    },
+    "seconds": 14631.6518907547,
+    "upstream_commit": "57158282b46ebc5c329c5be9cfe2b0094126d1ca",
+    "claim": "reduced-budget original-method reproduction; not full paper result reproduction"
+  },
+  "stages": [
+    {
+      "episode_reward": 1.3324402570724487,
+      "episode_success": 0.0,
+      "step": 0,
+      "episode": 0,
+      "total_time": 24.67660355567932,
+      "category": "eval",
+      "train_decisions": 0,
+      "train_native_steps": 0
+    },
+    {
+      "episode_reward": 47.100860595703125,
+      "episode_success": 0.0,
+      "step": 50000,
+      "episode": 499,
+      "total_time": 3033.4224166870117,
+      "category": "eval",
+      "train_decisions": 50000,
+      "train_native_steps": 100000
+    },
+    {
+      "episode_reward": 945.7108154296875,
+      "episode_success": 0.6,
+      "step": 100000,
+      "episode": 999,
+      "total_time": 5928.972426652908,
+      "category": "eval",
+      "train_decisions": 100000,
+      "train_native_steps": 200000
+    },
+    {
+      "episode_reward": 1366.7261962890625,
+      "episode_success": 0.9,
+      "step": 150000,
+      "episode": 1499,
+      "total_time": 8825.576399564743,
+      "category": "eval",
+      "train_decisions": 150000,
+      "train_native_steps": 300000
+    },
+    {
+      "episode_reward": 1473.14599609375,
+      "episode_success": 0.9,
+      "step": 200000,
+      "episode": 1999,
+      "total_time": 11730.171407222748,
+      "category": "eval",
+      "train_decisions": 200000,
+      "train_native_steps": 400000
+    },
+    {
+      "episode_reward": 1318.894287109375,
+      "episode_success": 0.8,
+      "step": 250000,
+      "episode": 2499,
+      "total_time": 14631.625026226044,
+      "category": "eval",
+      "train_decisions": 250000,
+      "train_native_steps": 500000
+    }
+  ],
+  "supplementary_demo": {
+    "purpose": "Supplementary fixed-seed final-checkpoint demo, excluded from original 8/10 evaluation",
+    "checkpoint_sha256": "054f8e46cffa10c53c6a08d7489b1cb129797a6f0f6bea682c7e632534b082c9",
+    "checkpoint_unchanged": true,
+    "optimizer_updates": 0,
+    "seeds": [
+      101,
+      102,
+      103
+    ],
+    "episodes": [
+      {
+        "seed": 101,
+        "success_at_end": true,
+        "success_once": true,
+        "reward": 1646.02918895334,
+        "decisions": 100,
+        "native_steps": 200,
+        "seconds": 3.6733386516571045,
+        "video": "seed_101.mp4",
+        "video_sha256": "9e3515cdf196b24b8781b6776dcb5057eb5a6869a4b3287d93642efa01088c8c",
+        "video_bytes": 120582
+      },
+      {
+        "seed": 102,
+        "success_at_end": true,
+        "success_once": true,
+        "reward": 1658.9023343995214,
+        "decisions": 100,
+        "native_steps": 200,
+        "seconds": 2.719675064086914,
+        "video": "seed_102.mp4",
+        "video_sha256": "a00326268f573667a44456ab28bb3008ca04853651408bbf5c70fd9904dba78e",
+        "video_bytes": 126606
+      },
+      {
+        "seed": 103,
+        "success_at_end": true,
+        "success_once": true,
+        "reward": 1658.4303836151958,
+        "decisions": 100,
+        "native_steps": 200,
+        "seconds": 2.7280733585357666,
+        "video": "seed_103.mp4",
+        "video_sha256": "184a586a4f767d6be6f4a192ffc317de40e95a987ceb05e4c381808bec714845",
+        "video_bytes": 127888
+      }
+    ],
+    "native_steps": 600
+  }
+}

@@ -1,5 +1,7 @@
 # HAB Contact-Aware World Model
 
+实验汇报：[Meta-World TD-MPC2复现与结果HTML](MetaWorld_TD-MPC2复现与实验结果汇报.html)。含六阶段曲线、正式8/10结果、成功补录与失败视频、配置和复现边界；[结构化结果](reports/metaworld_presentation/verified_results.json)与[阶段CSV](reports/metaworld_presentation/stage_results.csv)可复查。
+
 汇报材料：[TD-MPC2算法流程HTML报告](TD-MPC2算法流程汇报.html) · [可编辑Markdown原稿](reports/TD-MPC2算法流程汇报.md)。包含五模块、MPC流程图、训练与测试对照、讲解稿及论文代码链接；单文件可离线阅读。
 
 算法解释：[算法流程、训练评估与复现边界](tdmpc2_original/reports/算法流程与复现边界.md)。当前 V2 结果属于原方法复现，尚无自研算法改进。
