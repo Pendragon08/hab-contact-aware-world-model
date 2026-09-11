@@ -1,0 +1,19 @@
+{
+  "checked_date": "2026-09-11",
+  "scope": "Primary-source checks for the added related-work challenges; not an exhaustive novelty audit or experimental validation.",
+  "challenges": [
+    {"id": "T1", "sources": ["https://arxiv.org/html/2310.16828v2#S5", "https://proceedings.mlr.press/v331/lin26a.html"], "source_evidence": "Reward misspecification risk; structural planning-policy mismatch and value overestimation.", "our_inference": "Check whether fixed candidates contain successful alternatives missed by the original score.", "contributions": ["C1"]},
+    {"id": "T2", "sources": ["https://arxiv.org/html/2608.13438v1#S5", "https://arxiv.org/html/2606.23085v1#S5"], "source_evidence": "ContactGuard explicitly leaves post-abort recovery/completion and alternative action selection to future work; Foresight studies failure monitoring.", "our_inference": "Real alternative-action outcomes and closed-loop completion require evaluation beyond monitoring.", "contributions": ["C1", "C3"]},
+    {"id": "T3", "sources": ["https://proceedings.mlr.press/v270/nakamoto25a.html", "https://arxiv.org/html/2608.13438v1#S4.SS3"], "source_evidence": "Value-guided action reranking exists; current-latent and corrupted-action ablations already exist.", "our_inference": "Match data, information, capacity and candidate budget to identify the incremental effect of frozen dynamics features in state-based TD-MPC2.", "contributions": ["C2"]},
+    {"id": "T4", "sources": ["https://arxiv.org/html/2606.23085v1#S5.SS4", "https://arxiv.org/html/2606.23085v1#S6"], "source_evidence": "Cross-policy transfer is asymmetric and calibration depends on deployment distribution.", "our_inference": "Labels generated using a fixed continuation policy need not remain valid under continuous reranking; this is distinct from TD-M(PC)^2 policy-update mismatch.", "contributions": ["C3"]},
+    {"id": "T5", "sources": ["https://arxiv.org/html/2606.23085v1#S6", "https://proceedings.iclr.cc/paper_files/paper/2026/hash/a750d52284ff70c6d6bab8072c392d74-Abstract-Conference.html"], "source_evidence": "World-model latency can limit on-device control; Sparse Imagination reduces visual-token prediction cost.", "our_inference": "Measure branch-interaction costs and added inference latency; a four-action state-based design is not a reproduction of visual token sparsification.", "contributions": ["C2", "C3"], "role": "Feasibility constraint, not a standalone novelty claim."}
+  ],
+  "contribution_types": {"C1": "Proposed supervision method", "C2": "Proposed feature-based reranking method", "C3": "Proposed empirical mechanism study and reproducible evaluation protocol"},
+  "important_boundaries": [
+    "A good alternative must exist in the fixed candidate set; BMPC motivates investigating prior/value learning if coverage is inadequate.",
+    "Forecasting features are deterministic functions of available state/action, not additional future observations.",
+    "Continuous deployment mismatch remains unaddressed if E2 fails; no new-policy relabeling algorithm is claimed implemented.",
+    "ContactGuard and Foresight remain classified as 2026 preprints.",
+    "HAB contact-constraint extension remains conditional; no real-robot safety guarantee is claimed."
+  ]
+}

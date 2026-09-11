@@ -14,3 +14,5 @@
 渲染：运行`scripts/build_proposal_meeting_report.py --renderer <render_html.py> --standalone-dir <仓库父目录>`。Markdown为规范原稿；其中相对链接从reports目录解析，构建器调整为HTML所在目录的路径。独立副本仍引用仓库下的本地资料与视频，移动文件时应保留目录结构。HTML review.json仅检查渲染保真，不是对科学结论的独立审稿。
 
 本轮在线核验：TD-MPC2作者项目、BMPC arXiv及其ICLR状态、V-GPS PMLR、TD-M(PC)² L4DC2026、Sparse Imagination ICLR2026、ContactGuard／Foresight arXiv以及ManiSkill-HAB作者项目。对应直接链接均在报告中；两篇2026失败监测方法继续按预印本记录。
+
+后续补充：第1.3节按T1—T5列出相关工作的局限与挑战，第1.4节对应C1—C3的拟贡献、方法差异和验证条件；第3.3节连接E0—E2。challenge_contribution_trace.json区分原文结论与本课题推断。第一、二项是待验证方法设计，第三项是机制与实验研究，不将普通评估包装为新控制算法。本次沿用原进度快照，没有新增实验结果。

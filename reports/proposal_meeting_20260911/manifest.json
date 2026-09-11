@@ -1,7 +1,11 @@
 {
   "browser_validation.json": {
-    "bytes": 1322,
-    "sha256": "50562475c2fd1f39f724dc5f292494abd2689a514946b01191eb9441fb9ac23d"
+    "bytes": 1324,
+    "sha256": "65e9936f96273ef4c1b1d73dec0185bf0901db9debd69b4f45e85c6b9c1fa4c4"
+  },
+  "challenge_contribution_trace.json": {
+    "bytes": 3250,
+    "sha256": "cced54c19df21a9d64b2b980bf7122287ec4bd8ecc7ec260eef59bdccfed76a3"
   },
   "evaluation_evidence.json": {
     "bytes": 7988,
@@ -24,7 +28,7 @@
     "sha256": "2667902148ad28cca3a01a3b5ed409b23a865fbd562e99a0187c2bdb32c7db72"
   },
   "README.md": {
-    "bytes": 2283,
-    "sha256": "1db12d56e6815e4b88a00d0e3370c233c0e60912c1f47dd7cb299fa61d5000e5"
+    "bytes": 2702,
+    "sha256": "da6c80f557453d189a03a449e572e966df1e6ffd0b390b73502edb64408e0b35"
   }
 }

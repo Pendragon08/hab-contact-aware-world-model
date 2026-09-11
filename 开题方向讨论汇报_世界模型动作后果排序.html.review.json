@@ -13,7 +13,7 @@
   },
   "blocking_issues": [],
   "warnings": [],
-  "summary": "The embedded SHA256 matches the final Markdown. Both HTML copies preserve all four primary chapters, nine tables, five native details sections, formula text, and two video elements. Every source line’s visible content is represented, detailed literature remains folded, local references resolve, TOC fragments are valid, IDs are unique, and the standalone copy is identical after its expected asset-prefix normalization. No scripts, unsafe URL schemes, event handlers, forbidden embedded elements, or leaked placeholders were found.",
-  "source_sha256": "3192c036ef39ed53f2489b2b06ced9121d4cd370f5fc7555acf683b80f1cde95",
-  "scope": "Rendering fidelity only; does not establish the feasibility or novelty of the proposed research."
+  "summary": "Both HTML copies faithfully render the source. Normalized source text matches both rendered bodies exactly; all17 headings,10 tables,5 details blocks,5 source list items,2 videos,52 source references,T1-T5,C1-C3,and the E0-E2 mapping are preserved. Relative links are correctly normalized; tag balance, anchors, IDs, legacy alias, safety and placeholder checks pass.",
+  "source_sha256": "dd186625673c94b06aeea304a955d4fa9469839e7d682bdf67b36e378fcb373f",
+  "scope": "Render fidelity only; no confirmation of proposed scientific novelty or experimental effects."
 }
