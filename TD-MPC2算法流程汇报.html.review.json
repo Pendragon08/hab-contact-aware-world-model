@@ -13,8 +13,7 @@
   },
   "blocking_issues": [],
   "warnings": [],
-  "summary": "The source SHA256 exactly matches 6a4a8b74e09ac24a55b14e6cc2c755d2d08fa11c9a5a740d4a15a552cec0c016. All source headings, 23 tables, 26 list items, 42 Markdown links, inline formulas/code, three informational callouts, and four native details/summary appendices are preserved. Chapters 06–08 render as the intended speaking mainline, while Markdown headings, tables, lists, and formulas inside the appendices render as HTML rather than raw Markdown. Generated metadata, TOC, footer, base CSS, and scoped presentation CSS are intact. The artifact contains no scripts, event handlers, forbidden active elements, unsafe URL schemes, template placeholders, or private parser markers; its only data URL is the expected embedded PNG Figure 3.",
-  "source_sha256": "6a4a8b74e09ac24a55b14e6cc2c755d2d08fa11c9a5a740d4a15a552cec0c016",
-  "reviewer": "tdmpc2_talk_reorder_review",
-  "scope": "Rendering fidelity only; not scientific claim audit."
+  "summary": "Source SHA256 matches. After normalizing the authorized Figure3 embedding, the article body is identical to the source render. Chapters08/09/10 now present planning, training and limitations. All17 chapters,23 tables,4 details,3 info callouts and8 legacy aliases are retained. All48 IDs are unique and32 internal links resolve. No unsafe executable markup or template leakage was found.",
+  "source_sha256": "6bffaea15f7dcbbe2b7427850d3314af7c1fb45d03a17b7da7ebbe2a8fc7cd58",
+  "scope": "Rendering fidelity and structure only; no new scientific claim review or experiment."
 }
