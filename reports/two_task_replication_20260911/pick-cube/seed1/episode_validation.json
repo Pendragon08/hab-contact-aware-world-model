@@ -1,0 +1,82 @@
+[
+  {
+    "episode": 100,
+    "return": 960.7985137701035,
+    "decisions": 100,
+    "stage": 500000,
+    "last_success": true,
+    "sampled_success_once": true
+  },
+  {
+    "episode": 101,
+    "return": 952.8724093437195,
+    "decisions": 100,
+    "stage": 500000,
+    "last_success": true,
+    "sampled_success_once": true
+  },
+  {
+    "episode": 102,
+    "return": 948.1419535279274,
+    "decisions": 100,
+    "stage": 500000,
+    "last_success": false,
+    "sampled_success_once": true
+  },
+  {
+    "episode": 103,
+    "return": 948.4783357977867,
+    "decisions": 100,
+    "stage": 500000,
+    "last_success": true,
+    "sampled_success_once": true
+  },
+  {
+    "episode": 104,
+    "return": 967.3000192642212,
+    "decisions": 100,
+    "stage": 500000,
+    "last_success": true,
+    "sampled_success_once": true
+  },
+  {
+    "episode": 105,
+    "return": 942.9738048911095,
+    "decisions": 100,
+    "stage": 500000,
+    "last_success": true,
+    "sampled_success_once": true
+  },
+  {
+    "episode": 106,
+    "return": 933.654380261898,
+    "decisions": 100,
+    "stage": 500000,
+    "last_success": true,
+    "sampled_success_once": true
+  },
+  {
+    "episode": 107,
+    "return": 936.3031097650528,
+    "decisions": 100,
+    "stage": 500000,
+    "last_success": true,
+    "sampled_success_once": true
+  },
+  {
+    "episode": 108,
+    "return": 954.3397724032402,
+    "decisions": 100,
+    "stage": 500000,
+    "last_success": true,
+    "sampled_success_once": true
+  },
+  {
+    "episode": 109,
+    "return": 965.0266882181168,
+    "decisions": 100,
+    "stage": 500000,
+    "last_success": true,
+    "sampled_success_once": true
+  }
+]

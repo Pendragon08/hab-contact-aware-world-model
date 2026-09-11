@@ -1,0 +1,19 @@
+{
+  "verdict": "PASS",
+  "review_independence": "same-family",
+  "acceptance_status": "provisional",
+  "checks": {
+    "source_hash_match": "pass",
+    "information_fidelity": "pass",
+    "structure": "pass",
+    "math_code_tables": "pass",
+    "callouts": "pass",
+    "safety_escaping": "pass",
+    "placeholder_leak": "pass"
+  },
+  "blocking_issues": [],
+  "warnings": [],
+  "summary": "The final HTML faithfully retains all 11 source headings, 5 tables with 42 rows, 4 list items, 14 links, both PNG charts, and all 3 native videos. Source hash matches; source text and table cells retained; heading hierarchy, unique TOC anchors and callout-info intact. Embedded PNG bytes match source files, videos exist, and no unexpected executable markup, events, unsafe URLs or placeholders were found.",
+  "source_sha256": "ea2e67c90920d5ed79d981b69a91b62a007f3522e3b0f6451c01bae2a03f757d",
+  "scope": "Rendering fidelity only; scientific findings were separately checked against saved evaluations and trajectories."
+}

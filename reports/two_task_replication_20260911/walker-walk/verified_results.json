@@ -1,0 +1,145 @@
+{
+  "captured_beijing": "2026-09-11 14:27:55",
+  "task": "walker-walk",
+  "completed_seeds": [
+    1,
+    2
+  ],
+  "planned_seeds": [
+    1,
+    2,
+    3
+  ],
+  "episode_validation": {
+    "1": [
+      {
+        "episode": 100,
+        "return": 991.159119874239,
+        "terminal": null,
+        "once": null
+      },
+      {
+        "episode": 101,
+        "return": 967.2730558132753,
+        "terminal": null,
+        "once": null
+      },
+      {
+        "episode": 102,
+        "return": 993.5363028049469,
+        "terminal": null,
+        "once": null
+      },
+      {
+        "episode": 103,
+        "return": 988.8210267424583,
+        "terminal": null,
+        "once": null
+      },
+      {
+        "episode": 104,
+        "return": 991.7006898522377,
+        "terminal": null,
+        "once": null
+      },
+      {
+        "episode": 105,
+        "return": 975.6868945490569,
+        "terminal": null,
+        "once": null
+      },
+      {
+        "episode": 106,
+        "return": 972.3052704092115,
+        "terminal": null,
+        "once": null
+      },
+      {
+        "episode": 107,
+        "return": 980.6224853396416,
+        "terminal": null,
+        "once": null
+      },
+      {
+        "episode": 108,
+        "return": 978.6869466900826,
+        "terminal": null,
+        "once": null
+      },
+      {
+        "episode": 109,
+        "return": 969.3294251477346,
+        "terminal": null,
+        "once": null
+      }
+    ],
+    "2": [
+      {
+        "episode": 100,
+        "return": 972.7610087990761,
+        "terminal": null,
+        "once": null
+      },
+      {
+        "episode": 101,
+        "return": 974.3821165394038,
+        "terminal": null,
+        "once": null
+      },
+      {
+        "episode": 102,
+        "return": 977.6172623634338,
+        "terminal": null,
+        "once": null
+      },
+      {
+        "episode": 103,
+        "return": 983.0659898817539,
+        "terminal": null,
+        "once": null
+      },
+      {
+        "episode": 104,
+        "return": 990.8422029912472,
+        "terminal": null,
+        "once": null
+      },
+      {
+        "episode": 105,
+        "return": 974.0875614304096,
+        "terminal": null,
+        "once": null
+      },
+      {
+        "episode": 106,
+        "return": 972.1015568524599,
+        "terminal": null,
+        "once": null
+      },
+      {
+        "episode": 107,
+        "return": 976.2013201806694,
+        "terminal": null,
+        "once": null
+      },
+      {
+        "episode": 108,
+        "return": 971.1665949560702,
+        "terminal": null,
+        "once": null
+      },
+      {
+        "episode": 109,
+        "return": 982.763897806406,
+        "terminal": null,
+        "once": null
+      }
+    ]
+  },
+  "author_same_budget": {
+    "2": 980.5,
+    "1": 975.2,
+    "3": 983.5
+  },
+  "source_snapshot_sha256": "22d2449b67773ebb996ecedaf8a473387771e8cd39f968c83fcf9666448791d2"
+}

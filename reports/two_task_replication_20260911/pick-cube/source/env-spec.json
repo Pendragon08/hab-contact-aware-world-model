@@ -1,0 +1,17 @@
+{
+  "provider": "ssh",
+  "python": "3.10.21 borrowed read-only",
+  "torch": "2.5.1+cu121 borrowed read-only",
+  "torchrl": "0.6.0 borrowed read-only",
+  "tensordict": "0.6.0 borrowed read-only",
+  "gym": "0.21.0 existing overlay read-only",
+  "numpy": "1.23.5 existing DMControl overlay read-only",
+  "pip_phases": [["mani-skill2==0.4.1", "sapien==2.2.1"], ["pyquaternion==0.9.9", "transforms3d==0.4.1", "trimesh==4.0.9", "rtree==1.2.0"]],
+  "install_scope": "own vendor_deps, --no-deps, inherited dependencies audited",
+  "gpu": 1,
+  "render_gpu": 1,
+  "renderer_device": "pci:65 under CUDA_VISIBLE_DEVICES=1; physical GPU verified by PID",
+  "gpu0_context_allowance": "Vulkan enumeration graphics-only context <=8MiB, observed4MiB; no compute",
+  "upstream_commit": "57158282b46ebc5c329c5be9cfe2b0094126d1ca",
+  "validation": "native PickCube-v0 simulation, original action-repeat2 and100-decision horizon, observation51/action4, actual optimizer updates and EGL/Vulkan rendering"
+}

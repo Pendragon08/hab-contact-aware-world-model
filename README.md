@@ -4,6 +4,8 @@
 
 **建议先看：** [实验结果汇报](reports/MetaWorld_TD-MPC2复现与实验结果汇报.md) · [算法讲解](reports/TD-MPC2算法流程汇报.md) · [实验与报告索引](docs/实验与报告索引.md) · [数据与视频下载](docs/数据与发布索引.md)
 
+**2026-09-11 新增阶段汇报：** [Walker Walk：980.91 / 977.50回报](DMControl_Walker_Walk_TD-MPC2复现与实验结果汇报.html) · [Pick Cube：9/10 / 10/10末步成功](ManiSkill2_Pick_Cube_TD-MPC2复现与实验结果汇报.html)。均为种子1/2各100万环境步终点，种子3未完成；含学习曲线、作者同预算对照与正式视频。[证据和使用说明](reports/two_task_replication_20260911/README.md)。
+
 ## 已有结果与研究进展
 
 文档整理于 **2026-09-10**。下表依据已入库证据，不是服务器实时监控。

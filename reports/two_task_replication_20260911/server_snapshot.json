@@ -1,0 +1,2178 @@
+{
+  "captured_utc": "2026-09-11T06:27:55.983970+00:00",
+  "tasks": {
+    "walker-walk": {
+      "folder": "dmc_tdmpc2_original",
+      "seeds": [
+        {
+          "seed": 1,
+          "run": "dmc_tdmpc2_original/artifacts/walker_walk_seed1_1m",
+          "exists": true,
+          "complete.json": {
+            "completed": true,
+            "mode": "train",
+            "task": "walker-walk",
+            "seed": 1,
+            "train_decisions": 500000,
+            "train_environment_steps": 1000000,
+            "eval_environment_steps": 110000,
+            "optimizer_updates": 499999,
+            "final_eval": {
+              "episode_reward": 980.9122924804688,
+              "step": 500000,
+              "episode": 999,
+              "total_time": 32649.109456300735
+            },
+            "final_episode_returns": [
+              991.159119874239,
+              967.2730558132753,
+              993.5363028049469,
+              988.8210267424583,
+              991.7006898522377,
+              975.6868945490569,
+              972.3052704092115,
+              980.6224853396416,
+              978.6869466900826,
+              969.3294251477346
+            ],
+            "all_five_modules_changed": true,
+            "seconds": 32649.21736240387,
+            "torch_peak_MiB": 269.70703125,
+            "preflight": {
+              "gpu_uuid": "GPU-f3cc20c6-f613-73c1-b0f9-f54863f22602",
+              "used_MiB": 32,
+              "free_MiB": 48519,
+              "disk_free_bytes": 31543570432
+            },
+            "environment_witness": null,
+            "upstream_commit": "57158282b46ebc5c329c5be9cfe2b0094126d1ca"
+          },
+          "runtime.json": {
+            "torch": "2.5.1+cu121",
+            "torchrl": "0.6.0",
+            "tensordict": "0.6.0",
+            "numpy": "1.23.5",
+            "dm-control": "1.0.8",
+            "mujoco": "2.3.1",
+            "dm-env": "1.6",
+            "dm-tree": "0.1.8",
+            "gym": "0.21.0",
+            "scipy": "1.15.3"
+          },
+          "sources.json": {
+            "runner.py": "42cb3c25800aee9c2fe8463e137a4ea43f551b6547900339f56412a04fbff8f9",
+            "runtime.sh": "9c80cb9186e634824322012c7ac30e317b6f180d23c83273781f9ff3e57308df",
+            "run.sh": "c8b5f7bea09205efdad3a2fbd0b896ee775a9bc40d8ee66b98cc8c635dc2a1ac",
+            "configs/plan.json": "bf061485096198171b64931020417116a79856e8b4852325b994c8a727179569",
+            "configs/env-spec.json": "ba91bff6523a9ced4f2f99fb7d210423577a6cef69095441e3e2d13476e7b765"
+          },
+          "metric_keys": [
+            "episode_reward",
+            "step",
+            "episode",
+            "total_time",
+            "category",
+            "train_decisions",
+            "train_environment_steps",
+            "eval_decisions",
+            "episode_returns"
+          ],
+          "evals": [
+            {
+              "episode_reward": 24.859161376953125,
+              "step": 0,
+              "episode": 0,
+              "total_time": 120.80909061431885,
+              "category": "eval",
+              "train_decisions": 0,
+              "train_environment_steps": 0,
+              "eval_decisions": 5000,
+              "episode_returns": [
+                15.8588025867939,
+                16.270520612597466,
+                27.544596985913813,
+                25.998846359550953,
+                26.253066565375775,
+                39.43227527104318,
+                15.692534061148763,
+                33.95238268561661,
+                31.775563050061464,
+                15.813047755509615
+              ]
+            },
+            {
+              "episode_reward": 966.1710815429688,
+              "step": 50000,
+              "episode": 99,
+              "total_time": 3245.2711601257324,
+              "category": "eval",
+              "train_decisions": 50000,
+              "train_environment_steps": 100000,
+              "eval_decisions": 10000,
+              "episode_returns": [
+                983.7352376878262,
+                962.11630448699,
+                977.6095787733793,
+                973.7711673527956,
+                975.1256960779428,
+                933.266753184842,
+                942.0925518497825,
+                975.292803555727,
+                967.1777530908585,
+                971.5227437391877
+              ]
+            },
+            {
+              "episode_reward": 970.54248046875,
+              "step": 100000,
+              "episode": 199,
+              "total_time": 6507.9637362957,
+              "category": "eval",
+              "train_decisions": 100000,
+              "train_environment_steps": 200000,
+              "eval_decisions": 15000,
+              "episode_returns": [
+                965.256365920417,
+                947.4991429485381,
+                972.532312233001,
+                969.9591459780931,
+                975.5646720901132,
+                987.7824965119362,
+                959.4065653672442,
+                988.7684054672718,
+                963.9289386882447,
+                974.7267452040687
+              ]
+            },
+            {
+              "episode_reward": 980.1715087890625,
+              "step": 150000,
+              "episode": 299,
+              "total_time": 9771.883667707443,
+              "category": "eval",
+              "train_decisions": 150000,
+              "train_environment_steps": 300000,
+              "eval_decisions": 20000,
+              "episode_returns": [
+                990.8608664870262,
+                974.7812250107527,
+                991.6219423115253,
+                992.4383868277073,
+                975.7749979384243,
+                990.7365497648716,
+                948.7693486064672,
+                993.9889169633389,
+                980.5592820942402,
+                962.1838705651462
+              ]
+            },
+            {
+              "episode_reward": 984.3768310546875,
+              "step": 200000,
+              "episode": 399,
+              "total_time": 13038.74397444725,
+              "category": "eval",
+              "train_decisions": 200000,
+              "train_environment_steps": 400000,
+              "eval_decisions": 25000,
+              "episode_returns": [
+                990.2508589029312,
+                994.4977764487267,
+                987.0131276547909,
+                974.9711881577969,
+                990.1595873832703,
+                990.9683412015438,
+                971.1206255052239,
+                987.9271543622017,
+                987.2263641357422,
+                969.6353171914816
+              ]
+            },
+            {
+              "episode_reward": 982.3780517578125,
+              "step": 250000,
+              "episode": 499,
+              "total_time": 16309.498878479004,
+              "category": "eval",
+              "train_decisions": 250000,
+              "train_environment_steps": 500000,
+              "eval_decisions": 30000,
+              "episode_returns": [
+                994.1174716055393,
+                988.405051022768,
+                975.3995680082589,
+                992.5953594446182,
+                948.8677673563361,
+                991.5081680119038,
+                988.9747891128063,
+                976.7963003069162,
+                973.9331037327647,
+                993.1798980236053
+              ]
+            },
+            {
+              "episode_reward": 983.99267578125,
+              "step": 300000,
+              "episode": 599,
+              "total_time": 19609.71663427353,
+              "category": "eval",
+              "train_decisions": 300000,
+              "train_environment_steps": 600000,
+              "eval_decisions": 35000,
+              "episode_returns": [
+                975.4086262565106,
+                993.8338162302971,
+                984.151514083147,
+                982.1460532993078,
+                968.9714663075283,
+                977.5243739634752,
+                987.0499668717384,
+                991.1611674726009,
+                993.5536620616913,
+                986.1269292533398
+              ]
+            },
+            {
+              "episode_reward": 987.48486328125,
+              "step": 350000,
+              "episode": 699,
+              "total_time": 22873.28656387329,
+              "category": "eval",
+              "train_decisions": 350000,
+              "train_environment_steps": 700000,
+              "eval_decisions": 40000,
+              "episode_returns": [
+                982.9152955412865,
+                992.7370938062668,
+                987.4835561513901,
+                990.602844029665,
+                993.6303864717484,
+                994.4400498270988,
+                972.8437660075724,
+                990.9146474599838,
+                975.1845012158155,
+                994.0970512032509
+              ]
+            },
+            {
+              "episode_reward": 982.1331176757812,
+              "step": 400000,
+              "episode": 799,
+              "total_time": 26131.610796928406,
+              "category": "eval",
+              "train_decisions": 400000,
+              "train_environment_steps": 800000,
+              "eval_decisions": 45000,
+              "episode_returns": [
+                991.0376959145069,
+                988.7015470266342,
+                988.5523876845837,
+                973.0660266783088,
+                980.8852214068174,
+                994.3655190765858,
+                989.612650334835,
+                962.7325864210725,
+                976.4588443525136,
+                975.9187035281211
+              ]
+            },
+            {
+              "episode_reward": 980.8079833984375,
+              "step": 450000,
+              "episode": 899,
+              "total_time": 29391.116719007492,
+              "category": "eval",
+              "train_decisions": 450000,
+              "train_environment_steps": 900000,
+              "eval_decisions": 50000,
+              "episode_returns": [
+                975.2274799346924,
+                980.0779388174415,
+                972.730785369873,
+                976.0203236415982,
+                973.8319993196055,
+                991.8280581533909,
+                989.075706154108,
+                981.54506470263,
+                993.5949198901653,
+                974.1458918526769
+              ]
+            },
+            {
+              "episode_reward": 980.9122924804688,
+              "step": 500000,
+              "episode": 999,
+              "total_time": 32649.109456300735,
+              "category": "eval",
+              "train_decisions": 500000,
+              "train_environment_steps": 1000000,
+              "eval_decisions": 55000,
+              "episode_returns": [
+                991.159119874239,
+                967.2730558132753,
+                993.5363028049469,
+                988.8210267424583,
+                991.7006898522377,
+                975.6868945490569,
+                972.3052704092115,
+                980.6224853396416,
+                978.6869466900826,
+                969.3294251477346
+              ]
+            }
+          ],
+          "last_metric": {
+            "episode_reward": 980.9122924804688,
+            "step": 500000,
+            "episode": 999,
+            "total_time": 32649.109456300735,
+            "category": "eval",
+            "train_decisions": 500000,
+            "train_environment_steps": 1000000,
+            "eval_decisions": 55000,
+            "episode_returns": [
+              991.159119874239,
+              967.2730558132753,
+              993.5363028049469,
+              988.8210267424583,
+              991.7006898522377,
+              975.6868945490569,
+              972.3052704092115,
+              980.6224853396416,
+              978.6869466900826,
+              969.3294251477346
+            ]
+          },
+          "metrics_sha256": "b586811d380cbb12e1c5ff9f949f2340a96ecd3b0203df2b6c342ab89d0c6e3b",
+          "last_update": {
+            "update": 499900,
+            "train_decisions": 499901,
+            "train_environment_steps": 999802,
+            "seconds": 32521.591710567474,
+            "consistency_loss": 7.819184975232929e-05,
+            "reward_loss": 0.39905020594596863,
+            "value_loss": 0.3986814618110657,
+            "pi_loss": -32.46207809448242,
+            "total_loss": 0.08133700489997864,
+            "grad_norm": 0.13682129979133606,
+            "pi_scale": 2.8803446292877197
+          },
+          "videos": [
+            {
+              "path": "dmc_tdmpc2_original/artifacts/walker_walk_seed1_1m/videos/eval_0000000.mp4",
+              "bytes": 407146
+            },
+            {
+              "path": "dmc_tdmpc2_original/artifacts/walker_walk_seed1_1m/videos/eval_0100000.mp4",
+              "bytes": 994368
+            },
+            {
+              "path": "dmc_tdmpc2_original/artifacts/walker_walk_seed1_1m/videos/eval_0200000.mp4",
+              "bytes": 949751
+            },
+            {
+              "path": "dmc_tdmpc2_original/artifacts/walker_walk_seed1_1m/videos/eval_0300000.mp4",
+              "bytes": 932070
+            },
+            {
+              "path": "dmc_tdmpc2_original/artifacts/walker_walk_seed1_1m/videos/eval_0400000.mp4",
+              "bytes": 950601
+            },
+            {
+              "path": "dmc_tdmpc2_original/artifacts/walker_walk_seed1_1m/videos/eval_0500000.mp4",
+              "bytes": 922470
+            },
+            {
+              "path": "dmc_tdmpc2_original/artifacts/walker_walk_seed1_1m/videos/eval_0600000.mp4",
+              "bytes": 911957
+            },
+            {
+              "path": "dmc_tdmpc2_original/artifacts/walker_walk_seed1_1m/videos/eval_0700000.mp4",
+              "bytes": 894978
+            },
+            {
+              "path": "dmc_tdmpc2_original/artifacts/walker_walk_seed1_1m/videos/eval_0800000.mp4",
+              "bytes": 893516
+            },
+            {
+              "path": "dmc_tdmpc2_original/artifacts/walker_walk_seed1_1m/videos/eval_0900000.mp4",
+              "bytes": 954690
+            },
+            {
+              "path": "dmc_tdmpc2_original/artifacts/walker_walk_seed1_1m/videos/eval_1000000.mp4",
+              "bytes": 943405
+            }
+          ],
+          "trajectory_examples": [
+            "dmc_tdmpc2_original/artifacts/walker_walk_seed1_1m/trajectories/train/000988.npz",
+            "dmc_tdmpc2_original/artifacts/walker_walk_seed1_1m/trajectories/train/000989.npz",
+            "dmc_tdmpc2_original/artifacts/walker_walk_seed1_1m/trajectories/train/000990.npz",
+            "dmc_tdmpc2_original/artifacts/walker_walk_seed1_1m/trajectories/train/000991.npz",
+            "dmc_tdmpc2_original/artifacts/walker_walk_seed1_1m/trajectories/train/000992.npz",
+            "dmc_tdmpc2_original/artifacts/walker_walk_seed1_1m/trajectories/train/000993.npz",
+            "dmc_tdmpc2_original/artifacts/walker_walk_seed1_1m/trajectories/train/000994.npz",
+            "dmc_tdmpc2_original/artifacts/walker_walk_seed1_1m/trajectories/train/000995.npz",
+            "dmc_tdmpc2_original/artifacts/walker_walk_seed1_1m/trajectories/train/000996.npz",
+            "dmc_tdmpc2_original/artifacts/walker_walk_seed1_1m/trajectories/train/000997.npz",
+            "dmc_tdmpc2_original/artifacts/walker_walk_seed1_1m/trajectories/train/000998.npz",
+            "dmc_tdmpc2_original/artifacts/walker_walk_seed1_1m/trajectories/train/000999.npz"
+          ],
+          "resolved_config": "task: walker-walk\nobs: state\ncheckpoint: ???\neval_episodes: 10\neval_freq: 50000\nsteps: 500000\nbatch_size: 256\nreward_coef: 0.1\nvalue_coef: 0.1\nconsistency_coef: 20\nrho: 0.5\nlr: 0.0003\nenc_lr_scale: 0.3\ngrad_clip_norm: 20\ntau: 0.01\ndiscount_denom: 5\ndiscount_min: 0.95\ndiscount_max: 0.995\nbuffer_size: 1000000\nexp_name: default\ndata_dir: ???\nmpc: true\niterations: 6\nnum_samples: 512\nnum_elites: 64\nnum_pi_trajs: 24\nhorizon: 3\nmin_std: 0.05\nmax_std: 2\ntemperature: 0.5\nlog_std_min: -10\nlog_std_max: 2\nentropy_coef: 0.0001\nnum_bins: 101\nvmin: -10\nvmax: 10\nmodel_size: 5\nnum_enc_layers: 2\nenc_dim: 256\nnum_channels: 32\nmlp_dim: 512\nlatent_dim: 512\ntask_dim: 0\nnum_q: 5\ndropout: 0.01\nsimnorm_dim: 8\nwandb_project: ???\nwandb_entity: ???\nwandb_silent: false\ndisable_wandb: true\nsave_csv: true\nsave_video: true\nsave_agent: true\nseed: 1\nwork_dir: ???\ntask_title: ???\nmultitask: false\ntasks:\n- walker-walk\nobs_shape:\n  state:\n  - 24\naction_dim: 6\nepisode_length: 500\nobs_shapes: ???\naction_dims: ???\nepisode_lengths: ???\nseed_steps: 2500\nbin_size: 0.2\n"
+        },
+        {
+          "seed": 2,
+          "run": "dmc_tdmpc2_original/artifacts/walker_walk_seed2_1m",
+          "exists": true,
+          "complete.json": {
+            "completed": true,
+            "mode": "train",
+            "task": "walker-walk",
+            "seed": 2,
+            "train_decisions": 500000,
+            "train_environment_steps": 1000000,
+            "eval_environment_steps": 110000,
+            "optimizer_updates": 499999,
+            "final_eval": {
+              "episode_reward": 977.4990234375,
+              "step": 500000,
+              "episode": 999,
+              "total_time": 32902.249438762665
+            },
+            "final_episode_returns": [
+              972.7610087990761,
+              974.3821165394038,
+              977.6172623634338,
+              983.0659898817539,
+              990.8422029912472,
+              974.0875614304096,
+              972.1015568524599,
+              976.2013201806694,
+              971.1665949560702,
+              982.763897806406
+            ],
+            "all_five_modules_changed": true,
+            "seconds": 32902.37349820137,
+            "torch_peak_MiB": 269.70703125,
+            "preflight": {
+              "gpu_uuid": "GPU-f3cc20c6-f613-73c1-b0f9-f54863f22602",
+              "used_MiB": 32,
+              "free_MiB": 48519,
+              "disk_free_bytes": 30208229376
+            },
+            "environment_witness": null,
+            "upstream_commit": "57158282b46ebc5c329c5be9cfe2b0094126d1ca"
+          },
+          "runtime.json": {
+            "torch": "2.5.1+cu121",
+            "torchrl": "0.6.0",
+            "tensordict": "0.6.0",
+            "numpy": "1.23.5",
+            "dm-control": "1.0.8",
+            "mujoco": "2.3.1",
+            "dm-env": "1.6",
+            "dm-tree": "0.1.8",
+            "gym": "0.21.0",
+            "scipy": "1.15.3"
+          },
+          "sources.json": {
+            "runner.py": "42cb3c25800aee9c2fe8463e137a4ea43f551b6547900339f56412a04fbff8f9",
+            "runtime.sh": "9c80cb9186e634824322012c7ac30e317b6f180d23c83273781f9ff3e57308df",
+            "run.sh": "c8b5f7bea09205efdad3a2fbd0b896ee775a9bc40d8ee66b98cc8c635dc2a1ac",
+            "configs/plan.json": "bf061485096198171b64931020417116a79856e8b4852325b994c8a727179569",
+            "configs/env-spec.json": "ba91bff6523a9ced4f2f99fb7d210423577a6cef69095441e3e2d13476e7b765"
+          },
+          "metric_keys": [
+            "episode_reward",
+            "step",
+            "episode",
+            "total_time",
+            "category",
+            "train_decisions",
+            "train_environment_steps",
+            "eval_decisions",
+            "episode_returns"
+          ],
+          "evals": [
+            {
+              "episode_reward": 24.157838821411133,
+              "step": 0,
+              "episode": 0,
+              "total_time": 121.61069393157959,
+              "category": "eval",
+              "train_decisions": 0,
+              "train_environment_steps": 0,
+              "eval_decisions": 5000,
+              "episode_returns": [
+                33.78707967698574,
+                11.255346867255867,
+                26.080800868570805,
+                31.087889226153493,
+                28.635618336498737,
+                29.25250941887498,
+                11.675356395542622,
+                10.418214335571975,
+                29.959960859268904,
+                29.425632797181606
+              ]
+            },
+            {
+              "episode_reward": 970.1760864257812,
+              "step": 50000,
+              "episode": 99,
+              "total_time": 3322.277874469757,
+              "category": "eval",
+              "train_decisions": 50000,
+              "train_environment_steps": 100000,
+              "eval_decisions": 10000,
+              "episode_returns": [
+                985.349651992321,
+                965.3478819020092,
+                938.2687378525734,
+                972.8737511187792,
+                950.3988311775029,
+                962.335492156446,
+                988.3018298745155,
+                992.102868616581,
+                983.722434669733,
+                963.0598715208471
+              ]
+            },
+            {
+              "episode_reward": 967.6104736328125,
+              "step": 100000,
+              "episode": 199,
+              "total_time": 6589.977670907974,
+              "category": "eval",
+              "train_decisions": 100000,
+              "train_environment_steps": 200000,
+              "eval_decisions": 15000,
+              "episode_returns": [
+                992.365335047245,
+                980.3829308003187,
+                930.5206393450499,
+                992.1630233824253,
+                950.7293267957866,
+                978.9004787504673,
+                967.0717397462577,
+                927.9177659060806,
+                967.3359243106097,
+                988.714617908001
+              ]
+            },
+            {
+              "episode_reward": 980.6246948242188,
+              "step": 150000,
+              "episode": 299,
+              "total_time": 9856.207525014877,
+              "category": "eval",
+              "train_decisions": 150000,
+              "train_environment_steps": 300000,
+              "eval_decisions": 20000,
+              "episode_returns": [
+                992.0524387955666,
+                959.9694563280791,
+                986.4223038852215,
+                967.6518250852823,
+                990.3145224750042,
+                994.5396659970284,
+                976.3845264613628,
+                971.2732779178768,
+                988.3296623826027,
+                979.3099363148212
+              ]
+            },
+            {
+              "episode_reward": 975.9938354492188,
+              "step": 200000,
+              "episode": 399,
+              "total_time": 13130.153742074966,
+              "category": "eval",
+              "train_decisions": 200000,
+              "train_environment_steps": 400000,
+              "eval_decisions": 25000,
+              "episode_returns": [
+                984.4336596429348,
+                980.7513206899166,
+                961.8567494004965,
+                989.1698137521744,
+                957.1331615578383,
+                988.7698511779308,
+                972.2070776745677,
+                968.9938135370612,
+                990.9702866971493,
+                965.6510517019778
+              ]
+            },
+            {
+              "episode_reward": 982.2833251953125,
+              "step": 250000,
+              "episode": 499,
+              "total_time": 16396.412841320038,
+              "category": "eval",
+              "train_decisions": 250000,
+              "train_environment_steps": 500000,
+              "eval_decisions": 30000,
+              "episode_returns": [
+                992.2694512307644,
+                971.338209502399,
+                981.9178544282913,
+                993.4054339826107,
+                969.3253818321973,
+                994.6377230882645,
+                974.7616600692272,
+                959.8771284930408,
+                992.5933978259563,
+                992.7045134007931
+              ]
+            },
+            {
+              "episode_reward": 980.6228637695312,
+              "step": 300000,
+              "episode": 599,
+              "total_time": 19642.28962445259,
+              "category": "eval",
+              "train_decisions": 300000,
+              "train_environment_steps": 600000,
+              "eval_decisions": 35000,
+              "episode_returns": [
+                973.4569071922451,
+                992.5762532949448,
+                993.6026840507984,
+                992.9343759715557,
+                973.9752099663019,
+                969.9597794767469,
+                971.2491019703448,
+                971.2014785874635,
+                973.777110921219,
+                993.4949749410152
+              ]
+            },
+            {
+              "episode_reward": 988.8892822265625,
+              "step": 350000,
+              "episode": 699,
+              "total_time": 22915.172741174698,
+              "category": "eval",
+              "train_decisions": 350000,
+              "train_environment_steps": 700000,
+              "eval_decisions": 40000,
+              "episode_returns": [
+                993.6552296876907,
+                975.9497126974165,
+                987.0868030488491,
+                991.5905291438103,
+                975.1305803358555,
+                993.3232875466347,
+                995.5061829984188,
+                994.2060035467148,
+                994.2300451397896,
+                988.2120259106159
+              ]
+            },
+            {
+              "episode_reward": 979.4422607421875,
+              "step": 400000,
+              "episode": 799,
+              "total_time": 26163.560264587402,
+              "category": "eval",
+              "train_decisions": 400000,
+              "train_environment_steps": 800000,
+              "eval_decisions": 45000,
+              "episode_returns": [
+                995.3727782964706,
+                989.442809432745,
+                972.1293389722705,
+                974.8974997736514,
+                954.4457317837514,
+                981.6318076997995,
+                978.1212076470256,
+                972.8604905307293,
+                982.4974519759417,
+                993.0229001045227
+              ]
+            },
+            {
+              "episode_reward": 973.4026489257812,
+              "step": 450000,
+              "episode": 899,
+              "total_time": 29433.36870288849,
+              "category": "eval",
+              "train_decisions": 450000,
+              "train_environment_steps": 900000,
+              "eval_decisions": 50000,
+              "episode_returns": [
+                975.1590554770082,
+                966.3384801093489,
+                970.7727309167385,
+                967.3168345950544,
+                967.0912867970765,
+                981.3403496444225,
+                972.221412776038,
+                971.6657948605716,
+                973.0897235069424,
+                989.0304242968559
+              ]
+            },
+            {
+              "episode_reward": 977.4990234375,
+              "step": 500000,
+              "episode": 999,
+              "total_time": 32902.249438762665,
+              "category": "eval",
+              "train_decisions": 500000,
+              "train_environment_steps": 1000000,
+              "eval_decisions": 55000,
+              "episode_returns": [
+                972.7610087990761,
+                974.3821165394038,
+                977.6172623634338,
+                983.0659898817539,
+                990.8422029912472,
+                974.0875614304096,
+                972.1015568524599,
+                976.2013201806694,
+                971.1665949560702,
+                982.763897806406
+              ]
+            }
+          ],
+          "last_metric": {
+            "episode_reward": 977.4990234375,
+            "step": 500000,
+            "episode": 999,
+            "total_time": 32902.249438762665,
+            "category": "eval",
+            "train_decisions": 500000,
+            "train_environment_steps": 1000000,
+            "eval_decisions": 55000,
+            "episode_returns": [
+              972.7610087990761,
+              974.3821165394038,
+              977.6172623634338,
+              983.0659898817539,
+              990.8422029912472,
+              974.0875614304096,
+              972.1015568524599,
+              976.2013201806694,
+              971.1665949560702,
+              982.763897806406
+            ]
+          },
+          "metrics_sha256": "f7d9e65072dc69d7a09c347a05fd04a0536b5d5728810471ac6b7ab48e55b9bc",
+          "last_update": {
+            "update": 499900,
+            "train_decisions": 499901,
+            "train_environment_steps": 999802,
+            "seconds": 32753.219753742218,
+            "consistency_loss": 8.889561286196113e-05,
+            "reward_loss": 0.3974249064922333,
+            "value_loss": 0.3943368196487427,
+            "pi_loss": -21.086944580078125,
+            "total_loss": 0.08095408976078033,
+            "grad_norm": 0.1712416261434555,
+            "pi_scale": 4.422625541687012
+          },
+          "videos": [
+            {
+              "path": "dmc_tdmpc2_original/artifacts/walker_walk_seed2_1m/videos/eval_0000000.mp4",
+              "bytes": 607177
+            },
+            {
+              "path": "dmc_tdmpc2_original/artifacts/walker_walk_seed2_1m/videos/eval_0100000.mp4",
+              "bytes": 904792
+            },
+            {
+              "path": "dmc_tdmpc2_original/artifacts/walker_walk_seed2_1m/videos/eval_0200000.mp4",
+              "bytes": 933051
+            },
+            {
+              "path": "dmc_tdmpc2_original/artifacts/walker_walk_seed2_1m/videos/eval_0300000.mp4",
+              "bytes": 939194
+            },
+            {
+              "path": "dmc_tdmpc2_original/artifacts/walker_walk_seed2_1m/videos/eval_0400000.mp4",
+              "bytes": 929445
+            },
+            {
+              "path": "dmc_tdmpc2_original/artifacts/walker_walk_seed2_1m/videos/eval_0500000.mp4",
+              "bytes": 931400
+            },
+            {
+              "path": "dmc_tdmpc2_original/artifacts/walker_walk_seed2_1m/videos/eval_0600000.mp4",
+              "bytes": 936009
+            },
+            {
+              "path": "dmc_tdmpc2_original/artifacts/walker_walk_seed2_1m/videos/eval_0700000.mp4",
+              "bytes": 907346
+            },
+            {
+              "path": "dmc_tdmpc2_original/artifacts/walker_walk_seed2_1m/videos/eval_0800000.mp4",
+              "bytes": 921958
+            },
+            {
+              "path": "dmc_tdmpc2_original/artifacts/walker_walk_seed2_1m/videos/eval_0900000.mp4",
+              "bytes": 974834
+            },
+            {
+              "path": "dmc_tdmpc2_original/artifacts/walker_walk_seed2_1m/videos/eval_1000000.mp4",
+              "bytes": 958777
+            }
+          ],
+          "trajectory_examples": [
+            "dmc_tdmpc2_original/artifacts/walker_walk_seed2_1m/trajectories/train/000988.npz",
+            "dmc_tdmpc2_original/artifacts/walker_walk_seed2_1m/trajectories/train/000989.npz",
+            "dmc_tdmpc2_original/artifacts/walker_walk_seed2_1m/trajectories/train/000990.npz",
+            "dmc_tdmpc2_original/artifacts/walker_walk_seed2_1m/trajectories/train/000991.npz",
+            "dmc_tdmpc2_original/artifacts/walker_walk_seed2_1m/trajectories/train/000992.npz",
+            "dmc_tdmpc2_original/artifacts/walker_walk_seed2_1m/trajectories/train/000993.npz",
+            "dmc_tdmpc2_original/artifacts/walker_walk_seed2_1m/trajectories/train/000994.npz",
+            "dmc_tdmpc2_original/artifacts/walker_walk_seed2_1m/trajectories/train/000995.npz",
+            "dmc_tdmpc2_original/artifacts/walker_walk_seed2_1m/trajectories/train/000996.npz",
+            "dmc_tdmpc2_original/artifacts/walker_walk_seed2_1m/trajectories/train/000997.npz",
+            "dmc_tdmpc2_original/artifacts/walker_walk_seed2_1m/trajectories/train/000998.npz",
+            "dmc_tdmpc2_original/artifacts/walker_walk_seed2_1m/trajectories/train/000999.npz"
+          ],
+          "resolved_config": "task: walker-walk\nobs: state\ncheckpoint: ???\neval_episodes: 10\neval_freq: 50000\nsteps: 500000\nbatch_size: 256\nreward_coef: 0.1\nvalue_coef: 0.1\nconsistency_coef: 20\nrho: 0.5\nlr: 0.0003\nenc_lr_scale: 0.3\ngrad_clip_norm: 20\ntau: 0.01\ndiscount_denom: 5\ndiscount_min: 0.95\ndiscount_max: 0.995\nbuffer_size: 1000000\nexp_name: default\ndata_dir: ???\nmpc: true\niterations: 6\nnum_samples: 512\nnum_elites: 64\nnum_pi_trajs: 24\nhorizon: 3\nmin_std: 0.05\nmax_std: 2\ntemperature: 0.5\nlog_std_min: -10\nlog_std_max: 2\nentropy_coef: 0.0001\nnum_bins: 101\nvmin: -10\nvmax: 10\nmodel_size: 5\nnum_enc_layers: 2\nenc_dim: 256\nnum_channels: 32\nmlp_dim: 512\nlatent_dim: 512\ntask_dim: 0\nnum_q: 5\ndropout: 0.01\nsimnorm_dim: 8\nwandb_project: ???\nwandb_entity: ???\nwandb_silent: false\ndisable_wandb: true\nsave_csv: true\nsave_video: true\nsave_agent: true\nseed: 2\nwork_dir: ???\ntask_title: ???\nmultitask: false\ntasks:\n- walker-walk\nobs_shape:\n  state:\n  - 24\naction_dim: 6\nepisode_length: 500\nobs_shapes: ???\naction_dims: ???\nepisode_lengths: ???\nseed_steps: 2500\nbin_size: 0.2\n"
+        },
+        {
+          "seed": 3,
+          "run": "dmc_tdmpc2_original/artifacts/walker_walk_seed3_1m",
+          "exists": true,
+          "runtime.json": {
+            "torch": "2.5.1+cu121",
+            "torchrl": "0.6.0",
+            "tensordict": "0.6.0",
+            "numpy": "1.23.5",
+            "dm-control": "1.0.8",
+            "mujoco": "2.3.1",
+            "dm-env": "1.6",
+            "dm-tree": "0.1.8",
+            "gym": "0.21.0",
+            "scipy": "1.15.3"
+          },
+          "sources.json": {
+            "runner.py": "42cb3c25800aee9c2fe8463e137a4ea43f551b6547900339f56412a04fbff8f9",
+            "runtime.sh": "9c80cb9186e634824322012c7ac30e317b6f180d23c83273781f9ff3e57308df",
+            "run.sh": "c8b5f7bea09205efdad3a2fbd0b896ee775a9bc40d8ee66b98cc8c635dc2a1ac",
+            "configs/plan.json": "bf061485096198171b64931020417116a79856e8b4852325b994c8a727179569",
+            "configs/env-spec.json": "ba91bff6523a9ced4f2f99fb7d210423577a6cef69095441e3e2d13476e7b765"
+          },
+          "metric_keys": [
+            "episode_reward",
+            "step",
+            "episode",
+            "total_time",
+            "consistency_loss",
+            "reward_loss",
+            "value_loss",
+            "pi_loss",
+            "total_loss",
+            "grad_norm",
+            "pi_scale",
+            "category",
+            "train_decisions",
+            "train_environment_steps",
+            "eval_decisions"
+          ],
+          "evals": [
+            {
+              "episode_reward": 31.288660049438477,
+              "step": 0,
+              "episode": 0,
+              "total_time": 150.65460586547852,
+              "category": "eval",
+              "train_decisions": 0,
+              "train_environment_steps": 0,
+              "eval_decisions": 5000,
+              "episode_returns": [
+                40.954662423580885,
+                32.821722062304616,
+                22.81124021951109,
+                24.22083441913128,
+                34.62874361872673,
+                35.68971264362335,
+                31.942018799483776,
+                30.119087716564536,
+                23.849904717877507,
+                35.84869537502527
+              ]
+            },
+            {
+              "episode_reward": 972.8113403320312,
+              "step": 50000,
+              "episode": 99,
+              "total_time": 3974.422658443451,
+              "category": "eval",
+              "train_decisions": 50000,
+              "train_environment_steps": 100000,
+              "eval_decisions": 10000,
+              "episode_returns": [
+                948.1373799447902,
+                978.458632171154,
+                985.6782184541225,
+                930.5257908180356,
+                982.8172250688076,
+                964.0251825582236,
+                994.9492486715317,
+                993.6377946436405,
+                978.2916335463524,
+                971.5924522187561
+              ]
+            },
+            {
+              "episode_reward": 981.9637451171875,
+              "step": 100000,
+              "episode": 199,
+              "total_time": 7878.112804412842,
+              "category": "eval",
+              "train_decisions": 100000,
+              "train_environment_steps": 200000,
+              "eval_decisions": 15000,
+              "episode_returns": [
+                992.6562686562538,
+                967.0159622710198,
+                975.8121029734612,
+                989.2108320593834,
+                989.3148150444031,
+                958.4303090712056,
+                990.7247095108032,
+                992.3784172236919,
+                971.099297516048,
+                992.9957826137543
+              ]
+            },
+            {
+              "episode_reward": 978.7220458984375,
+              "step": 150000,
+              "episode": 299,
+              "total_time": 11784.051721811295,
+              "category": "eval",
+              "train_decisions": 150000,
+              "train_environment_steps": 300000,
+              "eval_decisions": 20000,
+              "episode_returns": [
+                965.0286247308832,
+                992.1456523537636,
+                975.879197716713,
+                978.558147341013,
+                993.0834198892117,
+                991.2093982696533,
+                973.0899242311716,
+                971.4070819583721,
+                974.2862464301288,
+                972.5337102320045
+              ]
+            }
+          ],
+          "last_metric": {
+            "episode_reward": 959.8961791992188,
+            "step": 183000,
+            "episode": 365,
+            "total_time": 14258.62718462944,
+            "consistency_loss": 0.00016089876589830965,
+            "reward_loss": 0.38621169328689575,
+            "value_loss": 0.369241327047348,
+            "pi_loss": -5.835087299346924,
+            "total_loss": 0.07876327633857727,
+            "grad_norm": 0.19320695102214813,
+            "pi_scale": 15.72032642364502,
+            "category": "train",
+            "train_decisions": 183000,
+            "train_environment_steps": 366000,
+            "eval_decisions": 20000
+          },
+          "metrics_sha256": "a1fe1995dca703a1f3af894db6539b4b09712f7518244e4039c25cc61f22a860",
+          "last_update": {
+            "update": 183100,
+            "train_decisions": 183101,
+            "train_environment_steps": 366202,
+            "seconds": 14266.183109283447,
+            "consistency_loss": 0.00014289034879766405,
+            "reward_loss": 0.3920992612838745,
+            "value_loss": 0.3834545314311981,
+            "pi_loss": -5.896749973297119,
+            "total_loss": 0.08041319251060486,
+            "grad_norm": 0.1829025000333786,
+            "pi_scale": 15.623848915100098
+          },
+          "videos": [
+            {
+              "path": "dmc_tdmpc2_original/artifacts/walker_walk_seed3_1m/videos/eval_0000000.mp4",
+              "bytes": 446765
+            },
+            {
+              "path": "dmc_tdmpc2_original/artifacts/walker_walk_seed3_1m/videos/eval_0100000.mp4",
+              "bytes": 977057
+            },
+            {
+              "path": "dmc_tdmpc2_original/artifacts/walker_walk_seed3_1m/videos/eval_0200000.mp4",
+              "bytes": 890081
+            },
+            {
+              "path": "dmc_tdmpc2_original/artifacts/walker_walk_seed3_1m/videos/eval_0300000.mp4",
+              "bytes": 904440
+            }
+          ],
+          "trajectory_examples": [
+            "dmc_tdmpc2_original/artifacts/walker_walk_seed3_1m/trajectories/train/000354.npz",
+            "dmc_tdmpc2_original/artifacts/walker_walk_seed3_1m/trajectories/train/000355.npz",
+            "dmc_tdmpc2_original/artifacts/walker_walk_seed3_1m/trajectories/train/000356.npz",
+            "dmc_tdmpc2_original/artifacts/walker_walk_seed3_1m/trajectories/train/000357.npz",
+            "dmc_tdmpc2_original/artifacts/walker_walk_seed3_1m/trajectories/train/000358.npz",
+            "dmc_tdmpc2_original/artifacts/walker_walk_seed3_1m/trajectories/train/000359.npz",
+            "dmc_tdmpc2_original/artifacts/walker_walk_seed3_1m/trajectories/train/000360.npz",
+            "dmc_tdmpc2_original/artifacts/walker_walk_seed3_1m/trajectories/train/000361.npz",
+            "dmc_tdmpc2_original/artifacts/walker_walk_seed3_1m/trajectories/train/000362.npz",
+            "dmc_tdmpc2_original/artifacts/walker_walk_seed3_1m/trajectories/train/000363.npz",
+            "dmc_tdmpc2_original/artifacts/walker_walk_seed3_1m/trajectories/train/000364.npz",
+            "dmc_tdmpc2_original/artifacts/walker_walk_seed3_1m/trajectories/train/000365.npz"
+          ],
+          "resolved_config": "task: walker-walk\nobs: state\ncheckpoint: ???\neval_episodes: 10\neval_freq: 50000\nsteps: 500000\nbatch_size: 256\nreward_coef: 0.1\nvalue_coef: 0.1\nconsistency_coef: 20\nrho: 0.5\nlr: 0.0003\nenc_lr_scale: 0.3\ngrad_clip_norm: 20\ntau: 0.01\ndiscount_denom: 5\ndiscount_min: 0.95\ndiscount_max: 0.995\nbuffer_size: 1000000\nexp_name: default\ndata_dir: ???\nmpc: true\niterations: 6\nnum_samples: 512\nnum_elites: 64\nnum_pi_trajs: 24\nhorizon: 3\nmin_std: 0.05\nmax_std: 2\ntemperature: 0.5\nlog_std_min: -10\nlog_std_max: 2\nentropy_coef: 0.0001\nnum_bins: 101\nvmin: -10\nvmax: 10\nmodel_size: 5\nnum_enc_layers: 2\nenc_dim: 256\nnum_channels: 32\nmlp_dim: 512\nlatent_dim: 512\ntask_dim: 0\nnum_q: 5\ndropout: 0.01\nsimnorm_dim: 8\nwandb_project: ???\nwandb_entity: ???\nwandb_silent: false\ndisable_wandb: true\nsave_csv: true\nsave_video: true\nsave_agent: true\nseed: 3\nwork_dir: ???\ntask_title: ???\nmultitask: false\ntasks:\n- walker-walk\nobs_shape:\n  state:\n  - 24\naction_dim: 6\nepisode_length: 500\nobs_shapes: ???\naction_dims: ???\nepisode_lengths: ???\nseed_steps: 2500\nbin_size: 0.2\n"
+        }
+      ],
+      "plan": {
+        "task": "walker-walk",
+        "seeds": [
+          1,
+          2,
+          3
+        ],
+        "environment_steps_per_seed": 1000000,
+        "decisions_per_seed": 500000,
+        "action_repeat": 2,
+        "episode_decisions": 500,
+        "episode_environment_steps": 1000,
+        "seed_decisions": 2500,
+        "eval_frequency_decisions": 50000,
+        "eval_episodes": 10,
+        "model_size": 5,
+        "obs": "state",
+        "metric": "raw episode return (0 to 1000), not success",
+        "gpu": 0,
+        "execution": "three seeds sequentially; fail-stop, no automatic retries",
+        "paper": "https://arxiv.org/html/2310.16828v2",
+        "reference_csv": "https://raw.githubusercontent.com/nicklashansen/tdmpc2/57158282b46ebc5c329c5be9cfe2b0094126d1ca/results/walker-walk.csv",
+        "boundary_adjustment": "replace upstream <= loop bound with <; explicitly evaluate at exact final budget",
+        "runtime_differences": "Python 3.10, PyTorch 2.5.1 and TorchRL/TensorDict 0.6 instead of historical stack; dm-control, mujoco and numpy match upstream pins",
+        "budget_revision": "User reduced each seed to 1M environment steps on 2026-09-10; three seeds retained. This is a reduced-budget reproduction, compared with the paper at 1M steps."
+      },
+      "env_spec": {
+        "provider": "ssh",
+        "python": "3.10.21 (borrowed read-only)",
+        "torch": "2.5.1+cu121 (borrowed read-only)",
+        "torchrl": "0.6.0 (borrowed read-only)",
+        "tensordict": "0.6.0 (borrowed read-only)",
+        "gym": "0.21.0 (tdmpc2_original/vendor_deps/runtime, read-only)",
+        "pip_phases": [
+          [
+            "numpy==1.23.5",
+            "dm-control==1.0.8",
+            "mujoco==2.3.1",
+            "dm-env==1.6",
+            "dm-tree==0.1.8",
+            "PyOpenGL==3.1.6",
+            "glfw==2.6.4",
+            "absl-py==2.0.0"
+          ]
+        ],
+        "install_scope": "own vendor_deps only, --no-deps; other dependencies inherited and recorded",
+        "gpu": 0,
+        "gpu_free_reserve_gib": 12,
+        "disk_free_reserve_gib": 15,
+        "env": {
+          "MUJOCO_GL": "egl",
+          "MUJOCO_EGL_DEVICE_ID": "0",
+          "CUDA_VISIBLE_DEVICES": "0",
+          "OMP_NUM_THREADS": "4"
+        },
+        "upstream_commit": "57158282b46ebc5c329c5be9cfe2b0094126d1ca",
+        "validation": "seeded real 500-decision episode, action-repeat equivalence, official replay and optimizer, complete train-loop witness, rendering and module-change checks"
+      }
+    },
+    "pick-cube": {
+      "folder": "maniskill2_tdmpc2_original",
+      "seeds": [
+        {
+          "seed": 1,
+          "run": "maniskill2_tdmpc2_original/artifacts/pick_cube_seed1_1m",
+          "exists": true,
+          "complete.json": {
+            "completed": true,
+            "mode": "train",
+            "task": "pick-cube",
+            "seed": 1,
+            "train_decisions": 500000,
+            "train_environment_steps": 1000000,
+            "eval_environment_steps": 22000,
+            "optimizer_updates": 499999,
+            "final_eval": {
+              "episode_reward": 950.9888916015625,
+              "episode_success": 0.9,
+              "step": 500000,
+              "episode": 4999,
+              "total_time": 36968.498697280884
+            },
+            "final_episode_returns": [
+              960.7985137701035,
+              952.8724093437195,
+              948.1419535279274,
+              948.4783357977867,
+              967.3000192642212,
+              942.9738048911095,
+              933.654380261898,
+              936.3031097650528,
+              954.3397724032402,
+              965.0266882181168
+            ],
+            "final_success_once": 1.0,
+            "all_five_modules_changed": true,
+            "seconds": 36968.66095805168,
+            "torch_peak_MiB": 315.8623046875,
+            "preflight": {
+              "gpu_uuid": "GPU-0b41e662-b662-bb1c-954b-13ed89d7af18",
+              "used_MiB": 38,
+              "free_MiB": 48512,
+              "disk_free_bytes": 31035555840
+            },
+            "environment_witness": null,
+            "upstream_commit": "57158282b46ebc5c329c5be9cfe2b0094126d1ca",
+            "gpu_binding_evidence": [
+              {
+                "gpu": 0,
+                "type": "G",
+                "memory_MiB": 4
+              },
+              {
+                "gpu": 1,
+                "type": "C+G",
+                "memory_MiB": 862
+              }
+            ]
+          },
+          "runtime.json": {
+            "torch": "2.5.1+cu121",
+            "torchrl": "0.6.0",
+            "tensordict": "0.6.0",
+            "numpy": "1.23.5",
+            "mani-skill2": "0.4.1",
+            "sapien": "2.2.1",
+            "gym": "0.21.0",
+            "scipy": "1.15.3"
+          },
+          "sources.json": {
+            "runner.py": "f4b509951f38df6fc23fae4b266873d5e46314ebf1fcb122de82c810e46db88f",
+            "runtime.sh": "40583d99a4f19e79facc2e7c9a306cfad82cc224504550d607951d15f56a3477",
+            "run.sh": "efca5d58d500f1dbea6e9c6a06929e595228acbc13afb00f17862ce60a5db7e8",
+            "configs/plan.json": "8c4e7eddd01e82406ccb11163997828d6abce6addcf0e9eb824a06f563d8a421",
+            "configs/env-spec.json": "e8a7bd82107c0ef7993e0e3397e65f5238ae6a6a75bf62629725e11dc6226862"
+          },
+          "metric_keys": [
+            "episode_reward",
+            "episode_success",
+            "step",
+            "episode",
+            "total_time",
+            "category",
+            "train_decisions",
+            "train_environment_steps",
+            "eval_decisions",
+            "episode_returns",
+            "success_once"
+          ],
+          "evals": [
+            {
+              "episode_reward": 17.587284088134766,
+              "episode_success": 0.0,
+              "step": 0,
+              "episode": 0,
+              "total_time": 30.87049150466919,
+              "category": "eval",
+              "train_decisions": 0,
+              "train_environment_steps": 0,
+              "eval_decisions": 1000,
+              "episode_returns": [
+                3.511872200295329,
+                2.7188683012500405,
+                64.69880625605583,
+                4.054800040088594,
+                8.931593395769596,
+                4.6459998791106045,
+                12.102700285613537,
+                11.459588656201959,
+                8.831128295511007,
+                54.91748717427254
+              ],
+              "success_once": 0.0
+            },
+            {
+              "episode_reward": 220.92333984375,
+              "episode_success": 0.0,
+              "step": 50000,
+              "episode": 499,
+              "total_time": 3603.9945979118347,
+              "category": "eval",
+              "train_decisions": 50000,
+              "train_environment_steps": 100000,
+              "eval_decisions": 2000,
+              "episode_returns": [
+                407.93782180547714,
+                352.3554469347,
+                330.29865050315857,
+                61.28237000107765,
+                125.87128561735153,
+                168.6938500404358,
+                181.95918238162994,
+                345.99273270368576,
+                119.14724683761597,
+                115.69483502581716
+              ],
+              "success_once": 0.0
+            },
+            {
+              "episode_reward": 476.5765075683594,
+              "episode_success": 0.2,
+              "step": 100000,
+              "episode": 999,
+              "total_time": 7317.103289842606,
+              "category": "eval",
+              "train_decisions": 100000,
+              "train_environment_steps": 200000,
+              "eval_decisions": 3000,
+              "episode_returns": [
+                426.34629023075104,
+                458.57385808229446,
+                525.0458597242832,
+                519.9515959620476,
+                534.2668743133545,
+                107.63430643081665,
+                86.90212029218674,
+                919.5329621434212,
+                930.9028006792068,
+                256.60850605368614
+              ],
+              "success_once": 0.4
+            },
+            {
+              "episode_reward": 632.4710083007812,
+              "episode_success": 0.5,
+              "step": 150000,
+              "episode": 1499,
+              "total_time": 11018.631025791168,
+              "category": "eval",
+              "train_decisions": 150000,
+              "train_environment_steps": 300000,
+              "eval_decisions": 4000,
+              "episode_returns": [
+                494.5864864587784,
+                321.3471090197563,
+                22.032181528396904,
+                941.5101182460785,
+                521.6906707882881,
+                948.3624746799469,
+                759.874153137207,
+                948.2040923833847,
+                419.91716735064983,
+                947.1854498386383
+              ],
+              "success_once": 0.8
+            },
+            {
+              "episode_reward": 741.5919189453125,
+              "episode_success": 0.8,
+              "step": 200000,
+              "episode": 1999,
+              "total_time": 14752.712453126907,
+              "category": "eval",
+              "train_decisions": 200000,
+              "train_environment_steps": 400000,
+              "eval_decisions": 5000,
+              "episode_returns": [
+                957.666622042656,
+                876.6457730531693,
+                948.5531454086304,
+                955.6906825900078,
+                474.4444566965103,
+                857.5715053677559,
+                89.14003285206854,
+                934.7410235404968,
+                960.078512430191,
+                361.38769698143005
+              ],
+              "success_once": 0.8
+            },
+            {
+              "episode_reward": 917.0661010742188,
+              "episode_success": 1.0,
+              "step": 250000,
+              "episode": 2499,
+              "total_time": 18460.786484003067,
+              "category": "eval",
+              "train_decisions": 250000,
+              "train_environment_steps": 500000,
+              "eval_decisions": 6000,
+              "episode_returns": [
+                935.873701095581,
+                953.1126318573952,
+                947.8196412324905,
+                956.239240705967,
+                658.1618031859398,
+                938.6461915969849,
+                942.3535490036011,
+                949.0342573523521,
+                923.1008986234665,
+                966.3195205330849
+              ],
+              "success_once": 1.0
+            },
+            {
+              "episode_reward": 770.9822998046875,
+              "episode_success": 0.7,
+              "step": 300000,
+              "episode": 2999,
+              "total_time": 22152.41574573517,
+              "category": "eval",
+              "train_decisions": 300000,
+              "train_environment_steps": 600000,
+              "eval_decisions": 7000,
+              "episode_returns": [
+                950.1573424339294,
+                916.9833679199219,
+                910.4629998803139,
+                947.9623502492905,
+                942.0506812930107,
+                199.01465901732445,
+                62.45705325901508,
+                945.8528584837914,
+                871.7276675105095,
+                963.1538466215134
+              ],
+              "success_once": 0.9
+            },
+            {
+              "episode_reward": 904.5149536132812,
+              "episode_success": 0.9,
+              "step": 350000,
+              "episode": 3499,
+              "total_time": 25868.351241111755,
+              "category": "eval",
+              "train_decisions": 350000,
+              "train_environment_steps": 700000,
+              "eval_decisions": 8000,
+              "episode_returns": [
+                951.7793004512787,
+                955.8649600744247,
+                943.1755375862122,
+                958.2118788957596,
+                484.1822231411934,
+                958.2170920968056,
+                946.158046901226,
+                948.7217973470688,
+                945.9449054002762,
+                952.8937889933586
+              ],
+              "success_once": 0.9
+            },
+            {
+              "episode_reward": 933.5953979492188,
+              "episode_success": 1.0,
+              "step": 400000,
+              "episode": 3999,
+              "total_time": 29576.03389930725,
+              "category": "eval",
+              "train_decisions": 400000,
+              "train_environment_steps": 800000,
+              "eval_decisions": 9000,
+              "episode_returns": [
+                957.9094715118408,
+                959.8496732711792,
+                880.7580145299435,
+                949.1037385463715,
+                890.8403959870338,
+                937.9886227846146,
+                960.2804036140442,
+                930.1341193318367,
+                958.8528184890747,
+                910.2360216379166
+              ],
+              "success_once": 1.0
+            },
+            {
+              "episode_reward": 931.16015625,
+              "episode_success": 1.0,
+              "step": 450000,
+              "episode": 4499,
+              "total_time": 33260.792373895645,
+              "category": "eval",
+              "train_decisions": 450000,
+              "train_environment_steps": 900000,
+              "eval_decisions": 10000,
+              "episode_returns": [
+                936.4048162698746,
+                948.4617428779602,
+                973.5758922100067,
+                950.2284258008003,
+                797.7781421542168,
+                943.2940119504929,
+                948.1369965672493,
+                930.037055015564,
+                939.4398857355118,
+                944.2447799444199
+              ],
+              "success_once": 1.0
+            },
+            {
+              "episode_reward": 950.9888916015625,
+              "episode_success": 0.9,
+              "step": 500000,
+              "episode": 4999,
+              "total_time": 36968.498697280884,
+              "category": "eval",
+              "train_decisions": 500000,
+              "train_environment_steps": 1000000,
+              "eval_decisions": 11000,
+              "episode_returns": [
+                960.7985137701035,
+                952.8724093437195,
+                948.1419535279274,
+                948.4783357977867,
+                967.3000192642212,
+                942.9738048911095,
+                933.654380261898,
+                936.3031097650528,
+                954.3397724032402,
+                965.0266882181168
+              ],
+              "success_once": 1.0
+            }
+          ],
+          "last_metric": {
+            "episode_reward": 950.9888916015625,
+            "episode_success": 0.9,
+            "step": 500000,
+            "episode": 4999,
+            "total_time": 36968.498697280884,
+            "category": "eval",
+            "train_decisions": 500000,
+            "train_environment_steps": 1000000,
+            "eval_decisions": 11000,
+            "episode_returns": [
+              960.7985137701035,
+              952.8724093437195,
+              948.1419535279274,
+              948.4783357977867,
+              967.3000192642212,
+              942.9738048911095,
+              933.654380261898,
+              936.3031097650528,
+              954.3397724032402,
+              965.0266882181168
+            ],
+            "success_once": 1.0
+          },
+          "metrics_sha256": "f9465a0da58e7df6eb8ab47d0141fea1a864588ca03b036fd40fb013b712844d",
+          "last_update": {
+            "update": 499900,
+            "train_decisions": 499901,
+            "train_environment_steps": 999802,
+            "seconds": 36926.30299663544,
+            "consistency_loss": 0.0001004254663712345,
+            "reward_loss": 0.23185700178146362,
+            "value_loss": 0.33287352323532104,
+            "pi_loss": -0.4165518581867218,
+            "total_loss": 0.05848156288266182,
+            "grad_norm": 0.2953687608242035,
+            "pi_scale": 186.39614868164062
+          },
+          "videos": [
+            {
+              "path": "maniskill2_tdmpc2_original/artifacts/pick_cube_seed1_1m/videos/eval_0000000.mp4",
+              "bytes": 88807
+            },
+            {
+              "path": "maniskill2_tdmpc2_original/artifacts/pick_cube_seed1_1m/videos/eval_0100000.mp4",
+              "bytes": 209717
+            },
+            {
+              "path": "maniskill2_tdmpc2_original/artifacts/pick_cube_seed1_1m/videos/eval_0200000.mp4",
+              "bytes": 254618
+            },
+            {
+              "path": "maniskill2_tdmpc2_original/artifacts/pick_cube_seed1_1m/videos/eval_0300000.mp4",
+              "bytes": 204811
+            },
+            {
+              "path": "maniskill2_tdmpc2_original/artifacts/pick_cube_seed1_1m/videos/eval_0400000.mp4",
+              "bytes": 163079
+            },
+            {
+              "path": "maniskill2_tdmpc2_original/artifacts/pick_cube_seed1_1m/videos/eval_0500000.mp4",
+              "bytes": 158358
+            },
+            {
+              "path": "maniskill2_tdmpc2_original/artifacts/pick_cube_seed1_1m/videos/eval_0600000.mp4",
+              "bytes": 149911
+            },
+            {
+              "path": "maniskill2_tdmpc2_original/artifacts/pick_cube_seed1_1m/videos/eval_0700000.mp4",
+              "bytes": 163217
+            },
+            {
+              "path": "maniskill2_tdmpc2_original/artifacts/pick_cube_seed1_1m/videos/eval_0800000.mp4",
+              "bytes": 169903
+            },
+            {
+              "path": "maniskill2_tdmpc2_original/artifacts/pick_cube_seed1_1m/videos/eval_0900000.mp4",
+              "bytes": 127021
+            },
+            {
+              "path": "maniskill2_tdmpc2_original/artifacts/pick_cube_seed1_1m/videos/eval_1000000.mp4",
+              "bytes": 173614
+            }
+          ],
+          "trajectory_examples": [
+            "maniskill2_tdmpc2_original/artifacts/pick_cube_seed1_1m/trajectories/train/004988.npz",
+            "maniskill2_tdmpc2_original/artifacts/pick_cube_seed1_1m/trajectories/train/004989.npz",
+            "maniskill2_tdmpc2_original/artifacts/pick_cube_seed1_1m/trajectories/train/004990.npz",
+            "maniskill2_tdmpc2_original/artifacts/pick_cube_seed1_1m/trajectories/train/004991.npz",
+            "maniskill2_tdmpc2_original/artifacts/pick_cube_seed1_1m/trajectories/train/004992.npz",
+            "maniskill2_tdmpc2_original/artifacts/pick_cube_seed1_1m/trajectories/train/004993.npz",
+            "maniskill2_tdmpc2_original/artifacts/pick_cube_seed1_1m/trajectories/train/004994.npz",
+            "maniskill2_tdmpc2_original/artifacts/pick_cube_seed1_1m/trajectories/train/004995.npz",
+            "maniskill2_tdmpc2_original/artifacts/pick_cube_seed1_1m/trajectories/train/004996.npz",
+            "maniskill2_tdmpc2_original/artifacts/pick_cube_seed1_1m/trajectories/train/004997.npz",
+            "maniskill2_tdmpc2_original/artifacts/pick_cube_seed1_1m/trajectories/train/004998.npz",
+            "maniskill2_tdmpc2_original/artifacts/pick_cube_seed1_1m/trajectories/train/004999.npz"
+          ],
+          "resolved_config": "task: pick-cube\nobs: state\ncheckpoint: ???\neval_episodes: 10\neval_freq: 50000\nsteps: 500000\nbatch_size: 256\nreward_coef: 0.1\nvalue_coef: 0.1\nconsistency_coef: 20\nrho: 0.5\nlr: 0.0003\nenc_lr_scale: 0.3\ngrad_clip_norm: 20\ntau: 0.01\ndiscount_denom: 5\ndiscount_min: 0.95\ndiscount_max: 0.995\nbuffer_size: 1000000\nexp_name: default\ndata_dir: ???\nmpc: true\niterations: 6\nnum_samples: 512\nnum_elites: 64\nnum_pi_trajs: 24\nhorizon: 3\nmin_std: 0.05\nmax_std: 2\ntemperature: 0.5\nlog_std_min: -10\nlog_std_max: 2\nentropy_coef: 0.0001\nnum_bins: 101\nvmin: -10\nvmax: 10\nmodel_size: 5\nnum_enc_layers: 2\nenc_dim: 256\nnum_channels: 32\nmlp_dim: 512\nlatent_dim: 512\ntask_dim: 0\nnum_q: 5\ndropout: 0.01\nsimnorm_dim: 8\nwandb_project: ???\nwandb_entity: ???\nwandb_silent: false\ndisable_wandb: true\nsave_csv: true\nsave_video: true\nsave_agent: true\nseed: 1\nwork_dir: ???\ntask_title: ???\nmultitask: false\ntasks:\n- pick-cube\nobs_shape:\n  state:\n  - 51\naction_dim: 4\nepisode_length: 100\nobs_shapes: ???\naction_dims: ???\nepisode_lengths: ???\nseed_steps: 1000\nbin_size: 0.2\n"
+        },
+        {
+          "seed": 2,
+          "run": "maniskill2_tdmpc2_original/artifacts/pick_cube_seed2_1m",
+          "exists": true,
+          "complete.json": {
+            "completed": true,
+            "mode": "train",
+            "task": "pick-cube",
+            "seed": 2,
+            "train_decisions": 500000,
+            "train_environment_steps": 1000000,
+            "eval_environment_steps": 22000,
+            "optimizer_updates": 499999,
+            "final_eval": {
+              "episode_reward": 936.0712890625,
+              "episode_success": 1.0,
+              "step": 500000,
+              "episode": 4999,
+              "total_time": 38748.05432796478
+            },
+            "final_episode_returns": [
+              959.139485836029,
+              899.1472784876823,
+              933.8216159939766,
+              947.968189060688,
+              918.0309045314789,
+              932.5196112394333,
+              950.5911664962769,
+              898.1863667964935,
+              954.5070871710777,
+              966.8008692860603
+            ],
+            "final_success_once": 1.0,
+            "all_five_modules_changed": true,
+            "seconds": 38748.20124387741,
+            "torch_peak_MiB": 315.8623046875,
+            "preflight": {
+              "gpu_uuid": "GPU-0b41e662-b662-bb1c-954b-13ed89d7af18",
+              "used_MiB": 38,
+              "free_MiB": 48512,
+              "disk_free_bytes": 29782982656
+            },
+            "environment_witness": null,
+            "upstream_commit": "57158282b46ebc5c329c5be9cfe2b0094126d1ca",
+            "gpu_binding_evidence": [
+              {
+                "gpu": 0,
+                "type": "G",
+                "memory_MiB": 4
+              },
+              {
+                "gpu": 1,
+                "type": "C+G",
+                "memory_MiB": 862
+              }
+            ]
+          },
+          "runtime.json": {
+            "torch": "2.5.1+cu121",
+            "torchrl": "0.6.0",
+            "tensordict": "0.6.0",
+            "numpy": "1.23.5",
+            "mani-skill2": "0.4.1",
+            "sapien": "2.2.1",
+            "gym": "0.21.0",
+            "scipy": "1.15.3"
+          },
+          "sources.json": {
+            "runner.py": "f4b509951f38df6fc23fae4b266873d5e46314ebf1fcb122de82c810e46db88f",
+            "runtime.sh": "40583d99a4f19e79facc2e7c9a306cfad82cc224504550d607951d15f56a3477",
+            "run.sh": "efca5d58d500f1dbea6e9c6a06929e595228acbc13afb00f17862ce60a5db7e8",
+            "configs/plan.json": "8c4e7eddd01e82406ccb11163997828d6abce6addcf0e9eb824a06f563d8a421",
+            "configs/env-spec.json": "e8a7bd82107c0ef7993e0e3397e65f5238ae6a6a75bf62629725e11dc6226862"
+          },
+          "metric_keys": [
+            "episode_reward",
+            "episode_success",
+            "step",
+            "episode",
+            "total_time",
+            "category",
+            "train_decisions",
+            "train_environment_steps",
+            "eval_decisions",
+            "episode_returns",
+            "success_once"
+          ],
+          "evals": [
+            {
+              "episode_reward": 7.403540134429932,
+              "episode_success": 0.0,
+              "step": 0,
+              "episode": 0,
+              "total_time": 30.877909898757935,
+              "category": "eval",
+              "train_decisions": 0,
+              "train_environment_steps": 0,
+              "eval_decisions": 1000,
+              "episode_returns": [
+                4.303107671905309,
+                3.6859728056006134,
+                14.154381856322289,
+                3.664405195391737,
+                8.733221556292847,
+                5.782961068907753,
+                9.489218059927225,
+                5.5177520048455335,
+                12.042479254305363,
+                6.66190455830656
+              ],
+              "success_once": 0.0
+            },
+            {
+              "episode_reward": 206.08505249023438,
+              "episode_success": 0.0,
+              "step": 50000,
+              "episode": 499,
+              "total_time": 3604.203293800354,
+              "category": "eval",
+              "train_decisions": 50000,
+              "train_environment_steps": 100000,
+              "eval_decisions": 2000,
+              "episode_returns": [
+                258.5330457687378,
+                124.74617597460747,
+                126.96212267875671,
+                139.10168439149857,
+                172.75881558656693,
+                164.0312791466713,
+                53.04939158260822,
+                378.17523235082626,
+                295.76325339078903,
+                347.7295290827751
+              ],
+              "success_once": 0.0
+            },
+            {
+              "episode_reward": 365.5826416015625,
+              "episode_success": 0.1,
+              "step": 100000,
+              "episode": 999,
+              "total_time": 7289.148945569992,
+              "category": "eval",
+              "train_decisions": 100000,
+              "train_environment_steps": 200000,
+              "eval_decisions": 3000,
+              "episode_returns": [
+                460.90342015028,
+                422.2186907529831,
+                473.6503351330757,
+                772.7038231492043,
+                147.15634098649025,
+                61.536087810993195,
+                653.7031347155571,
+                542.0727107524872,
+                15.060468345880508,
+                106.82092297379859
+              ],
+              "success_once": 0.3
+            },
+            {
+              "episode_reward": 665.9718627929688,
+              "episode_success": 0.4,
+              "step": 150000,
+              "episode": 1499,
+              "total_time": 10983.875802516937,
+              "category": "eval",
+              "train_decisions": 150000,
+              "train_environment_steps": 300000,
+              "eval_decisions": 4000,
+              "episode_returns": [
+                808.4361834526062,
+                943.5925207138062,
+                492.73312240839005,
+                329.0959020256996,
+                903.3992365002632,
+                922.4318271279335,
+                612.9222545027733,
+                509.9845886826515,
+                190.1969509124756,
+                946.9265186786652
+              ],
+              "success_once": 0.7
+            },
+            {
+              "episode_reward": 778.6861572265625,
+              "episode_success": 0.9,
+              "step": 200000,
+              "episode": 1999,
+              "total_time": 14647.311701059341,
+              "category": "eval",
+              "train_decisions": 200000,
+              "train_environment_steps": 400000,
+              "eval_decisions": 5000,
+              "episode_returns": [
+                896.3162358403206,
+                946.2985561490059,
+                941.3598830699921,
+                523.2123491764069,
+                27.966739712283015,
+                891.6976215839386,
+                933.2216965556145,
+                918.5679380893707,
+                921.0330196022987,
+                787.1871683001518
+              ],
+              "success_once": 0.9
+            },
+            {
+              "episode_reward": 863.6976318359375,
+              "episode_success": 0.9,
+              "step": 250000,
+              "episode": 2499,
+              "total_time": 18323.878798007965,
+              "category": "eval",
+              "train_decisions": 250000,
+              "train_environment_steps": 500000,
+              "eval_decisions": 6000,
+              "episode_returns": [
+                942.2044391036034,
+                951.6435981988907,
+                942.250395834446,
+                856.3960903286934,
+                933.3671432733536,
+                834.3587747216225,
+                946.7686455249786,
+                955.1069680452347,
+                741.0555843114853,
+                533.8246791958809
+              ],
+              "success_once": 0.9
+            },
+            {
+              "episode_reward": 848.1238403320312,
+              "episode_success": 0.9,
+              "step": 300000,
+              "episode": 2999,
+              "total_time": 22036.29971385002,
+              "category": "eval",
+              "train_decisions": 300000,
+              "train_environment_steps": 600000,
+              "eval_decisions": 7000,
+              "episode_returns": [
+                950.9283865690231,
+                883.2300508022308,
+                949.866168320179,
+                946.6104419231415,
+                381.10657888650894,
+                595.0553232431412,
+                959.5214478373528,
+                947.8109538555145,
+                917.00956594944,
+                950.0995129942894
+              ],
+              "success_once": 1.0
+            },
+            {
+              "episode_reward": 940.3828125,
+              "episode_success": 1.0,
+              "step": 350000,
+              "episode": 3499,
+              "total_time": 25960.25585913658,
+              "category": "eval",
+              "train_decisions": 350000,
+              "train_environment_steps": 700000,
+              "eval_decisions": 8000,
+              "episode_returns": [
+                955.6849699020386,
+                967.2514053583145,
+                943.4977325201035,
+                933.2218111753464,
+                866.459633409977,
+                964.7104211449623,
+                939.940871834755,
+                946.3104658126831,
+                953.6182794570923,
+                933.1331492066383
+              ],
+              "success_once": 1.0
+            },
+            {
+              "episode_reward": 942.4464111328125,
+              "episode_success": 1.0,
+              "step": 400000,
+              "episode": 3999,
+              "total_time": 30221.724319458008,
+              "category": "eval",
+              "train_decisions": 400000,
+              "train_environment_steps": 800000,
+              "eval_decisions": 9000,
+              "episode_returns": [
+                968.0437507629395,
+                860.4864946007729,
+                959.2082668542862,
+                949.7115160226822,
+                951.145080268383,
+                962.4216715097427,
+                953.6631336212158,
+                956.2130998373032,
+                959.5313559174538,
+                904.038831114769
+              ],
+              "success_once": 1.0
+            },
+            {
+              "episode_reward": 944.0045166015625,
+              "episode_success": 0.9,
+              "step": 450000,
+              "episode": 4499,
+              "total_time": 34481.77413105965,
+              "category": "eval",
+              "train_decisions": 450000,
+              "train_environment_steps": 900000,
+              "eval_decisions": 10000,
+              "episode_returns": [
+                909.8314856290817,
+                944.7705993056297,
+                971.3958110809326,
+                948.7843605875969,
+                942.2136335372925,
+                955.3305452466011,
+                939.2711482048035,
+                933.760107755661,
+                953.1928660273552,
+                941.4942727088928
+              ],
+              "success_once": 1.0
+            },
+            {
+              "episode_reward": 936.0712890625,
+              "episode_success": 1.0,
+              "step": 500000,
+              "episode": 4999,
+              "total_time": 38748.05432796478,
+              "category": "eval",
+              "train_decisions": 500000,
+              "train_environment_steps": 1000000,
+              "eval_decisions": 11000,
+              "episode_returns": [
+                959.139485836029,
+                899.1472784876823,
+                933.8216159939766,
+                947.968189060688,
+                918.0309045314789,
+                932.5196112394333,
+                950.5911664962769,
+                898.1863667964935,
+                954.5070871710777,
+                966.8008692860603
+              ],
+              "success_once": 1.0
+            }
+          ],
+          "last_metric": {
+            "episode_reward": 936.0712890625,
+            "episode_success": 1.0,
+            "step": 500000,
+            "episode": 4999,
+            "total_time": 38748.05432796478,
+            "category": "eval",
+            "train_decisions": 500000,
+            "train_environment_steps": 1000000,
+            "eval_decisions": 11000,
+            "episode_returns": [
+              959.139485836029,
+              899.1472784876823,
+              933.8216159939766,
+              947.968189060688,
+              918.0309045314789,
+              932.5196112394333,
+              950.5911664962769,
+              898.1863667964935,
+              954.5070871710777,
+              966.8008692860603
+            ],
+            "success_once": 1.0
+          },
+          "metrics_sha256": "db440ab8d4c252f3d9468e9699bc6537cff395bfc2b61ce69f8da7419323bcd4",
+          "last_update": {
+            "update": 499900,
+            "train_decisions": 499901,
+            "train_environment_steps": 999802,
+            "seconds": 38698.387103796005,
+            "consistency_loss": 0.00014528066094499081,
+            "reward_loss": 0.22509758174419403,
+            "value_loss": 0.32001373171806335,
+            "pi_loss": -0.38829120993614197,
+            "total_loss": 0.05741674453020096,
+            "grad_norm": 0.2292632758617401,
+            "pi_scale": 186.52247619628906
+          },
+          "videos": [
+            {
+              "path": "maniskill2_tdmpc2_original/artifacts/pick_cube_seed2_1m/videos/eval_0000000.mp4",
+              "bytes": 99753
+            },
+            {
+              "path": "maniskill2_tdmpc2_original/artifacts/pick_cube_seed2_1m/videos/eval_0100000.mp4",
+              "bytes": 242502
+            },
+            {
+              "path": "maniskill2_tdmpc2_original/artifacts/pick_cube_seed2_1m/videos/eval_0200000.mp4",
+              "bytes": 181261
+            },
+            {
+              "path": "maniskill2_tdmpc2_original/artifacts/pick_cube_seed2_1m/videos/eval_0300000.mp4",
+              "bytes": 165319
+            },
+            {
+              "path": "maniskill2_tdmpc2_original/artifacts/pick_cube_seed2_1m/videos/eval_0400000.mp4",
+              "bytes": 172728
+            },
+            {
+              "path": "maniskill2_tdmpc2_original/artifacts/pick_cube_seed2_1m/videos/eval_0500000.mp4",
+              "bytes": 162745
+            },
+            {
+              "path": "maniskill2_tdmpc2_original/artifacts/pick_cube_seed2_1m/videos/eval_0600000.mp4",
+              "bytes": 152711
+            },
+            {
+              "path": "maniskill2_tdmpc2_original/artifacts/pick_cube_seed2_1m/videos/eval_0700000.mp4",
+              "bytes": 168682
+            },
+            {
+              "path": "maniskill2_tdmpc2_original/artifacts/pick_cube_seed2_1m/videos/eval_0800000.mp4",
+              "bytes": 162197
+            },
+            {
+              "path": "maniskill2_tdmpc2_original/artifacts/pick_cube_seed2_1m/videos/eval_0900000.mp4",
+              "bytes": 101209
+            },
+            {
+              "path": "maniskill2_tdmpc2_original/artifacts/pick_cube_seed2_1m/videos/eval_1000000.mp4",
+              "bytes": 176674
+            }
+          ],
+          "trajectory_examples": [
+            "maniskill2_tdmpc2_original/artifacts/pick_cube_seed2_1m/trajectories/train/004988.npz",
+            "maniskill2_tdmpc2_original/artifacts/pick_cube_seed2_1m/trajectories/train/004989.npz",
+            "maniskill2_tdmpc2_original/artifacts/pick_cube_seed2_1m/trajectories/train/004990.npz",
+            "maniskill2_tdmpc2_original/artifacts/pick_cube_seed2_1m/trajectories/train/004991.npz",
+            "maniskill2_tdmpc2_original/artifacts/pick_cube_seed2_1m/trajectories/train/004992.npz",
+            "maniskill2_tdmpc2_original/artifacts/pick_cube_seed2_1m/trajectories/train/004993.npz",
+            "maniskill2_tdmpc2_original/artifacts/pick_cube_seed2_1m/trajectories/train/004994.npz",
+            "maniskill2_tdmpc2_original/artifacts/pick_cube_seed2_1m/trajectories/train/004995.npz",
+            "maniskill2_tdmpc2_original/artifacts/pick_cube_seed2_1m/trajectories/train/004996.npz",
+            "maniskill2_tdmpc2_original/artifacts/pick_cube_seed2_1m/trajectories/train/004997.npz",
+            "maniskill2_tdmpc2_original/artifacts/pick_cube_seed2_1m/trajectories/train/004998.npz",
+            "maniskill2_tdmpc2_original/artifacts/pick_cube_seed2_1m/trajectories/train/004999.npz"
+          ],
+          "resolved_config": "task: pick-cube\nobs: state\ncheckpoint: ???\neval_episodes: 10\neval_freq: 50000\nsteps: 500000\nbatch_size: 256\nreward_coef: 0.1\nvalue_coef: 0.1\nconsistency_coef: 20\nrho: 0.5\nlr: 0.0003\nenc_lr_scale: 0.3\ngrad_clip_norm: 20\ntau: 0.01\ndiscount_denom: 5\ndiscount_min: 0.95\ndiscount_max: 0.995\nbuffer_size: 1000000\nexp_name: default\ndata_dir: ???\nmpc: true\niterations: 6\nnum_samples: 512\nnum_elites: 64\nnum_pi_trajs: 24\nhorizon: 3\nmin_std: 0.05\nmax_std: 2\ntemperature: 0.5\nlog_std_min: -10\nlog_std_max: 2\nentropy_coef: 0.0001\nnum_bins: 101\nvmin: -10\nvmax: 10\nmodel_size: 5\nnum_enc_layers: 2\nenc_dim: 256\nnum_channels: 32\nmlp_dim: 512\nlatent_dim: 512\ntask_dim: 0\nnum_q: 5\ndropout: 0.01\nsimnorm_dim: 8\nwandb_project: ???\nwandb_entity: ???\nwandb_silent: false\ndisable_wandb: true\nsave_csv: true\nsave_video: true\nsave_agent: true\nseed: 2\nwork_dir: ???\ntask_title: ???\nmultitask: false\ntasks:\n- pick-cube\nobs_shape:\n  state:\n  - 51\naction_dim: 4\nepisode_length: 100\nobs_shapes: ???\naction_dims: ???\nepisode_lengths: ???\nseed_steps: 1000\nbin_size: 0.2\n"
+        },
+        {
+          "seed": 3,
+          "run": "maniskill2_tdmpc2_original/artifacts/pick_cube_seed3_1m",
+          "exists": true,
+          "runtime.json": {
+            "torch": "2.5.1+cu121",
+            "torchrl": "0.6.0",
+            "tensordict": "0.6.0",
+            "numpy": "1.23.5",
+            "mani-skill2": "0.4.1",
+            "sapien": "2.2.1",
+            "gym": "0.21.0",
+            "scipy": "1.15.3"
+          },
+          "sources.json": {
+            "runner.py": "f4b509951f38df6fc23fae4b266873d5e46314ebf1fcb122de82c810e46db88f",
+            "runtime.sh": "40583d99a4f19e79facc2e7c9a306cfad82cc224504550d607951d15f56a3477",
+            "run.sh": "efca5d58d500f1dbea6e9c6a06929e595228acbc13afb00f17862ce60a5db7e8",
+            "configs/plan.json": "8c4e7eddd01e82406ccb11163997828d6abce6addcf0e9eb824a06f563d8a421",
+            "configs/env-spec.json": "e8a7bd82107c0ef7993e0e3397e65f5238ae6a6a75bf62629725e11dc6226862"
+          },
+          "metric_keys": [
+            "episode_reward",
+            "episode_success",
+            "step",
+            "episode",
+            "total_time",
+            "consistency_loss",
+            "reward_loss",
+            "value_loss",
+            "pi_loss",
+            "total_loss",
+            "grad_norm",
+            "pi_scale",
+            "category",
+            "train_decisions",
+            "train_environment_steps",
+            "eval_decisions"
+          ],
+          "evals": [
+            {
+              "episode_reward": 18.497825622558594,
+              "episode_success": 0.0,
+              "step": 0,
+              "episode": 0,
+              "total_time": 36.581655740737915,
+              "category": "eval",
+              "train_decisions": 0,
+              "train_environment_steps": 0,
+              "eval_decisions": 1000,
+              "episode_returns": [
+                6.169730793189956,
+                15.913586871698499,
+                8.557853805294144,
+                62.60887923836708,
+                8.06000691326335,
+                34.32134147360921,
+                8.972267391858622,
+                13.533930483274162,
+                19.713837703689933,
+                7.126830485183746
+              ],
+              "success_once": 0.0
+            }
+          ],
+          "last_metric": {
+            "episode_reward": 113.8775863647461,
+            "episode_success": 0.0,
+            "step": 12000,
+            "episode": 119,
+            "total_time": 978.777284860611,
+            "consistency_loss": 0.0002943635918200016,
+            "reward_loss": 0.29026085138320923,
+            "value_loss": 0.3368455469608307,
+            "pi_loss": -0.3084694445133209,
+            "total_loss": 0.06859791278839111,
+            "grad_norm": 0.19218365848064423,
+            "pi_scale": 48.632991790771484,
+            "category": "train",
+            "train_decisions": 12000,
+            "train_environment_steps": 24000,
+            "eval_decisions": 1000
+          },
+          "metrics_sha256": "ae0ac76c37cacf80c80a91e34cfc1998d4aa8fb6e31977ffa5aebfe3ec79794c",
+          "last_update": {
+            "update": 12000,
+            "train_decisions": 12001,
+            "train_environment_steps": 24002,
+            "seconds": 978.888968706131,
+            "consistency_loss": 0.00034664501436054707,
+            "reward_loss": 0.28626203536987305,
+            "value_loss": 0.32864344120025635,
+            "pi_loss": -0.31264111399650574,
+            "total_loss": 0.06842344999313354,
+            "grad_norm": 0.3414779305458069,
+            "pi_scale": 48.7449836730957
+          },
+          "videos": [
+            {
+              "path": "maniskill2_tdmpc2_original/artifacts/pick_cube_seed3_1m/videos/eval_0000000.mp4",
+              "bytes": 146012
+            }
+          ],
+          "trajectory_examples": [
+            "maniskill2_tdmpc2_original/artifacts/pick_cube_seed3_1m/trajectories/train/000108.npz",
+            "maniskill2_tdmpc2_original/artifacts/pick_cube_seed3_1m/trajectories/train/000109.npz",
+            "maniskill2_tdmpc2_original/artifacts/pick_cube_seed3_1m/trajectories/train/000110.npz",
+            "maniskill2_tdmpc2_original/artifacts/pick_cube_seed3_1m/trajectories/train/000111.npz",
+            "maniskill2_tdmpc2_original/artifacts/pick_cube_seed3_1m/trajectories/train/000112.npz",
+            "maniskill2_tdmpc2_original/artifacts/pick_cube_seed3_1m/trajectories/train/000113.npz",
+            "maniskill2_tdmpc2_original/artifacts/pick_cube_seed3_1m/trajectories/train/000114.npz",
+            "maniskill2_tdmpc2_original/artifacts/pick_cube_seed3_1m/trajectories/train/000115.npz",
+            "maniskill2_tdmpc2_original/artifacts/pick_cube_seed3_1m/trajectories/train/000116.npz",
+            "maniskill2_tdmpc2_original/artifacts/pick_cube_seed3_1m/trajectories/train/000117.npz",
+            "maniskill2_tdmpc2_original/artifacts/pick_cube_seed3_1m/trajectories/train/000118.npz",
+            "maniskill2_tdmpc2_original/artifacts/pick_cube_seed3_1m/trajectories/train/000119.npz"
+          ],
+          "resolved_config": "task: pick-cube\nobs: state\ncheckpoint: ???\neval_episodes: 10\neval_freq: 50000\nsteps: 500000\nbatch_size: 256\nreward_coef: 0.1\nvalue_coef: 0.1\nconsistency_coef: 20\nrho: 0.5\nlr: 0.0003\nenc_lr_scale: 0.3\ngrad_clip_norm: 20\ntau: 0.01\ndiscount_denom: 5\ndiscount_min: 0.95\ndiscount_max: 0.995\nbuffer_size: 1000000\nexp_name: default\ndata_dir: ???\nmpc: true\niterations: 6\nnum_samples: 512\nnum_elites: 64\nnum_pi_trajs: 24\nhorizon: 3\nmin_std: 0.05\nmax_std: 2\ntemperature: 0.5\nlog_std_min: -10\nlog_std_max: 2\nentropy_coef: 0.0001\nnum_bins: 101\nvmin: -10\nvmax: 10\nmodel_size: 5\nnum_enc_layers: 2\nenc_dim: 256\nnum_channels: 32\nmlp_dim: 512\nlatent_dim: 512\ntask_dim: 0\nnum_q: 5\ndropout: 0.01\nsimnorm_dim: 8\nwandb_project: ???\nwandb_entity: ???\nwandb_silent: false\ndisable_wandb: true\nsave_csv: true\nsave_video: true\nsave_agent: true\nseed: 3\nwork_dir: ???\ntask_title: ???\nmultitask: false\ntasks:\n- pick-cube\nobs_shape:\n  state:\n  - 51\naction_dim: 4\nepisode_length: 100\nobs_shapes: ???\naction_dims: ???\nepisode_lengths: ???\nseed_steps: 1000\nbin_size: 0.2\n"
+        }
+      ],
+      "plan": {
+        "task": "pick-cube",
+        "env_id": "PickCube-v0",
+        "seeds": [
+          1,
+          2,
+          3
+        ],
+        "environment_steps_per_seed": 1000000,
+        "decisions_per_seed": 500000,
+        "action_repeat": 2,
+        "episode_decisions": 100,
+        "episode_environment_steps": 200,
+        "seed_decisions": 1000,
+        "eval_frequency_decisions": 50000,
+        "eval_episodes": 10,
+        "model_size": 5,
+        "obs": "state",
+        "metric": "native success at final step; success-once separately recorded",
+        "gpu": 1,
+        "execution": "three seeds sequentially; stop queue on failure, no automatic retries",
+        "paper": "https://arxiv.org/html/2310.16828v2",
+        "reference_csv": "https://raw.githubusercontent.com/nicklashansen/tdmpc2/57158282b46ebc5c329c5be9cfe2b0094126d1ca/results/pick-cube.csv",
+        "boundary_adjustment": "upstream <= loop changed to < and final evaluation at exact budget",
+        "scope": "original-method reproduction at reduced1M budget, compare paper at1M; not full4M replication",
+        "runtime_differences": "Python3.10/PyTorch2.5.1/TorchRL0.6 differ from historical stack; ManiSkill2/SAPIEN match official pins"
+      },
+      "env_spec": {
+        "provider": "ssh",
+        "python": "3.10.21 borrowed read-only",
+        "torch": "2.5.1+cu121 borrowed read-only",
+        "torchrl": "0.6.0 borrowed read-only",
+        "tensordict": "0.6.0 borrowed read-only",
+        "gym": "0.21.0 existing overlay read-only",
+        "numpy": "1.23.5 existing DMControl overlay read-only",
+        "pip_phases": [
+          [
+            "mani-skill2==0.4.1",
+            "sapien==2.2.1"
+          ],
+          [
+            "pyquaternion==0.9.9",
+            "transforms3d==0.4.1",
+            "trimesh==4.0.9",
+            "rtree==1.2.0"
+          ]
+        ],
+        "install_scope": "own vendor_deps, --no-deps, inherited dependencies audited",
+        "gpu": 1,
+        "render_gpu": 1,
+        "renderer_device": "pci:65 under CUDA_VISIBLE_DEVICES=1; physical GPU verified by PID",
+        "gpu0_context_allowance": "Vulkan enumeration graphics-only context <=8MiB, observed4MiB; no compute",
+        "upstream_commit": "57158282b46ebc5c329c5be9cfe2b0094126d1ca",
+        "validation": "native PickCube-v0 simulation, original action-repeat2 and100-decision horizon, observation51/action4, actual optimizer updates and EGL/Vulkan rendering"
+      }
+    }
+  }
+}

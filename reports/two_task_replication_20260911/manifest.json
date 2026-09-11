@@ -1,0 +1,310 @@
+{
+  "browser_validation.json": {
+    "bytes": 809,
+    "sha256": "ff22725b74bd4b36085bd07c8b68243b9a2f586192364b1ac6e4f84b8c5e5d0e"
+  },
+  "README.md": {
+    "bytes": 2492,
+    "sha256": "32a35e2efba3a7b2849fbebaa9a514d5e3d6976eb755b3bb16d39787a4e8aa29"
+  },
+  "server_snapshot.json": {
+    "bytes": 90893,
+    "sha256": "22d2449b67773ebb996ecedaf8a473387771e8cd39f968c83fcf9666448791d2"
+  },
+  "pick-cube/episode_detail.png": {
+    "bytes": 39757,
+    "sha256": "bd0e5f7a80ec3443212b49e4944cfedd3cfeb1f50ca64bed2f8e67390b713495"
+  },
+  "pick-cube/learning_curves.png": {
+    "bytes": 139211,
+    "sha256": "40f32c95e2373f577c8489d15dc4c62ca3b8f2324f034295c991a29e929fc60f"
+  },
+  "pick-cube/stage_results.csv": {
+    "bytes": 897,
+    "sha256": "a062db51f74c59990ee3592e62801e03c66cb4633dd14c5dd592595c3f3cfb59"
+  },
+  "pick-cube/verified_results.json": {
+    "bytes": 3033,
+    "sha256": "cbecd9e1bc6d059e394bd1abdd10ea7d645658f5d8b65c5e3e430b2487354ef9"
+  },
+  "walker-walk/episode_detail.png": {
+    "bytes": 77407,
+    "sha256": "42fe02a8866cd6683e354f30ec03192a23e51b5e3fbb08aa92809bafb29f468c"
+  },
+  "walker-walk/learning_curves.png": {
+    "bytes": 98568,
+    "sha256": "1eaf37cb79e3bed7b51f423c131125af2c6dc7dcb4c313e3d0cd02c4362edfeb"
+  },
+  "walker-walk/stage_results.csv": {
+    "bytes": 856,
+    "sha256": "2c7532e74f1cb44e08e638e211ea79883c7945d9f54860bbfc8a5c09ef8ba7a6"
+  },
+  "walker-walk/verified_results.json": {
+    "bytes": 3041,
+    "sha256": "f0a762e3a2a87969b961eea9f3bd943f2f0d354f5802a92830fb3dfc5f52a6c6"
+  },
+  "pick-cube/seed1/episode_000000.npz": {
+    "bytes": 21423,
+    "sha256": "1ac5f2fc5c6175f22001404c883de82aa39c394a2bef58d951cddf422bdd5a4c"
+  },
+  "pick-cube/seed1/episode_000100.npz": {
+    "bytes": 33649,
+    "sha256": "b5dcfd4779969a018daeb515804edae79b105dd7a9ed00b59a12f10e450ecd7f"
+  },
+  "pick-cube/seed1/episode_000101.npz": {
+    "bytes": 33495,
+    "sha256": "c100105cd37879199d6af5426621178fe11258ae1fe33e5dc1e4eca321c6be21"
+  },
+  "pick-cube/seed1/episode_000102.npz": {
+    "bytes": 33481,
+    "sha256": "13909bba1172bd225e2b2f92e56456e7b4d9fb273f43866c5fb549fdba0d2867"
+  },
+  "pick-cube/seed1/episode_000103.npz": {
+    "bytes": 31436,
+    "sha256": "4b665c94d60b2ec011fbc117dc13351fc983b7e36370378d2ebceca5835321e8"
+  },
+  "pick-cube/seed1/episode_000104.npz": {
+    "bytes": 33638,
+    "sha256": "200fd1acc137d8a14658198d9767f1f4f796a993e47c1183008198095a544765"
+  },
+  "pick-cube/seed1/episode_000105.npz": {
+    "bytes": 33529,
+    "sha256": "cafd8972f1c8062b88072d98f3d231a269459ee16c3ff721e2ff1c0a3554c0e6"
+  },
+  "pick-cube/seed1/episode_000106.npz": {
+    "bytes": 33675,
+    "sha256": "896c222d523c87af148d7dc467fa048b73d7b6893acdfe49b8ddf69d7c307225"
+  },
+  "pick-cube/seed1/episode_000107.npz": {
+    "bytes": 33672,
+    "sha256": "0fdab9155869484606005fa9cac1922836fb7fa645cec2ed0a872ea810de015f"
+  },
+  "pick-cube/seed1/episode_000108.npz": {
+    "bytes": 33598,
+    "sha256": "e5f42d47171d184557fb5131f805c9b810a04fe2a9c66029ac9278921593cd00"
+  },
+  "pick-cube/seed1/episode_000109.npz": {
+    "bytes": 33591,
+    "sha256": "e9206ab04fc1f917fab42d6ebaecdb4ce993d8fab03647c7ced311d4c3c7232b"
+  },
+  "pick-cube/seed1/episode_validation.json": {
+    "bytes": 1723,
+    "sha256": "0c80f5e7996790e8c78448d54f36b27b291b42b5b1b547a3626df3ff5a23cd3a"
+  },
+  "pick-cube/seed1/eval_0000000.mp4": {
+    "bytes": 88807,
+    "sha256": "920cd8a2b962f3d087aea923676154536b069b35760cd047bc118633efa95e16"
+  },
+  "pick-cube/seed1/eval_1000000.mp4": {
+    "bytes": 173614,
+    "sha256": "93f21a1e023e1883984522166630f072ed315925eea2df7a8bb466b962c345c9"
+  },
+  "pick-cube/seed2/episode_000000.npz": {
+    "bytes": 23196,
+    "sha256": "77fb8447726a90c8a03290ca2b3c2119b84056d33f3e44fcb4bf6ed2cc0cb316"
+  },
+  "pick-cube/seed2/episode_000100.npz": {
+    "bytes": 33596,
+    "sha256": "0e5357b8add6dce03bb47141f58a714aabbb8983a7689eed24653d06c0b4ebaf"
+  },
+  "pick-cube/seed2/episode_000101.npz": {
+    "bytes": 33297,
+    "sha256": "3e9612132ab6d16c55a186aad8f547f12ce5f75560013f0d43ac7505e70b2131"
+  },
+  "pick-cube/seed2/episode_000102.npz": {
+    "bytes": 33135,
+    "sha256": "54c37d4ef99a6ab023940aaf405e82cd97362fe7049ed76db65fef0f0281623c"
+  },
+  "pick-cube/seed2/episode_000103.npz": {
+    "bytes": 33262,
+    "sha256": "42b4da22dbcec44b6a3a4c44a078f3fa52711e4e4d316fbb2de461d28e04a89e"
+  },
+  "pick-cube/seed2/episode_000104.npz": {
+    "bytes": 33333,
+    "sha256": "e3a9063e55802e73922e8c5b79e971c7d3659384d6c5fcfbaa3692acd5050b8c"
+  },
+  "pick-cube/seed2/episode_000105.npz": {
+    "bytes": 33370,
+    "sha256": "a5faf5a79f5c89b1d7f86889735eca0100af7a69b4d33d12b297a713c5e4e11e"
+  },
+  "pick-cube/seed2/episode_000106.npz": {
+    "bytes": 33456,
+    "sha256": "1c5bde60a0364e5157cf03781b8c21bcd73479445fccefa157f94831a773c75c"
+  },
+  "pick-cube/seed2/episode_000107.npz": {
+    "bytes": 33257,
+    "sha256": "24959117b333ea8ed71715b3d8e20f5f770dee62cf7be57e97ee6438be37abcc"
+  },
+  "pick-cube/seed2/episode_000108.npz": {
+    "bytes": 33574,
+    "sha256": "3a694befcee0c5f369401c2f2b23aca0b7606717d30d734131e4f7d02352ca53"
+  },
+  "pick-cube/seed2/episode_000109.npz": {
+    "bytes": 33511,
+    "sha256": "3810435206ef937cbad546d85b0815eb04d64ddc37a09d96680b29d8f1935cc9"
+  },
+  "pick-cube/seed2/episode_validation.json": {
+    "bytes": 1721,
+    "sha256": "ec54a9b43558c9944fe5660fd444c3f7ae3f3004934957f8bfd0631ce7fe14ca"
+  },
+  "pick-cube/seed2/eval_1000000.mp4": {
+    "bytes": 176674,
+    "sha256": "dc168e59cd78861a1adc7821a8ffeba212c155470bf8e5f4bf41d91bc57bfe20"
+  },
+  "pick-cube/source/env-spec.json": {
+    "bytes": 985,
+    "sha256": "e8a7bd82107c0ef7993e0e3397e65f5238ae6a6a75bf62629725e11dc6226862"
+  },
+  "pick-cube/source/native_pick_cube.py": {
+    "bytes": 5827,
+    "sha256": "a225836c20c79b9f152c2e19823655374f80a6c3442cd7d7b55c39c502892f4e"
+  },
+  "pick-cube/source/pick-cube.csv": {
+    "bytes": 1695,
+    "sha256": "d3ecfe31cab88e2ba27470658751d938631623736f07013ae928bce6fe518956"
+  },
+  "pick-cube/source/plan.json": {
+    "bytes": 1056,
+    "sha256": "8c4e7eddd01e82406ccb11163997828d6abce6addcf0e9eb824a06f563d8a421"
+  },
+  "pick-cube/source/README.md": {
+    "bytes": 3412,
+    "sha256": "e2e12935cd7c11e9a9adcc9f0b202b489da5a258351dda7655439b55926cd43c"
+  },
+  "pick-cube/source/runner.py": {
+    "bytes": 15712,
+    "sha256": "f4b509951f38df6fc23fae4b266873d5e46314ebf1fcb122de82c810e46db88f"
+  },
+  "walker-walk/seed1/episode_000000.npz": {
+    "bytes": 128018,
+    "sha256": "a4fe699a15291bb64207627b27645f8c0caa3257acac84f117c5637817bc0f37"
+  },
+  "walker-walk/seed1/episode_000100.npz": {
+    "bytes": 128097,
+    "sha256": "5cc04fffa4cd87d10b7ea96b579b4a743e9da7135df669663e44cbae9c02e85d"
+  },
+  "walker-walk/seed1/episode_000101.npz": {
+    "bytes": 128177,
+    "sha256": "0d4b9e34b88bd4f977ee156e0cfc9d52038154d23f8b01e60ff6cdf3c6e800ea"
+  },
+  "walker-walk/seed1/episode_000102.npz": {
+    "bytes": 128054,
+    "sha256": "c784dff3fdea4513e6f433f7c11793e124eaa493077d78723398212e5dc37dee"
+  },
+  "walker-walk/seed1/episode_000103.npz": {
+    "bytes": 128094,
+    "sha256": "18c0ab7bc66814a37680d488557f554e54b2003b13dc114638e6c726e540057b"
+  },
+  "walker-walk/seed1/episode_000104.npz": {
+    "bytes": 128074,
+    "sha256": "73e3383c7b663438d0d86371a16f834d83789a7fa4130b0417d9c6213d7d0201"
+  },
+  "walker-walk/seed1/episode_000105.npz": {
+    "bytes": 128188,
+    "sha256": "2d3e902bd0e231079d9247a9f5dc367fd94765165f3e17fb30d6c7791788ccc8"
+  },
+  "walker-walk/seed1/episode_000106.npz": {
+    "bytes": 128100,
+    "sha256": "3881f9b7f50ea66e06f67138840482487dfaf8f0585196109f25c7cc4e713981"
+  },
+  "walker-walk/seed1/episode_000107.npz": {
+    "bytes": 128113,
+    "sha256": "a8b3906b8e6dff80f165026a866e106ffcce082aafd161f9a480c0f4af5f1f24"
+  },
+  "walker-walk/seed1/episode_000108.npz": {
+    "bytes": 128064,
+    "sha256": "372df6d177c77bf15cb36c6777f8e172caad92424d849186248493fddb3d23e5"
+  },
+  "walker-walk/seed1/episode_000109.npz": {
+    "bytes": 128123,
+    "sha256": "ad028f68266fe8badab297d42ac8dd7d33f24039e64da44374588723eac95ff7"
+  },
+  "walker-walk/seed1/episode_validation.json": {
+    "bytes": 1722,
+    "sha256": "9b5d7b26e4f978dae4b96ae1a6a747f87ca4ab4bf623e9e37e58ad1296997ebb"
+  },
+  "walker-walk/seed1/eval_0000000.mp4": {
+    "bytes": 407146,
+    "sha256": "d7920adf9acf589465e476631f3de6f15d71dcb1706f194332cec6a963754faa"
+  },
+  "walker-walk/seed1/eval_1000000.mp4": {
+    "bytes": 943405,
+    "sha256": "9946e641b2ce7d883752d242d9fc91bf94c707d0258e41fb23bcc6f4574c8a33"
+  },
+  "walker-walk/seed2/episode_000000.npz": {
+    "bytes": 128377,
+    "sha256": "6b6cf7c1e60df536502c7fc1983568bda081cff14b0d68cdf55cfe1b0b02f236"
+  },
+  "walker-walk/seed2/episode_000100.npz": {
+    "bytes": 128081,
+    "sha256": "e5998f68a78c42b13dc1c0a8648d8333793918f627dc1329c5dbea45b6a1cade"
+  },
+  "walker-walk/seed2/episode_000101.npz": {
+    "bytes": 128037,
+    "sha256": "bf09f3021d30a9443e68b5c935f8c99e92ff4b90e2151d1174f6737484506839"
+  },
+  "walker-walk/seed2/episode_000102.npz": {
+    "bytes": 128100,
+    "sha256": "062effa166c2a0f01f9067887bb0439543396e903034ad25a985fccc19d1fc97"
+  },
+  "walker-walk/seed2/episode_000103.npz": {
+    "bytes": 128053,
+    "sha256": "6d9fdc2c3726628372e6b9976518846d4a39281713e97101c4e6f014f3ddc3db"
+  },
+  "walker-walk/seed2/episode_000104.npz": {
+    "bytes": 128019,
+    "sha256": "d23028844d62db7f03ca7f527092be9bf37ca81e1446c1a8c263df2fc921d866"
+  },
+  "walker-walk/seed2/episode_000105.npz": {
+    "bytes": 128106,
+    "sha256": "6701d4dae87a48141da34c369eb42415f36636abdf417c3b1294b37de3db7478"
+  },
+  "walker-walk/seed2/episode_000106.npz": {
+    "bytes": 128059,
+    "sha256": "c179bd7110aca4a87d09176c2028ab74c7e52e4c4e3a804f155a566cd54bf5e4"
+  },
+  "walker-walk/seed2/episode_000107.npz": {
+    "bytes": 128069,
+    "sha256": "58dd9935ad990821137ed6a8f4bbe8f8b0327445193c3812c06f63c533ac2366"
+  },
+  "walker-walk/seed2/episode_000108.npz": {
+    "bytes": 128144,
+    "sha256": "cdb1321fb7ed069072254ea8b872cd7f0f2441ad3b5a0e89b6e6b0105a999570"
+  },
+  "walker-walk/seed2/episode_000109.npz": {
+    "bytes": 128111,
+    "sha256": "1a6d657cfb986e29f444a7f3ced8b5eaba833d8ac96058ea6c75922e0b2d189f"
+  },
+  "walker-walk/seed2/episode_validation.json": {
+    "bytes": 1722,
+    "sha256": "8545e97ef9f81e4bdc21cd09c6a5ef64dce3e196a91c8ace8fe86fdde89c1f5e"
+  },
+  "walker-walk/seed2/eval_1000000.mp4": {
+    "bytes": 958777,
+    "sha256": "1ef0005b8288e9417425cbca033bf52e2cda623021680d8f7073d66c845473c1"
+  },
+  "walker-walk/source/env-spec.json": {
+    "bytes": 955,
+    "sha256": "ba91bff6523a9ced4f2f99fb7d210423577a6cef69095441e3e2d13476e7b765"
+  },
+  "walker-walk/source/native_walker.py": {
+    "bytes": 5571,
+    "sha256": "826178d2a9a3299a5113c3d916a0469f44173143dd8561e4768d62a1e6ebf7db"
+  },
+  "walker-walk/source/plan.json": {
+    "bytes": 1125,
+    "sha256": "bf061485096198171b64931020417116a79856e8b4852325b994c8a727179569"
+  },
+  "walker-walk/source/README.md": {
+    "bytes": 3276,
+    "sha256": "f808016a8aa76710af2ca2dcc87bc1fdea46a223f794172cfb536d1eb073a8b7"
+  },
+  "walker-walk/source/runner.py": {
+    "bytes": 13250,
+    "sha256": "42cb3c25800aee9c2fe8463e137a4ea43f551b6547900339f56412a04fbff8f9"
+  },
+  "walker-walk/source/walker-walk.csv": {
+    "bytes": 1937,
+    "sha256": "63a7d87810dfe0b8cf6cf5bae5b02a3f05d3aead682b0a47e3d63ac0d53465ec"
+  }
+}
