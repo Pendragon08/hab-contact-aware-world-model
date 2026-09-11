@@ -6,9 +6,9 @@
 <title>TD-MPC2 算法流程｜背景、方法与实验</title>
 
 <meta name="generator" content="ARIS render-html (academic, v1)">
-<meta name="aris:source-path" content="reports\TD-MPC2算法流程汇报.md">
-<meta name="aris:source-sha256" content="13fad679f87e901b180331cee5b8370c4bd2a6abb557f9299936ef0b1a4668ae">
-<meta name="aris:generated-at" content="2026-09-10 12:48 UTC">
+<meta name="aris:source-path" content="TD-MPC2算法流程汇报.md">
+<meta name="aris:source-sha256" content="3b25a68be3e287d11cdb813b8692dabbfb41d3c3a06c15ef60ae7c068cda0f65">
+<meta name="aris:generated-at" content="2026-09-11 04:47 UTC">
 
 <!-- offline mode: MathJax + highlight.js skipped; math and code blocks render as plain text -->
 
@@ -338,6 +338,14 @@ footer.aris-footer a { color: var(--ink-muted); border-bottom: 1px dotted var(--
 </ul>
 </li>
 <li><a href="#10--训练模型如何从不会到会">10 · 训练：模型如何从不会到会</a>
+<ul>
+<li><a href="#101--实际轨迹把一次尝试记成连续的经历">10.1 · 实际轨迹：把一次尝试记成连续的经历</a></li>
+<li><a href="#102--经验回放池保存以前做过的尝试反复拿来学习">10.2 · 经验回放池：保存以前做过的尝试，反复拿来学习</a></li>
+<li><a href="#103--抽取片段以256段每段3次动作为例">10.3 · 抽取片段：以256段、每段3次动作为例</a></li>
+<li><a href="#104--更新网络拿预测和学习目标对照调整参数">10.4 · 更新网络：拿预测和学习目标对照，调整参数</a></li>
+<li><a href="#105--抓取放置例子一次失误怎样变成学习材料">10.5 · 抓取放置例子：一次失误怎样变成学习材料</a></li>
+<li><a href="#106--交互与学习的时间顺序在线离策略强化学习">10.6 · 交互与学习的时间顺序：在线、离策略强化学习</a></li>
+</ul>
 </li>
 <li><a href="#11--为什么称为scalablerobust">11 · 为什么称为Scalable、Robust</a>
 </li>
@@ -369,9 +377,9 @@ footer.aris-footer a { color: var(--ink-muted); border-bottom: 1px dotted var(--
   <p class="subtitle">研究问题 · 创新贡献 · 论文原图 · 仿真平台 · 训练与评估</p>
   
   <div class="meta">
-    <span><strong>Source:</strong> <code>reports\TD-MPC2算法流程汇报.md</code></span>
-    <span><strong>SHA256:</strong> <code>13fad679f87e</code></span>
-    <span><strong>Rendered:</strong> 2026-09-10 12:48 UTC</span>
+    <span><strong>Source:</strong> <code>TD-MPC2算法流程汇报.md</code></span>
+    <span><strong>SHA256:</strong> <code>3b25a68be3e2</code></span>
+    <span><strong>Rendered:</strong> 2026-09-11 04:47 UTC</span>
     
   </div>
 </header>
@@ -453,14 +461,37 @@ footer.aris-footer a { color: var(--ink-muted); border-bottom: 1px dotted var(--
 <p>依据：用户本地论文arXiv v2第3—4页、§5（第9页）及附录I；<a href="https://arxiv.org/html/2310.16828v2#S5">论文§5：Lessons, Opportunities, and Risks</a>、<a href="https://arxiv.org/html/2310.16828v2#S3">论文方法§3</a>、<a href="https://github.com/nicklashansen/tdmpc2/blob/57158282b46ebc5c329c5be9cfe2b0094126d1ca/tdmpc2/tdmpc2.py">固定版官方规划实现</a>。</p>
 <h2 id="10--训练模型如何从不会到会">10 · 训练：模型如何从不会到会</h2>
 <p>单任务从头训练时，网络初始没有任务能力。先用随机动作收集初始经验，之后交替进行环境交互、经验保存与网络更新。<strong>不要求先有教师模型，也不要求先完成独立预训练阶段。</strong>论文另外研究了多任务离线训练与新任务适配，不能与单任务从头在线训练混为一谈。</p>
-<p>每次交互记录：<strong>当前观察s、实际动作a、真实奖励r、下一观察s′</strong>。数据进入经验回放池，训练时抽取连续片段。</p>
-<p><strong>当前单任务训练的数据闭环：模型规划动作 → 仿真环境执行 → 收集新数据 → 完整回合写入回放缓存 → 采样数据更新模型 → 继续交互。</strong>初始探索阶段先使用随机动作，之后才由模型与MPC规划动作。</p>
-<p>这里要区分<strong>数据入库的时机</strong>和<strong>参数更新的频率</strong>：当前回合的新数据先暂存，回合结束后整体写入回放缓存；但不必等当前回合结束才更新参数。探索阶段结束、完成初始经验的集中更新后，<strong>基本每执行一次动作决策，就从已经入库的历史回合中采样连续片段，进行一次学习更新</strong>。因此，机器人可以一边执行当前回合，一边用之前的经验学习；刚执行的最新一步不一定立即用于这次更新。“一次动作决策”也不等于一个原生环境步，例如动作重复为2时，一次决策会执行两个原生环境步。</p>
-<table><thead><tr><th>术语</th><th>在这里的含义</th></tr></thead><tbody><tr><td><strong>在线强化学习（online RL）</strong></td><td>训练期间持续与仿真环境交互，获得新数据，并继续更新模型和策略</td></tr><tr><td><strong>离策略学习（off-policy）</strong></td><td>可以利用过去的策略或过去版本的MPC采集的经验；训练样本不必全部由当前策略刚刚产生</td></tr><tr><td><strong>离线强化学习（offline RL）</strong></td><td>在固定的已有数据集上训练，训练期间不再通过环境交互采集新数据</td></tr></tbody></table>
-<div class="callout callout-info"><div class="callout-title">Tip</div><p><strong>当前流程属于在线、离策略强化学习。使用回放缓存并不等于离线训练。</strong>“在线/离线”看训练时是否持续采集新交互数据；“离策略”说明可以复用历史行为数据，两者不是同一组分类。</p></div>
-<table><thead><tr><th>更新内容</th><th>学习目标</th><th>如何理解</th></tr></thead><tbody><tr><td>动力学与表示</td><td>预测的下一潜在表示接近真实下一观察的编码；目标分支停止梯度</td><td>让模型对动作后果的预测更一致</td></tr><tr><td>奖励预测</td><td>预测奖励接近环境给出的真实奖励</td><td>学会估计眼前收益</td></tr><tr><td>价值预测</td><td>学习“真实奖励＋折扣后的下一步目标价值”</td><td>从经验中逐步估计更长远的收益</td></tr><tr><td>策略先验</td><td>提高提出动作的Q估计，并保留动作多样性</td><td>更快地提出值得搜索的候选</td></tr></tbody></table>
-<p>编码器、动力学、奖励和价值模块通过联合目标学习；策略先验按自己的目标更新。目标Q网络采用缓慢移动平均更新，减轻学习目标的波动。策略先验<strong>不是默认通过模仿教师或照抄MPC动作训练的行为克隆模型</strong>。</p>
-<p>依据：<a href="https://github.com/nicklashansen/tdmpc2/blob/57158282b46ebc5c329c5be9cfe2b0094126d1ca/tdmpc2/trainer/online_trainer.py">官方在线训练器</a>、<a href="https://github.com/nicklashansen/tdmpc2/blob/57158282b46ebc5c329c5be9cfe2b0094126d1ca/tdmpc2/tdmpc2.py">官方更新函数：update与update_pi</a>。</p>
+<p><strong>学习闭环：实际轨迹 → 完整回合写入经验回放池 → 抽取连续片段 → 更新网络 → 使用更新后的模型继续交互。</strong>数据入池的时机与网络更新的频率不同，下面逐步解释。</p>
+<div class="callout callout-info"><div class="callout-title">Tip</div><p><strong>流程与示例的范围：</strong>以下说明对应2024固定版本的单任务在线训练实现；为方便理解，数值例子使用我们完成的 Meta-World Pick-Place V2 复现：39维观测、4维动作、512维潜在状态、批量256、片段时域3、动作重复2、每回合100次决策、折扣0.95。<strong>这些是本次实验配置，不能当作所有任务的统一设置。</strong>其他任务的观测和动作维度、时域、折扣及回合长度应以其配置为准。</p></div>
+<h3 id="101--实际轨迹把一次尝试记成连续的经历">10.1 · 实际轨迹：把一次尝试记成连续的经历</h3>
+<p>这里的“实际”指<strong>动作确实在 Meta-World 仿真环境中执行过</strong>，不是现实机器人，也不是世界模型在内部想象出来的候选轨迹。一次动作交互可理解为一条记录：<code>（当前状态 s_t，实际动作 a_t，环境奖励 r_t，下一状态 s_{t+1}）</code>。</p>
+<table><thead><tr><th>记录内容</th><th>在本次抓取放置任务中是什么</th><th>用来学什么</th></tr></thead><tbody><tr><td>当前状态 s_t</td><td>39维环境观测，包含机械臂、物体、目标等状态信息</td><td>知道从什么情况出发</td></tr><tr><td>实际动作 a_t</td><td>4维连续控制：末端三方向移动与夹爪控制</td><td>知道机器人真正做了什么</td></tr><tr><td>环境奖励 r_t</td><td>执行该动作时，由环境给出的奖励；本轮相加两次动作重复的奖励</td><td>监督奖励预测，并构造价值学习目标</td></tr><tr><td>下一状态 s_{t+1}</td><td>动作重复执行2次后获得的39维观测</td><td>检查世界模型预测的动作后果是否准确</td></tr></tbody></table>
+<p>从重置环境开始，把100次动作决策按时间顺序连起来，就是一个完整回合：<code>s_0 → a_0、r_0 → s_1 → … → a_99、r_99 → s_100</code>。因此一个回合包含101个观测、100个动作和100个决策奖励，对应200个原生环境步。</p>
+<p>成功和失败的训练回合都会保留，不是只学习成功视频。视频只是演示材料；训练读取数值状态、动作和奖励，不读取视频帧。环境的 success 用于记录和评估，这版更新没有把“成功/失败标签”作为单独的分类损失。</p>
+<h3 id="102--经验回放池保存以前做过的尝试反复拿来学习">10.2 · 经验回放池：保存以前做过的尝试，反复拿来学习</h3>
+<p>可以把回放池理解为“练习记录库”。当前回合先临时保存；回合结束后，把完整轨迹加入回放池，并附上回合编号，用来区分不同尝试。随着训练进行，池中同时存在早期随机动作和后来模型规划动作产生的经验，已经学习过的经验也可以再次被抽到。</p>
+<p><strong>完整回合入池，不等于每个回合只更新一次。</strong> 比如第11个回合正在执行，模型仍可从前10个已完成回合中抽数据更新；第11回合的新数据等该回合结束入池后，才能被后续更新使用。回放池有容量上限，不是无限增长；也不等于永久保存的轨迹文件归档。</p>
+<p>本轮实现将相邻观测与动作、奖励对齐存储：初始观测的动作和奖励是占位值；后续记录保存新观测及到达它所用的动作、所得奖励。采样时会移除片段首条记录对应的动作和奖励，使训练数据正确对应到“从当前状态执行动作，再到下一状态”。这是上述四元组的等价存储方式，不是少记了动作。</p>
+<h3 id="103--抽取片段以256段每段3次动作为例">10.3 · 抽取片段：以256段、每段3次动作为例</h3>
+<p>每次网络更新不会把所有历史回合从头学一遍，而是从回放池随机抽取一批连续片段。本轮 <code>batch_size=256</code>、<code>horizon=3</code>，所以一批包含256个片段；每个片段来自同一个回合，片段内部保持时间连续，不把不同回合的末尾与开头拼在一起。</p>
+<p>一个片段的形状是：<strong>4个观测＋3个动作＋3个奖励</strong>，例如 <code>s_20 → a_20、r_20 → s_21 → a_21、r_21 → s_22 → a_22、r_22 → s_23</code>。</p>
+<table><thead><tr><th>一批送入网络的数据</th><th>维度（时间 × 片段数 × 特征数）</th><th>如何理解</th></tr></thead><tbody><tr><td>观测</td><td>4 × 256 × 39</td><td>每段的起点，以及3次动作后的状态</td></tr><tr><td>动作</td><td>3 × 256 × 4</td><td>每段实际执行的3个动作</td></tr><tr><td>奖励</td><td>3 × 256 × 1</td><td>每个动作对应的环境奖励</td></tr></tbody></table>
+<p>256个片段不一定来自256个不同回合，也不保证互不重叠。一批包含768个动作转移的训练条目，<strong>不表示此刻又在仿真环境执行了768步</strong>；这些都是已收集的数据。保持连续是为了训练模型沿实际动作向前推演3步，并检查误差是否累积。片段长度3也不表示机器人完成抓取只需要3步。</p>
+<h3 id="104--更新网络拿预测和学习目标对照调整参数">10.4 · 更新网络：拿预测和学习目标对照，调整参数</h3>
+<p>先把片段起点的39维观测编码成512维潜在状态，再按片段里<strong>当时实际执行的动作</strong>在世界模型中推演3步。训练这段历史经验时，不需要让MPC重新决定该段动作。每个后续真实观测也会被编码，用作潜在状态预测的对照；这个对照分支停止梯度，避免两边同时追着彼此变化。</p>
+<table><thead><tr><th>模块</th><th>如何利用片段学习</th><th>对后续控制有什么帮助</th></tr></thead><tbody><tr><td>编码器＋状态转移模型</td><td>从片段起点连续预测未来潜在状态，与后续真实观测的编码比较，计算一致性误差</td><td>学习与动作后果有关的状态表示和动力学</td></tr><tr><td>奖励预测网络</td><td>预测每步奖励，与片段记录的环境奖励比较</td><td>为规划候选动作估计短期收益</td></tr><tr><td>5个Q价值网络</td><td>对齐“已获得的奖励＋折扣后的下一状态价值”这一TD目标</td><td>补充短期规划之后的长期收益估计</td></tr><tr><td>策略先验网络</td><td>在这些潜在状态上产生动作，利用Q评分和熵正则优化策略</td><td>为MPC提供更有希望的动作候选，并保留动作多样性</td></tr><tr><td>目标Q网络</td><td>由当前Q参数缓慢更新，作为价值目标的参考</td><td>降低价值学习目标快速变化造成的不稳定</td></tr></tbody></table>
+<p>Q的学习目标可以直观写成：<code>目标价值 = 实际奖励 + 0.95 × 目标Q对下一状态动作的价值估计</code>。其中下一状态动作由当前策略先验产生，价值项使用官方实现中的保守目标Q估计。它是逐步改善的自举目标，不是提前知道未来真实总回报，也不是成功概率。</p>
+<p>程序先汇总带权的状态一致性、奖励和价值损失，通过反向传播及优化器更新编码器、动力学、奖励与Q网络；再单独更新策略先验，最后缓慢更新目标Q。奖励和Q使用官方的分布式数值编码及交叉熵损失，状态一致性使用均方误差。策略先验优化的是Q评分与熵目标，<strong>没有直接模仿历史动作或教师动作的行为克隆损失</strong>。</p>
+<p>“更新参数”可以理解为根据预测错误微调网络内部的权重。优化器的一次学习更新不是一次环境动作，也不保证成功率立刻上升；仍需冻结模型、重新执行完整回合来评估效果。</p>
+<h3 id="105--抓取放置例子一次失误怎样变成学习材料">10.5 · 抓取放置例子：一次失误怎样变成学习材料</h3>
+<p>下面是教学示意，不是从实验日志抽取的某个真实回合，也不代表这次复现采用了分阶段控制器。</p>
+<table><thead><tr><th>环节</th><th>示意过程</th></tr></thead><tbody><tr><td>在环境中尝试</td><td>机械臂靠近物体、闭合夹爪、尝试抬升；物体可能没有被带起来</td></tr><tr><td>记录实际后果</td><td>保存每一步的状态、控制指令、环境奖励和下一状态；不会只凭“发出了闭合指令”就认定抓取成功</td></tr><tr><td>完成回合并入池</td><td>整个回合完成后，连同失败经历一起存入回放池</td></tr><tr><td>抽到相关片段</td><td>某次更新恰好抽到闭合与抬升附近的连续3步</td></tr><tr><td>比较并学习</td><td>如果模型预测的潜在状态与实际观测编码不一致，就产生训练误差；奖励预测和Q估计也按各自目标修正</td></tr><tr><td>再次规划与检验</td><td>后续MPC使用更新后的模型给候选评分；是否真的更会抓取，要通过后续独立评估确认</td></tr></tbody></table>
+<p>仅凭某一个失败片段，模型不一定立即学会原因。片段也可能不覆盖整个抓取过程，需要多次交互、重复采样及价值传播逐步学习。</p>
+<h3 id="106--交互与学习的时间顺序在线离策略强化学习">10.6 · 交互与学习的时间顺序：在线、离策略强化学习</h3>
+<div style="padding:18px;background:#e9f2fb;border:1px solid #c7d9ed;border-radius:10px;line-height:2"><strong>随机探索积累初始经验 → 初始回放更新 → 循环：模型规划动作 → 仿真执行 → 当前回合临时记录 → 从已入池的历史回合抽256个片段 → 更新网络 → 继续交互。</strong><br>每当一个训练回合结束，完整轨迹加入回放池，供后续抽样。常规学习阶段基本每次动作决策对应一次学习更新；本轮一次决策重复执行2个原生环境步，不是每个原生步都更新一次。</div>
+<p>首次学习还有一次集中更新：本轮在决策索引1000处，使用已经入池的初始随机经验更新1000次；之后通常每次决策更新1次。因此，最初积累数据、首次集中学习和常规交替学习是三个不同阶段，不能把整个训练过程简单算成“每一步都更新一次”。</p>
+<ul><li><strong>在线：</strong>训练过程中仍不断与仿真环境交互、收集新数据；“在线”不是指联网或调用LLM API。</li><li><strong>离策略：</strong>当前网络可以利用早期随机控制或旧版本规划器产生的经验，而不要求样本全部由最新网络刚刚生成。</li><li><strong>离线训练：</strong>只使用预先固定的数据集训练，期间不再收集新的环境交互。本轮整体训练不属于这种情况；使用回放池不等于离线训练。</li><li><strong>测试评估：</strong>冻结网络，只执行动作并统计回报与成功率；不调用上述学习更新，也不把评估轨迹加入训练回放。</li></ul>
+<p>上述流程依据本轮固定版本的<a href="https://github.com/nicklashansen/tdmpc2/blob/57158282b46ebc5c329c5be9cfe2b0094126d1ca/tdmpc2/trainer/online_trainer.py">在线训练器</a>、<a href="https://github.com/nicklashansen/tdmpc2/blob/57158282b46ebc5c329c5be9cfe2b0094126d1ca/tdmpc2/common/buffer.py">回放池实现</a>和<a href="https://github.com/nicklashansen/tdmpc2/blob/57158282b46ebc5c329c5be9cfe2b0094126d1ca/tdmpc2/tdmpc2.py">网络更新实现</a>。这是原方法的学习过程说明，没有新增训练模块或实验成绩。</p>
 <h2 id="11--为什么称为scalablerobust">11 · 为什么称为Scalable、Robust</h2>
 <table><thead><tr><th>关键设计</th><th>主要作用</th></tr></thead><tbody><tr><td>SimNorm</td><td>对潜在表示分组归一化，帮助稳定训练</td></tr><tr><td>奖励与价值的分布式回归</td><td>在变换后的数值区间上学习软分类目标，适应不同奖励尺度</td></tr><tr><td>Q网络集成与缓慢更新的目标网络</td><td>减轻价值估计偏差和训练波动</td></tr><tr><td>多任务嵌入与动作维度掩码</td><td>区分任务并支持不同观察、动作空间</td></tr></tbody></table>
 <p>这里的Robust主要对应算法训练和跨任务表现的稳健性，<strong>不等于接触安全保证</strong>。本文的重点是算法流程；这些机制是支撑它稳定运行和扩展的设计。依据：<a href="https://arxiv.org/html/2310.16828v2">原论文§3.1、§3.3及附录A</a>。</p>
@@ -505,9 +536,9 @@ footer.aris-footer a { color: var(--ink-muted); border-bottom: 1px dotted var(--
 
 <footer class="aris-footer">
   Generated by <a href="https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/render-html/SKILL.md">ARIS <code>/render-html</code></a> ·
-  source path <code>reports\TD-MPC2算法流程汇报.md</code> ·
-  SHA256 <code>13fad679f87e</code> ·
-  generated at 2026-09-10 12:48 UTC.
+  source path <code>TD-MPC2算法流程汇报.md</code> ·
+  SHA256 <code>3b25a68be3e2</code> ·
+  generated at 2026-09-11 04:47 UTC.
   This is a generated view — edit the source Markdown, then re-render.
 </footer>
 </main>

@@ -9,21 +9,12 @@
     "math_code_tables": "pass",
     "callouts": "pass",
     "safety_escaping": "pass",
-    "placeholder_leak": "pass",
-    "toc_links": "pass"
+    "placeholder_leak": "pass"
   },
   "blocking_issues": [],
   "warnings": [],
-  "source_sha256": "13fad679f87e901b180331cee5b8370c4bd2a6abb557f9299936ef0b1a4668ae",
-  "html_sha256": "10e8a9ac70c7859c2a432e19d2b8e6a9bc5bd4090b6f45882f33fcb36e3a941a",
-  "reviewer_task": "/root/tdmpc2_training_note_review",
-  "findings": "27 source headings,16 tables,41 source-link occurrences,410 source fragments preserved;26 TOC links resolve. Chapter10 complete-episode insertion,per-decision update,initial update burst,action repeat,and online/off-policy/offline distinctions preserved. Expected embedded PNG and template style; no unsafe source output or placeholders. Rendering audit only.",
-  "local_validation": {
-    "sections": 17,
-    "tables": 16,
-    "desktop_overflow": false,
-    "mobile_overflow": false,
-    "page_errors": 0,
-    "local_html_copy_hash_match": true
-  }
+  "summary": "The embedded SHA256 exactly matches the current Markdown source. All 33 content headings, 18 tables with 99 rendered rows, 32 list items, 42 source links, inline-code content, and the expanded Chapter 10 material are retained. Heading order and levels match, every TOC link resolves to a unique heading ID, and all three source callouts map correctly to callout-info. The sole base64 PNG is byte-identical to the referenced Figure 3 file. No unexpected scripts, executable embedding tags, event handlers, unsafe URLs, private parser characters, or template placeholders were found.",
+  "source_sha256": "3b25a68be3e287d11cdb813b8692dabbfb41d3c3a06c15ef60ae7c068cda0f65",
+  "reviewer": "tdmpc2_replay_render_review",
+  "scope": "Rendering fidelity only; not scientific claim audit."
 }
