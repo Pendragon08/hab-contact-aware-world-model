@@ -1,0 +1,17 @@
+:root{--primary:#174e66;--primary-soft:#24758c;--accent:#98642b;--info-bg:#e7f2f5}
+body{font-family:"Microsoft YaHei","PingFang SC",Arial,sans-serif;font-size:17px;line-height:1.85}
+.layout{max-width:1500px;grid-template-columns:235px minmax(0,1fr);gap:42px}
+header.hero h1{font-size:35px;line-height:1.5}header.hero .subtitle{font-style:normal;font-size:18px}header.hero .meta{font-size:11px;overflow-wrap:anywhere}
+main h2{font-size:27px;margin-top:58px;scroll-margin-top:24px}main h3{font-size:21px;scroll-margin-top:24px}
+main p,main a,main td,main code{overflow-wrap:anywhere}main p{margin:18px 0}
+nav.toc ol>li::before{content:none}nav.toc{line-height:1.8;font-size:13px}.toc-h3{font-size:12px}
+.table-scroll{overflow-x:auto;margin:24px 0;max-width:100%;border:1px solid #d5dddc;border-radius:9px}
+.table-scroll table{margin:0;min-width:760px;width:100%;font-size:15px;line-height:1.75}.table-scroll th{background:#174e66}.table-scroll td{vertical-align:top;padding:13px 15px}.table-scroll:focus{outline:2px solid #8ab5c4;outline-offset:3px}
+main details{padding:0;background:#fffefa;border:1px solid #d5dddc;border-radius:10px;margin:18px 0;overflow:hidden;scroll-margin-top:24px}
+main summary{padding:18px 22px;cursor:pointer;color:#174e66;font-size:17px;font-weight:600;line-height:1.7;background:#edf3f2}
+main summary::marker{color:#98642b}main details[open] summary{border-bottom:1px solid #d5dddc}
+main details>p{margin:18px 24px;font-size:16px}main details strong{color:#244d59}
+main blockquote{border-radius:8px;padding:17px 23px}main>h1{font-size:28px}
+@media(max-width:1000px){.layout{display:block;padding:24px}nav.toc{position:static;max-height:none;border-right:0;border-bottom:1px solid #d5dddc;padding-bottom:22px;margin-bottom:24px}nav.toc ol{columns:2;column-gap:30px}nav.toc li{break-inside:avoid}}
+@media(max-width:600px){body{font-size:16px}.layout{padding:16px}header.hero h1{font-size:27px}header.hero .subtitle{font-size:16px}nav.toc ol{columns:1}main h2{font-size:24px}main details>p{margin:15px}main summary{padding:15px;font-size:16px}.table-scroll table{font-size:14px}.table-scroll td{padding:10px}}
+@media print{nav.toc{display:none}.layout{display:block;max-width:none;padding:0}body{font-size:11pt}.table-scroll{overflow:visible;border:0}.table-scroll table{min-width:0;font-size:9pt}main h2{break-before:page}main details{break-inside:avoid}header.hero h1{font-size:24pt}}

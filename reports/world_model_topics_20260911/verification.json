@@ -1,0 +1,14 @@
+{
+  "checked_at": "2026-09-11",
+  "checks": {
+    "source_hash_matches": true,
+    "unique_papers": true,
+    "journal_q1": true,
+    "author_lists_complete": true,
+    "seven_fields_all_papers": true,
+    "zotero_links_27": true
+  },
+  "source_sha256": "24d67010ddf15359cc003b62abf8ec8336019ba4d8b0f9f817c796061f2a03c6",
+  "bibliography_entries": 26,
+  "pdf_records": 26
+}

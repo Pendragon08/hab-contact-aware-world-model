@@ -1,0 +1,22 @@
+{
+  "verdict": "PASS",
+  "review_independence": "same-family",
+  "acceptance_status": "provisional",
+  "critical_count": 0,
+  "major_count": 0,
+  "minor_count": 0,
+  "checks": {
+    "source_hash_match": "pass",
+    "information_fidelity": "pass",
+    "structure": "pass",
+    "math_code_tables": "pass",
+    "callouts": "pass",
+    "safety_escaping": "pass",
+    "placeholder_leak": "pass"
+  },
+  "findings": [],
+  "blocking_issues": [],
+  "warnings": [],
+  "source_sha256": "24d67010ddf15359cc003b62abf8ec8336019ba4d8b0f9f817c796061f2a03c6",
+  "summary": "The final HTML faithfully and safely renders the frozen Markdown source. The embedded SHA256 matches 24d67010ddf15359cc003b62abf8ec8336019ba4d8b0f9f817c796061f2a03c6. All 15 numbered sections, 22 source headings, 26 uniquely identified paper cards with their nine expected fields, eight tables, 63 inline-code spans, and the single information callout are preserved. The source contains no fenced code blocks, Markdown list items, or math delimiters. All 567 normalized source text and table-cell units were found in the rendered main content. All 168 source links are retained, including 27 constrained Zotero item links; the only additional link is the expected generated ARIS footer link. All 21 internal fragment links resolve to unique IDs, all eight local links resolve in both copies, and the standalone copy differs only by the expected repository-name prefix. Tags are balanced, the controlled CSS and eight table-scroll wrappers are present, and no scripts, event handlers, unsafe javascript/vbscript/data URLs, forbidden embedded elements, unreplaced placeholders, or private parser markers were found."
+}

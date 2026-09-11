@@ -1,0 +1,564 @@
+{
+  "verified_at": "2026-09-11",
+  "papers": [
+    {
+      "id": "J01",
+      "citation_key": "WMJ01_2025",
+      "title": "A review of learning-based dynamics models for robotic manipulation",
+      "zotero_key": "M7F3ZM4J",
+      "reused": false,
+      "collections": [
+        "课题文献_正式文献_20260908"
+      ],
+      "attachments": [
+        {
+          "key": "MXNWQ89B",
+          "filename": "Ai 等 - 2025 - A review of learning-based dynamics models for robotic manipulation.pdf",
+          "exists": true,
+          "pdf": true,
+          "bytes": 1423791,
+          "sha256": "4b3141f6ef863ff98be6d9247bec435d3d72e2c9b9648162c64bc5826964d7ad"
+        }
+      ],
+      "verified_at": "2026-09-11"
+    },
+    {
+      "id": "J02",
+      "citation_key": "WMJ02_2025",
+      "title": "Understanding World or Predicting Future? A Comprehensive Survey of World Models",
+      "zotero_key": "VRWNZP2U",
+      "reused": false,
+      "collections": [
+        "课题文献_正式文献_20260908"
+      ],
+      "attachments": [
+        {
+          "key": "Y3TG87JF",
+          "filename": "Ding 等 - 2025 - Understanding World or Predicting Future A Comprehensive Survey of World Models.pdf",
+          "exists": true,
+          "pdf": true,
+          "bytes": 9932376,
+          "sha256": "eaf8a819a77b1236bc4fff8d5bac54f81a742ba59ec2aae23ec9e496725fc558"
+        }
+      ],
+      "verified_at": "2026-09-11"
+    },
+    {
+      "id": "J03",
+      "citation_key": "WMJ03_2025",
+      "title": "Mastering diverse control tasks through world models",
+      "zotero_key": "K5HMGYP3",
+      "reused": true,
+      "collections": [
+        "课题文献_正式文献_20260908"
+      ],
+      "attachments": [
+        {
+          "key": "HCYTRE22",
+          "filename": "J01_DreamerV3.pdf",
+          "exists": true,
+          "pdf": true,
+          "bytes": 23580846,
+          "sha256": "b34e999951cb5b8b84594f3936b1c395e9d51e563e0932273e9197cee66e37ef"
+        }
+      ],
+      "verified_at": "2026-09-11"
+    },
+    {
+      "id": "J04",
+      "citation_key": "WMJ04_2026",
+      "title": "What matters in building vision–language–action models for generalist robots",
+      "zotero_key": "J8HQYI7I",
+      "reused": false,
+      "collections": [
+        "课题文献_正式文献_20260908"
+      ],
+      "attachments": [
+        {
+          "key": "6SVXF9TE",
+          "filename": "Li 等 - 2026 - What matters in building vision–language–action models for generalist robots.pdf",
+          "exists": true,
+          "pdf": true,
+          "bytes": 44633425,
+          "sha256": "8c9c4f9d1cd78b5c6f106f5e81f47119bb3de1ddfda31e96dc6ada7d10ea5041"
+        }
+      ],
+      "verified_at": "2026-09-11"
+    },
+    {
+      "id": "J05",
+      "citation_key": "WMJ05_2025",
+      "title": "Bioinspired trajectory modulation for effective slip control in robot manipulation",
+      "zotero_key": "ER4J2A65",
+      "reused": false,
+      "collections": [
+        "课题文献_正式文献_20260908"
+      ],
+      "attachments": [
+        {
+          "key": "FZBXJ5W2",
+          "filename": "Nazari 等 - 2025 - Bioinspired trajectory modulation for effective slip control in robot manipulation.pdf",
+          "exists": true,
+          "pdf": true,
+          "bytes": 2475825,
+          "sha256": "103d601e65f04715a76394464d02f3fc2159dfa9b64eda221825e20f40d586ac"
+        }
+      ],
+      "verified_at": "2026-09-11"
+    },
+    {
+      "id": "J06",
+      "citation_key": "WMJ06_2026",
+      "title": "Getting robots back on track by reconstituting control in unexpected situations with online learning",
+      "zotero_key": "4SF6WIN7",
+      "reused": true,
+      "collections": [
+        "课题文献_正式文献_20260908"
+      ],
+      "attachments": [
+        {
+          "key": "MAE4GS39",
+          "filename": "J25_FLAIR在线恢复.pdf",
+          "exists": true,
+          "pdf": true,
+          "bytes": 2586485,
+          "sha256": "c1c1584cccc52821f064c9990f8d081d79bad3f1887d563f0a6c0cc6279b705d"
+        }
+      ],
+      "verified_at": "2026-09-11"
+    },
+    {
+      "id": "M01",
+      "citation_key": "WMM01_2024",
+      "title": "TD-MPC2: Scalable, Robust World Models for Continuous Control",
+      "zotero_key": "GS3RGXBH",
+      "reused": true,
+      "collections": [
+        "世界模型与具身智能",
+        "课题文献_正式文献_20260908"
+      ],
+      "attachments": [
+        {
+          "key": "XG4ABCHT",
+          "filename": "TD-MPC2_ICLR2024_arXiv_v2.pdf",
+          "exists": true,
+          "pdf": true,
+          "bytes": 7858004,
+          "sha256": "99832c555b66665ad1e26cd48e75ea9dda4f3750175b993e7ed5b8dfe399b9e0"
+        }
+      ],
+      "verified_at": "2026-09-11"
+    },
+    {
+      "id": "M02",
+      "citation_key": "WMM02_2025",
+      "title": "Bootstrapped Model Predictive Control",
+      "zotero_key": "MQMV9ILJ",
+      "reused": true,
+      "collections": [
+        "课题文献_正式文献_20260908"
+      ],
+      "attachments": [
+        {
+          "key": "C8CTCUC6",
+          "filename": "B03_Bootstrapped Model Predictive Control.pdf",
+          "exists": true,
+          "pdf": true,
+          "bytes": 1316587,
+          "sha256": "b0b00cb5dc0bae254ba8a65bd4c2fe6ead6736bb8a7fd6791038fd6946e37002"
+        }
+      ],
+      "verified_at": "2026-09-11"
+    },
+    {
+      "id": "M03",
+      "citation_key": "WMM03_2026",
+      "title": "WIMLE: Uncertainty-Aware World Models with IMLE for Sample-Efficient Continuous Control",
+      "zotero_key": "CHA3T87U",
+      "reused": false,
+      "collections": [
+        "课题文献_正式文献_20260908"
+      ],
+      "attachments": [
+        {
+          "key": "AKETTSQP",
+          "filename": "Aghabozorgi 等 - 2026 - WIMLE Uncertainty-Aware World Models with IMLE for Sample-Efficient Continuous Control.pdf",
+          "exists": true,
+          "pdf": true,
+          "bytes": 12919005,
+          "sha256": "7c02f4c9f937fa48a4f1016bf1e2d3a40b6e22d4cd41fd04eb113b52ac1838b4"
+        }
+      ],
+      "verified_at": "2026-09-11"
+    },
+    {
+      "id": "M04",
+      "citation_key": "WMM04_2025",
+      "title": "DINO-WM: World Models on Pre-trained Visual Features enable Zero-shot Planning",
+      "zotero_key": "I7TNE4HZ",
+      "reused": true,
+      "collections": [
+        "课题文献_正式文献_20260908"
+      ],
+      "attachments": [
+        {
+          "key": "GEDUPRXY",
+          "filename": "C12_DINO-WM.pdf",
+          "exists": true,
+          "pdf": true,
+          "bytes": 6880790,
+          "sha256": "f054a2c03888aa9a50b7747fb99a168f2979cb7fa216b075011b089d45b628db"
+        }
+      ],
+      "verified_at": "2026-09-11"
+    },
+    {
+      "id": "M05",
+      "citation_key": "WMM05_2026",
+      "title": "Sparse Imagination for Efficient Visual World Model Planning",
+      "zotero_key": "5J8IRZPL",
+      "reused": true,
+      "collections": [
+        "课题文献_正式文献_20260908"
+      ],
+      "attachments": [
+        {
+          "key": "2NK95Z4Q",
+          "filename": "B02_Sparse Imagination for Efficient Visual World Model Planning.pdf",
+          "exists": true,
+          "pdf": true,
+          "bytes": 18032444,
+          "sha256": "99c39bbe2a21fdc9ea585f23948c29490f1f6927fd980ef185e0b49e721a9be0"
+        }
+      ],
+      "verified_at": "2026-09-11"
+    },
+    {
+      "id": "M06",
+      "citation_key": "WMM06_2024",
+      "title": "AdaptiGraph: Material-Adaptive Graph-Based Neural Dynamics for Robotic Manipulation",
+      "zotero_key": "7LDDTNX6",
+      "reused": true,
+      "collections": [
+        "课题文献_正式文献_20260908"
+      ],
+      "attachments": [
+        {
+          "key": "GYUBIUVH",
+          "filename": "C48_AdaptiGraph.pdf",
+          "exists": true,
+          "pdf": true,
+          "bytes": 45605038,
+          "sha256": "698502b7ac3704c3d06c94081d361cf56ca113fb1e84ccfde0f6e213ca2410ec"
+        }
+      ],
+      "verified_at": "2026-09-11"
+    },
+    {
+      "id": "M07",
+      "citation_key": "WMM07_2026",
+      "title": "Simulation Distillation: Pretraining World Models in Simulation for Rapid Real-World Adaptation",
+      "zotero_key": "46C3QL34",
+      "reused": true,
+      "collections": [
+        "课题文献_正式文献_20260908"
+      ],
+      "attachments": [
+        {
+          "key": "3KPNAFH9",
+          "filename": "C16_SimDist.pdf",
+          "exists": true,
+          "pdf": true,
+          "bytes": 7313867,
+          "sha256": "7f8792d5030af550a3a2f26ba990a012e9ca2fea69c915fe89cc7279d1d08c2b"
+        }
+      ],
+      "verified_at": "2026-09-11"
+    },
+    {
+      "id": "M08",
+      "citation_key": "WMM08_2025",
+      "title": "DiWA: Diffusion Policy Adaptation with World Models",
+      "zotero_key": "5BQ83JP7",
+      "reused": true,
+      "collections": [
+        "课题文献_正式文献_20260908"
+      ],
+      "attachments": [
+        {
+          "key": "PKEWKUDW",
+          "filename": "N05_DiWA.pdf",
+          "exists": true,
+          "pdf": true,
+          "bytes": 25902171,
+          "sha256": "13043ac4270361c6d46ac8ba194d6bd7a3a5170c32ee45f82cb05d86bc664453"
+        }
+      ],
+      "verified_at": "2026-09-11"
+    },
+    {
+      "id": "M09",
+      "citation_key": "WMM09_2025",
+      "title": "LaDi-WM: A Latent Diffusion-Based World Model for Predictive Manipulation",
+      "zotero_key": "2DNWAUC2",
+      "reused": true,
+      "collections": [
+        "课题文献_正式文献_20260908"
+      ],
+      "attachments": [
+        {
+          "key": "JW3PL4IF",
+          "filename": "N09_LaDi-WM.pdf",
+          "exists": true,
+          "pdf": true,
+          "bytes": 4492707,
+          "sha256": "2c172331988edc3b5f8cda82818316a499ca5b662417277f3de8230b827e5740"
+        }
+      ],
+      "verified_at": "2026-09-11"
+    },
+    {
+      "id": "M10",
+      "citation_key": "WMM10_2025",
+      "title": "Unified World Models: Coupling Video and Action Diffusion for Pretraining on Large Robotic Datasets",
+      "zotero_key": "94DHLM7Z",
+      "reused": true,
+      "collections": [
+        "课题文献_正式文献_20260908"
+      ],
+      "attachments": [
+        {
+          "key": "UDAJJUPQ",
+          "filename": "C13_UWM.pdf",
+          "exists": true,
+          "pdf": true,
+          "bytes": 11183755,
+          "sha256": "9a339f67ee06ed25919ef42f073e002b9066cf41fdd7cf40e64c33eb9aac75b4"
+        }
+      ],
+      "verified_at": "2026-09-11"
+    },
+    {
+      "id": "M11",
+      "citation_key": "WMM11_2024",
+      "title": "Steering Your Generalists: Improving Robotic Foundation Models via Value Guidance",
+      "zotero_key": "9P9LBZYZ",
+      "reused": true,
+      "collections": [
+        "课题文献_正式文献_20260908"
+      ],
+      "attachments": [
+        {
+          "key": "QJHXLGVV",
+          "filename": "N04_V-GPS.pdf",
+          "exists": true,
+          "pdf": true,
+          "bytes": 14740748,
+          "sha256": "6c0dffe228de2c71582d2d69cc7163bac285451d6e0b3d13a5f2803d31b7ac0e"
+        }
+      ],
+      "verified_at": "2026-09-11"
+    },
+    {
+      "id": "M12",
+      "citation_key": "WMM12_2026",
+      "title": "World-In-World: World Models in a Closed-Loop World",
+      "zotero_key": "S736CDHU",
+      "reused": true,
+      "collections": [
+        "课题文献_正式文献_20260908"
+      ],
+      "attachments": [
+        {
+          "key": "AQNKQ9F2",
+          "filename": "N07_World-In-World.pdf",
+          "exists": true,
+          "pdf": true,
+          "bytes": 11134191,
+          "sha256": "b1270828c96094cd1c7a16ccfdedddc470def295148cf3c41af7e2ea1fb1c9cf"
+        }
+      ],
+      "verified_at": "2026-09-11"
+    },
+    {
+      "id": "B01",
+      "citation_key": "WMB01_2025",
+      "title": "Demonstrating GPU Parallelized Robot Simulation and Rendering for Generalizable Embodied AI with ManiSkill3",
+      "zotero_key": "DCE3IRBH",
+      "reused": true,
+      "collections": [
+        "课题文献_正式文献_20260908"
+      ],
+      "attachments": [
+        {
+          "key": "C2VN65TY",
+          "filename": "C51_ManiSkill3.pdf",
+          "exists": true,
+          "pdf": true,
+          "bytes": 15489950,
+          "sha256": "0cb40da4973647692c5f7da037ccf709d13702e23478525e20743b785596fdd8"
+        }
+      ],
+      "verified_at": "2026-09-11"
+    },
+    {
+      "id": "B02",
+      "citation_key": "WMB02_2025",
+      "title": "ManiSkill-HAB: A Benchmark for Low-Level Manipulation in Home Rearrangement Tasks",
+      "zotero_key": "MQH8ZITS",
+      "reused": false,
+      "collections": [
+        "课题文献_正式文献_20260908"
+      ],
+      "attachments": [
+        {
+          "key": "XXIB5DAE",
+          "filename": "Shukla 等 - 2025 - ManiSkill-HAB A Benchmark for Low-Level Manipulation in Home Rearrangement Tasks.pdf",
+          "exists": true,
+          "pdf": true,
+          "bytes": 11451020,
+          "sha256": "6c2be616e20bac52104af3b69ed23af3544389cc335f620ef5f5d2f4bde07c22"
+        }
+      ],
+      "verified_at": "2026-09-11"
+    },
+    {
+      "id": "B03",
+      "citation_key": "WMB03_2024",
+      "title": "RoboCasa: Large-Scale Simulation of Household Tasks for Generalist Robots",
+      "zotero_key": "L93D9XEV",
+      "reused": false,
+      "collections": [
+        "课题文献_正式文献_20260908"
+      ],
+      "attachments": [
+        {
+          "key": "Q22DWC83",
+          "filename": "Nasiriany 等 - 2024 - RoboCasa Large-Scale Simulation of Household Tasks for Generalist Robots.pdf",
+          "exists": true,
+          "pdf": true,
+          "bytes": 8410965,
+          "sha256": "366e2eb22a9fd8e23f332707428bd068a0a5423797fff47eb5720d3192cebda6"
+        }
+      ],
+      "verified_at": "2026-09-11"
+    },
+    {
+      "id": "B04",
+      "citation_key": "WMB04_2026",
+      "title": "RoboTwin 2.0: A Scalable Data Generator and Benchmark with Strong Domain Randomization for Robust Bimanual Robotic Manipulation",
+      "zotero_key": "7ZNQ3QM4",
+      "reused": false,
+      "collections": [
+        "课题文献_正式文献_20260908"
+      ],
+      "attachments": [
+        {
+          "key": "IMQWMUK8",
+          "filename": "Chen 等 - 2026 - RoboTwin 2.0 A Scalable Data Generator and Benchmark with Strong Domain Randomization for Robust Bi.pdf",
+          "exists": true,
+          "pdf": true,
+          "bytes": 7993708,
+          "sha256": "316ae82a97968e1a2d88540665401645a190d2699d7d8652e8fc0053ba609bda"
+        }
+      ],
+      "verified_at": "2026-09-11"
+    },
+    {
+      "id": "B05",
+      "citation_key": "WMB05_2024",
+      "title": "Evaluating Real-World Robot Manipulation Policies in Simulation",
+      "zotero_key": "XXMX2E29",
+      "reused": true,
+      "collections": [
+        "课题文献_正式文献_20260908"
+      ],
+      "attachments": [
+        {
+          "key": "S9SENN4R",
+          "filename": "C49_SIMPLER.pdf",
+          "exists": true,
+          "pdf": true,
+          "bytes": 9842630,
+          "sha256": "1cb4de1a58da4eeaf4f1761a488bb452c042ea3bec1e9840cff5acc51a7c7167"
+        }
+      ],
+      "verified_at": "2026-09-11"
+    },
+    {
+      "id": "B06",
+      "citation_key": "WMB06_2024",
+      "title": "DROID: A Large-Scale In-The-Wild Robot Manipulation Dataset",
+      "zotero_key": "N2C4RB5P",
+      "reused": true,
+      "collections": [
+        "课题文献_正式文献_20260908"
+      ],
+      "attachments": [
+        {
+          "key": "Z6FP7FVU",
+          "filename": "C18_DROID.pdf",
+          "exists": true,
+          "pdf": true,
+          "bytes": 4160650,
+          "sha256": "f37321af021aba1d19351a166241db48230b82e85c3fccf2054261fd46ca339a"
+        }
+      ],
+      "verified_at": "2026-09-11"
+    },
+    {
+      "id": "B07",
+      "citation_key": "WMB07_2024",
+      "title": "OpenVLA: An Open-Source Vision-Language-Action Model",
+      "zotero_key": "XCCCEQKG",
+      "reused": true,
+      "collections": [
+        "课题文献_正式文献_20260908"
+      ],
+      "attachments": [
+        {
+          "key": "78GLVTDU",
+          "filename": "C11_OpenVLA.pdf",
+          "exists": true,
+          "pdf": true,
+          "bytes": 13036087,
+          "sha256": "312adce96455c80da723f85bfe25c9bae7ccfbeb9daf739e05671eb7a303affa"
+        }
+      ],
+      "verified_at": "2026-09-11"
+    },
+    {
+      "id": "B08",
+      "citation_key": "WMB08_2026",
+      "title": "RoboCasa365: A Large-Scale Simulation Framework for Training and Benchmarking Generalist Robots",
+      "zotero_key": "C27AT866",
+      "reused": true,
+      "collections": [
+        "课题文献_正式文献_20260908"
+      ],
+      "attachments": [
+        {
+          "key": "PLE7TXRT",
+          "filename": "C52_RoboCasa365.pdf",
+          "exists": true,
+          "pdf": true,
+          "bytes": 28355514,
+          "sha256": "224e5411bcb5b2cb5f2307ac88531868ed8569817a2617af7d420a394adbd58d"
+        }
+      ],
+      "verified_at": "2026-09-11"
+    }
+  ],
+  "index_note": {
+    "title": "高水平文献与可执行课题 · 26篇索引 · 2026-09-11",
+    "zotero_key": "Y4SCSNP3",
+    "paper_count": 26,
+    "collection": "课题文献_正式文献_20260908"
+  },
+  "counts": {
+    "total": 26,
+    "new": 8,
+    "reused": 18,
+    "local_pdf": 26
+  }
+}
