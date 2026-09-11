@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-11T19:19:47.136993",
+  "updated_at": "2026-09-11T19:52:05.864400",
   "scope": "Targeted refinement of five research topics using 26 existing Zotero papers; no new experiments; no novelty-proof claim",
   "citations": [
     {
@@ -362,7 +362,7 @@
   "topic_count": 5,
   "challenge_count": 15,
   "method_count": 15,
-  "source_sha256": "0fcb9657d4ee3be3305dd5eecfca08d8d4360ba859d744fc051e05debe977c56",
+  "source_sha256": "a1c4fbbce9899ecb0129e09eae6308ed622a0e3cf1b35c0fe5f8b32e2fbc7112",
   "local_pdf_extraction": "Local working copies only; not a publication artifact",
   "online_cross_checks": [
     "https://www.roboticsproceedings.org/rss22/p017.html",
@@ -370,5 +370,33 @@
     "https://proceedings.iclr.cc/paper_files/paper/2026/hash/6179c61e70d961ddfd441ac329278c9d-Abstract-Conference.html",
     "https://openreview.net/pdf/24fe46f6c8fd3b542798b4a83189990353b83a26.pdf",
     "https://arxiv.org/html/2504.02792v1#S7"
-  ]
+  ],
+  "application_scenario": {
+    "name": "RoboCasa native PickPlaceCounterToCabinet",
+    "recommended_method_topic": "B; C/E conditional on native-task diagnostics",
+    "scene_challenges": [
+      "S1 contact transition and held-object motion",
+      "S2 cabinet-entry action consequences",
+      "S3 placement and gripper withdrawal"
+    ],
+    "native_tasks": [
+      "robocasa/PickPlaceCounterToCabinet",
+      "StackCube-v0",
+      "MS-HAB TidyHouse",
+      "MS-HAB PrepareGroceries",
+      "MS-HAB SetTable",
+      "PegInsertionSide-v1"
+    ],
+    "constraint": "No custom scenarios, physics/observation perturbations, task composition, success criteria or benchmark splits. A/D deferred.",
+    "status": "report proposal only; no experiment, new paper or asset download",
+    "checked_official_sources": [
+      "https://robocasa.ai/docs/build/html/datasets/datasets_overview.html",
+      "https://robocasa.ai/docs/build/html/datasets/using_datasets.html",
+      "https://robocasa.ai/docs/build/html/introduction/basic_usage.html",
+      "https://github.com/robocasa/robocasa/blob/main/robocasa/environments/kitchen/atomic/kitchen_pick_place.py",
+      "https://github.com/arth-shukla/mshab",
+      "https://github.com/arth-shukla/mshab/blob/main/scripts/evaluate_sequential_task.sh",
+      "https://maniskill.readthedocs.io/en/latest/tasks/table_top_gripper/index.html"
+    ]
+  }
 }

@@ -11,7 +11,7 @@ def render(renderer,standalone_dir=None):
     output=ROOT/(STEM+'.html')
     subprocess.run([sys.executable,str(renderer),str(source),'--out',str(output),'--offline',
                     '--title','世界模型与机器人操作｜高水平文献与可执行课题',
-                    '--subtitle','26篇正式论文 · 逐篇局限证据 · 5个课题 × 3项挑战与对应方法',
+                    '--subtitle','原生橱柜收纳任务 · 26篇正式论文 · 挑战、方法与官方评估',
                     '--eyebrow','开题准备 · 2026年9月11日'],check=True)
     document=output.read_text(encoding='utf-8')
     document=re.sub(r'((?:href|src)=")\.\./',r'\1',document)

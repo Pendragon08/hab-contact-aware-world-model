@@ -13,5 +13,8 @@
   },
   "blocking_issues": [],
   "warnings": [],
-  "summary": "Both frozen HTML copies faithfully render the final Markdown at SHA256 0fcb9657d4ee3be3305dd5eecfca08d8d4360ba859d744fc051e05debe977c56. The audit confirmed all 19 numbered sections, five topics A–E, 41 evidence rows across 26 cited IDs, 15 challenge/method mappings, 18 tables with exact cell text, 26 expandable paper cards, 75 inline-code spans, the info callout, and all nine SVG text nodes. Heading order and text match exactly; all fragment targets are valid and unique; all nine local links in each copy resolve. The two copies have identical visible content and DOM structure apart from the intended local-URL rebasing. No scripts, event handlers, unsafe URL schemes, disallowed content tags, or placeholder/private-token leakage were found."
+  "summary": "Both HTML files faithfully render the frozen Markdown source at SHA256 a1c4fbbce9899ecb0129e09eae6308ed622a0e3cf1b35c0fe5f8b32e2fbc7112. After removing the expected responsive table wrappers and applying the documented relative-link rebasing, each HTML body matches the renderer output exactly; the two HTML copies then differ only by the expected hab-contact-aware-world-model/ link prefix. All 35 source headings, 34 TOC entries, 21 tables, 26 details/summary cards, 88 inline-code spans, and three routed callouts are preserved. Sections 1.1-1.4, both A/D paused notices, and the corrected closing B/C/E wording are present in both files. Internal anchors resolve without duplicates, and no executable unsafe markup, blocked URL residue, private placeholder character, or unreplaced template placeholder was found.",
+  "source_sha256": "a1c4fbbce9899ecb0129e09eae6308ed622a0e3cf1b35c0fe5f8b32e2fbc7112",
+  "reviewed_at": "2026-09-11T19:57:39.664471",
+  "scope": "Fresh same-family render fidelity review, not scientific novelty validation."
 }
