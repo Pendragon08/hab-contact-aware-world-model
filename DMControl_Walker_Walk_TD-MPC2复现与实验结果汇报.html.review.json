@@ -13,7 +13,7 @@
   },
   "blocking_issues": [],
   "warnings": [],
-  "summary": "The final HTML faithfully retains all 11 source headings, 5 tables with 42 rows, 4 list items, 14 links, both PNG charts, and all 3 native videos. Source hash matches; source text and table cells retained; heading hierarchy, unique TOC anchors and callout-info intact. Embedded PNG bytes match source files, videos exist, and no unexpected executable markup, events, unsafe URLs or placeholders were found.",
-  "source_sha256": "ea2e67c90920d5ed79d981b69a91b62a007f3522e3b0f6451c01bae2a03f757d",
-  "scope": "Rendering fidelity only; scientific findings were separately checked against saved evaluations and trajectories."
+  "summary": "The HTML faithfully preserves all 15 source headings, six tables and their cells, lists, inline code/formulas, links, raw HTML callouts, figures, and three videos. Chapter 04 and all four subsections are complete. The source SHA256 matches the embedded metadata; both base64 PNG payloads exactly match their source files. TOC targets and relevant tag pairs are intact, the information callout is routed correctly, and no unsafe executable markup, unexpected data URL, replacement character, private parser character, or template placeholder remains.",
+  "source_sha256": "05f76e177e453824dffc9790fa869813c7d424324a7d80885a15753c5e8f037d",
+  "scope": "Rendering fidelity only; no new experiment or scientific claim audit."
 }

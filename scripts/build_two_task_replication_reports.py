@@ -22,11 +22,13 @@ def table(headers, rows):
     return '\n'.join(['| '+' | '.join(headers)+' |', '| '+' | '.join(['---']*len(headers))+' |']+
                      ['| '+' | '.join(map(str, row))+' |' for row in rows])
 
-def main(renderer):
+def main(renderer, selected_task=None):
     snapshot = json.loads((ASSETS/'server_snapshot.json').read_text(encoding='utf-8'))
     captured = datetime.fromisoformat(snapshot['captured_utc']).astimezone(timezone(timedelta(hours=8))).strftime('%Y-%m-%d %H:%M:%S')
     plt.rcParams.update({'font.family':'DejaVu Sans', 'font.size':10, 'axes.spines.top':False, 'axes.spines.right':False})
     for key, task in snapshot['tasks'].items():
+        if selected_task is not None and key != selected_task:
+            continue
         walker = key == 'walker-walk'
         title = 'DMControl · Walker Walk' if walker else 'ManiSkill2 · Pick Cube'
         directory = ASSETS/key
@@ -133,6 +135,46 @@ def main(renderer):
         latest=seeds[2]['evals'][-1]
         robot='平面双足Walker；目标是保持身体直立并向前行走，属于运动控制，不是完整人形机器人的仓储操作。原生奖励综合身体高度、直立程度和向前速度；高回报意味着这些奖励目标完成得较好。' if walker else 'Panda机械臂抓取小方块并移到随机目标位置。它是桌面抓取定位任务，不是HAB、ManiSkill3或完整仓储搬运。目标可在空中，成功不要求把物体放到货架或松开夹爪。'
         success='主指标是原始回合累计回报：原生奖励约在0–1范围，每回合1000个原生步，因此按0–1000尺度汇报。接口中的success=0只是占位字段，不作为本任务效果指标。**980分不能写成98%成功率。**' if walker else '主指标为完整回合最后一步的原生success。已核对所用PickCube-v0源码：物体中心与目标距离≤0.025米，且机械臂非夹爪关节速度的最大绝对值≤0.2，两个条件同时满足才成功。**接近目标、抓起物体或曾经成功，都不能直接代替末步成功。**'
+        metric_explanation = '''### 04.1 · 平均回合回报究竟是什么？
+
+**它统计机器人实际执行后的环境奖励，不是奖励网络和Q网络预测出来的规划分数。**本次Walker Walk评估按以下顺序计算：
+
+1. 冻结网络，让机器人完成一个回合：500次动作决策，对应1000个原生环境步。
+2. 每个原生步由仿真环境根据身体高度、直立程度和向前运动情况给出奖励。
+3. 将这个回合所有实际环境奖励相加，得到该回合的回报。
+4. 对同一个模型重复评估10个完整回合，再把10个回报取平均。
+
+<div style="padding:18px;background:#e9f2fb;border:1px solid #c7d9ed;border-radius:10px;line-height:2"><strong>单回合回报 = 该回合1000个原生环境步的实际奖励之和。</strong><br><strong>平均回合回报 = 10个回合的回报之和 ÷ 10。</strong><br>记录这个评估指标时不做折扣，也不额外加Q值。</div>
+
+一次动作决策重复执行2个原生步，日志把这两步的实际奖励相加后保存。因此，将500条决策奖励相加，等价于将1000个原生步奖励相加。这里的“平均”是对10个完整回合取平均，不是把一个回合的总奖励再除以1000。
+
+例如仅用两个回合演示计算：若实际回报分别为980和960，平均回合回报就是970。这两个数是教学示例，不是新增评估。**本次种子1的980.91，是其最终10个回合累计奖励的平均值；不能写成98.091%的成功率。**
+
+### 04.2 · 它与“短期收益＋长期价值”的规划评分有什么区别？
+
+| 对比项 | 规划时的候选评分 | 评估时的回合回报 |
+|---|---|---|
+| 分数从哪里来 | 奖励模型R与Q网络的预测 | 仿真环境实际返回的奖励 |
+| 怎样计算 | 短期折扣预测奖励＋规划末端的折扣Q价值 | 完整回合内的实际奖励直接累加 |
+| 是否加入Q估计 | 加入，补充短期窗口之后的收益 | 不加入 |
+| 是否做折扣 | 本轮按γ=0.99在动作决策尺度上折扣 | 记录评估回报时不做折扣 |
+| 用于什么 | 比较候选，决定下一步动作 | 衡量机器人实际完成任务的表现 |
+
+规划评分可以概括为 `G_plan = Σ γ^t r̂_t + γ^H Q(z_H,p(z_H))`，本轮H=3。这里r̂是模型预测，不是环境已经给出的实际奖励；p(z_H)表示按策略先验产生的末端动作。评估回报则是 `G_episode = Σ r_env`，累加完整回合的真实仿真反馈。
+
+Q会通过动作选择间接影响机器人最终获得多少奖励，但**不会作为额外的一笔分数加进评估日志**。规划分数高也不能直接证明实际回报高，必须执行后才能检验。
+
+### 04.3 · 为什么这里不报告末步成功率？
+
+本次使用的Walker Walk原生任务主要用连续奖励衡量“站得稳、走得好”，没有像Pick Cube那样直接用于本次评估的二元成功判据。TD-MPC2适配接口中的 `success=0` 是占位值，不能据此把所有回合判为失败。因而本报告按原方法汇报平均回合回报，而不把回报除以1000后当作成功率。
+
+<div style="padding:16px 20px;background:#f5f1e7;border-left:4px solid #a27036;border-radius:6px"><strong>向老师汇报可以这样说</strong><p>“规划阶段用世界模型预测奖励和Q价值来选择动作；评估阶段统计机器人实际执行后获得的环境奖励。Walker Walk报告平均回合回报，Pick Cube报告末步成功率，两项任务采用不同的原生评估口径。”</p></div>
+
+计算依据：[所用Walker奖励函数](reports/two_task_replication_20260911/walker-walk/source/native_walker.py)、[实际记录与评估入口](reports/two_task_replication_20260911/walker-walk/source/runner.py)。上面的说明解释既有结果，没有新增训练、评估或改变计分规则。
+
+### 04.4 · 本轮评估协议与轨迹核验
+
+''' if walker else ''
         conclusion='两个已完成种子的最终回报为980.91与977.50，说明已经形成较好的原任务行走控制表现，与作者同预算结果处于相近数值范围。尚无完整三种子统计，不据此声称优于原论文或已经完整复现论文。' if walker else '两个已完成种子的末步成功为9/10和10/10，说明世界模型＋MPC已能完成原生PickCube任务。种子1的曾成功为10/10，但末步仅9/10；种子2两者均10/10。每种子仅评估10回合，单次10/10不等于真实成功概率为100%。'
         failures='曲线已接近奖励上限，但仍有回合波动；目前没有额外评估跌倒率、抗扰动、能耗或跨地形能力。回报较高不能自动推出这些能力均达标。' if walker else '种子1最终第3回合（000102.npz）曾成功、末步失败。保存的数据可确认这一差别，但本次没有进一步拆分为“位置未达标”还是“机器人未静止”，也没有据此断言一定掉落。正式录像只记录每轮首回合，因此没有该失败回合的现成视频；保留它的原始轨迹和成功时间序列。'
         videos=[]
@@ -188,6 +230,7 @@ def main(renderer):
 
 {success}
 
+{metric_explanation}
 每10万原生训练步评估一次，每轮10个完整回合；含初始和最终共11轮。冻结网络、不调用学习更新、评估经验不写入训练回放。使用MPC规划而非单独测试直接策略；固定回合长度，不因中途成功提前结束。每种子额外评估{'110,000' if walker else '22,000'}个原生步，单列于训练预算之外。
 
 本次回传并重算种子1/2最终共20条原始轨迹：每条长度、数值有限性、观测与动作维度均检查；逐回合奖励求和与完成记录中的均值一致（允许浮点精度误差）。{'不额外生成没有原生定义的成功率。' if walker else '成功标志逐条核验得到9/10与10/10。success-once按每次动作决策结束时记录的标志计算，不涵盖动作重复期间未记录的中间原生步；末步成功则对应完整回合最后一步。'}没有为了本报告新增评估回合或筛选起点。
@@ -263,4 +306,6 @@ def main(renderer):
 
 if __name__=='__main__':
     parser=argparse.ArgumentParser();parser.add_argument('--renderer',type=Path,required=True)
-    main(parser.parse_args().renderer)
+    parser.add_argument('--task',choices=list(NAMES),default=None)
+    args=parser.parse_args()
+    main(args.renderer,args.task)

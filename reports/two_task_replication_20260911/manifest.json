@@ -1,11 +1,11 @@
 {
   "browser_validation.json": {
-    "bytes": 809,
-    "sha256": "ff22725b74bd4b36085bd07c8b68243b9a2f586192364b1ac6e4f84b8c5e5d0e"
+    "bytes": 810,
+    "sha256": "8e8bdca9c0e29a60d030a23727ac955677689e1c4b0317c6227937114c1f3a69"
   },
   "README.md": {
-    "bytes": 2492,
-    "sha256": "32a35e2efba3a7b2849fbebaa9a514d5e3d6976eb755b3bb16d39787a4e8aa29"
+    "bytes": 2791,
+    "sha256": "a0fc359b686dc87159a8a5e1930b4c73be765ede7f70f7b15e6d1398bd12c117"
   },
   "server_snapshot.json": {
     "bytes": 90893,

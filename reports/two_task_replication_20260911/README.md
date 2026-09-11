@@ -14,4 +14,6 @@
 
 构建入口：scripts/build_two_task_replication_reports.py --renderer <render-html技能的render_html.py绝对路径>。依赖Python、NumPy及Matplotlib；读取固定快照并核验NPZ，生成Markdown、CSV、图表及HTML。复用报告构建依赖即可，无需连接GPU或安装训练环境。新增结果应另建快照，避免覆盖历史证据；种子3完成后需更新报告范围及构建器的完成状态检查。
 
+单独更新某份报告可追加 `--task walker-walk` 或 `--task pick-cube`；默认生成两份。Walker Walk第04章补充了实际奖励累加、10回合取平均、规划评分与评估回报的区别，以及不采用末步成功率的原因。这是既有评估口径的解释，不是新增实验结果。
+
 汇报中的科学结论依据本次轨迹和日志核验；HTML review.json仅检查渲染一致性，不等于独立重复实验或科研结论审稿。
