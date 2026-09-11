@@ -1,0 +1,19 @@
+{
+  "verdict": "PASS",
+  "review_independence": "same-family",
+  "acceptance_status": "provisional",
+  "checks": {
+    "source_hash_match": "pass",
+    "information_fidelity": "pass",
+    "structure": "pass",
+    "math_code_tables": "pass",
+    "safety_escaping": "pass",
+    "placeholder_leak": "pass",
+    "callouts": "not_applicable"
+  },
+  "blocking_issues": [],
+  "warnings": [],
+  "summary": "The embedded SHA256 matches the final Markdown. Both HTML copies preserve all four primary chapters, nine tables, five native details sections, formula text, and two video elements. Every source line’s visible content is represented, detailed literature remains folded, local references resolve, TOC fragments are valid, IDs are unique, and the standalone copy is identical after its expected asset-prefix normalization. No scripts, unsafe URL schemes, event handlers, forbidden embedded elements, or leaked placeholders were found.",
+  "source_sha256": "3192c036ef39ed53f2489b2b06ced9121d4cd370f5fc7555acf683b80f1cde95",
+  "scope": "Rendering fidelity only; does not establish the feasibility or novelty of the proposed research."
+}

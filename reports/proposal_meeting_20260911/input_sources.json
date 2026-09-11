@@ -1,0 +1,24 @@
+{
+  "reports/MetaWorld_TD-MPC2复现与实验结果汇报.md": {
+    "sha256": "d1380b20dcc92330fbdd8790ddc84a6455f61a7a615f66d0dc2e03d5f0deb0d2"
+  },
+  "reports/DMControl_Walker_Walk_TD-MPC2复现与实验结果汇报.md": {
+    "sha256": "05f76e177e453824dffc9790fa869813c7d424324a7d80885a15753c5e8f037d"
+  },
+  "reports/ManiSkill2_Pick_Cube_TD-MPC2复现与实验结果汇报.md": {
+    "sha256": "d0400298c272aaf3c84095e94ed3c2806d7f70b5768f783b13362d1a87210889"
+  },
+  "refine-logs/FINAL_PROPOSAL.md": {
+    "sha256": "f854b48862639cbbf50c5567f36304b0e920c8626131276735a9a65f390cfa41"
+  },
+  "refine-logs/2026方法来源与方案对应_20260910.md": {
+    "sha256": "5387ac401c031a0c655ab4ba52e1b2ab13f5b43b7eede8d811bbd1db3769fdcf"
+  },
+  "AGENTS.md": {
+    "sha256": "ce3cc5196e575a13eae3d3c2f83c4bda4efb303f71fd0f0484d315afedcc8400"
+  },
+  "user_requested_plan": {
+    "filename": "下一阶段研究方案_世界模型动作后果排序.md",
+    "sha256": "95b46d22443f31e5b45c5ecd91a7bf3da00d2c1a16eccbfbf57acce917a90022"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "browser_validation.json": {
+    "bytes": 1322,
+    "sha256": "50562475c2fd1f39f724dc5f292494abd2689a514946b01191eb9441fb9ac23d"
+  },
+  "evaluation_evidence.json": {
+    "bytes": 7988,
+    "sha256": "f7e9637367ad37afd04cd8442617cfd67e956a6cf5d50d9e5f4e8d469fec117e"
+  },
+  "hab_stop_record.json": {
+    "bytes": 578,
+    "sha256": "3aa33e888edd142a057315f561583f0bb6f50d8db7cb6926cf2d5b10feab1586"
+  },
+  "input_sources.json": {
+    "bytes": 1039,
+    "sha256": "7b44f56955c02fbceef5e3ed6b98bdf3d9bc93e318dd2beec77f04d345f8d0bc"
+  },
+  "layout.css": {
+    "bytes": 3040,
+    "sha256": "f93cbe3fc9fab44b40211937ebc646126777165bb1ff6958964c314d61b90fb6"
+  },
+  "progress_snapshot.json": {
+    "bytes": 1889,
+    "sha256": "2667902148ad28cca3a01a3b5ed409b23a865fbd562e99a0187c2bdb32c7db72"
+  },
+  "README.md": {
+    "bytes": 2283,
+    "sha256": "1db12d56e6815e4b88a00d0e3370c233c0e60912c1f47dd7cb299fa61d5000e5"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "time": "2026-09-10T08:47:21.609734+00:00",
+  "reason": "User replaces HAB with original-paper ManiSkill2 on GPU1; preserve DMControl on GPU0.",
+  "last_update": {
+    "update": 426700,
+    "train_steps": 426701,
+    "seconds": 75366.22476792336,
+    "consistency_loss": 0.00024214875884354115,
+    "reward_loss": 0.3117777705192566,
+    "value_loss": 0.315137654542923,
+    "pi_loss": -0.7346498966217041,
+    "total_loss": 0.06753452122211456,
+    "grad_norm": 0.05102159455418587,
+    "pi_scale": 7.541945457458496
+  },
+  "stopped_pids": [
+    1762023,
+    1762026
+  ]
+}

@@ -1,0 +1,21 @@
+:root{--primary:#174e66;--primary-soft:#216c88;--accent:#a34e25}
+body{font-size:17px;line-height:1.85}
+.layout{max-width:1420px;grid-template-columns:228px minmax(0,1fr);gap:40px}
+main{min-width:0}main h2{margin-top:58px;font-size:28px;scroll-margin-top:24px}main h3{font-size:21px;scroll-margin-top:24px}
+main p,main td,main th,main code,main a{overflow-wrap:anywhere}
+main table{font-size:15px;line-height:1.7}main th{background:#174e66}main td{vertical-align:top}
+nav.toc ol{list-style:none;padding-left:0}nav.toc ol>li::before{content:none}
+nav.toc .toc-h3{font-size:12px}
+.meeting-lead,.decision{padding:24px 28px;border-radius:12px;border:1px solid #bad1d8;background:#eaf3f6;margin:24px 0}
+.meeting-lead p,.decision p{font-size:21px;line-height:1.8;margin:12px 0}.meeting-lead strong,.decision strong{color:#174e66}
+.agenda{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:20px}.agenda a{display:block;text-decoration:none;padding:10px 8px;text-align:center;background:white;border-radius:7px;font-size:15px}
+.flow-panel{padding:20px;border:1px solid #cfdbdb;border-radius:12px;margin:20px 0;background:#f0f5f4}.flow-panel.online{background:#edf3f9}
+.flow{display:grid;grid-template-columns:1fr 20px 1fr 20px 1fr;gap:10px;align-items:center;margin-top:14px}
+.flow div{padding:14px;background:white;border:1px solid #d5dfe0;border-radius:8px;font-size:17px;font-weight:600;align-self:stretch}
+.flow span{display:block;font-size:14px;color:#52656c;line-height:1.7;font-weight:400;margin-top:8px}.flow>b{text-align:center;color:#26758c}
+.demo-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}.demo-grid figure{margin:0;padding:16px;background:#fff;border:1px solid #d9dfdf;border-radius:10px;min-width:0}.demo-grid figcaption{font-size:16px}.demo-grid p{font-size:14px}.demo-grid video{display:block;width:100%;max-height:330px;background:#1b2730;border-radius:7px}
+.talk{background:#f7f0e2;border-left:4px solid #aa753b;padding:20px 25px;margin:24px 0;border-radius:6px}
+main details{background:#faf9f3;border:1px solid #dedbce;border-radius:9px;padding:15px 20px;margin:24px 0}main summary{cursor:pointer;font-weight:600;color:#174e66}main details p{font-size:15px}
+@media(max-width:900px){.layout{display:block;padding:22px}nav.toc{position:static;max-height:none;border-right:0}.demo-grid{grid-template-columns:1fr}}
+@media(max-width:600px){body{font-size:16px}.layout{padding:16px}main h2{font-size:25px}.meeting-lead,.decision{padding:18px}.meeting-lead p,.decision p{font-size:19px}.agenda{grid-template-columns:1fr 1fr}.flow{grid-template-columns:1fr}.flow>b{transform:rotate(90deg)}main table{display:block;max-width:100%;overflow-x:auto}main details{padding:12px}}
+@media print{nav.toc,.agenda{display:none}.layout{display:block;padding:0;max-width:none}body{font-size:11pt}.meeting-lead p,.decision p{font-size:13pt}main h2{break-before:page}main table{font-size:10pt}.flow-panel,.decision,.talk{break-inside:avoid}video{max-height:130px}.demo-grid{display:block}main details{border:0;padding:0}}

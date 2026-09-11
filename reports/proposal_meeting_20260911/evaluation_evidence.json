@@ -1,0 +1,270 @@
+{
+  "captured_utc": "2026-09-11T07:30:40.807178+00:00",
+  "scope": "Read-only summary of existing logs; no new training or evaluation.",
+  "hab": {
+    "directory_exists": true,
+    "last_rows": [
+      {
+        "episode_reward": 51.44178771972656,
+        "episode_success": 0.0,
+        "step": 426400,
+        "episode": 2131,
+        "total_time": 75304.04859662056,
+        "consistency_loss": 0.00029940123204141855,
+        "reward_loss": 0.3142847418785095,
+        "value_loss": 0.3162810206413269,
+        "pi_loss": -0.7564091682434082,
+        "total_loss": 0.06904460489749908,
+        "grad_norm": 0.07936699688434601,
+        "pi_scale": 7.5382490158081055,
+        "category": "train",
+        "train_steps": 426400,
+        "eval_steps": 20000
+      },
+      {
+        "episode_reward": 61.89223098754883,
+        "episode_success": 0.0,
+        "step": 426600,
+        "episode": 2132,
+        "total_time": 75340.85065412521,
+        "consistency_loss": 0.0001903605880215764,
+        "reward_loss": 0.31566184759140015,
+        "value_loss": 0.3040524125099182,
+        "pi_loss": -0.7372068762779236,
+        "total_loss": 0.06577864289283752,
+        "grad_norm": 0.05423591285943985,
+        "pi_scale": 7.5282416343688965,
+        "category": "train",
+        "train_steps": 426600,
+        "eval_steps": 20000
+      },
+      {
+        "episode_reward": 72.76408386230469,
+        "episode_success": 0.0,
+        "step": 426800,
+        "episode": 2133,
+        "total_time": 75376.66038155556,
+        "consistency_loss": 0.00021419643599074334,
+        "reward_loss": 0.30887919664382935,
+        "value_loss": 0.3024030923843384,
+        "pi_loss": -0.7392647862434387,
+        "total_loss": 0.06541215628385544,
+        "grad_norm": 0.06334870308637619,
+        "pi_scale": 7.542655944824219,
+        "category": "train",
+        "train_steps": 426800,
+        "eval_steps": 20000
+      }
+    ],
+    "eval_rows": [
+      {
+        "episode_reward": 46.0910530090332,
+        "episode_success": 0.0,
+        "success_once": 0.0,
+        "step": 0,
+        "episode": 0,
+        "total_time": 302.0125312805176,
+        "category": "eval",
+        "train_steps": 0,
+        "eval_steps": 4000
+      },
+      {
+        "episode_reward": 63.0052604675293,
+        "episode_success": 0.0,
+        "success_once": 0.0,
+        "step": 100000,
+        "episode": 499,
+        "total_time": 17763.704679727554,
+        "category": "eval",
+        "train_steps": 100000,
+        "eval_steps": 8000
+      },
+      {
+        "episode_reward": 62.56382369995117,
+        "episode_success": 0.0,
+        "success_once": 0.0,
+        "step": 200000,
+        "episode": 999,
+        "total_time": 35329.62715601921,
+        "category": "eval",
+        "train_steps": 200000,
+        "eval_steps": 12000
+      },
+      {
+        "episode_reward": 64.58574676513672,
+        "episode_success": 0.0,
+        "success_once": 0.0,
+        "step": 300000,
+        "episode": 1499,
+        "total_time": 52948.385118722916,
+        "category": "eval",
+        "train_steps": 300000,
+        "eval_steps": 16000
+      },
+      {
+        "episode_reward": 66.23947143554688,
+        "episode_success": 0.0,
+        "success_once": 0.0,
+        "step": 400000,
+        "episode": 1999,
+        "total_time": 70594.092294693,
+        "category": "eval",
+        "train_steps": 400000,
+        "eval_steps": 20000
+      }
+    ],
+    "top_level_files": [
+      "user-stop-replace-with-maniskill2.json",
+      "metrics.jsonl",
+      "updates.jsonl",
+      "resolved-config.yaml",
+      "trajectories",
+      "videos",
+      "models",
+      "sources.json",
+      "train-layouts.json"
+    ]
+  },
+  "completed_baselines": {
+    "walker-walk": {
+      "1": {
+        "completed": true,
+        "mode": "train",
+        "task": "walker-walk",
+        "seed": 1,
+        "train_decisions": 500000,
+        "train_environment_steps": 1000000,
+        "eval_environment_steps": 110000,
+        "optimizer_updates": 499999,
+        "final_eval": {
+          "episode_reward": 980.9122924804688,
+          "step": 500000,
+          "episode": 999,
+          "total_time": 32649.109456300735
+        },
+        "final_episode_returns": [
+          991.159119874239,
+          967.2730558132753,
+          993.5363028049469,
+          988.8210267424583,
+          991.7006898522377,
+          975.6868945490569,
+          972.3052704092115,
+          980.6224853396416,
+          978.6869466900826,
+          969.3294251477346
+        ],
+        "all_five_modules_changed": true,
+        "seconds": 32649.21736240387,
+        "torch_peak_MiB": 269.70703125,
+        "environment_witness": null,
+        "upstream_commit": "57158282b46ebc5c329c5be9cfe2b0094126d1ca"
+      },
+      "2": {
+        "completed": true,
+        "mode": "train",
+        "task": "walker-walk",
+        "seed": 2,
+        "train_decisions": 500000,
+        "train_environment_steps": 1000000,
+        "eval_environment_steps": 110000,
+        "optimizer_updates": 499999,
+        "final_eval": {
+          "episode_reward": 977.4990234375,
+          "step": 500000,
+          "episode": 999,
+          "total_time": 32902.249438762665
+        },
+        "final_episode_returns": [
+          972.7610087990761,
+          974.3821165394038,
+          977.6172623634338,
+          983.0659898817539,
+          990.8422029912472,
+          974.0875614304096,
+          972.1015568524599,
+          976.2013201806694,
+          971.1665949560702,
+          982.763897806406
+        ],
+        "all_five_modules_changed": true,
+        "seconds": 32902.37349820137,
+        "torch_peak_MiB": 269.70703125,
+        "environment_witness": null,
+        "upstream_commit": "57158282b46ebc5c329c5be9cfe2b0094126d1ca"
+      }
+    },
+    "pick-cube": {
+      "1": {
+        "completed": true,
+        "mode": "train",
+        "task": "pick-cube",
+        "seed": 1,
+        "train_decisions": 500000,
+        "train_environment_steps": 1000000,
+        "eval_environment_steps": 22000,
+        "optimizer_updates": 499999,
+        "final_eval": {
+          "episode_reward": 950.9888916015625,
+          "episode_success": 0.9,
+          "step": 500000,
+          "episode": 4999,
+          "total_time": 36968.498697280884
+        },
+        "final_episode_returns": [
+          960.7985137701035,
+          952.8724093437195,
+          948.1419535279274,
+          948.4783357977867,
+          967.3000192642212,
+          942.9738048911095,
+          933.654380261898,
+          936.3031097650528,
+          954.3397724032402,
+          965.0266882181168
+        ],
+        "final_success_once": 1.0,
+        "all_five_modules_changed": true,
+        "seconds": 36968.66095805168,
+        "torch_peak_MiB": 315.8623046875,
+        "environment_witness": null,
+        "upstream_commit": "57158282b46ebc5c329c5be9cfe2b0094126d1ca"
+      },
+      "2": {
+        "completed": true,
+        "mode": "train",
+        "task": "pick-cube",
+        "seed": 2,
+        "train_decisions": 500000,
+        "train_environment_steps": 1000000,
+        "eval_environment_steps": 22000,
+        "optimizer_updates": 499999,
+        "final_eval": {
+          "episode_reward": 936.0712890625,
+          "episode_success": 1.0,
+          "step": 500000,
+          "episode": 4999,
+          "total_time": 38748.05432796478
+        },
+        "final_episode_returns": [
+          959.139485836029,
+          899.1472784876823,
+          933.8216159939766,
+          947.968189060688,
+          918.0309045314789,
+          932.5196112394333,
+          950.5911664962769,
+          898.1863667964935,
+          954.5070871710777,
+          966.8008692860603
+        ],
+        "final_success_once": 1.0,
+        "all_five_modules_changed": true,
+        "seconds": 38748.20124387741,
+        "torch_peak_MiB": 315.8623046875,
+        "environment_witness": null,
+        "upstream_commit": "57158282b46ebc5c329c5be9cfe2b0094126d1ca"
+      }
+    }
+  }
+}

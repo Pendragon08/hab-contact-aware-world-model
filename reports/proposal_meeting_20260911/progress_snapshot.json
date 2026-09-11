@@ -1,0 +1,87 @@
+{
+  "captured_utc": "2026-09-11T07:28:42.535990+00:00",
+  "scope": "Read-only server status snapshot; experiment progress, not final evaluation.",
+  "tasks": {
+    "walker-walk": {
+      "gpu": 0,
+      "seeds": [
+        {
+          "seed": 1,
+          "train_environment_steps": 1000000,
+          "completed": true
+        },
+        {
+          "seed": 2,
+          "train_environment_steps": 1000000,
+          "completed": true
+        },
+        {
+          "seed": 3,
+          "train_environment_steps": 459202,
+          "completed": false
+        }
+      ]
+    },
+    "walker-run": {
+      "gpu": 0,
+      "seeds": [
+        {
+          "seed": 1,
+          "train_environment_steps": 527602,
+          "completed": false
+        }
+      ]
+    },
+    "pick-cube": {
+      "gpu": 1,
+      "seeds": [
+        {
+          "seed": 1,
+          "train_environment_steps": 1000000,
+          "completed": true
+        },
+        {
+          "seed": 2,
+          "train_environment_steps": 1000000,
+          "completed": true
+        },
+        {
+          "seed": 3,
+          "train_environment_steps": 111202,
+          "completed": false
+        }
+      ]
+    },
+    "lift-cube": {
+      "gpu": 1,
+      "seeds": [
+        {
+          "seed": 1,
+          "train_environment_steps": 481402,
+          "completed": false
+        }
+      ]
+    },
+    "cheetah-run": {
+      "gpu": 0,
+      "seeds": [
+        {
+          "seed": 1,
+          "train_environment_steps": 463802,
+          "completed": false
+        }
+      ]
+    },
+    "stack-cube": {
+      "gpu": 1,
+      "seeds": [
+        {
+          "seed": 1,
+          "train_environment_steps": 434802,
+          "completed": false
+        }
+      ]
+    }
+  },
+  "resource_policy": "Existing six task streams, three per GPU; preserve existing learners and at least 12 GiB GPU free memory. No new job launched for report."
+}
