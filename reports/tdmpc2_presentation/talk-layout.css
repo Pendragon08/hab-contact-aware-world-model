@@ -1,0 +1,29 @@
+/* Presentation cues for chapters 06–08; all other chapter content is unchanged. */
+nav.toc ol { list-style:none; padding-left:0; }
+nav.toc ol > li::before { content:none; }
+.talk-focus { padding:18px 22px; margin:18px 0 24px; border-left:4px solid #245b91; background:#edf3fa; border-radius:6px; }
+.talk-focus p { margin:8px 0 0; line-height:1.85; }
+.talk-label { display:block; color:#315b80; font:600 13px/1.5 Arial,"Microsoft YaHei",sans-serif; }
+.talk-flow { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:12px; margin:22px 0; }
+.talk-step { padding:18px; background:#f5f3ed; border:1px solid #d7d4ca; border-radius:8px; }
+.talk-step span { display:block; color:#506376; font-size:14px; }
+.talk-step strong { display:block; margin-top:8px; font-size:19px; }
+.talk-step p { margin:8px 0 0; font-size:15px; }
+.talk-model { background:#e9f1fb; border-color:#b8cce2; }
+.talk-env { background:#e8f3ec; border-color:#b4d0be; }
+.talk-script { margin:22px 0; padding:16px 22px; background:#f5f1e7; border-left:4px solid #a27036; border-radius:6px; }
+.talk-script p { margin:10px 0 0; line-height:1.9; }
+.talk-score { padding:20px 22px; margin:20px 0; background:#edf3fa; border:1px solid #bfd0e3; border-radius:8px; }
+.talk-score p { font-size:20px; line-height:1.8; margin:12px 0; overflow-wrap:anywhere; }
+.talk-score span { color:#536375; font-size:14px; }
+details.talk-extra { margin:18px 0; border:1px solid #cbd4de; border-radius:8px; padding:14px 18px; background:#fafbfd; }
+details.talk-extra summary { cursor:pointer; color:#254f76; font-weight:600; line-height:1.7; }
+details.talk-extra[open] summary { margin-bottom:20px; }
+details.talk-extra table { max-width:100%; }
+@media(max-width:650px) {
+  .talk-flow { grid-template-columns:1fr; }
+  .talk-focus,.talk-script,.talk-score { padding:15px; }
+  details.talk-extra { padding:12px; }
+  details.talk-extra table { display:block; overflow-x:auto; }
+}
+@media print { .talk-focus,.talk-script,.talk-score,.talk-step { break-inside:avoid; } }

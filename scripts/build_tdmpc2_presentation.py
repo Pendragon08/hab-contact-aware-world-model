@@ -28,6 +28,9 @@ def main():
     if html.count(needle) != 1:
         raise ValueError('Expected exactly one original Figure 3')
     html = html.replace(needle, 'src="data:image/png;base64,' + base64.b64encode(figure).decode('ascii') + '"')
+    css = (ROOT/'reports/tdmpc2_presentation/talk-layout.css').read_text(encoding='utf-8')
+    html = html.replace('</head>', '<style id="tdmpc2-talk-layout">\n' + css + '\n</style>\n</head>', 1)
+    html = '\n'.join(line.rstrip() for line in html.splitlines()) + '\n'
     output.write_text(html, encoding='utf-8', newline='\n')
     print('Embedded original Figure 3; HTML is readable offline as a single file.')
 

@@ -13,8 +13,8 @@
   },
   "blocking_issues": [],
   "warnings": [],
-  "summary": "The embedded SHA256 exactly matches the source. All source sections, including 08.1–08.6, 21 tables, lists, inline-code expressions, and three informational callouts are retained. Heading anchors are unique and every internal TOC link resolves. No unexpected scripts, event handlers, unsafe URLs, private placeholders, or template leakage were found. The generated CSS/meta/TOC and single allowlisted base64 Figure 3 PNG are the only expected additions.",
-  "source_sha256": "3f62fdda5e15d24308645502ce03489cbf797491551b40607a90c48701ee6d40",
-  "reviewer": "tdmpc2_mppi_render_review",
+  "summary": "The source SHA256 exactly matches 6a4a8b74e09ac24a55b14e6cc2c755d2d08fa11c9a5a740d4a15a552cec0c016. All source headings, 23 tables, 26 list items, 42 Markdown links, inline formulas/code, three informational callouts, and four native details/summary appendices are preserved. Chapters 06–08 render as the intended speaking mainline, while Markdown headings, tables, lists, and formulas inside the appendices render as HTML rather than raw Markdown. Generated metadata, TOC, footer, base CSS, and scoped presentation CSS are intact. The artifact contains no scripts, event handlers, forbidden active elements, unsafe URL schemes, template placeholders, or private parser markers; its only data URL is the expected embedded PNG Figure 3.",
+  "source_sha256": "6a4a8b74e09ac24a55b14e6cc2c755d2d08fa11c9a5a740d4a15a552cec0c016",
+  "reviewer": "tdmpc2_talk_reorder_review",
   "scope": "Rendering fidelity only; not scientific claim audit."
 }

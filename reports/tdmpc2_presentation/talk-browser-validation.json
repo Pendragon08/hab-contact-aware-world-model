@@ -1,0 +1,17 @@
+{
+  "chapters": 17,
+  "tables": 23,
+  "details": 4,
+  "open": 0,
+  "broken": [],
+  "duplicateIds": [],
+  "overflow": false,
+  "expandedExample": true,
+  "allOpenOverflow": false,
+  "mobileAllOpenOverflow": false,
+  "mobileClosedOverflow": false,
+  "errors": [],
+  "source_sha256": "6a4a8b74e09ac24a55b14e6cc2c755d2d08fa11c9a5a740d4a15a552cec0c016",
+  "legacy_detail_bookmark_opens_ancestor": true,
+  "toc_has_no_duplicate_numbering": true
+}
