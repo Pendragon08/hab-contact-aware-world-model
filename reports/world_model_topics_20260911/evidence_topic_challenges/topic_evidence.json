@@ -1,0 +1,374 @@
+{
+  "updated_at": "2026-09-11T19:19:47.136993",
+  "scope": "Targeted refinement of five research topics using 26 existing Zotero papers; no new experiments; no novelty-proof claim",
+  "citations": [
+    {
+      "paper_id": "M01",
+      "topic_section": "A · 每篇参考文献提供了什么局限证据",
+      "locator": "§3–4，PDF第3–5页",
+      "url": "https://proceedings.iclr.cc/paper_files/paper/2024/file/cf73d57b6dcda32b293df7c2d5341f49-Paper-Conference.pdf#page=3",
+      "zotero_key": "GS3RGXBH",
+      "evidence_basis": "targeted method/experiment/limitation passage; authors claims and report inference distinguished in table"
+    },
+    {
+      "paper_id": "M07",
+      "topic_section": "A · 每篇参考文献提供了什么局限证据",
+      "locator": "§IV、§V-E、§VI，PDF第4–5、8–9页",
+      "url": "https://arxiv.org/pdf/2603.15759v2#page=9",
+      "zotero_key": "46C3QL34",
+      "evidence_basis": "targeted method/experiment/limitation passage; authors claims and report inference distinguished in table"
+    },
+    {
+      "paper_id": "M08",
+      "topic_section": "A · 每篇参考文献提供了什么局限证据",
+      "locator": "§7，PDF第9页",
+      "url": "https://raw.githubusercontent.com/mlresearch/v305/main/assets/chandra25a/chandra25a.pdf#page=9",
+      "zotero_key": "5BQ83JP7",
+      "evidence_basis": "targeted method/experiment/limitation passage; authors claims and report inference distinguished in table"
+    },
+    {
+      "paper_id": "M03",
+      "topic_section": "A · 每篇参考文献提供了什么局限证据",
+      "locator": "§3.3–3.4、§6，PDF第4–6、10页",
+      "url": "https://openreview.net/pdf?id=mzLOnTb3WH#page=10",
+      "zotero_key": "CHA3T87U",
+      "evidence_basis": "targeted method/experiment/limitation passage; authors claims and report inference distinguished in table"
+    },
+    {
+      "paper_id": "J06",
+      "topic_section": "A · 每篇参考文献提供了什么局限证据",
+      "locator": "Discussion及Methods，PDF第8–9页",
+      "url": "https://www.nature.com/articles/s41467-026-70256-y.pdf#page=8",
+      "zotero_key": "4SF6WIN7",
+      "evidence_basis": "targeted method/experiment/limitation passage; authors claims and report inference distinguished in table"
+    },
+    {
+      "paper_id": "M06",
+      "topic_section": "A · 每篇参考文献提供了什么局限证据",
+      "locator": "§III-B–D，PDF第4–5页；附录第15页",
+      "url": "https://robopil.github.io/adaptigraph/AdaptiGraph_RSS24.pdf#page=4",
+      "zotero_key": "7LDDTNX6",
+      "evidence_basis": "targeted method/experiment/limitation passage; authors claims and report inference distinguished in table"
+    },
+    {
+      "paper_id": "J01",
+      "topic_section": "A · 每篇参考文献提供了什么局限证据",
+      "locator": "表示比较与展望，PDF第7、10–12页",
+      "url": "https://www.jiajunwu.com/papers/dynamicssurvey_scirobot.pdf#page=7",
+      "zotero_key": "M7F3ZM4J",
+      "evidence_basis": "targeted method/experiment/limitation passage; authors claims and report inference distinguished in table"
+    },
+    {
+      "paper_id": "B05",
+      "topic_section": "A · 每篇参考文献提供了什么局限证据",
+      "locator": "§4–5，PDF第4、8–9页",
+      "url": "https://raw.githubusercontent.com/mlresearch/v270/main/assets/li25c/li25c.pdf#page=8",
+      "zotero_key": "XXMX2E29",
+      "evidence_basis": "targeted method/experiment/limitation passage; authors claims and report inference distinguished in table"
+    },
+    {
+      "paper_id": "M01",
+      "topic_section": "B · 每篇参考文献提供了什么局限证据",
+      "locator": "§3–4，PDF第3–5页",
+      "url": "https://proceedings.iclr.cc/paper_files/paper/2024/file/cf73d57b6dcda32b293df7c2d5341f49-Paper-Conference.pdf#page=3",
+      "zotero_key": "GS3RGXBH",
+      "evidence_basis": "targeted method/experiment/limitation passage; authors claims and report inference distinguished in table"
+    },
+    {
+      "paper_id": "M03",
+      "topic_section": "B · 每篇参考文献提供了什么局限证据",
+      "locator": "§3与§6，PDF第3–6、10页",
+      "url": "https://openreview.net/pdf?id=mzLOnTb3WH#page=10",
+      "zotero_key": "CHA3T87U",
+      "evidence_basis": "targeted method/experiment/limitation passage; authors claims and report inference distinguished in table"
+    },
+    {
+      "paper_id": "M06",
+      "topic_section": "B · 每篇参考文献提供了什么局限证据",
+      "locator": "§III，PDF第4–5页",
+      "url": "https://robopil.github.io/adaptigraph/AdaptiGraph_RSS24.pdf#page=4",
+      "zotero_key": "7LDDTNX6",
+      "evidence_basis": "targeted method/experiment/limitation passage; authors claims and report inference distinguished in table"
+    },
+    {
+      "paper_id": "J05",
+      "topic_section": "B · 每篇参考文献提供了什么局限证据",
+      "locator": "Discussion，PDF第7页",
+      "url": "https://eprints.whiterose.ac.uk/id/eprint/232148/1/s42256-025-01062-2.pdf#page=7",
+      "zotero_key": "ER4J2A65",
+      "evidence_basis": "targeted method/experiment/limitation passage; authors claims and report inference distinguished in table"
+    },
+    {
+      "paper_id": "M12",
+      "topic_section": "B · 每篇参考文献提供了什么局限证据",
+      "locator": "§4，PDF第10页",
+      "url": "https://openreview.net/pdf/899312aa4057cd37a60a334613406d8d111108e8.pdf#page=10",
+      "zotero_key": "S736CDHU",
+      "evidence_basis": "targeted method/experiment/limitation passage; authors claims and report inference distinguished in table"
+    },
+    {
+      "paper_id": "B02",
+      "topic_section": "B · 每篇参考文献提供了什么局限证据",
+      "locator": "§5.2、§6.2及附录A.6，PDF第8–9页起",
+      "url": "https://openreview.net/pdf?id=6bKEWevgSd#page=8",
+      "zotero_key": "MQH8ZITS",
+      "evidence_basis": "targeted method/experiment/limitation passage; authors claims and report inference distinguished in table"
+    },
+    {
+      "paper_id": "B01",
+      "topic_section": "B · 每篇参考文献提供了什么局限证据",
+      "locator": "任务／演示与评估部分，PDF正文",
+      "url": "https://www.roboticsproceedings.org/rss21/p021.pdf#page=1",
+      "zotero_key": "DCE3IRBH",
+      "evidence_basis": "targeted method/experiment/limitation passage; authors claims and report inference distinguished in table"
+    },
+    {
+      "paper_id": "J01",
+      "topic_section": "B · 每篇参考文献提供了什么局限证据",
+      "locator": "表示比较与操作任务，PDF第7–11页",
+      "url": "https://www.jiajunwu.com/papers/dynamicssurvey_scirobot.pdf#page=7",
+      "zotero_key": "M7F3ZM4J",
+      "evidence_basis": "targeted method/experiment/limitation passage; authors claims and report inference distinguished in table"
+    },
+    {
+      "paper_id": "M01",
+      "topic_section": "C · 每篇参考文献提供了什么局限证据",
+      "locator": "§3、规划超参数附录",
+      "url": "https://proceedings.iclr.cc/paper_files/paper/2024/file/cf73d57b6dcda32b293df7c2d5341f49-Paper-Conference.pdf#page=3",
+      "zotero_key": "GS3RGXBH",
+      "evidence_basis": "targeted method/experiment/limitation passage; authors claims and report inference distinguished in table"
+    },
+    {
+      "paper_id": "M02",
+      "topic_section": "C · 每篇参考文献提供了什么局限证据",
+      "locator": "§5.1、§6，PDF第8–10页",
+      "url": "https://proceedings.iclr.cc/paper_files/paper/2025/file/8636419dea1aa9fbd25fc4248e702da4-Paper-Conference.pdf#page=10",
+      "zotero_key": "MQMV9ILJ",
+      "evidence_basis": "targeted method/experiment/limitation passage; authors claims and report inference distinguished in table"
+    },
+    {
+      "paper_id": "M05",
+      "topic_section": "C · 每篇参考文献提供了什么局限证据",
+      "locator": "§3、表1–3，PDF第3、5–7页",
+      "url": "https://openreview.net/pdf/24fe46f6c8fd3b542798b4a83189990353b83a26.pdf#page=5",
+      "zotero_key": "5J8IRZPL",
+      "evidence_basis": "targeted method/experiment/limitation passage; authors claims and report inference distinguished in table"
+    },
+    {
+      "paper_id": "M11",
+      "topic_section": "C · 每篇参考文献提供了什么局限证据",
+      "locator": "§7与附录G，PDF第8页起",
+      "url": "https://raw.githubusercontent.com/mlresearch/v270/main/assets/nakamoto25a/nakamoto25a.pdf#page=8",
+      "zotero_key": "9P9LBZYZ",
+      "evidence_basis": "targeted method/experiment/limitation passage; authors claims and report inference distinguished in table"
+    },
+    {
+      "paper_id": "M04",
+      "topic_section": "C · 每篇参考文献提供了什么局限证据",
+      "locator": "§3及局限，PDF第3–5、9页",
+      "url": "https://raw.githubusercontent.com/mlresearch/v267/main/assets/zhou25t/zhou25t.pdf#page=9",
+      "zotero_key": "I7TNE4HZ",
+      "evidence_basis": "targeted method/experiment/limitation passage; authors claims and report inference distinguished in table"
+    },
+    {
+      "paper_id": "M03",
+      "topic_section": "C · 每篇参考文献提供了什么局限证据",
+      "locator": "§6，PDF第10页",
+      "url": "https://openreview.net/pdf?id=mzLOnTb3WH#page=10",
+      "zotero_key": "CHA3T87U",
+      "evidence_basis": "targeted method/experiment/limitation passage; authors claims and report inference distinguished in table"
+    },
+    {
+      "paper_id": "M12",
+      "topic_section": "C · 每篇参考文献提供了什么局限证据",
+      "locator": "§4，PDF第10页",
+      "url": "https://openreview.net/pdf/899312aa4057cd37a60a334613406d8d111108e8.pdf#page=10",
+      "zotero_key": "S736CDHU",
+      "evidence_basis": "targeted method/experiment/limitation passage; authors claims and report inference distinguished in table"
+    },
+    {
+      "paper_id": "J04",
+      "topic_section": "C · 每篇参考文献提供了什么局限证据",
+      "locator": "VLA形式比较及限制，PDF第9、15页",
+      "url": "https://www.nature.com/articles/s42256-025-01168-7.pdf#page=15",
+      "zotero_key": "J8HQYI7I",
+      "evidence_basis": "targeted method/experiment/limitation passage; authors claims and report inference distinguished in table"
+    },
+    {
+      "paper_id": "J03",
+      "topic_section": "D · 每篇参考文献提供了什么局限证据",
+      "locator": "World model learning，PDF第2页",
+      "url": "https://www.nature.com/articles/s41586-025-08744-2.pdf#page=2",
+      "zotero_key": "K5HMGYP3",
+      "evidence_basis": "targeted method/experiment/limitation passage; authors claims and report inference distinguished in table"
+    },
+    {
+      "paper_id": "M01",
+      "topic_section": "D · 每篇参考文献提供了什么局限证据",
+      "locator": "§3，PDF第3–4页",
+      "url": "https://proceedings.iclr.cc/paper_files/paper/2024/file/cf73d57b6dcda32b293df7c2d5341f49-Paper-Conference.pdf#page=3",
+      "zotero_key": "GS3RGXBH",
+      "evidence_basis": "targeted method/experiment/limitation passage; authors claims and report inference distinguished in table"
+    },
+    {
+      "paper_id": "M07",
+      "topic_section": "D · 每篇参考文献提供了什么局限证据",
+      "locator": "式1与§IV-C，PDF第3–5页",
+      "url": "https://arxiv.org/pdf/2603.15759v2#page=4",
+      "zotero_key": "46C3QL34",
+      "evidence_basis": "targeted method/experiment/limitation passage; authors claims and report inference distinguished in table"
+    },
+    {
+      "paper_id": "M09",
+      "topic_section": "D · 每篇参考文献提供了什么局限证据",
+      "locator": "§6，PDF第9页",
+      "url": "https://raw.githubusercontent.com/mlresearch/v305/main/assets/huang25a/huang25a.pdf#page=9",
+      "zotero_key": "2DNWAUC2",
+      "evidence_basis": "targeted method/experiment/limitation passage; authors claims and report inference distinguished in table"
+    },
+    {
+      "paper_id": "M10",
+      "topic_section": "D · 每篇参考文献提供了什么局限证据",
+      "locator": "§III-C、§VII，作者HTML",
+      "url": "https://arxiv.org/html/2504.02792v1#S7",
+      "zotero_key": "94DHLM7Z",
+      "evidence_basis": "targeted method/experiment/limitation passage; authors claims and report inference distinguished in table"
+    },
+    {
+      "paper_id": "B07",
+      "topic_section": "D · 每篇参考文献提供了什么局限证据",
+      "locator": "§5，PDF第8–9页",
+      "url": "https://raw.githubusercontent.com/mlresearch/v270/main/assets/kim25c/kim25c.pdf#page=8",
+      "zotero_key": "XCCCEQKG",
+      "evidence_basis": "targeted method/experiment/limitation passage; authors claims and report inference distinguished in table"
+    },
+    {
+      "paper_id": "J02",
+      "topic_section": "D · 每篇参考文献提供了什么局限证据",
+      "locator": "§6.1、§6.3，PDF第23–24页",
+      "url": "https://fi.ee.tsinghua.edu.cn/~dingjingtao/papers/3746449.pdf#page=23",
+      "zotero_key": "VRWNZP2U",
+      "evidence_basis": "targeted method/experiment/limitation passage; authors claims and report inference distinguished in table"
+    },
+    {
+      "paper_id": "B06",
+      "topic_section": "D · 每篇参考文献提供了什么局限证据",
+      "locator": "机器人平台与数据收集，PDF第3–5页",
+      "url": "https://www.roboticsproceedings.org/rss20/p120.pdf#page=4",
+      "zotero_key": "N2C4RB5P",
+      "evidence_basis": "targeted method/experiment/limitation passage; authors claims and report inference distinguished in table"
+    },
+    {
+      "paper_id": "B02",
+      "topic_section": "E · 每篇参考文献提供了什么局限证据",
+      "locator": "§5.2–6及附录，PDF第8–10页",
+      "url": "https://openreview.net/pdf?id=6bKEWevgSd#page=8",
+      "zotero_key": "MQH8ZITS",
+      "evidence_basis": "targeted method/experiment/limitation passage; authors claims and report inference distinguished in table"
+    },
+    {
+      "paper_id": "B03",
+      "topic_section": "E · 每篇参考文献提供了什么局限证据",
+      "locator": "§IV，PDF第7页",
+      "url": "https://robocasa.ai/assets/robocasa_rss24.pdf#page=7",
+      "zotero_key": "L93D9XEV",
+      "evidence_basis": "targeted method/experiment/limitation passage; authors claims and report inference distinguished in table"
+    },
+    {
+      "paper_id": "B08",
+      "topic_section": "E · 每篇参考文献提供了什么局限证据",
+      "locator": "§4与附录，PDF第9–10、23页",
+      "url": "https://robocasa.ai/assets/robocasa365_iclr26.pdf#page=23",
+      "zotero_key": "C27AT866",
+      "evidence_basis": "targeted method/experiment/limitation passage; authors claims and report inference distinguished in table"
+    },
+    {
+      "paper_id": "M08",
+      "topic_section": "E · 每篇参考文献提供了什么局限证据",
+      "locator": "§7，PDF第9页",
+      "url": "https://raw.githubusercontent.com/mlresearch/v305/main/assets/chandra25a/chandra25a.pdf#page=9",
+      "zotero_key": "5BQ83JP7",
+      "evidence_basis": "targeted method/experiment/limitation passage; authors claims and report inference distinguished in table"
+    },
+    {
+      "paper_id": "M09",
+      "topic_section": "E · 每篇参考文献提供了什么局限证据",
+      "locator": "§4与§6，PDF第5、9页",
+      "url": "https://raw.githubusercontent.com/mlresearch/v305/main/assets/huang25a/huang25a.pdf#page=9",
+      "zotero_key": "2DNWAUC2",
+      "evidence_basis": "targeted method/experiment/limitation passage; authors claims and report inference distinguished in table"
+    },
+    {
+      "paper_id": "M10",
+      "topic_section": "E · 每篇参考文献提供了什么局限证据",
+      "locator": "§III、§VII，作者HTML",
+      "url": "https://arxiv.org/html/2504.02792v1#S7",
+      "zotero_key": "94DHLM7Z",
+      "evidence_basis": "targeted method/experiment/limitation passage; authors claims and report inference distinguished in table"
+    },
+    {
+      "paper_id": "B04",
+      "topic_section": "E · 每篇参考文献提供了什么局限证据",
+      "locator": "专家生成与随机化，PDF第3–5、9页",
+      "url": "https://arxiv.org/pdf/2506.18088#page=3",
+      "zotero_key": "7ZNQ3QM4",
+      "evidence_basis": "targeted method/experiment/limitation passage; authors claims and report inference distinguished in table"
+    },
+    {
+      "paper_id": "J04",
+      "topic_section": "E · 每篇参考文献提供了什么局限证据",
+      "locator": "方法形式比较，PDF第9、15页",
+      "url": "https://www.nature.com/articles/s42256-025-01168-7.pdf#page=9",
+      "zotero_key": "J8HQYI7I",
+      "evidence_basis": "targeted method/experiment/limitation passage; authors claims and report inference distinguished in table"
+    },
+    {
+      "paper_id": "B06",
+      "topic_section": "E · 每篇参考文献提供了什么局限证据",
+      "locator": "平台与数据协议，PDF第3–5页",
+      "url": "https://www.roboticsproceedings.org/rss20/p120.pdf#page=4",
+      "zotero_key": "N2C4RB5P",
+      "evidence_basis": "targeted method/experiment/limitation passage; authors claims and report inference distinguished in table"
+    }
+  ],
+  "unique_papers": [
+    "B01",
+    "B02",
+    "B03",
+    "B04",
+    "B05",
+    "B06",
+    "B07",
+    "B08",
+    "J01",
+    "J02",
+    "J03",
+    "J04",
+    "J05",
+    "J06",
+    "M01",
+    "M02",
+    "M03",
+    "M04",
+    "M05",
+    "M06",
+    "M07",
+    "M08",
+    "M09",
+    "M10",
+    "M11",
+    "M12"
+  ],
+  "topic_count": 5,
+  "challenge_count": 15,
+  "method_count": 15,
+  "source_sha256": "0fcb9657d4ee3be3305dd5eecfca08d8d4360ba859d744fc051e05debe977c56",
+  "local_pdf_extraction": "Local working copies only; not a publication artifact",
+  "online_cross_checks": [
+    "https://www.roboticsproceedings.org/rss22/p017.html",
+    "https://proceedings.mlr.press/v305/chandra25a.html",
+    "https://proceedings.iclr.cc/paper_files/paper/2026/hash/6179c61e70d961ddfd441ac329278c9d-Abstract-Conference.html",
+    "https://openreview.net/pdf/24fe46f6c8fd3b542798b4a83189990353b83a26.pdf",
+    "https://arxiv.org/html/2504.02792v1#S7"
+  ]
+}

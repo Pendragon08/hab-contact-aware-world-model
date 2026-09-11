@@ -7,8 +7,8 @@
 
 <meta name="generator" content="ARIS render-html (academic, v1)">
 <meta name="aris:source-path" content="世界模型与机器人操作_高水平文献与可执行课题报告.md">
-<meta name="aris:source-sha256" content="24d67010ddf15359cc003b62abf8ec8336019ba4d8b0f9f817c796061f2a03c6">
-<meta name="aris:generated-at" content="2026-09-11 09:37 UTC">
+<meta name="aris:source-sha256" content="0fcb9657d4ee3be3305dd5eecfca08d8d4360ba859d744fc051e05debe977c56">
+<meta name="aris:generated-at" content="2026-09-11 11:23 UTC">
 
 <!-- offline mode: MathJax + highlight.js skipped; math and code blocks render as plain text -->
 
@@ -318,6 +318,7 @@ main summary{padding:18px 22px;cursor:pointer;color:#174e66;font-size:17px;font-
 main summary::marker{color:#98642b}main details[open] summary{border-bottom:1px solid #d5dddc}
 main details>p{margin:18px 24px;font-size:16px}main details strong{color:#244d59}
 main blockquote{border-radius:8px;padding:17px 23px}main>h1{font-size:28px}
+main .research-chain{margin:28px 0;padding:16px;border:1px solid #d5dddc;border-radius:12px;background:#fffefa}main .research-chain svg{display:block;width:100%;height:auto}main figcaption{font-size:14px;color:#4d636b;line-height:1.6;margin-top:10px}
 @media(max-width:1000px){.layout{display:block;padding:24px}nav.toc{position:static;max-height:none;border-right:0;border-bottom:1px solid #d5dddc;padding-bottom:22px;margin-bottom:24px}nav.toc ol{columns:2;column-gap:30px}nav.toc li{break-inside:avoid}}
 @media(max-width:600px){body{font-size:16px}.layout{padding:16px}header.hero h1{font-size:27px}header.hero .subtitle{font-size:16px}nav.toc ol{columns:1}main h2{font-size:24px}main details>p{margin:15px}main summary{padding:15px;font-size:16px}.table-scroll table{font-size:14px}.table-scroll td{padding:10px}}
 @media print{nav.toc{display:none}.layout{display:block;max-width:none;padding:0}body{font-size:11pt}.table-scroll{overflow:visible;border:0}.table-scroll table{min-width:0;font-size:9pt}main h2{break-before:page}main details{break-inside:avoid}header.hero h1{font-size:24pt}}
@@ -338,37 +339,56 @@ main blockquote{border-radius:8px;padding:17px 23px}main>h1{font-size:28px}
 </li>
 <li><a href="#04--五个候选课题任务已经具体到名称">04 · 五个候选课题：任务已经具体到名称</a>
 </li>
-<li><a href="#05--相关工作已经做了什么贡献应落在哪里">05 · 相关工作已经做了什么，贡献应落在哪里</a>
+<li><a href="#05--从文献局限到课题先把证据分清">05 · 从文献局限到课题：先把证据分清</a>
 </li>
-<li><a href="#06--方向a一套可以开始验证的方案">06 · 方向A：一套可以开始验证的方案</a>
+<li><a href="#06--课题a观测异常与动力学变化下的可靠适应">06 · 课题A：观测异常与动力学变化下的可靠适应</a>
 <ul>
-<li><a href="#第一步先建立可控诊断不急着加网络">第一步：先建立可控诊断，不急着加网络</a></li>
-<li><a href="#第二步比较最小必要基线">第二步：比较最小必要基线</a></li>
-<li><a href="#第三步拟实现的模型与训练过程">第三步：拟实现的模型与训练过程</a></li>
-<li><a href="#第四步什么结果才能支持贡献">第四步：什么结果才能支持贡献</a></li>
+<li><a href="#a--每篇参考文献提供了什么局限证据">A · 每篇参考文献提供了什么局限证据</a></li>
+<li><a href="#a--凝练出的三个挑战">A · 凝练出的三个挑战</a></li>
+<li><a href="#a--三个挑战对应的解决方法与拟贡献">A · 三个挑战对应的解决方法与拟贡献</a></li>
 </ul>
 </li>
-<li><a href="#07--方向b与c两个更聚焦的备选">07 · 方向B与C：两个更聚焦的备选</a>
+<li><a href="#07--课题b接触切换与稳定完成">07 · 课题B：接触切换与稳定完成</a>
 <ul>
-<li><a href="#b接触切换预测与稳定操作">B：接触切换预测与稳定操作</a></li>
-<li><a href="#c相同计算预算下把规划用在需要的状态">C：相同计算预算下，把规划用在需要的状态</a></li>
+<li><a href="#b--每篇参考文献提供了什么局限证据">B · 每篇参考文献提供了什么局限证据</a></li>
+<li><a href="#b--三个挑战与三个对应方法">B · 三个挑战与三个对应方法</a></li>
 </ul>
 </li>
-<li><a href="#08--仿真数据和benchmark入口">08 · 仿真、数据和benchmark入口</a>
+<li><a href="#08--课题c相同计算预算下何时值得继续规划">08 · 课题C：相同计算预算下，何时值得继续规划</a>
+<ul>
+<li><a href="#c--每篇参考文献提供了什么局限证据">C · 每篇参考文献提供了什么局限证据</a></li>
+<li><a href="#c--三个挑战与三个对应方法">C · 三个挑战与三个对应方法</a></li>
+</ul>
 </li>
-<li><a href="#09--如何证明有效先锁定评估口径">09 · 如何证明有效：先锁定评估口径</a>
+<li><a href="#09--课题d观测缺失下记住什么与何时重新确认">09 · 课题D：观测缺失下，记住什么与何时重新确认</a>
+<ul>
+<li><a href="#d--每篇参考文献提供了什么局限证据">D · 每篇参考文献提供了什么局限证据</a></li>
+<li><a href="#d--三个挑战与三个对应方法">D · 三个挑战与三个对应方法</a></li>
+</ul>
 </li>
-<li><a href="#10--双a6000如何安排首阶段交付什么">10 · 双A6000如何安排，首阶段交付什么</a>
+<li><a href="#10--课题e下一技能接不上时的阶段恢复">10 · 课题E：下一技能接不上时的阶段恢复</a>
+<ul>
+<li><a href="#e--每篇参考文献提供了什么局限证据">E · 每篇参考文献提供了什么局限证据</a></li>
+<li><a href="#e--三个挑战与三个对应方法">E · 三个挑战与三个对应方法</a></li>
+</ul>
 </li>
-<li><a href="#11--六篇jcr-q1期刊论文">11 · 六篇JCR Q1期刊论文</a>
+<li><a href="#11--五个课题如何选先用实验确认问题再承诺贡献">11 · 五个课题如何选：先用实验确认问题，再承诺贡献</a>
 </li>
-<li><a href="#12--十二篇顶会方法与闭环评测论文">12 · 十二篇顶会方法与闭环评测论文</a>
+<li><a href="#12--仿真数据和benchmark入口">12 · 仿真、数据和benchmark入口</a>
 </li>
-<li><a href="#13--八篇顶会平台数据与策略论文">13 · 八篇顶会平台、数据与策略论文</a>
+<li><a href="#13--如何证明有效先锁定评估口径">13 · 如何证明有效：先锁定评估口径</a>
 </li>
-<li><a href="#14--zotero管理与overleaf引用">14 · Zotero管理与Overleaf引用</a>
+<li><a href="#14--双a6000如何安排首阶段交付什么">14 · 双A6000如何安排，首阶段交付什么</a>
 </li>
-<li><a href="#15--阅读深度版本边界与可复现记录">15 · 阅读深度、版本边界与可复现记录</a>
+<li><a href="#15--六篇jcr-q1期刊论文">15 · 六篇JCR Q1期刊论文</a>
+</li>
+<li><a href="#16--十二篇顶会方法与闭环评测论文">16 · 十二篇顶会方法与闭环评测论文</a>
+</li>
+<li><a href="#17--八篇顶会平台数据与策略论文">17 · 八篇顶会平台、数据与策略论文</a>
+</li>
+<li><a href="#18--zotero管理与overleaf引用">18 · Zotero管理与Overleaf引用</a>
+</li>
+<li><a href="#19--阅读深度版本边界与可复现记录">19 · 阅读深度、版本边界与可复现记录</a>
 </li>
 </ol>
 </nav>
@@ -377,20 +397,20 @@ main blockquote{border-radius:8px;padding:17px 23px}main>h1{font-size:28px}
 <header class="hero">
   <div class="eyebrow">开题准备 · 2026年9月11日</div>
   <h1>世界模型与机器人操作｜高水平文献与可执行课题</h1>
-  <p class="subtitle">26篇正式论文 · 5个候选方向 · 具体任务与数据 · Zotero阅读卡</p>
+  <p class="subtitle">26篇正式论文 · 逐篇局限证据 · 5个课题 × 3项挑战与对应方法</p>
 
   <div class="meta">
     <span><strong>Source:</strong> <code>世界模型与机器人操作_高水平文献与可执行课题报告.md</code></span>
-    <span><strong>SHA256:</strong> <code>24d67010ddf1</code></span>
-    <span><strong>Rendered:</strong> 2026-09-11 09:37 UTC</span>
+    <span><strong>SHA256:</strong> <code>0fcb9657d4ee</code></span>
+    <span><strong>Rendered:</strong> 2026-09-11 11:23 UTC</span>
 
   </div>
 </header>
 
 <h1 id="世界模型与机器人操作高水平文献与可执行课题">世界模型与机器人操作：高水平文献与可执行课题</h1>
 <p><strong>用途：与老师讨论开题方向。检索与资源核验日期：2026年9月11日。</strong> 本报告不把选题限定为动作后果排序，而是寻找能在现有仿真、代码和双 RTX A6000 条件下验证的研究问题。</p>
-<p>核心文献为 <strong>26篇2024—2026年正式发表论文：6篇JCR Q1期刊论文、20篇顶会论文</strong>。其中2篇综述用于建立研究框架，其余24篇提供方法、数据、策略或基准依据。各篇均有“问题—贡献—方法—平台任务—指标—局限”阅读卡；文献数量不代表已逐页精读全部论文。</p>
-<div class="callout callout-info"><div class="callout-title">Tip</div><p>建议优先讨论：<strong>有限交互预算下，区分观测异常与动力学变化的世界模型可靠适应</strong>。先在已有ManiSkill2任务上判断问题是否真实存在，再决定是否作为开题主线。“接触阶段建模”和“规划计算预算”是两条可独立选择的备选。</p></div>
+<p>核心文献为 <strong>26篇2024—2026年正式发表论文：6篇JCR Q1期刊论文、20篇顶会论文</strong>。其中2篇综述用于建立研究框架，其余24篇提供方法、数据、策略或基准依据。各篇均有“问题—贡献—方法—平台任务—指标—局限”阅读卡；五个课题另有逐篇证据表，形成15项挑战与对应方法。文献数量不代表已逐页精读全部论文。</p>
+<div class="callout callout-info"><div class="callout-title">Tip</div><p>建议优先讨论：<strong>有限交互预算下，区分观测异常与动力学变化的世界模型可靠适应</strong>。先在已有ManiSkill2任务上判断问题是否真实存在，再决定是否作为开题主线。请优先阅读第05—11节的证据链与候选方案。“接触阶段建模”和“规划计算预算”是两条可独立选择的备选。</p></div>
 <h2 id="01--先明确这是怎样的研究方向">01 · 先明确：这是怎样的研究方向</h2>
 <p>这是<strong>世界模型＋具身智能／模型式强化学习与机器人控制</strong>方向。世界模型学习“机器人在当前状态执行某动作后，环境会怎样变化”；规划器再利用这些预测选择动作。研究对象可以是预测模型、模型适应、规划效率或闭环评估，不必限定为动作排序。</p>
 <p>对本项目，实用场景可表述为：<strong>机械臂在抓取、抬起、搬运和堆叠物体时，面对物体质量、摩擦或观测变化，如何保持可靠控制。</strong> PickCube是验证基本抓取的受控任务，StackCube补充放置与松手条件；它们是仓储操作的基础能力实验，还不是完整仓储系统。</p>
@@ -405,53 +425,89 @@ main blockquote{border-radius:8px;padding:17px 23px}main>h1{font-size:28px}
 <div class="table-scroll" tabindex="0"><table><thead><tr><th>阅读顺序</th><th>文献</th><th>阅读时要回答的问题</th></tr></thead><tbody><tr><td>1</td><td>J01 操作动力学综述；J02 世界模型综合综述</td><td>世界模型有哪些表示？我的研究是预测、适应还是控制？</td></tr><tr><td>2</td><td>M01 TD-MPC2；J03 DreamerV3</td><td>模型如何参与规划或策略训练？真实环境指标如何计算？</td></tr><tr><td>3</td><td>M07 SimDist；M08 DiWA；J06 FLAIR</td><td>在线适应、冻结模型和恢复已做到哪一步？</td></tr><tr><td>4</td><td>M03 WIMLE；M06 AdaptiGraph；J05 预测防滑</td><td>不确定性、物理参数和接触变化已有何种解决办法？</td></tr><tr><td>5</td><td>M02 BMPC；M04 DINO-WM；M05 Sparse Imagination；M11 V-GPS；M12 World-In-World</td><td>是模型真的更好，还是策略、搜索或计算预算更强？</td></tr><tr><td>6</td><td>B01/B02/B03/B08平台论文；M09/M10视觉模型</td><td>最终用哪个环境、任务、数据和测试协议？</td></tr></tbody></table></div>
 <p>下面的J、M、B编号均对应后文可展开的文献卡和Zotero条目；不是要求一次复现26篇。<strong>一条课题主线通常先实现2—4个必要对照，再按实验信号扩展。</strong></p>
 <h2 id="04--五个候选课题任务已经具体到名称">04 · 五个候选课题：任务已经具体到名称</h2>
-<div class="table-scroll" tabindex="0"><table><thead><tr><th>候选方向</th><th>可汇报的暂定题目</th><th>第一组任务</th><th>主基线与直接近邻</th><th>启动判断</th></tr></thead><tbody><tr><td>A · 优先讨论</td><td>有限交互预算下世界模型的可靠动力学适应</td><td>ManiSkill2 <code>PickCube-v0</code>、<code>LiftCube-v0</code>；通过后扩展<code>StackCube-v0</code></td><td>TD-MPC2；SimDist；DiWA；WIMLE；FLAIR</td><td>最能复用当前代码；先证明误更新问题存在</td></tr><tr><td>B · 接触稳定性</td><td>面向接触切换的世界模型预测与稳定操作</td><td>ManiSkill2 <code>PickCube-v0</code>、<code>StackCube-v0</code></td><td>TD-MPC2；AdaptiGraph；WIMLE；预测式防滑控制</td><td>最直观的机械臂demo；需要接触事件分析</td></tr><tr><td>C · 规划效率</td><td>面向实时控制预算的自适应世界模型规划</td><td>Meta-World V2 PickPlace；ManiSkill2 PickCube；DMC Walker Walk</td><td>TD-MPC2；BMPC；Sparse Imagination；V-GPS</td><td>实现较轻；严格比较相同延迟与模型调用量</td></tr><tr><td>D · 观测缺失</td><td>面向部分可观测操作的历史条件世界模型</td><td>Meta-World V2 PickPlace、DrawerOpen；ManiSkill2 PickCube</td><td>TD-MPC2＋历史堆叠；DreamerV3；SimDist</td><td>中等难度；不能把加记忆网络本身算创新</td></tr><tr><td>E · 多阶段任务</td><td>面向阶段衔接失败的世界模型辅助技能恢复</td><td>RoboCasa <code>OpenDrawer</code>、<code>PickPlaceCounterToCabinet</code>；后续HAB Pick→Place</td><td>RoboCasa／RoboCasa365；DiWA；LaDi-WM；UWM；MS-HAB</td><td>实用但工程成本高；先保证每个单技能可用</td></tr></tbody></table></div>
+<div class="table-scroll" tabindex="0"><table><thead><tr><th>候选方向</th><th>可汇报的暂定题目</th><th>第一组任务</th><th>主基线与直接近邻</th><th>启动判断</th></tr></thead><tbody><tr><td>A · 优先讨论</td><td>有限交互预算下世界模型的可靠动力学适应</td><td>ManiSkill2 <code>PickCube-v0</code>、<code>LiftCube-v0</code>；通过后扩展<code>StackCube-v0</code></td><td>TD-MPC2；SimDist；DiWA；WIMLE；FLAIR</td><td>最能复用当前代码；先证明误更新问题存在</td></tr><tr><td>B · 接触稳定性</td><td>面向接触切换的世界模型预测与稳定操作</td><td>ManiSkill2 <code>PickCube-v0</code>、<code>StackCube-v0</code></td><td>TD-MPC2；AdaptiGraph；WIMLE；预测式防滑控制</td><td>最直观的机械臂demo；需要接触事件分析</td></tr><tr><td>C · 规划效率</td><td>面向实时控制预算的自适应世界模型规划</td><td>Meta-World V2 PickPlace；ManiSkill2 PickCube；DMC Walker Walk</td><td>TD-MPC2；BMPC；Sparse Imagination；V-GPS</td><td>实现较轻；严格比较相同延迟与模型调用量</td></tr><tr><td>D · 观测缺失</td><td>面向部分可观测操作的历史条件世界模型</td><td>Meta-World V2 PickPlace、DrawerOpen；ManiSkill2 PickCube</td><td>TD-MPC2＋历史堆叠；DreamerV3；SimDist</td><td>中等难度；不能把加记忆网络本身算创新</td></tr><tr><td>E · 多阶段任务</td><td>面向阶段衔接失败的世界模型辅助技能恢复</td><td>MS-HAB 单物体Pick→Place（先验证技能）；RoboCasa <code>OpenDrawer</code>、<code>PickPlaceCounterToCabinet</code>作扩展</td><td>RoboCasa／RoboCasa365；DiWA；LaDi-WM；UWM；MS-HAB</td><td>实用但工程成本高；先保证每个单技能可用</td></tr></tbody></table></div>
 <p><strong>优先级依据是当前可实施性，不是对最终发表潜力的保证。</strong> A、B、C可以独立开题，不必同时组合；D可与A共享诊断工具，但不宜一开始把观测、物理适应和长任务全部塞进同一模型。E作为后续扩展更稳妥。</p>
-<h2 id="05--相关工作已经做了什么贡献应落在哪里">05 · 相关工作已经做了什么，贡献应落在哪里</h2>
-<div class="table-scroll" tabindex="0"><table><thead><tr><th>已有工作与证据</th><th>已被研究过的做法</th><th>尚需在本项目验证的问题</th><th>可检验的候选贡献</th></tr></thead><tbody><tr><td><a href="https://www.roboticsproceedings.org/rss22/p017.html">SimDist，RSS 2026</a>；<a href="https://proceedings.mlr.press/v305/chandra25a.html">DiWA，CoRL 2025</a>；<a href="https://doi.org/10.1038/s41467-026-70256-y">FLAIR，2026</a></td><td>冻结部分网络、微调动力学、在线恢复、使用失败与恢复数据，都已有研究</td><td>观测噪声也会增大预测残差；盲目当成物理变化去更新，是否反而损坏模型？</td><td>识别“允许更新／暂缓更新”的条件，在等量交互下减少有害适应；这是研究假设，尚未证明</td></tr><tr><td><a href="https://proceedings.iclr.cc/paper_files/paper/2026/hash/6179c61e70d961ddfd441ac329278c9d-Abstract-Conference.html">WIMLE，ICLR 2026</a>；<a href="https://www.roboticsproceedings.org/rss20/p010.html">AdaptiGraph，RSS 2024</a></td><td>多模态动力学、不确定性建模、交互辨识物理参数均已有实现</td><td>高误差是否集中在接触建立、失稳、释放等少数阶段？减少这类误差能否改善最终任务结果？</td><td>阶段条件后果预测与针对关键转换的数据选择，并用相同额外标签、参数量和更新量对照验证</td></tr><tr><td><a href="https://proceedings.iclr.cc/paper_files/paper/2025/hash/8636419dea1aa9fbd25fc4248e702da4-Abstract-Conference.html">BMPC，ICLR 2025</a>；<a href="https://proceedings.iclr.cc/paper_files/paper/2026/hash/a750d52284ff70c6d6bab8072c392d74-Abstract-Conference.html">Sparse Imagination，ICLR 2026</a></td><td>策略模仿规划器、视觉token稀疏化、减少规划成本已有工作</td><td>哪些状态值得多规划？仅在危险阶段增加搜索，能否改善相同平均延迟下的成功率？</td><td>有明确触发依据的预算分配；需要优于固定预算及简单定时规则，不能仅宣称“少采样更快”</td></tr><tr><td><a href="https://doi.org/10.1038/s41586-025-08744-2">DreamerV3，Nature 2025</a>；SimDist</td><td>循环状态、历史编码和分块动作预测已经存在</td><td>隐藏速度、短时观测丢失与真实物理变化，是否需要不同记忆和更新策略？</td><td>在可观测性可控的任务协议上验证历史摘要的作用，贡献须超越简单GRU或堆叠帧</td></tr><tr><td><a href="https://proceedings.mlr.press/v305/huang25a.html">LaDi-WM</a>；<a href="https://www.roboticsproceedings.org/rss21/p015.html">UWM</a>；<a href="https://proceedings.iclr.cc/paper_files/paper/2026/hash/a05003fdb1e9562ab0c0a9719ea4de10-Abstract-Conference.html">RoboCasa365</a></td><td>未来视觉预测、动作视频联合建模和复合任务基准均已建立</td><td>单技能看似成功，是否因结束状态不适合下一技能而导致整链失败？</td><td>以“下一技能可继续执行”为目标的阶段交接诊断与恢复，先固定低层技能，避免混淆策略训练收益</td></tr></tbody></table></div>
-<p>这些空白是<strong>基于所读论文提出的研究切口</strong>，不是“全世界没有人做过”的证明。特别是A：DiWA已经讨论少量在线纠正，SimDist已经微调潜动力学，因此“加一个适配模块”不能作为独立创新点。进一步立项前，应围绕选定问题补做定向查新并阅读最相近全文。</p>
-<h2 id="06--方向a一套可以开始验证的方案">06 · 方向A：一套可以开始验证的方案</h2>
-<p><strong>研究问题：遇到预测错误，模型是不是一定应该更新？</strong> 例如机械臂夹着方块搬运，看到的位置突然偏了一点：可能是方块变重／打滑，也可能只是相机观测抖动。两种情况都可能产生大预测误差，但合理处理方式不同。</p>
-<p>暂定假设：在有限交互预算内，结合短历史一致性与模型预测可信度，决定哪些新片段用于动力学适应，能够减少观测异常导致的错误更新；在真正动力学变化时保留适应收益。<strong>从有限观测并不总能区分原因；不确定时允许拒绝更新，不能承诺完全识别物理参数。</strong></p>
-<h3 id="第一步先建立可控诊断不急着加网络">第一步：先建立可控诊断，不急着加网络</h3>
-<p>选择同一份冻结TD-MPC2检查点，在同一组初始状态上测四类条件：正常、仅观测扰动、仅物理参数变化、二者同时出现。先从<code>PickCube-v0</code>开始，保存真实观测、模型预测、动作、奖励、接触／抓取事件和原生成功标志。</p>
-<p>扰动参数是<strong>拟定实验变量</strong>，不是已经验证的标准benchmark：可先设质量倍率0.8/1.0/1.2、摩擦倍率0.7/1.0/1.3，测试取训练范围内未见组合与范围外条件；观测噪声以训练状态标准差为尺度，短时丢失用1—3次控制决策。正式使用前检查初态可达、碰撞稳定、奖励和成功逻辑未变。</p>
-<p>平台配置中的真实质量、摩擦和扰动标签只用于构造实验、分析与可选训练监督；<strong>测试时不给模型“发生了哪种扰动”的答案</strong>。完整真实状态只用于记录和oracle上界，不进入受遮挡策略的输入。</p>
-<h3 id="第二步比较最小必要基线">第二步：比较最小必要基线</h3>
-<div class="table-scroll" tabindex="0"><table><thead><tr><th>基线</th><th>用来排除的解释</th></tr></thead><tbody><tr><td>冻结TD-MPC2</td><td>不适应时到底差在哪里</td></tr><tr><td>相同数据预算的持续动力学微调</td><td>改善是否只是多更新了几次</td></tr><tr><td>动力学随机化训练的TD-MPC2</td><td>是否普通域随机化已足够</td></tr><tr><td>只增加历史输入，更新规则不变</td><td>收益是否单纯来自更多观测信息</td></tr><tr><td>借鉴SimDist的冻结表征／奖励／价值＋动力学微调</td><td>与最直接2026近邻保持方法上的对照；这是在ManiSkill的迁移实现，不冒充作者原任务复现</td></tr><tr><td>只在诊断可信时更新的候选方法</td><td>是否减少噪声条件下的误更新，并保持物理变化适应收益</td></tr></tbody></table></div>
-<p>第一轮只做前两项与四类条件。<strong>只有发现“盲目更新有害且可检测”的信号，才实施更新门控。</strong> 如果一直更新已经同样好，A的核心动机就不足，应缩小问题或转向B/C。</p>
-<h3 id="第三步拟实现的模型与训练过程">第三步：拟实现的模型与训练过程</h3>
-<p>保持现有TD-MPC2编码器、奖励头、价值头和规划接口，先加小型动力学残差模块。利用最近若干步的预测残差、历史一致性及集成预测分歧估计片段可信度；门控决定更新、降低权重或暂缓更新。候选模型与常规微调使用相同回放数据、额外标签和优化次数。</p>
-<p>执行流程：<strong>读取观测与短历史 → 世界模型预测候选动作后果 → MPC选择动作 → 仿真执行 → 记录新片段 → 判断是否适合更新 → 更新动力学或保留原模型 → 继续控制。</strong> 在线测试若允许适应，所有方法都使用同样的交互权限；每个测试实例重置适应状态，或明确规定连续适应序列。</p>
-<p>适应预算暂定为0、1,000、5,000、10,000次控制决策，另记录action repeat后对应的原生环境步。<strong>这是比较横轴，不是成功所需步数承诺。</strong> 已有基础模型训练成本必须计入总体账本，不把它当成免费数据。</p>
-<h3 id="第四步什么结果才能支持贡献">第四步：什么结果才能支持贡献</h3>
-<p>预先固定主要终点为平台原生成功率；对当前项目再单独报告末步成功率。配套记录成功率随适应步数的曲线、性能下降次数、有害更新比例、恢复所需决策数和每步延迟。模型误差降低只能支持“预测改善”，不能单独支持“控制更好”。</p>
-<p>第一轮使用1个任务、1个基模型种子、每条件20个开发回合定位问题。若信号清晰，再扩展2—3任务、至少3个训练种子、每种条件100个评估初始状态；方法间配对初态，并报告跨种子差异和区间。开发回合用于调试，正式测试种子、参数组合与检查点选择规则应提前锁定。</p>
-<p>正式评估分开两种协议：①适应完成后冻结模型，在保留集测试；②允许测试期更新的持续适应测试。二者单独列分数，不能把在线收集的数据量藏在测试里。只有在相同数据和计算预算下、多个种子中提高任务表现且不显著伤害正常条件，才支持候选方法。</p>
-<p><strong>计划交付物：</strong> 原始逐回合指标、扰动配置、基线与门控对照曲线、预测失真案例，以及同一初态的并排视频。视频显示“原方法怎样失败、候选方法如何恢复”；视频是解释材料，结论仍来自完整测试集。</p>
-<h2 id="07--方向b与c两个更聚焦的备选">07 · 方向B与C：两个更聚焦的备选</h2>
-<h3 id="b接触切换预测与稳定操作">B：接触切换预测与稳定操作</h3>
-<p>具体问题：抓取建立、抬起、失稳和释放时，动力学是否出现普通平均损失难以学好的变化？先在<code>PickCube-v0</code>分析抓取和搬运，再用<code>StackCube-v0</code>验证放置与松手。以J05预测防滑、M03多模态动力学和M06材料建模为依据，但不假装仿真已有同款触觉传感器。</p>
-<p>拟方法：在动作条件动力学之外学习少量接触事件后果，并研究关键转换片段的采样／损失设计；可比较阶段条件模型与统一动力学。所有模型输入、参数量、接触标签使用权限应匹配；不能给新方法额外真实接触状态而不给对照。</p>
-<p>最小对照为原TD-MPC2、仅重采样关键片段、仅辅助接触预测头、完整候选设计。评价包括分阶段预测误差、首次成功与末步成功差距、掉落事件、完成后的稳定持续步数，以及StackCube原生成功率。稳定持续指标是补充诊断，不能替换官方成功条件。</p>
-<p>可汇报贡献应是：<strong>明确关键转换的失败机制，并证明特定建模／数据选择能在等预算下改善最终操作</strong>。如果简单增加关键片段数据就完全解决，贡献应转向数据机制，不能坚持复杂网络有必要。</p>
-<h3 id="c相同计算预算下把规划用在需要的状态">C：相同计算预算下，把规划用在需要的状态</h3>
-<p>具体问题：机械臂接近物体或Walker接近失稳时，是否比平稳阶段更值得增加候选动作或优化轮数？先测现有TD-MPC2在候选数、轮数和预测视界变化下的效果—延迟曲线，再研究基于可信度与任务阶段的预算分配。</p>
-<p>比较固定小预算、固定大预算、定时增加预算、简单事件规则与学习触发策略。<strong>模型调用量、实际GPU延迟和主策略都要匹配</strong>；若候选方法仅依靠更多搜索获胜，不支持预算分配贡献。延迟统计含触发器开销，并报告均值与高分位，而不只报告训练显存。</p>
-<p>低维任务从Meta-World V2 PickPlace、MS2 PickCube和DMC Walker Walk开始。若后续转向视觉模型，再用DINO-WM的PushT／Rope和Sparse Imagination；视觉token稀疏与TD-MPC2动作候选裁剪是两种机制，不能写成相同算法复现。V-GPS可帮助检验纯价值排序是否已经足够，但其现成SIMPLER代码不是可直接替换的MS2基线。</p>
-<h2 id="08--仿真数据和benchmark入口">08 · 仿真、数据和benchmark入口</h2>
+<h2 id="05--从文献局限到课题先把证据分清">05 · 从文献局限到课题：先把证据分清</h2>
+<p>本次重写的重点是把每个课题做成一条完整论证链：<strong>论文解决了什么 → 在什么条件下仍有边界 → 多篇证据共同指向哪三个挑战 → 我们拟改什么 → 用什么实验否定或支持它。</strong> 后面的A—E是五个独立候选方向，每个方向各有三项挑战；不是要求在一篇论文中实现十五项贡献。</p>
+<p>文献表中的“作者明示”指论文明确写出的局限或未来工作；“实验边界”指论文的方法设定或评估范围；“本报告推论”是由这些边界提出、仍需验证的研究假设。<strong>“未在某个任务测试”只能说明证据缺口，不能证明算法在该任务失败；论文提出的未来方向也不能直接当作我们的原创。</strong> 页码均为本地Zotero附件的PDF页序，从1开始，可能不同于印刷页码。M10使用作者arXiv HTML的§VII核对局限。</p>
+<figure class="research-chain">
+<svg viewBox="0 0 1000 220" role="img" aria-label="文献事实经过挑战凝练、方法设计和对照实验，才能支持候选贡献" xmlns="http://www.w3.org/2000/svg">
+<rect x="5" y="40" width="215" height="120" rx="14" fill="#e7f2f5" stroke="#174e66"/>
+<rect x="260" y="40" width="215" height="120" rx="14" fill="#e7f2f5" stroke="#174e66"/>
+<rect x="515" y="40" width="215" height="120" rx="14" fill="#fff1d8" stroke="#98642b"/>
+<rect x="770" y="40" width="225" height="120" rx="14" fill="#e7f2f5" stroke="#174e66"/>
+<path d="M225 100 H248 M240 93 L248 100 L240 107 M480 100 H503 M495 93 L503 100 L495 107 M735 100 H758 M750 93 L758 100 L750 107" fill="none" stroke="#174e66" stroke-width="3"/>
+<g fill="#174e66" font-family="Microsoft YaHei,Arial,sans-serif" text-anchor="middle" font-size="22">
+<text x="112" y="82">逐篇文献证据</text><text x="367" y="82">三个明确挑战</text><text x="622" y="82">三个对应方法</text><text x="882" y="82">可证伪的实验</text>
+</g>
+<g fill="#36474d" font-family="Microsoft YaHei,Arial,sans-serif" text-anchor="middle" font-size="17">
+<text x="112" y="119">原文位置＋适用边界</text><text x="367" y="119">机制＋触发条件</text><text x="622" y="119">改变输入／目标／决策</text><text x="882" y="119">必要基线＋失败条件</text>
+<text x="500" y="202">通过对照验证后，才能把“拟贡献”写成“本文贡献”。</text>
+</g></svg>
+<figcaption>图1　开题论证结构。图中没有实验成绩，箭头表示论证关系。</figcaption>
+</figure>
+<p>有四个容易被误写成创新的点，本次作了明确修正：<strong>FLAIR已经过滤异常数据；SimDist已经使用历史、失败／恢复数据并冻结部分网络；WIMLE已经提出置信度相关的可变想象视界；BMPC已经研究让直接策略模仿规划器。</strong> 因而本报告将创新候选限定到“具体的决策目标、信息条件、验证机制与适用边界”，不再停留于添加一个模块。</p>
+<h2 id="06--课题a观测异常与动力学变化下的可靠适应">06 · 课题A：观测异常与动力学变化下的可靠适应</h2>
+<p><strong>暂定题目：有限交互预算下、面向观测—动力学混合偏移的选择性世界模型适应。</strong> 场景是机械臂抓取搬运时，位置读数突然偏移：可能是观测抖动，也可能是物体变重或接触打滑。大预测残差只能告诉我们“预测不对”，不能单独告诉我们“应该更新哪部分”。</p>
+<h3 id="a--每篇参考文献提供了什么局限证据">A · 每篇参考文献提供了什么局限证据</h3>
+<div class="table-scroll" tabindex="0"><table><thead><tr><th>文献与原文定位</th><th>已有方法已经解决的部分</th><th>具体局限／边界与本课题关系</th><th>对应挑战</th></tr></thead><tbody><tr><td><a href="#M01">M01 TD-MPC2</a> · ICLR 2024 · <a href="https://proceedings.iclr.cc/paper_files/paper/2024/file/cf73d57b6dcda32b293df7c2d5341f49-Paper-Conference.pdf#page=3">§3–4，PDF第3–5页</a></td><td>TD-MPC2联合学习潜动力学、奖励和价值，并用短视界MPC闭环控制。</td><td><strong>实验边界：</strong>原方法不是针对传感异常与物理变化分别设定适应规则。<strong>推论：</strong>需要检验同样大小的残差是否导致不同的更新收益，不能据此声称TD-MPC2遇噪声必然失败。</td><td>A1、A2</td></tr><tr><td><a href="#M07">M07 SimDist</a> · RSS 2026 · <a href="https://arxiv.org/pdf/2603.15759v2#page=9">§IV、§V-E、§VI，PDF第4–5、8–9页</a></td><td>SimDist从仿真蒸馏表征、奖励、价值与动力学，部署时主要更新动力学；已使用历史和失败／恢复数据。</td><td><strong>作者明示：</strong>冻结价值在高表现轨迹上可能失去区分能力，仿真覆盖仍是前提；解冻编码器或价值的消融曾出现性能崩溃。<strong>推论：</strong>少量新数据下，既要防止误更新，也要检查“动力学变好但评分仍失真”的上限。</td><td>A2、A3</td></tr><tr><td><a href="#M08">M08 DiWA</a> · CoRL 2025 · <a href="https://raw.githubusercontent.com/mlresearch/v305/main/assets/chandra25a/chandra25a.pdf#page=9">§7，PDF第9页</a></td><td>DiWA在离线play数据训练的固定世界模型中，用强化学习改进扩散策略。</td><td><strong>作者明示：</strong>策略可能利用冻结模型的错误；想象收益不保证真实环境收益；已建议少量在线交互纠正模型。因而“加在线微调”没有足够区分度，研究应落在何时接受更新及如何验证。</td><td>A2、A3</td></tr><tr><td><a href="#M03">M03 WIMLE</a> · ICLR 2026 · <a href="https://openreview.net/pdf?id=mzLOnTb3WH#page=10">§3.3–3.4、§6，PDF第4–6、10页</a></td><td>WIMLE用集成与潜变量采样估计不确定性，并降低不可靠合成转移的训练权重。</td><td><strong>作者明示：</strong>目前用于合成rollout，未验证模型规划；使用本体状态。<strong>推论：</strong>预测分布的离散程度没有自动区分传感噪声、未知动力学和随机接触，不能直接当作“应更新动力学”的标签。</td><td>A1、A2</td></tr><tr><td><a href="#J06">J06 FLAIR</a> · Nature Communications 2026 · <a href="https://www.nature.com/articles/s41467-026-70256-y.pdf#page=8">Discussion及Methods，PDF第8–9页</a></td><td>FLAIR用全局／局部适应恢复控制，已用多数据点聚合、Soft Outlier Rejection抑制观测噪声。</td><td><strong>作者明示：</strong>极端噪声或传感失败仍会失败；当前主要依赖差速运动假设；非平稳性主要靠重置和过滤处理。<strong>推论：</strong>简单异常过滤已是先行工作，新的门控必须优于同信息条件的稳健过滤，并覆盖“应保留的真实突变”。</td><td>A1、A2</td></tr><tr><td><a href="#M06">M06 AdaptiGraph</a> · RSS 2024 · <a href="https://robopil.github.io/adaptigraph/AdaptiGraph_RSS24.pdf#page=4">§III-B–D，PDF第4–5页；附录第15页</a></td><td>AdaptiGraph在材料条件图动力学中，通过交互估计物理参数，已包含主动辨识；附录还有两个物理参数的实验。</td><td><strong>实验边界：</strong>依赖粒子／几何状态和预设参数族。<strong>推论：</strong>不能从其辨识能力直接推出对任意感知异常都可辨因；也不能把“主动估计参数”本身作为新贡献。</td><td>A1</td></tr><tr><td><a href="#J01">J01 操作动力学综述</a> · Science Robotics 2025 · <a href="https://www.jiajunwu.com/papers/dynamicssurvey_scirobot.pdf#page=7">表示比较与展望，PDF第7、10–12页</a></td><td>综述比较潜变量、像素、粒子和物体表示及控制用途。</td><td><strong>作者总结的挑战：</strong>非结构表示会在域外预测上失真，结构表示依赖可靠状态估计。<strong>推论：</strong>要分开“输入错误”“转移错误”“控制评分错误”，不能只汇报总预测误差。此文是概念依据，不是可运行基线。</td><td>A1、A3</td></tr><tr><td><a href="#B05">B05 SIMPLER</a> · Conference on Robot Learning (CoRL) 2024 · <a href="https://raw.githubusercontent.com/mlresearch/v270/main/assets/li25c/li25c.pdf#page=8">§4–5，PDF第4、8–9页</a></td><td>SIMPLER分析仿真与真实策略表现的相关性，以及视觉、物理差异对评估的影响。</td><td><strong>实验边界：</strong>相关性针对其已测试策略与设置。<strong>推论：</strong>本课题中的仿真适应增益只能支持仿真结论；受控扰动测试也不能自动称为真实部署可靠性。此文是评估依据。</td><td>A3</td></tr></tbody></table></div>
+<h3 id="a--凝练出的三个挑战">A · 凝练出的三个挑战</h3>
+<div class="table-scroll" tabindex="0"><table><thead><tr><th>挑战</th><th>从哪些证据凝练</th><th>可观测的失败机制与边界</th></tr></thead><tbody><tr><td><strong>A1：残差来源混杂，更新对象难以判断。</strong></td><td>M03的不确定性机制、J06的传感失败边界、M06的状态与参数假设、J01的表示权衡</td><td>噪声与物理变化都可能产生大残差；过滤过强会删掉真正突变，过滤过弱会用错误观测训练。单一传感源下有不可辨识情形，必须允许“暂不能判断”。</td></tr><tr><td><strong>A2：少量适应数据容易造成负迁移。</strong></td><td>M07的解冻消融、M08的模型利用、J06已有稳健过滤</td><td>即使辨出异常，连续更新也可能把稳定技能改坏；特别是正常片段少、失败片段集中时。需要回答哪些片段能用于更新、更新多大、何时拒绝部署新参数。</td></tr><tr><td><strong>A3：模型损失改善与闭环控制收益脱节。</strong></td><td>M07冻结价值的性能上限、M08想象—真实不一致、B05评估边界</td><td>下一步误差下降，不代表规划器选出了更好动作；冻结价值失去排序能力时，仅改动力学可能到顶。适应数据和测试数据混用还会造成虚假增益。</td></tr></tbody></table></div>
+<h3 id="a--三个挑战对应的解决方法与拟贡献">A · 三个挑战对应的解决方法与拟贡献</h3>
+<div class="table-scroll" tabindex="0"><table><thead><tr><th>对应关系</th><th>拟实现的方法：输入、计算与输出</th><th>与最近工作的差别；必须做的对照</th><th>支持／否定贡献的证据</th></tr></thead><tbody><tr><td><strong>A1 → 方法A1：可拒判的时序诊断。</strong></td><td>输入最近8个决策步的观测、执行动作、缺失标记、残差方向及模型分歧。训练一个小型诊断器，输出“观测异常／动力学变化／混合／证据不足”概率。监督来自训练仿真的独立扰动因子；测试不给扰动标签，并加入同幅值残差与未见噪声。</td><td>不以残差大直接触发更新；核心候选是对不可辨因片段拒判，并测它对适应的实际作用。对照：残差阈值、稳健中位数过滤、同容量历史分类器、集成分歧门控、真实标签oracle。分类本身不是原创保证。</td><td>先报告宏平均F1、动力学突变漏检、噪声误报及拒判覆盖率；再看这些改变是否改善A2的控制结果。若只在已见噪声上分类准确，主张缩小为特定扰动诊断。</td></tr><tr><td><strong>A2 → 方法A2：带锚点与提交检查的动力学残差适应。</strong></td><td>冻结基础编码器／奖励／价值，只训练小残差动力学。损失由可信新片段的多步预测项、旧域锚点一致性项和参数变化约束组成。新参数先在候选副本训练；用时间上分离的近期可信片段及固定旧域锚点检查，再决定提交或保留旧版本。拒判片段隔离保存，不丢弃为永久无用。</td><td>对照必须使用同样数据、可访问标签、历史长度、更新次数和锚点：持续微调、仅异常过滤、仅锚点正则、诊断门控、完整方案。FLAIR已有过滤、SimDist已有冻结；拟差异是“诊断—隔离—提交”的组合是否在混合偏移中减少误更新。</td><td>正常条件下降幅度、噪声条件负迁移率、真实变化恢复曲线同时改善才支持。若稳健过滤＋锚点已同样好，应采用简单方法或放弃复杂门控。</td></tr><tr><td><strong>A3 → 方法A3：预测—评分—执行分层的适应审计。</strong></td><td>在固定诊断状态上保留同一候选动作集，比较旧／新动力学预测、相同奖励价值评分，以及仿真分支执行的短期真实收益和任务后果；另做“适应后冻结”的独立保留集测试。分支仿真只生成诊断证据，部署算法不读取未来。</td><td>这是评估方法候选，不冒充新的价值网络。与M07/M08的总体学习曲线相比，定位“误差修正没有传到动作选择”的环节；报告基础训练、适应、诊断分支与评估四项成本。</td><td>若动力学误差下降而闭环不变，查评分一致性／候选覆盖；若价值已饱和，报告动力学单独适应的边界，不硬加第二条价值学习课题来凑增益。审计只有可复用并揭示稳定机制时才具有独立研究价值。</td></tr></tbody></table></div>
+<p><strong>最小实验方案。</strong> 先用已有TD-MPC2检查点，在ManiSkill2 <code>PickCube-v0</code>做正常、仅噪声、仅物理变化、混合四种条件。开发起点为质量倍率0.8/1.0/1.2、摩擦倍率0.7/1.0/1.3，噪声按训练状态标准差归一化；这是自建扰动协议，不是平台官方新benchmark。先用1个模型种子、每条件20回合，比较冻结与连续微调，证明负迁移是否存在。成立后扩到<code>LiftCube-v0</code>、<code>StackCube-v0</code>、至少3训练种子与独立测试初态。</p>
+<p><strong>训练与测试。</strong> 诊断器仅在训练扰动组合训练；锚点来自基础训练回放。适应预算为0、1,000、5,000、10,000次控制决策并换算原生环境步。回放更新必须用真实已执行片段；提交检查不读取保留测试集。每个独立测试实例重置适配参数与缓存；若研究连续适应序列，单独报告。主要终点为原生任务成功率，末步成功率、适应曲线面积、恢复决策数、负迁移率和延迟为补充。所谓“有害更新比例”只在能够做更新前后配对仿真诊断时估计，不能从单次在线回合凭空判断。</p>
+<p><strong>拟向老师汇报的三项贡献表述：</strong>①建立并验证混合偏移下的可拒判诊断；②提出受诊断约束且保留旧技能的动力学适应机制；③建立能区分预测改善、评分失真与真实控制收益的审计协议。这三项目前均是计划，核心能否成立取决于首轮是否出现稳定、可重复的有害适应。</p>
+<h2 id="07--课题b接触切换与稳定完成">07 · 课题B：接触切换与稳定完成</h2>
+<p><strong>暂定题目：面向接触状态转换的动作条件世界模型与稳定操作。</strong> 场景是方块已经抓住，却在抬起、搬运或松手时掉落。研究对象是关键转换前后的预测与控制，不是把目标位置达到一次就当成完成。</p>
+<h3 id="b--每篇参考文献提供了什么局限证据">B · 每篇参考文献提供了什么局限证据</h3>
+<div class="table-scroll" tabindex="0"><table><thead><tr><th>文献与原文定位</th><th>已有方法已经解决的部分</th><th>具体局限／边界与本课题关系</th><th>对应挑战</th></tr></thead><tbody><tr><td><a href="#M01">M01 TD-MPC2</a> · ICLR 2024 · <a href="https://proceedings.iclr.cc/paper_files/paper/2024/file/cf73d57b6dcda32b293df7c2d5341f49-Paper-Conference.pdf#page=3">§3–4，PDF第3–5页</a></td><td>任务导向潜动力学与价值支持通用连续控制。</td><td><strong>实验边界：</strong>基本目标没有显式的抓取建立／滑移／释放事件头。<strong>推论：</strong>平均误差可能掩盖少量关键事件，但必须用逐阶段误差统计证明，不能仅凭网络形式判断失效。</td><td>B1、B3</td></tr><tr><td><a href="#M03">M03 WIMLE</a> · ICLR 2026 · <a href="https://openreview.net/pdf?id=mzLOnTb3WH#page=10">§3与§6，PDF第3–6、10页</a></td><td>已用IMLE表示多模态转移并估计不确定性。</td><td><strong>作者明示：</strong>未探索模型规划。<strong>推论：</strong>一般多模态预测没有直接提供“哪种接触事件将发生”及其时间，不能简单把本课题称为首次处理多模态接触。</td><td>B1、B3</td></tr><tr><td><a href="#M06">M06 AdaptiGraph</a> · RSS 2024 · <a href="https://robopil.github.io/adaptigraph/AdaptiGraph_RSS24.pdf#page=4">§III，PDF第4–5页</a></td><td>材料条件图模型、历史粒子位置和物理参数辨识已编码部分接触物理。</td><td><strong>实验边界：</strong>材料与参数条件不是任务中的接触事件标签；状态提取依赖点云／粒子。<strong>推论：</strong>可研究同一材料下抓稳—滑移—释放的转换，但不能把已有材料模型描述成“完全不考虑接触”。</td><td>B1</td></tr><tr><td><a href="#J05">J05 预测式防滑控制</a> · Nature Machine Intelligence 2025 · <a href="https://eprints.whiterose.ac.uk/id/eprint/232148/1/s42256-025-01062-2.pdf#page=7">Discussion，PDF第7页</a></td><td>用动作条件触觉前向模型预测滑移，并调制参考轨迹。</td><td><strong>作者明示：</strong>控制器未处理预测误差、依赖离线训练、物体集合有限、有计算成本且使用预定参考轨迹。<strong>推论：</strong>关键在预测不确定时怎样控制，不只是增加一个滑移预测器。</td><td>B2、B3</td></tr><tr><td><a href="#M12">M12 World-In-World</a> · ICLR 2026 · <a href="https://openreview.net/pdf/899312aa4057cd37a60a334613406d8d111108e8.pdf#page=10">§4，PDF第10页</a></td><td>World-In-World已经用闭环具身任务评测视觉世界模型。</td><td><strong>作者明示：</strong>接触、摩擦、柔顺性及可动物体状态仍难精确预测，可能生成违反物理的轨迹。<strong>推论：</strong>要检查事件层面的错误是否改变动作选择，视觉质量提高不够。</td><td>B1、B3</td></tr><tr><td><a href="#B02">B02 MS-HAB</a> · International Conference on Learning Representations (ICLR) 2025 · <a href="https://openreview.net/pdf?id=6bKEWevgSd#page=8">§5.2、§6.2及附录A.6，PDF第8–9页起</a></td><td>MS-HAB已有接触、抓取、掉落等事件分类及轨迹自动标记。</td><td><strong>实验边界：</strong>事件分类服务于数据筛选与失败分析，不等于动作条件未来事件预测。<strong>推论：</strong>不能将“自动标注失败阶段”宣称为新贡献，应研究预测和控制闭环；这些标签可用作同等监督。</td><td>B2、B3</td></tr><tr><td><a href="#B01">B01 ManiSkill3</a> · Robotics: Science and Systems (RSS) 2025 · <a href="https://www.roboticsproceedings.org/rss21/p021.pdf#page=1">任务／演示与评估部分，PDF正文</a></td><td>ManiSkill3提供多类操作任务、GPU仿真及示范／基线工具。</td><td><strong>资源边界：</strong>平台提供任务并不提供本课题的统一转换协议；MS3 v1与已有MS2 v0须分开。<strong>推论：</strong>接触标签、稳定性与成功判据要逐任务核验，不能混用版本制造提升。</td><td>B2、B3</td></tr><tr><td><a href="#J01">J01 操作动力学综述</a> · Science Robotics 2025 · <a href="https://www.jiajunwu.com/papers/dynamicssurvey_scirobot.pdf#page=7">表示比较与操作任务，PDF第7–11页</a></td><td>综述比较不同表示对刚体、柔体和接触操作的适合程度。</td><td><strong>作者总结的挑战：</strong>表示表达力、感知可靠性、数据成本存在权衡。<strong>推论：</strong>第一阶段用低维状态验证事件机制，不能把结果外推成视觉接触感知已解决。</td><td>B1、B2</td></tr></tbody></table></div>
+<h3 id="b--三个挑战与三个对应方法">B · 三个挑战与三个对应方法</h3>
+<div class="table-scroll" tabindex="0"><table><thead><tr><th>挑战及依据</th><th>拟解决方法与训练信号</th><th>区分已有工作、必要对照与评价</th></tr></thead><tbody><tr><td><strong>B1：相似状态下，不同接触转换带来分叉后果。</strong> M01/M03/M06/M12。</td><td><strong>方法B1：预测未来转换的条件动力学。</strong> 输入状态、短历史和候选动作序列，输出未来H步的抓取建立、支撑、释放、滑移／掉落概率及条件转移；用少量模式专家表示分叉。测试时使用预测模式，不读仿真真实接触标签。模式设计应允许“未分类／其他”，避免强行把全部动力学塞入五类。</td><td>与WIMLE的一般随机多模态区别是事件可解释性和转换时序。比较同参数量统一模型、无标签混合模型、事件辅助头、模式条件模型；评价事件F1、提前量、事件附近多步误差及最终成功率。只有分类更准而控制不变，不能支持控制贡献。</td></tr><tr><td><strong>B2：转换片段少，成功演示难覆盖失稳和恢复。</strong> J05的离线数据边界、B02已有分类、B01数据协议。</td><td><strong>方法B2：按转换覆盖组织回放。</strong> 用训练仿真事件把真实轨迹切成转换前后窗口；保持总样本数、更新次数不变，比较均匀、简单事件均衡、模型分歧选择和“缺少哪类转换就补哪类”采集。新采集交互计入预算，不能把额外数据当免费。</td><td>自动分类已由MS-HAB做过；拟研究的是不同事件覆盖如何影响模型，而非重命名标签。评价事件覆盖、罕见事件召回、数据量—成功率曲线。若简单均衡回放已解决，优先形成清晰的数据结论，不坚持复杂采样算法。</td></tr><tr><td><strong>B3：预测抓住不等于稳定完成，错误风险分数可能使控制过于保守。</strong> J05预测误差、M12物理失真、M01短视界、B02失败分类。</td><td><strong>方法B3：经校准的事件风险规划。</strong> 在独立校准集上校准未来掉落／不稳定概率；规划分数采用原奖励价值评分减去预测事件风险代价，风险权重只在开发集选。对StackCube，显式预测松手后的支撑稳定性；对PickCube，遵守其原生目标与机器人静止条件，不强制增加松手要求。</td><td>对照：固定接触惩罚、仅辅助头、未校准风险、只重采样、完整方法；另做动作幅度／速度匹配，排除“只是更慢”。主指标为原生成功率，补充Brier分数、误报率、掉落率、完成后稳定步数、时长。校准只保证所测分布上的统计表现，不保证域外安全。</td></tr></tbody></table></div>
+<p><strong>第一组可执行实验。</strong> 在MS2 <code>PickCube-v0</code>提取接触前后各5个决策步，分析错误是否集中在抓取／抬起转换；在<code>StackCube-v0</code>看放置／释放。需要后续验证插装时，再单列MS3 <code>PegInsertionSide-v1</code>，不混表。训练先用已有回放和少量补采；平台无现成触觉输入，本课题不声称复现J05硬件。完整贡献须同时回答“事件预测是否更好”和“相同数据／速度／计算下是否更稳”。</p>
+<p><strong>拟贡献凝练：</strong>①可解释的动作条件接触转换预测；②在固定数据量下提高关键转换覆盖的回放机制；③用经校准的事件后果改进稳定完成的规划。最小实现顺序是先分析，再做简单均衡回放，最后决定是否需要模式模型和风险规划。</p>
+<h2 id="08--课题c相同计算预算下何时值得继续规划">08 · 课题C：相同计算预算下，何时值得继续规划</h2>
+<p><strong>暂定题目：面向边际控制收益的世界模型规划计算分配。</strong> 场景是平稳搬运时多算几轮未必有用，而即将接触或失稳时可能需要更多搜索。这里研究“再算一批候选能改善多少真实控制收益”，不是预先认定“风险越大就应该算越多”。</p>
+<h3 id="c--每篇参考文献提供了什么局限证据">C · 每篇参考文献提供了什么局限证据</h3>
+<div class="table-scroll" tabindex="0"><table><thead><tr><th>文献与原文定位</th><th>已有方法已经解决的部分</th><th>具体局限／边界与本课题关系</th><th>对应挑战</th></tr></thead><tbody><tr><td><a href="#M01">M01 TD-MPC2</a> · ICLR 2024 · <a href="https://proceedings.iclr.cc/paper_files/paper/2024/file/cf73d57b6dcda32b293df7c2d5341f49-Paper-Conference.pdf#page=3">§3、规划超参数附录</a></td><td>TD-MPC2通过采样动作、潜空间展开和终端价值做短视界搜索。</td><td><strong>实验边界：</strong>主要使用预设的候选／迭代／视界配置。<strong>推论：</strong>需要测每个状态的追加计算收益，不应把固定预算本身说成缺陷；简单配置可能已足够。</td><td>C1</td></tr><tr><td><a href="#M02">M02 BMPC</a> · ICLR 2025 · <a href="https://proceedings.iclr.cc/paper_files/paper/2025/file/8636419dea1aa9fbd25fc4248e702da4-Paper-Conference.pdf#page=10">§5.1、§6，PDF第8–10页</a></td><td>BMPC让策略模仿规划器，直接策略已能接近MPC，作者明确提出低延迟部署用途。</td><td><strong>作者明示：</strong>长预测不足使TD-horizon为1；这不是MPPI规划视界为1。<strong>推论：</strong>规划开关必须优于这个强直接策略，不能拿弱策略作唯一低成本基线。</td><td>C1、C3</td></tr><tr><td><a href="#M05">M05 Sparse Imagination</a> · ICLR 2026 · <a href="https://openreview.net/pdf/24fe46f6c8fd3b542798b4a83189990353b83a26.pdf#page=5">§3、表1–3，PDF第3、5–7页</a></td><td>Sparse Imagination用随机稀疏视觉token和分组注意力降低世界模型展开成本，已有速度—成功率比较。</td><td><strong>实验结果：</strong>过高丢弃率会降低部分任务表现。<strong>边界：</strong>机制减少视觉token，不是低维TD-MPC2的动作候选。<strong>推论：</strong>本课题应研究状态相关的计算收益，不能直接换名复现稀疏视觉规划。</td><td>C2、C3</td></tr><tr><td><a href="#M11">M11 V-GPS</a> · CoRL 2024 · <a href="https://raw.githubusercontent.com/mlresearch/v270/main/assets/nakamoto25a/nakamoto25a.pdf#page=8">§7与附录G，PDF第8页起</a></td><td>V-GPS用价值函数给通用策略候选动作评分，无需另训动力学。</td><td><strong>作者明示：</strong>需要随机多样候选、增加部署计算，提出策略／价值查询的compute-optimal平衡。<strong>推论：</strong>计算最优分配已有研究动机，必须证明多步模型搜索优于同成本纯价值查询。</td><td>C1、C3</td></tr><tr><td><a href="#M04">M04 DINO-WM</a> · ICML 2025 · <a href="https://raw.githubusercontent.com/mlresearch/v267/main/assets/zhou25t/zhou25t.pdf#page=9">§3及局限，PDF第3–5、9页</a></td><td>DINO-WM在视觉特征空间展开动作序列，实现新目标规划。</td><td><strong>作者明示：</strong>要求离线状态动作覆盖与动作标签。<strong>推论：</strong>在覆盖不足的状态增加搜索会利用模型错误；“搜索更多”不一定更可靠。</td><td>C2</td></tr><tr><td><a href="#M03">M03 WIMLE</a> · ICLR 2026 · <a href="https://openreview.net/pdf?id=mzLOnTb3WH#page=10">§6，PDF第10页</a></td><td>WIMLE已经用置信度加权想象数据。</td><td><strong>作者明示：</strong>想象视界是任务相关超参数，并把“基于置信度在线调视界”列为未来方向。<strong>推论：</strong>只按不确定性缩短视界不够新；还要学习计算的真实边际收益，并分辨搜索不足与模型不可信。</td><td>C1、C2</td></tr><tr><td><a href="#M12">M12 World-In-World</a> · ICLR 2026 · <a href="https://openreview.net/pdf/899312aa4057cd37a60a334613406d8d111108e8.pdf#page=10">§4，PDF第10页</a></td><td>闭环评测已表明动作条件预测是否真实有用需要在环境中验证。</td><td><strong>作者明示：</strong>长程记忆和精细物理预测仍不足。<strong>推论：</strong>预测回报升高可能来自更严重的模型利用，计算收益的监督不能只取规划器自己的最高分。</td><td>C2、C3</td></tr><tr><td><a href="#J04">J04 RoboVLMs</a> · Nature Machine Intelligence 2026 · <a href="https://www.nature.com/articles/s42256-025-01168-7.pdf#page=15">VLA形式比较及限制，PDF第9、15页</a></td><td>RoboVLMs比较策略形式、数据、动作表示等设计对机器人表现的影响。</td><td><strong>实验边界：</strong>并非所有架构组合都被实现。<strong>推论：</strong>更换基策略或动作块会改变计算和表现，必须固定或分组比较，不能把策略改强的收益归于预算控制器。</td><td>C3</td></tr></tbody></table></div>
+<h3 id="c--三个挑战与三个对应方法">C · 三个挑战与三个对应方法</h3>
+<div class="table-scroll" tabindex="0"><table><thead><tr><th>挑战及依据</th><th>拟解决方法与训练信号</th><th>区分已有工作、必要对照与评价</th></tr></thead><tbody><tr><td><strong>C1：预测不确定性不等于追加规划的价值。</strong> M01/M02/M03/M11。</td><td><strong>方法C1：学习边际计算收益。</strong> 固定基础模型，在训练状态上用小／中／大预算形成嵌套候选集；在可恢复仿真状态上配对执行所选首动作及同一后续控制器，得到追加预算的真实收益差。小预测器输入当前状态摘要、首批搜索分数间距、分歧及耗时，预测继续搜索的收益和成本。</td><td>训练分支只用于监督，部署不调用真实仿真未来；额外分支交互与标签成本全部记账。比较固定预算、定时增加、风险阈值、分歧阈值、同训练预算的启发式回归。监督目标为真实分支后果，而非模型自评分上升。</td></tr><tr><td><strong>C2：高风险状态可能是模型失真，多搜索反而更差。</strong> M04/M12；M05与M03的不同成本机制。</td><td><strong>方法C2：可信度约束的继续／停止决策。</strong> 把“预计继续搜索收益”与“预测是否可靠”分开；只有预计净收益为正且未超出可信区间时继续追加。其余情况执行已有最佳可用动作或固定基策略；不宣称回退策略必然安全。初版只调候选批次／优化轮数，保持预测视界固定，避免把多个变量混在一起。</td><td>对照仅收益触发、仅不确定性触发、两者结合；所有方法用相同基础模型与候选随机数。若模型误差高的状态下，大预算真实收益确实下降且停止能缓解，才支持这一机制；否则不增加额外可靠性模块。</td></tr><tr><td><strong>C3：平均速度提升可能来自更强策略、额外总计算或牺牲最慢控制步。</strong> M02/M05/M11/J04。</td><td><strong>方法C3：有硬截止与平均额度的预算调度。</strong> 用可累计的平均额度分配规划批次，同时设单步截止时间；把触发器、状态编码、GPU同步与搜索全计入延迟。做固定模型调用预算与固定墙钟预算两张表，另外报告本方法训练成本。</td><td>主基线含BMPC直接策略及规划策略；在同一控制器内做消融以隔离归因。评价成功率／DMC真实回报—延迟的Pareto曲线、p50/p95/p99延迟、超时率、模型调用量。若只改善均值却增加超时或降低任务效果，不能宣称实时控制更好。</td></tr></tbody></table></div>
+<p>如果仿真在计算时暂停，测得的是规划延迟与任务性能折中，不能据此声称已验证真实机器人不停运动时的控制截止保证；需要另做延迟注入实验才能支持该结论。</p>
+<p><strong>第一组可执行实验。</strong> 先用DMC <code>walker/walk</code>和Meta-World V2 <code>pick-place-v2</code>，再测MS2 <code>PickCube-v0</code>。从3档嵌套候选预算开始，其他参数固定，用同一模型逐状态收集“加计算有没有用”的诊断。BMPC与TD-MPC2的原任务重合度在DMC最高；搬运任务上的BMPC适配应单独标为迁移实现。视觉扩展才使用DINO-WM／Sparse Imagination的PushT或Rope，不把其作者速度数字当成A6000上的预计耗时。</p>
+<p><strong>拟贡献凝练：</strong>①基于真实控制后果估计边际计算收益；②区分搜索不足与模型失真后的规划停止规则；③在平均预算和单步截止共同约束下验证效果—成本优势。三者必须优于简单的风险阈值和强直接策略，否则选题价值不足。</p>
+<h2 id="09--课题d观测缺失下记住什么与何时重新确认">09 · 课题D：观测缺失下，记住什么与何时重新确认</h2>
+<p><strong>暂定题目：观测缺失条件下、基于事件记忆与可信状态更新的世界模型操作。</strong> 场景是机械臂短暂遮住方块或连续若干次收不到物体状态。模型需要保留最后一次可信接触信息，同时避免把旧的“抓住了”记忆永久当成当前事实。</p>
+<h3 id="d--每篇参考文献提供了什么局限证据">D · 每篇参考文献提供了什么局限证据</h3>
+<div class="table-scroll" tabindex="0"><table><thead><tr><th>文献与原文定位</th><th>已有方法已经解决的部分</th><th>具体局限／边界与本课题关系</th><th>对应挑战</th></tr></thead><tbody><tr><td><a href="#J03">J03 DreamerV3</a> · Nature 2025 · <a href="https://www.nature.com/articles/s41586-025-08744-2.pdf#page=2">World model learning，PDF第2页</a></td><td>DreamerV3的循环状态空间模型已维护历史并预测潜状态，在想象中训练策略。</td><td><strong>实验边界：</strong>通用跨任务结果不是针对丢包时长、隐藏速度与接触记忆的因子实验。<strong>推论：</strong>不能把加GRU或RSSM本身当创新；要说明保存何种历史、何时遗忘能超越标准循环模型。</td><td>D1、D2</td></tr><tr><td><a href="#M01">M01 TD-MPC2</a> · ICLR 2024 · <a href="https://proceedings.iclr.cc/paper_files/paper/2024/file/cf73d57b6dcda32b293df7c2d5341f49-Paper-Conference.pdf#page=3">§3，PDF第3–4页</a></td><td>TD-MPC2的既有低维状态实现可作为可控基线。</td><td><strong>实验边界：</strong>必须以本项目实际观测字段为准，不能说论文所有版本都完全无历史。<strong>推论：</strong>把当前全状态任务转成受控缺失任务后，需与历史堆叠、同容量GRU公平比较。</td><td>D1、D3</td></tr><tr><td><a href="#M07">M07 SimDist</a> · RSS 2026 · <a href="https://arxiv.org/pdf/2603.15759v2#page=4">式1与§IV-C，PDF第3–5页</a></td><td>SimDist已有观测—动作历史编码及动作块动力学。</td><td><strong>实验边界：</strong>窗口历史不等于对任意缺失时长都能恢复；不能宣称它没有记忆。<strong>推论：</strong>可研究窗口外关键接触事件、记忆过期和更新可信度，而不是再次提出历史编码。</td><td>D1、D2</td></tr><tr><td><a href="#M09">M09 LaDi-WM</a> · CoRL 2025 · <a href="https://raw.githubusercontent.com/mlresearch/v305/main/assets/huang25a/huang25a.pdf#page=9">§6，PDF第9页</a></td><td>LaDi-WM用未来潜表示指导策略，并迭代修正动作。</td><td><strong>作者明示：</strong>长预测有累积误差，提出加入记忆保持长时一致性。<strong>推论：</strong>“世界模型加记忆”已被明确提出，需细化到事件保留／验证机制与缺失协议。</td><td>D1、D2</td></tr><tr><td><a href="#M10">M10 UWM</a> · RSS 2025 · <a href="https://arxiv.org/html/2504.02792v1#S7">§III-C、§VII，作者HTML</a></td><td>UWM联合建模视频和动作，已有帧堆叠、多相机条件以及灵活生成接口。</td><td><strong>作者明示：</strong>前向图像可能有伪影，密集预测仍待完善。<strong>推论：</strong>不能把生成的图像当作新测量反复写入记忆；应区分真实观测更新与模型想象传播。</td><td>D2</td></tr><tr><td><a href="#B07">B07 OpenVLA</a> · Conference on Robot Learning (CoRL) 2024 · <a href="https://raw.githubusercontent.com/mlresearch/v270/main/assets/kim25c/kim25c.pdf#page=8">§5，PDF第8–9页</a></td><td>OpenVLA提供公开7B策略和高效适配。</td><td><strong>作者明示，原论文版本：</strong>只支持单图像观测，多图像与本体输入是未来方向。<strong>边界：</strong>不等于2026仓库所有变体均如此。可作视觉扩展参照，但不是低维主基线。</td><td>D1、D3</td></tr><tr><td><a href="#J02">J02 世界模型综合综述</a> · ACM Computing Surveys 2025 · <a href="https://fi.ee.tsinghua.edu.cn/~dingjingtao/papers/3746449.pdf#page=23">§6.1、§6.3，PDF第23–24页</a></td><td>综述讨论物理规则、反事实模拟与具身落地。</td><td><strong>综述边界：</strong>并不提供本课题统一丢包／遮挡测试。<strong>推论：</strong>需要把“记忆有用”拆为可量化的可观测性缺失，不能靠看起来合理的预测图证明控制改善。</td><td>D3</td></tr><tr><td><a href="#B06">B06 DROID</a> · Robotics: Science and Systems (RSS) 2024 · <a href="https://www.roboticsproceedings.org/rss20/p120.pdf#page=4">机器人平台与数据收集，PDF第3–5页</a></td><td>DROID提供多场景真实Franka观测与动作数据。</td><td><strong>数据边界：</strong>静态轨迹无法回答改变动作之后是否成功；已有相机观测也不是标准掉帧／遮挡实验。<strong>推论：</strong>可用于视觉预训练，闭环恢复仍要在锁定仿真任务验证。</td><td>D3</td></tr></tbody></table></div>
+<h3 id="d--三个挑战与三个对应方法">D · 三个挑战与三个对应方法</h3>
+<div class="table-scroll" tabindex="0"><table><thead><tr><th>挑战及依据</th><th>拟解决方法与训练信号</th><th>区分已有工作、必要对照与评价</th></tr></thead><tbody><tr><td><strong>D1：固定历史窗口可能遗忘关键事件，长记忆又混入过期信息。</strong> J03/M07/M09/B07。</td><td><strong>方法D1：带时效的事件记忆。</strong> 普通短历史保留最近观测；小型事件槽保留“最近可信抓取／放下／目标被移动”的摘要及发生时间、置信度。读出时显式加入时间间隔与可见性。训练监督来自训练轨迹；测试事件由输入历史预测，不能读取环境真实接触标签。</td><td>不是首次用记忆。对照等容量GRU、短／长帧堆叠、FIFO关键帧、同容量无事件记忆、事件记忆；训练总步数与输入字段一致。看缺失长度超过普通窗口后是否仍改善任务效果，正常可见条件不能明显退化。</td></tr><tr><td><strong>D2：错误观测或模型想象可能污染记忆，恢复后仍坚持旧状态。</strong> M10伪影、M09累积误差、M07表征假设。</td><td><strong>方法D2：真实观测与想象状态分离。</strong> 缺失时仅传播预测状态及不确定性，不将其当成新真实事件写入可信槽；新观测恢复后通过残差与一致性检查纠正或作废旧事件。若观测持续矛盾，触发重新观测动作或停止保留旧事件。</td><td>对照始终写入、只保留最后值、仅预测传播、可信写入。研究新测量到达后的恢复，而非仅报告缺失期间预测图。指标包括错误记忆寿命、恢复时间、隐状态／事件校准及最终成功率。</td></tr><tr><td><strong>D3：部分可观测改造容易泄露真实状态，收益也可能来自更多信息。</strong> M01观测设置、J02评估缺口、B06静态数据边界。</td><td><strong>方法D3：可观测性分层协议。</strong> 分开隐藏速度、随机掉帧、连续掉帧与视觉遮挡四类条件；输入统一给缺失标记和时间戳，不给隐藏真值。完整状态仅用于oracle和评分。增加训练内／外缺失长度，分开“等待即恢复”和“必须改变视角”两种设置。</td><td>低维状态mask只代表传感缺失，不能称为图像遮挡已解决。重观测必须改变观测过程且计入动作步数；若当前全局掉帧与相机位置无关，不声称主动观察有效。比较相同信息、参数、历史长度和交互预算后的成功率—缺失长度曲线。</td></tr></tbody></table></div>
+<p><strong>第一组可执行实验。</strong> Meta-World V2 <code>pick-place-v2</code>、<code>drawer-open-v2</code>，MS2 <code>PickCube-v0</code>。低维实验先检查观测中是否重复编码了物体真值，遮掉全部相关字段以免泄漏。开发缺失长度可取1/3/5次决策，保留更长未见长度做测试；模型只看到时间戳与有效性掩码。视觉遮挡和主动观察留到低维机制成立之后，单独设计相机与遮挡物。</p>
+<p><strong>拟贡献凝练：</strong>①任务事件与时效共同决定的记忆表示；②观测—想象分离的记忆纠错机制；③能排除真值泄漏与额外信息收益的部分可观测操作评测。若等容量GRU已同样好，事件记忆不具备额外价值。</p>
+<h2 id="10--课题e下一技能接不上时的阶段恢复">10 · 课题E：下一技能接不上时的阶段恢复</h2>
+<p><strong>暂定题目：面向技能衔接可行性的世界模型终态预测与局部恢复。</strong> 例子是“抓取方块”已达到本技能成功条件，但抓取姿态偏斜，接下来的放置总失败；或抽屉开了但开度不足以执行下一步。拟研究的变量是技能交接状态，不是一次重新训练整个长任务。</p>
+<h3 id="e--每篇参考文献提供了什么局限证据">E · 每篇参考文献提供了什么局限证据</h3>
+<div class="table-scroll" tabindex="0"><table><thead><tr><th>文献与原文定位</th><th>已有方法已经解决的部分</th><th>具体局限／边界与本课题关系</th><th>对应挑战</th></tr></thead><tbody><tr><td><a href="#B02">B02 MS-HAB</a> · International Conference on Learning Representations (ICLR) 2025 · <a href="https://openreview.net/pdf?id=6bKEWevgSd#page=8">§5.2–6及附录，PDF第8–10页</a></td><td>MS-HAB已有低层子任务、自动失败分类、长任务组合，成功后切换下一个子任务。</td><td><strong>实验边界：</strong>子任务成功判据和长链完成率分开；场景变化仍造成低层失败。<strong>推论：</strong>要检查当前任务成功是否足以保证下一技能可执行，不能将所有长链失败归为交接。</td><td>E1、E3</td></tr><tr><td><a href="#B03">B03 RoboCasa</a> · Robotics: Science and Systems (RSS) 2024 · <a href="https://robocasa.ai/assets/robocasa_rss24.pdf#page=7">§IV，PDF第7页</a></td><td>RoboCasa提供原子与复合厨房任务、合成演示及预训练／微调测试。</td><td><strong>作者报告的失败：</strong>精细操作困难，以及不能有效转换到下一阶段。该项直接支持研究交接，而不是仅凭长任务较难作泛泛推断。</td><td>E1、E2</td></tr><tr><td><a href="#B08">B08 RoboCasa365</a> · International Conference on Learning Representations (ICLR) 2026 · <a href="https://robocasa.ai/assets/robocasa365_iclr26.pdf#page=23">§4与附录，PDF第9–10、23页</a></td><td>RoboCasa365扩展到更多厨房任务、场景与复合任务评估。</td><td><strong>作者明示：</strong>仍限于厨房，存在仿真—现实差距；附录报告取放、错误目标和流程执行失败。<strong>推论：</strong>组合成功率应按故障类型拆解，且不能把Composite-Unseen等同未经适配的零样本。</td><td>E1、E3</td></tr><tr><td><a href="#M08">M08 DiWA</a> · CoRL 2025 · <a href="https://raw.githubusercontent.com/mlresearch/v305/main/assets/chandra25a/chandra25a.pdf#page=9">§7，PDF第9页</a></td><td>DiWA可在固定世界模型中提升单技能扩散策略。</td><td><strong>作者明示：</strong>模型错误利用和想象—执行差距。<strong>推论：</strong>在想象里修好上一步，不一定给下一步留下真实可用终态；需要固定下一技能做验证。</td><td>E2、E3</td></tr><tr><td><a href="#M09">M09 LaDi-WM</a> · CoRL 2025 · <a href="https://raw.githubusercontent.com/mlresearch/v305/main/assets/huang25a/huang25a.pdf#page=9">§4与§6，PDF第5、9页</a></td><td>LaDi-WM已经在LIBERO-LONG、CALVIN中用预测指导策略。</td><td><strong>作者明示：</strong>长未来预测累积误差，记忆是后续方向。<strong>推论：</strong>优先研究短程交接恢复，不能把一次性预测整条长任务当成低成本可用方案。</td><td>E1、E2</td></tr><tr><td><a href="#M10">M10 UWM</a> · RSS 2025 · <a href="https://arxiv.org/html/2504.02792v1#S7">§III、§VII，作者HTML</a></td><td>UWM已联合视频与动作，支持前向／逆向建模与策略推理。</td><td><strong>作者明示：</strong>前向预测有伪影，可能损害规划。<strong>推论：</strong>漂亮终态图像不能作为“下一技能可成功”的唯一判断，应有执行后果标签。</td><td>E1、E2</td></tr><tr><td><a href="#B04">B04 RoboTwin2.0</a> · International Conference on Machine Learning (ICML) 2026 · <a href="https://arxiv.org/pdf/2506.18088#page=3">专家生成与随机化，PDF第3–5、9页</a></td><td>RoboTwin2.0已有专家代码生成、执行反馈纠错及强域随机化。</td><td><strong>实验边界：</strong>专家生成阶段的纠错，不等于部署策略在未知交接状态下的在线恢复。<strong>推论：</strong>可借鉴获得失败／恢复数据，但不能将“生成失败数据”或“反馈修复”本身声称为首次。</td><td>E2</td></tr><tr><td><a href="#J04">J04 RoboVLMs</a> · Nature Machine Intelligence 2026 · <a href="https://www.nature.com/articles/s42256-025-01168-7.pdf#page=9">方法形式比较，PDF第9、15页</a></td><td>RoboVLMs显示数据、动作表示与策略形式会显著影响操作表现。</td><td><strong>边界与推论：</strong>若恢复模块实验同时换成更强VLA，无法识别增益来自交接判断还是低层策略。课题初版应锁定策略和数据，保留更强策略作为独立对照。</td><td>E3</td></tr><tr><td><a href="#B06">B06 DROID</a> · Robotics: Science and Systems (RSS) 2024 · <a href="https://www.roboticsproceedings.org/rss20/p120.pdf#page=4">平台与数据协议，PDF第3–5页</a></td><td>DROID提供真实多场景演示用于训练表示或策略。</td><td><strong>数据边界：</strong>单份成功轨迹没有同一终态尝试多个下一技能的反事实标签。<strong>推论：</strong>交接可行性需要在仿真中补充配对分支，静态数据不能替代闭环验证。</td><td>E2、E3</td></tr></tbody></table></div>
+<h3 id="e--三个挑战与三个对应方法">E · 三个挑战与三个对应方法</h3>
+<div class="table-scroll" tabindex="0"><table><thead><tr><th>挑战及依据</th><th>拟解决方法与训练信号</th><th>区分已有工作、必要对照与评价</th></tr></thead><tbody><tr><td><strong>E1：单技能成功条件与下一技能起始可行域不一致。</strong> B02/B03/B08；M09/M10。</td><td><strong>方法E1：面向固定下一技能的可衔接性预测。</strong> 用世界模型预测当前候选结束动作的终态，再由可行性头估计“固定下一技能在H步内成功”的概率。训练标签来自同一保存状态下执行下一技能的多次分支试验；同一状态多次结果用于处理随机性。</td><td>这本质上与成功分类／价值函数相近，不能仅换名。关键候选是终态预测加技能条件下，对未见交接状态的泛化。对照当前技能成功阈值、几何距离、直接终态成功分类器、下一技能价值、世界模型辅助预测。</td></tr><tr><td><strong>E2：边界失败数据不足，长程一次性规划误差大且恢复代价高。</strong> M08/M09/M10、B04/B06。</td><td><strong>方法E2：只在交接边界做短程恢复。</strong> 在技能接近结束时，比较立即切换、短暂姿态调整、重新抓取等已有动作接口；用短视界模型预测下游可行性与恢复成本，滚动执行首个动作后再观测。数据围绕真实失败边界补采，记录不可恢复状态，设置有限重试次数。</td><td>对照统一追加相同步数、直接重试、人工阈值切换、无世界模型可行性评分、短程模型恢复。训练和评估的恢复交互都计入总预算，不能给本方法无限重试。恢复技能若尚不存在，先训练／验证它并记入成本。</td></tr><tr><td><strong>E3：长链成功率混合了低层能力、导航、交接与额外时间收益。</strong> B02/B08/J04/B06。</td><td><strong>方法E3：冻结技能的交接因子实验。</strong> 先锁定两个技能检查点与导航方式，分别从标准起点和真实上一步终态执行下一技能；对同一终态比较不同恢复策略。再测整链，逐阶段记录退出原因、累计环境步和重试次数。</td><td>主指标为完整链原生成功率；补充交接条件成功率、每次恢复净增益、回退率、平均完成时长与每次成功交互成本。把teleport与真实导航、单物体与多物体链分开。只有在同总时限／同技能下提高整链成功，才支持交接贡献。</td></tr></tbody></table></div>
+<p><strong>第一组可执行实验。</strong> 优先选MS-HAB一件物体的Pick→Place，并保持官方导航／成功逻辑；先验证两个固定技能各自从标准起点可成功。RoboCasa的<code>OpenDrawer</code>可做开度终态实验，<code>PickPlaceCounterToCabinet</code>可做完整取放对照；若组合新任务，明确标注自建组合，不能把单独<code>OpenDrawer</code>称为已有多阶段benchmark。只有基础技能足够可靠、且从真实交接状态明显退化时，才实施恢复模块。既有HAB抓取失败不能先验地归因于交接。</p>
+<p><strong>拟贡献凝练：</strong>①下一技能条件化的终态可行性预测；②受重试／交互预算限制的局部恢复规划；③隔离低层技能与导航因素的交接评估协议。该方向实用性强，但比A—D更依赖可靠技能和环境工程，不宜先承诺全屋长链。</p>
+<h2 id="11--五个课题如何选先用实验确认问题再承诺贡献">11 · 五个课题如何选：先用实验确认问题，再承诺贡献</h2>
+<div class="table-scroll" tabindex="0"><table><thead><tr><th>方向</th><th>首个必须看到的信号</th><th>最强的“简单替代解释”</th><th>第一轮不成立时怎么处理</th></tr></thead><tbody><tr><td>A 可靠适应</td><td>同等预算下，混合偏移中常规更新稳定地伤害控制，且可被已见历史部分预测</td><td>稳健异常过滤＋旧域锚点已经够用</td><td>不强行增加诊断器；调整扰动范围或转B/C</td></tr><tr><td>B 接触切换</td><td>关键转换的模型误差／失败显著集中，预测错误与动作后果关联</td><td>只补少量关键数据即可解决</td><td>把贡献聚焦到数据覆盖机制；不堆叠专家网络</td></tr><tr><td>C 规划预算</td><td>同一模型下，追加规划的真实收益在状态之间差异明显</td><td>BMPC强直接策略或简单定时预算已达到同等效果</td><td>不研究复杂触发器；报告计算收益曲线与边界</td></tr><tr><td>D 事件记忆</td><td>同信息条件下，缺失跨越关键事件使标准历史模型持续退化</td><td>等容量GRU／较长窗口已经恢复</td><td>缩小事件记忆主张；不把“长记忆”本身当贡献</td></tr><tr><td>E 技能交接</td><td>两个技能各自可靠，但从真实交接终态执行下一技能显著退化</td><td>下一技能本身太弱，或只是多给时间就能解决</td><td>先修复技能；暂缓交接恢复课题</td></tr></tbody></table></div>
+<p><strong>建议向老师优先比较A、B、C，选一条主线。</strong> A最能复用目前的世界模型适应基础；B的抓取—掉落—稳定演示最直观；C较少依赖新数据平台，且DMC有TD-MPC2与BMPC的共同任务。D适合希望深入时序／记忆建模的选题；E适合低层技能已可靠后研究实用长任务。</p>
+<p>本报告提出的是<strong>有文献依据的可检验候选</strong>，未完成全领域新颖性证明，也没有产生新实验结果。决定主线之后，下一次定向查新应围绕具体机制检索，例如A的选择性在线适应与稳健过滤、B的混合动力学与接触模式、C的元推理／计算价值、D的信念状态与事件记忆、E的技能起始集与可组合性。不能仅与本报告选出的世界模型论文比较，就断言其他控制／强化学习领域从未提出相似做法。</p>
+<h2 id="12--仿真数据和benchmark入口">12 · 仿真、数据和benchmark入口</h2>
 <div class="table-scroll" tabindex="0"><table><thead><tr><th>平台／资源</th><th>具体任务与数据</th><th>如何用于本项目</th><th>官方入口与边界</th></tr></thead><tbody><tr><td>ManiSkill2 · 固定旧版本</td><td><code>PickCube-v0</code>、<code>LiftCube-v0</code>、<code>StackCube-v0</code>；公开演示轨迹</td><td>A/B的首选，复用现有TD-MPC2</td><td><a href="https://github.com/haosulab/ManiSkill/tree/v0.4.1/mani_skill2/envs/pick_and_place">任务源码v0.4.1</a>；<a href="https://github.com/haosulab/ManiSkill/blob/v0.5.3/docs/source/concepts/demonstrations.md">演示数据说明</a>。数据格式与环境版本须做回放核对</td></tr><tr><td>ManiSkill3</td><td><code>PickCube-v1</code>、<code>StackCube-v1</code>、<code>PegInsertionSide-v1</code>；专家演示与RL/IL基线</td><td>扩展插装或GPU并行实验</td><td><a href="https://maniskill.readthedocs.io/en/latest/tasks/table_top_gripper/index.html">任务卡</a>；<a href="https://github.com/mani-skill/ManiSkill">代码与安装</a>。v1结果不与MS2 v0混表；当前GPU仿真需受支持的Linux环境</td></tr><tr><td>Meta-World</td><td>V2 PickPlace、DrawerOpen、DrawerClose；脚本专家可采集轨迹</td><td>C/D；从单任务再扩展任务组</td><td><a href="https://github.com/Farama-Foundation/Metaworld">代码</a>；<a href="https://metaworld.farama.org/evaluation/evaluation/">评估文档</a>。官方当前版本与旧V2接口不同；使用已有锁定V2提交并记录版本</td></tr><tr><td>DMControl</td><td>Walker Walk/Run、Cheetah Run</td><td>C的连续控制泛化验证</td><td><a href="https://github.com/google-deepmind/dm_control">官方代码</a>。通常以真实回合回报评价，没有原生通用末步成功率；交互数据可以自行采集</td></tr><tr><td>ManiSkill-HAB</td><td>Pick、Place、Open子任务；TidyHouse、PrepareGroceries、SetTable；公开RGB-D与状态演示</td><td>E的后续家庭／搬运任务</td><td><a href="https://github.com/arth-shukla/mshab">代码和划分</a>；<a href="https://arth-shukla.github.io/mshab/#dataset-section">演示数据</a>；<a href="https://huggingface.co/arth-shukla/mshab_checkpoints">检查点</a>。先单Pick，不承诺全长链立即成功</td></tr><tr><td>RoboCasa／RoboCasa365</td><td><code>OpenDrawer</code>、<code>PickPlaceCounterToCabinet</code>等；人工与合成数据，复合任务</td><td>E的阶段衔接与恢复</td><td><a href="https://github.com/robocasa/robocasa">代码</a>；<a href="https://robocasa.ai/docs/build/html/datasets/datasets_overview.html">数据划分</a>。2024/2026协议及后续版本时限分开</td></tr><tr><td>LIBERO</td><td>物体／空间／目标／长链任务；如放碗进底层抽屉后关抽屉</td><td>D/E的视觉扩展；UWM、LaDi-WM相关</td><td><a href="https://github.com/Lifelong-Robot-Learning/LIBERO">代码</a>；<a href="https://libero-project.github.io/datasets">数据</a>。LIBERO-90预训练与10任务下游用途须分清</td></tr><tr><td>CALVIN</td><td>Drawer、Slider、Lightbulb、LED；play数据</td><td>可从DiWA的<code>close_drawer</code>复现开始</td><td><a href="https://github.com/mees/calvin">平台</a>；<a href="https://github.com/acl21/diwa">DiWA实现与权重</a>。DiWA主要D环境单技能，不等于ABC→D全链协议</td></tr><tr><td>RoboTwin 2.0</td><td>Handover Block、Lift Pot、Stack Blocks Two等双臂任务；公开专家数据</td><td>想转双臂机器人时的备选</td><td><a href="https://robotwin-platform.github.io/doc/tasks/index.html">任务</a>；<a href="https://github.com/RoboTwin-Platform/RoboTwin">代码</a>；<a href="https://huggingface.co/datasets/TianxingChen/RoboTwin2.0/tree/main/dataset">Hugging Face数据</a>。从现成任务／数据起步，无需先实现MLLM自动生成器</td></tr><tr><td>SIMPLER</td><td><code>google_robot_pick_coke_can</code>、<code>widowx_spoon_on_towel</code>、<code>widowx_stack_cube</code></td><td>VLA／V-GPS策略比较</td><td><a href="https://github.com/simpler-env/SimplerEnv">评估代码与资产</a>。主要是仿真评测资源，不是统一训练轨迹集；纯仿真不能证明实机新结果</td></tr><tr><td>DROID</td><td>真实Franka数据；约350小时、564场景、86类任务</td><td>视觉表征或离线模型扩展</td><td><a href="https://github.com/droid-dataset/droid/blob/main/docs/the-droid-dataset.md">数据说明</a>；<a href="https://github.com/droid-dataset/droid_policy_learning">策略训练</a>。没有标准仿真任务ID，不能仅在静态数据上计算新策略闭环成功率</td></tr></tbody></table></div>
 <p>以上优先采用作者和维护者的正式资源。GitHub用于代码、Hugging Face用于已核验权重／数据；没有为凑平台数量而加入来源不明的Kaggle镜像。旧平台文档是复现实验所需技术来源，不计入26篇2024—2026核心学术文献。</p>
-<h2 id="09--如何证明有效先锁定评估口径">09 · 如何证明有效：先锁定评估口径</h2>
+<h2 id="13--如何证明有效先锁定评估口径">13 · 如何证明有效：先锁定评估口径</h2>
 <div class="table-scroll" tabindex="0"><table><thead><tr><th>需要回答的问题</th><th>指标与记录方式</th><th>常见误读</th></tr></thead><tbody><tr><td>是否完成任务</td><td>环境原生成功条件；按协议另报曾经成功、末步成功</td><td>过程中抓到过不等于最后满足全部条件</td></tr><tr><td>是否动作更好</td><td>真实仿真每步奖励求和，再对测试回合平均</td><td>不是世界模型预测奖励与价值网络估计之和</td></tr><tr><td>是否更稳定</td><td>成功后保持步数、掉落率、碰撞或接触事件；明确自定义阈值</td><td>自定义稳定性指标不能冒充官方benchmark</td></tr><tr><td>是否更省数据</td><td>成功率/回报随真实控制决策与原生环境步的曲线</td><td>模型想象步、预训练步和在线交互步不能合并隐藏</td></tr><tr><td>是否更省计算</td><td>含所有模块的单决策延迟、GPU小时、峰值显存、模型调用量</td><td>显存占用低不等于运行快；更多候选可能解释提升</td></tr><tr><td>是否能泛化</td><td>留出的初态、质量／摩擦组合、物体或布局；分别列域内／域外</td><td>用测试集选检查点会高估效果</td></tr><tr><td>是否可靠可重复</td><td>配对初态、至少3训练种子、各自分数与置信区间</td><td>3个种子不是300个独立训练；视频不是统计样本</td></tr></tbody></table></div>
 <p>MS2 <code>PickCube-v0</code>主要检查目标位置与机器人静止，<strong>并不要求松开夹爪</strong>；<code>StackCube-v0</code>包含稳定堆叠和释放要求。Meta-World旧版PickPlace的目标距离成功也不自动包含长时间保持。必须使用锁定版本的原生判据，不凭任务名字理解完成条件。</p>
 <p>任务条件、时间上限、终止规则、观测、奖励、动作接口、action repeat、训练与适应预算、随机种子和检查点选择规则应与结果一起保存。高成功率时扩大评估初态和扰动范围，不能靠修改成功阈值制造提升。</p>
-<h2 id="10--双a6000如何安排首阶段交付什么">10 · 双A6000如何安排，首阶段交付什么</h2>
+<h2 id="14--双a6000如何安排首阶段交付什么">14 · 双A6000如何安排，首阶段交付什么</h2>
 <p>现有设备为两张RTX A6000 48GB。<strong>A/B/C的低维状态小模型是更合适的起点</strong>；两卡更适合不同种子／对照实验并行，不必把单个模型强行分布式训练。显存需求必须通过短跑测量；保留既有至少12GiB空闲约束，并在已有实验释放资源后安排新任务。</p>
 <p>OpenVLA官方说明LoRA可从约27GB显存起，因此可考虑公开7B权重的小批量适配；完整预训练和作者级大规模视频世界模型训练不纳入本方案。SimDist当前机械臂代码尚未完整公开，LaDi-WM本次未核到完整代码；两者可作为思想与方法对照依据，不能成为第一步跑通的依赖。ManiSkill GPU仿真优先使用受支持的Linux服务器，Windows本机主要看报告和视频。</p>
 <div class="table-scroll" tabindex="0"><table><thead><tr><th>阶段</th><th>做什么</th><th>产出与继续条件</th></tr></thead><tbody><tr><td>选题沟通</td><td>老师从A/B/C中确认一个主问题</td><td>确认方案是否值得投入，明确不追求一次覆盖所有方向</td></tr><tr><td>首轮诊断</td><td>一个任务、一份已有检查点、少量开发初态、可控扰动</td><td>失败分类、对照视频、误差与成功曲线；先确认动机成立</td></tr><tr><td>最小改进</td><td>一个小模块＋必要基线，统一数据和更新预算</td><td>证明收益不来自额外信息、样本或计算；无收益就调整假设</td></tr><tr><td>正式实验</td><td>扩展任务、训练种子、保留测试集和消融</td><td>多种子结果、区间、成本、失败例；再决定扩展HAB或视觉场景</td></tr></tbody></table></div>
 <p><strong>本次向老师确认的核心事项：</strong> 以A为主、B/C为备选的研究方案是否可行；重点判断科学问题是否足够明确、现有平台与算力是否能验证，以及哪一个方向最适合开题。贡献目前均为候选，不是已经取得的研究成果。</p>
-<h2 id="11--六篇jcr-q1期刊论文">11 · 六篇JCR Q1期刊论文</h2>
+<h2 id="15--六篇jcr-q1期刊论文">15 · 六篇JCR Q1期刊论文</h2>
 <p>点击题名展开阅读卡。正式发表身份与公开附件版本分开记录；“我们的推论”表示待验证的研究判断。</p>
 <details id="J01">
 <summary><strong>J01</strong> · A review of learning-based dynamics models for robotic manipulation · Science Robotics</summary>
@@ -463,6 +519,7 @@ main blockquote{border-radius:8px;padding:17px 23px}main>h1{font-size:28px}
 <p><strong>论文实际平台与任务：</strong> 覆盖刚性物体重新定位、装箱、工具使用和可变形物体操作等任务族。文中汇总多项研究，并没有统一重跑一个 Meta-World 或 ManiSkill 测试集。</p>
 <p><strong>评估标准和指标：</strong> 讨论预测质量与控制效果；各被综述研究采用目标误差、任务成功率及规划成本等不同指标，不存在本综述的统一排行榜。</p>
 <p><strong>局限性与研究空白：</strong> 作者总结表示的紧凑性与表达能力、泛化与计算成本，以及不完美模型下可靠控制的挑战。我们的推论：需要在同一任务和同一预算下把模型误差与最终失败联系起来验证。</p>
+<p><strong>本轮局限证据定位：</strong> <a href="https://www.jiajunwu.com/papers/dynamicssurvey_scirobot.pdf#page=7">表示比较与展望，PDF第7、10–12页</a>；<a href="https://www.jiajunwu.com/papers/dynamicssurvey_scirobot.pdf#page=7">表示比较与操作任务，PDF第7–11页</a>。作者明示与本报告推论见前文逐课题表。</p>
 <p><strong>本项目如何使用：</strong> 优先精读的方向综述，适合搭建相关工作结构；不作为直接运行的算法基线。</p>
 <p><a href="https://doi.org/10.1126/scirobotics.adt1497">正式发表记录</a> · <a href="https://www.jiajunwu.com/papers/dynamicssurvey_scirobot.pdf">论文PDF</a> · <a href="zotero://select/library/items/M7F3ZM4J">在Zotero中打开</a> · <a href="https://www.hichristensen.com/publication/scirob-25-survey/">数据／任务资源入口</a></p>
 </details>
@@ -476,6 +533,7 @@ main blockquote{border-radius:8px;padding:17px 23px}main>h1{font-size:28px}
 <p><strong>论文实际平台与任务：</strong> 涉及机器人、自动驾驶及其他具身应用；评价部分讨论 WorldSimBench、WorldScore、PhysBench 等。它不是特定机械臂任务上的统一复现实验。</p>
 <p><strong>评估标准和指标：</strong> 不同任务采用视觉质量、物理一致性、下游任务完成效果等指标；引用它可说明评估异质性，不能把不同量纲直接求平均。</p>
 <p><strong>局限性与研究空白：</strong> 广泛覆盖带来任务细节分散；尚不足以直接决定本项目的任务版本、控制接口和成功条件。我们的课题仍需独立制定可复现实验协议。</p>
+<p><strong>本轮局限证据定位：</strong> <a href="https://fi.ee.tsinghua.edu.cn/~dingjingtao/papers/3746449.pdf#page=23">§6.1、§6.3，PDF第23–24页</a>。作者明示与本报告推论见前文逐课题表。</p>
 <p><strong>本项目如何使用：</strong> 适合建立背景和分类。正式在线发表为2025年9月，卷58期3对应2026年；按DOI只计一篇，BibTeX采用在线发表年并注明卷期。</p>
 <p><a href="https://doi.org/10.1145/3746449">正式发表记录</a> · <a href="https://fi.ee.tsinghua.edu.cn/~dingjingtao/papers/3746449.pdf">论文PDF</a> · <a href="zotero://select/library/items/VRWNZP2U">在Zotero中打开</a></p>
 </details>
@@ -489,6 +547,7 @@ main blockquote{border-radius:8px;padding:17px 23px}main>h1{font-size:28px}
 <p><strong>论文实际平台与任务：</strong> 覆盖8类领域、150余项控制任务，包括DMControl等；原文涉及像素与状态设置。和TD-MPC2每步采样规划的机制不同。</p>
 <p><strong>评估标准和指标：</strong> 真实环境回合回报、任务得分、学习曲线与聚合跨任务性能；想象回报用于训练，不等于测试环境实际得分。</p>
 <p><strong>局限性与研究空白：</strong> 我们的推论：广泛任务结果并不自动证明受控接触突变或系统观测丢失下的可靠恢复；循环记忆本身已有先行工作，不能把加GRU单独称为创新。</p>
+<p><strong>本轮局限证据定位：</strong> <a href="https://www.nature.com/articles/s41586-025-08744-2.pdf#page=2">World model learning，PDF第2页</a>。作者明示与本报告推论见前文逐课题表。</p>
 <p><strong>本项目如何使用：</strong> 是模型学习＋想象策略的强方法对照。双A6000可考虑单任务小规模适配，不能由模型能装入显存推断全量论文预算可复现。</p>
 <p><a href="https://doi.org/10.1038/s41586-025-08744-2">正式发表记录</a> · <a href="https://www.nature.com/articles/s41586-025-08744-2.pdf">论文PDF</a> · <a href="zotero://select/library/items/K5HMGYP3">在Zotero中打开</a> · <a href="https://github.com/danijar/dreamerv3">代码</a> · <a href="https://github.com/danijar/dreamerv3">数据／任务资源入口</a></p>
 </details>
@@ -502,6 +561,7 @@ main blockquote{border-radius:8px;padding:17px 23px}main>h1{font-size:28px}
 <p><strong>论文实际平台与任务：</strong> CALVIN与SIMPLER仿真，以及真实机器人测试；官方仓库提供CALVIN/OXE数据训练与评测入口。</p>
 <p><strong>评估标准和指标：</strong> CALVIN连续任务完成比例与平均链长，SIMPLER及真实任务成功率；比较时必须固定数据、任务划分和动作接口。</p>
 <p><strong>局限性与研究空白：</strong> 我们的推论：VLA输入和预训练规模会混淆世界模型模块的贡献，不能把更强的基策略当成世界模型改进证据；真实部署结论不能由我们的纯仿真实验直接继承。</p>
+<p><strong>本轮局限证据定位：</strong> <a href="https://www.nature.com/articles/s42256-025-01168-7.pdf#page=15">VLA形式比较及限制，PDF第9、15页</a>；<a href="https://www.nature.com/articles/s42256-025-01168-7.pdf#page=9">方法形式比较，PDF第9、15页</a>。作者明示与本报告推论见前文逐课题表。</p>
 <p><strong>本项目如何使用：</strong> 作为视觉策略和实验控制依据；两卡优先用公开权重及小规模适配，完整大规模训练不列为开题前提。</p>
 <p><a href="https://doi.org/10.1038/s42256-025-01168-7">正式发表记录</a> · <a href="https://arxiv.org/pdf/2412.14058">论文PDF</a> · <a href="zotero://select/library/items/J8HQYI7I">在Zotero中打开</a> · <a href="https://github.com/Robot-VLAs/RoboVLMs">代码</a> · <a href="https://huggingface.co/robovlms/RoboVLMs">数据／任务资源入口</a></p>
 <p><strong>附件版本：</strong> Zotero保留作者公开全文，条目及BibTeX引用上列正式期刊／会议版本；arXiv附件不另计一篇。</p>
@@ -515,7 +575,8 @@ main blockquote{border-radius:8px;padding:17px 23px}main>h1{font-size:28px}
 <p><strong>采用什么方法：</strong> 动作条件触觉预测器与滑移分类结合，通过预测控制调整六自由度轨迹，降低未来滑移风险。</p>
 <p><strong>论文实际平台与任务：</strong> 真实Franka机械臂、多物体与多类取放轨迹，并有人体实验与机器人数据。没有官方ManiSkill任务ID，不属于已在MS2重跑的算法。</p>
 <p><strong>评估标准和指标：</strong> 最大物体旋转MOR；物体旋转超过6°的时间步数量RTS；参考轨迹与调整轨迹逐步欧氏距离之和DRT；另报告优化目标值ROV。MOR与RTS越小越好，正文Table 2定义指标，并比较未见物体、轨迹和起终位置。</p>
-<p><strong>局限性与研究空白：</strong> 依赖触觉输入和实机数据。我们的推论：在仅有低维状态的仿真里研究接触稳定性可借鉴思路，但不能声称已经复现其触觉防滑实验。</p>
+<p><strong>局限性与研究空白：</strong> 作者在Discussion（PDF第7页）明确指出：控制器尚未考虑预测误差、依赖离线训练、物体集合有限且存在计算复杂度；扩展到没有预定参考轨迹的任务仍需研究。使用动作条件触觉预测已经是其贡献。本项目在低维仿真中可研究接触事件与预测可信度，但不能称为复现了同款触觉硬件防滑控制。</p>
+<p><strong>本轮局限证据定位：</strong> <a href="https://eprints.whiterose.ac.uk/id/eprint/232148/1/s42256-025-01062-2.pdf#page=7">Discussion，PDF第7页</a>。作者明示与本报告推论见前文逐课题表。</p>
 <p><strong>本项目如何使用：</strong> 为“抓到后能否稳定搬运”提供直接问题依据；数据与代码从项目入口获取，仿真课题需要另建对应观测和扰动协议。</p>
 <p><a href="https://doi.org/10.1038/s42256-025-01062-2">正式发表记录</a> · <a href="https://eprints.whiterose.ac.uk/id/eprint/232148/1/s42256-025-01062-2.pdf">论文PDF</a> · <a href="zotero://select/library/items/ER4J2A65">在Zotero中打开</a> · <a href="https://github.com/imanlab/bgf">代码</a> · <a href="https://proactive-control.github.io/">数据／任务资源入口</a></p>
 </details>
@@ -528,11 +589,12 @@ main blockquote{border-radius:8px;padding:17px 23px}main>h1{font-size:28px}
 <p><strong>采用什么方法：</strong> 学习指令与实际运动响应之间的关系，分层重构控制；通过持续交互适应静态、动态及状态相关扰动。</p>
 <p><strong>论文实际平台与任务：</strong> 真实履带机器人与仿真六足机器人，涉及电机、摩擦和外力等变化；不是机械臂抓取基准。</p>
 <p><strong>评估标准和指标：</strong> 轨迹跟踪误差、线路完成时间和重复测试的恢复效果；不同扰动下评估适应速度与性能。</p>
-<p><strong>局限性与研究空白：</strong> 我们的推论：移动机器人控制响应修正不等于已经解决抓取接触切换；在线恢复和黑箱控制修正本身已有工作，拟创新应定位于误更新防止或任务特定可靠性。</p>
+<p><strong>局限性与研究空白：</strong> 作者在Discussion与Methods（PDF第8–9页）明确指出：完全传感失败、错误读数或极端噪声会使方法失败；现有全局适应主要基于差速运动假设，机械臂等更复杂系统需要改变模型。FLAIR已经包含数据聚合、Soft Outlier Rejection、重置与过滤，非平稳函数的主动学习仍待研究。因此“加入异常过滤”本身不能作为我们的创新；应比较真实动力学突变被误滤与观测异常被误更新之间的取舍。</p>
+<p><strong>本轮局限证据定位：</strong> <a href="https://www.nature.com/articles/s41467-026-70256-y.pdf#page=8">Discussion及Methods，PDF第8–9页</a>。作者明示与本报告推论见前文逐课题表。</p>
 <p><strong>本项目如何使用：</strong> 2026年在线适应的重要近邻证据；可参考公开六足仿真，当前项目优先将科学问题落到已有机械臂任务。</p>
 <p><a href="https://doi.org/10.1038/s41467-026-70256-y">正式发表记录</a> · <a href="https://www.nature.com/articles/s41467-026-70256-y.pdf">论文PDF</a> · <a href="zotero://select/library/items/4SF6WIN7">在Zotero中打开</a> · <a href="https://github.com/adaptive-intelligent-robotics/FLAIR">代码</a> · <a href="https://github.com/adaptive-intelligent-robotics/FLAIR">数据／任务资源入口</a></p>
 </details>
-<h2 id="12--十二篇顶会方法与闭环评测论文">12 · 十二篇顶会方法与闭环评测论文</h2>
+<h2 id="16--十二篇顶会方法与闭环评测论文">16 · 十二篇顶会方法与闭环评测论文</h2>
 <p>点击题名展开阅读卡。正式发表身份与公开附件版本分开记录；“我们的推论”表示待验证的研究判断。</p>
 <details id="M01">
 <summary><strong>M01</strong> · TD-MPC2: Scalable, Robust World Models for Continuous Control · ICLR 2024</summary>
@@ -544,6 +606,7 @@ main blockquote{border-radius:8px;padding:17px 23px}main>h1{font-size:28px}
 <p><strong>论文实际平台与任务：</strong> DMControl、Meta-World、ManiSkill2、MyoSuite，共104项在线RL任务；可直接关联现有复现的DMC Walker Walk/Run、Meta-World PickPlace和ManiSkill2 PickCube。</p>
 <p><strong>评估标准和指标：</strong> 环境真实回合回报、按平台定义的成功率、聚合归一化得分和样本效率。规划中的预测奖励加终端价值并不是最终评测回合回报，DMC也不能自动转换为末步成功率。</p>
 <p><strong>局限性与研究空白：</strong> 作者讨论奖励设计和利用奖励漏洞等风险；短视界规划仍依赖终端价值。我们的推论：接触突变或观测缺失下，潜空间预测误差与控制失败之间的关系需要单独验证，原论文不能证明这些问题已解决。统一超参数不等于全部实验都由同一权重模型完成。</p>
+<p><strong>本轮局限证据定位：</strong> <a href="https://proceedings.iclr.cc/paper_files/paper/2024/file/cf73d57b6dcda32b293df7c2d5341f49-Paper-Conference.pdf#page=3">§3–4，PDF第3–5页</a>；<a href="https://proceedings.iclr.cc/paper_files/paper/2024/file/cf73d57b6dcda32b293df7c2d5341f49-Paper-Conference.pdf#page=3">§3、规划超参数附录</a>；<a href="https://proceedings.iclr.cc/paper_files/paper/2024/file/cf73d57b6dcda32b293df7c2d5341f49-Paper-Conference.pdf#page=3">§3，PDF第3–4页</a>。作者明示与本报告推论见前文逐课题表。</p>
 <p><strong>本项目如何使用：</strong> 高：用户已有低维状态版本及复现结果，可作主基线。两张A6000适合先做单任务受控实验；不据此承诺复现作者全量多任务预训练。</p>
 <p><a href="https://openreview.net/forum?id=Oxh5CstDJU">正式发表记录</a> · <a href="https://proceedings.iclr.cc/paper_files/paper/2024/file/cf73d57b6dcda32b293df7c2d5341f49-Paper-Conference.pdf">论文PDF</a> · <a href="zotero://select/library/items/GS3RGXBH">在Zotero中打开</a> · <a href="https://github.com/nicklashansen/tdmpc2">代码</a> · <a href="https://www.tdmpc2.com/">数据／任务资源入口</a></p>
 </details>
@@ -557,6 +620,7 @@ main blockquote{border-radius:8px;padding:17px 23px}main>h1{font-size:28px}
 <p><strong>论文实际平台与任务：</strong> DMControl加HumanoidBench共42项连续控制任务；正文明确比较Walker Run、Humanoid Run、Dog Run，也报告Walker Walk/Dog Walk耗时。原文没有完成Meta-World或ManiSkill抓取实验。</p>
 <p><strong>评估标准和指标：</strong> 回合回报、样本效率和学习曲线、多种子置信区间、训练时间与time-to-solve；环境数据通过在线交互产生，并非必须下载固定离线示范集。</p>
 <p><strong>局限性与研究空白：</strong> 作者在第6节明确指出长时序预测能力不足，TD-horizon采用1；多任务和离线设置尚未验证。我们的推论：迁移到接触抓取仍需验证，不能把其运动任务收益当成机械臂成功证据。</p>
+<p><strong>本轮局限证据定位：</strong> <a href="https://proceedings.iclr.cc/paper_files/paper/2025/file/8636419dea1aa9fbd25fc4248e702da4-Paper-Conference.pdf#page=10">§5.1、§6，PDF第8–10页</a>。作者明示与本报告推论见前文逐课题表。</p>
 <p><strong>本项目如何使用：</strong> 较高：可以先在已有DMC任务复现，再移植机械臂。模型规模较小，但在线交互与规划决定实际耗时，应短跑测预算。</p>
 <p><a href="https://proceedings.iclr.cc/paper_files/paper/2025/hash/8636419dea1aa9fbd25fc4248e702da4-Abstract-Conference.html">正式发表记录</a> · <a href="https://proceedings.iclr.cc/paper_files/paper/2025/file/8636419dea1aa9fbd25fc4248e702da4-Paper-Conference.pdf">论文PDF</a> · <a href="zotero://select/library/items/MQMV9ILJ">在Zotero中打开</a> · <a href="https://github.com/wertyuilife2/bmpc">代码</a> · <a href="https://github.com/wertyuilife2/bmpc">数据／任务资源入口</a></p>
 </details>
@@ -569,7 +633,8 @@ main blockquote{border-radius:8px;padding:17px 23px}main>h1{font-size:28px}
 <p><strong>采用什么方法：</strong> IMLE条件生成动力学；模型集成与潜变量采样分别提供认知和偶然不确定性线索；按预测可信度加权想象数据进行强化学习。</p>
 <p><strong>论文实际平台与任务：</strong> DMC、HumanoidBench和MyoSuite共40项。官方启动例子含humanoid-run、h1-maze-v0和myo-key-turn-hard。不能写成已在Meta-World PickPlace或ManiSkill PickCube验证。</p>
 <p><strong>评估标准和指标：</strong> 真实环境回报、学习曲线、样本效率和最终性能；仓库results目录含逐任务多种子原始曲线。不同平台回报不能统一称为成功率。</p>
-<p><strong>局限性与研究空白：</strong> 我们的推论：不确定性加权想象学习不等于执行阶段的可靠失败报警；论文尚不能证明相同分数对机械臂抓取分布偏移已校准。模型集成与合成rollout增加计算，原方法不直接等同TD-MPC2规划器。</p>
+<p><strong>局限性与研究空白：</strong> 作者在§6（PDF第10页）明确指出：世界模型仅用于生成合成rollout，模型规划和其他策略梯度用途未探索；实验使用本体状态；rollout视界是任务相关超参数，并已提出按模型置信度在线调整视界。我们的推论：不确定性不自动区分噪声与动力学变化，也不等于追加规划收益；不能把“置信度调视界”单独当作原创。</p>
+<p><strong>本轮局限证据定位：</strong> <a href="https://openreview.net/pdf?id=mzLOnTb3WH#page=10">§3.3–3.4、§6，PDF第4–6、10页</a>；<a href="https://openreview.net/pdf?id=mzLOnTb3WH#page=10">§3与§6，PDF第3–6、10页</a>；<a href="https://openreview.net/pdf?id=mzLOnTb3WH#page=10">§6，PDF第10页</a>。作者明示与本报告推论见前文逐课题表。</p>
 <p><strong>本项目如何使用：</strong> 中高：低维状态单任务可试；原实现使用JAX，并按平台提供依赖。优先已有DMC任务或MyoSuite钥匙旋转，先测试集成与合成rollout的实际开销。</p>
 <p><a href="https://proceedings.iclr.cc/paper_files/paper/2026/hash/6179c61e70d961ddfd441ac329278c9d-Abstract-Conference.html">正式发表记录</a> · <a href="https://proceedings.iclr.cc/paper_files/paper/2026/file/6179c61e70d961ddfd441ac329278c9d-Paper-Conference.pdf">论文PDF</a> · <a href="zotero://select/library/items/CHA3T87U">在Zotero中打开</a> · <a href="https://github.com/mehranagh20/wimle">代码</a> · <a href="https://github.com/mehranagh20/wimle">数据／任务资源入口</a></p>
 </details>
@@ -582,7 +647,8 @@ main blockquote{border-radius:8px;padding:17px 23px}main>h1{font-size:28px}
 <p><strong>采用什么方法：</strong> 冻结DINOv2 patch特征；Transformer预测动作条件未来特征；以目标图像特征为优化目标进行动作序列优化和MPC。</p>
 <p><strong>论文实际平台与任务：</strong> PointMaze、Wall、PushT、DMC Reacher、Rope、Granular；另有不同形状推物及环境配置的泛化演示。项目和代码提供数据及模型资源入口。</p>
 <p><strong>评估标准和指标：</strong> 各环境定义的任务成功、目标到达效果或粒子目标误差；必须按环境解释阈值，不能统一套用ManiSkill末步成功条件。</p>
-<p><strong>局限性与研究空白：</strong> 我们的推论：zero-shot是新目标规划，训练仍使用环境轨迹；目标特征距离不保证抓稳或满足全部物理成功条件。数据和权重有公开入口，不表示本次完成所有资源端到端下载及环境安装。</p>
+<p><strong>局限性与研究空白：</strong> 作者在局限段（PDF第9页）明确指出：依赖有足够状态—动作覆盖的离线数据以及真实动作标签，未来可结合探索、在线更新与分层控制。我们的推论：目标视觉特征距离不保证抓稳或满足全部物理成功条件，覆盖不足时增加搜索也可能利用模型误差。zero-shot指新目标规划，训练并非不需要环境轨迹。</p>
+<p><strong>本轮局限证据定位：</strong> <a href="https://raw.githubusercontent.com/mlresearch/v267/main/assets/zhou25t/zhou25t.pdf#page=9">§3及局限，PDF第3–5、9页</a>。作者明示与本报告推论见前文逐课题表。</p>
 <p><strong>本项目如何使用：</strong> 中高：公开数据和权重适合先做视觉预测与规划小课题。与现有低维TD-MPC2比较时需控制输入信息差异，不能把视觉模型直接当同观测基线。</p>
 <p><a href="https://proceedings.mlr.press/v267/zhou25t.html">正式发表记录</a> · <a href="https://raw.githubusercontent.com/mlresearch/v267/main/assets/zhou25t/zhou25t.pdf">论文PDF</a> · <a href="zotero://select/library/items/I7TNE4HZ">在Zotero中打开</a> · <a href="https://github.com/gaoyuezhou/dino_wm">代码</a> · <a href="https://github.com/gaoyuezhou/dino_wm">数据／任务资源入口</a></p>
 </details>
@@ -596,6 +662,7 @@ main blockquote{border-radius:8px;padding:17px 23px}main>h1{font-size:28px}
 <p><strong>论文实际平台与任务：</strong> PointMaze、Wall、PushT、Block Pushing、Granular、Rope；作者项目还报告LIBERO-10以及真实Pick-and-Place、Close-Drawer。</p>
 <p><strong>评估标准和指标：</strong> 任务成功率、规划时间及速度—效果关系；另以nHSIC和探测误差分析保留的信息。规划时间统计单位和硬件必须随原协议说明。</p>
 <p><strong>局限性与研究空白：</strong> 作者结果显示丢弃比例过高会损失成功率。我们的推论：低维TD-MPC2不存在相同视觉token瓶颈；少采几个候选动作不是本文方法，单独减少计算也不足以构成新贡献。</p>
+<p><strong>本轮局限证据定位：</strong> <a href="https://openreview.net/pdf/24fe46f6c8fd3b542798b4a83189990353b83a26.pdf#page=5">§3、表1–3，PDF第3、5–7页</a>。作者明示与本报告推论见前文逐课题表。</p>
 <p><strong>本项目如何使用：</strong> 中：适合以DINO-WM为起点的视觉规划预算研究，可先跑公开小任务；不能把两张A6000的估计容量当成全量原实验复现承诺。</p>
 <p><a href="https://proceedings.iclr.cc/paper_files/paper/2026/hash/a750d52284ff70c6d6bab8072c392d74-Abstract-Conference.html">正式发表记录</a> · <a href="https://openreview.net/pdf/24fe46f6c8fd3b542798b4a83189990353b83a26.pdf">论文PDF</a> · <a href="zotero://select/library/items/5J8IRZPL">在Zotero中打开</a> · <a href="https://github.com/joon-stack/sparse_imagination">代码</a> · <a href="https://github.com/joon-stack/sparse_imagination">数据／任务资源入口</a></p>
 </details>
@@ -609,6 +676,7 @@ main blockquote{border-radius:8px;padding:17px 23px}main>h1{font-size:28px}
 <p><strong>论文实际平台与任务：</strong> 绳索拉直、颗粒聚拢、刚性箱体推动、布料移位；仿真随机化产生训练数据，并在真实xArm验证。代码含PyFleX数据生成安装说明与数据/权重入口。</p>
 <p><strong>评估标准和指标：</strong> Chamfer Distance、箱体角点MSE、颗粒到目标区域距离；随动作步数的误差曲线以及随误差阈值的成功率曲线。</p>
 <p><strong>局限性与研究空白：</strong> 我们的推论：依赖粒子/几何表示和给定材料参数化，不是任意感知缺失或任意接触模式下的通用适应。物理参数估计、主动辨识以及不确定性选动作均有直接先行工作，不能将这些概念本身称为新贡献。</p>
+<p><strong>本轮局限证据定位：</strong> <a href="https://robopil.github.io/adaptigraph/AdaptiGraph_RSS24.pdf#page=4">§III-B–D，PDF第4–5页；附录第15页</a>；<a href="https://robopil.github.io/adaptigraph/AdaptiGraph_RSS24.pdf#page=4">§III，PDF第4–5页</a>。作者明示与本报告推论见前文逐课题表。</p>
 <p><strong>本项目如何使用：</strong> 中：官方代码在RTX 4090测试，可先用已有数据做预测与适应实验；A6000实际耗时待短跑测定，PyFleX构建有工程成本。</p>
 <p><a href="https://www.roboticsproceedings.org/rss20/p010.html">正式发表记录</a> · <a href="https://robopil.github.io/adaptigraph/AdaptiGraph_RSS24.pdf">论文PDF</a> · <a href="zotero://select/library/items/7LDDTNX6">在Zotero中打开</a> · <a href="https://github.com/Boey-li/AdaptiGraph">代码</a> · <a href="https://github.com/Boey-li/AdaptiGraph">数据／任务资源入口</a></p>
 </details>
@@ -621,7 +689,8 @@ main blockquote{border-radius:8px;padding:17px 23px}main>h1{font-size:28px}
 <p><strong>采用什么方法：</strong> 仿真专家、中间策略及扰动轨迹共同预训练；部署时冻结表征、奖励、价值和策略先验，只微调潜空间动力学；包含历史编码、并行动作块预测和MPPI。</p>
 <p><strong>论文实际平台与任务：</strong> UR5e的Peg Insertion、Table Leg装配；Unitree Go2的Slippery Slope和Foam。公开仓库使用IsaacLab并提供四足仿真部署；不能把尚未发布的机械臂代码当成立即可跑的资源。</p>
 <p><strong>评估标准和指标：</strong> 机械臂成功率；四足实际前进距离和通过效果；仿真消融中的成功率或回合奖励；预测误差及随适应数据量的改进。</p>
-<p><strong>局限性与研究空白：</strong> 我们的推论：需要任务结构以及冻结的奖励/价值仍可迁移；任务目标改变或表征遗漏关键接触时，只改动力学可能不足。作者已研究数据规模、失败/恢复轨迹多样性、历史与动作块等设计，不宜重复当新贡献。资源边界：README明确四足已公开，Manipulation code release coming soon。</p>
+<p><strong>局限性与研究空白：</strong> 作者在§V-E与§VI（PDF第8–9页）报告解冻编码器／价值造成退化，并明确指出冻结价值在高表现轨迹上可能饱和、限制最终性能，仍依赖广泛仿真覆盖。SimDist已包含历史、动作块及失败／恢复数据；选择性更新价值也是作者提出的未来方向。我们的推论：新课题必须具体验证混合偏移中的更新接受机制，不能把冻结模块、小数据适应或补失败数据当作首次。机械臂代码可用性仍以已核验的README边界为准。</p>
+<p><strong>本轮局限证据定位：</strong> <a href="https://arxiv.org/pdf/2603.15759v2#page=9">§IV、§V-E、§VI，PDF第4–5、8–9页</a>；<a href="https://arxiv.org/pdf/2603.15759v2#page=4">式1与§IV-C，PDF第3–5页</a>。作者明示与本报告推论见前文逐课题表。</p>
 <p><strong>本项目如何使用：</strong> 思想适配性高，整套原实验复现中低。先在现有ManiSkill内做动力学变化实验更现实，但属于迁移实现；不建议以作者机械臂代码公开作为当前课题启动前提。</p>
 <p><a href="https://www.roboticsproceedings.org/rss22/p017.html">正式发表记录</a> · <a href="https://arxiv.org/pdf/2603.15759v2">论文PDF</a> · <a href="zotero://select/library/items/46C3QL34">在Zotero中打开</a> · <a href="https://github.com/CLeARoboticsLab/simdist">代码</a> · <a href="https://github.com/CLeARoboticsLab/simdist">数据／任务资源入口</a></p>
 </details>
@@ -635,6 +704,7 @@ main blockquote{border-radius:8px;padding:17px 23px}main>h1{font-size:28px}
 <p><strong>论文实际平台与任务：</strong> CALVIN D环境八技能：open-drawer、close-drawer、move-slider-left/right、turn-on/off-lightbulb、turn-on/off-LED；附录含LIBERO-90。不是CALVIN ABC到D全任务链结果。</p>
 <p><strong>评估标准和指标：</strong> 单技能真实仿真成功率、3训练种子；达到同等效果所需真实环境步；奖励分类器precision/recall。想象步与真实交互步分别统计，离线微调不等于初始play数据没有交互成本。</p>
 <p><strong>局限性与研究空白：</strong> 作者第7节明确指出：固定世界模型错误会被策略利用；想象中的改进不保证真环境效果，需测试中间checkpoint；已提出少量在线交互纠正模型的未来方向。我们的推论：课题应研究何时更新、哪些数据值得更新和如何避免误更新，而非只增加在线微调。</p>
+<p><strong>本轮局限证据定位：</strong> <a href="https://raw.githubusercontent.com/mlresearch/v305/main/assets/chandra25a/chandra25a.pdf#page=9">§7，PDF第9页</a>。作者明示与本报告推论见前文逐课题表。</p>
 <p><strong>本项目如何使用：</strong> 中高：官方代码已经公开，包含world model、特征、策略和奖励分类器的权重入口，close_drawer是可执行起点。正式摘要保留匿名占位不代表代码仍未公开；实际GPU预算需短跑测定。</p>
 <p><a href="https://proceedings.mlr.press/v305/chandra25a.html">正式发表记录</a> · <a href="https://raw.githubusercontent.com/mlresearch/v305/main/assets/chandra25a/chandra25a.pdf">论文PDF</a> · <a href="zotero://select/library/items/5BQ83JP7">在Zotero中打开</a> · <a href="https://github.com/acl21/diwa">代码</a> · <a href="https://github.com/acl21/diwa">数据／任务资源入口</a></p>
 </details>
@@ -647,7 +717,8 @@ main blockquote{border-radius:8px;padding:17px 23px}main>h1{font-size:28px}
 <p><strong>采用什么方法：</strong> DINO几何与CLIP语义潜空间的交互扩散模型；未来潜状态作为扩散动作策略的条件，反复修正动作。</p>
 <p><strong>论文实际平台与任务：</strong> LIBERO-LONG十项，如放碗进抽屉后关闭、放杯进微波炉后关闭、把食物放入篮子；附录使用CALVIN D到D；另有真实操作。</p>
 <p><strong>评估标准和指标：</strong> LIBERO单任务和平均成功率；CALVIN连续完成1至5项的比例与平均链长；完整示范和少量动作标签设置需分开。</p>
-<p><strong>局限性与研究空白：</strong> 作者第6节指出训练数据规模有限，附录认为过长未来预测可能受累积误差影响。我们的推论：不能据此声称任意物理扰动都可恢复，仍需同表征和动作模型预算的比较。资源边界：本次未核验完整官方代码，正式页面仍写将公开。引用纠错：预印本附录错称TD-MPC2 solely image reconstruction，不能转述；TD-MPC2无decoder。</p>
+<p><strong>局限性与研究空白：</strong> 作者在§6（PDF第9页）明确指出训练样本规模有限，长预测受累积误差限制，并提出加入记忆维持长程一致性。我们的推论：不能把“世界模型加记忆”或迭代修正动作本身作为新贡献；应定位具体事件记忆或技能衔接机制。完整官方代码本次仍未确认。原预印本对TD-MPC2图像重建的错误转述不应沿用，TD-MPC2不依赖decoder重建目标。</p>
+<p><strong>本轮局限证据定位：</strong> <a href="https://raw.githubusercontent.com/mlresearch/v305/main/assets/huang25a/huang25a.pdf#page=9">§6，PDF第9页</a>；<a href="https://raw.githubusercontent.com/mlresearch/v305/main/assets/huang25a/huang25a.pdf#page=9">§4与§6，PDF第5、9页</a>。作者明示与本报告推论见前文逐课题表。</p>
 <p><strong>本项目如何使用：</strong> 方法参考价值中高，即刻完整复现低；LIBERO/CALVIN本身有公开资源，但不能将LaDi-WM未核验的完整实现或权重作为启动条件。</p>
 <p><a href="https://proceedings.mlr.press/v305/huang25a.html">正式发表记录</a> · <a href="https://raw.githubusercontent.com/mlresearch/v305/main/assets/huang25a/huang25a.pdf">论文PDF</a> · <a href="zotero://select/library/items/2DNWAUC2">在Zotero中打开</a></p>
 </details>
@@ -661,6 +732,7 @@ main blockquote{border-radius:8px;padding:17px 23px}main>h1{font-size:28px}
 <p><strong>论文实际平台与任务：</strong> LIBERO-90预训练，LIBERO-10中五项微调与评估：Book-Caddy、Soup-Cheese、Bowl-Drawer、Moka-Moka、Mug-Mug，如拿书放收纳架后部、碗放底部抽屉并关闭；另含DROID预训练及真实Franka任务。</p>
 <p><strong>评估标准和指标：</strong> 3微调种子、每种子50初始化的成功率；扩大物体初始化范围、移除背景物体的OOD测试。该五任务自定义偏移结果不是完整LIBERO-10标准分数。</p>
 <p><strong>局限性与研究空白：</strong> 作者第VII节指出尚未利用大规模人类视频解决本体差异，正向预测存在伪影可能损害规划，更密集视频预测仍待研究。我们的推论：联合视频/动作建模已有明确先行工作，不能单独作为新贡献。</p>
+<p><strong>本轮局限证据定位：</strong> <a href="https://arxiv.org/html/2504.02792v1#S7">§III-C、§VII，作者HTML</a>；<a href="https://arxiv.org/html/2504.02792v1#S7">§III、§VII，作者HTML</a>。作者明示与本报告推论见前文逐课题表。</p>
 <p><strong>本项目如何使用：</strong> 中：优先公开权重和小数据子集；不建议在两张A6000上从头复现大规模预训练。需匹配相同预训练数据与基础策略，控制额外信息优势。</p>
 <p><a href="https://www.roboticsproceedings.org/rss21/p015.html">正式发表记录</a> · <a href="https://arxiv.org/pdf/2504.02792">论文PDF</a> · <a href="zotero://select/library/items/94DHLM7Z">在Zotero中打开</a> · <a href="https://github.com/WEIRDLabUW/unified-world-model">代码</a> · <a href="https://weirdlabuw.github.io/uwm/">数据／任务资源入口</a></p>
 </details>
@@ -674,6 +746,7 @@ main blockquote{border-radius:8px;padding:17px 23px}main>h1{font-size:28px}
 <p><strong>论文实际平台与任务：</strong> SIMPLER的WidowX Spoon on towel、Carrot on plate、Stack blocks、Eggplant basket，以及Google Robot Pick Can、Put Near；另有真实任务。官方提供基于Bridge/Fractal数据训练的价值模型权重和评估脚本。</p>
 <p><strong>评估标准和指标：</strong> 任务成功率、跨基础策略平均效果和推理成本；不能把平均改善写成每个单任务均提高。</p>
 <p><strong>局限性与研究空白：</strong> 作者第7节明确指出需要策略随机产生多样候选，额外计算可能影响高频控制，对全新语言和物体受限于两个训练本体的数据。我们的推论：可以作为检验额外世界模型预测是否超越普通价值排序的对照，不应把V-GPS本身归为新动力学世界模型。</p>
+<p><strong>本轮局限证据定位：</strong> <a href="https://raw.githubusercontent.com/mlresearch/v270/main/assets/nakamoto25a/nakamoto25a.pdf#page=8">§7与附录G，PDF第8页起</a>。作者明示与本报告推论见前文逐课题表。</p>
 <p><strong>本项目如何使用：</strong> 中高：有价值模型checkpoint和SIMPLER脚本，可先运行冻结权重评测。会议届次2024与PMLR出版年2025应同时记录，避免重复计为两篇。</p>
 <p><a href="https://proceedings.mlr.press/v270/nakamoto25a.html">正式发表记录</a> · <a href="https://raw.githubusercontent.com/mlresearch/v270/main/assets/nakamoto25a/nakamoto25a.pdf">论文PDF</a> · <a href="zotero://select/library/items/9P9LBZYZ">在Zotero中打开</a> · <a href="https://github.com/nakamotoo/V-GPS">代码</a> · <a href="https://github.com/nakamotoo/V-GPS">数据／任务资源入口</a></p>
 </details>
@@ -686,11 +759,12 @@ main blockquote{border-radius:8px;padding:17px 23px}main>h1{font-size:28px}
 <p><strong>采用什么方法：</strong> 将不同生成世界模型接入标准动作接口；基础策略提出动作，世界模型辅助在线规划，以真实环境执行反馈构成闭环评测。</p>
 <p><strong>论文实际平台与任务：</strong> 四类覆盖主动识别、主动具身问答、图像目标导航和操作。原论文Appendix B.4的操作任务是RLBench Push Buttons、Slide Block to Color Target、Insert onto Square Peg、Stack Cups，各50回合。仓库后续增加LIBERO后端，不应当作原论文原始实验。</p>
 <p><strong>评估标准和指标：</strong> 操作任务成功率及控制步预算；导航/问答使用各自效果和效率指标。不同基础动作策略的决策步预算及辅助位姿信息不完全相同，比较必须标明。</p>
-<p><strong>局限性与研究空白：</strong> 我们的推论：有限任务和模型不能代表全部具身应用；基础策略、辅助位姿和候选预算会影响增益归因。视觉质量不等于闭环成功的评测理念已经存在，不能把该转向本身宣称为我们的创新。</p>
+<p><strong>局限性与研究空白：</strong> 作者在§4（PDF第10页）明确讨论域外动作控制失真、长程时空历史不足，以及接触、摩擦、柔顺性等精细物理预测困难。我们的推论：可围绕其中一个失败机制提出小规模实验，但不能把“视觉质量不等于闭环成功”的评测转向当原创。原文任务与后续仓库扩展、基础策略、辅助信息和候选预算须分开记录。</p>
+<p><strong>本轮局限证据定位：</strong> <a href="https://openreview.net/pdf/899312aa4057cd37a60a334613406d8d111108e8.pdf#page=10">§4，PDF第10页</a>。作者明示与本报告推论见前文逐课题表。</p>
 <p><strong>本项目如何使用：</strong> 评测设计价值高，完整部署中低。可先在已有TD-MPC2环境做受控闭环失败评估，不必搭完整VLM或视频模型服务器；公开代码/文档入口不等于本次完成全部后端安装。</p>
 <p><a href="https://proceedings.iclr.cc/paper_files/paper/2026/hash/5b4263be85820683d78675cc18d2efc7-Abstract-Conference.html">正式发表记录</a> · <a href="https://openreview.net/pdf/899312aa4057cd37a60a334613406d8d111108e8.pdf">论文PDF</a> · <a href="zotero://select/library/items/S736CDHU">在Zotero中打开</a> · <a href="https://github.com/World-In-World/world-in-world">代码</a> · <a href="https://github.com/World-In-World/world-in-world">数据／任务资源入口</a></p>
 </details>
-<h2 id="13--八篇顶会平台数据与策略论文">13 · 八篇顶会平台、数据与策略论文</h2>
+<h2 id="17--八篇顶会平台数据与策略论文">17 · 八篇顶会平台、数据与策略论文</h2>
 <p>点击题名展开阅读卡。正式发表身份与公开附件版本分开记录；“我们的推论”表示待验证的研究判断。</p>
 <details id="B01">
 <summary><strong>B01</strong> · Demonstrating GPU Parallelized Robot Simulation and Rendering for Generalizable Embodied AI with ManiSkill3 · Robotics: Science and Systems (RSS) 2025</summary>
@@ -702,6 +776,7 @@ main blockquote{border-radius:8px;padding:17px 23px}main>h1{font-size:28px}
 <p><strong>论文实际平台与任务：</strong> PickCube-v1：抓取方块并移至三维目标；StackCube-v1：把红方块稳定叠在绿方块上并松手；PegInsertionSide-v1：抓取杆件并插入侧向孔。</p>
 <p><strong>评估标准和指标：</strong> 任务成功率、FPS/SPS、GPU显存和训练效率。PickCube-v1要求方块距目标2.5 cm内且机器人静止；StackCube-v1要求红块在绿块上、静止且未被抓住。论文峰值吞吐只适用于其报告的环境与硬件。</p>
 <p><strong>局限性与研究空白：</strong> RSS正式题名与arXiv/仓库题名“ManiSkill3: GPU Parallelized Robotics Simulation and Rendering for Generalizable Embodied AI”不同，属于同一论文，只计一次。ManiSkill3的v1任务不能与已有ManiSkill2的v0任务混用；示范及奖励支持需逐任务核对。当前官方支持矩阵中Linux/NVIDIA支持GPU仿真和渲染，Windows/NVIDIA不支持GPU仿真，WSL不支持GPU仿真和渲染。</p>
+<p><strong>本轮局限证据定位：</strong> <a href="https://www.roboticsproceedings.org/rss21/p021.pdf#page=1">任务／演示与评估部分，PDF正文</a>。作者明示与本报告推论见前文逐课题表。</p>
 <p><strong>本项目如何使用：</strong> 适合接触阶段建模、扰动恢复和规划计算预算实验。双A6000可在受支持的Linux环境下从少量并行任务开始，分卡运行仿真与模型训练或不同种子；应实测显存与吞吐，不承诺论文峰值性能。此可行性判断未实际运行验证。</p>
 <p><a href="https://www.roboticsproceedings.org/rss21/p021.html">正式发表记录</a> · <a href="https://www.roboticsproceedings.org/rss21/p021.pdf">论文PDF</a> · <a href="zotero://select/library/items/DCE3IRBH">在Zotero中打开</a> · <a href="https://github.com/mani-skill/ManiSkill">代码</a> · <a href="https://maniskill.readthedocs.io/en/latest/tasks/table_top_gripper/index.html">数据／任务资源入口</a></p>
 </details>
@@ -715,6 +790,7 @@ main blockquote{border-radius:8px;padding:17px 23px}main>h1{font-size:28px}
 <p><strong>论文实际平台与任务：</strong> PickSubtaskTrain-v0、PlaceSubtaskTrain-v0、OpenSubtaskTrain-v0及SequentialTask-v0；长任务包括TidyHouse、PrepareGroceries和SetTable。</p>
 <p><strong>评估标准和指标：</strong> 子任务成功率、完整任务成功率、累计碰撞力条件和失败事件分布。ReplicaCAD划分为63个训练场景、21个验证场景；每个长任务有10,000个训练计划和1,000个验证计划。</p>
 <p><strong>局限性与研究空白：</strong> OpenReview标识为6bKEWevgSd。需固定兼容的ManiSkill分支、机器人控制方式、成功阈值和导航设置；teleport navigation与真实导航结果不可混写。子任务训练环境和完整SequentialTask环境的奖励支持不同。公开演示与检查点不代表原论文大量RL训练可以低成本全部复现。</p>
+<p><strong>本轮局限证据定位：</strong> <a href="https://openreview.net/pdf?id=6bKEWevgSd#page=8">§5.2、§6.2及附录A.6，PDF第8–9页起</a>；<a href="https://openreview.net/pdf?id=6bKEWevgSd#page=8">§5.2–6及附录，PDF第8–10页</a>。作者明示与本报告推论见前文逐课题表。</p>
 <p><strong>本项目如何使用：</strong> 适合碰撞约束恢复、失败类型预测、子技能衔接和长时序错误累积研究。双A6000先做单个Fetch Pick及少量场景；再扩展Place或短技能链。GPU并行仿真应使用受支持的Linux环境，并实测资源占用；这是实施判断，未实际复现。</p>
 <p><a href="https://iclr.cc/virtual/2025/poster/30874">正式发表记录</a> · <a href="https://arxiv.org/pdf/2412.13211">论文PDF</a> · <a href="zotero://select/library/items/MQH8ZITS">在Zotero中打开</a> · <a href="https://github.com/arth-shukla/mshab">代码</a> · <a href="https://arth-shukla.github.io/mshab/#dataset-section">数据／任务资源入口</a></p>
 <p><strong>附件版本：</strong> Zotero保留作者公开全文，条目及BibTeX引用上列正式期刊／会议版本；arXiv附件不另计一篇。</p>
@@ -729,6 +805,7 @@ main blockquote{border-radius:8px;padding:17px 23px}main>h1{font-size:28px}
 <p><strong>论文实际平台与任务：</strong> PickPlaceCounterToCabinet：柜门已打开时将物体放入柜中；OpenDrawer：打开抽屉；PreSoakPan：把锅和海绵放入水槽并开水；PrepareCoffee：取杯、放到咖啡机下并启动咖啡机。</p>
 <p><strong>评估标准和指标：</strong> 任务成功率。原子任务实验覆盖24任务，每任务50次评估、5个固定评估场景，使用未见物体实例，其中2个场景含未见风格；比较每任务50条人工演示与100/300/3000条合成演示等数据规模。</p>
 <p><strong>局限性与研究空白：</strong> RSS正式元数据题名写Household Tasks，作者PDF/项目/arXiv写Everyday Tasks，应记录别名且只计一次。当前代码和数据入口已演进到RoboCasa365，不可直接当作2024论文原实验版本。复合任务仍存在精细操作和阶段转换失败；仿真性能不自动等于真实迁移能力。</p>
+<p><strong>本轮局限证据定位：</strong> <a href="https://robocasa.ai/assets/robocasa_rss24.pdf#page=7">§IV，PDF第7页</a>。作者明示与本报告推论见前文逐课题表。</p>
 <p><strong>本项目如何使用：</strong> 适合研究合成数据选择、阶段转换失败和扰动恢复。双A6000可选择少量任务训练BC/DP或小模型，CPU、内存、存储与渲染吞吐仍需实测。与RoboCasa365属于同一平台的不同论文阶段，可分别计论文，但不能视为完全独立基准。</p>
 <p><a href="https://www.roboticsproceedings.org/rss20/p050.html">正式发表记录</a> · <a href="https://robocasa.ai/assets/robocasa_rss24.pdf">论文PDF</a> · <a href="zotero://select/library/items/L93D9XEV">在Zotero中打开</a> · <a href="https://github.com/robocasa/robocasa">代码</a> · <a href="https://robocasa.ai/docs/build/html/datasets/datasets_overview.html">数据／任务资源入口</a></p>
 </details>
@@ -742,6 +819,7 @@ main blockquote{border-radius:8px;padding:17px 23px}main>h1{font-size:28px}
 <p><strong>论文实际平台与任务：</strong> Handover Block：双臂交接方块；Lift Pot：协作抬锅；Stack Blocks Two：堆叠两个方块；Place Bread Basket：将面包放入篮子。</p>
 <p><strong>评估标准和指标：</strong> 专家任务程序生成成功率、不同任务和机器人上的策略成功率，以及少样本/零样本真实迁移表现。清洁、随机化及跨环境评估条件需分别报告。</p>
 <p><strong>局限性与研究空白：</strong> 正式ICML 2026 OpenReview标识为itonej9GIV；不能用此前ICLR投稿页作为最终发表证据。作者PDF/预印本与正式会议摘要的效果数字存在版本表述差异，应绑定引用版本。自动专家程序生成另依赖MLLM；当前仓库的XPolicyLab评估和数据解码接口是后续更新，需固定版本。</p>
+<p><strong>本轮局限证据定位：</strong> <a href="https://arxiv.org/pdf/2506.18088#page=3">专家生成与随机化，PDF第3–5、9页</a>。作者明示与本报告推论见前文逐课题表。</p>
 <p><strong>本项目如何使用：</strong> 双A6000适合固定机器人上的少量任务ACT/DP训练或VLA适配，研究双臂协调、扰动鲁棒性和生成数据选择。优先使用已公开轨迹；完整自动程序生成的MLLM成本需另计。未实际测试显存、训练时间或闭环表现。</p>
 <p><a href="https://icml.cc/virtual/2026/poster/62192">正式发表记录</a> · <a href="https://arxiv.org/pdf/2506.18088">论文PDF</a> · <a href="zotero://select/library/items/7ZNQ3QM4">在Zotero中打开</a> · <a href="https://github.com/RoboTwin-Platform/RoboTwin">代码</a> · <a href="https://huggingface.co/datasets/TianxingChen/RoboTwin2.0/tree/main/dataset">数据／任务资源入口</a></p>
 <p><strong>附件版本：</strong> Zotero保留作者公开全文，条目及BibTeX引用上列正式期刊／会议版本；arXiv附件不另计一篇。</p>
@@ -756,6 +834,7 @@ main blockquote{border-radius:8px;padding:17px 23px}main>h1{font-size:28px}
 <p><strong>论文实际平台与任务：</strong> google_robot_pick_coke_can、google_robot_open_top_drawer、widowx_spoon_on_towel、widowx_stack_cube；支持Google Robot和WidowX两种身体。</p>
 <p><strong>评估标准和指标：</strong> 仿真任务成功率、与真实策略成功率的Pearson相关，以及Mean Maximum Rank Violation（MMRV，越低越好）。项目报告真实与仿真各约1,500个评估回合的配对证据。</p>
 <p><strong>局限性与研究空白：</strong> 会议届次为2024，PMLR正式出版年为2025，去重标识为pmlr-v270-li25c。资源主要是评测环境、资产和策略推理接口，不是统一训练演示数据集。已有sim-real相关性不保证在任意新策略、任务或分布偏移下成立；没有新增真实闭环实验时不得声称证明真实成功率提升。</p>
+<p><strong>本轮局限证据定位：</strong> <a href="https://raw.githubusercontent.com/mlresearch/v270/main/assets/li25c/li25c.pdf#page=8">§4–5，PDF第4、8–9页</a>。作者明示与本报告推论见前文逐课题表。</p>
 <p><strong>本项目如何使用：</strong> 双A6000可分别运行策略推理和仿真，适合检查点选择、策略鲁棒性和世界模型辅助策略评测研究。动作尺度、控制频率与视觉设置必须对齐；新方法先报告明确的仿真指标。资源可行性未实际测试。</p>
 <p><a href="https://proceedings.mlr.press/v270/li25c.html">正式发表记录</a> · <a href="https://raw.githubusercontent.com/mlresearch/v270/main/assets/li25c/li25c.pdf">论文PDF</a> · <a href="zotero://select/library/items/XXMX2E29">在Zotero中打开</a> · <a href="https://github.com/simpler-env/SimplerEnv">代码</a> · <a href="https://simpler-env.github.io/">数据／任务资源入口</a></p>
 </details>
@@ -769,6 +848,7 @@ main blockquote{border-radius:8px;padding:17px 23px}main>h1{font-size:28px}
 <p><strong>论文实际平台与任务：</strong> 真实机器人取放、关节物体操作和日常场景操作；论文/项目报告6任务、4地点的真实评估。DROID没有可直接调用的标准仿真任务ID。</p>
 <p><strong>评估标准和指标：</strong> 真实闭环任务成功率、不同地点及新物体/干扰物下的分布外成功率；比较无联合训练、Open-X联合训练和DROID联合训练。</p>
 <p><strong>局限性与研究空白：</strong> 这是纯真实数据资源，不是仿真环境。作者数组严格取RSS正式页面的98条citation_author及其顺序；该名单与新版项目页/arXiv的扩充名单不同。RSS摘要与PDF/当前项目页存在65k与76k轨迹口径差异，轨迹数量需注明版本。静态数据不能给出新策略真实闭环成功率。</p>
+<p><strong>本轮局限证据定位：</strong> <a href="https://www.roboticsproceedings.org/rss20/p120.pdf#page=4">机器人平台与数据收集，PDF第3–5页</a>；<a href="https://www.roboticsproceedings.org/rss20/p120.pdf#page=4">平台与数据协议，PDF第3–5页</a>。作者明示与本报告推论见前文逐课题表。</p>
 <p><strong>本项目如何使用：</strong> 双A6000适合对数据子集做特征提取、视觉表征学习及策略微调。官方完整RLDS约1.7TB，100回合调试集约2GB，存储与解码吞吐是实际约束。可作为仿真研究的真实离线外部验证数据，但不可伪装成新的真实闭环评估；未实际测试。</p>
 <p><a href="https://www.roboticsproceedings.org/rss20/p120.html">正式发表记录</a> · <a href="https://www.roboticsproceedings.org/rss20/p120.pdf">论文PDF</a> · <a href="zotero://select/library/items/N2C4RB5P">在Zotero中打开</a> · <a href="https://github.com/droid-dataset/droid_policy_learning">代码</a> · <a href="https://raw.githubusercontent.com/droid-dataset/droid/main/docs/the-droid-dataset.md">数据／任务资源入口</a></p>
 </details>
@@ -781,7 +861,8 @@ main blockquote{border-radius:8px;padding:17px 23px}main>h1{font-size:28px}
 <p><strong>采用什么方法：</strong> 基于Llama 2，融合DINOv2和SigLIP视觉特征，将机器人动作离散化为token进行自回归预测；使用多机器人Open X-Embodiment数据训练，采用参数高效方法适配下游任务。</p>
 <p><strong>论文实际平台与任务：</strong> 原论文主要证据为真实机器人、多身体和多任务操作，正式摘要报告29任务比较。公开仓库提供BridgeData V2/WidowX推理以及LIBERO微调与评测支持；LIBERO可作为下游仿真实验平台。</p>
 <p><strong>评估标准和指标：</strong> 闭环任务成功率、多物体与语言目标泛化表现、下游微调性能、推理及微调计算成本；训练action token accuracy不能替代任务成功率。</p>
-<p><strong>局限性与研究空白：</strong> 会议届次为2024，PMLR出版年为2025，去重标识为pmlr-v270-kim25c。VLA不是显式动作条件世界模型；后续仓库新增评测或OFT功能不能全部当作原论文贡献。需固定身体、动作尺度、归一化及数据分布。代码和权重许可不完全相同。</p>
+<p><strong>局限性与研究空白：</strong> 原论文§5（PDF第8–9页）指出当时模型只支持单图像观测，多图像／本体输入仍待扩展。该边界不适用于未经核对的2026后续变体。VLA并非显式动作条件动力学模型；作为视觉策略参照时须固定动作归一化、本体、数据和计算，不把更强策略的收益归于新增世界模型。会议届次2024、PMLR出版年2025按同一条目去重。</p>
+<p><strong>本轮局限证据定位：</strong> <a href="https://raw.githubusercontent.com/mlresearch/v270/main/assets/kim25c/kim25c.pdf#page=8">§5，PDF第8–9页</a>。作者明示与本报告推论见前文逐课题表。</p>
 <p><strong>本项目如何使用：</strong> 双A6000适合推理、冻结策略对照或LoRA微调。官方LoRA说明可从约27GB显存起，通过小batch和梯度累积适配48GB单卡；完整微调官方示例为8×A100规模，不宜把从头预训练列作本项目默认路线。此判断未实际运行验证。</p>
 <p><a href="https://proceedings.mlr.press/v270/kim25c.html">正式发表记录</a> · <a href="https://raw.githubusercontent.com/mlresearch/v270/main/assets/kim25c/kim25c.pdf">论文PDF</a> · <a href="zotero://select/library/items/XCCCEQKG">在Zotero中打开</a> · <a href="https://github.com/openvla/openvla">代码</a> · <a href="https://robotics-transformer-x.github.io/">数据／任务资源入口</a></p>
 </details>
@@ -794,17 +875,19 @@ main blockquote{border-radius:8px;padding:17px 23px}main>h1{font-size:28px}
 <p><strong>采用什么方法：</strong> 结合多样化厨房场景、人工遥操作与MimicGen合成数据，设计任务和环境划分，比较数据量、任务多样性和环境变化对通用策略表现的影响。</p>
 <p><strong>论文实际平台与任务：</strong> PickPlaceCounterToCabinet、OpenDrawer及复合备餐/清洁任务。当前目标数据集覆盖50任务、10个不同于预训练的场景、每任务500条人工演示；分18个Atomic-Seen、16个Composite-Seen和16个Composite-Unseen任务。</p>
 <p><strong>评估标准和指标：</strong> 在明确的预训练、目标任务适配或终身学习协议下报告任务成功率，以及不同任务子集和环境泛化条件下的表现。不可只给总体平均而混淆不同训练设置。</p>
-<p><strong>局限性与研究空白：</strong> OpenReview标识为tQJYKwc3n4。作者PDF全名Sepehr Nasiriany在正式摘要页写作Sep Nasiriany，属于同一作者。Composite-Unseen仅表示未出现在预训练任务集中，不自动等于未经目标数据适配的零样本。当前复合数据有逐帧子任务标注；v1.0.1任务时限增长1.5倍，均应与论文原实验版本区分。与RoboCasa 2024是同平台不同论文阶段，不能视为两个完全独立基准。</p>
+<p><strong>局限性与研究空白：</strong> 作者在正文结尾（PDF第10页）指出平台仍限于厨房、无法覆盖真实世界完整物理与感知复杂度；附录第23页给出取放及流程失败案例。Composite-Unseen仅表示未在预训练任务集中，不等于没有目标任务适配。与RoboCasa2024属于同平台谱系；当前子任务标注与v1.0.1时限变化须和论文版本分开。</p>
+<p><strong>本轮局限证据定位：</strong> <a href="https://robocasa.ai/assets/robocasa365_iclr26.pdf#page=23">§4与附录，PDF第9–10、23页</a>。作者明示与本报告推论见前文逐课题表。</p>
 <p><strong>本项目如何使用：</strong> 双A6000优先利用公开策略、少量任务及子任务标注研究阶段建模、失败恢复和规划预算；全规模基础模型训练并非默认可行路线。可与RoboCasa 2024分别计正式论文，但实验平台谱系应合并说明。硬件可行性仅为判断，未实际复现。</p>
 <p><a href="https://proceedings.iclr.cc/paper_files/paper/2026/hash/a05003fdb1e9562ab0c0a9719ea4de10-Abstract-Conference.html">正式发表记录</a> · <a href="https://robocasa.ai/assets/robocasa365_iclr26.pdf">论文PDF</a> · <a href="zotero://select/library/items/C27AT866">在Zotero中打开</a> · <a href="https://github.com/robocasa/robocasa">代码</a> · <a href="https://robocasa.ai/docs/build/html/datasets/datasets_overview.html">数据／任务资源入口</a></p>
 </details>
-<h2 id="14--zotero管理与overleaf引用">14 · Zotero管理与Overleaf引用</h2>
-<p>本次已完成<strong>26/26文献条目与26/26本地PDF附件核验</strong>，其中8篇新增、18篇复用。新条目进入“课题文献_正式文献_20260908”；已有条目沿用原有分类，不重复导入。新条目包含本轮阅读笔记，并增加了一份覆盖全部26篇的索引笔记，保存同样的问题、贡献、方法、任务、指标和局限，便于检索。</p>
+<h2 id="18--zotero管理与overleaf引用">18 · Zotero管理与Overleaf引用</h2>
+<p>本报告前一版已完成<strong>26/26文献条目与26/26本地PDF附件核验</strong>，其中8篇新增、18篇复用。新条目进入“课题文献_正式文献_20260908”；已有条目沿用原有分类，不重复导入。新条目包含本轮阅读笔记，并增加了一份覆盖全部26篇的索引笔记，保存同样的问题、贡献、方法、任务、指标和局限，便于检索。</p>
 <p><a href="zotero://select/library/items/Y4SCSNP3">打开Zotero中的26篇阅读卡索引</a>。报告每张论文卡也可直接定位对应条目。已核验的是本机Zotero数据库记录及PDF文件；这不等于确认Zotero云同步状态。</p>
 <p>配套文件：<a href="reports/world_model_topics_20260911/world_model_topics_26refs.bib">26篇BibTeX</a> · <a href="reports/world_model_topics_20260911/文献与Zotero核验清单.csv">文献与Zotero核验清单CSV</a> · <a href="reports/world_model_topics_20260911/papers.json">完整论文卡JSON</a> · <a href="reports/world_model_topics_20260911/zotero_audit.json">附件核验记录</a>。</p>
+<p>此次深化继续使用同一26篇文献与引用键，没有新增条目。前一版Zotero索引笔记保留原阅读卡；本轮新增的逐课题挑战与方法以本地HTML／Markdown及<a href="reports/world_model_topics_20260911/evidence_topic_challenges/topic_evidence.json">论证证据清单</a>为准，不声称已经同步到该索引笔记。</p>
 <p>在Overleaf中上传BibTeX文件后，可写 <code>\cite{WMM01_2024,WMM07_2026,WMM03_2026}</code> 引用TD-MPC2、SimDist和WIMLE。当前只交付可导入文件，<strong>没有修改Overleaf项目正文，也没有自动建立持续同步</strong>；引用键以本次BibTeX为准。</p>
-<h2 id="15--阅读深度版本边界与可复现记录">15 · 阅读深度、版本边界与可复现记录</h2>
-<p>本轮核验范围：正式发表元数据、摘要、与选题有关的方法／实验／局限段落、官方代码与数据入口。各卡不标为“已完成逐页精读”或“已成功复现”。公开代码可访问也不等于在本机已经装好或跑通。</p>
+<h2 id="19--阅读深度版本边界与可复现记录">19 · 阅读深度、版本边界与可复现记录</h2>
+<p>本轮深化使用26篇既有Zotero附件，定向核对上述表格引用的方法／实验／局限段落，并补读2026近邻的原文边界；M10局限使用作者HTML交叉核对。这里是围绕候选问题的定向综合，不是穷尽全领域的系统综述。原有正式发表身份与资源记录保留。各卡不标为“已完成逐页精读”或“已成功复现”。公开代码可访问也不等于在本机已经装好或跑通。</p>
 <p>仅凭26篇的主题交集不能宣布研究空白已被穷尽。选定A/B/C之一后，应继续围绕准确问题做定向查新，把最接近的2026方法落实为实验对照；若近邻已解决同一问题，应调整假设。</p>
 <p>复现版本差异已明确保留：ManiSkill2与ManiSkill3任务版本、Meta-World V2与当前版本、RoboCasa 2024与365、CALVIN单技能与任务链、UWM的5任务子集、World-In-World原论文RLBench任务与后续LIBERO支持。所有候选贡献与预算均为下一阶段设计，本报告不新增实验结果。</p>
 <p>本文由可编辑Markdown及结构化文献清单生成，HTML页头保存源文件摘要；配套文件与核验记录一并保留，后续改动应先修改源稿再重新生成HTML。</p>
@@ -812,8 +895,8 @@ main blockquote{border-radius:8px;padding:17px 23px}main>h1{font-size:28px}
 <footer class="aris-footer">
   Generated by <a href="https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/render-html/SKILL.md">ARIS <code>/render-html</code></a> ·
   source path <code>世界模型与机器人操作_高水平文献与可执行课题报告.md</code> ·
-  SHA256 <code>24d67010ddf1</code> ·
-  generated at 2026-09-11 09:37 UTC.
+  SHA256 <code>0fcb9657d4ee</code> ·
+  generated at 2026-09-11 11:23 UTC.
   This is a generated view — edit the source Markdown, then re-render.
 </footer>
 </main>

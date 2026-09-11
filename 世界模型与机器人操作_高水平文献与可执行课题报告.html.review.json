@@ -2,9 +2,6 @@
   "verdict": "PASS",
   "review_independence": "same-family",
   "acceptance_status": "provisional",
-  "critical_count": 0,
-  "major_count": 0,
-  "minor_count": 0,
   "checks": {
     "source_hash_match": "pass",
     "information_fidelity": "pass",
@@ -14,9 +11,7 @@
     "safety_escaping": "pass",
     "placeholder_leak": "pass"
   },
-  "findings": [],
   "blocking_issues": [],
   "warnings": [],
-  "source_sha256": "24d67010ddf15359cc003b62abf8ec8336019ba4d8b0f9f817c796061f2a03c6",
-  "summary": "The final HTML faithfully and safely renders the frozen Markdown source. The embedded SHA256 matches 24d67010ddf15359cc003b62abf8ec8336019ba4d8b0f9f817c796061f2a03c6. All 15 numbered sections, 22 source headings, 26 uniquely identified paper cards with their nine expected fields, eight tables, 63 inline-code spans, and the single information callout are preserved. The source contains no fenced code blocks, Markdown list items, or math delimiters. All 567 normalized source text and table-cell units were found in the rendered main content. All 168 source links are retained, including 27 constrained Zotero item links; the only additional link is the expected generated ARIS footer link. All 21 internal fragment links resolve to unique IDs, all eight local links resolve in both copies, and the standalone copy differs only by the expected repository-name prefix. Tags are balanced, the controlled CSS and eight table-scroll wrappers are present, and no scripts, event handlers, unsafe javascript/vbscript/data URLs, forbidden embedded elements, unreplaced placeholders, or private parser markers were found."
+  "summary": "Both frozen HTML copies faithfully render the final Markdown at SHA256 0fcb9657d4ee3be3305dd5eecfca08d8d4360ba859d744fc051e05debe977c56. The audit confirmed all 19 numbered sections, five topics A–E, 41 evidence rows across 26 cited IDs, 15 challenge/method mappings, 18 tables with exact cell text, 26 expandable paper cards, 75 inline-code spans, the info callout, and all nine SVG text nodes. Heading order and text match exactly; all fragment targets are valid and unique; all nine local links in each copy resolve. The two copies have identical visible content and DOM structure apart from the intended local-URL rebasing. No scripts, event handlers, unsafe URL schemes, disallowed content tags, or placeholder/private-token leakage were found."
 }

@@ -1,0 +1,3 @@
+*.txt
+*.json
+!topic_evidence.json

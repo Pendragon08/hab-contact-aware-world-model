@@ -56,10 +56,28 @@
     "zotero_collections": [
       "课题文献_正式文献_20260908"
     ],
-    "read_scope": "正式发表元数据、摘要、有关方法/实验/局限段落及官方资源；不是逐页精读或成功复现声明",
+    "read_scope": "正式元数据与原有阅读卡；本轮定向核对方法、实验、局限段落及页序，见topic_evidence；不是逐页精读或复现声明",
     "checked_at": "2026-09-11",
     "downloaded_pdf_url": "https://www.jiajunwu.com/papers/dynamicssurvey_scirobot.pdf",
-    "zotero_url": "zotero://select/library/items/M7F3ZM4J"
+    "zotero_url": "zotero://select/library/items/M7F3ZM4J",
+    "topic_evidence": [
+      {
+        "paper_id": "J01",
+        "topic_section": "A · 每篇参考文献提供了什么局限证据",
+        "locator": "表示比较与展望，PDF第7、10–12页",
+        "url": "https://www.jiajunwu.com/papers/dynamicssurvey_scirobot.pdf#page=7",
+        "zotero_key": "M7F3ZM4J",
+        "evidence_basis": "targeted method/experiment/limitation passage; authors claims and report inference distinguished in table"
+      },
+      {
+        "paper_id": "J01",
+        "topic_section": "B · 每篇参考文献提供了什么局限证据",
+        "locator": "表示比较与操作任务，PDF第7–11页",
+        "url": "https://www.jiajunwu.com/papers/dynamicssurvey_scirobot.pdf#page=7",
+        "zotero_key": "M7F3ZM4J",
+        "evidence_basis": "targeted method/experiment/limitation passage; authors claims and report inference distinguished in table"
+      }
+    ]
   },
   {
     "id": "J02",
@@ -120,10 +138,20 @@
     "zotero_collections": [
       "课题文献_正式文献_20260908"
     ],
-    "read_scope": "正式发表元数据、摘要、有关方法/实验/局限段落及官方资源；不是逐页精读或成功复现声明",
+    "read_scope": "正式元数据与原有阅读卡；本轮定向核对方法、实验、局限段落及页序，见topic_evidence；不是逐页精读或复现声明",
     "checked_at": "2026-09-11",
     "downloaded_pdf_url": "https://fi.ee.tsinghua.edu.cn/~dingjingtao/papers/3746449.pdf",
-    "zotero_url": "zotero://select/library/items/VRWNZP2U"
+    "zotero_url": "zotero://select/library/items/VRWNZP2U",
+    "topic_evidence": [
+      {
+        "paper_id": "J02",
+        "topic_section": "D · 每篇参考文献提供了什么局限证据",
+        "locator": "§6.1、§6.3，PDF第23–24页",
+        "url": "https://fi.ee.tsinghua.edu.cn/~dingjingtao/papers/3746449.pdf#page=23",
+        "zotero_key": "VRWNZP2U",
+        "evidence_basis": "targeted method/experiment/limitation passage; authors claims and report inference distinguished in table"
+      }
+    ]
   },
   {
     "id": "J03",
@@ -176,9 +204,19 @@
     "zotero_collections": [
       "课题文献_正式文献_20260908"
     ],
-    "read_scope": "正式发表元数据、摘要、有关方法/实验/局限段落及官方资源；不是逐页精读或成功复现声明",
+    "read_scope": "正式元数据与原有阅读卡；本轮定向核对方法、实验、局限段落及页序，见topic_evidence；不是逐页精读或复现声明",
     "checked_at": "2026-09-11",
-    "zotero_url": "zotero://select/library/items/K5HMGYP3"
+    "zotero_url": "zotero://select/library/items/K5HMGYP3",
+    "topic_evidence": [
+      {
+        "paper_id": "J03",
+        "topic_section": "D · 每篇参考文献提供了什么局限证据",
+        "locator": "World model learning，PDF第2页",
+        "url": "https://www.nature.com/articles/s41586-025-08744-2.pdf#page=2",
+        "zotero_key": "K5HMGYP3",
+        "evidence_basis": "targeted method/experiment/limitation passage; authors claims and report inference distinguished in table"
+      }
+    ]
   },
   {
     "id": "J04",
@@ -240,10 +278,28 @@
     "zotero_collections": [
       "课题文献_正式文献_20260908"
     ],
-    "read_scope": "正式发表元数据、摘要、有关方法/实验/局限段落及官方资源；不是逐页精读或成功复现声明",
+    "read_scope": "正式元数据与原有阅读卡；本轮定向核对方法、实验、局限段落及页序，见topic_evidence；不是逐页精读或复现声明",
     "checked_at": "2026-09-11",
     "downloaded_pdf_url": "https://arxiv.org/pdf/2412.14058",
-    "zotero_url": "zotero://select/library/items/J8HQYI7I"
+    "zotero_url": "zotero://select/library/items/J8HQYI7I",
+    "topic_evidence": [
+      {
+        "paper_id": "J04",
+        "topic_section": "C · 每篇参考文献提供了什么局限证据",
+        "locator": "VLA形式比较及限制，PDF第9、15页",
+        "url": "https://www.nature.com/articles/s42256-025-01168-7.pdf#page=15",
+        "zotero_key": "J8HQYI7I",
+        "evidence_basis": "targeted method/experiment/limitation passage; authors claims and report inference distinguished in table"
+      },
+      {
+        "paper_id": "J04",
+        "topic_section": "E · 每篇参考文献提供了什么局限证据",
+        "locator": "方法形式比较，PDF第9、15页",
+        "url": "https://www.nature.com/articles/s42256-025-01168-7.pdf#page=9",
+        "zotero_key": "J8HQYI7I",
+        "evidence_basis": "targeted method/experiment/limitation passage; authors claims and report inference distinguished in table"
+      }
+    ]
   },
   {
     "id": "J05",
@@ -268,7 +324,7 @@
     "method": "动作条件触觉预测器与滑移分类结合，通过预测控制调整六自由度轨迹，降低未来滑移风险。",
     "tasks": "真实Franka机械臂、多物体与多类取放轨迹，并有人体实验与机器人数据。没有官方ManiSkill任务ID，不属于已在MS2重跑的算法。",
     "metrics": "最大物体旋转MOR；物体旋转超过6°的时间步数量RTS；参考轨迹与调整轨迹逐步欧氏距离之和DRT；另报告优化目标值ROV。MOR与RTS越小越好，正文Table 2定义指标，并比较未见物体、轨迹和起终位置。",
-    "limitations": "依赖触觉输入和实机数据。我们的推论：在仅有低维状态的仿真里研究接触稳定性可借鉴思路，但不能声称已经复现其触觉防滑实验。",
+    "limitations": "作者在Discussion（PDF第7页）明确指出：控制器尚未考虑预测误差、依赖离线训练、物体集合有限且存在计算复杂度；扩展到没有预定参考轨迹的任务仍需研究。使用动作条件触觉预测已经是其贡献。本项目在低维仿真中可研究接触事件与预测可信度，但不能称为复现了同款触觉硬件防滑控制。",
     "reuse": "为“抓到后能否稳定搬运”提供直接问题依据；数据与代码从项目入口获取，仿真课题需要另建对应观测和扰动协议。",
     "volume": "7",
     "issue": "7",
@@ -297,10 +353,20 @@
     "zotero_collections": [
       "课题文献_正式文献_20260908"
     ],
-    "read_scope": "正式发表元数据、摘要、有关方法/实验/局限段落及官方资源；不是逐页精读或成功复现声明",
+    "read_scope": "正式元数据与原有阅读卡；本轮定向核对方法、实验、局限段落及页序，见topic_evidence；不是逐页精读或复现声明",
     "checked_at": "2026-09-11",
     "downloaded_pdf_url": "https://eprints.whiterose.ac.uk/id/eprint/232148/1/s42256-025-01062-2.pdf",
-    "zotero_url": "zotero://select/library/items/ER4J2A65"
+    "zotero_url": "zotero://select/library/items/ER4J2A65",
+    "topic_evidence": [
+      {
+        "paper_id": "J05",
+        "topic_section": "B · 每篇参考文献提供了什么局限证据",
+        "locator": "Discussion，PDF第7页",
+        "url": "https://eprints.whiterose.ac.uk/id/eprint/232148/1/s42256-025-01062-2.pdf#page=7",
+        "zotero_key": "ER4J2A65",
+        "evidence_basis": "targeted method/experiment/limitation passage; authors claims and report inference distinguished in table"
+      }
+    ]
   },
   {
     "id": "J06",
@@ -324,7 +390,7 @@
     "method": "学习指令与实际运动响应之间的关系，分层重构控制；通过持续交互适应静态、动态及状态相关扰动。",
     "tasks": "真实履带机器人与仿真六足机器人，涉及电机、摩擦和外力等变化；不是机械臂抓取基准。",
     "metrics": "轨迹跟踪误差、线路完成时间和重复测试的恢复效果；不同扰动下评估适应速度与性能。",
-    "limitations": "我们的推论：移动机器人控制响应修正不等于已经解决抓取接触切换；在线恢复和黑箱控制修正本身已有工作，拟创新应定位于误更新防止或任务特定可靠性。",
+    "limitations": "作者在Discussion与Methods（PDF第8–9页）明确指出：完全传感失败、错误读数或极端噪声会使方法失败；现有全局适应主要基于差速运动假设，机械臂等更复杂系统需要改变模型。FLAIR已经包含数据聚合、Soft Outlier Rejection、重置与过滤，非平稳函数的主动学习仍待研究。因此“加入异常过滤”本身不能作为我们的创新；应比较真实动力学突变被误滤与观测异常被误更新之间的取舍。",
     "reuse": "2026年在线适应的重要近邻证据；可参考公开六足仿真，当前项目优先将科学问题落到已有机械臂任务。",
     "volume": "17",
     "issue": "1",
@@ -353,9 +419,19 @@
     "zotero_collections": [
       "课题文献_正式文献_20260908"
     ],
-    "read_scope": "正式发表元数据、摘要、有关方法/实验/局限段落及官方资源；不是逐页精读或成功复现声明",
+    "read_scope": "正式元数据与原有阅读卡；本轮定向核对方法、实验、局限段落及页序，见topic_evidence；不是逐页精读或复现声明",
     "checked_at": "2026-09-11",
-    "zotero_url": "zotero://select/library/items/4SF6WIN7"
+    "zotero_url": "zotero://select/library/items/4SF6WIN7",
+    "topic_evidence": [
+      {
+        "paper_id": "J06",
+        "topic_section": "A · 每篇参考文献提供了什么局限证据",
+        "locator": "Discussion及Methods，PDF第8–9页",
+        "url": "https://www.nature.com/articles/s41467-026-70256-y.pdf#page=8",
+        "zotero_key": "4SF6WIN7",
+        "evidence_basis": "targeted method/experiment/limitation passage; authors claims and report inference distinguished in table"
+      }
+    ]
   },
   {
     "id": "M01",
@@ -399,9 +475,43 @@
       "世界模型与具身智能",
       "课题文献_正式文献_20260908"
     ],
-    "read_scope": "正式发表元数据、摘要、有关方法/实验/局限段落及官方资源；不是逐页精读或成功复现声明",
+    "read_scope": "正式元数据与原有阅读卡；本轮定向核对方法、实验、局限段落及页序，见topic_evidence；不是逐页精读或复现声明",
     "checked_at": "2026-09-11",
-    "zotero_url": "zotero://select/library/items/GS3RGXBH"
+    "zotero_url": "zotero://select/library/items/GS3RGXBH",
+    "topic_evidence": [
+      {
+        "paper_id": "M01",
+        "topic_section": "A · 每篇参考文献提供了什么局限证据",
+        "locator": "§3–4，PDF第3–5页",
+        "url": "https://proceedings.iclr.cc/paper_files/paper/2024/file/cf73d57b6dcda32b293df7c2d5341f49-Paper-Conference.pdf#page=3",
+        "zotero_key": "GS3RGXBH",
+        "evidence_basis": "targeted method/experiment/limitation passage; authors claims and report inference distinguished in table"
+      },
+      {
+        "paper_id": "M01",
+        "topic_section": "B · 每篇参考文献提供了什么局限证据",
+        "locator": "§3–4，PDF第3–5页",
+        "url": "https://proceedings.iclr.cc/paper_files/paper/2024/file/cf73d57b6dcda32b293df7c2d5341f49-Paper-Conference.pdf#page=3",
+        "zotero_key": "GS3RGXBH",
+        "evidence_basis": "targeted method/experiment/limitation passage; authors claims and report inference distinguished in table"
+      },
+      {
+        "paper_id": "M01",
+        "topic_section": "C · 每篇参考文献提供了什么局限证据",
+        "locator": "§3、规划超参数附录",
+        "url": "https://proceedings.iclr.cc/paper_files/paper/2024/file/cf73d57b6dcda32b293df7c2d5341f49-Paper-Conference.pdf#page=3",
+        "zotero_key": "GS3RGXBH",
+        "evidence_basis": "targeted method/experiment/limitation passage; authors claims and report inference distinguished in table"
+      },
+      {
+        "paper_id": "M01",
+        "topic_section": "D · 每篇参考文献提供了什么局限证据",
+        "locator": "§3，PDF第3–4页",
+        "url": "https://proceedings.iclr.cc/paper_files/paper/2024/file/cf73d57b6dcda32b293df7c2d5341f49-Paper-Conference.pdf#page=3",
+        "zotero_key": "GS3RGXBH",
+        "evidence_basis": "targeted method/experiment/limitation passage; authors claims and report inference distinguished in table"
+      }
+    ]
   },
   {
     "id": "M02",
@@ -446,9 +556,19 @@
     "zotero_collections": [
       "课题文献_正式文献_20260908"
     ],
-    "read_scope": "正式发表元数据、摘要、有关方法/实验/局限段落及官方资源；不是逐页精读或成功复现声明",
+    "read_scope": "正式元数据与原有阅读卡；本轮定向核对方法、实验、局限段落及页序，见topic_evidence；不是逐页精读或复现声明",
     "checked_at": "2026-09-11",
-    "zotero_url": "zotero://select/library/items/MQMV9ILJ"
+    "zotero_url": "zotero://select/library/items/MQMV9ILJ",
+    "topic_evidence": [
+      {
+        "paper_id": "M02",
+        "topic_section": "C · 每篇参考文献提供了什么局限证据",
+        "locator": "§5.1、§6，PDF第8–10页",
+        "url": "https://proceedings.iclr.cc/paper_files/paper/2025/file/8636419dea1aa9fbd25fc4248e702da4-Paper-Conference.pdf#page=10",
+        "zotero_key": "MQMV9ILJ",
+        "evidence_basis": "targeted method/experiment/limitation passage; authors claims and report inference distinguished in table"
+      }
+    ]
   },
   {
     "id": "M03",
@@ -473,7 +593,7 @@
     "method": "IMLE条件生成动力学；模型集成与潜变量采样分别提供认知和偶然不确定性线索；按预测可信度加权想象数据进行强化学习。",
     "tasks": "DMC、HumanoidBench和MyoSuite共40项。官方启动例子含humanoid-run、h1-maze-v0和myo-key-turn-hard。不能写成已在Meta-World PickPlace或ManiSkill PickCube验证。",
     "metrics": "真实环境回报、学习曲线、样本效率和最终性能；仓库results目录含逐任务多种子原始曲线。不同平台回报不能统一称为成功率。",
-    "limitations": "我们的推论：不确定性加权想象学习不等于执行阶段的可靠失败报警；论文尚不能证明相同分数对机械臂抓取分布偏移已校准。模型集成与合成rollout增加计算，原方法不直接等同TD-MPC2规划器。",
+    "limitations": "作者在§6（PDF第10页）明确指出：世界模型仅用于生成合成rollout，模型规划和其他策略梯度用途未探索；实验使用本体状态；rollout视界是任务相关超参数，并已提出按模型置信度在线调整视界。我们的推论：不确定性不自动区分噪声与动力学变化，也不等于追加规划收益；不能把“置信度调视界”单独当作原创。",
     "reuse": "中高：低维状态单任务可试；原实现使用JAX，并按平台提供依赖。优先已有DMC任务或MyoSuite钥匙旋转，先测试集成与合成rollout的实际开销。",
     "kind": "conferencePaper",
     "citation_key": "WMM03_2026",
@@ -492,10 +612,36 @@
     "zotero_collections": [
       "课题文献_正式文献_20260908"
     ],
-    "read_scope": "正式发表元数据、摘要、有关方法/实验/局限段落及官方资源；不是逐页精读或成功复现声明",
+    "read_scope": "正式元数据与原有阅读卡；本轮定向核对方法、实验、局限段落及页序，见topic_evidence；不是逐页精读或复现声明",
     "checked_at": "2026-09-11",
     "downloaded_pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/6179c61e70d961ddfd441ac329278c9d-Paper-Conference.pdf",
-    "zotero_url": "zotero://select/library/items/CHA3T87U"
+    "zotero_url": "zotero://select/library/items/CHA3T87U",
+    "topic_evidence": [
+      {
+        "paper_id": "M03",
+        "topic_section": "A · 每篇参考文献提供了什么局限证据",
+        "locator": "§3.3–3.4、§6，PDF第4–6、10页",
+        "url": "https://openreview.net/pdf?id=mzLOnTb3WH#page=10",
+        "zotero_key": "CHA3T87U",
+        "evidence_basis": "targeted method/experiment/limitation passage; authors claims and report inference distinguished in table"
+      },
+      {
+        "paper_id": "M03",
+        "topic_section": "B · 每篇参考文献提供了什么局限证据",
+        "locator": "§3与§6，PDF第3–6、10页",
+        "url": "https://openreview.net/pdf?id=mzLOnTb3WH#page=10",
+        "zotero_key": "CHA3T87U",
+        "evidence_basis": "targeted method/experiment/limitation passage; authors claims and report inference distinguished in table"
+      },
+      {
+        "paper_id": "M03",
+        "topic_section": "C · 每篇参考文献提供了什么局限证据",
+        "locator": "§6，PDF第10页",
+        "url": "https://openreview.net/pdf?id=mzLOnTb3WH#page=10",
+        "zotero_key": "CHA3T87U",
+        "evidence_basis": "targeted method/experiment/limitation passage; authors claims and report inference distinguished in table"
+      }
+    ]
   },
   {
     "id": "M04",
@@ -520,7 +666,7 @@
     "method": "冻结DINOv2 patch特征；Transformer预测动作条件未来特征；以目标图像特征为优化目标进行动作序列优化和MPC。",
     "tasks": "PointMaze、Wall、PushT、DMC Reacher、Rope、Granular；另有不同形状推物及环境配置的泛化演示。项目和代码提供数据及模型资源入口。",
     "metrics": "各环境定义的任务成功、目标到达效果或粒子目标误差；必须按环境解释阈值，不能统一套用ManiSkill末步成功条件。",
-    "limitations": "我们的推论：zero-shot是新目标规划，训练仍使用环境轨迹；目标特征距离不保证抓稳或满足全部物理成功条件。数据和权重有公开入口，不表示本次完成所有资源端到端下载及环境安装。",
+    "limitations": "作者在局限段（PDF第9页）明确指出：依赖有足够状态—动作覆盖的离线数据以及真实动作标签，未来可结合探索、在线更新与分层控制。我们的推论：目标视觉特征距离不保证抓稳或满足全部物理成功条件，覆盖不足时增加搜索也可能利用模型误差。zero-shot指新目标规划，训练并非不需要环境轨迹。",
     "reuse": "中高：公开数据和权重适合先做视觉预测与规划小课题。与现有低维TD-MPC2比较时需控制输入信息差异，不能把视觉模型直接当同观测基线。",
     "kind": "conferencePaper",
     "citation_key": "WMM04_2025",
@@ -539,9 +685,19 @@
     "zotero_collections": [
       "课题文献_正式文献_20260908"
     ],
-    "read_scope": "正式发表元数据、摘要、有关方法/实验/局限段落及官方资源；不是逐页精读或成功复现声明",
+    "read_scope": "正式元数据与原有阅读卡；本轮定向核对方法、实验、局限段落及页序，见topic_evidence；不是逐页精读或复现声明",
     "checked_at": "2026-09-11",
-    "zotero_url": "zotero://select/library/items/I7TNE4HZ"
+    "zotero_url": "zotero://select/library/items/I7TNE4HZ",
+    "topic_evidence": [
+      {
+        "paper_id": "M04",
+        "topic_section": "C · 每篇参考文献提供了什么局限证据",
+        "locator": "§3及局限，PDF第3–5、9页",
+        "url": "https://raw.githubusercontent.com/mlresearch/v267/main/assets/zhou25t/zhou25t.pdf#page=9",
+        "zotero_key": "I7TNE4HZ",
+        "evidence_basis": "targeted method/experiment/limitation passage; authors claims and report inference distinguished in table"
+      }
+    ]
   },
   {
     "id": "M05",
@@ -584,9 +740,19 @@
     "zotero_collections": [
       "课题文献_正式文献_20260908"
     ],
-    "read_scope": "正式发表元数据、摘要、有关方法/实验/局限段落及官方资源；不是逐页精读或成功复现声明",
+    "read_scope": "正式元数据与原有阅读卡；本轮定向核对方法、实验、局限段落及页序，见topic_evidence；不是逐页精读或复现声明",
     "checked_at": "2026-09-11",
-    "zotero_url": "zotero://select/library/items/5J8IRZPL"
+    "zotero_url": "zotero://select/library/items/5J8IRZPL",
+    "topic_evidence": [
+      {
+        "paper_id": "M05",
+        "topic_section": "C · 每篇参考文献提供了什么局限证据",
+        "locator": "§3、表1–3，PDF第3、5–7页",
+        "url": "https://openreview.net/pdf/24fe46f6c8fd3b542798b4a83189990353b83a26.pdf#page=5",
+        "zotero_key": "5J8IRZPL",
+        "evidence_basis": "targeted method/experiment/limitation passage; authors claims and report inference distinguished in table"
+      }
+    ]
   },
   {
     "id": "M06",
@@ -630,9 +796,27 @@
     "zotero_collections": [
       "课题文献_正式文献_20260908"
     ],
-    "read_scope": "正式发表元数据、摘要、有关方法/实验/局限段落及官方资源；不是逐页精读或成功复现声明",
+    "read_scope": "正式元数据与原有阅读卡；本轮定向核对方法、实验、局限段落及页序，见topic_evidence；不是逐页精读或复现声明",
     "checked_at": "2026-09-11",
-    "zotero_url": "zotero://select/library/items/7LDDTNX6"
+    "zotero_url": "zotero://select/library/items/7LDDTNX6",
+    "topic_evidence": [
+      {
+        "paper_id": "M06",
+        "topic_section": "A · 每篇参考文献提供了什么局限证据",
+        "locator": "§III-B–D，PDF第4–5页；附录第15页",
+        "url": "https://robopil.github.io/adaptigraph/AdaptiGraph_RSS24.pdf#page=4",
+        "zotero_key": "7LDDTNX6",
+        "evidence_basis": "targeted method/experiment/limitation passage; authors claims and report inference distinguished in table"
+      },
+      {
+        "paper_id": "M06",
+        "topic_section": "B · 每篇参考文献提供了什么局限证据",
+        "locator": "§III，PDF第4–5页",
+        "url": "https://robopil.github.io/adaptigraph/AdaptiGraph_RSS24.pdf#page=4",
+        "zotero_key": "7LDDTNX6",
+        "evidence_basis": "targeted method/experiment/limitation passage; authors claims and report inference distinguished in table"
+      }
+    ]
   },
   {
     "id": "M07",
@@ -662,7 +846,7 @@
     "method": "仿真专家、中间策略及扰动轨迹共同预训练；部署时冻结表征、奖励、价值和策略先验，只微调潜空间动力学；包含历史编码、并行动作块预测和MPPI。",
     "tasks": "UR5e的Peg Insertion、Table Leg装配；Unitree Go2的Slippery Slope和Foam。公开仓库使用IsaacLab并提供四足仿真部署；不能把尚未发布的机械臂代码当成立即可跑的资源。",
     "metrics": "机械臂成功率；四足实际前进距离和通过效果；仿真消融中的成功率或回合奖励；预测误差及随适应数据量的改进。",
-    "limitations": "我们的推论：需要任务结构以及冻结的奖励/价值仍可迁移；任务目标改变或表征遗漏关键接触时，只改动力学可能不足。作者已研究数据规模、失败/恢复轨迹多样性、历史与动作块等设计，不宜重复当新贡献。资源边界：README明确四足已公开，Manipulation code release coming soon。",
+    "limitations": "作者在§V-E与§VI（PDF第8–9页）报告解冻编码器／价值造成退化，并明确指出冻结价值在高表现轨迹上可能饱和、限制最终性能，仍依赖广泛仿真覆盖。SimDist已包含历史、动作块及失败／恢复数据；选择性更新价值也是作者提出的未来方向。我们的推论：新课题必须具体验证混合偏移中的更新接受机制，不能把冻结模块、小数据适应或补失败数据当作首次。机械臂代码可用性仍以已核验的README边界为准。",
     "reuse": "思想适配性高，整套原实验复现中低。先在现有ManiSkill内做动力学变化实验更现实，但属于迁移实现；不建议以作者机械臂代码公开作为当前课题启动前提。",
     "kind": "conferencePaper",
     "citation_key": "WMM07_2026",
@@ -681,9 +865,27 @@
     "zotero_collections": [
       "课题文献_正式文献_20260908"
     ],
-    "read_scope": "正式发表元数据、摘要、有关方法/实验/局限段落及官方资源；不是逐页精读或成功复现声明",
+    "read_scope": "正式元数据与原有阅读卡；本轮定向核对方法、实验、局限段落及页序，见topic_evidence；不是逐页精读或复现声明",
     "checked_at": "2026-09-11",
-    "zotero_url": "zotero://select/library/items/46C3QL34"
+    "zotero_url": "zotero://select/library/items/46C3QL34",
+    "topic_evidence": [
+      {
+        "paper_id": "M07",
+        "topic_section": "A · 每篇参考文献提供了什么局限证据",
+        "locator": "§IV、§V-E、§VI，PDF第4–5、8–9页",
+        "url": "https://arxiv.org/pdf/2603.15759v2#page=9",
+        "zotero_key": "46C3QL34",
+        "evidence_basis": "targeted method/experiment/limitation passage; authors claims and report inference distinguished in table"
+      },
+      {
+        "paper_id": "M07",
+        "topic_section": "D · 每篇参考文献提供了什么局限证据",
+        "locator": "式1与§IV-C，PDF第3–5页",
+        "url": "https://arxiv.org/pdf/2603.15759v2#page=4",
+        "zotero_key": "46C3QL34",
+        "evidence_basis": "targeted method/experiment/limitation passage; authors claims and report inference distinguished in table"
+      }
+    ]
   },
   {
     "id": "M08",
@@ -729,9 +931,27 @@
     "zotero_collections": [
       "课题文献_正式文献_20260908"
     ],
-    "read_scope": "正式发表元数据、摘要、有关方法/实验/局限段落及官方资源；不是逐页精读或成功复现声明",
+    "read_scope": "正式元数据与原有阅读卡；本轮定向核对方法、实验、局限段落及页序，见topic_evidence；不是逐页精读或复现声明",
     "checked_at": "2026-09-11",
-    "zotero_url": "zotero://select/library/items/5BQ83JP7"
+    "zotero_url": "zotero://select/library/items/5BQ83JP7",
+    "topic_evidence": [
+      {
+        "paper_id": "M08",
+        "topic_section": "A · 每篇参考文献提供了什么局限证据",
+        "locator": "§7，PDF第9页",
+        "url": "https://raw.githubusercontent.com/mlresearch/v305/main/assets/chandra25a/chandra25a.pdf#page=9",
+        "zotero_key": "5BQ83JP7",
+        "evidence_basis": "targeted method/experiment/limitation passage; authors claims and report inference distinguished in table"
+      },
+      {
+        "paper_id": "M08",
+        "topic_section": "E · 每篇参考文献提供了什么局限证据",
+        "locator": "§7，PDF第9页",
+        "url": "https://raw.githubusercontent.com/mlresearch/v305/main/assets/chandra25a/chandra25a.pdf#page=9",
+        "zotero_key": "5BQ83JP7",
+        "evidence_basis": "targeted method/experiment/limitation passage; authors claims and report inference distinguished in table"
+      }
+    ]
   },
   {
     "id": "M09",
@@ -758,7 +978,7 @@
     "method": "DINO几何与CLIP语义潜空间的交互扩散模型；未来潜状态作为扩散动作策略的条件，反复修正动作。",
     "tasks": "LIBERO-LONG十项，如放碗进抽屉后关闭、放杯进微波炉后关闭、把食物放入篮子；附录使用CALVIN D到D；另有真实操作。",
     "metrics": "LIBERO单任务和平均成功率；CALVIN连续完成1至5项的比例与平均链长；完整示范和少量动作标签设置需分开。",
-    "limitations": "作者第6节指出训练数据规模有限，附录认为过长未来预测可能受累积误差影响。我们的推论：不能据此声称任意物理扰动都可恢复，仍需同表征和动作模型预算的比较。资源边界：本次未核验完整官方代码，正式页面仍写将公开。引用纠错：预印本附录错称TD-MPC2 solely image reconstruction，不能转述；TD-MPC2无decoder。",
+    "limitations": "作者在§6（PDF第9页）明确指出训练样本规模有限，长预测受累积误差限制，并提出加入记忆维持长程一致性。我们的推论：不能把“世界模型加记忆”或迭代修正动作本身作为新贡献；应定位具体事件记忆或技能衔接机制。完整官方代码本次仍未确认。原预印本对TD-MPC2图像重建的错误转述不应沿用，TD-MPC2不依赖decoder重建目标。",
     "reuse": "方法参考价值中高，即刻完整复现低；LIBERO/CALVIN本身有公开资源，但不能将LaDi-WM未核验的完整实现或权重作为启动条件。",
     "kind": "conferencePaper",
     "citation_key": "WMM09_2025",
@@ -777,9 +997,27 @@
     "zotero_collections": [
       "课题文献_正式文献_20260908"
     ],
-    "read_scope": "正式发表元数据、摘要、有关方法/实验/局限段落及官方资源；不是逐页精读或成功复现声明",
+    "read_scope": "正式元数据与原有阅读卡；本轮定向核对方法、实验、局限段落及页序，见topic_evidence；不是逐页精读或复现声明",
     "checked_at": "2026-09-11",
-    "zotero_url": "zotero://select/library/items/2DNWAUC2"
+    "zotero_url": "zotero://select/library/items/2DNWAUC2",
+    "topic_evidence": [
+      {
+        "paper_id": "M09",
+        "topic_section": "D · 每篇参考文献提供了什么局限证据",
+        "locator": "§6，PDF第9页",
+        "url": "https://raw.githubusercontent.com/mlresearch/v305/main/assets/huang25a/huang25a.pdf#page=9",
+        "zotero_key": "2DNWAUC2",
+        "evidence_basis": "targeted method/experiment/limitation passage; authors claims and report inference distinguished in table"
+      },
+      {
+        "paper_id": "M09",
+        "topic_section": "E · 每篇参考文献提供了什么局限证据",
+        "locator": "§4与§6，PDF第5、9页",
+        "url": "https://raw.githubusercontent.com/mlresearch/v305/main/assets/huang25a/huang25a.pdf#page=9",
+        "zotero_key": "2DNWAUC2",
+        "evidence_basis": "targeted method/experiment/limitation passage; authors claims and report inference distinguished in table"
+      }
+    ]
   },
   {
     "id": "M10",
@@ -825,9 +1063,27 @@
     "zotero_collections": [
       "课题文献_正式文献_20260908"
     ],
-    "read_scope": "正式发表元数据、摘要、有关方法/实验/局限段落及官方资源；不是逐页精读或成功复现声明",
+    "read_scope": "正式元数据与原有阅读卡；本轮定向核对方法、实验、局限段落及页序，见topic_evidence；不是逐页精读或复现声明",
     "checked_at": "2026-09-11",
-    "zotero_url": "zotero://select/library/items/94DHLM7Z"
+    "zotero_url": "zotero://select/library/items/94DHLM7Z",
+    "topic_evidence": [
+      {
+        "paper_id": "M10",
+        "topic_section": "D · 每篇参考文献提供了什么局限证据",
+        "locator": "§III-C、§VII，作者HTML",
+        "url": "https://arxiv.org/html/2504.02792v1#S7",
+        "zotero_key": "94DHLM7Z",
+        "evidence_basis": "targeted method/experiment/limitation passage; authors claims and report inference distinguished in table"
+      },
+      {
+        "paper_id": "M10",
+        "topic_section": "E · 每篇参考文献提供了什么局限证据",
+        "locator": "§III、§VII，作者HTML",
+        "url": "https://arxiv.org/html/2504.02792v1#S7",
+        "zotero_key": "94DHLM7Z",
+        "evidence_basis": "targeted method/experiment/limitation passage; authors claims and report inference distinguished in table"
+      }
+    ]
   },
   {
     "id": "M11",
@@ -871,9 +1127,19 @@
     "zotero_collections": [
       "课题文献_正式文献_20260908"
     ],
-    "read_scope": "正式发表元数据、摘要、有关方法/实验/局限段落及官方资源；不是逐页精读或成功复现声明",
+    "read_scope": "正式元数据与原有阅读卡；本轮定向核对方法、实验、局限段落及页序，见topic_evidence；不是逐页精读或复现声明",
     "checked_at": "2026-09-11",
-    "zotero_url": "zotero://select/library/items/9P9LBZYZ"
+    "zotero_url": "zotero://select/library/items/9P9LBZYZ",
+    "topic_evidence": [
+      {
+        "paper_id": "M11",
+        "topic_section": "C · 每篇参考文献提供了什么局限证据",
+        "locator": "§7与附录G，PDF第8页起",
+        "url": "https://raw.githubusercontent.com/mlresearch/v270/main/assets/nakamoto25a/nakamoto25a.pdf#page=8",
+        "zotero_key": "9P9LBZYZ",
+        "evidence_basis": "targeted method/experiment/limitation passage; authors claims and report inference distinguished in table"
+      }
+    ]
   },
   {
     "id": "M12",
@@ -911,7 +1177,7 @@
     "method": "将不同生成世界模型接入标准动作接口；基础策略提出动作，世界模型辅助在线规划，以真实环境执行反馈构成闭环评测。",
     "tasks": "四类覆盖主动识别、主动具身问答、图像目标导航和操作。原论文Appendix B.4的操作任务是RLBench Push Buttons、Slide Block to Color Target、Insert onto Square Peg、Stack Cups，各50回合。仓库后续增加LIBERO后端，不应当作原论文原始实验。",
     "metrics": "操作任务成功率及控制步预算；导航/问答使用各自效果和效率指标。不同基础动作策略的决策步预算及辅助位姿信息不完全相同，比较必须标明。",
-    "limitations": "我们的推论：有限任务和模型不能代表全部具身应用；基础策略、辅助位姿和候选预算会影响增益归因。视觉质量不等于闭环成功的评测理念已经存在，不能把该转向本身宣称为我们的创新。",
+    "limitations": "作者在§4（PDF第10页）明确讨论域外动作控制失真、长程时空历史不足，以及接触、摩擦、柔顺性等精细物理预测困难。我们的推论：可围绕其中一个失败机制提出小规模实验，但不能把“视觉质量不等于闭环成功”的评测转向当原创。原文任务与后续仓库扩展、基础策略、辅助信息和候选预算须分开记录。",
     "reuse": "评测设计价值高，完整部署中低。可先在已有TD-MPC2环境做受控闭环失败评估，不必搭完整VLM或视频模型服务器；公开代码/文档入口不等于本次完成全部后端安装。",
     "kind": "conferencePaper",
     "citation_key": "WMM12_2026",
@@ -930,9 +1196,27 @@
     "zotero_collections": [
       "课题文献_正式文献_20260908"
     ],
-    "read_scope": "正式发表元数据、摘要、有关方法/实验/局限段落及官方资源；不是逐页精读或成功复现声明",
+    "read_scope": "正式元数据与原有阅读卡；本轮定向核对方法、实验、局限段落及页序，见topic_evidence；不是逐页精读或复现声明",
     "checked_at": "2026-09-11",
-    "zotero_url": "zotero://select/library/items/S736CDHU"
+    "zotero_url": "zotero://select/library/items/S736CDHU",
+    "topic_evidence": [
+      {
+        "paper_id": "M12",
+        "topic_section": "B · 每篇参考文献提供了什么局限证据",
+        "locator": "§4，PDF第10页",
+        "url": "https://openreview.net/pdf/899312aa4057cd37a60a334613406d8d111108e8.pdf#page=10",
+        "zotero_key": "S736CDHU",
+        "evidence_basis": "targeted method/experiment/limitation passage; authors claims and report inference distinguished in table"
+      },
+      {
+        "paper_id": "M12",
+        "topic_section": "C · 每篇参考文献提供了什么局限证据",
+        "locator": "§4，PDF第10页",
+        "url": "https://openreview.net/pdf/899312aa4057cd37a60a334613406d8d111108e8.pdf#page=10",
+        "zotero_key": "S736CDHU",
+        "evidence_basis": "targeted method/experiment/limitation passage; authors claims and report inference distinguished in table"
+      }
+    ]
   },
   {
     "id": "B01",
@@ -995,9 +1279,19 @@
     "zotero_collections": [
       "课题文献_正式文献_20260908"
     ],
-    "read_scope": "正式发表元数据、摘要、有关方法/实验/局限段落及官方资源；不是逐页精读或成功复现声明",
+    "read_scope": "正式元数据与原有阅读卡；本轮定向核对方法、实验、局限段落及页序，见topic_evidence；不是逐页精读或复现声明",
     "checked_at": "2026-09-11",
-    "zotero_url": "zotero://select/library/items/DCE3IRBH"
+    "zotero_url": "zotero://select/library/items/DCE3IRBH",
+    "topic_evidence": [
+      {
+        "paper_id": "B01",
+        "topic_section": "B · 每篇参考文献提供了什么局限证据",
+        "locator": "任务／演示与评估部分，PDF正文",
+        "url": "https://www.roboticsproceedings.org/rss21/p021.pdf#page=1",
+        "zotero_key": "DCE3IRBH",
+        "evidence_basis": "targeted method/experiment/limitation passage; authors claims and report inference distinguished in table"
+      }
+    ]
   },
   {
     "id": "B02",
@@ -1040,10 +1334,28 @@
     "zotero_collections": [
       "课题文献_正式文献_20260908"
     ],
-    "read_scope": "正式发表元数据、摘要、有关方法/实验/局限段落及官方资源；不是逐页精读或成功复现声明",
+    "read_scope": "正式元数据与原有阅读卡；本轮定向核对方法、实验、局限段落及页序，见topic_evidence；不是逐页精读或复现声明",
     "checked_at": "2026-09-11",
     "downloaded_pdf_url": "https://arxiv.org/pdf/2412.13211",
-    "zotero_url": "zotero://select/library/items/MQH8ZITS"
+    "zotero_url": "zotero://select/library/items/MQH8ZITS",
+    "topic_evidence": [
+      {
+        "paper_id": "B02",
+        "topic_section": "B · 每篇参考文献提供了什么局限证据",
+        "locator": "§5.2、§6.2及附录A.6，PDF第8–9页起",
+        "url": "https://openreview.net/pdf?id=6bKEWevgSd#page=8",
+        "zotero_key": "MQH8ZITS",
+        "evidence_basis": "targeted method/experiment/limitation passage; authors claims and report inference distinguished in table"
+      },
+      {
+        "paper_id": "B02",
+        "topic_section": "E · 每篇参考文献提供了什么局限证据",
+        "locator": "§5.2–6及附录，PDF第8–10页",
+        "url": "https://openreview.net/pdf?id=6bKEWevgSd#page=8",
+        "zotero_key": "MQH8ZITS",
+        "evidence_basis": "targeted method/experiment/limitation passage; authors claims and report inference distinguished in table"
+      }
+    ]
   },
   {
     "id": "B03",
@@ -1091,10 +1403,20 @@
     "zotero_collections": [
       "课题文献_正式文献_20260908"
     ],
-    "read_scope": "正式发表元数据、摘要、有关方法/实验/局限段落及官方资源；不是逐页精读或成功复现声明",
+    "read_scope": "正式元数据与原有阅读卡；本轮定向核对方法、实验、局限段落及页序，见topic_evidence；不是逐页精读或复现声明",
     "checked_at": "2026-09-11",
     "downloaded_pdf_url": "https://robocasa.ai/assets/robocasa_rss24.pdf",
-    "zotero_url": "zotero://select/library/items/L93D9XEV"
+    "zotero_url": "zotero://select/library/items/L93D9XEV",
+    "topic_evidence": [
+      {
+        "paper_id": "B03",
+        "topic_section": "E · 每篇参考文献提供了什么局限证据",
+        "locator": "§IV，PDF第7页",
+        "url": "https://robocasa.ai/assets/robocasa_rss24.pdf#page=7",
+        "zotero_key": "L93D9XEV",
+        "evidence_basis": "targeted method/experiment/limitation passage; authors claims and report inference distinguished in table"
+      }
+    ]
   },
   {
     "id": "B04",
@@ -1160,10 +1482,20 @@
     "zotero_collections": [
       "课题文献_正式文献_20260908"
     ],
-    "read_scope": "正式发表元数据、摘要、有关方法/实验/局限段落及官方资源；不是逐页精读或成功复现声明",
+    "read_scope": "正式元数据与原有阅读卡；本轮定向核对方法、实验、局限段落及页序，见topic_evidence；不是逐页精读或复现声明",
     "checked_at": "2026-09-11",
     "downloaded_pdf_url": "https://arxiv.org/pdf/2506.18088",
-    "zotero_url": "zotero://select/library/items/7ZNQ3QM4"
+    "zotero_url": "zotero://select/library/items/7ZNQ3QM4",
+    "topic_evidence": [
+      {
+        "paper_id": "B04",
+        "topic_section": "E · 每篇参考文献提供了什么局限证据",
+        "locator": "专家生成与随机化，PDF第3–5、9页",
+        "url": "https://arxiv.org/pdf/2506.18088#page=3",
+        "zotero_key": "7ZNQ3QM4",
+        "evidence_basis": "targeted method/experiment/limitation passage; authors claims and report inference distinguished in table"
+      }
+    ]
   },
   {
     "id": "B05",
@@ -1219,9 +1551,19 @@
     "zotero_collections": [
       "课题文献_正式文献_20260908"
     ],
-    "read_scope": "正式发表元数据、摘要、有关方法/实验/局限段落及官方资源；不是逐页精读或成功复现声明",
+    "read_scope": "正式元数据与原有阅读卡；本轮定向核对方法、实验、局限段落及页序，见topic_evidence；不是逐页精读或复现声明",
     "checked_at": "2026-09-11",
-    "zotero_url": "zotero://select/library/items/XXMX2E29"
+    "zotero_url": "zotero://select/library/items/XXMX2E29",
+    "topic_evidence": [
+      {
+        "paper_id": "B05",
+        "topic_section": "A · 每篇参考文献提供了什么局限证据",
+        "locator": "§4–5，PDF第4、8–9页",
+        "url": "https://raw.githubusercontent.com/mlresearch/v270/main/assets/li25c/li25c.pdf#page=8",
+        "zotero_key": "XXMX2E29",
+        "evidence_basis": "targeted method/experiment/limitation passage; authors claims and report inference distinguished in table"
+      }
+    ]
   },
   {
     "id": "B06",
@@ -1359,9 +1701,27 @@
     "zotero_collections": [
       "课题文献_正式文献_20260908"
     ],
-    "read_scope": "正式发表元数据、摘要、有关方法/实验/局限段落及官方资源；不是逐页精读或成功复现声明",
+    "read_scope": "正式元数据与原有阅读卡；本轮定向核对方法、实验、局限段落及页序，见topic_evidence；不是逐页精读或复现声明",
     "checked_at": "2026-09-11",
-    "zotero_url": "zotero://select/library/items/N2C4RB5P"
+    "zotero_url": "zotero://select/library/items/N2C4RB5P",
+    "topic_evidence": [
+      {
+        "paper_id": "B06",
+        "topic_section": "D · 每篇参考文献提供了什么局限证据",
+        "locator": "机器人平台与数据收集，PDF第3–5页",
+        "url": "https://www.roboticsproceedings.org/rss20/p120.pdf#page=4",
+        "zotero_key": "N2C4RB5P",
+        "evidence_basis": "targeted method/experiment/limitation passage; authors claims and report inference distinguished in table"
+      },
+      {
+        "paper_id": "B06",
+        "topic_section": "E · 每篇参考文献提供了什么局限证据",
+        "locator": "平台与数据协议，PDF第3–5页",
+        "url": "https://www.roboticsproceedings.org/rss20/p120.pdf#page=4",
+        "zotero_key": "N2C4RB5P",
+        "evidence_basis": "targeted method/experiment/limitation passage; authors claims and report inference distinguished in table"
+      }
+    ]
   },
   {
     "id": "B07",
@@ -1399,7 +1759,7 @@
     "method": "基于Llama 2，融合DINOv2和SigLIP视觉特征，将机器人动作离散化为token进行自回归预测；使用多机器人Open X-Embodiment数据训练，采用参数高效方法适配下游任务。",
     "tasks": "原论文主要证据为真实机器人、多身体和多任务操作，正式摘要报告29任务比较。公开仓库提供BridgeData V2/WidowX推理以及LIBERO微调与评测支持；LIBERO可作为下游仿真实验平台。",
     "metrics": "闭环任务成功率、多物体与语言目标泛化表现、下游微调性能、推理及微调计算成本；训练action token accuracy不能替代任务成功率。",
-    "limitations": "会议届次为2024，PMLR出版年为2025，去重标识为pmlr-v270-kim25c。VLA不是显式动作条件世界模型；后续仓库新增评测或OFT功能不能全部当作原论文贡献。需固定身体、动作尺度、归一化及数据分布。代码和权重许可不完全相同。",
+    "limitations": "原论文§5（PDF第8–9页）指出当时模型只支持单图像观测，多图像／本体输入仍待扩展。该边界不适用于未经核对的2026后续变体。VLA并非显式动作条件动力学模型；作为视觉策略参照时须固定动作归一化、本体、数据和计算，不把更强策略的收益归于新增世界模型。会议届次2024、PMLR出版年2025按同一条目去重。",
     "reuse": "双A6000适合推理、冻结策略对照或LoRA微调。官方LoRA说明可从约27GB显存起，通过小batch和梯度累积适配48GB单卡；完整微调官方示例为8×A100规模，不宜把从头预训练列作本项目默认路线。此判断未实际运行验证。",
     "kind": "conferencePaper",
     "citation_key": "WMB07_2024",
@@ -1418,9 +1778,19 @@
     "zotero_collections": [
       "课题文献_正式文献_20260908"
     ],
-    "read_scope": "正式发表元数据、摘要、有关方法/实验/局限段落及官方资源；不是逐页精读或成功复现声明",
+    "read_scope": "正式元数据与原有阅读卡；本轮定向核对方法、实验、局限段落及页序，见topic_evidence；不是逐页精读或复现声明",
     "checked_at": "2026-09-11",
-    "zotero_url": "zotero://select/library/items/XCCCEQKG"
+    "zotero_url": "zotero://select/library/items/XCCCEQKG",
+    "topic_evidence": [
+      {
+        "paper_id": "B07",
+        "topic_section": "D · 每篇参考文献提供了什么局限证据",
+        "locator": "§5，PDF第8–9页",
+        "url": "https://raw.githubusercontent.com/mlresearch/v270/main/assets/kim25c/kim25c.pdf#page=8",
+        "zotero_key": "XCCCEQKG",
+        "evidence_basis": "targeted method/experiment/limitation passage; authors claims and report inference distinguished in table"
+      }
+    ]
   },
   {
     "id": "B08",
@@ -1445,7 +1815,7 @@
     "method": "结合多样化厨房场景、人工遥操作与MimicGen合成数据，设计任务和环境划分，比较数据量、任务多样性和环境变化对通用策略表现的影响。",
     "tasks": "PickPlaceCounterToCabinet、OpenDrawer及复合备餐/清洁任务。当前目标数据集覆盖50任务、10个不同于预训练的场景、每任务500条人工演示；分18个Atomic-Seen、16个Composite-Seen和16个Composite-Unseen任务。",
     "metrics": "在明确的预训练、目标任务适配或终身学习协议下报告任务成功率，以及不同任务子集和环境泛化条件下的表现。不可只给总体平均而混淆不同训练设置。",
-    "limitations": "OpenReview标识为tQJYKwc3n4。作者PDF全名Sepehr Nasiriany在正式摘要页写作Sep Nasiriany，属于同一作者。Composite-Unseen仅表示未出现在预训练任务集中，不自动等于未经目标数据适配的零样本。当前复合数据有逐帧子任务标注；v1.0.1任务时限增长1.5倍，均应与论文原实验版本区分。与RoboCasa 2024是同平台不同论文阶段，不能视为两个完全独立基准。",
+    "limitations": "作者在正文结尾（PDF第10页）指出平台仍限于厨房、无法覆盖真实世界完整物理与感知复杂度；附录第23页给出取放及流程失败案例。Composite-Unseen仅表示未在预训练任务集中，不等于没有目标任务适配。与RoboCasa2024属于同平台谱系；当前子任务标注与v1.0.1时限变化须和论文版本分开。",
     "reuse": "双A6000优先利用公开策略、少量任务及子任务标注研究阶段建模、失败恢复和规划预算；全规模基础模型训练并非默认可行路线。可与RoboCasa 2024分别计正式论文，但实验平台谱系应合并说明。硬件可行性仅为判断，未实际复现。",
     "kind": "conferencePaper",
     "citation_key": "WMB08_2026",
@@ -1464,8 +1834,18 @@
     "zotero_collections": [
       "课题文献_正式文献_20260908"
     ],
-    "read_scope": "正式发表元数据、摘要、有关方法/实验/局限段落及官方资源；不是逐页精读或成功复现声明",
+    "read_scope": "正式元数据与原有阅读卡；本轮定向核对方法、实验、局限段落及页序，见topic_evidence；不是逐页精读或复现声明",
     "checked_at": "2026-09-11",
-    "zotero_url": "zotero://select/library/items/C27AT866"
+    "zotero_url": "zotero://select/library/items/C27AT866",
+    "topic_evidence": [
+      {
+        "paper_id": "B08",
+        "topic_section": "E · 每篇参考文献提供了什么局限证据",
+        "locator": "§4与附录，PDF第9–10、23页",
+        "url": "https://robocasa.ai/assets/robocasa365_iclr26.pdf#page=23",
+        "zotero_key": "C27AT866",
+        "evidence_basis": "targeted method/experiment/limitation passage; authors claims and report inference distinguished in table"
+      }
+    ]
   }
 ]
