@@ -1,7 +1,7 @@
 {
   "stats": {
     "sections": 19,
-    "tables": 17,
+    "tables": 18,
     "images": [
       {
         "width": 1043,
@@ -36,6 +36,5 @@
   },
   "mobileOverflow": false,
   "requests": [],
-  "errors": [],
-  "html_sha256": "6015878b4299db68bfc39842ed41791376d1c1515772f5e16fa984261fc82252"
+  "errors": []
 }
