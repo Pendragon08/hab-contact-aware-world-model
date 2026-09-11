@@ -7,8 +7,8 @@
 
 <meta name="generator" content="ARIS render-html (academic, v1)">
 <meta name="aris:source-path" content="TD-MPC2算法流程汇报.md">
-<meta name="aris:source-sha256" content="3b25a68be3e287d11cdb813b8692dabbfb41d3c3a06c15ef60ae7c068cda0f65">
-<meta name="aris:generated-at" content="2026-09-11 04:47 UTC">
+<meta name="aris:source-sha256" content="3f62fdda5e15d24308645502ce03489cbf797491551b40607a90c48701ee6d40">
+<meta name="aris:generated-at" content="2026-09-11 06:05 UTC">
 
 <!-- offline mode: MathJax + highlight.js skipped; math and code blocks render as plain text -->
 
@@ -331,6 +331,14 @@ footer.aris-footer a { color: var(--ink-muted); border-bottom: 1px dotted var(--
 <li><a href="#07--五个网络模块分别做什么">07 · 五个网络模块，分别做什么</a>
 </li>
 <li><a href="#08--每一个控制步如何规划动作">08 · 每一个控制步：如何规划动作</a>
+<ul>
+<li><a href="#081--mppi是什么与mpc是什么关系">08.1 · MPPI是什么，与MPC是什么关系？</a></li>
+<li><a href="#082--一轮搜索具体在做什么">08.2 · 一轮搜索具体在做什么？</a></li>
+<li><a href="#083--为什么高分候选会把采样中心拉过去">08.3 · 为什么高分候选会把采样中心“拉过去”？</a></li>
+<li><a href="#084--无需对动作求梯度到底是什么意思">08.4 · “无需对动作求梯度”到底是什么意思？</a></li>
+<li><a href="#085--搜索6轮之后机械臂到底执行什么">08.5 · 搜索6轮之后，机械臂到底执行什么？</a></li>
+<li><a href="#086--为什么用这种方法还有哪些局限">08.6 · 为什么用这种方法，还有哪些局限？</a></li>
+</ul>
 </li>
 <li><a href="#09--局限性td-mpc2还没有解决什么">09 · 局限性：TD-MPC2还没有解决什么？</a>
 <ul>
@@ -378,8 +386,8 @@ footer.aris-footer a { color: var(--ink-muted); border-bottom: 1px dotted var(--
   
   <div class="meta">
     <span><strong>Source:</strong> <code>TD-MPC2算法流程汇报.md</code></span>
-    <span><strong>SHA256:</strong> <code>3b25a68be3e2</code></span>
-    <span><strong>Rendered:</strong> 2026-09-11 04:47 UTC</span>
+    <span><strong>SHA256:</strong> <code>3f62fdda5e15</code></span>
+    <span><strong>Rendered:</strong> 2026-09-11 06:05 UTC</span>
     
   </div>
 </header>
@@ -450,6 +458,32 @@ footer.aris-footer a { color: var(--ink-muted); border-bottom: 1px dotted var(--
 <ol><li><strong>编码当前观察。</strong>用编码器获得当前潜在状态。</li><li><strong>生成候选动作序列。</strong>从可调整的高斯分布中采样，并加入策略先验生成的序列；前一步规划结果可用于初始化本次搜索。</li><li><strong>预测候选后果。</strong>动力学模型沿每个序列逐步推演，奖励模型预测各步奖励。</li><li><strong>估计总回报。</strong>把短期预测奖励与规划窗口末端的价值估计结合。</li><li><strong>迭代改进采样。</strong>根据高分候选及其权重更新采样分布，固定轮数地重复搜索。论文采用MPPI这种无需对动作求梯度的采样优化。</li><li><strong>执行首动作。</strong>从最终搜索结果选出动作，只执行序列第一步；下一控制步重新观察和规划。</li></ol>
 <div style="padding:18px 22px;background:#f8f5ec;border-left:4px solid #b8390e;border-radius:6px;font-size:18px;line-height:1.8"><strong>候选得分 ≈ 未来H步的折扣预测奖励 ＋ 第H步状态的折扣后续价值</strong><br><span style="font-size:15px;color:#555">概念式：G = Σ γᵏ R(zₖ,aₖ) + γᴴ Q(zᴴ,p(zᴴ))，其中k从0到H−1。实际实现还包含策略采样与Q集成等细节。</span></div>
 <p>这里的“末端”是<strong>规划窗口的末端</strong>，不是整项任务的结束。Q网络用来补充窗口之外的收益，所以短时域规划仍会考虑更远的未来；估计可能有误，并不保证找到最优动作。</p>
+<h3 id="081--mppi是什么与mpc是什么关系">08.1 · MPPI是什么，与MPC是什么关系？</h3>
+<p><strong>MPC（模型预测控制）是一种控制框架：预测未来一小段、选好动作、只执行第一步，再重新规划。MPPI（Model Predictive Path Integral，模型预测路径积分）是可以放在这个框架里的采样优化方法。</strong>在TD-MPC2中，它帮助回答：“这么多连续动作，当前应该优先尝试哪些组合？”</p>
+<p>直观上，先在世界模型里试算许多方案，比较预计收益，再让下一轮更多地在高分方案附近搜索。这里介绍的是<strong>TD-MPC2固定实现中的MPPI式规划器</strong>，包含精英筛选、策略先验候选与加权分布更新；不把这些实现细节视为所有MPPI算法的唯一标准。</p>
+<div style="padding:18px;background:#e9f2fb;border:1px solid #c7d9ed;border-radius:10px;line-height:2"><strong>给动作设一个采样范围 → 抽取多组动作序列 → 世界模型预测并打分 → 保留高分候选 → 按分数加权更新采样中心和范围 → 重复搜索 → 执行选中序列的第一个动作。</strong><br>搜索期间使用已学到的网络做前向预测；不在每轮搜索中重新训练网络。</div>
+<h3 id="082--一轮搜索具体在做什么">08.2 · 一轮搜索具体在做什么？</h3>
+<p>以下数值来自我们Meta-World Pick-Place V2的复现配置，便于对照演示；时域和动作维度等并非所有任务都相同。</p>
+<table><thead><tr><th>步骤</th><th>本轮实现</th><th>通俗理解</th></tr></thead><tbody><tr><td>设置采样分布</td><td>对未来3步、每步4维动作保存均值μ和标准差σ；均值、标准差各有12个数</td><td>μ表示优先试哪里，σ表示周围试多宽</td></tr><tr><td>初始化与复用</td><td>新回合均值从0开始，标准差从max_std开始；后续决策把上次均值序列向前移一位，新末步均值为0</td><td>复用上一轮尚未执行的计划，作为本次搜索起点</td></tr><tr><td>生成512条候选</td><td>24条由策略先验生成，另外488条按μ＋σ×随机噪声采样；动作截断到合法的归一化范围[−1,1]</td><td>既有策略提供的建议，也在它们之外搜索；512已经包含24</td></tr><tr><td>预测与评分</td><td>每条序列在潜在世界模型中推演3步，累加折扣预测奖励，再加末端Q价值</td><td>为每套方案估计未来收益，分数越高越受偏好</td></tr><tr><td>保留64条精英</td><td>从512条中取预测回报最高的64条</td><td>先淘汰本轮较差的候选</td></tr><tr><td>加权更新μ和σ</td><td>在64条内部，得分越高权重越大；计算逐时间、逐动作维度的加权均值与标准差</td><td>让下一轮搜索更偏向本轮看好的区域</td></tr><tr><td>重复6轮</td><td>用更新后的分布重新采样488条候选；本次规划先生成的24条策略序列在这些轮次复用</td><td>在同一次决策中逐步调整搜索方向</td></tr></tbody></table>
+<p>μ和σ描述的是<strong>动作序列的采样分布</strong>，不是神经网络权重。固定实现还把σ限制在min_std与max_std之间；我们使用的配置为0.05与2。σ可以变小，也可能变大，并非每轮必定收缩。高斯采样后还会做动作截断，因此不能直接把σ当作实际执行动作的标准差。</p>
+<h3 id="083--为什么高分候选会把采样中心拉过去">08.3 · 为什么高分候选会把采样中心“拉过去”？</h3>
+<p>对保留的精英序列i，令G_i为预测回报。固定代码先计算并归一化权重：<code>w_i = exp(β × (G_i − G_max)) / Σ_j exp(β × (G_j − G_max))</code>。这里β对应代码中的temperature，本次为0.5；<strong>此实现是乘β，β越大，权重越偏向高分候选</strong>，不能直接套用其他文献中“除以温度”的解释。</p>
+<p>减去G_max用于改善数值稳定性，不会改变归一化后的权重。随后，对每个未来时间点和每个动作维度分别更新：<code>μ = Σ_i w_i a_i</code>；<code>σ = sqrt(Σ_i w_i (a_i − μ)²)</code>，再对σ施加上下界。代码还加了很小的数避免数值除零。这里a_i代表对应时间和维度上的动作值。</p>
+<p>下面只保留3条精英、只看“第一步的一个动作维度”，演示加权机制。<strong>这是人为构造的教学数值，不是实验日志；实际使用64条精英和完整动作序列。</strong></p>
+<table><thead><tr><th>精英候选</th><th style="text-align:right">该动作维度的值</th><th style="text-align:right">预测回报G</th><th style="text-align:right">β=0.5时归一化权重</th></tr></thead><tbody><tr><td>A</td><td style="text-align:right">0.10</td><td style="text-align:right">8</td><td style="text-align:right">约0.186</td></tr><tr><td>B</td><td style="text-align:right">0.30</td><td style="text-align:right">9</td><td style="text-align:right">约0.307</td></tr><tr><td>C</td><td style="text-align:right">0.60</td><td style="text-align:right">10</td><td style="text-align:right">约0.506</td></tr></tbody></table>
+<p>新的采样中心约为 <code>0.186×0.10＋0.307×0.30＋0.506×0.60 ≈ 0.415</code>（使用未舍入权重计算）。下一轮会围绕这个方向继续试，并不是直接把中心设为最高分候选C的0.60。这些动作值是归一化控制量，不能直接解释成米或关节角度；权重也不是任务成功概率。</p>
+<h3 id="084--无需对动作求梯度到底是什么意思">08.4 · “无需对动作求梯度”到底是什么意思？</h3>
+<p><strong>梯度可以理解为局部的变化方向：动作数值稍微变一点，预测回报会怎样变化。</strong>若使用动作梯度优化，就需要计算回报对动作的导数，再按导数方向修改动作，例如概念上写成 <code>a ← a＋学习率×∂G/∂a</code>。</p>
+<p>TD-MPC2这里的MPPI不走这条路线。它只需要把采样动作送入世界模型得到分数，通过<strong>排序、指数加权、均值与标准差计算</strong>改进采样分布，不计算回报对候选动作的梯度。固定代码中的 <code>plan</code> 和 <code>_estimate_value</code> 都使用 <code>torch.no_grad()</code>。</p>
+<table><thead><tr><th>比较项目</th><th>MPPI规划动作</th><th>从回放经验训练网络</th></tr></thead><tbody><tr><td>当前在改什么</td><td>候选动作及其采样分布μ、σ</td><td>编码器、动力学、奖励、Q和策略等网络参数</td></tr><tr><td>依据什么改</td><td>候选预测回报、精英筛选和加权统计</td><td>实际经验构成的学习目标与预测误差</td></tr><tr><td>是否反向传播</td><td>此固定规划实现不反向传播</td><td>学习更新使用反向传播及优化器；目标Q另做缓慢更新</td></tr><tr><td>是否修改模型权重</td><td>一次规划搜索期间不修改</td><td>是；详见第10章</td></tr><tr><td>正式评估时是否执行</td><td>会，仍需每步重新规划</td><td>不会，评估冻结网络</td></tr></tbody></table>
+<p>因此，“无需对动作求梯度”<strong>不等于整个TD-MPC2都不用梯度</strong>，也不等于世界模型本身不可微。它只是说明此处选择动作的搜索方式；网络如何学习是另一个过程。</p>
+<h3 id="085--搜索6轮之后机械臂到底执行什么">08.5 · 搜索6轮之后，机械臂到底执行什么？</h3>
+<p>固定实现会按最终精英的归一化权重随机抽取一条序列，执行它的第一个动作，<strong>不是始终选最高分序列，也不是直接执行分布均值</strong>。训练模式还会给该动作加入额外探索噪声并截断到合法范围；评估模式关闭这层额外噪声，但仍保留候选采样与精英抽取的随机性。</p>
+<p>以本次Meta-World配置为例：选出的首动作在仿真中重复执行2个原生环境步，然后读取新观测。剩余两个动作不会直接一口气执行；下一次决策会重新规划，并把上次优化得到的均值序列向前移一位作为搜索起点。复用的是优化分布的均值，不是承诺执行上次抽中的完整序列。</p>
+<p><strong>6轮×512条候选意味着模型内有3072次候选序列评分条目，其中包含复用的策略候选；不意味着在Meta-World真实执行3072条轨迹，也不表示额外采集了这些训练数据。</strong>用于第10章学习闭环的轨迹，来自最终动作实际进入环境之后的交互。</p>
+<h3 id="086--为什么用这种方法还有哪些局限">08.6 · 为什么用这种方法，还有哪些局限？</h3>
+<p>它可以把许多候选并行送入网络评分，在连续动作空间中逐轮搜索，不必枚举所有动作，也不必计算动作梯度。但<strong>无需梯度不等于无需算力</strong>：候选数量、规划时域及迭代轮数都会影响预测计算量和决策时间。</p>
+<p>从机制上看，它仍有三个直接边界：有限采样可能漏掉好的动作区域；高维或更长动作序列会让搜索更困难；动力学、奖励和Q的误差可能把实际较差的方案评为高分。增加采样或迭代不一定能纠正模型错误，也不保证全局最优或实际任务成功。这些是规划机制的解释，不能据此直接断定某次实验失败的唯一原因。</p>
 <p>依据：<a href="https://arxiv.org/html/2310.16828v2#S3.SS2">原论文§3.2</a>、<a href="https://github.com/nicklashansen/tdmpc2/blob/57158282b46ebc5c329c5be9cfe2b0094126d1ca/tdmpc2/tdmpc2.py">固定版本官方规划代码：plan与_estimate_value</a>。</p>
 <h2 id="09--局限性td-mpc2还没有解决什么">09 · 局限性：TD-MPC2还没有解决什么？</h2>
 <p><strong>TD-MPC2提高了连续控制学习的稳定性与扩展能力，但不保证模型预测始终准确、规划全局最优，或机器人最终满足全部任务条件。</strong>下表将作者明确讨论的局限，与根据算法机制分析出的边界分开，避免把我们的推断当作论文原结论。</p>
@@ -537,8 +571,8 @@ footer.aris-footer a { color: var(--ink-muted); border-bottom: 1px dotted var(--
 <footer class="aris-footer">
   Generated by <a href="https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/render-html/SKILL.md">ARIS <code>/render-html</code></a> ·
   source path <code>TD-MPC2算法流程汇报.md</code> ·
-  SHA256 <code>3b25a68be3e2</code> ·
-  generated at 2026-09-11 04:47 UTC.
+  SHA256 <code>3f62fdda5e15</code> ·
+  generated at 2026-09-11 06:05 UTC.
   This is a generated view — edit the source Markdown, then re-render.
 </footer>
 </main>
