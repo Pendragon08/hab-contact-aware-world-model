@@ -13,5 +13,8 @@
   },
   "blocking_issues": [],
   "warnings": [],
-  "summary": "The raw Markdown SHA256 and the HTML's embedded source SHA256 both equal 855b6e40fde183e37587030698b846e4e72179a7900ef4ee73349a20dce532c1. Retaining the completed fidelity audit, the HTML materially preserves all 11 numbered sections, five tables, six stage-metric rows, the inline SVG, the information callout, and all three native video elements with controls. No raw Markdown, template placeholders, executable scripts, event handlers, or unsafe URL schemes were found."
+  "summary": "The embedded SHA-256 exactly matches the current Markdown source. All 19 content headings, 9 tables, 19 list items, 8 inline-code spans, 4 figures, 1 SVG, 3 videos, and all 236 checked text segments are retained. Section 03, including subsections 03.1–03.7, its four tables, workflow block, and list, is faithful and structurally intact. The information callout is routed correctly. No unexpected executable markup, event handlers, unsafe URL schemes, private placeholders, or template leakage remains. Generated metadata, CSS, TOC, and the expected sanitization of the SVG-local style element do not impair the content.",
+  "source_sha256": "d1380b20dcc92330fbdd8790ddc84a6455f61a7a615f66d0dc2e03d5f0deb0d2",
+  "reviewer": "mw_replay_html_review",
+  "scope": "Rendering fidelity only; not scientific claim audit."
 }
