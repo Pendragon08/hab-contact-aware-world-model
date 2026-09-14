@@ -1,0 +1,5 @@
+{
+  "before_sha256": "cac0cb1c8e5acbf4d43879a9586e33f0a8bfe7c71b3d6d71d16b30c9060a41d1",
+  "after_sha256": "97baa61f7ee434a8ad9853dd42aafeeadd9969ca8d6235c5400d39406d1b1aa2",
+  "reason": "project-local NVIDIA library discovery only"
+}

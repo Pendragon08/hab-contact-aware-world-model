@@ -1,0 +1,11 @@
+{
+  "reuse_env": "hab-demo@d873b21f",
+  "upstream_tdmpc2": "57158282b46ebc5c329c5be9cfe2b0094126d1ca",
+  "install": false,
+  "base": "readonly HAB Python3.10.21 Torch2.5.1 torchrl0.6.0 tensordict0.6.0",
+  "runtime": "scripts/runtime.sh; add pinned original TD-MPC2 source to PYTHONPATH; no MuJoCo V2 overlay",
+  "gpu": 1,
+  "cpu_threads": 4,
+  "smoke": "bash hab_tdmpc2_original/run.sh witness",
+  "expected": "HAB_ORIGINAL_WITNESS_PASS"
+}

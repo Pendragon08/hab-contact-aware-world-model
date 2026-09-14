@@ -1,0 +1,18 @@
+{
+  "dmc": {
+    "original_root": "/data/code/ouyanghao/oyh/hab-contact-aware-world-model/dmc_tdmpc2_original",
+    "pilot_root": "/data/code/ouyanghao/oyh/hab-contact-aware-world-model/throughput_trial/dmc",
+    "protected_pid": 1789362,
+    "env_hash": "cba67740",
+    "original_runner_sha256": "42cb3c25800aee9c2fe8463e137a4ea43f551b6547900339f56412a04fbff8f9",
+    "pilot_runner_sha256": "ba37e75189683b0292d73ed0f7434b1c21c5ca0a6a3b24351cacf6dceccd501c"
+  },
+  "ms2": {
+    "original_root": "/data/code/ouyanghao/oyh/hab-contact-aware-world-model/maniskill2_tdmpc2_original",
+    "pilot_root": "/data/code/ouyanghao/oyh/hab-contact-aware-world-model/throughput_trial/ms2",
+    "protected_pid": 1795158,
+    "env_hash": "eff3d0dd",
+    "original_runner_sha256": "f4b509951f38df6fc23fae4b266873d5e46314ebf1fcb122de82c810e46db88f",
+    "pilot_runner_sha256": "2d4bbc88075d411084e2c5522ab56755bbb99677571ef27202c6d9b12320b6b7"
+  }
+}

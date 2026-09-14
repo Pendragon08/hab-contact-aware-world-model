@@ -1,0 +1,65 @@
+{
+  "utc": "2026-09-10T12:51:42.922968+00:00",
+  "wall": 1789044702.923005,
+  "runs": {
+    "dmc_original": {
+      "update": 252300,
+      "train_decisions": 252301,
+      "train_environment_steps": 504602,
+      "seconds": 16464.65510416031,
+      "consistency_loss": 0.00012426203466020525,
+      "reward_loss": 0.394340455532074,
+      "value_loss": 0.3903834819793701,
+      "pi_loss": -10.538578033447266,
+      "total_loss": 0.08095763623714447,
+      "grad_norm": 0.18207372725009918,
+      "pi_scale": 8.794301986694336
+    },
+    "dmc_pilot": {
+      "update": 3500,
+      "train_decisions": 3501,
+      "train_environment_steps": 7002,
+      "seconds": 299.81155228614807,
+      "consistency_loss": 0.0012129906099289656,
+      "reward_loss": 0.4172375202178955,
+      "value_loss": 0.35070115327835083,
+      "pi_loss": -2.3322718143463135,
+      "total_loss": 0.10105368494987488,
+      "grad_norm": 1.0215307474136353,
+      "pi_scale": 1.5767707824707031
+    },
+    "ms2_original": {
+      "update": 181600,
+      "train_decisions": 181601,
+      "train_environment_steps": 363202,
+      "seconds": 13351.931409835815,
+      "consistency_loss": 0.00020677593420259655,
+      "reward_loss": 0.2970680296421051,
+      "value_loss": 0.33412933349609375,
+      "pi_loss": -0.30350109934806824,
+      "total_loss": 0.06725525856018066,
+      "grad_norm": 0.36142003536224365,
+      "pi_scale": 149.15567016601562
+    },
+    "ms2_pilot": {
+      "update": 3900,
+      "train_decisions": 3901,
+      "train_environment_steps": 7802,
+      "seconds": 295.9515292644501,
+      "consistency_loss": 0.00031479468452744186,
+      "reward_loss": 0.34829574823379517,
+      "value_loss": 0.33869093656539917,
+      "pi_loss": -0.4416424036026001,
+      "total_loss": 0.07499456405639648,
+      "grad_norm": 0.8509521484375,
+      "pi_scale": 19.302167892456055
+    }
+  },
+  "load": [
+    4.06,
+    3.35,
+    2.6
+  ],
+  "gpu": "0, 1465, 47086, 92, 83\n1, 1801, 46749, 86, 84",
+  "compute_processes": "GPU-f3cc20c6-f613-73c1-b0f9-f54863f22602, 1789362, 695\nGPU-f3cc20c6-f613-73c1-b0f9-f54863f22602, 1805606, 695\nGPU-0b41e662-b662-bb1c-954b-13ed89d7af18, 1795158, 862\nGPU-0b41e662-b662-bb1c-954b-13ed89d7af18, 1805607, 862"
+}

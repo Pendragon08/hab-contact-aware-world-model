@@ -1,0 +1,40 @@
+{
+  "completed": true,
+  "mode": "witness",
+  "task": "walker-walk",
+  "seed": 1,
+  "train_decisions": 3000,
+  "train_environment_steps": 6000,
+  "eval_environment_steps": 2000,
+  "optimizer_updates": 2999,
+  "final_eval": {
+    "episode_reward": 45.46474838256836,
+    "step": 3000,
+    "episode": 5,
+    "total_time": 160.04539132118225
+  },
+  "final_episode_returns": [
+    45.46477323025465
+  ],
+  "all_five_modules_changed": true,
+  "seconds": 160.17775797843933,
+  "torch_peak_MiB": 206.9560546875,
+  "preflight": {
+    "gpu_uuid": "GPU-f3cc20c6-f613-73c1-b0f9-f54863f22602",
+    "used_MiB": 32,
+    "free_MiB": 48519,
+    "disk_free_bytes": 31678242816
+  },
+  "environment_witness": {
+    "decisions": 500,
+    "raw_environment_steps": 1000,
+    "repeat_observation_max_error": 0.0,
+    "repeat_reward_max_error": 0.0,
+    "render_shape": [
+      384,
+      384,
+      3
+    ]
+  },
+  "upstream_commit": "57158282b46ebc5c329c5be9cfe2b0094126d1ca"
+}

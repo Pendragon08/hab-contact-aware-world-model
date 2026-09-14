@@ -1,0 +1,42 @@
+{
+  "passed": true,
+  "optimizer_parameter_steps": [
+    5000,
+    5000,
+    5000,
+    5000,
+    5000,
+    5000
+  ],
+  "max_parameter_changes_from_seeded_initialization": {
+    "net.0.weight": 0.3016192317008972,
+    "net.0.bias": 0.08652791380882263,
+    "net.2.weight": 0.3836466073989868,
+    "net.2.bias": 0.05368167161941528,
+    "net.4.weight": 0.4639643430709839,
+    "net.4.bias": 0.027689680457115173
+  },
+  "unique_public_spawn_indices": 100,
+  "fit_dev_initial_state_min_linf_distance": 0.11129474639892578,
+  "paired_outcomes": {
+    "ever_grasp": {
+      "teacher_0_student_0": 2,
+      "teacher_0_student_1": 0,
+      "teacher_1_student_0": 14,
+      "teacher_1_student_1": 4
+    },
+    "success_once": {
+      "teacher_0_student_0": 3,
+      "teacher_0_student_1": 0,
+      "teacher_1_student_0": 14,
+      "teacher_1_student_1": 3
+    },
+    "success_at_end": {
+      "teacher_0_student_0": 7,
+      "teacher_0_student_1": 0,
+      "teacher_1_student_0": 12,
+      "teacher_1_student_1": 1
+    }
+  },
+  "note": "One trained policy, 20 fixed development starts; tables do not estimate variation across training seeds or houses."
+}

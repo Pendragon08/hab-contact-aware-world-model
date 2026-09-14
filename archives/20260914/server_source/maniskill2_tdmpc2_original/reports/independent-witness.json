@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "reviewer": "/root/ms2_witness",
+  "invocation_count": 1,
+  "exit_code": 0,
+  "remote_complete": "/data/code/ouyanghao/oyh/hab-contact-aware-world-model/maniskill2_tdmpc2_original/artifacts/witness_20260910_090446/complete.json",
+  "train_environment_steps": 2400,
+  "eval_environment_steps": 400,
+  "optimizer_updates": 1199,
+  "all_five_modules_independently_compared": true,
+  "train_trajectories": 12,
+  "eval_trajectories": 2,
+  "videos": 2,
+  "final_checkpoint_bytes": 31473826,
+  "root_rechecked_completion_and_frozen_hashes": true,
+  "gpu_evidence": "GPU1 C+G764MiB; GPU0 G4MiB; protected DMC PID1789362 remains active",
+  "minor_differences": ["Runtime67.65seconds shorter than several minutes estimate", "Nonfatal dependency deprecation warnings"],
+  "artifact_limits": ["Completion marker does not explicitly count the separate400native simulation-validation steps", "Completion marker lacks GPU0preflight free memory and preflight process enumeration; reviewer separately checked process state"],
+  "scope": "execution and optimizer validation only; short-run success0 is not a final performance result"
+}

@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "agent": "metaworld_witness",
+  "date_utc": "2026-09-09",
+  "invocations": 1,
+  "exit_code": 0,
+  "sentinel": "METAWORLD_WITNESS_PASS",
+  "config_sha256": "492264fc78b9b88106f2e06d338e45ec250a9241cc8c6f16ab79b02848bf4ab0",
+  "environment_spec_hash": "7d175b55",
+  "document_divergences": [],
+  "independent_scope": "Verbatim invocation once; sentinel and three eight-step episode outputs observed; no fixes or retries. Module/target/save-load/video assertions represented by sentinel, not independently file-inspected.",
+  "root_followup": "Read complete.json and process.json: all five modules changed; 11 finite optimizer updates; teacher state error0; 24controls; process completed in4.235s; Torch peak243.217MiB; three MP4 files exist. GPU0free48532MiB, GPU1used38MiB after witness.",
+  "performance_claim": false
+}

@@ -1,0 +1,110 @@
+{
+  "utc": "2026-09-11T02:22:59.633221+00:00",
+  "previous_manager": {
+    "pid": 1848343,
+    "state": "S",
+    "ppid": 1848341,
+    "start_ticks": "1029093434",
+    "uid": 1013,
+    "argv": [
+      "/usr/bin/python3",
+      "/data/code/ouyanghao/oyh/hab-contact-aware-world-model/six_tasks_20260911/handoff-smoke/previous/manager.py"
+    ]
+  },
+  "previous_state": {
+    "dmc_old": {
+      "status": "training",
+      "seed": 1,
+      "pid": 1848344
+    },
+    "dmc_new": {
+      "status": "training",
+      "seed": 1,
+      "pid": 1848345
+    },
+    "ms2_old": {
+      "status": "training",
+      "seed": 1,
+      "pid": 1848346
+    },
+    "ms2_new": {
+      "status": "training",
+      "seed": 1,
+      "pid": 1848347
+    }
+  },
+  "handoffs": {
+    "walker-walk": {
+      "seed": 1,
+      "child": {
+        "pid": 1848344,
+        "state": "S",
+        "ppid": 1848343,
+        "start_ticks": "1029093436",
+        "uid": 1013,
+        "argv": [
+          "/usr/bin/python3",
+          "/data/code/ouyanghao/oyh/hab-contact-aware-world-model/six_tasks_20260911/handoff-smoke/walker-walk/runner.py",
+          "train",
+          "--seed",
+          "1"
+        ]
+      },
+      "parent": null
+    },
+    "walker-run": {
+      "seed": 1,
+      "child": {
+        "pid": 1848345,
+        "state": "S",
+        "ppid": 1848343,
+        "start_ticks": "1029093437",
+        "uid": 1013,
+        "argv": [
+          "/usr/bin/python3",
+          "/data/code/ouyanghao/oyh/hab-contact-aware-world-model/six_tasks_20260911/handoff-smoke/walker-run/runner.py",
+          "train",
+          "--seed",
+          "1"
+        ]
+      },
+      "parent": null
+    },
+    "pick-cube": {
+      "seed": 1,
+      "child": {
+        "pid": 1848346,
+        "state": "S",
+        "ppid": 1848343,
+        "start_ticks": "1029093437",
+        "uid": 1013,
+        "argv": [
+          "/usr/bin/python3",
+          "/data/code/ouyanghao/oyh/hab-contact-aware-world-model/six_tasks_20260911/handoff-smoke/pick-cube/runner.py",
+          "train",
+          "--seed",
+          "1"
+        ]
+      },
+      "parent": null
+    },
+    "lift-cube": {
+      "seed": 1,
+      "child": {
+        "pid": 1848347,
+        "state": "S",
+        "ppid": 1848343,
+        "start_ticks": "1029093437",
+        "uid": 1013,
+        "argv": [
+          "/usr/bin/python3",
+          "/data/code/ouyanghao/oyh/hab-contact-aware-world-model/six_tasks_20260911/handoff-smoke/lift-cube/runner.py",
+          "train",
+          "--seed",
+          "1"
+        ]
+      },
+      "parent": null
+    }
+  }
+}

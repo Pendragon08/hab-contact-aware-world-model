@@ -1,0 +1,12 @@
+{
+  "rule": "first success-once and first no-success student episode in seed order",
+  "indices": [
+    6,
+    0
+  ],
+  "seeds": [
+    1210086,
+    1210080
+  ],
+  "frames": 402
+}

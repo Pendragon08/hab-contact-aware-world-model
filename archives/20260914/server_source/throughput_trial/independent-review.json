@@ -1,0 +1,17 @@
+{
+  "reviewer": "/root/throughput_witness",
+  "launch_invocations": 1,
+  "launch_exit_code": 0,
+  "passed": true,
+  "measurement_samples": 31,
+  "four_compute_processes_in_every_sample": true,
+  "recomputed_active_throughput_factors": {"dmc": 1.86426049, "ms2": 1.92083261},
+  "recomputed_wall_window_factors": {"dmc": 1.87585510, "ms2": 1.90852520},
+  "pilot_training_environment_steps": {"dmc": 17000, "ms2": 16000},
+  "pilot_optimizer_updates": {"dmc": 8499, "ms2": 7999},
+  "both_completed_and_checkpoints_present": true,
+  "original_processes_alive_and_runner_hashes_match": true,
+  "replay_capacity_verified_from_runtime_logs": 500000,
+  "replay_evidence_note": "effective-config buffer_size1000000 is insufficient alone; dmc.log45-47 and ms2.log47-49 verify actual500000 CUDA capacity",
+  "limits": ["Measurement303.814s versus nominal300s; baseline spans294.350s and293.588s", "Logged update times slightly precede hardware poll timestamps", "24000-step cap applies to training; evaluation adds simulator steps", "Warm reused environment witnesses were not rerun", "No maximum-concurrency or final task-performance claim"]
+}

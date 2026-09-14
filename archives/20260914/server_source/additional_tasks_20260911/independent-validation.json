@@ -1,0 +1,23 @@
+{
+  "passed": true,
+  "reviewer": "/root/additional_witness",
+  "invocation_count": 1,
+  "exit_code": 0,
+  "sentinel": "ADDITIONAL_TASK_WITNESSES_PASS",
+  "complete_paths": {
+    "dmc": "/data/code/ouyanghao/oyh/hab-contact-aware-world-model/additional_tasks_20260911/walker_run/artifacts/witness_20260911_014437/complete.json",
+    "ms2": "/data/code/ouyanghao/oyh/hab-contact-aware-world-model/additional_tasks_20260911/lift_cube/artifacts/witness_20260911_014437/complete.json"
+  },
+  "entry_hashes": {
+    "shared_entry.py": "3a18f80bdd75d097ce4921f16f0689fe124f64fafc5c2016f0cf307d5e6c6a0a",
+    "shared_run.sh": "28e89598e966e6534086e24a284adc2552ab2ee7020b3430c66fe0495e749e7e",
+    "manifest.json": "afdb437baa19dacd4e26f5f3eae3c906dfec9d97ff4ace6324f694f8c46bfecc"
+  },
+  "training_environment_steps": {"dmc": 6000, "ms2": 2400},
+  "optimizer_updates": {"dmc": 2999, "ms2": 1199},
+  "all_five_modules_changed": true,
+  "finite_logged_updates": true,
+  "source_hashes_rechecked_by_root": true,
+  "original_training_processes_preserved": [1819620,1824540],
+  "limits": ["Short witnesses do not establish final task performance", "Effective discount is asserted in runner but not explicitly serialized in config; independent reviewer qualified that artifact limit", "Queue-manager handoff was tested separately with disposable processes, not by this witness"]
+}

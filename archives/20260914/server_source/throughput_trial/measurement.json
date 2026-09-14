@@ -1,0 +1,76 @@
+{
+  "started_utc": "2026-09-10T12:51:42.922968+00:00",
+  "ended_utc": "2026-09-10T12:56:46.737114+00:00",
+  "window_seconds": 303.81414461135864,
+  "baseline": {
+    "dmc": {
+      "environment_steps_per_second": 31.934793398155783,
+      "optimizer_updates_per_second": 15.967396699077891,
+      "measured_seconds": 294.3497984409332,
+      "intervals": 47,
+      "excluded_intervals": 0,
+      "end_to_end_environment_steps_per_second": 31.934793398155783
+    },
+    "ms2": {
+      "environment_steps_per_second": 27.249039516206864,
+      "optimizer_updates_per_second": 13.624519758103432,
+      "measured_seconds": 293.5883297920227,
+      "intervals": 40,
+      "excluded_intervals": 0,
+      "end_to_end_environment_steps_per_second": 27.249039516206864
+    }
+  },
+  "concurrent": {
+    "dmc_original": {
+      "environment_steps_per_second": 29.79535765007492,
+      "optimizer_updates_per_second": 14.89767882503746,
+      "measured_seconds": 308.77293395996094,
+      "intervals": 46,
+      "excluded_intervals": 0,
+      "window_environment_steps_per_second": 30.281671091280856
+    },
+    "dmc_pilot": {
+      "environment_steps_per_second": 29.73941582887645,
+      "optimizer_updates_per_second": 14.869707914438225,
+      "measured_seconds": 302.6286747455597,
+      "intervals": 45,
+      "excluded_intervals": 0,
+      "window_environment_steps_per_second": 29.623373893644313
+    },
+    "ms2_original": {
+      "environment_steps_per_second": 25.690212418264597,
+      "optimizer_updates_per_second": 12.845106209132299,
+      "measured_seconds": 303.6175751686096,
+      "intervals": 39,
+      "excluded_intervals": 0,
+      "window_environment_steps_per_second": 25.673590707825074
+    },
+    "ms2_pilot": {
+      "environment_steps_per_second": 26.6506312109298,
+      "optimizer_updates_per_second": 13.3253156054649,
+      "measured_seconds": 300.18050742149353,
+      "intervals": 40,
+      "excluded_intervals": 0,
+      "window_environment_steps_per_second": 26.331887905461613
+    }
+  },
+  "per_gpu": {
+    "dmc": {
+      "baseline_environment_steps_per_second": 31.934793398155783,
+      "original_concurrent_rate": 29.79535765007492,
+      "pilot_concurrent_rate": 29.73941582887645,
+      "combined_environment_steps_per_second": 59.534773478951365,
+      "throughput_factor": 1.864260486569782,
+      "original_slowdown_percent": 6.699388098137549
+    },
+    "ms2": {
+      "baseline_environment_steps_per_second": 27.249039516206864,
+      "original_concurrent_rate": 25.690212418264597,
+      "pilot_concurrent_rate": 26.6506312109298,
+      "combined_environment_steps_per_second": 52.340843629194396,
+      "throughput_factor": 1.920832607625077,
+      "original_slowdown_percent": 5.720668051492694
+    }
+  },
+  "scope": "bounded same-task seed2 throughput trial; not a formal1M result"
+}

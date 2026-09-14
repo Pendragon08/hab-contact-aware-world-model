@@ -1,0 +1,120 @@
+{
+  "four": {
+    "start_utc": "2026-09-11T02:18:56.689536+00:00",
+    "end_utc": "2026-09-11T02:24:00.097939+00:00",
+    "seconds": 303.40840315818787,
+    "samples": 31,
+    "tasks": {
+      "walker-walk": {
+        "gpu": 0,
+        "steps_per_second": 29.662988586732304,
+        "delta_steps": 9000
+      },
+      "walker-run": {
+        "gpu": 0,
+        "steps_per_second": 29.662988586732304,
+        "delta_steps": 9000
+      },
+      "pick-cube": {
+        "gpu": 1,
+        "steps_per_second": 25.707923441834662,
+        "delta_steps": 7800
+      },
+      "lift-cube": {
+        "gpu": 1,
+        "steps_per_second": 25.707923441834662,
+        "delta_steps": 7800
+      },
+      "cheetah-run": {
+        "gpu": 0,
+        "steps_per_second": 0.0,
+        "delta_steps": 0
+      },
+      "stack-cube": {
+        "gpu": 1,
+        "steps_per_second": 0.0,
+        "delta_steps": 0
+      }
+    },
+    "gpu": {
+      "0": {
+        "steps_per_second": 59.32597717346461,
+        "mean_utilization": 91.38709677419355,
+        "peak_memory_MiB": 1465.0,
+        "max_temperature_C": 85.0
+      },
+      "1": {
+        "steps_per_second": 51.415846883669325,
+        "mean_utilization": 75.29032258064517,
+        "peak_memory_MiB": 1785.0,
+        "max_temperature_C": 85.0
+      }
+    },
+    "total_steps_per_second": 110.74182405713394,
+    "compute_process_counts": [
+      4
+    ]
+  },
+  "six": {
+    "start_utc": "2026-09-11T02:35:11.905842+00:00",
+    "end_utc": "2026-09-11T02:40:15.072015+00:00",
+    "seconds": 303.16617012023926,
+    "samples": 31,
+    "tasks": {
+      "walker-walk": {
+        "gpu": 0,
+        "steps_per_second": 26.38816856388398,
+        "delta_steps": 8000
+      },
+      "walker-run": {
+        "gpu": 0,
+        "steps_per_second": 26.38816856388398,
+        "delta_steps": 8000
+      },
+      "pick-cube": {
+        "gpu": 1,
+        "steps_per_second": 20.450830637010082,
+        "delta_steps": 6200
+      },
+      "lift-cube": {
+        "gpu": 1,
+        "steps_per_second": 23.74935170749558,
+        "delta_steps": 7200
+      },
+      "cheetah-run": {
+        "gpu": 0,
+        "steps_per_second": 27.047872777981077,
+        "delta_steps": 8200
+      },
+      "stack-cube": {
+        "gpu": 1,
+        "steps_per_second": 25.06876013568978,
+        "delta_steps": 7600
+      }
+    },
+    "gpu": {
+      "0": {
+        "steps_per_second": 79.82420990574903,
+        "mean_utilization": 98.61290322580645,
+        "peak_memory_MiB": 2177.0,
+        "max_temperature_C": 86.0
+      },
+      "1": {
+        "steps_per_second": 69.26894248019545,
+        "mean_utilization": 92.3225806451613,
+        "peak_memory_MiB": 2673.0,
+        "max_temperature_C": 86.0
+      }
+    },
+    "total_steps_per_second": 149.09315238594448,
+    "compute_process_counts": [
+      6
+    ]
+  },
+  "aggregate_ratio": 1.3463129549773745,
+  "gpu_ratios": {
+    "0": 1.345518670048184,
+    "1": 1.3472294375879788
+  },
+  "limitations": "One5minute window per condition; different task mixture and possibly seed phase. Logged steps have200native-step quantization. Includes evaluations/recording overhead. Aggregate environment-step rate is operational throughput, not learning efficiency or a guaranteed maximum concurrency."
+}

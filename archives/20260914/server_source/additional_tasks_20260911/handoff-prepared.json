@@ -1,0 +1,61 @@
+{
+  "utc": "2026-09-11T01:49:28.344239+00:00",
+  "handoffs": {
+    "dmc": {
+      "child": {
+        "pid": 1819620,
+        "state": "R",
+        "ppid": 1789356,
+        "start_ticks": "1025844419",
+        "argv": [
+          "/data/code/ouyanghao/oyh/world-model-risk-planning/.env/bin/python",
+          "/data/code/ouyanghao/oyh/hab-contact-aware-world-model/dmc_tdmpc2_original/runner.py",
+          "train",
+          "--seed",
+          "2"
+        ],
+        "uid": 1013
+      },
+      "parent": {
+        "pid": 1789356,
+        "state": "S",
+        "ppid": 1789355,
+        "start_ticks": "1022578442",
+        "argv": [
+          "bash",
+          "/data/code/ouyanghao/oyh/hab-contact-aware-world-model/dmc_tdmpc2_original/queue_1m.sh"
+        ],
+        "uid": 1013
+      },
+      "seed": 2
+    },
+    "ms2": {
+      "child": {
+        "pid": 1824540,
+        "state": "R",
+        "ppid": 1795152,
+        "start_ticks": "1026588035",
+        "argv": [
+          "/data/code/ouyanghao/oyh/world-model-risk-planning/.env/bin/python",
+          "/data/code/ouyanghao/oyh/hab-contact-aware-world-model/maniskill2_tdmpc2_original/runner.py",
+          "train",
+          "--seed",
+          "2"
+        ],
+        "uid": 1013
+      },
+      "parent": {
+        "pid": 1795152,
+        "state": "S",
+        "ppid": 1795151,
+        "start_ticks": "1022889803",
+        "argv": [
+          "bash",
+          "/data/code/ouyanghao/oyh/hab-contact-aware-world-model/maniskill2_tdmpc2_original/queue.sh"
+        ],
+        "uid": 1013
+      },
+      "seed": 2
+    }
+  }
+}

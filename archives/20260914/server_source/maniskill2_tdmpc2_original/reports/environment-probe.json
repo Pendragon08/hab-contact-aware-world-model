@@ -1,0 +1,33 @@
+{
+  "decisions_per_episode": 100,
+  "raw_steps_per_episode": 200,
+  "repeat_error": 0.0,
+  "render_shape": [
+    384,
+    640,
+    3
+  ],
+  "native_info_keys": [
+    "is_obj_placed",
+    "is_robot_static",
+    "success"
+  ],
+  "reward_mode": "dense",
+  "control_mode": "pd_ee_delta_pos",
+  "renderer_device_requested": "pci:65",
+  "synthetic_success_predicate_positive": true,
+  "synthetic_success_predicate_negative": false,
+  "gpu_binding_evidence": [
+    {
+      "gpu": 0,
+      "type": "G",
+      "memory_MiB": 4
+    },
+    {
+      "gpu": 1,
+      "type": "C+G",
+      "memory_MiB": 192
+    }
+  ],
+  "physical_compute_gpu": 1
+}

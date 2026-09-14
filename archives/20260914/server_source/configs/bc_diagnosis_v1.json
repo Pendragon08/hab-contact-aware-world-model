@@ -1,0 +1,14 @@
+{
+  "version": "bc_diagnosis_v1",
+  "checkpoint": "artifacts/bc_v1_2/student/checkpoint_05000.pt",
+  "checkpoint_sha256": "6f5882628d2006fea9f65c7021db3a72953e92a0ef5f3ce713dc11c5acd38def",
+  "parent_config_sha256": "7c2dc173dae9ecd06eda6a95d3cbe27079879c045a166993d163469cbb4483a6",
+  "fit_collection_indices": [0,5,10,16,18,23,28,34,36,40,43,46,48,53,56,62,64,69,74,79],
+  "selection_rule": "Sort the 53 successful fit demonstrations by collection index; choose positions floor(i*52/19), i=0..19, before observing student outcomes.",
+  "steps": 200,
+  "updates": 0,
+  "stage_seconds": {"witness":300,"fit":1200,"offline":900},
+  "teacher_replay_tolerance": 0.0001,
+  "witness_prefix_tolerance": 0.00001,
+  "notes": "Diagnostic only. Existing 20 development results are reused without retry. Fit comparison is conditioned on successful teacher demonstrations, not an unbiased train/dev generalization estimate. Shadow teacher actions are never executed. No optimizer or risk/world-model training. GPU1 only. Development labels must never enter training."
+}

@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "agent": "dmc_witness",
+  "date": "2026-09-10",
+  "invocations": 1,
+  "exit_code": 0,
+  "sentinel": "DMC_BUDGET_1M_CHECK_PASS",
+  "environment_steps_per_seed": 1000000,
+  "decisions_per_seed": 500000,
+  "seeds": [1, 2, 3],
+  "training_core_unchanged": true,
+  "runtime_unchanged": true,
+  "reference_returns_at_1m": {"1": 975.2, "2": 980.5, "3": 983.5},
+  "scope": "Independent documented configuration/source-equality check; reuses previous real environment and optimizer witness, does not claim new training results"
+}

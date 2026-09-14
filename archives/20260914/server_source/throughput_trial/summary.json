@@ -1,0 +1,50 @@
+{
+  "measurement_seconds": 303.81414461135864,
+  "per_gpu": {
+    "dmc": {
+      "baseline_environment_steps_per_second": 31.934793398155783,
+      "original_concurrent_rate": 29.79535765007492,
+      "pilot_concurrent_rate": 29.73941582887645,
+      "combined_environment_steps_per_second": 59.534773478951365,
+      "throughput_factor": 1.864260486569782,
+      "original_slowdown_percent": 6.699388098137549
+    },
+    "ms2": {
+      "baseline_environment_steps_per_second": 27.249039516206864,
+      "original_concurrent_rate": 25.690212418264597,
+      "pilot_concurrent_rate": 26.6506312109298,
+      "combined_environment_steps_per_second": 52.340843629194396,
+      "throughput_factor": 1.920832607625077,
+      "original_slowdown_percent": 5.720668051492694
+    }
+  },
+  "hardware": {
+    "0": {
+      "mean_gpu_utilization_percent": 92.2258064516129,
+      "max_used_MiB": 1465,
+      "min_free_MiB": 47086,
+      "max_temperature_C": 84
+    },
+    "1": {
+      "mean_gpu_utilization_percent": 76.90322580645162,
+      "max_used_MiB": 1801,
+      "min_free_MiB": 46749,
+      "max_temperature_C": 84
+    }
+  },
+  "baseline_total_environment_steps_per_second": 59.18383291436265,
+  "concurrent_total_environment_steps_per_second": 111.87561710814576,
+  "overall_throughput_factor": 1.8903070585175965,
+  "mean_host_load1": 4.11258064516129,
+  "parallel_compute_process_counts": [
+    4
+  ],
+  "bounded_pilots_completed": true,
+  "formal_jobs_continue": true,
+  "limitations": [
+    "Single host, two selected tasks and one short measured window",
+    "Active rates exclude scheduled evaluation-crossing intervals; wall-window rates are in result.json",
+    "Pilot replay capacity matches formal training but its data are early-training seed2",
+    "Not a maximum-concurrency or task-quality result"
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "created_utc": "2026-09-11T02:28:51.442848+00:00",
+  "streams": {
+    "walker-walk": {
+      "status": "all_complete",
+      "seed": 3,
+      "pid": null,
+      "artifact": "/data/code/ouyanghao/oyh/hab-contact-aware-world-model/dmc_tdmpc2_original/artifacts/walker_walk_seed3_1m",
+      "updated_utc": "2026-09-11T13:22:35.492040+00:00",
+      "log": "/data/code/ouyanghao/oyh/hab-contact-aware-world-model/dmc_tdmpc2_original/logs/seed3_1m.log"
+    },
+    "walker-run": {
+      "status": "all_complete",
+      "seed": 3,
+      "pid": null,
+      "artifact": "/data/code/ouyanghao/oyh/hab-contact-aware-world-model/additional_tasks_20260911/walker_run/artifacts/walker_run_seed3_1m",
+      "updated_utc": "2026-09-12T08:08:24.295919+00:00",
+      "log": "/data/code/ouyanghao/oyh/hab-contact-aware-world-model/additional_tasks_20260911/walker_run/logs/seed3_1m.log"
+    },
+    "pick-cube": {
+      "status": "all_complete",
+      "seed": 3,
+      "pid": null,
+      "artifact": "/data/code/ouyanghao/oyh/hab-contact-aware-world-model/maniskill2_tdmpc2_original/artifacts/pick_cube_seed3_1m",
+      "updated_utc": "2026-09-11T18:01:44.475373+00:00",
+      "log": "/data/code/ouyanghao/oyh/hab-contact-aware-world-model/maniskill2_tdmpc2_original/logs/seed3_1m.log"
+    },
+    "lift-cube": {
+      "status": "all_complete",
+      "seed": 3,
+      "pid": null,
+      "artifact": "/data/code/ouyanghao/oyh/hab-contact-aware-world-model/additional_tasks_20260911/lift_cube/artifacts/lift_cube_seed3_1m",
+      "updated_utc": "2026-09-12T11:51:28.965176+00:00",
+      "log": "/data/code/ouyanghao/oyh/hab-contact-aware-world-model/additional_tasks_20260911/lift_cube/logs/seed3_1m.log"
+    },
+    "cheetah-run": {
+      "status": "all_complete",
+      "seed": 3,
+      "pid": null,
+      "artifact": "/data/code/ouyanghao/oyh/hab-contact-aware-world-model/six_tasks_20260911/cheetah_run/artifacts/cheetah_run_seed3_1m",
+      "log": "/data/code/ouyanghao/oyh/hab-contact-aware-world-model/six_tasks_20260911/cheetah_run/logs/seed3_1m.log",
+      "updated_utc": "2026-09-12T08:40:05.035189+00:00"
+    },
+    "stack-cube": {
+      "status": "all_complete",
+      "seed": 3,
+      "pid": null,
+      "artifact": "/data/code/ouyanghao/oyh/hab-contact-aware-world-model/six_tasks_20260911/stack_cube/artifacts/stack_cube_seed3_1m",
+      "log": "/data/code/ouyanghao/oyh/hab-contact-aware-world-model/six_tasks_20260911/stack_cube/logs/seed3_1m.log",
+      "updated_utc": "2026-09-12T12:26:25.687776+00:00"
+    }
+  },
+  "finished_utc": "2026-09-12T12:26:25.689156+00:00",
+  "all_complete": true
+}

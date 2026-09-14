@@ -1,0 +1,58 @@
+{
+  "passed": true,
+  "updates": 5,
+  "all_five_modules_changed": true,
+  "replay_shape": [
+    4,
+    256,
+    44
+  ],
+  "source_trajectory": "/data/code/ouyanghao/oyh/hab-contact-aware-world-model/hab_tdmpc2_original/artifacts/witness_20260909_072133/trajectories/train/000000.npz",
+  "losses": [
+    {
+      "consistency_loss": 0.017512328922748566,
+      "reward_loss": 2.6921536922454834,
+      "value_loss": 2.6921544075012207,
+      "pi_loss": 0.017511967569589615,
+      "total_loss": 0.8886773586273193,
+      "grad_norm": 1.3900730609893799,
+      "pi_scale": 1.0
+    },
+    {
+      "consistency_loss": 0.012495785020291805,
+      "reward_loss": 2.627931594848633,
+      "value_loss": 2.6299023628234863,
+      "pi_loss": 0.0009426949545741081,
+      "total_loss": 0.7756990790367126,
+      "grad_norm": 1.1995185613632202,
+      "pi_scale": 1.0
+    },
+    {
+      "consistency_loss": 0.009096138179302216,
+      "reward_loss": 2.541909694671631,
+      "value_loss": 2.5456321239471436,
+      "pi_loss": -0.007143640890717506,
+      "total_loss": 0.6906769275665283,
+      "grad_norm": 1.0584098100662231,
+      "pi_scale": 1.0
+    },
+    {
+      "consistency_loss": 0.006656811572611332,
+      "reward_loss": 2.4479947090148926,
+      "value_loss": 2.453810214996338,
+      "pi_loss": -0.009963613003492355,
+      "total_loss": 0.623316764831543,
+      "grad_norm": 0.9380825161933899,
+      "pi_scale": 1.0
+    },
+    {
+      "consistency_loss": 0.005172938574105501,
+      "reward_loss": 2.353158473968506,
+      "value_loss": 2.3613054752349854,
+      "pi_loss": -0.011441144160926342,
+      "total_loss": 0.5749051570892334,
+      "grad_norm": 0.8541377186775208,
+      "pi_scale": 1.0
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "pid": 1840265,
+  "tag": "ms2",
+  "role": "new",
+  "mode": "witness",
+  "seed": 1,
+  "time": 1789091077.6027715,
+  "entry_hashes": {
+    "shared_entry.py": "3a18f80bdd75d097ce4921f16f0689fe124f64fafc5c2016f0cf307d5e6c6a0a",
+    "shared_run.sh": "28e89598e966e6534086e24a284adc2552ab2ee7020b3430c66fe0495e749e7e",
+    "manifest.json": "afdb437baa19dacd4e26f5f3eae3c906dfec9d97ff4ace6324f694f8c46bfecc"
+  },
+  "job_root": "/data/code/ouyanghao/oyh/hab-contact-aware-world-model/additional_tasks_20260911/lift_cube"
+}

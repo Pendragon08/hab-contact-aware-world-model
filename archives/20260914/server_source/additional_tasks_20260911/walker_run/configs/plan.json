@@ -1,0 +1,26 @@
+{
+  "task": "walker-run",
+  "seeds": [
+    1,
+    2,
+    3
+  ],
+  "environment_steps_per_seed": 1000000,
+  "decisions_per_seed": 500000,
+  "action_repeat": 2,
+  "episode_decisions": 500,
+  "episode_environment_steps": 1000,
+  "seed_decisions": 2500,
+  "eval_frequency_decisions": 50000,
+  "eval_episodes": 10,
+  "model_size": 5,
+  "obs": "state",
+  "metric": "raw episode return (0 to 1000), not success",
+  "gpu": 0,
+  "execution": "3seeds sequentially per task; at most2training processes per GPU across paired tasks",
+  "paper": "https://arxiv.org/html/2310.16828v2",
+  "reference_csv": "https://raw.githubusercontent.com/nicklashansen/tdmpc2/57158282b46ebc5c329c5be9cfe2b0094126d1ca/results/walker-run.csv",
+  "boundary_adjustment": "replace upstream <= loop bound with <; explicitly evaluate at exact final budget",
+  "runtime_differences": "Python 3.10, PyTorch 2.5.1 and TorchRL/TensorDict 0.6 instead of historical stack; dm-control, mujoco and numpy match upstream pins",
+  "budget_revision": "User reduced each seed to 1M environment steps on 2026-09-10; three seeds retained. This is a reduced-budget reproduction, compared with the paper at 1M steps."
+}

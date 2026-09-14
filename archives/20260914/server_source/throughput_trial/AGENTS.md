@@ -1,0 +1,3 @@
+# Authorized two-jobs-per-GPU throughput trial
+
+User explicitly authorized testing two concurrent training jobs per GPU, four total, on 2026-09-10. This overrides earlier idle-GPU requirements for these two additional bounded pilots only. Keep the existing DMControl GPU0 and ManiSkill2 GPU1 training processes and frozen files untouched. Warm-reuse their exact environments and original task/model/update settings. Independent seed2 pilots live here and do not count as formal1M-seed results. Measure before/after total throughput, exclude warmup from comparison, report evaluation pauses separately. Preserve >=12GiB GPU free and15GiB disk. Do not expand beyond four total jobs. No notifications.

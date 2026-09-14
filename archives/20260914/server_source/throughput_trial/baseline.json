@@ -1,0 +1,60 @@
+{
+  "utc": "2026-09-10T12:46:39.098221+00:00",
+  "rates": {
+    "dmc": {
+      "environment_steps_per_second": 31.934793398155783,
+      "optimizer_updates_per_second": 15.967396699077891,
+      "measured_seconds": 294.3497984409332,
+      "intervals": 47,
+      "excluded_intervals": 0,
+      "end_to_end_environment_steps_per_second": 31.934793398155783
+    },
+    "ms2": {
+      "environment_steps_per_second": 27.249039516206864,
+      "optimizer_updates_per_second": 13.624519758103432,
+      "measured_seconds": 293.5883297920227,
+      "intervals": 40,
+      "excluded_intervals": 0,
+      "end_to_end_environment_steps_per_second": 27.249039516206864
+    }
+  },
+  "resources": {
+    "utc": "2026-09-10T12:46:38.957818+00:00",
+    "wall": 1789044398.9578323,
+    "runs": {
+      "dmc_original": {
+        "update": 249800,
+        "train_decisions": 249801,
+        "train_environment_steps": 499602,
+        "seconds": 16165.031676530838,
+        "consistency_loss": 0.00013704287994187325,
+        "reward_loss": 0.400216668844223,
+        "value_loss": 0.3940947353839874,
+        "pi_loss": -11.34857177734375,
+        "total_loss": 0.08217199891805649,
+        "grad_norm": 0.3609232008457184,
+        "pi_scale": 8.191718101501465
+      },
+      "ms2_original": {
+        "update": 177700,
+        "train_decisions": 177701,
+        "train_environment_steps": 355402,
+        "seconds": 13047.301671981812,
+        "consistency_loss": 0.0002514986554160714,
+        "reward_loss": 0.2762771248817444,
+        "value_loss": 0.3367181420326233,
+        "pi_loss": -0.30396831035614014,
+        "total_loss": 0.06632950156927109,
+        "grad_norm": 0.3962864577770233,
+        "pi_scale": 148.88462829589844
+      }
+    },
+    "load": [
+      2.06,
+      2.02,
+      2.0
+    ],
+    "gpu": "0, 742, 47809, 28, 73\n1, 916, 47634, 26, 74",
+    "compute_processes": "GPU-f3cc20c6-f613-73c1-b0f9-f54863f22602, 1789362, 695\nGPU-0b41e662-b662-bb1c-954b-13ed89d7af18, 1795158, 862"
+  }
+}

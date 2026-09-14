@@ -1,0 +1,323 @@
+{
+  "checked_utc": "2026-09-11T01:53:05.540605+00:00",
+  "tasks": [
+    {
+      "task": "walker-walk",
+      "gpu": 0,
+      "root": "/data/code/ouyanghao/oyh/hab-contact-aware-world-model/dmc_tdmpc2_original",
+      "seeds": [
+        {
+          "name": "walker_walk_seed1_1m",
+          "completed": true,
+          "train_environment_steps": 1000000,
+          "final_eval": {
+            "episode_reward": 980.9122924804688,
+            "step": 500000,
+            "episode": 999,
+            "total_time": 32649.109456300735
+          },
+          "latest_update": {
+            "update": 499900,
+            "train_decisions": 499901,
+            "train_environment_steps": 999802,
+            "seconds": 32521.591710567474,
+            "consistency_loss": 7.819184975232929e-05,
+            "reward_loss": 0.39905020594596863,
+            "value_loss": 0.3986814618110657,
+            "pi_loss": -32.46207809448242,
+            "total_loss": 0.08133700489997864,
+            "grad_norm": 0.13682129979133606,
+            "pi_scale": 2.8803446292877197
+          },
+          "latest_eval": {
+            "episode_reward": 980.9122924804688,
+            "step": 500000,
+            "episode": 999,
+            "total_time": 32649.109456300735,
+            "category": "eval",
+            "train_decisions": 500000,
+            "train_environment_steps": 1000000,
+            "eval_decisions": 55000,
+            "episode_returns": [
+              991.159119874239,
+              967.2730558132753,
+              993.5363028049469,
+              988.8210267424583,
+              991.7006898522377,
+              975.6868945490569,
+              972.3052704092115,
+              980.6224853396416,
+              978.6869466900826,
+              969.3294251477346
+            ]
+          }
+        },
+        {
+          "name": "walker_walk_seed2_1m",
+          "completed": false,
+          "latest_update": {
+            "update": 469500,
+            "train_decisions": 469501,
+            "train_environment_steps": 939002,
+            "seconds": 30686.635306596756,
+            "consistency_loss": 8.265955693786964e-05,
+            "reward_loss": 0.39885827898979187,
+            "value_loss": 0.39483213424682617,
+            "pi_loss": -16.733943939208984,
+            "total_loss": 0.0810222327709198,
+            "grad_norm": 0.19349631667137146,
+            "pi_scale": 5.57714319229126
+          },
+          "latest_eval": {
+            "episode_reward": 973.4026489257812,
+            "step": 450000,
+            "episode": 899,
+            "total_time": 29433.36870288849,
+            "category": "eval",
+            "train_decisions": 450000,
+            "train_environment_steps": 900000,
+            "eval_decisions": 50000,
+            "episode_returns": [
+              975.1590554770082,
+              966.3384801093489,
+              970.7727309167385,
+              967.3168345950544,
+              967.0912867970765,
+              981.3403496444225,
+              972.221412776038,
+              971.6657948605716,
+              973.0897235069424,
+              989.0304242968559
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "task": "walker-run",
+      "gpu": 0,
+      "root": "/data/code/ouyanghao/oyh/hab-contact-aware-world-model/additional_tasks_20260911/walker_run",
+      "seeds": [
+        {
+          "name": "walker_run_seed1_1m",
+          "completed": false,
+          "latest_update": {
+            "update": 1900,
+            "train_decisions": 2501,
+            "train_environment_steps": 5002,
+            "seconds": 212.32420420646667,
+            "consistency_loss": 0.0003646336845122278,
+            "reward_loss": 0.28954553604125977,
+            "value_loss": 0.27649956941604614,
+            "pi_loss": -0.9488196969032288,
+            "total_loss": 0.06389718502759933,
+            "grad_norm": 0.25383761525154114,
+            "pi_scale": 1.0
+          },
+          "latest_eval": {
+            "episode_reward": 22.203678131103516,
+            "step": 0,
+            "episode": 0,
+            "total_time": 134.5824110507965,
+            "category": "eval",
+            "train_decisions": 0,
+            "train_environment_steps": 0,
+            "eval_decisions": 5000,
+            "episode_returns": [
+              14.642790611833334,
+              14.144021218642592,
+              24.395294735208154,
+              23.60274503007531,
+              23.71515930397436,
+              35.99634968396276,
+              14.014746982604265,
+              32.00390574010089,
+              25.457090225070715,
+              14.064670246094465
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "task": "pick-cube",
+      "gpu": 1,
+      "root": "/data/code/ouyanghao/oyh/hab-contact-aware-world-model/maniskill2_tdmpc2_original",
+      "seeds": [
+        {
+          "name": "pick_cube_seed1_1m",
+          "completed": true,
+          "train_environment_steps": 1000000,
+          "final_eval": {
+            "episode_reward": 950.9888916015625,
+            "episode_success": 0.9,
+            "step": 500000,
+            "episode": 4999,
+            "total_time": 36968.498697280884
+          },
+          "latest_update": {
+            "update": 499900,
+            "train_decisions": 499901,
+            "train_environment_steps": 999802,
+            "seconds": 36926.30299663544,
+            "consistency_loss": 0.0001004254663712345,
+            "reward_loss": 0.23185700178146362,
+            "value_loss": 0.33287352323532104,
+            "pi_loss": -0.4165518581867218,
+            "total_loss": 0.05848156288266182,
+            "grad_norm": 0.2953687608242035,
+            "pi_scale": 186.39614868164062
+          },
+          "latest_eval": {
+            "episode_reward": 950.9888916015625,
+            "episode_success": 0.9,
+            "step": 500000,
+            "episode": 4999,
+            "total_time": 36968.498697280884,
+            "category": "eval",
+            "train_decisions": 500000,
+            "train_environment_steps": 1000000,
+            "eval_decisions": 11000,
+            "episode_returns": [
+              960.7985137701035,
+              952.8724093437195,
+              948.1419535279274,
+              948.4783357977867,
+              967.3000192642212,
+              942.9738048911095,
+              933.654380261898,
+              936.3031097650528,
+              954.3397724032402,
+              965.0266882181168
+            ],
+            "success_once": 1.0
+          }
+        },
+        {
+          "name": "pick_cube_seed2_1m",
+          "completed": false,
+          "latest_update": {
+            "update": 316300,
+            "train_decisions": 316301,
+            "train_environment_steps": 632602,
+            "seconds": 23250.765583992004,
+            "consistency_loss": 0.00016484683146700263,
+            "reward_loss": 0.2440132200717926,
+            "value_loss": 0.2931195795536041,
+            "pi_loss": -0.3323071300983429,
+            "total_loss": 0.057010218501091,
+            "grad_norm": 0.2641115188598633,
+            "pi_scale": 179.1766357421875
+          },
+          "latest_eval": {
+            "episode_reward": 848.1238403320312,
+            "episode_success": 0.9,
+            "step": 300000,
+            "episode": 2999,
+            "total_time": 22036.29971385002,
+            "category": "eval",
+            "train_decisions": 300000,
+            "train_environment_steps": 600000,
+            "eval_decisions": 7000,
+            "episode_returns": [
+              950.9283865690231,
+              883.2300508022308,
+              949.866168320179,
+              946.6104419231415,
+              381.10657888650894,
+              595.0553232431412,
+              959.5214478373528,
+              947.8109538555145,
+              917.00956594944,
+              950.0995129942894
+            ],
+            "success_once": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "task": "lift-cube",
+      "gpu": 1,
+      "root": "/data/code/ouyanghao/oyh/hab-contact-aware-world-model/additional_tasks_20260911/lift_cube",
+      "seeds": [
+        {
+          "name": "lift_cube_seed1_1m",
+          "completed": false,
+          "latest_update": {
+            "update": 2700,
+            "train_decisions": 2701,
+            "train_environment_steps": 5402,
+            "seconds": 206.33773970603943,
+            "consistency_loss": 0.00030210433760657907,
+            "reward_loss": 0.2894898056983948,
+            "value_loss": 0.333456814289093,
+            "pi_loss": -0.9151800870895386,
+            "total_loss": 0.06833674758672714,
+            "grad_norm": 0.29423654079437256,
+            "pi_scale": 7.473316192626953
+          },
+          "latest_eval": {
+            "episode_reward": 13.441873550415039,
+            "episode_success": 0.0,
+            "step": 0,
+            "episode": 0,
+            "total_time": 33.19829201698303,
+            "category": "eval",
+            "train_decisions": 0,
+            "train_environment_steps": 0,
+            "eval_decisions": 1000,
+            "episode_returns": [
+              9.703328430652618,
+              6.104387387633324,
+              8.474893789738417,
+              20.148340582847595,
+              11.42526862770319,
+              18.342334806919098,
+              15.465869780629873,
+              21.170376040041447,
+              8.732450704090297,
+              14.851473726332188
+            ],
+            "success_once": 0.0
+          }
+        }
+      ]
+    }
+  ],
+  "manager_state": {
+    "created_utc": "2026-09-11T01:49:28.306430+00:00",
+    "streams": {
+      "dmc_old": {
+        "status": "existing_training",
+        "seed": 2,
+        "pid": 1819620,
+        "updated_utc": "2026-09-11T01:49:28.346780+00:00"
+      },
+      "ms2_old": {
+        "status": "existing_training",
+        "seed": 2,
+        "pid": 1824540,
+        "updated_utc": "2026-09-11T01:49:28.348368+00:00"
+      },
+      "dmc_new": {
+        "status": "training",
+        "seed": 1,
+        "pid": 1843073,
+        "log": "/data/code/ouyanghao/oyh/hab-contact-aware-world-model/additional_tasks_20260911/walker_run/logs/seed1_1m.log",
+        "artifact": "/data/code/ouyanghao/oyh/hab-contact-aware-world-model/additional_tasks_20260911/walker_run/artifacts/walker_run_seed1_1m",
+        "updated_utc": "2026-09-11T01:49:28.350835+00:00"
+      },
+      "ms2_new": {
+        "status": "training",
+        "seed": 1,
+        "pid": 1843075,
+        "log": "/data/code/ouyanghao/oyh/hab-contact-aware-world-model/additional_tasks_20260911/lift_cube/logs/seed1_1m.log",
+        "artifact": "/data/code/ouyanghao/oyh/hab-contact-aware-world-model/additional_tasks_20260911/lift_cube/artifacts/lift_cube_seed1_1m",
+        "updated_utc": "2026-09-11T01:49:28.351300+00:00"
+      }
+    }
+  },
+  "gpu": "0, 1465 MiB, 47086 MiB, 93 %\n1, 1785 MiB, 46765 MiB, 72 %\n",
+  "compute_processes": "GPU-f3cc20c6-f613-73c1-b0f9-f54863f22602, 1819620, 695 MiB\nGPU-f3cc20c6-f613-73c1-b0f9-f54863f22602, 1843073, 695 MiB\nGPU-0b41e662-b662-bb1c-954b-13ed89d7af18, 1824540, 862 MiB\nGPU-0b41e662-b662-bb1c-954b-13ed89d7af18, 1843075, 846 MiB\n"
+}

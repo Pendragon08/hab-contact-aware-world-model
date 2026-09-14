@@ -1,0 +1,51 @@
+{
+  "sampling_interval_seconds": 5,
+  "scope": "whole GPUs, includes all processes; not a continuous allocation guarantee",
+  "files": [
+    {
+      "path": "logs/bc_v1_1_interface_resources.jsonl",
+      "samples": 255
+    },
+    {
+      "path": "logs/bc_v1_1_witness_resources.jsonl",
+      "samples": 17
+    },
+    {
+      "path": "logs/bc_v1_2_collect_resources.jsonl",
+      "samples": 550
+    },
+    {
+      "path": "logs/bc_v1_2_eval_v2_run_resources.jsonl",
+      "samples": 109
+    },
+    {
+      "path": "logs/bc_v1_2_eval_v2_witness_resources.jsonl",
+      "samples": 11
+    },
+    {
+      "path": "logs/bc_v1_2_train_resources.jsonl",
+      "samples": 16
+    },
+    {
+      "path": "logs/bc_v1_2_witness_resources.jsonl",
+      "samples": 17
+    },
+    {
+      "path": "logs/bc_v1_witness_resources.jsonl",
+      "samples": 14
+    }
+  ],
+  "gpu0": {
+    "samples": 989,
+    "max_used_mib": 2761,
+    "min_free_mib": 45791,
+    "max_util_percent": 38
+  },
+  "gpu1": {
+    "samples": 989,
+    "max_used_mib": 5152,
+    "min_free_mib": 43398,
+    "max_util_percent": 75
+  },
+  "gpu0_sampled_reserve_passed": true
+}

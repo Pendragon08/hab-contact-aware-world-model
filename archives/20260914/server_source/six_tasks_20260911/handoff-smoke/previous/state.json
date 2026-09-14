@@ -1,0 +1,1 @@
+{"streams": {"dmc_old": {"status": "training", "seed": 1, "pid": 1848344}, "dmc_new": {"status": "training", "seed": 1, "pid": 1848345}, "ms2_old": {"status": "training", "seed": 1, "pid": 1848346}, "ms2_new": {"status": "training", "seed": 1, "pid": 1848347}}}

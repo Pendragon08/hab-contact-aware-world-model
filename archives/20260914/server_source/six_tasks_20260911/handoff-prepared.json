@@ -1,0 +1,142 @@
+{
+  "utc": "2026-09-11T02:28:51.463670+00:00",
+  "previous_manager": {
+    "pid": 1843068,
+    "state": "S",
+    "ppid": 1843066,
+    "start_ticks": "1028892311",
+    "uid": 1013,
+    "argv": [
+      "python3",
+      "/data/code/ouyanghao/oyh/hab-contact-aware-world-model/additional_tasks_20260911/manager.py"
+    ]
+  },
+  "previous_state": {
+    "dmc_old": {
+      "status": "existing_training",
+      "seed": 2,
+      "pid": 1819620,
+      "updated_utc": "2026-09-11T01:49:28.346780+00:00"
+    },
+    "ms2_old": {
+      "status": "existing_training",
+      "seed": 2,
+      "pid": 1824540,
+      "updated_utc": "2026-09-11T01:49:28.348368+00:00"
+    },
+    "dmc_new": {
+      "status": "training",
+      "seed": 1,
+      "pid": 1843073,
+      "log": "/data/code/ouyanghao/oyh/hab-contact-aware-world-model/additional_tasks_20260911/walker_run/logs/seed1_1m.log",
+      "artifact": "/data/code/ouyanghao/oyh/hab-contact-aware-world-model/additional_tasks_20260911/walker_run/artifacts/walker_run_seed1_1m",
+      "updated_utc": "2026-09-11T01:49:28.350835+00:00"
+    },
+    "ms2_new": {
+      "status": "training",
+      "seed": 1,
+      "pid": 1843075,
+      "log": "/data/code/ouyanghao/oyh/hab-contact-aware-world-model/additional_tasks_20260911/lift_cube/logs/seed1_1m.log",
+      "artifact": "/data/code/ouyanghao/oyh/hab-contact-aware-world-model/additional_tasks_20260911/lift_cube/artifacts/lift_cube_seed1_1m",
+      "updated_utc": "2026-09-11T01:49:28.351300+00:00"
+    }
+  },
+  "handoffs": {
+    "walker-walk": {
+      "seed": 2,
+      "child": {
+        "pid": 1819620,
+        "state": "R",
+        "ppid": 1789356,
+        "start_ticks": "1025844419",
+        "uid": 1013,
+        "argv": [
+          "/data/code/ouyanghao/oyh/world-model-risk-planning/.env/bin/python",
+          "/data/code/ouyanghao/oyh/hab-contact-aware-world-model/dmc_tdmpc2_original/runner.py",
+          "train",
+          "--seed",
+          "2"
+        ]
+      },
+      "parent": {
+        "pid": 1789356,
+        "state": "S",
+        "ppid": 1789355,
+        "start_ticks": "1022578442",
+        "argv": [
+          "bash",
+          "/data/code/ouyanghao/oyh/hab-contact-aware-world-model/dmc_tdmpc2_original/queue_1m.sh"
+        ],
+        "uid": 1013
+      }
+    },
+    "walker-run": {
+      "seed": 1,
+      "child": {
+        "pid": 1843073,
+        "state": "S",
+        "ppid": 1843068,
+        "start_ticks": "1028892319",
+        "uid": 1013,
+        "argv": [
+          "/data/code/ouyanghao/oyh/world-model-risk-planning/.env/bin/python",
+          "/data/code/ouyanghao/oyh/hab-contact-aware-world-model/additional_tasks_20260911/shared_entry.py",
+          "dmc",
+          "new",
+          "train",
+          "--seed",
+          "1"
+        ]
+      },
+      "parent": null
+    },
+    "pick-cube": {
+      "seed": 2,
+      "child": {
+        "pid": 1824540,
+        "state": "R",
+        "ppid": 1795152,
+        "start_ticks": "1026588035",
+        "uid": 1013,
+        "argv": [
+          "/data/code/ouyanghao/oyh/world-model-risk-planning/.env/bin/python",
+          "/data/code/ouyanghao/oyh/hab-contact-aware-world-model/maniskill2_tdmpc2_original/runner.py",
+          "train",
+          "--seed",
+          "2"
+        ]
+      },
+      "parent": {
+        "pid": 1795152,
+        "state": "S",
+        "ppid": 1795151,
+        "start_ticks": "1022889803",
+        "argv": [
+          "bash",
+          "/data/code/ouyanghao/oyh/hab-contact-aware-world-model/maniskill2_tdmpc2_original/queue.sh"
+        ],
+        "uid": 1013
+      }
+    },
+    "lift-cube": {
+      "seed": 1,
+      "child": {
+        "pid": 1843075,
+        "state": "R",
+        "ppid": 1843068,
+        "start_ticks": "1028892319",
+        "uid": 1013,
+        "argv": [
+          "/data/code/ouyanghao/oyh/world-model-risk-planning/.env/bin/python",
+          "/data/code/ouyanghao/oyh/hab-contact-aware-world-model/additional_tasks_20260911/shared_entry.py",
+          "ms2",
+          "new",
+          "train",
+          "--seed",
+          "1"
+        ]
+      },
+      "parent": null
+    }
+  }
+}

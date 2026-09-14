@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "counter_before": 0,
+  "counter_after": 4,
+  "parent_exit": -15,
+  "next_seed_not_started": true,
+  "scope": "CPU-only disposable parent/child stand-ins"
+}

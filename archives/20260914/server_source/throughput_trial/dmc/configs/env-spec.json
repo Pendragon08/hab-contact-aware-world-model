@@ -1,0 +1,16 @@
+{
+  "provider": "ssh",
+  "python": "3.10.21 (borrowed read-only)",
+  "torch": "2.5.1+cu121 (borrowed read-only)",
+  "torchrl": "0.6.0 (borrowed read-only)",
+  "tensordict": "0.6.0 (borrowed read-only)",
+  "gym": "0.21.0 (tdmpc2_original/vendor_deps/runtime, read-only)",
+  "pip_phases": [["numpy==1.23.5", "dm-control==1.0.8", "mujoco==2.3.1", "dm-env==1.6", "dm-tree==0.1.8", "PyOpenGL==3.1.6", "glfw==2.6.4", "absl-py==2.0.0"]],
+  "install_scope": "own vendor_deps only, --no-deps; other dependencies inherited and recorded",
+  "gpu": 0,
+  "gpu_free_reserve_gib": 12,
+  "disk_free_reserve_gib": 15,
+  "env": {"MUJOCO_GL": "egl", "MUJOCO_EGL_DEVICE_ID": "0", "CUDA_VISIBLE_DEVICES": "0", "OMP_NUM_THREADS": "4"},
+  "upstream_commit": "57158282b46ebc5c329c5be9cfe2b0094126d1ca",
+  "validation": "seeded real 500-decision episode, action-repeat equivalence, official replay and optimizer, complete train-loop witness, rendering and module-change checks"
+}

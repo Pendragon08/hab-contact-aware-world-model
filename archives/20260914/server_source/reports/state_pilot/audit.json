@@ -1,0 +1,24 @@
+{
+  "algorithms": {
+    "tdmpc2": {
+      "passed": true,
+      "train_episodes": 50,
+      "train_steps": 10000,
+      "update_records": 9000,
+      "eval_episodes": 20,
+      "videos_decoded": 20,
+      "finite_checkpoint": true
+    },
+    "sac": {
+      "passed": true,
+      "train_episodes": 50,
+      "train_steps": 10000,
+      "update_records": 9000,
+      "eval_episodes": 20,
+      "videos_decoded": 20,
+      "finite_checkpoint": true
+    }
+  },
+  "matching_initial_state_vectors": 70,
+  "note": "State vectors match across algorithms; not arbitrary simulator/controller restoration or final research test."
+}

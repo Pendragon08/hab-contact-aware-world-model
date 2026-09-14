@@ -1,0 +1,82 @@
+{
+  "walker-walk": {
+    "gpu": 0,
+    "root": "/data/code/ouyanghao/oyh/hab-contact-aware-world-model/dmc_tdmpc2_original",
+    "stem": "walker_walk",
+    "previous": "dmc_old",
+    "frozen": {
+      "runner.py": "42cb3c25800aee9c2fe8463e137a4ea43f551b6547900339f56412a04fbff8f9",
+      "runtime.sh": "9c80cb9186e634824322012c7ac30e317b6f180d23c83273781f9ff3e57308df",
+      "run.sh": "c8b5f7bea09205efdad3a2fbd0b896ee775a9bc40d8ee66b98cc8c635dc2a1ac",
+      "configs/plan.json": "bf061485096198171b64931020417116a79856e8b4852325b994c8a727179569",
+      "configs/env-spec.json": "ba91bff6523a9ced4f2f99fb7d210423577a6cef69095441e3e2d13476e7b765"
+    }
+  },
+  "walker-run": {
+    "gpu": 0,
+    "root": "/data/code/ouyanghao/oyh/hab-contact-aware-world-model/additional_tasks_20260911/walker_run",
+    "stem": "walker_run",
+    "previous": "dmc_new",
+    "frozen": {
+      "runner.py": "f188492858b5eafeaebc9d5cba051e73a36140eb5e3f5b4abd30c70de0619e67",
+      "runtime.sh": "fc1911d9c036f99c8b19bbb9ac25e2be32287e0a29f82ff96b7993ee232e638e",
+      "run.sh": "d0e012ebe16ea467e1ec80f0223a65677dbd5c4173c973ae3512646ee9eb2079",
+      "configs/plan.json": "cb781c96cbc45e129fa984abca22ce200786421d4bb04a335a6acbd35a2f31fd",
+      "configs/env-spec.json": "ba91bff6523a9ced4f2f99fb7d210423577a6cef69095441e3e2d13476e7b765"
+    }
+  },
+  "pick-cube": {
+    "gpu": 1,
+    "root": "/data/code/ouyanghao/oyh/hab-contact-aware-world-model/maniskill2_tdmpc2_original",
+    "stem": "pick_cube",
+    "previous": "ms2_old",
+    "frozen": {
+      "runner.py": "f4b509951f38df6fc23fae4b266873d5e46314ebf1fcb122de82c810e46db88f",
+      "runtime.sh": "40583d99a4f19e79facc2e7c9a306cfad82cc224504550d607951d15f56a3477",
+      "run.sh": "efca5d58d500f1dbea6e9c6a06929e595228acbc13afb00f17862ce60a5db7e8",
+      "configs/plan.json": "8c4e7eddd01e82406ccb11163997828d6abce6addcf0e9eb824a06f563d8a421",
+      "configs/env-spec.json": "e8a7bd82107c0ef7993e0e3397e65f5238ae6a6a75bf62629725e11dc6226862"
+    }
+  },
+  "lift-cube": {
+    "gpu": 1,
+    "root": "/data/code/ouyanghao/oyh/hab-contact-aware-world-model/additional_tasks_20260911/lift_cube",
+    "stem": "lift_cube",
+    "previous": "ms2_new",
+    "frozen": {
+      "runner.py": "0f19c127e5207aba643311cfbd77c48a416a00333f5b1397ede430aa96b0957d",
+      "runtime.sh": "b8a3775e86881ef4df7f96eec7ef64660491d165c1fdc5c2b64c71fafe268f1b",
+      "run.sh": "bdc55fc3b9435aa2d446d8b177de48f213c06c8464da8db87cedb0e8a44e3e97",
+      "configs/plan.json": "cdfa23530552e69bdd2f9d45f0a91b401c4d168bdbd6f7578b3c1acd615bf0d6",
+      "configs/env-spec.json": "e8a7bd82107c0ef7993e0e3397e65f5238ae6a6a75bf62629725e11dc6226862"
+    }
+  },
+  "cheetah-run": {
+    "gpu": 0,
+    "root": "/data/code/ouyanghao/oyh/hab-contact-aware-world-model/six_tasks_20260911/cheetah_run",
+    "stem": "cheetah_run",
+    "envhash": "cba67740",
+    "obs": 17,
+    "frozen": {
+      "runner.py": "7c567a6463db185fc8d9e581fb2c1a014ea7e963405d78f985746271220354bc",
+      "runtime.sh": "1c4235fef921e58513504b58fecbf8ed7d568a37de457bd7074b19fcc704af80",
+      "run.sh": "c06a8ece087135bff2456a70a6f7477593c2d5495492b94e7b95f6d1b27593ce",
+      "configs/plan.json": "db448de2fdfd55ffbc6ccd8b7a50111e8aab530c14110300d7ce1c2d7c32b812",
+      "configs/env-spec.json": "ba91bff6523a9ced4f2f99fb7d210423577a6cef69095441e3e2d13476e7b765"
+    }
+  },
+  "stack-cube": {
+    "gpu": 1,
+    "root": "/data/code/ouyanghao/oyh/hab-contact-aware-world-model/six_tasks_20260911/stack_cube",
+    "stem": "stack_cube",
+    "envhash": "eff3d0dd",
+    "obs": 55,
+    "frozen": {
+      "runner.py": "ca8c2ba0dd7cbed8656f0fceaf66583026800cd024accee6a669d153292d18d1",
+      "runtime.sh": "a6f432b2cf6585586b999a2f3498a126c4c5ce4eb80e76527153f4c432752c49",
+      "run.sh": "d530ba36f6ab9bd27b7bdb93dbc6ecb17c8f07ba95a9c787e74c5e4a1b719cfe",
+      "configs/plan.json": "8f5aef92be0a7621e62a8c748e87966fb7e034b0755e39d6ab7d075b043e9c79",
+      "configs/env-spec.json": "e8a7bd82107c0ef7993e0e3397e65f5238ae6a6a75bf62629725e11dc6226862"
+    }
+  }
+}

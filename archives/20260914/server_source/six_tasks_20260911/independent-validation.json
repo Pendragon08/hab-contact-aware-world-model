@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "reviewer": "/root/six_task_witness",
+  "utc": "2026-09-11T02:28:51.376368+00:00",
+  "entry_hashes": {
+    "entry.py": "9779ab3586f2a424f261c8f71f7bbc01ff1a800be150bee6c09c405ccc79f336",
+    "run.sh": "0d433958433e3399c4394052ddecf06e104bb48a3df4c92828859dc2d0291a28",
+    "registry.json": "7922ffb542a2a3c977befcc964a22be03ff5bc04833e9f30c2f4d8ceec51d04c"
+  },
+  "complete_paths": {
+    "cheetah-run": "/data/code/ouyanghao/oyh/hab-contact-aware-world-model/six_tasks_20260911/cheetah_run/artifacts/witness_20260911_022405/complete.json",
+    "stack-cube": "/data/code/ouyanghao/oyh/hab-contact-aware-world-model/six_tasks_20260911/stack_cube/artifacts/witness_20260911_022406/complete.json"
+  },
+  "invocation_count": 1,
+  "exit_code": 0,
+  "finite_logged_rows": {
+    "cheetah-run": 30,
+    "stack-cube": 12
+  },
+  "limits": [
+    "Witness execution only; not final performance or scheduler certification.",
+    "Root-only scheduler hold was an orchestration adjustment absent from witness instructions; learners untouched.",
+    "Discount is asserted by runner, not a resolved-config field."
+  ]
+}

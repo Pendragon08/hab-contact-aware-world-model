@@ -1,0 +1,14 @@
+[
+  {
+    "file": "mujoco210.tar.gz",
+    "source": "https://mujoco.org/download/mujoco210-linux-x86_64.tar.gz",
+    "bytes": 4385135,
+    "sha256": "a436ca2f4144c38b837205635bbd60ffe1162d5b44c87df22232795978d7d012"
+  },
+  {
+    "file": "metaworld.tar.gz",
+    "source": "https://codeload.github.com/Farama-Foundation/Metaworld/tar.gz/04be337a12305e393c0caf0cbf5ec7755c7c8feb",
+    "bytes": 84357346,
+    "sha256": "70e527133ff4f12e216f76529098980ac9593bfc3c1af9f36c7bbb0e35b2b67b"
+  }
+]

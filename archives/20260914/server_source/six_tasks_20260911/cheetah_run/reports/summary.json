@@ -1,0 +1,31 @@
+{
+  "task": "cheetah-run",
+  "completed_seeds": [
+    {
+      "seed": 1,
+      "return": 915.9134521484375,
+      "seconds": 38912.21456360817
+    },
+    {
+      "seed": 2,
+      "return": 903.1915283203125,
+      "seconds": 34970.157321453094
+    },
+    {
+      "seed": 3,
+      "return": 917.4896240234375,
+      "seconds": 34757.189219236374
+    }
+  ],
+  "paper_final_returns": {
+    "2": 896.9,
+    "1": 725.4,
+    "3": 910.8
+  },
+  "all_three_complete": true,
+  "environment_steps_per_seed": 1000000,
+  "metric": "raw return /1000; not success rate",
+  "mean_return": 912.1982014973959,
+  "seed_mean_t95_halfwidth": 19.47494268515497,
+  "paper_mean_return": 844.3666666666667
+}

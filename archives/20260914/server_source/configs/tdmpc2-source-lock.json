@@ -1,0 +1,65 @@
+{
+  "upstream": "62ff3a5896b4d5b4cf0ac4c8d79afe600c9404a3",
+  "files": [
+    {
+      "path": "vendor_tdmpc2/common/buffer.py",
+      "sha256_lf": "adb82f28fa25da716ebc39cf6b90a56dae8effd1519cb8d05dfb86c379ca0069",
+      "upstream_match": true
+    },
+    {
+      "path": "vendor_tdmpc2/common/init.py",
+      "sha256_lf": "652eb32a8f9e98fc57b5e0b1449cc074da90f838ab9549a6ed7fc13b2b9e024d",
+      "upstream_match": true
+    },
+    {
+      "path": "vendor_tdmpc2/common/layers.py",
+      "sha256_lf": "b56cd4a34839d428ba0c67dd862c6351757c9be4a6e836b18f73b16ffa2c09eb",
+      "upstream_match": true
+    },
+    {
+      "path": "vendor_tdmpc2/common/logger.py",
+      "sha256_lf": "a00e08f7d72f49a3d389a9437fd61bdefa883726241cc3efa0c296a7a6fbc662",
+      "upstream_match": true
+    },
+    {
+      "path": "vendor_tdmpc2/common/math.py",
+      "sha256_lf": "8a22b368a3a5171abf79949c2b7c6669462aebee6e9e6f8962c7cef0fb1ee541",
+      "upstream_match": true
+    },
+    {
+      "path": "vendor_tdmpc2/common/parser.py",
+      "sha256_lf": "bbf77370d46bd59a0ab30f025e48bac07c183d24df23e32e7ccd61393c7af454",
+      "upstream_match": true
+    },
+    {
+      "path": "vendor_tdmpc2/common/scale.py",
+      "sha256_lf": "c428df268de019547145d8aa103d6be65b26f4adf7a4d3fe5b54542231b91cf9",
+      "upstream_match": true
+    },
+    {
+      "path": "vendor_tdmpc2/common/seed.py",
+      "sha256_lf": "f77ca34f6ae0b489d740ad25bf6a8efc217a4610e19fec4a83d5b30a995b7dbd",
+      "upstream_match": true
+    },
+    {
+      "path": "vendor_tdmpc2/common/world_model.py",
+      "sha256_lf": "20d5296804cad25b08dc42814090f00e5b77dc2568b8ece355dbec9b000f46a1",
+      "upstream_match": true
+    },
+    {
+      "path": "vendor_tdmpc2/common/__init__.py",
+      "sha256_lf": "d7714a0f5a5ed2a40542cf5cd69f9504fcd876dc8f9f5cba02e877c435c88e99",
+      "upstream_match": true
+    },
+    {
+      "path": "vendor_tdmpc2/tdmpc2.py",
+      "sha256_lf": "cf0107299574d382d20383d1b12238d9b97db25624f23af8a4fd171e64efa7db",
+      "upstream_match": true
+    },
+    {
+      "path": "vendor_tdmpc2/config.yaml",
+      "sha256_lf": "85087d35943f80681ee7e7b61b1773afd77ec373df144952dc35a56fda49e485",
+      "upstream_match": true
+    }
+  ]
+}

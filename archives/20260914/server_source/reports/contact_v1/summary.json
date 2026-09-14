@@ -1,0 +1,112 @@
+{
+  "scope": "development-only; five furniture layouts in one validation macro-scene",
+  "methods": {
+    "sac": {
+      "episodes": 100,
+      "success_once_count": 73,
+      "success_at_end_count": 52,
+      "force_exceeded_before_or_at_first_success_count": 20,
+      "force_limit_exceeded_any_count": 34,
+      "ever_grasped_count": 82,
+      "first_success_step_mean": 44.082191780821915,
+      "cumulative_force_at_first_success_mean": 771.9760601749159,
+      "final_cumulative_force_mean": 5998.742935709954,
+      "actor_ms_mean_mean": 1.4635986229404807,
+      "modifier_ms_mean_mean": 0.08012664150446654,
+      "mean_action_scale_mean": 1.0,
+      "reset_plus_rollout_seconds": 1807.1658998392522
+    },
+    "conservative": {
+      "episodes": 100,
+      "success_once_count": 75,
+      "success_at_end_count": 67,
+      "force_exceeded_before_or_at_first_success_count": 12,
+      "force_limit_exceeded_any_count": 17,
+      "ever_grasped_count": 85,
+      "first_success_step_mean": 59.74666666666667,
+      "cumulative_force_at_first_success_mean": 821.1986748964588,
+      "final_cumulative_force_mean": 3290.185762623474,
+      "actor_ms_mean_mean": 1.4748607128858566,
+      "modifier_ms_mean_mean": 0.098625130020082,
+      "mean_action_scale_mean": 0.7000000000000002,
+      "reset_plus_rollout_seconds": 1909.5167605597526
+    },
+    "force_rule": {
+      "episodes": 100,
+      "success_once_count": 63,
+      "success_at_end_count": 56,
+      "force_exceeded_before_or_at_first_success_count": 26,
+      "force_limit_exceeded_any_count": 30,
+      "ever_grasped_count": 77,
+      "first_success_step_mean": 51.666666666666664,
+      "cumulative_force_at_first_success_mean": 827.1376757546077,
+      "final_cumulative_force_mean": 3728.8819037342073,
+      "actor_ms_mean_mean": 1.5584548548795283,
+      "modifier_ms_mean_mean": 0.11032285476103425,
+      "mean_action_scale_mean": 0.8119821365533864,
+      "reset_plus_rollout_seconds": 2165.488616168499
+    }
+  },
+  "paired": {
+    "conservative": {
+      "success_once": {
+        "difference": 0.02,
+        "paired_stratified_bootstrap_95": [
+          -0.05,
+          0.09
+        ],
+        "other_only": 7,
+        "baseline_only": 5
+      },
+      "success_at_end": {
+        "difference": 0.15,
+        "paired_stratified_bootstrap_95": [
+          0.05,
+          0.25
+        ],
+        "other_only": 21,
+        "baseline_only": 6
+      },
+      "force_exceeded_before_or_at_first_success": {
+        "difference": -0.08,
+        "paired_stratified_bootstrap_95": [
+          -0.15,
+          -0.01
+        ],
+        "other_only": 3,
+        "baseline_only": 11
+      }
+    },
+    "force_rule": {
+      "success_once": {
+        "difference": -0.1,
+        "paired_stratified_bootstrap_95": [
+          -0.19,
+          -0.02
+        ],
+        "other_only": 5,
+        "baseline_only": 15
+      },
+      "success_at_end": {
+        "difference": 0.04,
+        "paired_stratified_bootstrap_95": [
+          -0.06,
+          0.14
+        ],
+        "other_only": 15,
+        "baseline_only": 11
+      },
+      "force_exceeded_before_or_at_first_success": {
+        "difference": 0.06,
+        "paired_stratified_bootstrap_95": [
+          -0.03,
+          0.15
+        ],
+        "other_only": 14,
+        "baseline_only": 8
+      }
+    }
+  },
+  "formal_episodes": 300,
+  "formal_steps": 60000
+}

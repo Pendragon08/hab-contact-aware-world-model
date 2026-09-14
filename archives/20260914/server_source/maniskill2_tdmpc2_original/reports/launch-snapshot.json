@@ -1,0 +1,133 @@
+{
+  "checked_utc": "2026-09-10T09:10:24.325357+00:00",
+  "maniskill2_pid": 1795158,
+  "dmcontrol_pid": 1789362,
+  "budget_environment_steps_per_seed": 1000000,
+  "seeds": [
+    1,
+    2,
+    3
+  ],
+  "status": "running",
+  "maniskill2_last_update": {
+    "update": 1000,
+    "train_decisions": 1001,
+    "train_environment_steps": 2002,
+    "seconds": 73.69390416145325,
+    "consistency_loss": 0.0002497262030374259,
+    "reward_loss": 0.2315690517425537,
+    "value_loss": 0.31346794962882996,
+    "pi_loss": -0.4447026550769806,
+    "total_loss": 0.059498224407434464,
+    "grad_norm": 0.5697227120399475,
+    "pi_scale": 5.5478196144104
+  },
+  "maniskill2_last_eval": {
+    "episode_reward": 17.587284088134766,
+    "episode_success": 0.0,
+    "step": 0,
+    "episode": 0,
+    "total_time": 30.87049150466919,
+    "category": "eval",
+    "train_decisions": 0,
+    "train_environment_steps": 0,
+    "eval_decisions": 1000,
+    "episode_returns": [
+      3.511872200295329,
+      2.7188683012500405,
+      64.69880625605583,
+      4.054800040088594,
+      8.931593395769596,
+      4.6459998791106045,
+      12.102700285613537,
+      11.459588656201959,
+      8.831128295511007,
+      54.91748717427254
+    ],
+    "success_once": 0.0
+  },
+  "maniskill2_last_train": {
+    "episode_reward": 17.686983108520508,
+    "episode_success": 0.0,
+    "step": 1000,
+    "episode": 9,
+    "total_time": 36.55556797981262,
+    "category": "train",
+    "train_decisions": 1000,
+    "train_environment_steps": 2000,
+    "eval_decisions": 1000
+  },
+  "dmcontrol_last_update": {
+    "update": 49900,
+    "train_decisions": 49901,
+    "train_environment_steps": 99802,
+    "seconds": 3116.2335567474365,
+    "consistency_loss": 0.00033843921846710145,
+    "reward_loss": 0.3654301166534424,
+    "value_loss": 0.33586767315864563,
+    "pi_loss": -4.47321891784668,
+    "total_loss": 0.07689855992794037,
+    "grad_norm": 0.5074202418327332,
+    "pi_scale": 19.818513870239258
+  },
+  "dmcontrol_last_eval": {
+    "episode_reward": 24.859161376953125,
+    "step": 0,
+    "episode": 0,
+    "total_time": 120.80909061431885,
+    "category": "eval",
+    "train_decisions": 0,
+    "train_environment_steps": 0,
+    "eval_decisions": 5000,
+    "episode_returns": [
+      15.8588025867939,
+      16.270520612597466,
+      27.544596985913813,
+      25.998846359550953,
+      26.253066565375775,
+      39.43227527104318,
+      15.692534061148763,
+      33.95238268561661,
+      31.775563050061464,
+      15.813047755509615
+    ]
+  },
+  "dmcontrol_last_train": {
+    "episode_reward": 970.953125,
+    "step": 49500,
+    "episode": 98,
+    "total_time": 3091.937802553177,
+    "consistency_loss": 0.00039090667269192636,
+    "reward_loss": 0.36399349570274353,
+    "value_loss": 0.32550278306007385,
+    "pi_loss": -4.377319812774658,
+    "total_loss": 0.07676775753498077,
+    "grad_norm": 0.35673409700393677,
+    "pi_scale": 20.247955322265625,
+    "category": "train",
+    "train_decisions": 49500,
+    "train_environment_steps": 99000,
+    "eval_decisions": 5000
+  },
+  "both_frozen_sources_verified": true,
+  "gpu_processes": [
+    {
+      "gpu": 0,
+      "pid": 1789362,
+      "type": "C+G",
+      "memory": "695 MiB"
+    },
+    {
+      "gpu": 0,
+      "pid": 1795158,
+      "type": "G",
+      "memory": "4 MiB"
+    },
+    {
+      "gpu": 1,
+      "pid": 1795158,
+      "type": "C+G",
+      "memory": "862 MiB"
+    }
+  ]
+}

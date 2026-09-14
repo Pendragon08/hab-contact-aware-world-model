@@ -1,0 +1,34 @@
+{
+  "files": [
+    {
+      "path": "logs/bc_diagnosis_v1_fit_resources.jsonl",
+      "samples": 115
+    },
+    {
+      "path": "logs/bc_diagnosis_v1_offline_resources.jsonl",
+      "samples": 8
+    },
+    {
+      "path": "logs/bc_diagnosis_v1_serial_run_resources.jsonl",
+      "samples": 13
+    },
+    {
+      "path": "logs/bc_diagnosis_v1_serial_witness_resources.jsonl",
+      "samples": 8
+    },
+    {
+      "path": "logs/bc_diagnosis_v1_witness_resources.jsonl",
+      "samples": 11
+    }
+  ],
+  "sampling_seconds": 5,
+  "scope": "Whole-card samples include all processes; transient unsampled peaks are not ruled out.",
+  "gpu0": {
+    "max_used_mib": 32,
+    "min_free_mib": 48519
+  },
+  "gpu1": {
+    "max_used_mib": 4802,
+    "min_free_mib": 43748
+  }
+}

@@ -1,0 +1,197 @@
+{
+  "commit": "57158282b46ebc5c329c5be9cfe2b0094126d1ca",
+  "files": [
+    {
+      "path": "upstream/LICENSE",
+      "sha256": "440d4088a83d19c522dff58918bd92ccb9701c278a35295b92db2456373c4759"
+    },
+    {
+      "path": "upstream/docker/environment.yaml",
+      "sha256": "d0540d89787d648cf18827114d20094ce2fd607a8d9869d31fda1e86f73d7f96"
+    },
+    {
+      "path": "upstream/results/mw-pick-place.csv",
+      "sha256": "a03f724526a7e169fb14ca7775687466b088c410525e1c0e9fba008eac7486d5"
+    },
+    {
+      "path": "upstream/tdmpc2/config.yaml",
+      "sha256": "b470ec58e9f7e558c4aeffb6e03e4c3a201761af0a0974a394ea0994facb2d04"
+    },
+    {
+      "path": "upstream/tdmpc2/evaluate.py",
+      "sha256": "a9b0eb59fe3db07820de1d364306b72bf2be29e7cfacb9146fcd89236a787e5d"
+    },
+    {
+      "path": "upstream/tdmpc2/tdmpc2.py",
+      "sha256": "845c3f427b69efd306c50c4ad324704ca860eaea20fff37b59dfda3404967246"
+    },
+    {
+      "path": "upstream/tdmpc2/train.py",
+      "sha256": "3373940164e1eb52937d43fca5c2ec9400828d6b99292fb880d694f86e002791"
+    },
+    {
+      "path": "upstream/tdmpc2/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "upstream/tdmpc2/common/buffer.py",
+      "sha256": "445251b2b12b945d73dc9f9e94fcd1e3586e459f3104ed4ba205b6a10c02c80a"
+    },
+    {
+      "path": "upstream/tdmpc2/common/init.py",
+      "sha256": "652eb32a8f9e98fc57b5e0b1449cc074da90f838ab9549a6ed7fc13b2b9e024d"
+    },
+    {
+      "path": "upstream/tdmpc2/common/layers.py",
+      "sha256": "dc4e7e7c285667ce7c070d26e0f469a9c469c1983cd559205ef460befa347e5f"
+    },
+    {
+      "path": "upstream/tdmpc2/common/logger.py",
+      "sha256": "afe1e7974044b3b3e2dca7aa9b46474507d6c0aa1c0b9aac556b1364ceaad6f1"
+    },
+    {
+      "path": "upstream/tdmpc2/common/math.py",
+      "sha256": "c421d47c848e41cea4bae62df6cc0d92b4c3b1f6c769cd3a9a4041e1529e7f3e"
+    },
+    {
+      "path": "upstream/tdmpc2/common/parser.py",
+      "sha256": "156594182f9707cdc01a47c0766d75d176c16b8b34caaf434380b8cda003a675"
+    },
+    {
+      "path": "upstream/tdmpc2/common/scale.py",
+      "sha256": "c428df268de019547145d8aa103d6be65b26f4adf7a4d3fe5b54542231b91cf9"
+    },
+    {
+      "path": "upstream/tdmpc2/common/seed.py",
+      "sha256": "f77ca34f6ae0b489d740ad25bf6a8efc217a4610e19fec4a83d5b30a995b7dbd"
+    },
+    {
+      "path": "upstream/tdmpc2/common/world_model.py",
+      "sha256": "a04bef98c4ae2f55ad2fc6dd8ba0f1204c754a6896f40d71266d77312ca9b0f7"
+    },
+    {
+      "path": "upstream/tdmpc2/common/__init__.py",
+      "sha256": "d7714a0f5a5ed2a40542cf5cd69f9504fcd876dc8f9f5cba02e877c435c88e99"
+    },
+    {
+      "path": "upstream/tdmpc2/envs/dmcontrol.py",
+      "sha256": "9ee03fc05ce17d3fcce02c509edf19596a81220bdf97691763e7abcad06b8a5c"
+    },
+    {
+      "path": "upstream/tdmpc2/envs/maniskill.py",
+      "sha256": "87907c02d0b5b53af5917ca72335c879a744d54c2ad918720d802981136acd38"
+    },
+    {
+      "path": "upstream/tdmpc2/envs/metaworld.py",
+      "sha256": "8e26df06e1ae5b301154cf6eb66c996914a17db4ebe274f1b391ab39593bb6a4"
+    },
+    {
+      "path": "upstream/tdmpc2/envs/myosuite.py",
+      "sha256": "cad1b2c367d5e40e53460db196397f4278ce424cbb3e453de38510049f27c30f"
+    },
+    {
+      "path": "upstream/tdmpc2/envs/__init__.py",
+      "sha256": "6288e093800713e34f8020e58b82359f57cf777dd617d6b2b6bc5669dd95eb73"
+    },
+    {
+      "path": "upstream/tdmpc2/trainer/base.py",
+      "sha256": "e61412181a012cb538df4a876762d17570240e04cd9e9c93ea530878376ca7e2"
+    },
+    {
+      "path": "upstream/tdmpc2/trainer/offline_trainer.py",
+      "sha256": "bdcf0ecf9413229737466e52a5a498d012c998b6264f3ed243a04dfd404d8a39"
+    },
+    {
+      "path": "upstream/tdmpc2/trainer/online_trainer.py",
+      "sha256": "add69550c2c8a0c710d7112d416aa0ad1bf378a3c50ff61c24bc1a30daf07dde"
+    },
+    {
+      "path": "upstream/tdmpc2/trainer/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "upstream/tdmpc2/envs/tasks/ball_in_cup.py",
+      "sha256": "e7d0a29c97f2ede402cb4bf86adddc97c82483af83d8e6688bc73ab2606c537a"
+    },
+    {
+      "path": "upstream/tdmpc2/envs/tasks/ball_in_cup.xml",
+      "sha256": "1c2cdb18db9adbe8822220662dd2281c01b5bc94d5dd6b4c2f7fca5da2ea0a06"
+    },
+    {
+      "path": "upstream/tdmpc2/envs/tasks/cheetah.py",
+      "sha256": "98b09bff2d32d9ea94109fcbefcbe19d6691a464cfc111d3d10bbea7433cf15a"
+    },
+    {
+      "path": "upstream/tdmpc2/envs/tasks/cheetah.xml",
+      "sha256": "e0ca07b18e50df0b4d4c65efa1a3ec45935fb05b7d3b1bb32b50b66950447465"
+    },
+    {
+      "path": "upstream/tdmpc2/envs/tasks/fish.py",
+      "sha256": "7ded518285c364e6913999de51c26a80e94c9f056d31d710c01a338c8a34ddc3"
+    },
+    {
+      "path": "upstream/tdmpc2/envs/tasks/fish.xml",
+      "sha256": "52eb8249718c1944d2f011e0709fb84b1cc0d20da36f86cdbf2f7e61a7814b69"
+    },
+    {
+      "path": "upstream/tdmpc2/envs/tasks/hopper.py",
+      "sha256": "8f815b648b7aa1223b25a89b7d28bdf75e406c93b3b66469ffadca094486f066"
+    },
+    {
+      "path": "upstream/tdmpc2/envs/tasks/hopper.xml",
+      "sha256": "6e86c37515e34af796af664c4e24e0586e4047fe5243f304de119e83769048b8"
+    },
+    {
+      "path": "upstream/tdmpc2/envs/tasks/pendulum.py",
+      "sha256": "2ce9060621e355c1a1984925602c08b936dc46bd81a8d248b020553a3e66a0e4"
+    },
+    {
+      "path": "upstream/tdmpc2/envs/tasks/pendulum.xml",
+      "sha256": "6ce0aceacde5bd30bf9965d08a7f4e31e61319d85b59b03c1bda523e5710a115"
+    },
+    {
+      "path": "upstream/tdmpc2/envs/tasks/reacher.py",
+      "sha256": "3e607a8d0bbb005a3468a4a4a7bcc9ba8731e22750b6d5f35e98169f6a85b6a6"
+    },
+    {
+      "path": "upstream/tdmpc2/envs/tasks/reacher_four_links.xml",
+      "sha256": "52caeddbd86759d11428facc620c28507cceb8c8e17ff6e9d653927de7239d48"
+    },
+    {
+      "path": "upstream/tdmpc2/envs/tasks/reacher_three_links.xml",
+      "sha256": "385877ac308bfc4ae9b601f8300e93a02b1789634cfde8b8c8de49faf57056ce"
+    },
+    {
+      "path": "upstream/tdmpc2/envs/tasks/walker.py",
+      "sha256": "a51df23f1fc966bbd926a3614a0efd05933d11d3036fa279fd30f2c73d1017ce"
+    },
+    {
+      "path": "upstream/tdmpc2/envs/tasks/walker.xml",
+      "sha256": "083fe75724584a33716efe96b78f9adec333db9e31291f58a41e76e4a6782803"
+    },
+    {
+      "path": "upstream/tdmpc2/envs/tasks/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "upstream/tdmpc2/envs/wrappers/multitask.py",
+      "sha256": "f8d10f4b37047918c45cc47c908e14d6f90158ba4d1ef9ae67a82ec470958853"
+    },
+    {
+      "path": "upstream/tdmpc2/envs/wrappers/pixels.py",
+      "sha256": "c9cb49af976c44923de3c133c1e65b054c8f452ac026eed6a021516bdb19cc96"
+    },
+    {
+      "path": "upstream/tdmpc2/envs/wrappers/tensor.py",
+      "sha256": "9550e77dd2b8d5260ec1c02c968f2e137a3b20d6c613b00f3075c051da11c3f4"
+    },
+    {
+      "path": "upstream/tdmpc2/envs/wrappers/time_limit.py",
+      "sha256": "aa5af1b78f12a7e3310a219dfc367a4001234df928c43785f66d91598cf222fc"
+    },
+    {
+      "path": "upstream/tdmpc2/envs/wrappers/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ]
+}

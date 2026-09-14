@@ -1,0 +1,240 @@
+{
+  "completed": true,
+  "training": {
+    "completed": true,
+    "online_steps": 30000,
+    "pretrain_updates": 5000,
+    "updates": 35000,
+    "wall_seconds": 10747.721573781222,
+    "final_parameter_hashes": {
+      "encoder": "f59a32a24d9baab45989f433dbf2a50e29b730087c8fee74208e3ed52433d9e2",
+      "dynamics": "3b14ff77b1187ede7fae49055f20d1b152c66f2f8efc3b9ec7ec36b06d4de594",
+      "reward": "915e55a9ab13f24a30e9c8ec30a4c0ce4650966b5148fc8e76e40bd6618db958",
+      "Q": "f364acce6f11bb7865fb741c80dcde9f3f4ba70f5d5ecf1c0efacc62862abdb8",
+      "policy": "472a3b71f0d88e91f9dfc3616adb3a852c4973c0bab1b9a5a609e1b57619cd61"
+    },
+    "scope": "single training seed, one task, development evaluations only"
+  },
+  "process": {
+    "completed": true,
+    "seconds": 10776.691742969677,
+    "torch_peak_allocated_mib": 853.87353515625
+  },
+  "evaluations": [
+    {
+      "online_step": 0,
+      "mode": "direct_policy",
+      "episodes": 20,
+      "ever_grasp": 6,
+      "success_once": 3,
+      "success_at_end": 0,
+      "force_limit_exceeded_any": 14,
+      "mean_return": 75.32556286938488,
+      "mean_action_latency_ms": 0.9926358638331294
+    },
+    {
+      "online_step": 0,
+      "mode": "mpc",
+      "episodes": 20,
+      "ever_grasp": 0,
+      "success_once": 0,
+      "success_at_end": 0,
+      "force_limit_exceeded_any": 18,
+      "mean_return": 40.40546378772706,
+      "mean_action_latency_ms": 27.70037940191105
+    },
+    {
+      "online_step": 10000,
+      "mode": "direct_policy",
+      "episodes": 20,
+      "ever_grasp": 8,
+      "success_once": 6,
+      "success_at_end": 1,
+      "force_limit_exceeded_any": 11,
+      "mean_return": 88.11752610029653,
+      "mean_action_latency_ms": 0.933165383990854
+    },
+    {
+      "online_step": 10000,
+      "mode": "mpc",
+      "episodes": 20,
+      "ever_grasp": 9,
+      "success_once": 1,
+      "success_at_end": 0,
+      "force_limit_exceeded_any": 13,
+      "mean_return": 68.38273943290115,
+      "mean_action_latency_ms": 27.856400874909014
+    },
+    {
+      "online_step": 20000,
+      "mode": "direct_policy",
+      "episodes": 20,
+      "ever_grasp": 11,
+      "success_once": 7,
+      "success_at_end": 0,
+      "force_limit_exceeded_any": 20,
+      "mean_return": 79.04389445567503,
+      "mean_action_latency_ms": 0.9380392325110734
+    },
+    {
+      "online_step": 20000,
+      "mode": "mpc",
+      "episodes": 20,
+      "ever_grasp": 6,
+      "success_once": 1,
+      "success_at_end": 0,
+      "force_limit_exceeded_any": 12,
+      "mean_return": 64.26642227265984,
+      "mean_action_latency_ms": 27.943362267687917
+    },
+    {
+      "online_step": 30000,
+      "mode": "direct_policy",
+      "episodes": 20,
+      "ever_grasp": 13,
+      "success_once": 8,
+      "success_at_end": 1,
+      "force_limit_exceeded_any": 13,
+      "mean_return": 95.39682337362319,
+      "mean_action_latency_ms": 0.9400046449154615
+    },
+    {
+      "online_step": 30000,
+      "mode": "mpc",
+      "episodes": 20,
+      "ever_grasp": 9,
+      "success_once": 3,
+      "success_at_end": 0,
+      "force_limit_exceeded_any": 8,
+      "mean_return": 75.46812647059559,
+      "mean_action_latency_ms": 28.01889294758439
+    }
+  ],
+  "predictions": [
+    {
+      "online_step": 0,
+      "horizon": 1,
+      "windows": 3940,
+      "model_mae": 0.04016569629689764,
+      "persistence_mae": 0.007375795466040597,
+      "model_rmse": 0.06835510628185433,
+      "persistence_rmse": 0.024440397380496415
+    },
+    {
+      "online_step": 0,
+      "horizon": 2,
+      "windows": 3940,
+      "model_mae": 0.04307776195219326,
+      "persistence_mae": 0.012378812717453475,
+      "model_rmse": 0.07498053962314723,
+      "persistence_rmse": 0.034809584311731624
+    },
+    {
+      "online_step": 0,
+      "horizon": 3,
+      "windows": 3940,
+      "model_mae": 0.041550175312358106,
+      "persistence_mae": 0.01717517987498777,
+      "model_rmse": 0.07174226144909393,
+      "persistence_rmse": 0.044327720174559083
+    },
+    {
+      "online_step": 10000,
+      "horizon": 1,
+      "windows": 3940,
+      "model_mae": 0.05752578892078497,
+      "persistence_mae": 0.007375795466040597,
+      "model_rmse": 0.13456157225020826,
+      "persistence_rmse": 0.024440397380496415
+    },
+    {
+      "online_step": 10000,
+      "horizon": 2,
+      "windows": 3940,
+      "model_mae": 0.0596996064605144,
+      "persistence_mae": 0.012378812717453475,
+      "model_rmse": 0.1514452130318328,
+      "persistence_rmse": 0.034809584311731624
+    },
+    {
+      "online_step": 10000,
+      "horizon": 3,
+      "windows": 3940,
+      "model_mae": 0.05969393120577493,
+      "persistence_mae": 0.01717517987498777,
+      "model_rmse": 0.15573744913660242,
+      "persistence_rmse": 0.044327720174559083
+    },
+    {
+      "online_step": 20000,
+      "horizon": 1,
+      "windows": 3940,
+      "model_mae": 0.06183643979469533,
+      "persistence_mae": 0.007375795466040597,
+      "model_rmse": 0.13497243819991478,
+      "persistence_rmse": 0.024440397380496415
+    },
+    {
+      "online_step": 20000,
+      "horizon": 2,
+      "windows": 3940,
+      "model_mae": 0.058931802708636696,
+      "persistence_mae": 0.012378812717453475,
+      "model_rmse": 0.12867936661802098,
+      "persistence_rmse": 0.034809584311731624
+    },
+    {
+      "online_step": 20000,
+      "horizon": 3,
+      "windows": 3940,
+      "model_mae": 0.05410162749402414,
+      "persistence_mae": 0.01717517987498777,
+      "model_rmse": 0.11095631022083188,
+      "persistence_rmse": 0.044327720174559083
+    },
+    {
+      "online_step": 30000,
+      "horizon": 1,
+      "windows": 3940,
+      "model_mae": 0.057351032096117284,
+      "persistence_mae": 0.007375795466040597,
+      "model_rmse": 0.11547116084156128,
+      "persistence_rmse": 0.024440397380496415
+    },
+    {
+      "online_step": 30000,
+      "horizon": 2,
+      "windows": 3940,
+      "model_mae": 0.056600910065894204,
+      "persistence_mae": 0.012378812717453475,
+      "model_rmse": 0.11508046640096058,
+      "persistence_rmse": 0.034809584311731624
+    },
+    {
+      "online_step": 30000,
+      "horizon": 3,
+      "windows": 3940,
+      "model_mae": 0.059132267334285726,
+      "persistence_mae": 0.01717517987498777,
+      "model_rmse": 0.1259257587231111,
+      "persistence_rmse": 0.044327720174559083
+    }
+  ],
+  "audit": {
+    "passed": true,
+    "pretrain_updates": 5000,
+    "online_updates": 30000,
+    "online_control_steps": 30000,
+    "evaluation_control_steps": 32000,
+    "evaluation_videos": 160,
+    "training_episodes": 150,
+    "evaluation_pair_checks": 160,
+    "development_transitions_used_for_training": 0
+  },
+  "limitations": [
+    "One training seed and one task; development starts, not independent test houses.",
+    "Demonstration/BC/finite-horizon extension, not original online TD-MPC2 reproduction.",
+    "No matched demonstration-assisted SAC comparison yet; no risk module trained.",
+    "Reward prediction windows overlap; do not interpret as independent samples."
+  ]
+}

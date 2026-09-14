@@ -1,0 +1,31 @@
+{
+    "checked_at":  "2026-09-10T16:17:45.163969+08:00",
+    "launch":  {
+                   "submitted":  true,
+                   "screen":  "tdmpc2_dmc_walker_3seed_1m_gpu0",
+                   "gpu":  0,
+                   "seeds":  [
+                                 1,
+                                 2,
+                                 3
+                             ],
+                   "environment_steps_per_seed":  1000000
+               },
+    "actual_config_steps_line":  [
+                                     "steps: 500000"
+                                 ],
+    "eval_trajectories":  2,
+    "log_tail":  [
+                     "  )",
+                     ")",
+                     "Learnable parameters: 4,960,618"
+                 ],
+    "processes":  [
+                      "1762026 /data/code/ouyanghao/oyh/world-model-risk-planning/.env/bin/python /data/code/ouyanghao/oyh/hab-contact-aware-world-model/hab_tdmpc2_original/runner.py train",
+                      "1789353 SCREEN -dmS tdmpc2_dmc_walker_3seed_1m_gpu0 bash -c bash \"$1/queue_1m.sh\" \u003e \"$1/logs/queue_1m.log\" 2\u003e\u00261 _ /data/code/ouyanghao/oyh/hab-contact-aware-world-model/dmc_tdmpc2_original",
+                      "1789355 bash -c bash \"$1/queue_1m.sh\" \u003e \"$1/logs/queue_1m.log\" 2\u003e\u00261 _ /data/code/ouyanghao/oyh/hab-contact-aware-world-model/dmc_tdmpc2_original",
+                      "1789356 bash /data/code/ouyanghao/oyh/hab-contact-aware-world-model/dmc_tdmpc2_original/queue_1m.sh",
+                      "1789362 /data/code/ouyanghao/oyh/world-model-risk-planning/.env/bin/python /data/code/ouyanghao/oyh/hab-contact-aware-world-model/dmc_tdmpc2_original/runner.py train --seed 1"
+                  ],
+    "gpu":  "0, 504 MiB, 48047 MiB\n1, 5016 MiB, 43534 MiB\n"
+}

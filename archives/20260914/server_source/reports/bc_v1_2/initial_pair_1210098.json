@@ -1,0 +1,626 @@
+{
+  "passed": true,
+  "initial_observation_sha256": "8fd51ccc3e7db9d002d0b9fbf53aacb0355beef2db664e6ba619a45b22a20e87",
+  "semantic_init_name": "train/tidy_house/episode_5937.json",
+  "process_local_init_indices": [
+    [
+      46
+    ],
+    [
+      116
+    ]
+  ],
+  "parked_actors": [
+    {
+      "actor": "environment.actors.env-0_007_tuna_fish_can-1",
+      "teacher_z": -10010.001953125,
+      "student_z": -10710.001953125
+    },
+    {
+      "actor": "environment.actors.env-0_007_tuna_fish_can-2",
+      "teacher_z": -10020.001953125,
+      "student_z": -10720.001953125
+    },
+    {
+      "actor": "environment.actors.env-0_007_tuna_fish_can-3",
+      "teacher_z": -10030.001953125,
+      "student_z": -10730.001953125
+    },
+    {
+      "actor": "environment.actors.env-0_007_tuna_fish_can-4",
+      "teacher_z": -10040.001953125,
+      "student_z": -10740.001953125
+    },
+    {
+      "actor": "environment.actors.env-0_007_tuna_fish_can-5",
+      "teacher_z": -10050.001953125,
+      "student_z": -10750.001953125
+    },
+    {
+      "actor": "environment.actors.env-0_007_tuna_fish_can-6",
+      "teacher_z": -10060.001953125,
+      "student_z": -10760.001953125
+    },
+    {
+      "actor": "environment.actors.env-0_007_tuna_fish_can-7",
+      "teacher_z": -10070.001953125,
+      "student_z": -10770.001953125
+    },
+    {
+      "actor": "environment.actors.env-0_003_cracker_box-3",
+      "teacher_z": -10110.001953125,
+      "student_z": -10560.001953125
+    },
+    {
+      "actor": "environment.actors.env-0_003_cracker_box-4",
+      "teacher_z": -10120.001953125,
+      "student_z": -10570.001953125
+    },
+    {
+      "actor": "environment.actors.env-0_003_cracker_box-5",
+      "teacher_z": -10130.001953125,
+      "student_z": -10580.001953125
+    },
+    {
+      "actor": "environment.actors.env-0_003_cracker_box-6",
+      "teacher_z": -10140.001953125,
+      "student_z": -10590.001953125
+    },
+    {
+      "actor": "environment.actors.env-0_003_cracker_box-7",
+      "teacher_z": -10150.001953125,
+      "student_z": -10600.001953125
+    },
+    {
+      "actor": "environment.actors.env-0_008_pudding_box-6",
+      "teacher_z": -10220.001953125,
+      "student_z": -10410.001953125
+    },
+    {
+      "actor": "environment.actors.env-0_008_pudding_box-7",
+      "teacher_z": -10230.001953125,
+      "student_z": -10420.001953125
+    },
+    {
+      "actor": "environment.actors.env-0_008_pudding_box-8",
+      "teacher_z": -10240.001953125,
+      "student_z": -10430.001953125
+    },
+    {
+      "actor": "environment.actors.env-0_008_pudding_box-9",
+      "teacher_z": -10250.001953125,
+      "student_z": -10440.001953125
+    },
+    {
+      "actor": "environment.actors.env-0_002_master_chef_can-4",
+      "teacher_z": -10300.001953125,
+      "student_z": -10230.001953125
+    },
+    {
+      "actor": "environment.actors.env-0_002_master_chef_can-5",
+      "teacher_z": -10310.001953125,
+      "student_z": -10240.001953125
+    },
+    {
+      "actor": "environment.actors.env-0_002_master_chef_can-6",
+      "teacher_z": -10320.001953125,
+      "student_z": -10250.001953125
+    },
+    {
+      "actor": "environment.actors.env-0_002_master_chef_can-7",
+      "teacher_z": -10330.001953125,
+      "student_z": -10260.001953125
+    },
+    {
+      "actor": "environment.actors.env-0_024_bowl-1",
+      "teacher_z": -10350.001953125,
+      "student_z": -10460.001953125
+    },
+    {
+      "actor": "environment.actors.env-0_024_bowl-2",
+      "teacher_z": -10360.001953125,
+      "student_z": -10470.001953125
+    },
+    {
+      "actor": "environment.actors.env-0_024_bowl-3",
+      "teacher_z": -10370.001953125,
+      "student_z": -10480.001953125
+    },
+    {
+      "actor": "environment.actors.env-0_024_bowl-4",
+      "teacher_z": -10380.001953125,
+      "student_z": -10490.001953125
+    },
+    {
+      "actor": "environment.actors.env-0_024_bowl-5",
+      "teacher_z": -10390.001953125,
+      "student_z": -10500.001953125
+    },
+    {
+      "actor": "environment.actors.env-0_024_bowl-6",
+      "teacher_z": -10400.001953125,
+      "student_z": -10510.001953125
+    },
+    {
+      "actor": "environment.actors.env-0_024_bowl-7",
+      "teacher_z": -10410.001953125,
+      "student_z": -10520.001953125
+    },
+    {
+      "actor": "environment.actors.env-0_004_sugar_box-0",
+      "teacher_z": -10420.001953125,
+      "student_z": -10270.001953125
+    },
+    {
+      "actor": "environment.actors.env-0_004_sugar_box-1",
+      "teacher_z": -10430.001953125,
+      "student_z": -10280.001953125
+    },
+    {
+      "actor": "environment.actors.env-0_004_sugar_box-2",
+      "teacher_z": -10440.001953125,
+      "student_z": -10290.001953125
+    },
+    {
+      "actor": "environment.actors.env-0_004_sugar_box-3",
+      "teacher_z": -10450.001953125,
+      "student_z": -10300.001953125
+    },
+    {
+      "actor": "environment.actors.env-0_004_sugar_box-4",
+      "teacher_z": -10460.001953125,
+      "student_z": -10310.001953125
+    },
+    {
+      "actor": "environment.actors.env-0_004_sugar_box-5",
+      "teacher_z": -10470.001953125,
+      "student_z": -10320.001953125
+    },
+    {
+      "actor": "environment.actors.env-0_004_sugar_box-6",
+      "teacher_z": -10480.001953125,
+      "student_z": -10330.001953125
+    },
+    {
+      "actor": "environment.actors.env-0_004_sugar_box-7",
+      "teacher_z": -10490.001953125,
+      "student_z": -10340.001953125
+    },
+    {
+      "actor": "environment.actors.env-0_005_tomato_soup_can-4",
+      "teacher_z": -10540.001953125,
+      "student_z": -10130.001953125
+    },
+    {
+      "actor": "environment.actors.env-0_005_tomato_soup_can-5",
+      "teacher_z": -10550.001953125,
+      "student_z": -10140.001953125
+    },
+    {
+      "actor": "environment.actors.env-0_005_tomato_soup_can-6",
+      "teacher_z": -10560.001953125,
+      "student_z": -10150.001953125
+    },
+    {
+      "actor": "environment.actors.env-0_005_tomato_soup_can-7",
+      "teacher_z": -10570.001953125,
+      "student_z": -10160.001953125
+    },
+    {
+      "actor": "environment.actors.env-0_005_tomato_soup_can-8",
+      "teacher_z": -10580.001953125,
+      "student_z": -10170.001953125
+    },
+    {
+      "actor": "environment.actors.env-0_005_tomato_soup_can-9",
+      "teacher_z": -10590.001953125,
+      "student_z": -10180.001953125
+    },
+    {
+      "actor": "environment.actors.env-0_009_gelatin_box-7",
+      "teacher_z": -10670.001953125,
+      "student_z": -10680.001953125
+    },
+    {
+      "actor": "environment.actors.env-0_009_gelatin_box-8",
+      "teacher_z": -10680.001953125,
+      "student_z": -10690.001953125
+    },
+    {
+      "actor": "environment.actors.env-0_010_potted_meat_can-4",
+      "teacher_z": -10730.001953125,
+      "student_z": -10040.001953125
+    },
+    {
+      "actor": "environment.actors.env-0_010_potted_meat_can-5",
+      "teacher_z": -10740.001953125,
+      "student_z": -10050.001953125
+    },
+    {
+      "actor": "environment.actors.env-0_010_potted_meat_can-6",
+      "teacher_z": -10750.001953125,
+      "student_z": -10060.001953125
+    },
+    {
+      "actor": "environment.actors.env-0_010_potted_meat_can-7",
+      "teacher_z": -10760.001953125,
+      "student_z": -10070.001953125
+    },
+    {
+      "actor": "environment.actors.env-0_010_potted_meat_can-8",
+      "teacher_z": -10770.001953125,
+      "student_z": -10080.001953125
+    }
+  ],
+  "checks": [
+    {
+      "path": "environment.actors.env-0_007_tuna_fish_can-0",
+      "max_abs_difference": 0.0
+    },
+    {
+      "path": "environment.actors.env-0_007_tuna_fish_can-1",
+      "max_abs_difference": 0.0
+    },
+    {
+      "path": "environment.actors.env-0_007_tuna_fish_can-2",
+      "max_abs_difference": 0.0
+    },
+    {
+      "path": "environment.actors.env-0_007_tuna_fish_can-3",
+      "max_abs_difference": 0.0
+    },
+    {
+      "path": "environment.actors.env-0_007_tuna_fish_can-4",
+      "max_abs_difference": 0.0
+    },
+    {
+      "path": "environment.actors.env-0_007_tuna_fish_can-5",
+      "max_abs_difference": 0.0
+    },
+    {
+      "path": "environment.actors.env-0_007_tuna_fish_can-6",
+      "max_abs_difference": 0.0
+    },
+    {
+      "path": "environment.actors.env-0_007_tuna_fish_can-7",
+      "max_abs_difference": 0.0
+    },
+    {
+      "path": "environment.actors.env-0_003_cracker_box-0",
+      "max_abs_difference": 0.0
+    },
+    {
+      "path": "environment.actors.env-0_003_cracker_box-1",
+      "max_abs_difference": 0.0
+    },
+    {
+      "path": "environment.actors.env-0_003_cracker_box-2",
+      "max_abs_difference": 0.0
+    },
+    {
+      "path": "environment.actors.env-0_003_cracker_box-3",
+      "max_abs_difference": 0.0
+    },
+    {
+      "path": "environment.actors.env-0_003_cracker_box-4",
+      "max_abs_difference": 0.0
+    },
+    {
+      "path": "environment.actors.env-0_003_cracker_box-5",
+      "max_abs_difference": 0.0
+    },
+    {
+      "path": "environment.actors.env-0_003_cracker_box-6",
+      "max_abs_difference": 0.0
+    },
+    {
+      "path": "environment.actors.env-0_003_cracker_box-7",
+      "max_abs_difference": 0.0
+    },
+    {
+      "path": "environment.actors.env-0_008_pudding_box-0",
+      "max_abs_difference": 0.0
+    },
+    {
+      "path": "environment.actors.env-0_008_pudding_box-1",
+      "max_abs_difference": 0.0
+    },
+    {
+      "path": "environment.actors.env-0_008_pudding_box-2",
+      "max_abs_difference": 0.0
+    },
+    {
+      "path": "environment.actors.env-0_008_pudding_box-3",
+      "max_abs_difference": 0.0
+    },
+    {
+      "path": "environment.actors.env-0_008_pudding_box-4",
+      "max_abs_difference": 0.0
+    },
+    {
+      "path": "environment.actors.env-0_008_pudding_box-5",
+      "max_abs_difference": 0.0
+    },
+    {
+      "path": "environment.actors.env-0_008_pudding_box-6",
+      "max_abs_difference": 0.0
+    },
+    {
+      "path": "environment.actors.env-0_008_pudding_box-7",
+      "max_abs_difference": 0.0
+    },
+    {
+      "path": "environment.actors.env-0_008_pudding_box-8",
+      "max_abs_difference": 0.0
+    },
+    {
+      "path": "environment.actors.env-0_008_pudding_box-9",
+      "max_abs_difference": 0.0
+    },
+    {
+      "path": "environment.actors.env-0_002_master_chef_can-0",
+      "max_abs_difference": 0.0
+    },
+    {
+      "path": "environment.actors.env-0_002_master_chef_can-1",
+      "max_abs_difference": 0.0
+    },
+    {
+      "path": "environment.actors.env-0_002_master_chef_can-2",
+      "max_abs_difference": 0.0
+    },
+    {
+      "path": "environment.actors.env-0_002_master_chef_can-3",
+      "max_abs_difference": 0.0
+    },
+    {
+      "path": "environment.actors.env-0_002_master_chef_can-4",
+      "max_abs_difference": 0.0
+    },
+    {
+      "path": "environment.actors.env-0_002_master_chef_can-5",
+      "max_abs_difference": 0.0
+    },
+    {
+      "path": "environment.actors.env-0_002_master_chef_can-6",
+      "max_abs_difference": 0.0
+    },
+    {
+      "path": "environment.actors.env-0_002_master_chef_can-7",
+      "max_abs_difference": 0.0
+    },
+    {
+      "path": "environment.actors.env-0_024_bowl-0",
+      "max_abs_difference": 0.0
+    },
+    {
+      "path": "environment.actors.env-0_024_bowl-1",
+      "max_abs_difference": 0.0
+    },
+    {
+      "path": "environment.actors.env-0_024_bowl-2",
+      "max_abs_difference": 0.0
+    },
+    {
+      "path": "environment.actors.env-0_024_bowl-3",
+      "max_abs_difference": 0.0
+    },
+    {
+      "path": "environment.actors.env-0_024_bowl-4",
+      "max_abs_difference": 0.0
+    },
+    {
+      "path": "environment.actors.env-0_024_bowl-5",
+      "max_abs_difference": 0.0
+    },
+    {
+      "path": "environment.actors.env-0_024_bowl-6",
+      "max_abs_difference": 0.0
+    },
+    {
+      "path": "environment.actors.env-0_024_bowl-7",
+      "max_abs_difference": 0.0
+    },
+    {
+      "path": "environment.actors.env-0_004_sugar_box-0",
+      "max_abs_difference": 0.0
+    },
+    {
+      "path": "environment.actors.env-0_004_sugar_box-1",
+      "max_abs_difference": 0.0
+    },
+    {
+      "path": "environment.actors.env-0_004_sugar_box-2",
+      "max_abs_difference": 0.0
+    },
+    {
+      "path": "environment.actors.env-0_004_sugar_box-3",
+      "max_abs_difference": 0.0
+    },
+    {
+      "path": "environment.actors.env-0_004_sugar_box-4",
+      "max_abs_difference": 0.0
+    },
+    {
+      "path": "environment.actors.env-0_004_sugar_box-5",
+      "max_abs_difference": 0.0
+    },
+    {
+      "path": "environment.actors.env-0_004_sugar_box-6",
+      "max_abs_difference": 0.0
+    },
+    {
+      "path": "environment.actors.env-0_004_sugar_box-7",
+      "max_abs_difference": 0.0
+    },
+    {
+      "path": "environment.actors.env-0_005_tomato_soup_can-0",
+      "max_abs_difference": 0.0
+    },
+    {
+      "path": "environment.actors.env-0_005_tomato_soup_can-1",
+      "max_abs_difference": 0.0
+    },
+    {
+      "path": "environment.actors.env-0_005_tomato_soup_can-2",
+      "max_abs_difference": 0.0
+    },
+    {
+      "path": "environment.actors.env-0_005_tomato_soup_can-3",
+      "max_abs_difference": 0.0
+    },
+    {
+      "path": "environment.actors.env-0_005_tomato_soup_can-4",
+      "max_abs_difference": 0.0
+    },
+    {
+      "path": "environment.actors.env-0_005_tomato_soup_can-5",
+      "max_abs_difference": 0.0
+    },
+    {
+      "path": "environment.actors.env-0_005_tomato_soup_can-6",
+      "max_abs_difference": 0.0
+    },
+    {
+      "path": "environment.actors.env-0_005_tomato_soup_can-7",
+      "max_abs_difference": 0.0
+    },
+    {
+      "path": "environment.actors.env-0_005_tomato_soup_can-8",
+      "max_abs_difference": 0.0
+    },
+    {
+      "path": "environment.actors.env-0_005_tomato_soup_can-9",
+      "max_abs_difference": 0.0
+    },
+    {
+      "path": "environment.actors.env-0_009_gelatin_box-0",
+      "max_abs_difference": 0.0
+    },
+    {
+      "path": "environment.actors.env-0_009_gelatin_box-1",
+      "max_abs_difference": 0.0
+    },
+    {
+      "path": "environment.actors.env-0_009_gelatin_box-2",
+      "max_abs_difference": 0.0
+    },
+    {
+      "path": "environment.actors.env-0_009_gelatin_box-3",
+      "max_abs_difference": 0.0
+    },
+    {
+      "path": "environment.actors.env-0_009_gelatin_box-4",
+      "max_abs_difference": 0.0
+    },
+    {
+      "path": "environment.actors.env-0_009_gelatin_box-5",
+      "max_abs_difference": 0.0
+    },
+    {
+      "path": "environment.actors.env-0_009_gelatin_box-6",
+      "max_abs_difference": 0.0
+    },
+    {
+      "path": "environment.actors.env-0_009_gelatin_box-7",
+      "max_abs_difference": 0.0
+    },
+    {
+      "path": "environment.actors.env-0_009_gelatin_box-8",
+      "max_abs_difference": 0.0
+    },
+    {
+      "path": "environment.actors.env-0_010_potted_meat_can-0",
+      "max_abs_difference": 0.0
+    },
+    {
+      "path": "environment.actors.env-0_010_potted_meat_can-1",
+      "max_abs_difference": 0.0
+    },
+    {
+      "path": "environment.actors.env-0_010_potted_meat_can-2",
+      "max_abs_difference": 0.0
+    },
+    {
+      "path": "environment.actors.env-0_010_potted_meat_can-3",
+      "max_abs_difference": 0.0
+    },
+    {
+      "path": "environment.actors.env-0_010_potted_meat_can-4",
+      "max_abs_difference": 0.0
+    },
+    {
+      "path": "environment.actors.env-0_010_potted_meat_can-5",
+      "max_abs_difference": 0.0
+    },
+    {
+      "path": "environment.actors.env-0_010_potted_meat_can-6",
+      "max_abs_difference": 0.0
+    },
+    {
+      "path": "environment.actors.env-0_010_potted_meat_can-7",
+      "max_abs_difference": 0.0
+    },
+    {
+      "path": "environment.actors.env-0_010_potted_meat_can-8",
+      "max_abs_difference": 0.0
+    },
+    {
+      "path": "environment.actors.ee_rest_goal",
+      "max_abs_difference": 0.0
+    },
+    {
+      "path": "environment.articulations.fetch",
+      "max_abs_difference": 0.0
+    },
+    {
+      "path": "environment.articulations.scs-[0]_fridge-0",
+      "max_abs_difference": 0.0
+    },
+    {
+      "path": "environment.articulations.scs-[0]_kitchen_counter-0",
+      "max_abs_difference": 0.0
+    },
+    {
+      "path": "environment.articulations.scs-[0]_kitchenCupboard_01-0",
+      "max_abs_difference": 0.0
+    },
+    {
+      "path": "environment.articulations.scs-[0]_cabinet-0",
+      "max_abs_difference": 0.0
+    },
+    {
+      "path": "environment.articulations.scs-[0]_chestOfDrawers_01-0",
+      "max_abs_difference": 0.0
+    },
+    {
+      "path": "environment.task_plan_idxs",
+      "max_abs_difference": 0.0
+    },
+    {
+      "path": "environment.subtask_pointer",
+      "max_abs_difference": 0.0
+    },
+    {
+      "path": "environment.subtask_steps_left",
+      "max_abs_difference": 0.0
+    },
+    {
+      "path": "environment.robot_cumulative_force",
+      "max_abs_difference": 0.0
+    },
+    {
+      "path": "observation.state",
+      "max_abs_difference": 0.0
+    },
+    {
+      "path": "observation.pixels.fetch_head_depth",
+      "max_abs_difference": 0.0
+    },
+    {
+      "path": "observation.pixels.fetch_hand_depth",
+      "max_abs_difference": 0.0
+    }
+  ],
+  "note": "Only process-local init indices and the z parking slot of actors whose x/y=-10000 are canonicalized. All active actors, robot/controller and full observations compared."
+}

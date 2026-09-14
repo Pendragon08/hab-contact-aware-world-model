@@ -1,0 +1,31 @@
+{
+  "task": "walker-walk",
+  "completed_seeds": [
+    {
+      "seed": 1,
+      "return": 980.9122924804688,
+      "seconds": 32649.21736240387
+    },
+    {
+      "seed": 2,
+      "return": 977.4990234375,
+      "seconds": 32902.37349820137
+    },
+    {
+      "seed": 3,
+      "return": 983.1849365234375,
+      "seconds": 39139.134994745255
+    }
+  ],
+  "paper_final_returns": {
+    "2": 980.5,
+    "1": 975.2,
+    "3": 983.5
+  },
+  "all_three_complete": true,
+  "environment_steps_per_seed": 1000000,
+  "metric": "raw return /1000; not success rate",
+  "mean_return": 980.5320841471354,
+  "seed_mean_t95_halfwidth": 7.109505216160153,
+  "paper_mean_return": 979.7333333333333
+}

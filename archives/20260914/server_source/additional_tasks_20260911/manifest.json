@@ -1,0 +1,26 @@
+{
+  "dmc": {
+    "original": "dmc_tdmpc2_original",
+    "folder": "walker_run",
+    "task": "walker-run",
+    "gpu": 0,
+    "envvar": "DMC_ROOT",
+    "envhash": "cba67740",
+    "original_root": "/data/code/ouyanghao/oyh/hab-contact-aware-world-model/dmc_tdmpc2_original",
+    "new_root": "/data/code/ouyanghao/oyh/hab-contact-aware-world-model/additional_tasks_20260911/walker_run",
+    "original_runner_sha256": "42cb3c25800aee9c2fe8463e137a4ea43f551b6547900339f56412a04fbff8f9",
+    "new_runner_sha256": "f188492858b5eafeaebc9d5cba051e73a36140eb5e3f5b4abd30c70de0619e67"
+  },
+  "ms2": {
+    "original": "maniskill2_tdmpc2_original",
+    "folder": "lift_cube",
+    "task": "lift-cube",
+    "gpu": 1,
+    "envvar": "MS_ROOT",
+    "envhash": "eff3d0dd",
+    "original_root": "/data/code/ouyanghao/oyh/hab-contact-aware-world-model/maniskill2_tdmpc2_original",
+    "new_root": "/data/code/ouyanghao/oyh/hab-contact-aware-world-model/additional_tasks_20260911/lift_cube",
+    "original_runner_sha256": "f4b509951f38df6fc23fae4b266873d5e46314ebf1fcb122de82c810e46db88f",
+    "new_runner_sha256": "0f19c127e5207aba643311cfbd77c48a416a00333f5b1397ede430aa96b0957d"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "task": "stack-cube",
+  "env_id": "StackCube-v0",
+  "seeds": [
+    1,
+    2,
+    3
+  ],
+  "environment_steps_per_seed": 1000000,
+  "decisions_per_seed": 500000,
+  "action_repeat": 2,
+  "episode_decisions": 100,
+  "episode_environment_steps": 200,
+  "seed_decisions": 1000,
+  "eval_frequency_decisions": 50000,
+  "eval_episodes": 10,
+  "model_size": 5,
+  "obs": "state",
+  "metric": "native success at final step; success-once separately recorded",
+  "gpu": 1,
+  "execution": "3seeds sequentially; at most3training processes per GPU",
+  "paper": "https://arxiv.org/html/2310.16828v2",
+  "reference_csv": "https://raw.githubusercontent.com/nicklashansen/tdmpc2/57158282b46ebc5c329c5be9cfe2b0094126d1ca/results/stack-cube.csv",
+  "boundary_adjustment": "upstream <= loop changed to < and final evaluation at exact budget",
+  "scope": "original-method reproduction at reduced1M budget, compare paper at1M; not full4M replication",
+  "runtime_differences": "Python3.10/PyTorch2.5.1/TorchRL0.6 differ from historical stack; ManiSkill2/SAPIEN match official pins"
+}

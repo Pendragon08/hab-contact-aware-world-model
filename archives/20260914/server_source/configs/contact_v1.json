@@ -1,0 +1,30 @@
+{
+  "protocol": "contact-control-development-v1",
+  "split": "val-development; not final test",
+  "layouts": [69, 74, 79, 84, 89],
+  "episodes_per_layout": 20,
+  "seed_base": 60000,
+  "seed_stride": 100,
+  "witness_seed_base": 70000,
+  "max_steps": 200,
+  "methods": ["sac", "conservative", "force_rule"],
+  "checkpoint_sha256": "81f1f29b3af1ed4a3d3b502b515595dae852c4d842a1b1599203e46dee5f73e9",
+  "action": {
+    "conservative_scale": 0.7,
+    "smoothing_alpha": 0.5,
+    "force_soft_threshold": 50.0,
+    "minimum_scale": 0.2,
+    "cumulative_limit": 5000.0,
+    "preserve_gripper": true,
+    "stationary_head": true
+  },
+  "selection": "Parameters fixed before new rollouts; no grid search. New seeds in the same five development layouts.",
+  "pairing": "Fresh seeded reconfigure for every method; assert equality of simulator, controller and full initial observation hashes. Separate duplicate-SAC witness checks reset repeatability. Not a claim of arbitrary mid-trajectory restoration.",
+  "primary": ["success_once", "force_exceeded_before_or_at_first_success"],
+  "secondary": ["success_at_end", "force_exceeded_any", "first_success_step", "cumulative_force_at_first_success", "final_cumulative_force", "latency"],
+  "termination": "200 physical control steps even after first success; no artificial freezing or early-success metric inflation.",
+  "force_observability": "Rules use prior returned current/past simulator contact signals, never candidate future outcomes. Additional privileged input versus pretrained SAC is explicitly diagnostic; later learned comparisons must match inputs.",
+  "force_units": "Environment-defined accumulated contact quantity; do not relabel as a physical impulse integral.",
+  "reporting": "Save all attempts and outcomes. Paired uncertainty conditional on these layouts/checkpoint; not final-test or training-seed generalization. No improvement guaranteed.",
+  "resources": "GPU1 only; one process initially. Verify resource headroom before changing concurrency. Stop own work if disk free below 15 GiB."
+}

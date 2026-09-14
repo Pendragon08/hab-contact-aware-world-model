@@ -1,0 +1,15 @@
+{
+  "time": 1789093424.3612251,
+  "pid": 1843068,
+  "argv": [
+    "python3",
+    "/data/code/ouyanghao/oyh/hab-contact-aware-world-model/additional_tasks_20260911/manager.py"
+  ],
+  "children": {
+    "dmc_old": 1819620,
+    "ms2_old": 1824540,
+    "dmc_new": 1843073,
+    "ms2_new": 1843075
+  },
+  "reason": "Prevent old two-slot launcher from starting a new seed during third-slot witnesses; all training children remain running."
+}

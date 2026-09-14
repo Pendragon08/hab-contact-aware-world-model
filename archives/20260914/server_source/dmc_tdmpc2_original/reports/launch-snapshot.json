@@ -1,0 +1,37 @@
+{
+  "checked_at": "2026-09-10T16:07:25.015597+08:00",
+  "screen": "1787670.tdmpc2_dmc_walker_3seed_gpu0",
+  "pid": 1787679,
+  "active_seed": 1,
+  "queued_seeds": [
+    2,
+    3
+  ],
+  "latest_metric": {
+    "episode_reward": 42.11829376220703,
+    "step": 2500,
+    "episode": 4,
+    "total_time": 124.42020511627197,
+    "category": "train",
+    "train_decisions": 2500,
+    "train_environment_steps": 5000,
+    "eval_decisions": 5000
+  },
+  "latest_update": {
+    "update": 1600,
+    "train_decisions": 2501,
+    "train_environment_steps": 5002,
+    "seconds": 185.45379781723022,
+    "consistency_loss": 0.0004996104398742318,
+    "reward_loss": 0.31562232971191406,
+    "value_loss": 0.2814145088195801,
+    "pi_loss": -1.3913774490356445,
+    "total_loss": 0.06969589740037918,
+    "grad_norm": 0.3178720772266388,
+    "pi_scale": 1.0220097303390503
+  },
+  "eval_trajectory_count": 10,
+  "train_trajectory_count": 5,
+  "gpu": "0, 23 %, 802 MiB, 47749 MiB\n1, 0 %, 5016 MiB, 43534 MiB\n",
+  "complete": false
+}

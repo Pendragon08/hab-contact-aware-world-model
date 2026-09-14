@@ -1,0 +1,33 @@
+{
+  "created_utc": "2026-09-11T01:49:28.306430+00:00",
+  "streams": {
+    "dmc_old": {
+      "status": "existing_training",
+      "seed": 2,
+      "pid": 1819620,
+      "updated_utc": "2026-09-11T01:49:28.346780+00:00"
+    },
+    "ms2_old": {
+      "status": "existing_training",
+      "seed": 2,
+      "pid": 1824540,
+      "updated_utc": "2026-09-11T01:49:28.348368+00:00"
+    },
+    "dmc_new": {
+      "status": "training",
+      "seed": 1,
+      "pid": 1843073,
+      "log": "/data/code/ouyanghao/oyh/hab-contact-aware-world-model/additional_tasks_20260911/walker_run/logs/seed1_1m.log",
+      "artifact": "/data/code/ouyanghao/oyh/hab-contact-aware-world-model/additional_tasks_20260911/walker_run/artifacts/walker_run_seed1_1m",
+      "updated_utc": "2026-09-11T01:49:28.350835+00:00"
+    },
+    "ms2_new": {
+      "status": "training",
+      "seed": 1,
+      "pid": 1843075,
+      "log": "/data/code/ouyanghao/oyh/hab-contact-aware-world-model/additional_tasks_20260911/lift_cube/logs/seed1_1m.log",
+      "artifact": "/data/code/ouyanghao/oyh/hab-contact-aware-world-model/additional_tasks_20260911/lift_cube/artifacts/lift_cube_seed1_1m",
+      "updated_utc": "2026-09-11T01:49:28.351300+00:00"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "pid": 1852101,
+  "task": "walker-walk",
+  "mode": "train",
+  "seed": 3,
+  "utc_epoch": 1789093806.9740138,
+  "entry_hashes": {
+    "entry.py": "9779ab3586f2a424f261c8f71f7bbc01ff1a800be150bee6c09c405ccc79f336",
+    "run.sh": "0d433958433e3399c4394052ddecf06e104bb48a3df4c92828859dc2d0291a28",
+    "registry.json": "7922ffb542a2a3c977befcc964a22be03ff5bc04833e9f30c2f4d8ceec51d04c"
+  },
+  "job_root": "/data/code/ouyanghao/oyh/hab-contact-aware-world-model/dmc_tdmpc2_original"
+}
