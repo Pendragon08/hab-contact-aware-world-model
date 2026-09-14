@@ -9,6 +9,7 @@ import hashlib
 import io
 import json
 import os
+import shutil
 from pathlib import Path, PurePosixPath
 import tarfile
 
@@ -37,7 +38,9 @@ def main():
     a=p.parse_args();index=json.loads((a.archive_dir/'archive_index.json').read_text());manifest=json.loads((a.archive_dir/'source_manifest.json').read_text(encoding='utf-8'))
     paths=[];full=hashlib.sha256()
     for part in index['parts']:
-        path=a.archive_dir/part['name'];assert path.is_file() and path.stat().st_size==part['bytes'],path
+        path=a.archive_dir/part['name']
+        assert os.path.commonpath([str(a.archive_dir.resolve()),str(path.resolve())])==str(a.archive_dir.resolve()),path
+        assert path.is_file() and path.stat().st_size==part['bytes'],path
         h=hashlib.sha256()
         with path.open('rb') as f:
             while True:
@@ -53,6 +56,7 @@ def main():
         dest=a.restore.resolve()
         assert not dest.exists() or (dest.is_dir() and not any(dest.iterdir())), 'Restore directory must be empty.'
         dest.mkdir(parents=True,exist_ok=True)
+        assert shutil.disk_usage(dest).free>manifest['regular_bytes']+1024**3, 'Insufficient space for restoration.'
     with PartsReader(paths) as reader, tarfile.open(fileobj=reader,mode='r|gz') as tar:
         for member in tar:
             name=member.name;relative=PurePosixPath(name)
@@ -70,7 +74,9 @@ def main():
                 assert member.isfile() and member.size==row['bytes'],name
                 h=hashlib.sha256();target=None
                 if dest:
-                    output=dest/Path(*relative.parts);output.parent.mkdir(parents=True,exist_ok=True);target=output.open('xb')
+                    output=dest/Path(*relative.parts)
+                    assert os.path.commonpath([str(dest),str(output.resolve())])==str(dest),name
+                    output.parent.mkdir(parents=True,exist_ok=True);target=output.open('xb')
                 f=tar.extractfile(member)
                 while True:
                     b=f.read(4*1024*1024)

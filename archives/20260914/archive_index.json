@@ -1,0 +1,118 @@
+{
+  "parts": [
+    {
+      "name": "tdmpc2-server-20260914.tar.gz.part000",
+      "bytes": 1000000000,
+      "sha256": "ef519dd728c0c6ca6873e52e42bf6bf22cb2cb4d032df583eac5e7f261228452"
+    },
+    {
+      "name": "tdmpc2-server-20260914.tar.gz.part001",
+      "bytes": 1000000000,
+      "sha256": "2de88c56408c5f54d21c4a985ac9823e1381a8a431e16e22b817f5a41a8ac9e8"
+    },
+    {
+      "name": "tdmpc2-server-20260914.tar.gz.part002",
+      "bytes": 1000000000,
+      "sha256": "53fa39b01f1be317b2ec1b446b89c319f03f0923cd007b2d77ea902467c8fb41"
+    },
+    {
+      "name": "tdmpc2-server-20260914.tar.gz.part003",
+      "bytes": 1000000000,
+      "sha256": "282726974c79ed1c57364bc4dbc0040fec734b53b9d7db527f52f22f880b0192"
+    },
+    {
+      "name": "tdmpc2-server-20260914.tar.gz.part004",
+      "bytes": 1000000000,
+      "sha256": "d9341f35fcea18898558b97a2645369a3a8aeb081814d9b4f176ffde6adc8ce5"
+    },
+    {
+      "name": "tdmpc2-server-20260914.tar.gz.part005",
+      "bytes": 1000000000,
+      "sha256": "931c57386f7d019c3653d0e972dceb45037aa49366c531b00c785b8cec4b9c5d"
+    },
+    {
+      "name": "tdmpc2-server-20260914.tar.gz.part006",
+      "bytes": 1000000000,
+      "sha256": "6618b9b00fb2151509d62b50efe1d16c8171f7b612176308e8fe77fcf4394f37"
+    },
+    {
+      "name": "tdmpc2-server-20260914.tar.gz.part007",
+      "bytes": 1000000000,
+      "sha256": "f6b93b12e30bc58aebffa0631dfcadb469f834035858e68840446075fceea15b"
+    },
+    {
+      "name": "tdmpc2-server-20260914.tar.gz.part008",
+      "bytes": 1000000000,
+      "sha256": "b199de5ff17be2116a6328cc278043222658e3431d754cec581f87834267c815"
+    },
+    {
+      "name": "tdmpc2-server-20260914.tar.gz.part009",
+      "bytes": 1000000000,
+      "sha256": "358472ccfc6aa433c40bb12876488788a355d1438592dc6ae5010e1cccbdb363"
+    },
+    {
+      "name": "tdmpc2-server-20260914.tar.gz.part010",
+      "bytes": 1000000000,
+      "sha256": "d96478de56b91c0a98288ae9ddc5b2c4387bb4d22a49663c7e592e352acccb53"
+    },
+    {
+      "name": "tdmpc2-server-20260914.tar.gz.part011",
+      "bytes": 1000000000,
+      "sha256": "1b04b449c6e98540996348955189bc62d2b83d984ae023e9128e25af8f0616ef"
+    },
+    {
+      "name": "tdmpc2-server-20260914.tar.gz.part012",
+      "bytes": 1000000000,
+      "sha256": "b207ab14f249565693334554fbd55b448f157c2a5c730b47445b63272c120c3c"
+    },
+    {
+      "name": "tdmpc2-server-20260914.tar.gz.part013",
+      "bytes": 1000000000,
+      "sha256": "294241f8e2d029b8a24b97d86c4e3eafad0c79ec009a5adfd8661bd7512a58bc"
+    },
+    {
+      "name": "tdmpc2-server-20260914.tar.gz.part014",
+      "bytes": 1000000000,
+      "sha256": "d10434938316c7fe27725112805d2f3e347c9223bbdce4d45c488138c74b2592"
+    },
+    {
+      "name": "tdmpc2-server-20260914.tar.gz.part015",
+      "bytes": 1000000000,
+      "sha256": "755f3113944f969eb781051638d6727944001bbf352fdfb9ad151d8f71e45ba2"
+    },
+    {
+      "name": "tdmpc2-server-20260914.tar.gz.part016",
+      "bytes": 1000000000,
+      "sha256": "a8ca8a7edb90aff60b21afd78107a2e974bf2346517ffbd9031ee1d7cd6eb0f7"
+    },
+    {
+      "name": "tdmpc2-server-20260914.tar.gz.part017",
+      "bytes": 1000000000,
+      "sha256": "73da5bc13fe8ab8fec515b1fc6dea1c1ced5710ecd63f04861762896a615ba11"
+    },
+    {
+      "name": "tdmpc2-server-20260914.tar.gz.part018",
+      "bytes": 1000000000,
+      "sha256": "7cf69e70ddfe3ae01d8fe5c41fbd07d2fdecead6b951cb138c2770da132a585e"
+    },
+    {
+      "name": "tdmpc2-server-20260914.tar.gz.part019",
+      "bytes": 1000000000,
+      "sha256": "155ab409740e6d2c03f3c9f972a572609de4dcf22e758710e9b82215ad739838"
+    },
+    {
+      "name": "tdmpc2-server-20260914.tar.gz.part020",
+      "bytes": 1000000000,
+      "sha256": "a3ee55754d87e43801997706e2020d43d958292d215c0425539721dab09d99a0"
+    },
+    {
+      "name": "tdmpc2-server-20260914.tar.gz.part021",
+      "bytes": 360086745,
+      "sha256": "62951e3fd984cc281fcd6efacb98185795844c4bc1d70f3432315a6df518a631"
+    }
+  ],
+  "compressed_sha256": "7c2d66aa0451f3950c34baaa29d2eda33d7eb5e1b34f3ca99a0f9a87b5d843a9",
+  "compressed_bytes": 21360086745,
+  "seconds": 2846.6959364414215,
+  "source": "/data/code/ouyanghao/oyh/hab-contact-aware-world-model"
+}
