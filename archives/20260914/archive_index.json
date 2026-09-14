@@ -96,23 +96,59 @@
       "sha256": "7cf69e70ddfe3ae01d8fe5c41fbd07d2fdecead6b951cb138c2770da132a585e"
     },
     {
-      "name": "tdmpc2-server-20260914.tar.gz.part019",
-      "bytes": 1000000000,
-      "sha256": "155ab409740e6d2c03f3c9f972a572609de4dcf22e758710e9b82215ad739838"
+      "name": "tdmpc2-server-20260914.tar.gz.part019.seg00",
+      "bytes": 250000000,
+      "sha256": "b2f15afbf2caf2db546f99536894622145c83b1b4c9911290cbb480436e62fdb"
     },
     {
-      "name": "tdmpc2-server-20260914.tar.gz.part020",
-      "bytes": 1000000000,
-      "sha256": "a3ee55754d87e43801997706e2020d43d958292d215c0425539721dab09d99a0"
+      "name": "tdmpc2-server-20260914.tar.gz.part019.seg01",
+      "bytes": 250000000,
+      "sha256": "509ecb2aa7b4bb6f17466bd64df3102499c08b7a386064b591b9bea92bb0a157"
     },
     {
-      "name": "tdmpc2-server-20260914.tar.gz.part021",
-      "bytes": 360086745,
-      "sha256": "62951e3fd984cc281fcd6efacb98185795844c4bc1d70f3432315a6df518a631"
+      "name": "tdmpc2-server-20260914.tar.gz.part019.seg02",
+      "bytes": 250000000,
+      "sha256": "43a31c9b938bf608777cc2ce516d14f6c8d485ed60329eee99751ba23095bc04"
+    },
+    {
+      "name": "tdmpc2-server-20260914.tar.gz.part019.seg03",
+      "bytes": 250000000,
+      "sha256": "af22f66cceae8958ee89c6922d33f3afbd6235ff35defe88263caeabb2ec68d7"
+    },
+    {
+      "name": "tdmpc2-server-20260914.tar.gz.part020.seg00",
+      "bytes": 250000000,
+      "sha256": "08575e29eaa0c20df1b47c63ddfa1942a316820f48546d249acf6840b4d8b4c1"
+    },
+    {
+      "name": "tdmpc2-server-20260914.tar.gz.part020.seg01",
+      "bytes": 250000000,
+      "sha256": "7f3d5d94dfc16bb909e2eebd8b54d13037f812356ce2f3eb38cee87754fff323"
+    },
+    {
+      "name": "tdmpc2-server-20260914.tar.gz.part020.seg02",
+      "bytes": 250000000,
+      "sha256": "46580f9bc8be7537a12d2dc3895a661759abbf9b031f4e43d4627a9f114ab635"
+    },
+    {
+      "name": "tdmpc2-server-20260914.tar.gz.part020.seg03",
+      "bytes": 250000000,
+      "sha256": "53b95231d18c35c392e0d7d6484421b5f33efab6a413ca7de274c32c1cf9e976"
+    },
+    {
+      "name": "tdmpc2-server-20260914.tar.gz.part021.seg00",
+      "bytes": 250000000,
+      "sha256": "8713b258a7a977cc58332c5c7f34b8b18a6a6f8ef7b3a54388083d310c7da4b9"
+    },
+    {
+      "name": "tdmpc2-server-20260914.tar.gz.part021.seg01",
+      "bytes": 110086745,
+      "sha256": "575010c155932f34775ffff1fdfbbc6df337cc0d129260683b1a0340e72a3a87"
     }
   ],
   "compressed_sha256": "7c2d66aa0451f3950c34baaa29d2eda33d7eb5e1b34f3ca99a0f9a87b5d843a9",
   "compressed_bytes": 21360086745,
   "seconds": 2846.6959364414215,
-  "source": "/data/code/ouyanghao/oyh/hab-contact-aware-world-model"
+  "source": "/data/code/ouyanghao/oyh/hab-contact-aware-world-model",
+  "rechunk_note": "Original final 2.36GB divided into <=250MB segments after intermittent GitHub upload EOF; compressed payload and full SHA256 unchanged."
 }
