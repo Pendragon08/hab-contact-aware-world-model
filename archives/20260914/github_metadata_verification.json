@@ -1,0 +1,57 @@
+{
+  "status": "PASS",
+  "release_published": true,
+  "release_url": "https://github.com/Pendragon08/hab-contact-aware-world-model/releases/tag/server-archive-20260914",
+  "release_id": 388120122,
+  "source_commit": "0de6b6f67f92fa965ef05c0b85e11002c0fd99e8",
+  "checked_unix": 1789367372.964343,
+  "metadata_assets": {
+    "archive_index.json": {
+      "size": 5770,
+      "digest": "sha256:f6b1457d84363146aa7a401b9e497df8f2fe9da65e2209135055aabee199ff74",
+      "url": "https://github.com/Pendragon08/hab-contact-aware-world-model/releases/download/server-archive-20260914/archive_index.json"
+    },
+    "source_manifest.json": {
+      "size": 25785738,
+      "digest": "sha256:4fae59f523aeb9822d0933bfcb805fe17c1b6bbf5a5cca797b9c5040f1e4134b",
+      "url": "https://github.com/Pendragon08/hab-contact-aware-world-model/releases/download/server-archive-20260914/source_manifest.json"
+    },
+    "server_source.zip": {
+      "size": 593919,
+      "digest": "sha256:83d169f15f0c2a8823a51f960956f6baad0a14a850da03bb1ca41b2e5dccf35f",
+      "url": "https://github.com/Pendragon08/hab-contact-aware-world-model/releases/download/server-archive-20260914/server_source.zip"
+    },
+    "local_uncommitted_changes.zip": {
+      "size": 1387764,
+      "digest": "sha256:fef6700146ee8e9ce1cd38f3c3f2d797494613f581a0302290a0708c2599a196",
+      "url": "https://github.com/Pendragon08/hab-contact-aware-world-model/releases/download/server-archive-20260914/local_uncommitted_changes.zip"
+    },
+    "local_uncommitted_manifest.json": {
+      "size": 31597,
+      "digest": "sha256:82f7478039ea3464b9ae66e126c94c95ee5d2c2db7b50d1bb0d4317ffec5b609",
+      "url": "https://github.com/Pendragon08/hab-contact-aware-world-model/releases/download/server-archive-20260914/local_uncommitted_manifest.json"
+    },
+    "shared_environment_freeze.txt": {
+      "size": 2522,
+      "digest": "sha256:f63fce042dc1dbdfbf98aaff1fb5d4cf56b84dfea9c1297c6a6c50340f52488f",
+      "url": "https://github.com/Pendragon08/hab-contact-aware-world-model/releases/download/server-archive-20260914/shared_environment_freeze.txt"
+    },
+    "local_restore_verification.json": {
+      "size": 209,
+      "digest": "sha256:242e2cdeb0c0570346d6f1c7429f16be76b649f8268a12768355e6de31508979",
+      "url": "https://github.com/Pendragon08/hab-contact-aware-world-model/releases/download/server-archive-20260914/local_restore_verification.json"
+    },
+    "github_parts_verification.json": {
+      "size": 10505,
+      "digest": "sha256:5631d28420f50bdb32f23e99db2f435119024be017bd30921bebce45aa503945",
+      "url": "https://github.com/Pendragon08/hab-contact-aware-world-model/releases/download/server-archive-20260914/github_parts_verification.json"
+    },
+    "restore_server_archive.py": {
+      "size": 4872,
+      "digest": "sha256:c658828ec2beaf7e5bb99da8792d4be095cc48f7352ed707b405fadc9bcf33c7",
+      "url": "https://github.com/Pendragon08/hab-contact-aware-world-model/releases/download/server-archive-20260914/restore_server_archive.py"
+    }
+  },
+  "cloud_readback_bytes": 5000000000,
+  "cloud_readback_note": "Parts 000 through 004 were downloaded again from GitHub and included in the full successful local archive verification."
+}

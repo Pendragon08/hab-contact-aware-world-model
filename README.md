@@ -1,5 +1,7 @@
 # 世界模型与机器人抓取：TD-MPC2 复现及 ManiSkill-HAB 研究
 
+> **2026-09-14：项目已归档，服务器副本已按用户要求删除。** 全部代码、检查点、日志与结果保存在[完整 GitHub Release](https://github.com/Pendragon08/hab-contact-aware-world-model/releases/tag/server-archive-20260914)，共 29 个快照分片，逐文件及云端校验通过。[恢复说明](docs/服务器归档与恢复_20260914.md) · [删除与空间校验](archives/20260914/cleanup_verified.json)。下文保留历史研究记录，不代表仍在训练。
+
 研究世界模型如何帮助机器人规划动作，并在接触约束下完成抓取。当前包含 **Meta-World 原方法复现**、**ManiSkill-HAB 迁移基线**及历史对照实验。HAB 使用 Fetch 移动机械臂，当前覆盖抓取与回到休止姿态；完整仓储导航、搬运和放置尚未验证。
 
 **建议先看：** [实验结果汇报](reports/MetaWorld_TD-MPC2复现与实验结果汇报.md) · [算法讲解](reports/TD-MPC2算法流程汇报.md) · [实验与报告索引](docs/实验与报告索引.md) · [数据与视频下载](docs/数据与发布索引.md)

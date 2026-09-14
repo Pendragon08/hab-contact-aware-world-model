@@ -7,5 +7,6 @@
   "source_manifest_sha256": "4fae59f523aeb9822d0933bfcb805fe17c1b6bbf5a5cca797b9c5040f1e4134b",
   "parts": 29,
   "release_url": "https://github.com/Pendragon08/hab-contact-aware-world-model/releases/tag/server-archive-20260914",
-  "status": "19GB uploaded and verified. Remaining 2.36GB rechunked into <=250MB segments after network interruptions. Source retained until all checks pass."
+  "status": "PASS: complete GitHub release verified, full file-level archive verified, original server files rehashed, authorized source directory deleted.",
+  "data_free_space_increase_bytes": 23699972096
 }

@@ -1,3 +1,9 @@
+# Archive status (2026-09-14)
+
+- The user retired this TD-MPC2 project. Its complete verified snapshot is in release `server-archive-20260914`; the original server directory was deleted only after verification.
+- Preserve the archive and historical evidence. Do not automatically recreate the directory or resume old experiment queues. Restore or resume only when the user asks.
+- The following constraints describe the historical project; they do not govern the separate humanoid-combat-motion sibling project.
+
 # Experiment constraints
 
 - Use GPU1 only; leave GPU0 untouched, user requires at least 12 GiB free.

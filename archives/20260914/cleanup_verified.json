@@ -1,0 +1,22 @@
+{
+  "source_directory": "/data/code/ouyanghao/oyh/hab-contact-aware-world-model",
+  "backup_repository": "https://github.com/Pendragon08/hab-contact-aware-world-model",
+  "release_url": "https://github.com/Pendragon08/hab-contact-aware-world-model/releases/tag/server-archive-20260914",
+  "verified_files": 85688,
+  "source_regular_bytes": 22845045330,
+  "compressed_sha256": "7c2d66aa0451f3950c34baaa29d2eda33d7eb5e1b34f3ca99a0f9a87b5d843a9",
+  "source_recheck_seconds": 43.152202129364014,
+  "before_data_free_bytes": 22278991872,
+  "deleted": true,
+  "preserved": [
+    "/data/code/ouyanghao/oyh/world-model-risk-planning",
+    "/data/code/ouyanghao/oyh/maniskill-hab-demo",
+    "/data/code/ouyanghao/oyh/ACS-OMI-AMI",
+    "/data/code/ouyanghao/oyh/humanoid-combat-motion",
+    "Other users files and system directories"
+  ],
+  "after_data_free_bytes": 45978963968,
+  "finished_unix": 1789367514.3613331,
+  "status": "PASS",
+  "reclaimed_bytes": 23699972096
+}
