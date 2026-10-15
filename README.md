@@ -1,83 +1,137 @@
-# 世界模型与机器人抓取：TD-MPC2 复现及 ManiSkill-HAB 研究
+# TD-MPC2 Reproduction and Contact-Aware World Models
 
-> **2026-09-14：项目已归档，服务器副本已按用户要求删除。** 全部代码、检查点、日志与结果保存在[完整 GitHub Release](https://github.com/Pendragon08/hab-contact-aware-world-model/releases/tag/server-archive-20260914)，共 29 个快照分片，逐文件及云端校验通过。[恢复说明](docs/服务器归档与恢复_20260914.md) · [删除与空间校验](archives/20260914/cleanup_verified.json)。下文保留历史研究记录，不代表仍在训练。
+<div align="center">
 
-研究世界模型如何帮助机器人规划动作，并在接触约束下完成抓取。当前包含 **Meta-World 原方法复现**、**ManiSkill-HAB 迁移基线**及历史对照实验。HAB 使用 Fetch 移动机械臂，当前覆盖抓取与回到休止姿态；完整仓储导航、搬运和放置尚未验证。
+**世界模型与机器人控制：基线复现及探索实验归档**
 
-**建议先看：** [实验结果汇报](reports/MetaWorld_TD-MPC2复现与实验结果汇报.md) · [算法讲解](reports/TD-MPC2算法流程汇报.md) · [实验与报告索引](docs/实验与报告索引.md) · [数据与视频下载](docs/数据与发布索引.md)
+[实验索引](docs/实验与报告索引.md) · [TD-MPC2 复现](tdmpc2_original/README.md) · [完整归档](https://github.com/Pendragon08/hab-contact-aware-world-model/releases/tag/server-archive-20260914) · [恢复说明](docs/服务器归档与恢复_20260914.md)
 
-**此前的动作排序开题讨论：** [汇报HTML](开题方向讨论汇报_世界模型动作后果排序.html) · [可编辑原稿](reports/开题方向讨论汇报_世界模型动作后果排序.md)。保留2026-09-11 15:28进度快照和当时方案；新评分器尚未实现。当前选题已扩展，见下方高水平文献与可执行课题报告。
+</div>
 
-**2026-09-11 新增阶段汇报：** [Walker Walk：980.91 / 977.50回报](DMControl_Walker_Walk_TD-MPC2复现与实验结果汇报.html) · [Pick Cube：9/10 / 10/10末步成功](ManiSkill2_Pick_Cube_TD-MPC2复现与实验结果汇报.html)。均为种子1/2各100万环境步终点，种子3未完成；含学习曲线、作者同预算对照与正式视频。[证据和使用说明](reports/two_task_replication_20260911/README.md)。
+本仓库保存 TD-MPC2 在 Meta-World、DMControl、ManiSkill2 和 ManiSkill-HAB 上的复现与迁移实验，以及接触感知世界模型方向的探索记录。内容包括源代码、环境配置、训练日志、评价结果、模型归档和演示。
 
-**2026-09-11 选题与文献：** [高水平文献与可执行课题HTML](世界模型与机器人操作_高水平文献与可执行课题报告.html) · [可编辑原稿](reports/世界模型与机器人操作_高水平文献与可执行课题报告.md) · [26篇BibTeX](reports/world_model_topics_20260911/world_model_topics_26refs.bib)。包含6篇JCR Q1期刊与20篇顶会论文（2024—2026），逐篇总结问题、贡献、方法、任务、指标与局限；26篇已在本地Zotero核验条目及PDF。选题不锁定动作后果排序，比较5个候选方向，重点展开可靠适应、接触稳定性与规划预算。JIF/分区明确采用2024 JCR，候选贡献尚待验证。[文献与附件核验记录](reports/world_model_topics_20260911/README.md)；[前一版综述底稿](reports/世界模型与机器人操作_综述及可运行选题方案_20260911.md)。
+```text
+环境观测 → 潜在状态编码 → 世界模型预测 → MPC 动作规划
+        → 环境执行 → 经验回放 → 模型与价值学习
+```
 
-## 已有结果与研究进展
+## Project Status
 
-文档整理于 **2026-09-10**。下表依据已入库证据，不是服务器实时监控。
+**项目已于 2026-09-14 归档，原服务器项目目录已在备份校验后清理。** 本仓库用于阅读、检查和按需恢复，不代表仍有训练队列运行。
 
-| 实验线 | 已有证据 | 可以得出的结论 |
-|---|---|---|
-| **Meta-World V2 / TD-MPC2 原方法** | 已完成 50 万环境步；最终末步成功 **8/10**；中途最好 9/10；约 4 小时 4 分钟 | 单任务、单训练种子的缩减预算复现；无教师示范或自研算法改进。[完整结果](tdmpc2_original/reports/50万步复现结果.md) |
-| **ManiSkill-HAB / TD-MPC2 原方法迁移** | 9月11日核查：旧训练已停止，末条回合日志42.68万步；40万步开发评估末步0/20，无正式完成记录 | HAB不是原论文报告的任务，暂不能作为已成功基线。[停止及评估证据](reports/proposal_meeting_20260911/README.md) |
-| 历史接触控制、短训、BC、示范辅助实验 | 各自有独立协议、结果或阶段记录 | 用于诊断与对照，不能与 V2 原方法复现混算。[分类索引](docs/实验与报告索引.md) |
-| **下一阶段：世界模型操作课题选择** | 26篇正式文献与5个候选方向已整理，重点讨论可靠适应、接触稳定性与规划预算 | 等待确定研究主线；候选贡献尚未实现或证明。[当前方案](reports/世界模型与机器人操作_高水平文献与可执行课题报告.md) |
+- [x] 保存已完成的基线结果及未完成、未取得收益的尝试。
+- [x] 完整服务器快照已上传 Release，29 个分片通过校验。
+- [x] 提供逐文件清单、恢复工具和可浏览源码快照。
+- [ ] 接触感知机制的完整有效性结论尚未建立。
 
-“末步成功”是在回合最后一步满足任务成功条件；“曾经成功”是中途至少成功一次，两者分开报告。Meta-World 的三个成功补录视频不计入正式 8/10 结果。当前没有世界模型提高 HAB 成功率的充分证据。
+## Table of Contents
 
-## 汇报与演示
+1. [Setup](#setup)
+2. [Phase 1: Restore Experimental Assets](#phase-1-restore-experimental-assets)
+3. [Phase 2: Reproduce a Baseline](#phase-2-reproduce-a-baseline)
+4. [Phase 3: Evaluation](#phase-3-evaluation)
+5. [Results](#results)
+6. [Repository Structure](#repository-structure)
+7. [Documentation](#documentation)
+8. [Acknowledgements and License](#acknowledgements-and-license)
 
-| 想看什么 | GitHub 在线阅读 | 本地展示 |
-|---|---|---|
-| TD-MPC2 背景、创新、模块、规划、训练、评估及局限 | [算法流程报告](reports/TD-MPC2算法流程汇报.md) | [单文件 HTML](TD-MPC2算法流程汇报.html) |
-| BMPC 背景、专家迭代、42项任务、原论文结果与复现核对 | [BMPC 论文汇报](reports/BMPC论文汇报.md) | [单文件 HTML](BMPC论文汇报.html) |
-| Meta-World 复现协议、六阶段曲线、最终成绩及失败案例 | [实验汇报](reports/MetaWorld_TD-MPC2复现与实验结果汇报.md) | [汇报 HTML](MetaWorld_TD-MPC2复现与实验结果汇报.html) |
-| 最终模型的视频演示 | [视频选择与指标边界](tdmpc2_original/reports/演示说明.md) | [离线演示包 v0.5.1](https://github.com/Pendragon08/hab-contact-aware-world-model/releases/tag/v0.5.1-metaworld-method-report) |
+## Setup
 
-GitHub 文件页显示 HTML 源码；下载或克隆后用浏览器打开。含视频的页面需要配套视频文件，推荐下载演示 ZIP、完整解压后打开其中的 HTML。仅查看报告和视频不需要 GPU。
-
-## 复现入口
+阅读代码与报告只需克隆仓库：
 
 ```bash
-gh repo clone Pendragon08/hab-contact-aware-world-model
+git clone https://github.com/Pendragon08/hab-contact-aware-world-model.git
 cd hab-contact-aware-world-model
 ```
 
-训练需要 Linux、NVIDIA GPU 及对应仿真依赖；克隆代码不会自动下载场景资产、模型或全部实验数据。根据目标选择一个入口，先阅读协议并完成环境验证，再启动训练：
+运行实验需要 Linux 和对应任务环境。各任务使用不同的仿真器与依赖，不能用一个通用环境替代：
 
-| 目标 | 环境、配置与命令 | 执行核验 |
-|---|---|---|
-| Meta-World V2 原方法复现 | [tdmpc2_original/README.md](tdmpc2_original/README.md) | [EXECUTION.md](tdmpc2_original/EXECUTION.md) |
-| ManiSkill-HAB 原方法迁移 | [hab_tdmpc2_original/README.md](hab_tdmpc2_original/README.md) | [EXECUTION.md](hab_tdmpc2_original/EXECUTION.md) |
-| 历史示范辅助 Meta-World V3 | [metaworld_exp/README.md](metaworld_exp/README.md) | 该目录协议与阶段报告 |
-| 历史 HAB 接触控制及短训 | [复现说明](docs/复现说明.md) | [实验与报告索引](docs/实验与报告索引.md)中的对应验证记录 |
+| 实验 | 环境与安装入口 |
+|---|---|
+| TD-MPC2 / Meta-World V2 | [任务 README](tdmpc2_original/README.md) · [环境配置](tdmpc2_original/configs/env-spec.json) |
+| TD-MPC2 / ManiSkill-HAB | [任务 README](hab_tdmpc2_original/README.md) · [环境配置](hab_tdmpc2_original/configs/env-spec.json) |
+| DMControl / ManiSkill2 | [双任务复现报告](reports/two_task_replication_20260911/README.md) · [服务器源码快照](archives/20260914/server_source/) |
 
-当前六任务安排在两张RTX A6000上，每卡三个任务流，至少保留12 GiB显存和15 GiB磁盘；按当前AGENTS.md及调度记录执行，不沿用旧HAB的GPU1独占安排。无需调用LLM API。本机凭据不入库；新机器的完整环境仍需验证。
+归档保存实验内容，不是整台服务器镜像；共享解释器、驱动及外部场景资产仍需另行配置。旧脚本中的路径与 GPU 设置应先适配，历史调度器不应作为自动恢复入口。
 
-## 数据与文件放在哪里
+## Phase 1: Restore Experimental Assets
 
-**Git 保存代码、配置、小型指标、报告和审计；Releases 按实验发布大文件。并非所有实验的全量原始数据都已上传。** 已核验的 8 个 Release、演示下载、归档恢复方法及待发布范围见 [数据与发布索引](docs/数据与发布索引.md)。
+无需恢复归档即可阅读大部分源码和结果。需要完整模型、原始运行记录或轨迹时，再按需下载 [服务器归档 Release](https://github.com/Pendragon08/hab-contact-aware-world-model/releases/tag/server-archive-20260914)：
 
-```text
-tdmpc2_original/       Meta-World V2：官方 TD-MPC2 固定版本、运行入口与结果
-hab_tdmpc2_original/   HAB：原方法的环境适配、运行协议与阶段证据
-metaworld_exp/         Meta-World V3：历史示范辅助实验
-scripts/ + configs/   历史 HAB 实验入口、配置、报告与归档工具
-vendor_tdmpc2/         历史实验使用的算法源码与来源记录
-tests/                控制、回放及归档等核验
-reports/              汇报原稿、图表、指标与审计
-docs/                 实验导航、复现说明与数据发布导航
-refine-logs/          下一阶段研究方案、文献对照与历史审阅
-history/              旧实验及 README 历史快照
+```bash
+gh release download server-archive-20260914 \
+  --repo Pendragon08/hab-contact-aware-world-model \
+  --dir tdmpc2-backup \
+  --pattern 'tdmpc2-server-20260914.tar.gz.part*' \
+  --pattern 'archive_index.json' \
+  --pattern 'source_manifest.json'
+
+python scripts/restore_server_archive.py --archive-dir tdmpc2-backup --verify
 ```
 
-根目录 HTML 保留稳定入口。下载恢复的 `artifacts/`、`release/` 及机器配置不进入 Git。
+恢复目标应是新建的独立目录。目录要求、完整性检查及共享环境说明见 [归档与恢复文档](docs/服务器归档与恢复_20260914.md)。该文档里的“私有仓库”描述的是归档时状态；仓库现已公开。
 
-## 研究方案与来源
+## Phase 2: Reproduce a Baseline
 
-- [下一阶段研究方案：世界模型动作后果排序](refine-logs/FINAL_PROPOSAL.md)
-- [五篇后续工作：共同任务、研究空白与对比边界](refine-logs/五篇TD-MPC2后续工作_共同任务与研究空白核验_20260910.md)
-- [2026 方法与方案对应](refine-logs/2026方法来源与方案对应_20260910.md) · [ManiSkill 相关论文](docs/ManiSkill相关论文.md)
-- TD-MPC2：[作者项目](https://www.tdmpc2.com/) · [固定版本源码](https://github.com/nicklashansen/tdmpc2/tree/57158282b46ebc5c329c5be9cfe2b0094126d1ca)；HAB：[官方代码](https://github.com/arth-shukla/mshab) · [官方权重](https://huggingface.co/arth-shukla/mshab_checkpoints)
+建议先阅读一个任务的冻结协议，再配置环境。以 Meta-World Pick-Place V2 为例，本仓库使用固定版本 TD-MPC2、5M 模型和 500,000 环境步预算，属于缩减范围复现。
 
-README 作为人工维护的导航。旧细节见 [整理前快照](history/readme/README_20260910_before_cleanup.md)，后续新增结果优先写入对应实验报告，再更新首页摘要。评估时始终注明环境版本、预算、训练种子、评估回合及成功口径。
+在仓库根目录配置本地 `local-settings.sh` 中的 `HAB_PYTHON`，完成路径和资源检查后：
+
+```bash
+bash tdmpc2_original/setup.sh
+bash tdmpc2_original/run.sh witness
+# 环境验证通过后，按任务文档在新的实验目录运行
+bash tdmpc2_original/run.sh train
+```
+
+完整过程见 [任务说明](tdmpc2_original/README.md) 与 [执行协议](tdmpc2_original/EXECUTION.md)。其他任务沿用各自入口；不把 ManiSkill-HAB 的迁移实验称为原论文已有的 HAB 结果。
+
+## Phase 3: Evaluation
+
+每项实验分别保存环境步数、种子、模型选择规则、评价回合、指标和完成记录。
+
+- Meta-World：报告最后一步成功率，演示补录不计入正式分母。
+- DMControl：报告回合回报，与成功率分别解释。
+- ManiSkill2：按任务定义评价抓取、抬升等成功条件。
+- ManiSkill-HAB：检查抓取、末端休止、机器人休止、静止与累计接触限制的联合条件。
+
+训练损失下降、脚本正常退出及演示视频分别是过程证据，不能替代任务成功指标。评价口径见 [实验索引](docs/实验与报告索引.md)。
+
+## Results
+
+| 任务 | 已归档结果 | 解释范围 |
+|---|---|---|
+| Meta-World Pick-Place V2 | 最终评价 8/10 成功；500,000 环境步 | 单任务、单种子的缩减预算复现 |
+| DMControl Walker Walk | seed 1 / 2：平均回报 980.91 / 977.50 | 每种子 1,000,000 环境步；不代表全部计划种子 |
+| ManiSkill2 Pick Cube | seed 1 / 2：9/10、10/10 成功 | 对应归档评价回合，非完整论文基准 |
+| ManiSkill-HAB Pick | 停止前 400,000 步评价 0/20 | 未完成原预算；保留失败记录 |
+
+来源：[Meta-World 结果](tdmpc2_original/reports/50万步复现结果.md)、[DMControl / ManiSkill2 结果](reports/two_task_replication_20260911/README.md)、[实验总索引](docs/实验与报告索引.md)。扩展任务及种子的最终状态以 [服务器快照](archives/20260914/server_source/) 和完整 Release 为准。
+
+## Repository Structure
+
+```text
+tdmpc2_original/       TD-MPC2 / Meta-World V2 基线
+hab_tdmpc2_original/   TD-MPC2 / ManiSkill-HAB 迁移
+metaworld_exp/         历史 Meta-World 探索实验
+configs/              环境与实验配置
+scripts/              数据处理、训练、评价及归档工具
+reports/              结果报告、审计与复现分析
+docs/                 方法说明、实验索引与恢复指南
+archives/20260914/    已归档服务器源码与校验记录
+vendor_tdmpc2/        上游代码及来源说明
+```
+
+## Documentation
+
+- [TD-MPC2 算法流程](reports/TD-MPC2算法流程汇报.md)
+- [实验与报告索引](docs/实验与报告索引.md)
+- [数据与发布索引](docs/数据与发布索引.md)
+- [复现说明](docs/复现说明.md)
+- [整理前的完整 README](https://github.com/Pendragon08/hab-contact-aware-world-model/blob/c14bb27ca94ed9e8ca0d107527d795327da13374/README.md)
+
+## Acknowledgements and License
+
+本项目基于 [TD-MPC2](https://github.com/nicklashansen/tdmpc2) 与相关仿真任务展开复现，ManiSkill-HAB 的上游实现见 [mshab](https://github.com/arth-shukla/mshab)。固定源码版本与改动边界见 [来源记录](vendor_tdmpc2/PROVENANCE.md) 和各任务文档。
+
+TD-MPC2 的上游许可证保留于 [LICENSE](tdmpc2_original/upstream/LICENSE)。仓库目前未提供统一的顶层 LICENSE，其他代码、数据与场景遵循各自条款。引用本仓库结果时，请注明任务、预算、种子和提交版本，并引用原方法。
